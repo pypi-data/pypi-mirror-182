@@ -1,0 +1,2 @@
+[console_scripts]
+elixir-server = jupyter_server.serverapp:main
