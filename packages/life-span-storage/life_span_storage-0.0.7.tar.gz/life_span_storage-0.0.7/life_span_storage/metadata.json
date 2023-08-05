@@ -1,0 +1,88 @@
+{
+  "src/lib/components/LifeSpanStorage.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "LifeSpanStorage",
+    "methods": [
+      {
+        "name": "setItem",
+        "docblock": "\u30bb\u30c3\u30b7\u30e7\u30f3\u30b9\u30c8\u30ec\u30fc\u30b8\u306b\u30c7\u30fc\u30bf\u3092\u4fdd\u5b58\r\n@param {*} data",
+        "modifiers": [],
+        "params": [
+          {
+            "name": "data",
+            "description": null,
+            "type": {
+              "name": "mixed"
+            },
+            "optional": false
+          }
+        ],
+        "returns": null,
+        "description": "\u30bb\u30c3\u30b7\u30e7\u30f3\u30b9\u30c8\u30ec\u30fc\u30b8\u306b\u30c7\u30fc\u30bf\u3092\u4fdd\u5b58"
+      },
+      {
+        "name": "getItem",
+        "docblock": "\u30bb\u30c3\u30b7\u30e7\u30f3\u30b9\u30c8\u30ec\u30fc\u30b8\u304b\u3089\u30c7\u30fc\u30bf\u3092\u53d6\u5f97\r\n@returns",
+        "modifiers": [],
+        "params": [],
+        "returns": null,
+        "description": "\u30bb\u30c3\u30b7\u30e7\u30f3\u30b9\u30c8\u30ec\u30fc\u30b8\u304b\u3089\u30c7\u30fc\u30bf\u3092\u53d6\u5f97"
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": ""
+      },
+      "data": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            },
+            {
+              "name": "array"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "limit": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "reload": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
