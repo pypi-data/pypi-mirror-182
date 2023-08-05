@@ -1,0 +1,3 @@
+[console_scripts]
+petrify-sklbdt = petrifybdt.sklbdt:main
+petrify-tmvabdt = petrifybdt.tmvabdt:main
