@@ -1,0 +1,10 @@
+mt/iio/__init__.py,sha256=8xBMVumsvMXo9owWjQGgXDW_p13okgEJonWOCgQg5bQ,90
+mt/imageio/__init__.py,sha256=lUXEdtMwN2YBWCoNu82YeTe_YHUL9ZsvW-Qd_F06iQ8,194
+mt/imageio/imread.py,sha256=SLPY8dmxeNQqbOOY_M1_0sYyMR05iiy9eylVc5jN480,8301
+mt/imageio/version.py,sha256=vr2duPmX9PEMwdCnEdNT5DyNuhI_ns8mIqV5gzD9ShE,396
+mtimageio-0.1.202212191047.data/scripts/immview,sha256=zlDws4BTjnacmLWumTfwMeN9kUvenkXivJ1y9kBywBc,3607
+mtimageio-0.1.202212191047.dist-info/LICENSE,sha256=k16lM0fLB6Uu6qiyvogvT22QGfqaJSE7PmVWdXm452A,1500
+mtimageio-0.1.202212191047.dist-info/METADATA,sha256=TyPJbZ2doOJmsq1aMATqAcPwH5ooXXfxj4KUCvbdHAw,290
+mtimageio-0.1.202212191047.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mtimageio-0.1.202212191047.dist-info/top_level.txt,sha256=WcqGFu9cV7iMZg09iam8eNxUvGpLSKKF2Iubf6SJVOo,3
+mtimageio-0.1.202212191047.dist-info/RECORD,,
