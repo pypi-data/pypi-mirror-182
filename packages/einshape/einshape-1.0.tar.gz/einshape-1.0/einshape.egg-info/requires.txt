@@ -1,0 +1,17 @@
+absl-py
+numpy
+
+[:python_version < "3.7"]
+dataclasses
+
+[jax]
+jax>=0.1.71
+
+[jaxlib]
+jaxlib>=0.1.49
+
+[tensorflow]
+tensorflow>=1.8.0
+
+[tensorflow with gpu]
+tensorflow-gpu>=1.8.0
