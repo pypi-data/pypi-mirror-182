@@ -1,0 +1,12 @@
+2022-12-08 10:37:48,248 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - Using http://ssb.stsci.edu/cdbs/calspec/alpha_lyr_stis_010.fits for the Vega spectrum used to renormalize input spectra to input vegamag values.
+2022-12-08 10:37:48,292 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 1 is normalized. Rescaling.
+2022-12-08 10:37:48,313 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 2 is already in physical units. NOT RESCALING
+2022-12-08 10:38:10,401 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - Using http://ssb.stsci.edu/cdbs/calspec/alpha_lyr_stis_010.fits for the Vega spectrum used to renormalize input spectra to input vegamag values.
+2022-12-08 10:38:10,441 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 1 is normalized. Rescaling.
+2022-12-08 10:38:10,466 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 2 is already in physical units. NOT RESCALING
+2022-12-08 10:47:19,212 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - Using http://ssb.stsci.edu/cdbs/calspec/alpha_lyr_stis_010.fits for the Vega spectrum used to renormalize input spectra to input vegamag values.
+2022-12-08 10:47:19,271 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 1 is normalized. Rescaling.
+2022-12-08 10:47:19,303 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 2 is already in physical units. NOT RESCALING
+2022-12-08 10:47:44,777 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - Using http://ssb.stsci.edu/cdbs/calspec/alpha_lyr_stis_010.fits for the Vega spectrum used to renormalize input spectra to input vegamag values.
+2022-12-08 10:47:44,841 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 1 is normalized. Rescaling.
+2022-12-08 10:47:44,870 - mirage.catalogs.spectra_from_catalog.rescale_normalized_spectra - INFO - SED for source 2 is already in physical units. NOT RESCALING
