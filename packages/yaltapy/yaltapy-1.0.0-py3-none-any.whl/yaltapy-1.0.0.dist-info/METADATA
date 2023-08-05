@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: yaltapy
+Version: 1.0.0
+Summary: Python module for the study analysis of (fractional) delayed systems given by their transfer function.
+Author: Hugo Cavalera
+Author-email: Catherine Bonnet <catherine.bonnet@inria.fr>, Guilherme Mazanti <guilherme.mazanti@inria.fr>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Homepage, https://project.inria.fr/yalta/
+Project-URL: Source, https://gitlab.inria.fr/disco/yaltapy-public
+Project-URL: Bug Tracker, https://gitlab.inria.fr/disco/yaltapy-public/-/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: control (>=0.8.4)
+Requires-Dist: matplotlib (>=3.0.0)
+Requires-Dist: numpy (>=1.20.1)
+Requires-Dist: scipy (>=1.6.0)
+
+YALTAPy is a Python toolbox dedicated to the stability analysis of (possibly fractional) delay systems with commensurate delays given by their transfer function.
+
+The questions YALTA and YALTAPy can answer are:
+
+- In the case of neutral systems
+    - Find the position of asymptotic axes.
+    - If the imaginary axis is asymptotic axis, find if the asymptotic poles of the chain are left or right the imaginary axis.
+- In the case of retarded systems or of neutral systems with asymptotic axes in {Re(s) < 0}, find:
+    - For a given delay, the number and the position of unstable poles.
+    - For which values of the delay the system is stable.
+    - For a set of values of the delay, the position of unstable poles (root locus).
+    - Find (for non fractional systems) the coprime factors (N, D) of the transfer function as well as an approximation (N<sub>n</sub>, D<sub>n</sub>) in H<sub>∞</sub>-norm
