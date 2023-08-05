@@ -1,0 +1,2 @@
+[console_scripts]
+dls-logform = dls_logform.__main__:main
