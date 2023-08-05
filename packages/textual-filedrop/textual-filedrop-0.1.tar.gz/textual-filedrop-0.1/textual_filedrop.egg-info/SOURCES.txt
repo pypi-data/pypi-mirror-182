@@ -1,0 +1,10 @@
+README.md
+setup.py
+textual_filedrop/__init__.py
+textual_filedrop/_filedrop.py
+textual_filedrop/_icons.py
+textual_filedrop.egg-info/PKG-INFO
+textual_filedrop.egg-info/SOURCES.txt
+textual_filedrop.egg-info/dependency_links.txt
+textual_filedrop.egg-info/requires.txt
+textual_filedrop.egg-info/top_level.txt
