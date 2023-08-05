@@ -1,0 +1,8 @@
+setup.py
+okubonlp/__init__.py
+okubonlp/hello.py
+okubonlp/prep.py
+okubonlp.egg-info/PKG-INFO
+okubonlp.egg-info/SOURCES.txt
+okubonlp.egg-info/dependency_links.txt
+okubonlp.egg-info/top_level.txt
