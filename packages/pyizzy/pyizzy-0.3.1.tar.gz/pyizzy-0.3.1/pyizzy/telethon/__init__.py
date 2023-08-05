@@ -1,0 +1,1 @@
+from .izzy import zyMethod

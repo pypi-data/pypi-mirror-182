@@ -1,0 +1,28 @@
+# Py - pyizzy Library
+
+Core library of [pyizzy](https://github.com/hitokizzy/pyizzy), a Pyrogram And Telethon based for your userbot.
+
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pyizzy?style=round)](https://pypi.org/project/py-izzy)    
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyizzy?label=DOWNLOADS&style=round)](https://pypi.org/project/py-izzy)    
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/hitokizzy/pyizzy/graphs/commit-activity)
+
+# Installation
+```bash
+pip3 install -U pyizzy
+```
+
+
+See more working plugins on [the offical repository](https://github.com/htiokizzy/pyizzy)!
+
+> Clone by [izzy](https://t.me/jasadeak).    
+
+
+# License
+[![License](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](LICENSE)   
+py-izzy is licensed under [GNU General Public License](https://www.gnu.org/licenses/agpl-3.0.html) v3 or later.
+
+# Credits
+*  [![izzy](https://img.shields.io/static/v1?label=izzy&message=Devs&color=critical)](https://t.me/jasadeak)
+*  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
+*  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
