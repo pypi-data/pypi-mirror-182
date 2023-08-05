@@ -1,0 +1,15 @@
+citation_graph/__init__.py,sha256=JSDA6mhjnheXZII87yKOsclelG-4W9buGJMgnIFaa6c,77
+citation_graph/__main__.py,sha256=6fcsuP7dNu1Q66Dw0Rz93OLMaUu6MpP30YsFNG57z2s,90
+citation_graph/cache_manager.py,sha256=cIJe-o5wa_nH0VAgrd6qq4D0NAV-ZIYHAJYClvZyHgk,7334
+citation_graph/citation_graph.py,sha256=2A9kAZPM10lOn9UDznEivW9MydFivfoIkyKR8AmgGEg,12435
+citation_graph/database.py,sha256=4vsiORKFxsd3friO6Bnut9gGSbjY8hVin9I4NHHRdzQ,6445
+citation_graph/paper.py,sha256=cRJaQnaVef6AV3yIKFQnCYx60wzl_3AbEyR0yAJNVu4,6539
+citation_graph/semantic_scholar.py,sha256=DPRiRiKhNloiTmT5q_WTV-hVv5KYC0WnADp1lImajzs,8531
+citation_graph/traverser.py,sha256=mQ6J5JLdtjsoiMLYGNdX4jeF3rthLvbjx3dOdLs2Cs0,12090
+citation_graph/utils.py,sha256=FEuDTIp0vl9WR-K5-v1uzj40qmn-jKyyI_5PsSeyubY,2587
+citation_graph/VERSION,sha256=HsT6sNjdXq_vguZ_YaNcA-6ZSYilKT4Xzz0-l8NRGEc,5
+citation_graph/version.py,sha256=ntxX0pTdxTYHW4CaahdVkUbJGnywd3RnAz18aJHzEsU,254
+citation_graph-1.2.2.dist-info/LICENSE,sha256=IJIJ9GcT0pa4wT_hkR6nCjhH6QplPgWR3AeoO65jkB8,1094
+citation_graph-1.2.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+citation_graph-1.2.2.dist-info/METADATA,sha256=4psUAA3WqmthF7ffbHMG54AW2IrSLPP2f_rAXSCVsTE,8862
+citation_graph-1.2.2.dist-info/RECORD,,
