@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.rst
+setup.cfg
+setup.py
+elasticgraph/__init__.py
+elasticgraph/elasticgraph.py
+elasticgraph/example.py
+elasticgraph.egg-info/PKG-INFO
+elasticgraph.egg-info/SOURCES.txt
+elasticgraph.egg-info/dependency_links.txt
+elasticgraph.egg-info/not-zip-safe
+elasticgraph.egg-info/requires.txt
+elasticgraph.egg-info/top_level.txt
