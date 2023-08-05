@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: nmr
+Version: 0.9.1
+Summary: 🔢 name all canonical things 🔢
+License: MIT
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chess (>=1.9.3,<2.0.0)
+Requires-Dist: datacls (>=4.5.0,<5.0.0)
+Requires-Dist: dtyper (>=2.0.0,<3.0.0)
+Requires-Dist: lat-lon-parser (>=1.3.0,<2.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Requires-Dist: xmod (>=1.3.2,<2.0.0)
+Description-Content-Type: text/x-rst
+
+🔢 ``nmr``: name all canonical things 🔢
+
+Convert each canonical thing into a number, and then that number into a unique,
+non-repeating name from a short list of common, short English words... or use a
+word list of your choice.
+
+Installs both a module named ``nmr`` and an executable called ``nmr.py``
+
+EXAMPLE
+=========
+
+.. code-block:: python
+
+    import nmr
+
+    assert nmr(0) == ['the']
+    assert nmr(2718281828) == ['the', 'race', 'tie', 'hook']
+
+    for i in range(-2, 3):
+        print(i, ':', *nmr(i))
+
+    # Prints
+    #   -2 : to
+    #   -1 : of
+    #   0 : the
+    #   1 : and
+    #   2 : a
+
