@@ -1,0 +1,23 @@
+{
+    "embed_dim": 1024,
+    "clip_model": "CLIP_HuggingFace",
+    "vision_cfg": {
+        "image_size": 224,
+        "layers": [
+            3,
+            4,
+            6,
+            3
+        ],
+        "width": 64,
+        "patch_size": null
+    },
+    "text_cfg": {
+        "context_length": 77,
+        "vocab_size": 30522,
+        "width": 768,
+        "heads": 8,
+        "layers": 12,
+        "bert_model_name": "/remote-home/share/weixionglin/medclip/vlp/PubMedBERT/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-roco/checkpoint-15000"
+    }
+}
