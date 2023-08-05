@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: traph
+Version: 0.0.2
+Summary: The terminal graph visualiser no one asked for
+License: MIT License
+        
+        Copyright (c) 2022 Max Koval
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/1MaxKoval/traph
+Keywords: graph,terminal,game,visualiser
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Terminals
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Traph
+
+A terminal-based graph visualiser.
+
+For now, it supports ~~three~~ two features:
+* Constructing a graph
+* Running BFS on the graph
+* ~~Spaghetti event loop~~
+
+## Installation
+
+You probably wouldn't even think about it, but just in case, you should enable your virtualenv.
+
+### Install from repository
+
+Clone repo:
+
+`git clone git@github.com:1MaxKoval/traph.git`
+
+Go into the root project directory and install:
+
+`pip install .`
+
+### Install from PyPI
+
+`pip install traph`
+
+## Run
+
+`traph`

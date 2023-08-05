@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/test/graph_test.py
+src/traph/__init__.py
+src/traph/algorithms.py
+src/traph/graph_constructor.py
+src/traph/main.py
+src/traph.egg-info/PKG-INFO
+src/traph.egg-info/SOURCES.txt
+src/traph.egg-info/dependency_links.txt
+src/traph.egg-info/entry_points.txt
+src/traph.egg-info/requires.txt
+src/traph.egg-info/top_level.txt
+src/traph/ui/__init__.py
+src/traph/ui/shapes.py
+src/traph/ui/ui.py
