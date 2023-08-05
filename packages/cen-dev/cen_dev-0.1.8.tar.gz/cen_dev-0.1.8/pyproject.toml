@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cen-dev"
+version = "0.1.8"
+description = "Centra developer commanl line tool"
+authors = ["Centra Dev Team <hello@centra.ai>"]
+keywords = ["centra", "dev"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://centra.ai"
+repository = "https://centra.ai/dev/"
+packages = [{include = "cen"}]
+
+[tool.poetry.scripts]
+cen = "cen.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cookiecutter = "^2.1.1"
+fire = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
