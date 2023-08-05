@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nonebot-plugin-azurlane-assistant/__init__.py
+nonebot-plugin-azurlane-assistant/brower.py
+nonebot-plugin-azurlane-assistant/check_resources.py
+nonebot-plugin-azurlane-assistant/config.py
+nonebot_plugin_azurlane_assistant.egg-info/PKG-INFO
+nonebot_plugin_azurlane_assistant.egg-info/SOURCES.txt
+nonebot_plugin_azurlane_assistant.egg-info/dependency_links.txt
+nonebot_plugin_azurlane_assistant.egg-info/top_level.txt
