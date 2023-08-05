@@ -1,0 +1,6 @@
+sqlalchemy
+snowflake-connector-python
+snowflake-sqlalchemy
+pandas
+pyathena
+mysql-connector-python==8.0.28
