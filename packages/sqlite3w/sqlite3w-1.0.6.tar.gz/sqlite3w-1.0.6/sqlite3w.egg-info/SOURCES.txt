@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sqlite3w.egg-info/PKG-INFO
+sqlite3w.egg-info/SOURCES.txt
+sqlite3w.egg-info/dependency_links.txt
+sqlite3w.egg-info/top_level.txt
+sqlite3worker/Units.py
+sqlite3worker/__init__.py
+sqlite3worker/sqlite3worker.py
