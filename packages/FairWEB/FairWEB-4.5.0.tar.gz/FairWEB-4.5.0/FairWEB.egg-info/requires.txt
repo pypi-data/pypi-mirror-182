@@ -1,0 +1,7 @@
+FairNLP==4.0.2
+FairMongo==4.1.4
+beautifulsoup4>=4.9.3
+newspaper3k>=0.2.8
+pandas>=1.4.2
+pytube==12.10
+youtube-dl==2021.12.17
