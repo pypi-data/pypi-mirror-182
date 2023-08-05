@@ -1,0 +1,10 @@
+README.md
+setup.py
+myaibot/__init__.py
+myaibot/myaibot.py
+myaibot.egg-info/PKG-INFO
+myaibot.egg-info/SOURCES.txt
+myaibot.egg-info/dependency_links.txt
+myaibot.egg-info/entry_points.txt
+myaibot.egg-info/requires.txt
+myaibot.egg-info/top_level.txt
