@@ -1,0 +1,7 @@
+StoreKit/_StoreKit.abi3.so,sha256=DrWFue21bOCWkwvR3HNHAkTNOeWlrNCTnRdhEDDSdxQ,121502
+StoreKit/__init__.py,sha256=yRNbVN9EKx7X1w73M3AYsmj_CgYrfH21rfVfqiCxUCo,729
+StoreKit/_metadata.py,sha256=laSMozLWv4zPRCelnAvSr2UVw7euOkcDw87d4F6mjLI,20135
+pyobjc_framework_StoreKit-9.0.1.dist-info/METADATA,sha256=25fKRYALvrZtGZHI6cBb7cVFeQ-cMW0wATA8hCVKgt4,2202
+pyobjc_framework_StoreKit-9.0.1.dist-info/WHEEL,sha256=nLhmCXva-LN_5y8FKsOoUcrPpIq7dw7Ok-CJpQ4VBTg,113
+pyobjc_framework_StoreKit-9.0.1.dist-info/top_level.txt,sha256=4smnkO902dwBWt35yDEWhiG0tVsZ-Eot9sm1iF4znlI,9
+pyobjc_framework_StoreKit-9.0.1.dist-info/RECORD,,
