@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hd1codeplug
+Version: 0.9.3
+Summary: Ailunce HD1 Codeplug Generator
+Home-page: https://github.com/mm7kef/hd1codeplug
+Author: Keith Sterling
+Author-email: keiffster@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: openpyxl
+
