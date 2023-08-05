@@ -1,0 +1,6 @@
+google-cloud-storage
+google-cloud-resource-manager
+termcolor
+
+[dev]
+black>=22.12.0
