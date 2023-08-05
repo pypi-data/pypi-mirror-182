@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+FramesViewer/__init__.py
+FramesViewer/camera.py
+FramesViewer/inputs.py
+FramesViewer/utils.py
+FramesViewer/viewer.py
+FramesViewer.egg-info/PKG-INFO
+FramesViewer.egg-info/SOURCES.txt
+FramesViewer.egg-info/dependency_links.txt
+FramesViewer.egg-info/requires.txt
+FramesViewer.egg-info/top_level.txt
