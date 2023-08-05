@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/dependabot.yml
+src/dspec/__init__.py
+src/dspec/spectrum_momentum.py
+src/dspec.egg-info/PKG-INFO
+src/dspec.egg-info/SOURCES.txt
+src/dspec.egg-info/dependency_links.txt
+src/dspec.egg-info/requires.txt
+src/dspec.egg-info/top_level.txt

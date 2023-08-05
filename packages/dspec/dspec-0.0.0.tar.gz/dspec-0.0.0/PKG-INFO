@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dspec
+Version: 0.0.0
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
