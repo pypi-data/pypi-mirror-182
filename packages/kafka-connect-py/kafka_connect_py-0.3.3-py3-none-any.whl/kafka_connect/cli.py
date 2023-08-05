@@ -1,0 +1,227 @@
+from .kafka_connect import KafkaConnect
+
+import click
+import json
+import logging
+
+
+class CatchAllExceptions(click.Group):
+    """A click group that catches all exceptions and displays them as a message.
+
+    This class extends the functionality of the `click.Group` class by adding
+    a try-except block around the call to `main()`. Any exceptions that are
+    raised during the call to `main()` are caught and displayed as a message
+    to the user.
+    """
+
+    def __call__(self, *args, **kwargs):
+        try:
+            return self.main(*args, **kwargs)
+        except Exception as e:
+            click.echo(f"An error occurred: {e}")
+
+def get_logger(log_level="NOTSET"):
+    """Get a logger configured to write to the console.
+
+    Args:
+        log_level (str): The logging level to use for the logger and console
+            handler. Defaults to "INFO".
+
+    Returns:
+        A logger configured to write log messages with a level equal to or higher
+        than `log_level` to the console.
+    """
+    # create logger
+    logger = logging.getLogger("kafka-connect")
+    log_level_number = logging.getLevelName(log_level.upper())
+    logger.setLevel(log_level_number)
+
+    # create console handler and set level to info
+    ch = logging.StreamHandler()
+    ch.setLevel(log_level.upper())
+
+    # create formatter
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+    # add formatter to ch
+    ch.setFormatter(formatter)
+
+    # add ch to logger
+    logger.addHandler(ch)
+
+    return logger
+
+@click.group(cls=CatchAllExceptions)
+@click.version_option()
+@click.option('-e','--endpoint', default='http://localhost:8083', metavar="URL", envvar='KAFKA_CONNECT_ENDPOINT', help='The base URL for the Kafka Connect REST API.')
+@click.option('-a', '--auth', metavar="USERNAME:PASSWORD", envvar='KAFKA_CONNECT_BASIC_AUTH', help='A colon-delimited string of `username` and `password` to use for authenticating with the Kafka Connect REST API.')
+@click.option('-v', '--ssl-verify/--no-ssl-verify', default=True, is_flag=True, envvar='KAFKA_CONNECT_SSL_VERIFY', help='Whether to verify the SSL certificate when making requests to the Kafka Connect REST API.')
+@click.option('-l', '--log-level', default='NOTSET', metavar="LEVEL", envvar='KAFKA_CONNECT_LOG_LEVEL', help='The logging level to use for the logger and console handler.')
+@click.pass_context
+def cli(ctx, endpoint, auth, ssl_verify, log_level):
+    """A command-line client for the Confluent Platform Kafka Connect REST API."""
+    logger = get_logger(log_level)
+    kafka_connect = KafkaConnect(endpoint, auth, ssl_verify, logger)
+    ctx.obj = kafka_connect
+
+
+@cli.command()
+@click.pass_obj
+def info(kafka_connect):
+    """Get the version and other details of the Kafka Connect cluster."""
+    cluster = kafka_connect.get_info()
+    click.echo(json.dumps(cluster))
+
+@cli.command()
+@click.option('-ex', '--expand', type=click.Choice(['status', 'info']), envvar='KAFKA_CONNECT_EXPAND', help='Optional parameter that retrieves additional information about the connectors.')
+@click.pass_obj
+def list(kafka_connect, expand):
+    """Get a list of active connectors."""
+    response = kafka_connect.list_connectors(expand=expand)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def get(kafka_connect, connector):
+    """Get the details of a single connector."""
+    response = kafka_connect.get_connector(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('config-file', type=click.File('r'), required=False)
+@click.pass_obj
+def create(kafka_connect, config_file):
+    """Create a new connector, returning the current connector info if successful. Return 409 (Conflict) if rebalance is in process, or if the connector already exists."""
+    config_data = config_file.read()
+    config = json.loads(config_data)
+    response = kafka_connect.create_connector(config)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.argument('config-file', type=click.File('r'))
+@click.pass_obj
+def update(kafka_connect, connector, config_file):
+    """Create a new connector using the given configuration, or update the configuration for an existing connector. Returns information about the connector after the change has been made. Return 409 (Conflict) if rebalance is in process."""
+    config_data = config_file.read()
+    config = json.loads(config_data)
+    response = kafka_connect.update_connector(connector, json.loads(config_data))
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def config(kafka_connect, connector):
+    """Gets the config of a connector."""
+    response = kafka_connect.get_connector_config(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def status(kafka_connect, connector):
+    """Gets the status of a connector."""
+    response = kafka_connect.get_connector_status(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.option('-i', '--include-tasks', is_flag=True, default=False, envvar='KAFKA_CONNECT_INCLUDE_TASKS', help='Whether to include the Task objects in the restart operation.')
+@click.option('-o', '--only-failed', is_flag=True, default=False, envvar='KAFKA_CONNECT_ONLY_FAILED', help='Whether to restart only failed Task objects.')
+@click.pass_obj
+def restart(kafka_connect, connector, include_tasks, only_failed):
+    """Restart a connector."""
+    response = kafka_connect.restart_connector(connector, include_tasks=include_tasks, only_failed=only_failed)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def pause(kafka_connect, connector):
+    """Pauses a connector."""
+    response = kafka_connect.pause_connector(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def resume(kafka_connect, connector):
+    """Resumes a connector."""
+    response = kafka_connect.resume_connector(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def delete(kafka_connect, connector):
+    """Deletes a connector."""
+    response = kafka_connect.delete_connector(connector)
+    click.echo(json.dumps({"name": connector, "status": "deleted"}))
+
+@cli.command()
+@click.argument('connector')
+@click.option('-i', '--include-tasks', is_flag=True, default=False, envvar='KAFKA_CONNECT_INCLUDE_TASKS', help='Whether to include the Task objects in the restart operation.')
+@click.pass_obj
+def list_tasks(kafka_connect, connector):
+    """Gets the list of tasks associated with a connector."""
+    response = kafka_connect.list_connector_tasks(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.argument('task_id')
+@click.pass_obj
+def get_task_status(kafka_connect, connector, task_id):
+    """Gets the status of a task associated with a connector."""
+    response = kafka_connect.get_connector_task_status(connector, task_id)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.argument('task_id')
+@click.pass_obj
+def restart_task(kafka_connect, connector, task_id):
+    """Restart a specific task of a connector."""
+    response = kafka_connect.restart_connector_task(connector, task_id)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def list_topics(kafka_connect, connector):
+    """Get the list of topics for a connector."""
+    response = kafka_connect.list_connector_topics(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('connector')
+@click.pass_obj
+def reset_topics(kafka_connect, connector):
+    """Reset the list of topics for a connector."""
+    response = kafka_connect.reset_connector_topics(connector)
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.pass_obj
+def list_plugins(kafka_connect):
+    """Get the list of connector plugins."""
+    response = kafka_connect.list_connector_plugins()
+    click.echo(json.dumps(response))
+
+@cli.command()
+@click.argument('plugin')
+@click.argument('config-file', type=click.File('r'))
+@click.argument('config-data', type=str, required=False, default=None)
+@click.pass_obj
+def validate_config(kafka_connect, plugin, config_file, config_data):
+    """Validate the configuration for a specific connector plugin."""
+    if config_file:
+        config_data = config_file.read()
+        config = json.loads(config_data)
+    elif config_data:
+        config = json.loads(config_data)
+    else:
+        raise click.UsageError("Either config-file or config_data must be provided")
+    response = kafka_connect.validate_connector_config(plugin, json.loads(config_data))
+    click.echo(json.dumps(response))

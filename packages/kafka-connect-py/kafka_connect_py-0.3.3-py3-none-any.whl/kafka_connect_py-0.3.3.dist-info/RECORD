@@ -1,0 +1,7 @@
+kafka_connect/__init__.py,sha256=GtOq1zSnvVT5Pir9n_pulaIPb0oN1BuhzprkvO0Tw6U,39
+kafka_connect/cli.py,sha256=GlLoltrZ4wqzWxzGCNVHJCVZGpn5a0KGcn1G1ab9NCQ,8867
+kafka_connect/kafka_connect.py,sha256=s7hiUObEJyh6WL1-KnEcPTuzQ1KrrjJ9szvAiOztCyk,15294
+kafka_connect_py-0.3.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+kafka_connect_py-0.3.3.dist-info/entry_points.txt,sha256=OOSFOeHzMGK6wcdvzJt4AxHYsaPloHQGUeDEfNQQlGw,80
+kafka_connect_py-0.3.3.dist-info/METADATA,sha256=ha7k3IvRy8x9I3crbXRPEu3B1m7D62oG9fChSapqLI0,4084
+kafka_connect_py-0.3.3.dist-info/RECORD,,
