@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: orchard_client
+Version: 1.0.0
+Summary: Orchard api client
+Home-page: UNKNOWN
+Author: Akorlie Edward Tsastu
+Author-email: edward@appsnmobilesolutions.com
+License: MIT
+Keywords: orchard_client
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is orchard api client for python. It is a wrapper around the REST API of Orchard. 
+
+
+Change Log
+
+====================
+
+1.0.0 (2022-12-19)
+
+------------------
+
+- First Release
+
+

@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+orchard_client.egg-info/PKG-INFO
+orchard_client.egg-info/SOURCES.txt
+orchard_client.egg-info/dependency_links.txt
+orchard_client.egg-info/requires.txt
+orchard_client.egg-info/top_level.txt
