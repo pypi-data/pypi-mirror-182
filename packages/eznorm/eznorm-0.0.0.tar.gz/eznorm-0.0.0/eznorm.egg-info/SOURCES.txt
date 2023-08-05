@@ -1,0 +1,9 @@
+README.md
+setup.py
+eznorm/__init__.py
+eznorm/test.py
+eznorm.egg-info/PKG-INFO
+eznorm.egg-info/SOURCES.txt
+eznorm.egg-info/dependency_links.txt
+eznorm.egg-info/requires.txt
+eznorm.egg-info/top_level.txt
