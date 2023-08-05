@@ -1,0 +1,11 @@
+pyproject.toml
+setup.cfg
+src/baserow/__init__.py
+src/baserow/lib.py
+src/baserow/table.py
+src/baserow/util.py
+src/baserow.egg-info/PKG-INFO
+src/baserow.egg-info/SOURCES.txt
+src/baserow.egg-info/dependency_links.txt
+src/baserow.egg-info/requires.txt
+src/baserow.egg-info/top_level.txt

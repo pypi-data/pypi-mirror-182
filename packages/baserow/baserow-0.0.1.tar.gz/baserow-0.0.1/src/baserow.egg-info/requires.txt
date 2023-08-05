@@ -1,0 +1,12 @@
+markdown
+typer
+rich
+tqdm
+pandas
+
+[dev]
+pytest
+black
+isort
+flake8
+pdbpp
