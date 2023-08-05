@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/awxclient/__init__.py
+src/awxclient/base.py
+src/awxclient/connection.py
+src/awxclient/exception.py
+src/awxclient.egg-info/PKG-INFO
+src/awxclient.egg-info/SOURCES.txt
+src/awxclient.egg-info/dependency_links.txt
+src/awxclient.egg-info/requires.txt
+src/awxclient.egg-info/top_level.txt
