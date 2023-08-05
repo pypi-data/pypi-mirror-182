@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: doris-tracker
+Version: 2022.12.20
+Summary: DORIS
+Home-page: http://www.boris.unito.it/pages/doris
+Author: Olivier Friard
+Author-email: olivier.friard@unito.it
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.TXT
+
+=======================
+DORIS
+=======================
+
+
+DORIS is an easy-to-use interactive object detection and tracking software with a graphical user interface.
+
+

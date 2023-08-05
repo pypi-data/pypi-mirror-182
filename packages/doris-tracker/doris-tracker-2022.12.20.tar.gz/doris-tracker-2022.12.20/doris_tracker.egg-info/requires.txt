@@ -1,0 +1,8 @@
+matplotlib
+numpy
+opencv-python-headless
+pandas
+pyqt5
+scikit-learn
+scipy
+sklearn
