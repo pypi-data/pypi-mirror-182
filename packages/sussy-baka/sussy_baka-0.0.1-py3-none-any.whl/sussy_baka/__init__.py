@@ -1,0 +1,2 @@
+def sus():
+    return "amogus"
