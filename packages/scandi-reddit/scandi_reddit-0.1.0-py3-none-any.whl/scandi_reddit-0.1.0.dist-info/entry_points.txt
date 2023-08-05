@@ -1,0 +1,3 @@
+[console_scripts]
+build=scandi_reddit.cli:main
+
