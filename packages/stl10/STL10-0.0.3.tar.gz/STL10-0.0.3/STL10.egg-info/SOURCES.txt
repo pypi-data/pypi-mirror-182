@@ -1,0 +1,11 @@
+setup.py
+STL10.egg-info/PKG-INFO
+STL10.egg-info/SOURCES.txt
+STL10.egg-info/dependency_links.txt
+STL10.egg-info/requires.txt
+STL10.egg-info/top_level.txt
+stl/STL10.py
+stl/__init__.py
+stl/constants.py
+stl/dataset_utils.py
+stl/download_and_convert_stl10.py
