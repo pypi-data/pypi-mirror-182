@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/stactools/esa_cci_lc/__init__.py
+src/stactools/esa_cci_lc/classes.py
+src/stactools/esa_cci_lc/cog.py
+src/stactools/esa_cci_lc/commands.py
+src/stactools/esa_cci_lc/constants.py
+src/stactools/esa_cci_lc/netcdf.py
+src/stactools/esa_cci_lc/stac.py
+src/stactools_esa_cci_lc.egg-info/PKG-INFO
+src/stactools_esa_cci_lc.egg-info/SOURCES.txt
+src/stactools_esa_cci_lc.egg-info/dependency_links.txt
+src/stactools_esa_cci_lc.egg-info/requires.txt
+src/stactools_esa_cci_lc.egg-info/top_level.txt
