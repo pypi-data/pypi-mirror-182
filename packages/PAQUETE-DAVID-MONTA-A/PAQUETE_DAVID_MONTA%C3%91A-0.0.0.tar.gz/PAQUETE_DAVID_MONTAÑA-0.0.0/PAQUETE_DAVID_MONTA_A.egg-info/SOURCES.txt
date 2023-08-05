@@ -1,0 +1,7 @@
+pyproject.toml
+PAQUETE_DAVID_MONTA_A.egg-info/PKG-INFO
+PAQUETE_DAVID_MONTA_A.egg-info/SOURCES.txt
+PAQUETE_DAVID_MONTA_A.egg-info/dependency_links.txt
+PAQUETE_DAVID_MONTA_A.egg-info/top_level.txt
+PAQUETE_DAVID_MONTAÑA/calculadora_areas.py
+PAQUETE_DAVID_MONTAÑA/creacion.py

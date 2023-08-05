@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = "asirX_David_Montaña"
+version = "0.0.1"
+authors = [
+    { name="DMZ111", email="hernandavidzambrano@gmail.com" },
+]
+description = "Ejemplo de como crear un paquete por David Montaña Zambrano"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
