@@ -1,0 +1,89 @@
+<odoo>
+    <data>
+                <!-- ACM -->
+            <record id="view_mitxelena_acm_form" model="ir.ui.view">
+                <field name="name">view.mitxelena.acm.form</field>
+                <field name="model">mitxelena.acm</field>
+                <field name="arch" type="xml">
+                    <form string="ACM">
+                        <sheet>
+                            <group>
+                                <field name="acm_code"/>
+                                <field name="date"/>
+                                <field name="description"/>
+                                <field name="status"/>
+                                <field name="verified"/>
+                                <field name="origin"/>
+                                <field name="duration"/>
+                                <field name="finish_date"/>
+                                <field name="period"/>
+                                <field name="real_duration"/>
+                                <field name="delay"/>
+                                <!-- <field name="ncr_code"/> -->
+                            </group>
+                        </sheet>
+                    </form>
+                </field>
+            </record>
+
+            <!-- Vista tree !-->
+            <record id="view_mitxelena_acm_tree" model="ir.ui.view">
+                <field name="name">view.mitxelena.acm.tree</field>
+                <field name="model">mitxelena.acm</field>
+                <field name="arch" type="xml">
+                    <tree string="ACM">
+                        <field name="acm_code"/>
+                        <field name="date"/>
+                        <field name="description"/>
+                        <field name="status"/>
+                        <field name="verified"/>
+                        <field name="origin"/>
+                        <field name="duration"/>
+                        <field name="finish_date"/>
+                        <field name="period"/>
+                        <field name="real_duration"/>
+                        <field name="delay"/>
+                        <!-- <field name="ncr_code"/> -->
+                    </tree>
+                </field>
+
+            </record>
+
+            <!-- Vista search !-->
+            <record id="view_mitxelena_acm_search" model="ir.ui.view">
+                <field name="name">view.mitxelena.acm.search</field>
+                <field name="model">mitxelena.acm</field>
+                <field name="arch" type="xml">
+                    <search string="ACM">
+                        <field name="acm_code"/>
+                        <field name="date"/>
+                        <field name="description"/>
+                        <field name="status"/>
+                        <field name="verified"/>
+                        <field name="origin"/>
+                        <field name="duration"/>
+                        <field name="finish_date"/>
+                        <field name="period"/>
+                        <field name="real_duration"/>
+                        <field name="delay"/>
+                        <!-- <field name="ncr_code"/> -->
+                    </search>
+                </field>
+            </record>
+
+            <!-- Action !-->
+
+                <record id="action_mitxelena_acm" model="ir.actions.act_window">
+                    <field name="name">ACM</field>
+                    <field name="res_model">mitxelena.acm</field>
+                    <field name="view_mode">tree,form</field>
+                    <field name="view_id" ref="view_mitxelena_acm_tree"/>
+                    <field name="search_view_id" ref="view_mitxelena_acm_search"/>
+                </record>
+
+            <!-- Menu !-->
+
+                <menuitem id="menu_mitxelena_acm" name="ACM" parent="menu_mitxelena" action="action_mitxelena_acm"/>
+
+    </data>
+</odoo>

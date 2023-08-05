@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+
+    <!-- Vista tree -->
+
+        <record id="view_mitxelena_ncr_tree" model="ir.ui.view">
+            <field name="name">view.mitxelena.ncr.tree</field>
+            <field name="model">mitxelena.ncr</field>
+            <field name="arch" type="xml">
+                <tree string="NCR">
+                    <field name="ncr_code"/>
+                    <field name="date"/>
+                    <field name="customer"/>
+                    <field name="article_position"/>
+                    <field name="cause_type"/>
+                    <field name="responsable"/>
+                    <field name="other_responsable"/>
+                    <field name="description"/>
+                    <field name="status"/>
+                    <field name="cost"/>
+                    <field name="reviewed"/>
+                </tree>
+            </field>
+        </record>
+
+    <!-- Vista form -->
+
+        <record id="view_mitxelena_ncr_form" model="ir.ui.view">
+            <field name="name">view.mitxelena.ncr.form</field>
+            <field name="model">mitxelena.ncr</field>
+            <field name="arch" type="xml">
+                <form string="NCR">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="ncr_code"/>
+                                <field name="date"/>
+                                <field name="customer"/>
+                                <field name="article_position"/>
+                                <field name="cause_type"/>
+                                <field name="responsable"/>
+                                <field name="other_responsable"/>
+                                <field name="description"/>
+                                <field name="status"/>
+                                <field name="cost"/>
+                                <field name="reviewed"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    <!-- Vista search -->
+
+        <record id="view_mitxelena_ncr_search" model="ir.ui.view">
+            <field name="name">view.mitxelena.ncr.search</field>
+            <field name="model">mitxelena.ncr</field>
+            <field name="arch" type="xml">
+                <search string="NCR">
+                    <field name="ncr_code"/>
+                    <field name="date"/>
+                    <field name="customer"/>
+                    <field name="article_position"/>
+                    <field name="cause_type"/>
+                    <field name="responsable"/>
+                    <field name="other_responsable"/>
+                    <field name="description"/>
+                    <field name="status"/>
+                    <field name="cost"/>
+                    <field name="reviewed"/>
+                </search>
+            </field>
+        </record>
+
+    <!-- Acción -->
+
+        <record id="action_mitxelena_ncr" model="ir.actions.act_window">
+            <field name="name">NCR</field>
+            <field name="res_model">mitxelena.ncr</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_mitxelena_ncr_tree"/>
+            <field name="search_view_id" ref="view_mitxelena_ncr_search"/>
+        </record>
+
+    <!-- Menú -->
+
+        <menuitem id="menu_mitxelena_ncr" name="NCR" parent="menu_mitxelena" action="action_mitxelena_ncr"/>
+
+    </data>
+</odoo>
