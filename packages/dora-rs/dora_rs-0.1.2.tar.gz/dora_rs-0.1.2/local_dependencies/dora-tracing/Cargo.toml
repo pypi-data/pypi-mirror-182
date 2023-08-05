@@ -1,0 +1,12 @@
+[package]
+name = "dora-tracing"
+version= "0.1.2"
+edition = "2021"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opentelemetry = { version = "0.17", features = ["rt-tokio", "metrics"] }
+opentelemetry-jaeger = { version = "0.16", features = ["rt-tokio"] }
+tokio = { version = "1.17.0", features = ["full"] }
