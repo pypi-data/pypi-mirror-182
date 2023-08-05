@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: repo-gist
+Version: 0.1.0
+Summary: A script to create a gist from the contents of a repository
+Home-page: https://github.com/your-username/repo-gist
+Author: Your Name
+Author-email: your@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
