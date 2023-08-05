@@ -1,0 +1,6 @@
+README.md
+setup.py
+pytelemetry_dsaouda_plug.egg-info/PKG-INFO
+pytelemetry_dsaouda_plug.egg-info/SOURCES.txt
+pytelemetry_dsaouda_plug.egg-info/dependency_links.txt
+pytelemetry_dsaouda_plug.egg-info/top_level.txt
