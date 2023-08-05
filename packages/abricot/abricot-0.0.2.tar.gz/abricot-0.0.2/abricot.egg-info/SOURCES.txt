@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+abr_random/__init__.py
+abr_random/abr_string.py
+abricot.egg-info/PKG-INFO
+abricot.egg-info/SOURCES.txt
+abricot.egg-info/dependency_links.txt
+abricot.egg-info/top_level.txt
