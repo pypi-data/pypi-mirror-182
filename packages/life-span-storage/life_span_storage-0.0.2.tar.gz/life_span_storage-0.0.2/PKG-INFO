@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: life_span_storage
+Version: 0.0.2
+Summary: Dash Store Component
+Author: s_matsumoto <s_matsumoto@thinkup-sol.co.jp>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
