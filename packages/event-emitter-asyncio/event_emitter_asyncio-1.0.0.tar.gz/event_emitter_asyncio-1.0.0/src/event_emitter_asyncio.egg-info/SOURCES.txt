@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/event_emitter_asyncio.egg-info/PKG-INFO
+src/event_emitter_asyncio.egg-info/SOURCES.txt
+src/event_emitter_asyncio.egg-info/dependency_links.txt
+src/event_emitter_asyncio.egg-info/top_level.txt
+src/py-event-emitter/EventEmitter.py
+src/py-event-emitter/EventEmitter_test.py
+src/py-event-emitter/__init__.py
