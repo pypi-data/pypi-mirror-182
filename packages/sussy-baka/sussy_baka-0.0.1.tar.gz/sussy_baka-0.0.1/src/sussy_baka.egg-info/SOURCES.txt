@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/sussy_baka/__init__.py
+src/sussy_baka.egg-info/PKG-INFO
+src/sussy_baka.egg-info/SOURCES.txt
+src/sussy_baka.egg-info/dependency_links.txt
+src/sussy_baka.egg-info/top_level.txt
