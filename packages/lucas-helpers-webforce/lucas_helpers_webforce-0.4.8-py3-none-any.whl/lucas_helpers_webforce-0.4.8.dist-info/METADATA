@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lucas-helpers-webforce
+Version: 0.4.8
+Summary: description
+Home-page: 
+Download-URL: 
+Author: Webforce
+Author-email: 
+License: MIT
+Keywords: testing,logging,example
+Description-Content-Type: text/markdown
+Requires-Dist: celery (==5.2.7)
+Requires-Dist: flower (==1.2.0)
+Requires-Dist: importlib-metadata (==4.13.0)
+Requires-Dist: mysqlclient (==2.1.1)
+Requires-Dist: PyMySQL (==1.0.2)
+Requires-Dist: pytz (==2022.6)
+Requires-Dist: redis (==4.4.0)
+Requires-Dist: SQLAlchemy (==1.4.44)
+Requires-Dist: twilio (==7.15.4)
+
