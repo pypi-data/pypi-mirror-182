@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ck-astro
+Version: 0.0.1
+Summary: General tools for astronomy I personally use regularly for data analysis.
+Author: Carsten König
+License: MIT License
+Project-URL: Homepage, https://gitlab.com/ck2go/ck-astro
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astropy
+Requires-Dist: spectral-cube
+
+# CK Astro
+
+General tools for astronomy I personally use regularly for data analysis.
+
+**Status:**  Beta\
+**Author:** Carsten König\
+**Repository:** https://gitlab.com/ck2go/ck-astro
+
+## Purpose
+
+Providing common tools, functions, workflows that I use for my everyday scientific work.
+
+## Installation
+
+```bash
+pip install ck-astro
+```
+
+## How to use
+Import modules and use the objects or functions.
+
+
+## License
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+## Author
+**Carsten König**
+
+- [GitLab](https://gitlab.com/ck2go "Carsten König")
+- [GitHub](https://github.com/ck2go "Carsten König")
+- [LinkedIn](https://www.linkedin.com/in/ck2go/ "Carsten König")
+- [Website](https://www.carsten-koenig.de "Carsten König")
+
