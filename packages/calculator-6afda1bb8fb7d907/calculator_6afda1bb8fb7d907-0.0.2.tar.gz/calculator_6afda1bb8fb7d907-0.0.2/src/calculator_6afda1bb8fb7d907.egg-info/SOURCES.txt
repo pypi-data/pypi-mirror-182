@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/calculator_6afda1bb8fb7d907/__init__.py
+src/calculator_6afda1bb8fb7d907/calculator.py
+src/calculator_6afda1bb8fb7d907.egg-info/PKG-INFO
+src/calculator_6afda1bb8fb7d907.egg-info/SOURCES.txt
+src/calculator_6afda1bb8fb7d907.egg-info/dependency_links.txt
+src/calculator_6afda1bb8fb7d907.egg-info/top_level.txt
