@@ -1,0 +1,7 @@
+objectpath
+boto3
+
+[dev]
+bumpver
+pip-tools
+pytest
