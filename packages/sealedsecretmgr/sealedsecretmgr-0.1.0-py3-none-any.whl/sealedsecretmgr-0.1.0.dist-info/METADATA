@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sealedsecretmgr
+Version: 0.1.0
+Summary: SealedSecret Manager
+Home-page: https://github.com/dvincelli/sealedsecretmgr
+License: Apache-2.0
+Author: David Vincelli
+Author-email: david.vincelli@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=22.12.0,<23.0.0)
+Project-URL: Repository, https://github.com/dvincelli/sealedsecretmgr
+Description-Content-Type: text/markdown
+
+`sealedsecret`: A tool to manage [SealedSecrets](https://github.com/bitnami-labs/sealed-secrets)
+
+## Installation
+
+`pipx install sealedsecretmgr`
+
+## Usage
+
+To list existing SealedSecrets with keys in your namespace
+
+```
+$ sealedsecret list
+my-super-secret
+	DATABASE_PASSWORD
+```
+
+You can pass an optional `--namespace` argument.
+
+
+To retrieve and view a SealedSecret you can get it.
+
+```
+sealedsecret get secret-name
+```
+
+To create a new SealedSecret:
+```
+sealedsecret create new-secret-name my-key my-value-to-protect
+```
+
+To add a key or edit an existing key in an exitsing SealedSecret:
+```
+sealedsecret update existing-secret-name my-new-key a-value
+```
+
+The update and create commands only print the resource, you can redirect the output of edit an update to a file and then apply it using `kubectl apply -f` or you can pipe directly to `kubectl apply -`
+
