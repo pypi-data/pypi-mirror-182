@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dsqss
+Version: 2.0.4
+Summary: DSQSS input files generator
+Home-page: https://github.com/issp-center-dev/dsqss
+Author: DSQSS developers
+Author-email: dsqss-dev@issp.u-tokyo.ac.jp
+License: GPLv3
+Requires-Python: >=2.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: toml
+
