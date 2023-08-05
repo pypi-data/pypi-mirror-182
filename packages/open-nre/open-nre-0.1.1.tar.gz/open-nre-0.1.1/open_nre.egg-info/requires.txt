@@ -1,0 +1,4 @@
+wheel
+nltk
+transformers
+scikit-learn
