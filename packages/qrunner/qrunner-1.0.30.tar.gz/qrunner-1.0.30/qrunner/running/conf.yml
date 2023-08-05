@@ -1,0 +1,12 @@
+app:
+  device_id: UQG5T20414005787
+  pkg_name: null
+common:
+  base_url: null
+  env: null
+  login: {}
+  platform: null
+  timeout: null
+  visit: {}
+web:
+  browser: null
