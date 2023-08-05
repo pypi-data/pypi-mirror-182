@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Base-69
+Version: 0.1.0
+Summary: Base 69 encoder and decoder
+Home-page: https://github.com/micfun123/twos-complement
+Author: Michael Parker
+Author-email: michaelrbparker@protonmail.com
+Description-Content-Type: text/markdown
+
+Base 69 becuse cool kids only count in funny internet numbers
+
+all base 69s will start with `69*|`
+
+encode_base69 will return a string in base 69
+and decode_base69 will return a int
