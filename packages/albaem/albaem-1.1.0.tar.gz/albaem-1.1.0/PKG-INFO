@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: albaem
+Version: 1.1.0
+Summary: Library and Tango DS for Alba Electrometer first version
+Home-page: https://github.com/ALBA-Synchrotron/AlbaEm
+Author: Roberto J. Homs Puron
+Author-email: rhoms@cells.es
+License: GPLv3
+Keywords: alba,electrometer,beamline,albaem
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Library and Tango DS for Alba Electrometer first version
