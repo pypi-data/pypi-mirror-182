@@ -1,0 +1,10 @@
+typesafe_parmap/__init__.py,sha256=1w5_mZ9vjwx6ZMs94kLOgZAIzKZ16J6BaTrsg93n-5I,1146
+typesafe_parmap/named_thunk.py,sha256=jFRCRQ_h_J7vO2M04zw0KokK6t3FJ_kPoWjNbduOnag,426
+typesafe_parmap/parmap.py,sha256=2qA4AffGskI_jfvuNdV7s1-a3DvRNr5raAZnZnXYEu0,52626
+typesafe_parmap/parmap_timeout.py,sha256=YB4P2MUOBQqIA0zvfNeNk9QYco7F5idSCegDvqhkA9c,110002
+typesafe_parmap/parmap_timeout_n.py,sha256=aLWNOfHdAe2THnImIVpLkIvBA3doxNd2ztXJcBq_Jj8,38456
+typesafe_parmap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typesafe_parmap-1.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+typesafe_parmap-1.0.4.dist-info/LICENSE,sha256=q1bkvGA8Hg5cdrHxVY-SyaeBBtoWf1L6i6UxaiDg3o4,1068
+typesafe_parmap-1.0.4.dist-info/METADATA,sha256=hvMGd6iyGUKe3pHbAkGq7AIEjEnyyzOaBuVHF2HwtpE,5148
+typesafe_parmap-1.0.4.dist-info/RECORD,,
