@@ -1,0 +1,9 @@
+awxclient/__init__.py,sha256=XVQwt1IIVjRarXBV4MOf3oBLttS2ig4tC5KsOhEYy-w,3511
+awxclient/base.py,sha256=c9cm5WaFy1OamruZ6JdwfFVfOZU2snlwC_61tVGFCBU,1605
+awxclient/connection.py,sha256=tWQk8qHT8gIRqf8OEKKKzHEvAEEQ-aKZg-CMcKRPxb0,3654
+awxclient/exception.py,sha256=R2HK77ZAWJKNCxZJlLV2T4ertDmEapOZlQ47mQECnLo,530
+awxclient-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+awxclient-0.0.1.dist-info/METADATA,sha256=pvh1rfvg1oWsoS1Tl9RC8LKI1eIYdPK4MmK_QcjELXg,574
+awxclient-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+awxclient-0.0.1.dist-info/top_level.txt,sha256=Yy2PXReay7jwEy6wPqtlXwUJFxBgFT7aZMkTCEF7PCg,10
+awxclient-0.0.1.dist-info/RECORD,,
