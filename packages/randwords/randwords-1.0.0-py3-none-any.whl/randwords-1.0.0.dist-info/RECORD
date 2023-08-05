@@ -1,0 +1,12 @@
+randwords/__init__.py,sha256=YNYQtph5ViovnbtCTN8D614oscDAdIwEmVVI68pCRa8,21
+randwords/words,sha256=NGK9Y_OmksoP08YlHiBSzNoJSmoGJj2E9ZGxyWlS0gQ,968222
+randwords/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+randwords/cmd/randstring.py,sha256=KZ07JahqjGVB0fcR65AQSpKDysmcCc-vdTaUmTx8PTI,1420
+randwords/cmd/randwords.py,sha256=ToaI8Ml5osdJo-xNYIbCQoxotAuW8GIimxhWlanJNbo,4524
+randwords-1.0.0.dist-info/AUTHORS,sha256=GICPncYFr3bYovC_AdzdN_RdYne_XQR7-RXUKqkujxQ,32
+randwords-1.0.0.dist-info/LICENSE,sha256=5xhqFQccT2ldXmTcaBAHlK-XSwnCmP8Xb2siFV2wDAo,1067
+randwords-1.0.0.dist-info/METADATA,sha256=oPw5-pib7ZSMWIb5NrvrXJZR4lWKes7R2II0HOnFMk8,1145
+randwords-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+randwords-1.0.0.dist-info/entry_points.txt,sha256=BmudOSnbvAgh1GY-7HcRZdADxv6uzJwMUzUk_P9ZwXc,102
+randwords-1.0.0.dist-info/top_level.txt,sha256=rvC4Ww1NsAa390gaPcee0BQI1qAcqMf9kgyyb6s7vJU,10
+randwords-1.0.0.dist-info/RECORD,,
