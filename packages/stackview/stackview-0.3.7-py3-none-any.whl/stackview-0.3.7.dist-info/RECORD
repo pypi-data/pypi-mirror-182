@@ -1,0 +1,10 @@
+stackview/__init__.py,sha256=SLl0CfjSqdqwD6sd9YDY_vWcsh2LuKoRR9i8lUY2Tbo,21043
+stackview/_context.py,sha256=mdEouU2-f-AV4TrNFP7wm0nUBCGzWvO_ceA3w_nHvRQ,1519
+stackview/_image_widget.py,sha256=ObCSUb8JYEfNSX9mgaEm_XG0d0KxZrSuQpAI3ioI_a8,2750
+stackview/_static_view.py,sha256=6XPQlzPLmQ3X6NNDABbzJUnOzaE5gfYJa2w7r2SGmSU,8118
+stackview/_utilities.py,sha256=5FJsYHPp3hIhnXulhqCWyhOrE_0idC5do-gxiqUxZDc,1992
+stackview-0.3.7.dist-info/LICENSE,sha256=wYffCRmhlInzcTaoToZM718meoEeMfDEd0a9eY2BcCs,1549
+stackview-0.3.7.dist-info/METADATA,sha256=SYWEsBQFHl_zxoGGNMutqxPQwcRkJaTB12qI-gDObcU,6481
+stackview-0.3.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stackview-0.3.7.dist-info/top_level.txt,sha256=uhs6pEyfNG9leCThx10gxAywWxqTz_dXh2F_P2S7i3U,10
+stackview-0.3.7.dist-info/RECORD,,
