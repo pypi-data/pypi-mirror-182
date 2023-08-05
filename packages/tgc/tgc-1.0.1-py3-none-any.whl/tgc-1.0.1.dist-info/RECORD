@@ -1,0 +1,17 @@
+tgc/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+tgc/convert_export.py,sha256=tEteqfutYMr946LlZLUXUtjS7D5h2d_GJeIdJ4TqRqo,8831
+tgc/convert_media_types.py,sha256=1mx-beWEWgBeXM1Qzf3rhThvOS8IWD3qMbHHdAWMjrk,2027
+tgc/pyro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgc/pyro/__main__.py,sha256=2qXYJGUfz35om-6RsA9u_PpHXSFoAMa09JEspIG4UbM,61
+tgc/pyro/config.py,sha256=yBXku7WeHSg6DoIJMSnYNXKvt3i1TqKPXcitDCrXqSk,702
+tgc/pyro/consts.py,sha256=k0SxopU946ypUeA42E1_M_EQvzccL1TNi_NqC9Yyaf4,669
+tgc/pyro/convert.py,sha256=zpJa5dx_mSYQUmI4DpBepL1FT3ZrH9Tvh1wk8AwnFR8,2980
+tgc/pyro/crawl.py,sha256=LkLMXn9Tm46Kkx7dOfUI0NQkkL4XuOQLX69tJMVgjCg,4830
+tgc/pyro/download_media.py,sha256=l2s4yaBV1eEfcTbhKNBTYT_CRkJSRhmDsPC16fc3AGI,4497
+tgc/pyro/grouper.py,sha256=BfCLoxzSfOGhjqwdOLdi1fPuTMDS3eNX7oExNiNBq14,2272
+tgc-1.0.1.dist-info/LICENSE,sha256=MECKwC_mpaipMvdakN9fYaW2ANI1Qx5fGP_48_gH35w,1069
+tgc-1.0.1.dist-info/METADATA,sha256=cpEJ_edXCvj3mAF89LRGRYEhDPr3gzpQz2O5wgKtni8,5669
+tgc-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tgc-1.0.1.dist-info/entry_points.txt,sha256=BpTMQqMp3EVXDwyPh0qERCG62kLmkE4EaIFn-7Xpg8w,71
+tgc-1.0.1.dist-info/top_level.txt,sha256=RgLFkkd6ECU3UMh6VbhmSlT4b3lwRsuWAkq18qRqi5I,4
+tgc-1.0.1.dist-info/RECORD,,
