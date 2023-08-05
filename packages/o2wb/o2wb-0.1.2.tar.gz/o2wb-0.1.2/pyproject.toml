@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "o2wb"
+version = "0.1.2"
+description = ""
+authors = ["DPKM"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.11"
+rdflib="~6.2.0"
+wikibaseintegrator="~0.12.2"
+argparse="~1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+o2wb-exp = 'o2wb.export:main'
+o2wb-imp = 'o2wb.import:main'
