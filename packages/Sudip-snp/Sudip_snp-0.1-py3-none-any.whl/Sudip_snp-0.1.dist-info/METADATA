@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Sudip-snp
+Version: 0.1
+Summary: Using this module and supplying the location of your genelocus txt files we can download snp files
+Home-page: UNKNOWN
+Author: Sudipan Paul
+Author-email: sudipanpaul6@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: webdriver-manager
+Requires-Dist: selenium
+Requires-Dist: pandas
+
+This python package is specially build for people  willing to download snp files from snp-seek websitewe can simply use help function to get the details of snp_dw function 
+
