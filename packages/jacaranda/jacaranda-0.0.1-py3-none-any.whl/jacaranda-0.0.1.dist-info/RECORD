@@ -1,0 +1,8 @@
+jacaranda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jacaranda/pytorch.py,sha256=SwZKhJdh54w6vSwH4ubKfEJA0UbAwvkeKZx7MX-CKPw,14034
+jacaranda/xgboost.py,sha256=omiilgg01i6xti3O-w71bUzrWQz25tK1EQqrgJHmnrM,6782
+jacaranda-0.0.1.dist-info/LICENSE.md,sha256=dIwVwqKF73SuwoDy5yvZhIK5a9Di2g2PD96TT6iOLhY,1031
+jacaranda-0.0.1.dist-info/METADATA,sha256=LnXdNSeA__lAIAQgmub1KAIhqbvfsGIcsvUIrq6GBZk,2472
+jacaranda-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jacaranda-0.0.1.dist-info/top_level.txt,sha256=-oJIAD9mT2fvl5W1gQmOqaBEj5Xqi0PwdlCtmzOAp4o,10
+jacaranda-0.0.1.dist-info/RECORD,,
