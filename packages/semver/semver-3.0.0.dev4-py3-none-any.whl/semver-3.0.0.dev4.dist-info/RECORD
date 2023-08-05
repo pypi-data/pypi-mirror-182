@@ -1,0 +1,14 @@
+semver/__about__.py,sha256=DGmSbxgfRtxkcD5lsB1vytvScny22IPaU4bgRCIeCrk,821
+semver/__init__.py,sha256=oTDPJ-LGsu1TWJxeA57WbJ3-Br8ebzBt-HSSMqJGSAg,688
+semver/__main__.py,sha256=AtcfZhN_1CoLp2gInpw1BxeLG4gSU0WIseleo4u8Jmk,588
+semver/_deprecated.py,sha256=8LVhAYhpj-vnMiWC4IfFbuzIeEmmtt0SFxCwVWLzpAw,10632
+semver/_types.py,sha256=-AfazZgnmmMe7WthSx_M-w1BCnq2dPFmysjmtTOm1oc,422
+semver/cli.py,sha256=lR34_wnid6cjvlQ6Ca9fDtUvsekcKQ762Jyn_M27PVE,5187
+semver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semver/version.py,sha256=47_CBI0zoMov6esieLSAvchdJNoDyz9OExULSF5l0mM,21444
+semver-3.0.0.dev4.dist-info/LICENSE.txt,sha256=zaSQwy5h04hNwXeR_IB48qPlZPupjdGLTcZOsnILK28,1496
+semver-3.0.0.dev4.dist-info/METADATA,sha256=4ip5hrEwPmkBuO-AeG1ReJUzDcJLV_x05hspBtVDR1o,5669
+semver-3.0.0.dev4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+semver-3.0.0.dev4.dist-info/entry_points.txt,sha256=QsWAwfEwq2bdJmY8lmGFjnvA1gi8_tHqQRZTyxr9CIg,45
+semver-3.0.0.dev4.dist-info/top_level.txt,sha256=oFJ1J3NJzsV1x-L91Xz4FBlYpVqO-Cr4UEfj-hGvqq0,7
+semver-3.0.0.dev4.dist-info/RECORD,,
