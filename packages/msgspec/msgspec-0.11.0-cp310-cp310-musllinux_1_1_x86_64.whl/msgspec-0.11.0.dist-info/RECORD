@@ -1,0 +1,15 @@
+msgspec/__init__.pyi,sha256=I1V-1NG77rvg7NULkSbo_x8ggOQMDYP0_DmNx3u2N8E,4365
+msgspec/msgpack.pyi,sha256=ypxSCjUj037S6r4CMh8T3uxKVJiObldimsIMO20SGMw,1991
+msgspec/_utils.py,sha256=0ott_kZJRBnzwilem1R1F90ogJlvwHvYsJn8Z-uhGFQ,21333
+msgspec/json.pyi,sha256=0NrPsOGZ5sajEqzoH82Kuqs7_nEQDlQdPc_K0k8WAI4,1973
+msgspec/_version.py,sha256=Izsrgxhpd3OIxfpR7OXQYAgMe1O3iDjikpdVAWynEWw,498
+msgspec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgspec/__init__.py,sha256=xDux2-ywiimOdeE4QiTWij8Ypjggerr6BWrsXq44MMA,277
+msgspec/msgpack.py,sha256=cpGA3q0SnzLO3UHwNpa56QPeub1ndlafbgoSLEspV7E,154
+msgspec/_core.cpython-310-x86_64-linux-gnu.so,sha256=Tw8tVdvXkwONUwZCnO0bRy4pVQ3pq7VvV1BVlTuThA8,297336
+msgspec/json.py,sha256=ECWb_4efoLmhXyY_hYsdFa93I8aoeonWGr3WHFGecn8,206
+msgspec-0.11.0.dist-info/WHEEL,sha256=3ltB5TaRdhkt3YYqx2XrZvyTyaxp5dXZb3HWw510bG0,113
+msgspec-0.11.0.dist-info/top_level.txt,sha256=8Ysnxa29QLhdPtjPGjyc1hmx3nOmKeu_OAk2682ZdvU,8
+msgspec-0.11.0.dist-info/LICENSE,sha256=b96LZyOIXoUIgI9lrDcv65fT7uLqsrkdNNeWt1t6xzQ,1498
+msgspec-0.11.0.dist-info/RECORD,,
+msgspec-0.11.0.dist-info/METADATA,sha256=-KTxD1IHljSlGlh0MeuPP9uKEQD8chwxRmKS8AkiNxA,3562
