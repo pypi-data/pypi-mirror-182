@@ -1,0 +1,12 @@
+xia_engine/__init__.py,sha256=jJX16AXW6NHxxUBfdc7yi-oZkx_q-HadKg83QKqczd8,1029
+xia_engine/acl.cp310-win_amd64.pyd,sha256=-lFYPwv5w4TPYedkWWqLWIbl_dbqcOVJFNM5GchdCeo,354304
+xia_engine/base.cp310-win_amd64.pyd,sha256=gANcjiGSwlieL7z0umUV4HXt83s1tR2lNd92aCmvUR0,487936
+xia_engine/document.cp310-win_amd64.pyd,sha256=yd70gUE7150pP-xaVhyjvRsyB7F77UYPi41ug7v1Ljg,463872
+xia_engine/engine.cp310-win_amd64.pyd,sha256=V7GPeoIgeMLl-5S2zE7UtevHTIItDwvwkxQ5jd7aFR4,357376
+xia_engine/exception.cp310-win_amd64.pyd,sha256=3yvAI7DkMd_NlKPJycJJdMDw3Gasz3YiGgswTKhzBgQ,260096
+xia_engine/fields.cp310-win_amd64.pyd,sha256=qtOnEj1q4TQKsFa_ov0Eu0ipesSumRA8ygq3eIX7IBc,472576
+xia_engine-0.1.44.dist-info/LICENSE.txt,sha256=Ttf2VW9fqSQdbOE-h8EVivyg_c5obqacx70-ob7oLI4,155
+xia_engine-0.1.44.dist-info/METADATA,sha256=Z6kruKQROE7KUTqVyF5aDVRPfUy8VC-zGGKtcpOzqAg,710
+xia_engine-0.1.44.dist-info/WHEEL,sha256=xKD-W076Kxa9P8HVHMBFDAZ44LgNHrPjF081MKvpixU,100
+xia_engine-0.1.44.dist-info/top_level.txt,sha256=Q896WUzHNHm14oiEaw7BbLcGbvHkKPKEQOBa8Z06dbk,11
+xia_engine-0.1.44.dist-info/RECORD,,
