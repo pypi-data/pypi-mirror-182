@@ -1,0 +1,12 @@
+LICENSE,sha256=RTIpL5iOXzx0A_scU-MPG4sAWYjRORg7oP8jHalY714,1062
+pytotp_client/__init__.py,sha256=h4XVtTs6gLSYiUHrHdPX_uaU2DJpdt4dYmOenBFfBEk,56
+pytotp_client/__main__.py,sha256=_P0ist7mEF5QIMo07tV-vKuT_y2LW5HJ4HyOFMz0XJI,44
+pytotp_client/_cli.py,sha256=D-3cJaG2fMFkOmFnr7JiK6TPMDfUpefagcdvTaO2nz0,2176
+pytotp_client/_client.py,sha256=zcTz-YD2jry5PQJKgGPE21RB00u2rJAwQFL1BTic-kw,2268
+pytotp_client/_clipboard.py,sha256=J_qORb5PY9HtYKPih97Kfo9HyTs4Scug7Eyx_7F-jOM,224
+pytotp_client/_constants.py,sha256=SX2LdDmD7kzL0un01CpkWIyaPLwUexGHYm8oGijI4YM,36
+pytotp_client-0.2.0.dist-info/entry_points.txt,sha256=z41qs249M9UVoh_DmbgEMt0is_ximF8eChrMAOz7nWs,49
+pytotp_client-0.2.0.dist-info/LICENSE,sha256=RTIpL5iOXzx0A_scU-MPG4sAWYjRORg7oP8jHalY714,1062
+pytotp_client-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytotp_client-0.2.0.dist-info/METADATA,sha256=PSpzxl_ATsF1O2cg0l6OBoyc3V4NGiJMqOm8AaN2C74,1062
+pytotp_client-0.2.0.dist-info/RECORD,,
