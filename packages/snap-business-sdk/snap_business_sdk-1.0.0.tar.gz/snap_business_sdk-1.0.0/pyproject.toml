@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "snap_business_sdk"
+version = "1.0.0"
+authors = [
+  { name="Snapchat Attribution Team", email="attribution-team@snapchat.com" },
+]
+description = "Python Business SDK for Snap Conversions API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "urllib3 >= 1.25.3",
+  "python-dateutil",
+  "jellyfish"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Snapchat/business-sdk-python"
+"Bug Tracker" = "https://github.com/Snapchat/business-sdk-python/issues"
+
