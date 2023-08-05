@@ -1,0 +1,11 @@
+materialdatabase/__init__.py,sha256=HVn_KGCMb1aQEgqGMb_Y2mIOj9S6zE1ogrexCDROm5A,118
+materialdatabase/material_data_base_classes.py,sha256=kNdmZJ5koembf2iyhnDAn1yZtAllJKneRKdAX2SZ6is,35804
+materialdatabase/material_data_base_functions.py,sha256=Tr9K5C9pFZ4VjDZ2gnDXLwKOeW3fZF2YByYjxT9HF_I,1633
+materialdatabase/test_database.py,sha256=iEouNgJKulswz85CeqhyjMdniEcIDubMPdVbdTxO9co,1690
+materialdatabase/data/material_data_base.json,sha256=zZVPeEMLOOKQ5EMixiBEeaYWebcIzII64_02qER6e1M,196531
+materialdatabase-0.1.0.data/data/CHANGELOG.md,sha256=UomujAywj6UWphPvTzDij8DWJ0bAqX2nERdZreXzK1E,651
+materialdatabase-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+materialdatabase-0.1.0.dist-info/METADATA,sha256=asvihxxwrdhsUDPRIL1E5UAvcrFm8m-DKGDwvApiNEQ,1273
+materialdatabase-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+materialdatabase-0.1.0.dist-info/top_level.txt,sha256=oD6SzLbUfw5jyb899BvywPAQTJB8CRHl7UwlZjuImMY,17
+materialdatabase-0.1.0.dist-info/RECORD,,
