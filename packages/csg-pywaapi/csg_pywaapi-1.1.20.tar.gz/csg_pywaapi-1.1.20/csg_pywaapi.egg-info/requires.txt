@@ -1,0 +1,3 @@
+waapi_client
+PyWave
+pss-pywaapi
