@@ -1,0 +1,7 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/credentials.py,sha256=SEW8ylvomBfsgomA3hDdaaHm-k2du9C39P1vw0bc78Q,919
+src/metabase.py,sha256=XY228DhTGBN-zenaW7JySMM067MoEnqUNXTanPUxR0I,8601
+lexisnexisapi-2.0.21.dist-info/METADATA,sha256=JLIngS1n5wdhoVfiZWA_mzyAysoyDSwosCsxvBMneG8,291
+lexisnexisapi-2.0.21.dist-info/WHEEL,sha256=cdcF4Fbd0FPtw2EMIOwH-3rSOTUdTCeOSXRMD1iLUb8,105
+lexisnexisapi-2.0.21.dist-info/licenses/LICENSE.txt,sha256=MKU8Tl929W-E98pQjgAXTkW00DEecKunaVBnTsqWf_o,466
+lexisnexisapi-2.0.21.dist-info/RECORD,,
