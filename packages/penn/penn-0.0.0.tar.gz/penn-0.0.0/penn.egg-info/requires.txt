@@ -1,0 +1,7 @@
+huggingface_hub
+numpy
+scipy
+torch
+tqdm
+torchaudio
+yapecs
