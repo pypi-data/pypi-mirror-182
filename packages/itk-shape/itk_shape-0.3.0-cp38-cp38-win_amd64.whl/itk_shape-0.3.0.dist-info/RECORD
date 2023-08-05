@@ -1,0 +1,16 @@
+itk/ShapePython.py,sha256=Rm7ALfwx0sULL_esYUadNXayVWWYw88KaWc7-er_VtA,2467
+itk/_ShapePython.pyd,sha256=-d_Myo-gkY6ZLSztXwfu-36lZ4YiUilAyT405UEqR3g,1147392
+itk/__init_shape__.py,sha256=RNTtFoaxTOkFZQULxgmUuTJJDipFaqsaT-Pqvgm1LoM,1180
+itk/itkMeshProcrustesAlignFilterPython.py,sha256=Meko-3OqKJdhy9gpq0kkNmXrDFdY3OSl5zQM47toMr8,77533
+itk/Configuration/ShapeConfig.py,sha256=2A8JgAvdC_vUBYvD2xsV2YX3pZtqChqLjtDwTT-42ao,945
+itk/Configuration/Shape_snake_case.py,sha256=N0x7xP2I6-QRDv42HrmmIX6gxooq0V-stQenPu_2TH0,59
+itk_shape.libs/.load-order-itk_shape-0.3.0,sha256=dqJ8frvbj6y9-J5sC1v-87tVGLD_hrXI3sO3OEdMzIw,45
+itk_shape.libs/msvcp140.dll,sha256=8xDLPAoQdkHBe3ToLm_EVo-Q_xFnDT-kFf9azl2zxA8,579984
+itk_shape.libs/tbb12.dll,sha256=3Ym0FW-dLjEApD2zv1XnQJvS8nxkBRLWEJ6dviOb1Tg,308736
+itk_shape.libs/vcruntime140_1.dll,sha256=w3FG7vTP5bBcMqMznqJ68iEZyVuHxy9aHfcrpbNhJfs,49512
+itk_shape-0.3.0.dist-info/DELVEWHEEL,sha256=GIc-M1V5pmC1rjhEyZhhEE_Ay-9yU0Aq0kH_ulcwMhU,252
+itk_shape-0.3.0.dist-info/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_shape-0.3.0.dist-info/METADATA,sha256=kPThL5PTFizM0RqXda1h0vjq7V36JUcf3Y7ehuigxU8,1366
+itk_shape-0.3.0.dist-info/WHEEL,sha256=jL6ZCD5prqRj5SeXb-w-Rj4UkjJwWWPDr_xe1MHU59c,94
+itk_shape-0.3.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_shape-0.3.0.dist-info/RECORD,,
