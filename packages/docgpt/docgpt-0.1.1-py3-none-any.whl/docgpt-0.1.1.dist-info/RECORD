@@ -1,0 +1,10 @@
+docgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docgpt/api_key.py,sha256=BkzVl6n6hADef_A102rKOkFuR3dooJHJbbDA0jFLEGw,1766
+docgpt/io.py,sha256=epb2a74lqXnXCxBSAN9jvkg48ZOrec0Ndi6L0YHIV2E,2756
+docgpt/main.py,sha256=-AV1V2zu39_g-FFoeXVcFgWdncQ08ZoZQCZuNuKfw-E,5719
+docgpt/model.py,sha256=V_xcDlnnEbokDuohglgiRlm16u-MeBAMjE6bomSsCIw,3292
+docgpt-0.1.1.dist-info/METADATA,sha256=LdeFhcN-djLQS41KLjMpp3ogV05ssLtWTcpTip0i4DM,43521
+docgpt-0.1.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+docgpt-0.1.1.dist-info/entry_points.txt,sha256=vIIX_0MgtGhdTgmYaDJKbpQDcsNm-P44J2YlYSSRFAw,43
+docgpt-0.1.1.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+docgpt-0.1.1.dist-info/RECORD,,
