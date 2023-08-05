@@ -1,0 +1,8 @@
+setup.py
+geography_tour_ready/__init__.py
+geography_tour_ready/earth.py
+geography_tour_ready.egg-info/PKG-INFO
+geography_tour_ready.egg-info/SOURCES.txt
+geography_tour_ready.egg-info/dependency_links.txt
+geography_tour_ready.egg-info/not-zip-safe
+geography_tour_ready.egg-info/top_level.txt
