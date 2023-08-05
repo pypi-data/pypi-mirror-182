@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+textbin/__init__.py
+textbin/textbin.py
+textbin.egg-info/PKG-INFO
+textbin.egg-info/SOURCES.txt
+textbin.egg-info/dependency_links.txt
+textbin.egg-info/top_level.txt
