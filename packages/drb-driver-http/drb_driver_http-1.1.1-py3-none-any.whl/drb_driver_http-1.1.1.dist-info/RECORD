@@ -1,0 +1,15 @@
+drb/drivers/http/__init__.py,sha256=I3Y_XjT2Uuk83mhJe-VKOGZw77R9r16kLRV8aKn8I0U,261
+drb/drivers/http/_version.py,sha256=xBFQrSzSWXIe5yf7f5CbDbnNDoTMcrDGMr1MlhKuuR4,497
+drb/drivers/http/http.py,sha256=A1XAKm0ec0qT7uJKaIJud3-DbjbI-1pbnzKGLXMK6sQ,14208
+drb/drivers/http/oauth2/HTTPOAuth2.py,sha256=Wr_P2rHiMQmt-bkJDoKS3vxwT0RzNZopFAYOJKe25xE,1438
+drb/drivers/http/oauth2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb/drivers/http/oauth2/oauth2.py,sha256=TwXrB05cYF5aoRdyHAFqL9-o8oLSfkPsC4DpdtMgTgU,3706
+drb/exceptions/http.py,sha256=JOjxnLvvILlNrOlY3nQfKZkgoQUsY0Ez2vIOMZ3b3Q0,311
+drb/topics/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb/topics/http/cortex.yml,sha256=Q4B1CcA7URVh3Iv49z2483_N4qgQBwT-c2B-2AFIOF4,375
+drb_driver_http-1.1.1.data/data/requirements.txt,sha256=2G51q_twzhlLgUbsLw0lui3bPQH_zEVI4ihk-Vr3Wek,29
+drb_driver_http-1.1.1.dist-info/METADATA,sha256=kfABZbuVv2jZz9UzcHb4uofED2jHlI5RI_1sWTP9QSs,3950
+drb_driver_http-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_driver_http-1.1.1.dist-info/entry_points.txt,sha256=aar8fKpQ5S5BkeeouDMeIBJlO6hKGI2to_hWkpy4_iI,89
+drb_driver_http-1.1.1.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_driver_http-1.1.1.dist-info/RECORD,,
