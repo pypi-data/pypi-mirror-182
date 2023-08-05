@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+yolovxx/__init__.py
+yolovxx.egg-info/PKG-INFO
+yolovxx.egg-info/SOURCES.txt
+yolovxx.egg-info/dependency_links.txt
+yolovxx.egg-info/requires.txt
+yolovxx.egg-info/top_level.txt
