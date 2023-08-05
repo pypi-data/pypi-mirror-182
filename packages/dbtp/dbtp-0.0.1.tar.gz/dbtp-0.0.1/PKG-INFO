@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: dbtp
+Version: 0.0.1
+Summary: Run DBT CLI commands in python
+Author: Alex Rudolph
+Author-email: alex3rudolph@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rcheck (>=0.0.7,<0.0.8)
+Description-Content-Type: text/markdown
+
+# dbt-py
+
+A python library to run dbt cli commands.
+
+Adapted from dagster's dbt resource: https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-dbt.
+
+# dagster-dbt
+
+The docs for `dagster-dbt` can be found
+[here](https://docs.dagster.io/_apidocs/libraries/dagster-dbt).
+
+Deleted:
+    * setup.cfg and setup.py in favor of using poetry
+
