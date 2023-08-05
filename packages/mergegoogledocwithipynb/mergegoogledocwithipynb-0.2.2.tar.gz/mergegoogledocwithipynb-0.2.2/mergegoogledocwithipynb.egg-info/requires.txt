@@ -1,0 +1,4 @@
+nbformat
+requests
+markdownify
+Jinja2
