@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kundajelab-shap
+Version: 1
+Summary: Kundaje lab edits to Scott Lundberg's unified approach to explain the output of any machine learning model.
+Home-page: http://github.com/kundajelab/shap
+Author: Avanti Shrikumar's modifications to Scott Lundberg original package
+Author-email: avanti@stanford.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
