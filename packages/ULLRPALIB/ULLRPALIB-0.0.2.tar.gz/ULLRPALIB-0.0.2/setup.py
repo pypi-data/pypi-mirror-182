@@ -1,0 +1,48 @@
+import pathlib
+from setuptools import find_packages, setup
+
+# https://antonio-fernandez-troyano.medium.com/crear-una-libreria-python-4e841fbd154f
+
+# cd Z:\RPA\RPALIB\0998_LIB_Python\Scripts\
+# python setup.py sdist bdist_wheel
+# twine upload --repository testpypi dist/ULLRPALIB-0.0.1.tar.gz dist/ULLRPALIB-0.0.1-py3-none-any.whl
+# twine upload dist/ULLRPALIB-0.0.1.tar.gz dist/ULLRPALIB-0.0.1-py3-none-any.whl
+# python -m pip install -e z:\RPA\RPALIB\0998_LIB_Python\Scripts
+# python -m pip install ULLRPALIB
+# pip freeze
+
+
+
+HERE = pathlib.Path(__file__).parent
+
+VERSION = '0.0.2' #Muy importante, deberéis ir cambiando la versión de vuestra librería según incluyáis nuevas funcionalidades
+PACKAGE_NAME = 'ULLRPALIB' #Debe coincidir con el nombre de la carpeta 
+AUTHOR = 'ULL-RPA' #Modificar con vuestros datos
+AUTHOR_EMAIL = 'gerencia.sce.ticger@ull.edu.es' #Modificar con vuestros datos
+URL = 'https://github.com/??????' #Modificar con vuestros datos
+
+LICENSE = 'MIT' #Tipo de licencia
+DESCRIPTION = 'Librería para utilidades generales de RPA para Python' #Descripción corta
+LONG_DESCRIPTION = (HERE / "README.md").read_text(encoding='utf-8') #Referencia al documento README con una descripción más elaborada
+LONG_DESC_TYPE = "text/markdown"
+
+
+#Paquetes necesarios para que funcione la libreía. Se instalarán a la vez si no lo tuvieras ya instalado
+INSTALL_REQUIRES = [
+      'openpyxl'
+      ]
+
+setup(
+    name=PACKAGE_NAME,
+    version=VERSION,
+    description=DESCRIPTION,
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type=LONG_DESC_TYPE,
+    author=AUTHOR,
+    author_email=AUTHOR_EMAIL,
+    url=URL,
+    install_requires=INSTALL_REQUIRES,
+    license=LICENSE,
+    packages=find_packages(),
+    include_package_data=True
+)
