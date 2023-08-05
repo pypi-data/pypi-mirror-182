@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: einshape
+Version: 1.0
+Summary: DSL-based reshaping library for JAX and other frameworks
+Home-page: https://github.com/deepmind/einshape
+Author: DeepMind
+Author-email: noreply@google.com
+License: Apache 2.0
+Platform: any
+License-File: LICENSE
+Requires-Dist: absl-py
+Requires-Dist: numpy
+Requires-Dist: dataclasses ; python_version < "3.7"
+Provides-Extra: jax
+Requires-Dist: jax (>=0.1.71) ; extra == 'jax'
+Provides-Extra: jaxlib
+Requires-Dist: jaxlib (>=0.1.49) ; extra == 'jaxlib'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (>=1.8.0) ; extra == 'tensorflow'
+Provides-Extra: tensorflow_with_gpu
+Requires-Dist: tensorflow-gpu (>=1.8.0) ; extra == 'tensorflow_with_gpu'
+
