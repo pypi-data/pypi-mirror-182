@@ -1,0 +1,5 @@
+base58>=2.1.1
+ecdsa>=0.18.0
+six>=1.16.0
+crypto-crypto-two1>=0.0.3
+pycryptodome>=3.16.0
