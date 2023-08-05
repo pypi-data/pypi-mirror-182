@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/wikipedia_histories/__init__.py
+src/wikipedia_histories/get_histories.py
+src/wikipedia_histories/retrieve_metadata.py
+src/wikipedia_histories/revision.py
+src/wikipedia_histories.egg-info/PKG-INFO
+src/wikipedia_histories.egg-info/SOURCES.txt
+src/wikipedia_histories.egg-info/dependency_links.txt
+src/wikipedia_histories.egg-info/requires.txt
+src/wikipedia_histories.egg-info/top_level.txt
+src/wikipedia_histories/networks/__init__.py
+src/wikipedia_histories/networks/analyze_networks.py
+src/wikipedia_histories/networks/get_category_articles.py
+src/wikipedia_histories/networks/network_builder.py
