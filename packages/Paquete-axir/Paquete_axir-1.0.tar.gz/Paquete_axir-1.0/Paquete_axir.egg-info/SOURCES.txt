@@ -1,0 +1,6 @@
+setup.py
+Paquete_axir.egg-info/PKG-INFO
+Paquete_axir.egg-info/SOURCES.txt
+Paquete_axir.egg-info/dependency_links.txt
+Paquete_axir.egg-info/top_level.txt
+Paquetes/Paquete.py
