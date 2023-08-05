@@ -1,0 +1,9 @@
+celery==5.2.7
+flower==1.2.0
+importlib-metadata==4.13.0
+mysqlclient==2.1.1
+PyMySQL==1.0.2
+pytz==2022.6
+redis==4.4.0
+SQLAlchemy==1.4.44
+twilio==7.15.4
