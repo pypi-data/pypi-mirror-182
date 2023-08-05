@@ -1,0 +1,65 @@
+site_name: typeshed-stats
+docs_dir: 'stats_website'
+repo_url: https://github.com/AlexWaygood/typeshed-stats
+edit_uri: ""  # The website is generated, so an edit button doesn't make sense the way mkdocs does it
+
+theme:
+  name: material
+  logo: logo.png
+  favicon: logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: blue grey
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      accent: yellow
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+  - table-reader
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+            show_bases: false
+            show_root_full_path: false
+            merge_init_into_class: true
+            show_root_toc_entry: false
+
+nav:
+  - "Welcome to typeshed-stats": "index.md"
+  - "Stats on typeshed's stubs": "stats.md"
+  - "Stats in CSV format": "stats-csv.md"
+  - "typeshed_stats.gather API reference": "gather.md"
+  - "typeshed_stats.serialize API reference": "serialize.md"
+  - "CLI reference": "cli.md"
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+watch:
+  - stats_website
+  - src
