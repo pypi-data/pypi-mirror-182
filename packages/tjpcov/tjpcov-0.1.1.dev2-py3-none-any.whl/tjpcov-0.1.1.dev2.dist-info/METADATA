@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: tjpcov
+Version: 0.1.1.dev2
+Summary: Covariances for LSST DESC
+Author: LSST DESC
+Project-URL: Homepage, https://github.com/LSSTDESC/TJPCov
+Project-URL: Bug Tracker, https://github.com/LSSTDESC/TJPCov/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: Jinja2
+Requires-Dist: pyyaml
+Requires-Dist: pytest
+Requires-Dist: pyccl (>=2.5.0)
+Requires-Dist: sacc (>=0.7)
+Requires-Dist: camb
+Provides-Extra: full
+Requires-Dist: healpy ; extra == 'full'
+Requires-Dist: pymaster (>=1.4.0) ; extra == 'full'
+Requires-Dist: h5py ; extra == 'full'
+Requires-Dist: mpi4py ; extra == 'full'
+Provides-Extra: mpi
+Requires-Dist: mpi4py ; extra == 'mpi'
+Provides-Extra: nmt
+Requires-Dist: healpy ; extra == 'nmt'
+Requires-Dist: pymaster (>=1.4.0) ; extra == 'nmt'
+Requires-Dist: h5py ; extra == 'nmt'
+
+[![Coverage Status](https://coveralls.io/repos/github/LSSTDESC/TJPCov/badge.svg?branch=master)](https://coveralls.io/github/LSSTDESC/TJPCov?branch=master)
+
+# TJPCov
+
+TJPCov is a general covariance calculator interface to be used within LSST DESC.
+
+## Installation
+
+TJPCov is now pip installable for convenience, but for development
+clone the git repository.
+
+There are four different flavors of tjpcov at the moment:
+ - `python -m pip install .` will install tjpcov and the minimal dependencies.
+ - `python -m pip install .\[nmt\]` will install tjpcov, the minimal
+     dependencies and the dependencies needed to use NaMaster.
+ - `python -m pip install .\[mpi4py\]` will install, the minimal
+     dependencies and the mpi4py library to use MPI parallelization.
+ - `python -m pip install .\[full\]` will install tjpcov and all dependencies
+
+Note that due to a bug in the NaMaster installation, one needs to make sure
+numpy is installed before trying to install NaMaster. If you are doing a fresh
+install, run `python -m pip install .` first, and then `python -m pip install .\[nmt\]`
+
+## Planning & development
+
+Ask @felipeaoli or @carlosggarcia for access to the repository and join the #desc-mcp-cov channel on the LSST DESC slack to contribute.
+
+See also [terms of reference](https://github.com/LSSTDESC/TJPCov/blob/master/doc/Terms_of_Reference.md).
+
+## Environment for development
+If you are working in conda (miniconda or anaconda) you can create a conda environment named **tjpcov** with 
+```
+conda env create --file environment.yml
+```
+
+To activate your new environment use:
+
+```
+conda activate tjpcov
+```
+
+## Dependencies and versioning
+The latest version TJPCov needs pymaster >= 1.4 . Install it using (after `conda activate tjpcov`): 
+
+```
+python -m pip install pymaster>=1.4
+```
+The code requires ccl>=2.5.0
+```
+python -m pip install ccl>=2.5.0
+```
+
