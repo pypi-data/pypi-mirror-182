@@ -1,0 +1,11 @@
+setup.py
+gliese_plugin/__init__.py
+gliese_plugin/hookspecs.py
+gliese_plugin/host.py
+gliese_plugin/lib.py
+gliese_plugin.egg-info/PKG-INFO
+gliese_plugin.egg-info/SOURCES.txt
+gliese_plugin.egg-info/dependency_links.txt
+gliese_plugin.egg-info/entry_points.txt
+gliese_plugin.egg-info/requires.txt
+gliese_plugin.egg-info/top_level.txt

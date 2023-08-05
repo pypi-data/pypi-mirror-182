@@ -1,0 +1,3 @@
+[console_scripts]
+gliese_plugin = gliese_plugin.host:main
+
