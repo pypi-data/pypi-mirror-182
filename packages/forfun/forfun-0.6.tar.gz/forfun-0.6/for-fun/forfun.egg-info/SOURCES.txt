@@ -1,0 +1,5 @@
+setup.py
+for-fun/forfun.egg-info/PKG-INFO
+for-fun/forfun.egg-info/SOURCES.txt
+for-fun/forfun.egg-info/dependency_links.txt
+for-fun/forfun.egg-info/top_level.txt
