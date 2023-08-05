@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lexisnexisapi
+Version: 2.0.2
+Summary: Work with LexisNexis DAAS APIs
+Author-email: Robert Cuffney <robert.cuffney@lexisnexis.com>, Ozgur Aycan <ozgur.aycan@lexisnexis.co.uk>
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a ReadMe Test
