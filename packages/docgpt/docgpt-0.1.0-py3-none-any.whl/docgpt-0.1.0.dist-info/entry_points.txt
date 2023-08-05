@@ -1,0 +1,2 @@
+[console_scripts]
+docgpt = docgpt.main:cli
