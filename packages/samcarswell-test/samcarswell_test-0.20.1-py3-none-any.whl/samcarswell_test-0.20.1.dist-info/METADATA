@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: samcarswell-test
+Version: 0.20.1
+Summary: A CLI to interact with samcarswell-test
+Home-page: https://github.com/samcarswell-test/samcarswell-test-cli
+Author: samcarswell-test Dev Team
+Author-email: dev@samcarswell-test.net.au
+Project-URL: Bug Reports, https://github.com/samcarswell-test/samcarswell-test2-cli/issues
+Project-URL: Source, https://github.com/samcarswell-test/samcarswell-test2-cli/
+Keywords: sample setuptools development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+Requires-Dist: azure-identity
+Requires-Dist: azure-keyvault-secrets
+Requires-Dist: requests-toolbelt
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: loguru
+Requires-Dist: pandas
+Requires-Dist: tabulate
+Provides-Extra: dev
+
+# pypi-test
