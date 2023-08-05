@@ -1,0 +1,10 @@
+LICENSE
+README.md
+chat_gpc.py
+setup.py
+chatgpc_cli.egg-info/PKG-INFO
+chatgpc_cli.egg-info/SOURCES.txt
+chatgpc_cli.egg-info/dependency_links.txt
+chatgpc_cli.egg-info/entry_points.txt
+chatgpc_cli.egg-info/requires.txt
+chatgpc_cli.egg-info/top_level.txt
