@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=62.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws_v4_signature"
+version = "2.0"
+authors = [
+  { name="Shuaijun Yang", email="yangshuaijun@outlook.com" },
+]
+description = "This package will generate AWS V4 authentication Signature for http 1.1 request."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]

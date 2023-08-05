@@ -1,0 +1,49 @@
+# Introduction
+
+This package generate http 1.1 AWS Signature Version 4 Authentication headers.
+
+## Function Arguments
+
+|  argument name   | data type | default value |         description          |
+|:----------------:|:---------:|:-------------:|:----------------------------:|
+|     service      |    str    |               |         service name         |
+|      region      |    str    |               |         region name          |
+|    access_key    |    str    |               |          access key          |
+|    secret_key    |    str    |               |          secret key          |
+|       url        |    str    |               |       http request url       |
+|    httpMethod    |    str    |               |   standard http 1.1 method   |
+| canonicalHeaders |   dict    |               | AWS Service required headers |
+|   otherHeaders   |   dict    |               | other non-mandatory headers  |
+|   queryString    |    str    |      ''       |                              |
+|     payload      |    str    |      ''       |        valid payload         |
+
+## Function retrun value
+
+The return value data type is dict and including AWS Signature Version 4 Authentication headers.
+
+## Demo Code
+
+```python
+from awsv4sign import generate_http11_header
+import requests
+import json
+
+
+service = 'execute-api'
+region = 'cn-north-1'
+access_key = ''
+secret_key = ''
+session_token = ''
+
+url = ''
+httpMethod = 'post'
+canonicalHeaders = {}
+otherHeaders = {'x-api-key': '', 'content_type': 'application/json' ,'x-amz-security-token': session_token}
+queryString = ''
+payload = {}
+
+result = requests.post(url, data=json.dumps(payload), headers=generate_http11_header(service, region, access_key, secret_key, url, 'post', canonicalHeaders, otherHeaders, queryString, json.dumps(payload)))
+print(result.json())
+```
+
+Generated http 1.1 heards could be used by pycurl, urllib3 and so on packages.

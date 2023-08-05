@@ -1,0 +1,8 @@
+LICENSE
+README.md
+awsv4sign.py
+pyproject.toml
+aws_v4_signature.egg-info/PKG-INFO
+aws_v4_signature.egg-info/SOURCES.txt
+aws_v4_signature.egg-info/dependency_links.txt
+aws_v4_signature.egg-info/top_level.txt
