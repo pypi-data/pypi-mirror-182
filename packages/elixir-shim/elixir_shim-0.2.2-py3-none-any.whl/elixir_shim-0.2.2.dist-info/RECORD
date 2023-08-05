@@ -1,0 +1,11 @@
+conftest.py,sha256=-KOMruVnMGfnnxYO4xKVawUIzEhZbxNzfdI4lvvWYj0,50
+notebook_shim/__init__.py,sha256=vtPJ38XW_sxd1tuWDbxi4HKgSH_SDKvLDYvj8PdOElw,126
+notebook_shim/_version.py,sha256=uMmtA4YHA95ei6KfZ55YpWxh_3zhpur6BAr4FW8MsRU,55
+notebook_shim/nbserver.py,sha256=J_hZZ0bPbCMq4LSIwocGg1Dr7RhCeBdMdFzG9foORRI,5190
+notebook_shim/shim.py,sha256=gAFQHaY01eTGoybj-1EZVCvthhFklrx3c5FuIZwtcGU,11718
+notebook_shim/traits.py,sha256=F-tC2rDKVc_yZ58Zr0ETX-_IxZPYjIcvPT55ULL0LRo,5600
+elixir_shim-0.2.2.data/data/etc/jupyter/jupyter_server_config.d/notebook_shim.json,sha256=t1_5Rmm0oG8XxVUzl9q5ciYm87jRLd2NQ-CGYXOz6zs,106
+elixir_shim-0.2.2.dist-info/METADATA,sha256=z__471g-sK94Rn8HAP7pXwJ2pZ5BBiE885H0XHts_8M,4246
+elixir_shim-0.2.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+elixir_shim-0.2.2.dist-info/licenses/LICENSE,sha256=6yVQluX7q_OzjmEsbHsIDwrhoRCXuTjpWDw1QyMXVdk,1534
+elixir_shim-0.2.2.dist-info/RECORD,,
