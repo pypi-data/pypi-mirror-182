@@ -1,0 +1,2 @@
+[console_scripts]
+traph = traph:main.main
