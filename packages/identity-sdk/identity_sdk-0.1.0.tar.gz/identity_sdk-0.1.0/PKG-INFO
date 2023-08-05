@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: identity-sdk
+Version: 0.1.0
+Summary: The Python SDK for The Hacker App's identity platform
+Author: Alex Krantz
+Author-email: alex@krantz.dev
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: starlite (>=1.45.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Identity SDK
+
+The Python SDK for The Hacker App's identity platform.
+
