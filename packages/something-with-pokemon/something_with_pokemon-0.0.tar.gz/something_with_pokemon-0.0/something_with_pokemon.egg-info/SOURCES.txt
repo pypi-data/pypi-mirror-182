@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+dist_alx/__init__.py
+dist_alx/pokemon.py
+something_with_pokemon.egg-info/PKG-INFO
+something_with_pokemon.egg-info/SOURCES.txt
+something_with_pokemon.egg-info/dependency_links.txt
+something_with_pokemon.egg-info/not-zip-safe
+something_with_pokemon.egg-info/top_level.txt
