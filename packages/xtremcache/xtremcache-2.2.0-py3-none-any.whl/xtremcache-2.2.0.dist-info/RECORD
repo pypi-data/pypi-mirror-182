@@ -1,0 +1,14 @@
+README.md,sha256=3cF3Axd7E60Ls5g8nufE04O5pvQ5zESHmgITfcUZtHM,3953
+dist-requirements.txt,sha256=kTc3_tOI2ZrXGPQ5NaOZyzOIeZ4VsLPUOMKXS9i0WOo,82
+xtremcache/ext/msys2/unzip/v6.00/bin/msys-2.0.dll,sha256=i_nfs0LD2779gwMxi5IlcUVHLwIVx5jYRi6ame4sKMY,3354665
+xtremcache/ext/msys2/unzip/v6.00/bin/msys-bz2-1.dll,sha256=5pILUZJh79IEC5fFxwBzwPl-J8dwOrStUrNLWXuT7Og,64688
+xtremcache/ext/msys2/unzip/v6.00/bin/unzip.exe,sha256=ef8V7BQz03piJpaAV4XRo5WC9jtqyIalZgh9Xrsx2Bk,173708
+xtremcache/ext/msys2/zip/v3.0/bin/msys-2.0.dll,sha256=i_nfs0LD2779gwMxi5IlcUVHLwIVx5jYRi6ame4sKMY,3354665
+xtremcache/ext/msys2/zip/v3.0/bin/msys-bz2-1.dll,sha256=5pILUZJh79IEC5fFxwBzwPl-J8dwOrStUrNLWXuT7Og,64688
+xtremcache/ext/msys2/zip/v3.0/bin/zip.exe,sha256=ctH1GzWgYvZ_2ZfUikZ9raGsXnF9hNd0Qs88EXuKJZ8,189425
+xtremcache-2.2.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+xtremcache-2.2.0.dist-info/METADATA,sha256=MTe3f7p_4mDfz5ICgMmv2mku1qwaaTnjRUnQBGe5spA,5399
+xtremcache-2.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xtremcache-2.2.0.dist-info/entry_points.txt,sha256=k2Ictvc3mYLBq1Kq9GcVbHA1_rnKXzQzBkTSfB-lxJw,56
+xtremcache-2.2.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xtremcache-2.2.0.dist-info/RECORD,,
