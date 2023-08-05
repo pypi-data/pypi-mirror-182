@@ -1,0 +1,98 @@
+[tool.poetry]
+name = "yaenv"
+version = "1.4.3.post2"
+readme = "README.rst"
+license = "BSD-3-Clause"
+description = "Yet another dotenv parser for Python."
+homepage = "https://github.com/ObserverOfTime/yaenv"
+documentation = "https://yaenv.readthedocs.io"
+authors = [
+    "ObserverOfTime <chronobserver@disroot.org>",
+]
+keywords = [
+    "12factor",
+    "config",
+    "configuration",
+    "django",
+    "dotenv",
+    "environment",
+    "variables",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[[tool.poetry.packages]]
+include = "yaenv"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.991"
+pylint = "^2.15.9"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+pytest-pspec = "^0.0.4"
+sphinx = "~5.1.1"
+sphinx-rtd-theme = "^1.1.1"
+
+[tool.poetry.dev-dependencies."pydocstyle"]
+version = "^6.1.1"
+extras = ["toml"]
+
+[tool.poetry.urls]
+"Bug tracker" = "https://github.com/ObserverOfTime/yaenv/issues"
+"Donations" = "https://github.com/sponsors/ObserverOfTime"
+
+[tool.coverage]
+run = {source = ["yaenv"]}
+report = {fail_under = 90}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+required_plugins = ["pytest-cov", "pytest-pspec"]
+addopts = ["--pspec", "--cov", "--cov-report=term"]
+filterwarnings = ["ignore:NotImplemented:DeprecationWarning"]
+
+[tool.pylint.message_control]
+max-line-length = 80
+disable = [
+    "no-member",
+    "invalid-name",
+    "too-many-branches",
+    "wrong-import-order",
+    "raise-missing-from",
+    "unspecified-encoding",
+    "undefined-loop-variable",
+    "unsupported-assignment-operation"
+]
+
+[tool.pydocstyle]
+convention = "numpy"
+add-select = "D213,D415,D417"
+
+[tool.mypy]
+pretty = true
+strict = true
+warn_return_any = false
+allow_any_generics = true
+
+[tool.isort]
+balanced_wrapping = true
+combine_as_imports = true
+default_section = "THIRDPARTY"
+length_sort = false
+multi_line_output = 6
+
+[build-system]
+requires = ["poetry>=1.1"]
+build-backend = "poetry.masonry.api"
