@@ -1,0 +1,11 @@
+gradescope_auto_py/__init__.py,sha256=Fl8M1axlMBAGxkHPq8zfjlkRF6HHhrIIWA7upGvlc5s,106
+gradescope_auto_py/assert_for_pts.py,sha256=Xq4_SVxZQdzxbCbUGA_N6OsjknIKNdrzz2x0ebTpi8Y,3075
+gradescope_auto_py/grader.py,sha256=vMPdD3uuyliZiEJauctkfIlQ_9RZX7MGq-xM34thFhY,8930
+gradescope_auto_py/grader_config.py,sha256=VUBp1nBW4nHdRScvUsbUBfWG7nI1pijvdfWpyFMbGtg,1629
+gradescope_auto_py/visibility.py,sha256=_hm7ErN-b1foydeWIYMVYS1DFM_ElYQIc68ryb0EGKU,1424
+gradescope_auto_py/gradescope/__init__.py,sha256=BeWn-jGxdloUdVaFkTnJci113UtNqJ0lRAdxjL-lg3Y,26
+gradescope_auto_py/gradescope/build_auto.py,sha256=NB-TMFFFk5rqtAA5ZUHcBOhIjidw5r-x_5DRDIVurCM,2925
+gradescope_auto_py-0.0.4.dist-info/METADATA,sha256=4dO3zWOxDJR9vuBvDRS7LpkAyPq0kCB4DueuVAY1MOU,3918
+gradescope_auto_py-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gradescope_auto_py-0.0.4.dist-info/top_level.txt,sha256=gKLM4agpXKiXRZdwgrO3wT808Sd_Zijg7tzTIEmIHrY,19
+gradescope_auto_py-0.0.4.dist-info/RECORD,,
