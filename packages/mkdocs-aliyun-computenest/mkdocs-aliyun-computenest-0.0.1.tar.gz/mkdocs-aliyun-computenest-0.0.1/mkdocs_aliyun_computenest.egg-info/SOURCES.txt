@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+aliyun_computenest/__init__.py
+mkdocs_aliyun_computenest.egg-info/PKG-INFO
+mkdocs_aliyun_computenest.egg-info/SOURCES.txt
+mkdocs_aliyun_computenest.egg-info/dependency_links.txt
+mkdocs_aliyun_computenest.egg-info/entry_points.txt
+mkdocs_aliyun_computenest.egg-info/not-zip-safe
+mkdocs_aliyun_computenest.egg-info/top_level.txt
