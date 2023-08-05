@@ -1,0 +1,3 @@
+[console_scripts]
+bk_ctrl=bk.bk_demo:cli
+
