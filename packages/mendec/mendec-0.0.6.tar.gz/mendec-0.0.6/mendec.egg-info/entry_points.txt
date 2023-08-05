@@ -1,0 +1,2 @@
+[console_scripts]
+mendec = mendec.__main__:main
