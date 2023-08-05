@@ -1,0 +1,10 @@
+streamlit_qrcode_scanner/__init__.py,sha256=mNT0qDMsqsVi0uDlgLuZYTELXmHx4R70m2bPOZ57KGU,1137
+streamlit_qrcode_scanner/frontend/html5-qrcode.min.js,sha256=7n1RQ9Ddl7gtnO79Nr788A4bbOa6LBWhcTrI-kQWjkE,374153
+streamlit_qrcode_scanner/frontend/index.html,sha256=RkYbGzLKYwi_SpyprRNK_y4wh18j5cl-gdQdHRFxZRs,541
+streamlit_qrcode_scanner/frontend/main.js,sha256=QTe_sZLRNc28WwAGH3VXREeVSGn9b0Hd-rSgSiJh3BI,11818
+streamlit_qrcode_scanner/frontend/streamlit-component-lib.js,sha256=PrW1whzU3JttxfjrZfAFpgxMjigm8N9Rc-a0cCz7aQ4,1183
+streamlit_qrcode_scanner-0.1.1.dist-info/LICENSE,sha256=XY9lIelFOJYcUZJBgkeEbHGM2rPitLK66jPUwbds6Rc,1073
+streamlit_qrcode_scanner-0.1.1.dist-info/METADATA,sha256=K9AG8PKFTKG_u9hEsetpvq-gw0rnYACYUfNIu5k5AMI,718
+streamlit_qrcode_scanner-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streamlit_qrcode_scanner-0.1.1.dist-info/top_level.txt,sha256=NRsheFg8t3V4LdXqETR-mqPetLYP1w8xb7UAhkVAYEA,25
+streamlit_qrcode_scanner-0.1.1.dist-info/RECORD,,
