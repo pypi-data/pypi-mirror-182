@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: smat
+Version: 0.2.0
+Summary: A Python client for SMAT's API
+Home-page: https://github.com/nwithan8/SMAT-API
+Download-URL: https://github.com/nwithan8/SMAT-API/archive/refs/tags/0.2.0.tar.gz
+Author: Nate Harris
+Author-email: n8gr8gbln@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: SMAT,analysis,social media,tool,online,API
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: objectrest (==2.0.*)
+Requires-Dist: packaging (==21.3.*)
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest-cov (==3.*) ; extra == 'dev'
+Requires-Dist: pytest-vcr (==1.*) ; extra == 'dev'
+Requires-Dist: pytest (==7.*) ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: types-urllib3 ; extra == 'dev'
+Requires-Dist: vcrpy (==4.*) ; extra == 'dev'
+
+# SMAT
+A Python API wrapper for the [Social Media Analysis Toolkit](https://www.smat-app.com/timeline)
+
+# Installation:
+- Clone this repo with ``git clone https://github.com/nwithan8/SMAT-API.git`` or install from PyPi with ``pip install smat``
+- Import into your project with ``from smat import API``
+
+# Usage:
+This library currently supports the three main methods of [SMAT's API](https://api.smat-app.com/docs#):
+
+- ``get_content``: Get a list of posts from a specific outlet
+- ``get_activity``: Aggregate based on a particular field on a specific outlet
+- ``get_time_series``: Get a time series for a specific outlet
+
+- ``term`` is a required parameter for each field. 
+- ``site``is a required parameter for each field. You can use the predefined enums in ``smat.Site`` or provide your own string.
+  - NOTE: IF you provide an invalid site, you will receive an empty JSON body back from the API.
+- All other parameters are optional or have preset defaults.
+
+Docs coming soon. PRs welcome.
