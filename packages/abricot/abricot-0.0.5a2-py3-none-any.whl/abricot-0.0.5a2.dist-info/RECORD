@@ -1,0 +1,12 @@
+abricot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abricot/abr_path/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abricot/abr_path/transform.py,sha256=-XOK74zl8QRGsn5hhdwVpux5Vs1AHqgg3neNw7ElZF8,255
+abricot/abr_random/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abricot/abr_random/abr_string.py,sha256=P8pmloufnXclAxp4bBYTvZEM-_MVOixvbQTVQCu334k,623
+abricot/abr_thread/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abricot/abr_thread/daemon.py,sha256=crbA1IHnu0OCYVbpcP7rGnD4g2SDj56yN-4qOcJkIPo,139
+abricot-0.0.5a2.dist-info/LICENSE,sha256=J99J4hTQtubHUrnVbPbR9zAsk4wW4GEVbtiLDpZce3o,1091
+abricot-0.0.5a2.dist-info/METADATA,sha256=OsZjZoAVymASOQVqbJp-EfjNTipd_Xfj0Hl9dgIp4H4,406
+abricot-0.0.5a2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+abricot-0.0.5a2.dist-info/top_level.txt,sha256=uWUPCNpuqmXn-eOeh9kERd7cD_GwbszSYhUpQojqwpg,8
+abricot-0.0.5a2.dist-info/RECORD,,
