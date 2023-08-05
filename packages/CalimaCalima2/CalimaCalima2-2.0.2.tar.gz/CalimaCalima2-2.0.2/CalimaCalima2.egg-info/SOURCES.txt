@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+CalimaCalima2.egg-info/PKG-INFO
+CalimaCalima2.egg-info/SOURCES.txt
+CalimaCalima2.egg-info/dependency_links.txt
+CalimaCalima2.egg-info/entry_points.txt
+CalimaCalima2.egg-info/requires.txt
+CalimaCalima2.egg-info/top_level.txt
+pycalima/Calima.py
+pycalima/__init__.py
+pycalima/cmdline.py
