@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ScalableWriter.egg-info/PKG-INFO
+ScalableWriter.egg-info/SOURCES.txt
+ScalableWriter.egg-info/dependency_links.txt
+ScalableWriter.egg-info/top_level.txt
+scalable/__init__.py
+scalable/main.py
+scalable/nodes.py
