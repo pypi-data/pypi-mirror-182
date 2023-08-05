@@ -1,0 +1,4 @@
+cryptography>=3.5
+impacket
+lxml
+pyasn
