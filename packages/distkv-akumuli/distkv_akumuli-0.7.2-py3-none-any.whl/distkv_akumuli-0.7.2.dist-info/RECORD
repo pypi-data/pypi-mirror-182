@@ -1,0 +1,10 @@
+distkv_ext/akumuli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distkv_ext/akumuli/_config.yaml,sha256=c5ZDy6V22IA9hKulA6M64wTUHDJsDIzilQb627w9Svg,108
+distkv_ext/akumuli/client.py,sha256=SucGNO6LxNoCJ7tSyKoXO0UEEFwk1lpbHdzaAH8BNL8,5570
+distkv_ext/akumuli/model.py,sha256=XLrO1--drmgD6OSmGuZEc0EVbYwu-jFsq1smKj5RTSc,6980
+distkv_ext/akumuli/task.py,sha256=5l0d-cKCJ66aM7CJpzsbG0j4V50YsBRl4e6lMA-tLI0,2243
+distkv_akumuli-0.7.2.dist-info/METADATA,sha256=4eD6vvIzl5Jsgm3-BOlqpcOtZoqah2FF3Ndk3wyM2pQ,1194
+distkv_akumuli-0.7.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+distkv_akumuli-0.7.2.dist-info/top_level.txt,sha256=ShoEI2BVeROA0C05-6zL3D5TO6x4NFM1mmseokgRjdM,11
+distkv_akumuli-0.7.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+distkv_akumuli-0.7.2.dist-info/RECORD,,
