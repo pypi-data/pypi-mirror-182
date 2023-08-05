@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: archreactorpy
+Version: 0.3.8
+Summary: A sample test package
+Home-page: https://bitbucket.trimble.tools/users/aravinth_karthikeyan_trimble.com/repos/javacodex/archreactorpy/
+Author: Arch Reactor
+Author-email: nobody@nobody.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+testing
