@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['newertype']
+
+package_data = \
+{'': ['*']}
+
+setup_kwargs = {
+    'name': 'newertype',
+    'version': '0.1.0',
+    'description': 'An Implementation of the NewType Pattern for Python that works in dynamic contexts.',
+    'long_description': '# newertype\n\nAn Implementation of the NewType Pattern for Python that works in dynamic contexts.\n\n## What is it?\n\n`NewerType` is a package that provides a semi-transparent wrapper to an existing type that allows it to be used\nmostly as if it\'s just the wrapped type, but which allows type checking as if it\'s a distinct type at runtime.\n\nWith the addition to Python of [PEP 483](https://peps.python.org/pep-0483/),\n[PEP 484](https://peps.python.org/pep-0484/), & the\n[typing](https://docs.python.org/3/library/typing.html#module-typing) package, Python added support for type\nhints. That included an implementation of the Haskell [`newtype`](https://wiki.haskell.org/Newtype) which was\ncleverly called `NewType`.\nAs explained in [the documentation](https://docs.python.org/3/library/typing.html#typing.NewType),\nPython\'s `NewType` is, like most of the\ntyping library, meant for use by static type checkers. This means that, when the code is running, the _Newness_ of\nthe type is erased, leaving just the wrapped type & no way to tell that there was ever a `Newtype`, either by\nthe code or by Python itself.\n\n`NewerType` provides the same kind of wrapper as `NewType`, but allows (& enforces) type checking at runtime.\nthis means, for example, that if you wrap an `int` in a `NewerType`, you can do all of the arithmetic &\ncomparison operations on an instance of that type that you could with a normal `int` with either different\ninstances of that type, or `int`s. But you will not be able to mix _different_ `NewerType`s, even if they\nall wrap `int`s.\n\nThis allows you to never have to worry if you are adding `Miles` to `Kilometers`, or mixing up a `UserName`\nwith a `Password`.\n\n### Main Features\n\n* A wrapper that allows dynamic type checking while mostly not getting in the way\n* Carries type information with the object so you can always use `isinstace()` or `type()` to know what it is\n* Forwards the magic methods from the wrapped object so things like arithmetic or indexing work\n* Allows you to customize what methods are forwarded\n* No dependencies!\n\n## Installation\n\nCurrent stable version (**not yet!**):\n```shell\npip install newertype\n```\n\nNewest thing on GitHub:\n```shell\npip install git+https://github.com/evanjpw/newertype.git\n```\n\n## Usage\n\nBasic usage:\n\n```python\nfrom newertype import NewerType\n\nAType = NewerType("AType", int)  # `AType` is a new type that wraps an int\na_type = AType(14)  # Make an instance of this new type\nisinstance(a_type, AType)  # `a_type` is an `AType`\n# Returns: True\nisinstance(a_type, int)  # `a_type` is _NOT_ an `int`\n# Returns: False\nstr(a_type.__class__.__name__) == "AType"\n# Returns: True\n```\n\nYou can use the new type as if it\'s the wrapped type:\n\n```python\nAType = NewerType("AType", int)  # Let\'s make some types!\na_type_1 = AType(7)\na_type_2 = AType(7)  # Two different instances with the same class\na_type_1 == a_type_2  # You can compare them as if they were just `int`s\n# Returns: True\n\nEType = NewerType("EType", int)\ne_type_1 = EType(7)\ne_type_2 = EType(14)\ne_type_2 > e_type_1  # All of the `int` operations work\n# Returns: True\na_type_1 != e_type_1  # But different types are not equal, even if the wrapped value is\nReturns: False\n\nIType = NewerType("IType", int)\nJType = NewerType("JType", int)\ni_type_1 = IType(7)\ni_type_2 = IType(14)\ni_type_1 + i_type_2  # Arithmetic works!\n# Returns: 21\n\nj_type_1 = JType(7)\ni_type_1 + j_type_1  # But not if you try to mix `NewerType`s\n# "TypeError: unsupported operand type(s) for +: \'IType\' and \'JType\'"\nint(i_type_1) < int(i_type_2)  # Conversions that work for the inner type work also\n# Returns: True\n```\n\nAccessing the wrapped data directly:\n\n```python\na_type = AType(14)\na_type.inner  # the `inner` property gets the contained value\n# Returns: 14\na_type.inner = 27  # `inner` can also be used to modify the value\na_type.inner\n# Returns: 27\n```\n\nThe "truthiness" & string representations are sensible:\n\n```python\nSType = NewerType("SType", float)\ns_type = SType(2.71828182845904523536028747135266249775724709369995)\nstr(s_type)\n# Returns: "SType(2.718281828459045)"\nrepr(s_type)\n# Returns: "SType(2.718281828459045)"\nbool(s_type)\n# Returns: True\nbytes(s_type)  # `bytes only works if it works with the wrapped type\n# "TypeError: cannot convert \'float\' object to bytes"\n\ns_type.inner = 0.0\nbool(s_type)\n# Returns: False\n```\n\n## TBD\n\n## Project Resources\n\n* Documentation - TBD\n* Issue tracker - TBD\n* Source code - TBD\n* Change log - TBD\n\n## License\n\nLicensed under the [MIT LICENSE](https://www.mit.edu/~amini/LICENSE.md)\n',
+    'author': 'Evan Williams',
+    'author_email': 'ejw@fig.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/evanjpw/newertype',
+    'packages': packages,
+    'package_data': package_data,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
