@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: AliProductExtractor
+Version: 0.1
+Summary: It will get the product data from ali express
+Home-page: https://github.com/BadarSaghir/AliProductExtractor
+Author: Sardar Badar Saghir
+Author-email: dataentrybadar@gmail.com
+License: MIT
+Download-URL: https://github.com/BadarSaghir/AliProductExtractor/releases/download/0.1/AliProductExtractor.zip
+Description: UNKNOWN
+Keywords: Ali express,Ali  express product,Ali express product scraper,scraper Ali express,scraper,extractor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.10
