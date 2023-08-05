@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+life_span_storage/LifeSpanStorage.py
+life_span_storage/__init__.py
+life_span_storage/_imports_.py
+life_span_storage/life_span_storage.min.js
+life_span_storage/life_span_storage.min.js.map
+life_span_storage/metadata.json
+life_span_storage/package-info.json
+life_span_storage.egg-info/PKG-INFO
+life_span_storage.egg-info/SOURCES.txt
+life_span_storage.egg-info/dependency_links.txt
+life_span_storage.egg-info/top_level.txt
