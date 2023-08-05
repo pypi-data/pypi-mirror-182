@@ -1,0 +1,14 @@
+attrs
+croniter
+maya
+parsimonious
+pytimeparse
+snaptime
+sortedcontainers
+
+[dev]
+build
+hypothesis
+pytest
+tidypy
+twine
