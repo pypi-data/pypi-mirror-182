@@ -1,0 +1,5 @@
+setup.py
+KhoHelloPkg.egg-info/PKG-INFO
+KhoHelloPkg.egg-info/SOURCES.txt
+KhoHelloPkg.egg-info/dependency_links.txt
+KhoHelloPkg.egg-info/top_level.txt
