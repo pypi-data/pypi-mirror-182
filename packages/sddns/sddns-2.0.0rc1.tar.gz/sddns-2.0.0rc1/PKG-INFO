@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sddns
+Version: 2.0.0rc1
+Summary: Build DNS records by Python scripts
+Home-page: https://github.com/baobao1270/sddns.git
+License: MIT
+Keywords: dns
+Author: Joseph Chris
+Author-email: joseph@josephcz.xyz
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: octodns (>=0.9.21,<0.10.0)
+Project-URL: Documentation, https://github.com/baobao1270/sddns-template
+Project-URL: Repository, https://github.com/baobao1270/sddns.git
+Description-Content-Type: text/markdown
+
+# Software Defined DNS (SD-DNS)
+Build DNS records by Python scripts. This script can gernerate yaml for OctoDNS.
+
+Usage can be found in https://github.com/baobao1270/sddns-template
+
+## License
+MIT
+
