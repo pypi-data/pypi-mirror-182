@@ -1,0 +1,52 @@
+repos:
+#  -   repo: https://github.com/jacobdonenfeld/gitlab-linters
+#      rev: v1.0.0
+#      hooks:
+#        -   id: remove-crlf
+  -   repo: https://github.com/psf/black
+      rev: 22.12.0
+      hooks:
+      -     id: black
+  -   repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v4.4.0
+      hooks:
+        -   id: trailing-whitespace
+        -   id: check-ast  # Check whether files parse as valid python
+        -   id: name-tests-test  # verifies that test files are named correctly
+        -   id: requirements-txt-fixer  # sort requirements.txt
+        -   id: check-builtin-literals
+        -   id: check-case-conflict
+        -   id: detect-private-key
+  -   repo: https://github.com/asottile/pyupgrade
+      rev: v3.3.1
+      hooks:
+      -     id: pyupgrade
+            args: [ --py37-plus ]
+  -   repo: https://github.com/PyCQA/flake8
+      rev: 6.0.0
+      hooks:
+      -     id: flake8
+#  -   repo: local
+#      hooks:
+#        -   id: pylint
+#            stages: [commit]
+#            name: pylint
+#            entry: pylint
+#            require_serial: true
+#            language: system
+#            types: [ python ]
+#            args:
+#              [
+#                "-rn", # Only display messages
+#                "-sn", # Don't display the score
+#                "--rcfile=.pylintrc", # Link to your config file
+#                "--exit-zero"
+#              ]
+#        -   id: py.test
+#            stages: [ commit ]
+#            name: py.test
+#            additional_dependencies: ['pytest']
+#            language: python
+#            entry: py.test
+#            pass_filenames: false
+#            always_run: true
