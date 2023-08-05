@@ -1,0 +1,9 @@
+
+class ether_addr:
+	''' 48 bit ethernet address '''
+
+	def __init__(self, MAC: str) -> None: ...
+	def __repr__(self) -> str: ...
+	def __str__(self) -> str: ...
+
+

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ether-addr
+Version: 0.1.0
+Summary: 48 bit ethernet address
+Author: skrab-sah
+Author-email: skrab.sah@gmail.com
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 48 bit ethernet address
+
+This package will help you in maintaining 48 bit ethernet address also known as MAC address.
+
+## How to install it?
+
+## On Linux
+
+``` pip install ether_addr ```
+
+## How to use it?
+
+### Initialize Package
+
+``` from ether_addr import ether_addr ```
+
+# documentation is in it's script.
+
+
+## On any issue.
+### e-mail me on: skrab.sah@gmail.com
