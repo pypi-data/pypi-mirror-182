@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reminder/VERSION.txt
+reminder/__info__.py
+reminder/__init__.py
+reminder/__main__.py
+reminder_detector.egg-info/PKG-INFO
+reminder_detector.egg-info/SOURCES.txt
+reminder_detector.egg-info/dependency_links.txt
+reminder_detector.egg-info/entry_points.txt
+reminder_detector.egg-info/requires.txt
+reminder_detector.egg-info/top_level.txt
