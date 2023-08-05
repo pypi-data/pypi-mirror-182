@@ -1,0 +1,2 @@
+[console_scripts]
+drawio = drawio.__main__:main
