@@ -1,0 +1,63 @@
+{
+  "src/lib/components/IosScrollWrapper.react.js": {
+    "description": "",
+    "displayName": "IosScrollWrapper",
+    "methods": [
+      {
+        "name": "scroll",
+        "docblock": "\u30b9\u30af\u30ed\u30fc\u30eb\u4e2d",
+        "modifiers": [],
+        "params": [],
+        "returns": null,
+        "description": "\u30b9\u30af\u30ed\u30fc\u30eb\u4e2d"
+      },
+      {
+        "name": "touchStart",
+        "docblock": "\u30bf\u30c3\u30c1\u958b\u59cb",
+        "modifiers": [],
+        "params": [],
+        "returns": null,
+        "description": "\u30bf\u30c3\u30c1\u958b\u59cb"
+      },
+      {
+        "name": "touchEnd",
+        "docblock": "\u30bf\u30c3\u30c1\u7d42\u4e86",
+        "modifiers": [],
+        "params": [],
+        "returns": null,
+        "description": "\u30bf\u30c3\u30c1\u7d42\u4e86"
+      },
+      {
+        "name": "setScrollTop",
+        "docblock": "\u30b9\u30af\u30ed\u30fc\u30eb\u4f4d\u7f6e\u8a2d\u5b9a\r\n@returns",
+        "modifiers": [],
+        "params": [],
+        "returns": null,
+        "description": "\u30b9\u30af\u30ed\u30fc\u30eb\u4f4d\u7f6e\u8a2d\u5b9a"
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
