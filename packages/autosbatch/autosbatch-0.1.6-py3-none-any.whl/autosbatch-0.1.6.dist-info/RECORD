@@ -1,0 +1,11 @@
+autosbatch/__init__.py,sha256=WgrVgqMa2jAKL61zcap2541ldF-dU2VzzlpeqZ3BSwQ,176
+autosbatch/autosbatch.py,sha256=6_QesGA6x_bzmrBdPqmQhsWMcK9Ye5WTHi662Qx9BQY,10879
+autosbatch/cli.py,sha256=xhn9u0xYptEbTLgfPyp3mHu6DNdO735Ho9B0B_tQOTA,3545
+autosbatch/logger.py,sha256=Huxrsh_dTM3hOSMilSeJgqRiEnCG7L7r8kZv8jMV58g,298
+autosbatch/template/CPU_MPI.j2,sha256=NCooWsqFzSliyPQLze3ji4MtmGTukTTw2Z4hQ8JaLwA,1745
+autosbatch/template/CPU_OpenMP.j2,sha256=Z95_f9M3rp5QDc_uhvH-jk8AfzdImXXN9dGsjLNWOKE,516
+autosbatch-0.1.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+autosbatch-0.1.6.dist-info/entry_points.txt,sha256=v0oJ5IkpOkmq-Y187EB6B6Xs84IGh0eWHHZqSC99KgA,49
+autosbatch-0.1.6.dist-info/LICENSE,sha256=90FBfkSOiVCt1va6ViA2OYNvUKc9W3Wphh1kCbOopZM,1070
+autosbatch-0.1.6.dist-info/METADATA,sha256=eym9rb5Xv6ndYDdiHfxT5ycUv-brjGmsq6pqzzPvGX8,4227
+autosbatch-0.1.6.dist-info/RECORD,,
