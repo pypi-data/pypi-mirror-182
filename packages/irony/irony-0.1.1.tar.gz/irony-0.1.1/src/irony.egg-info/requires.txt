@@ -1,0 +1,9 @@
+astroalign
+astropy
+matplotlib
+mpl_point_clicker
+numpy
+pandas
+photutils
+pyraf
+sep
