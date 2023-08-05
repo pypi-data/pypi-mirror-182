@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: trice
+Version: 0.0.0
+Summary: A catchall personal package
+Project-URL: Homepage, https://github.com/tpillars/trice
+Project-URL: Bug Tracker, https://github.com/tpillars/trice/issues
+Author-email: Teresa Rice <teresapillars@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# TRICE
+
+This is a catchall personal package. 
+Notes:
+Use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write content.
