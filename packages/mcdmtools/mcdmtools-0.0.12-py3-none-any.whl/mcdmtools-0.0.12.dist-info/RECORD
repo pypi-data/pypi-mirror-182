@@ -1,0 +1,10 @@
+mcdm/__init__.py,sha256=pENwTIvIHjp2MBitMeE_prua3oZFixA0B0wWuh1XS6c,11
+mcdm/electre.py,sha256=-FeRjjbiGH3IKlxTeO80Eor5Tk7i8kJoU_V3eOPWgCA,4078
+mcdm/merec.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcdm/normalization.py,sha256=-HT50_raI5TIk6ORg1kaazNRYRQHk9Mup5taNV4IqYU,2867
+mcdm/topsis.py,sha256=C0lNVnsId07TX5xGDdYDuJEWDHiEzrrjLFTtgQ88KGc,1911
+mcdmtools-0.0.12.dist-info/LICENSE,sha256=QN7_5psr5H-OH85-YegFD4u4JyAkJo4zd4piujMBE_8,1075
+mcdmtools-0.0.12.dist-info/METADATA,sha256=YoyW5f03ATxsoQNsHUFrK7hljRGKdA2oYMlTEm22iM4,503
+mcdmtools-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mcdmtools-0.0.12.dist-info/top_level.txt,sha256=iC4AXT1ykKMgYa7kDmiuRHET0Bg2_H48NvbQHvLISzg,5
+mcdmtools-0.0.12.dist-info/RECORD,,
