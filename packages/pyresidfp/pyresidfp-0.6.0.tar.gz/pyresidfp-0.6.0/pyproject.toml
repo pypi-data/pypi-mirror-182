@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools>=65.6.0",
+    "wheel>=0.38.0",
+    "pybind11>=2.10.0",
+    "cmake>=3.25.0",
+    "scikit-build>=0.16.0",
+    "ninja>=1.11.0",
+    "setuptools-git-versioning<2",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
