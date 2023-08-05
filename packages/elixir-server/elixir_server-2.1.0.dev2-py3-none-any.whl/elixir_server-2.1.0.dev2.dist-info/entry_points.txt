@@ -1,0 +1,2 @@
+[console_scripts]
+elixir-server = elixir_server.serverapp:main
