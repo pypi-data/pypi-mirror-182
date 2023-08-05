@@ -1,0 +1,10 @@
+nmrtoolbox/__init__.py,sha256=cQrhJSRrPvCPeOMmH9QEpJic4krRKsRHqX22ZMpd_y4,86
+nmrtoolbox/mask.py,sha256=FfIkL33Bl-eVk4zYJgpwYBeMc1Wiuyn9OJj_YXTvbZI,11321
+nmrtoolbox/peak.py,sha256=Cvft_I80ixEgihK89BH0V_VpbI88Q0Tq9zwgxOfiB7E,27708
+nmrtoolbox/roc.py,sha256=fdSI_QRqrSdSxb0nBVo8PVI0ir6d92K7OqfdE81SW74,21643
+nmrtoolbox/util.py,sha256=tbnxp8mw10bzXyN0rRMTKEMcQDg-tQs7RDwvfXGuKO4,8565
+nmrtoolbox-9.2.dist-info/METADATA,sha256=5uzkSK4OLRgZWuJegTJM9fblo7IEqIYLN2LcNNSyY9I,3279
+nmrtoolbox-9.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+nmrtoolbox-9.2.dist-info/entry_points.txt,sha256=tkXX1AAFfNlwSqu5I0RPOMaL3LURrkdXyUlFbCC3jaA,55
+nmrtoolbox-9.2.dist-info/licenses/LICENSE,sha256=K6PGRxmD4gJN0iSeM7CWTvaa5aGBhImQm1lJfs94PR0,1182
+nmrtoolbox-9.2.dist-info/RECORD,,
