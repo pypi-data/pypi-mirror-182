@@ -1,0 +1,8 @@
+requests<3
+traversify
+attrs>=19.2,<20
+python-json-logger< 0.2
+netaddr
+result
+traversify
+typing_extensions

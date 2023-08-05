@@ -1,0 +1,49 @@
+image: python:3.8
+
+stages:
+- black
+- unittest
+- build
+- publish
+
+black:
+  stage: black
+  before_script:
+  - pip install black
+  script:
+  - black --check .
+  except:
+    - tags
+
+unittest:
+  before_script:
+  - pip install tox 
+  stage: unittest
+  script: tox
+  except:
+  - tags
+
+build:
+  stage: build
+  script: 
+  - python3 setup.py bdist_wheel 
+  artifacts: 
+    paths:
+    - dist/*.whl
+  except:
+  - tags
+
+publish_to_lab:
+  before_script:
+  - pip install twine
+  stage: publish
+  script:
+  - twine upload dist/* --skip-existing
+  environment:
+    name: lab
+    url: $LAB_PYPI
+  dependencies:
+  - build
+  only:
+  - tags
+  - master
