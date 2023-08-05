@@ -1,0 +1,2 @@
+[console_scripts]
+hxfile3 = hxfile.__main__:usage

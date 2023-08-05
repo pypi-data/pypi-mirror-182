@@ -1,0 +1,12 @@
+README.md
+setup.py
+hxfile/__main__.py
+hxfile/__meta__.py
+hxfile/hxfile.py
+hxfile/logger.py
+hxfile.egg-info/PKG-INFO
+hxfile.egg-info/SOURCES.txt
+hxfile.egg-info/dependency_links.txt
+hxfile.egg-info/entry_points.txt
+hxfile.egg-info/requires.txt
+hxfile.egg-info/top_level.txt

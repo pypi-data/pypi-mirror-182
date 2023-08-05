@@ -1,0 +1,8 @@
+unidecode
+configset
+parserheader
+requests
+bs4
+bitmath
+clipboard
+make_colors
