@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "vhpy"
+version = "0.1.2"
+description = "V&H (or 'V and H' or 'VH') Coordinates in Python"
+authors = ["Paul Pomerleau", "Kurt Abersold <kurtabersold@gmail.com>"]
+maintainers = ["Kurt Abersold <kurtabersold@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/kurtabersold/vhpy"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 99
+
+[tool.coverage.run]
+branch = true
+source = [
+    "vhpy",
+]
+
+[tool.coverage.report]
+fail_under = 85
+precision = 2
+show_missing = true
+exclude_lines = [
+    "if __name__ == .__main__.:"
+]
+
+[tool.pytest.ini_options]
+minversion = "7.2"
+addopts = "--cov"
+testpaths = [
+    "tests",
+]
