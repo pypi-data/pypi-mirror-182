@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pykeychain
+Version: 1.1.0
+Summary: Library for adding, getting and removing simple passwords from macos keychain.
+Home-page: https://github.com/elisey/pykeychain
+License: MIT
+Author: Elisei
+Author-email: elisey.rav@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: sh (>=1.14.3,<2.0.0)
+Project-URL: Repository, https://github.com/elisey/pykeychain
+Description-Content-Type: text/markdown
+
+# pykeychain
+
+[![Python package](https://github.com/elisey/pykeychain/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/elisey/pykeychain/actions/workflows/python-package.yml)
+
+Library for adding, getting and removing simple passwords from macos keychain.
