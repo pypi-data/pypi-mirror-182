@@ -1,0 +1,4 @@
+[console_scripts]
+o2wb-export=o2wb.export:main
+o2wb-import=o2wb.import:main
+
