@@ -1,0 +1,12 @@
+stactools/esa_cci_lc/__init__.py,sha256=1TwNmc-vddhmdkQegkZEqOunxoddhL9MsXg38IpwGMA,402
+stactools/esa_cci_lc/classes.py,sha256=HJImC6dC8HznoI00ctZQ0QgeeYCH7yBJiwM92m042as,5183
+stactools/esa_cci_lc/cog.py,sha256=w57ggGgFo_H1cuh8terXEXhKas0pmaXA1Rdl3nJnOy0,6440
+stactools/esa_cci_lc/commands.py,sha256=jZodgqGEHCx8IfSQ_Do-GgJtPnd51bIERX1jlNSUa_8,4182
+stactools/esa_cci_lc/constants.py,sha256=N7awHu5xsLCRgc1FOPTJi3XiDPnjvoYDdQMmCfF-_P4,5973
+stactools/esa_cci_lc/netcdf.py,sha256=qrS5FgCOhLUdd_2qNPE4GEvY2IbWySYYnshreU-CtKE,3892
+stactools/esa_cci_lc/stac.py,sha256=Co24edEQ94fCDCU46F51how2qbNKLCtgAApsq0L71rY,10714
+stactools_esa_cci_lc-0.1.0.dist-info/LICENSE,sha256=IRRRQBNP16YPBgr-j8ZhkG2ce2OzxMopr6IUIO6-TDM,662
+stactools_esa_cci_lc-0.1.0.dist-info/METADATA,sha256=FpMVtrZJY5M82RoenRAhrQMq6Rwv5EqRMpBy0c3KSQ0,4863
+stactools_esa_cci_lc-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stactools_esa_cci_lc-0.1.0.dist-info/top_level.txt,sha256=0eoUA-AbTfjFtxXr3W-vQdRyNmpGnA0wlTL3ppTPCG8,10
+stactools_esa_cci_lc-0.1.0.dist-info/RECORD,,
