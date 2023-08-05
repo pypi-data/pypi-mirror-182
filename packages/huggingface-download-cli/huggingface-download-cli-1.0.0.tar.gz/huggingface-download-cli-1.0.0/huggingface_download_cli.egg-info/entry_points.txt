@@ -1,0 +1,2 @@
+[console_scripts]
+hf_download = hf_download.main:main
