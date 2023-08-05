@@ -1,0 +1,6 @@
+keyring
+requests
+pyOpenSSL
+jsonschema
+future
+pyrsistent==0.16.0
