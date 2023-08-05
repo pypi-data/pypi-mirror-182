@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/margsoft.egg-info/PKG-INFO
+src/margsoft.egg-info/SOURCES.txt
+src/margsoft.egg-info/dependency_links.txt
+src/margsoft.egg-info/requires.txt
+src/margsoft.egg-info/top_level.txt
