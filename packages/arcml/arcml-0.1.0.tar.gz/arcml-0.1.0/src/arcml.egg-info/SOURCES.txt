@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/arcml.egg-info/PKG-INFO
+src/arcml.egg-info/SOURCES.txt
+src/arcml.egg-info/dependency_links.txt
+src/arcml.egg-info/top_level.txt
