@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+basecalculator/__init__.py
+mybasecalculator.egg-info/PKG-INFO
+mybasecalculator.egg-info/SOURCES.txt
+mybasecalculator.egg-info/dependency_links.txt
+mybasecalculator.egg-info/top_level.txt
