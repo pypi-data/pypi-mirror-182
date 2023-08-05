@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: CtfReader
+Version: 0.0.1
+Summary: Package that helps to read the Ctf files in python
+Home-page: https://github.com/TheAlixi/CtfReader
+Author: TheAlixi
+Author-email: korzunkirill76@gmail.com
+Project-URL: Bug Tracker, https://github.com/TheAlixi/CtfReader/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Ctf Reader
+## Installing
+
+**To install this package you need to type this command
+into console:**
+
+```
+pip install 
+```
+
+## Working
+
+### First you need to import the library
+
+```python
+import 
+```
+or
+```python
+from import CtfFile
+```
+
+### Create a Ctf File
+```python
+file = CtfFile("path to ctf file")
+```
+
+Or
+
+```python
+file = .CtfFile("path to ctf file")
+```
+
+### Get all text from the file
+
+```python
+file.getText()
+```
+
+### Get all text by lines
+
+```python
+file.getAllLines()
+```
+
+### Read the file and print to console
+
+```python
+file.read()
+```
