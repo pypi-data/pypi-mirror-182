@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+lexisnexisapi.egg-info/PKG-INFO
+lexisnexisapi.egg-info/SOURCES.txt
+lexisnexisapi.egg-info/dependency_links.txt
+lexisnexisapi.egg-info/top_level.txt
