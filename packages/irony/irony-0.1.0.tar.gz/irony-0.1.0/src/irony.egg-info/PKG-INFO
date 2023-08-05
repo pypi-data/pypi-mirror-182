@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: irony
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/mshemuni/irony
+Author: Mohammad S.Niaei
+Author-email: m.shemuni@gmail.com
+License: GPL
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Keywords: IRAF,Photometry,Python
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+
+UNKNOWN
+
