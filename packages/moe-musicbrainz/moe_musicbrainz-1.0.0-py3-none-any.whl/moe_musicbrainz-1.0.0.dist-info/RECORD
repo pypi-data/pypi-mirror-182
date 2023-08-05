@@ -1,0 +1,8 @@
+moe_musicbrainz/__init__.py,sha256=MKng__hufXyDV69hGm2hPxqI0r8i8Re15KGn4oyuQMI,588
+moe_musicbrainz/mb_cli.py,sha256=8CjYTqff9mn4-HfL6xP4XjDzEBaLIeoE8OEeH4PIJNU,3119
+moe_musicbrainz/mb_core.py,sha256=ozcyZJKeV5wy89nH4dX27WvHZqFy9qCzFzBWXydqyTs,16030
+moe_musicbrainz-1.0.0.dist-info/entry_points.txt,sha256=R6dq01ENT_SJ5NGx8Cpya24cuFEbpZSRKJ7-7G4lI3k,43
+moe_musicbrainz-1.0.0.dist-info/METADATA,sha256=LwbwvElB_NMFHoGWrClEbVcAFAwa8o4g2V8_qMNI64w,806
+moe_musicbrainz-1.0.0.dist-info/LICENSE,sha256=qqdbyx8Qz8tDUCWC1Fk4n0ZUgy6WnuLaR-F2LlZXUAA,1065
+moe_musicbrainz-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+moe_musicbrainz-1.0.0.dist-info/RECORD,,
