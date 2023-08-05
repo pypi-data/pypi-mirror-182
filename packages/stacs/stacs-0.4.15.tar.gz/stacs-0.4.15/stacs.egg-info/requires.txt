@@ -1,0 +1,12 @@
+click<9.0,>=8.1.0
+yara-python<5.0,>=4.2.0
+pydantic<2.0,>=1.10.0
+colorama<1.0,>=0.4.0
+zstandard<1.0,>=0.18.0
+
+[development]
+tox
+black
+flake8
+isort
+pybind11
