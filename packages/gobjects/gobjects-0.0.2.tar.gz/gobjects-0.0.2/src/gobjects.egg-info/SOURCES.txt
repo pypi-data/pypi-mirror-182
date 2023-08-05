@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/gobjects.egg-info/PKG-INFO
+src/gobjects.egg-info/SOURCES.txt
+src/gobjects.egg-info/dependency_links.txt
+src/gobjects.egg-info/requires.txt
+src/gobjects.egg-info/top_level.txt
