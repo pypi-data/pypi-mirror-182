@@ -1,0 +1,8 @@
+setup.py
+rexan/__init__.py
+rexan/core.py
+rexan.egg-info/PKG-INFO
+rexan.egg-info/SOURCES.txt
+rexan.egg-info/dependency_links.txt
+rexan.egg-info/top_level.txt
+rexan.egg-info/zip-safe
