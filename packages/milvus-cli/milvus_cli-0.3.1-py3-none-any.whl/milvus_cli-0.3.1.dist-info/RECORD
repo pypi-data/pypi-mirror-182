@@ -1,0 +1,15 @@
+examples/import_csv/generate_vectors.py,sha256=nK9-QqJOL3ZsRWN_WA-cLT6p-dtzQ8djTKtgkkoEJrU,367
+milvus_cli/Fs.py,sha256=ym52h6CHGh7VynE83iLNYHZ7y1jtOgZWx-iad6-GpiM,3976
+milvus_cli/Types.py,sha256=PJ-XULuHvI9e0BGBruAt9UO3ufaUuMfhes9bfwEYnfI,2384
+milvus_cli/Validation.py,sha256=BEfUEOJDw1NG_xFuvwgNCBL1CY0qjd7cTG8i6mLzQIM,10464
+milvus_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_cli/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_cli/utils.py,sha256=byYZyNFMZxppz3GzyRm238nHekG1usySQ11J8lC46Lk,29803
+milvus_cli/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_cli/scripts/milvus_cli.py,sha256=ipW2FvBs5NY22f8A2gODMxJr1lqKyvXRxOcJ6d0qHsQ,56550
+milvus_cli-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+milvus_cli-0.3.1.dist-info/METADATA,sha256=H_il3pNqrYRyilUe8LxRvrio9YYJZvNBg19Vnjs10vU,4773
+milvus_cli-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+milvus_cli-0.3.1.dist-info/entry_points.txt,sha256=LSvJWAcRgSZLYrVi6SZUAn0eUAKDuxUvpQpLqbGQg6M,74
+milvus_cli-0.3.1.dist-info/top_level.txt,sha256=KbpN4LBJYGe82X8TOCqOSAAw4fXkKShPUYCn_BMQ1xM,20
+milvus_cli-0.3.1.dist-info/RECORD,,
