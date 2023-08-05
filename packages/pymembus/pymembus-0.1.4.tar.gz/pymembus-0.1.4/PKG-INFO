@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pymembus
+Version: 0.1.4
+Summary: Python shared memory library
+Home-page: https://github.com/wheresjames/pymembus
+Author: Robert Umbehant
+Author-email: pymembus@wheresjames.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
