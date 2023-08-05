@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+freakotp/__init__.py
+freakotp/cli.py
+freakotp/secret.py
+freakotp/sql.py
+freakotp/token.py
+freakotp.egg-info/PKG-INFO
+freakotp.egg-info/SOURCES.txt
+freakotp.egg-info/dependency_links.txt
+freakotp.egg-info/entry_points.txt
+freakotp.egg-info/requires.txt
+freakotp.egg-info/top_level.txt
+freakotp.egg-info/zip-safe

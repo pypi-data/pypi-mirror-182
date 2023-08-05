@@ -1,0 +1,7 @@
+appdirs
+qrcode
+click
+pzp
+
+[test]
+pytest
