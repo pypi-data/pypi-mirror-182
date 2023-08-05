@@ -1,0 +1,8 @@
+setup.py
+adwite.egg-info/PKG-INFO
+adwite.egg-info/SOURCES.txt
+adwite.egg-info/dependency_links.txt
+adwite.egg-info/top_level.txt
+tkadwite/__init__.py
+tkadwite/gradient.py
+tkadwite/widgets.py
