@@ -1,0 +1,2 @@
+[console_scripts]
+natural = chat_gpci:cli
