@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/quick_preprocessing/__init__.py
+src/quick_preprocessing/logger.py
+src/quick_preprocessing/manual_exception.py
+src/quick_preprocessing/preprocessing.py
+src/quick_preprocessing.egg-info/PKG-INFO
+src/quick_preprocessing.egg-info/SOURCES.txt
+src/quick_preprocessing.egg-info/dependency_links.txt
+src/quick_preprocessing.egg-info/requires.txt
+src/quick_preprocessing.egg-info/top_level.txt
