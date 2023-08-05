@@ -1,0 +1,14 @@
+click
+click-default-group
+incremental
+jinja2
+setuptools
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+packaging
+sphinx>=5
+furo
+twisted
