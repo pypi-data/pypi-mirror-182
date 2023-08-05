@@ -1,0 +1,2 @@
+[console_scripts]
+texthandle = texthandler.api:texthandle

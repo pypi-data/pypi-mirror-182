@@ -1,0 +1,9 @@
+texthandler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texthandler/api.py,sha256=Qlha1GmMK8s4E1FpFVx7HWIu6yEULXReC4BRFBJKUEw,459
+texthandler/apps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texthandler/apps/model.py,sha256=RKCf1_sWSmsfiUW3L1Iqk5odDoBZjUXM9HK0QNJ9EOk,4428
+texthandler-0.0.3.dist-info/METADATA,sha256=PyZ_ypBdB3aDt5WdmkzCeqB_WSR3pdDm5cuhuZLdmbA,501
+texthandler-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+texthandler-0.0.3.dist-info/entry_points.txt,sha256=d-9e4KPTrh43OsvMO3W1t73AVufnxYyy_tn-pOFmS7U,58
+texthandler-0.0.3.dist-info/top_level.txt,sha256=wllNx-50m6h1SpIeNfkM5I-SXOFCJMjZFIyblQqL7Bg,12
+texthandler-0.0.3.dist-info/RECORD,,
