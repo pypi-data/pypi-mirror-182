@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/example/__init__.py
+src/example/xytools.py
+src/xytools.egg-info/PKG-INFO
+src/xytools.egg-info/SOURCES.txt
+src/xytools.egg-info/dependency_links.txt
+src/xytools.egg-info/requires.txt
+src/xytools.egg-info/top_level.txt
