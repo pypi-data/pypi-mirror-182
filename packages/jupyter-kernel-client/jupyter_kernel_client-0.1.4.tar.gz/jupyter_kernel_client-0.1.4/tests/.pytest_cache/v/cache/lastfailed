@@ -1,0 +1,5 @@
+{
+  "test_sample.py": true,
+  "test_client.py::test_websocket_client": true,
+  "test_client.py::test_callback": true
+}

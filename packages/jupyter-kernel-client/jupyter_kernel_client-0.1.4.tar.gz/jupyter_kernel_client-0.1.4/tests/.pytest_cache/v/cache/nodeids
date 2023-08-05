@@ -1,0 +1,7 @@
+[
+  "test_client.py::test_callback",
+  "test_client.py::test_websocket_client",
+  "test_sample.py::test_callback",
+  "test_sample.py::test_pass",
+  "test_sample.py::test_websocket_client"
+]

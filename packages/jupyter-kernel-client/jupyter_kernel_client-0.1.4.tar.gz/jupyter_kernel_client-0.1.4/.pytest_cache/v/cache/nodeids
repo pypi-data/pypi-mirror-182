@@ -1,0 +1,4 @@
+[
+  "tests/test_client.py::test_callback",
+  "tests/test_client.py::test_websocket_client"
+]
