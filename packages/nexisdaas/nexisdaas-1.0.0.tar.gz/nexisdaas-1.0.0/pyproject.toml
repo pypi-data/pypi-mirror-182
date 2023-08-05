@@ -1,0 +1,14 @@
+# pyproject.toml
+
+#[build-system]
+#
+
+[project]
+name = "nexisdaas"
+version = "1.0.0"
+description = "Work with LexisNexis DAAS APIs"
+readme = "README.md"
+authors = [{ name = "Robert Cuffney", email = "robert.cuffney@lexisnexis.com" },{ name = "Ozgur Aycan", email = "ozgur.aycan@lexisnexis.co.uk" }]
+
+[tool.setuptools]
+py-modules = []

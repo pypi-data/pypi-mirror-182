@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+nexisdaas.egg-info/PKG-INFO
+nexisdaas.egg-info/SOURCES.txt
+nexisdaas.egg-info/dependency_links.txt
+nexisdaas.egg-info/top_level.txt
