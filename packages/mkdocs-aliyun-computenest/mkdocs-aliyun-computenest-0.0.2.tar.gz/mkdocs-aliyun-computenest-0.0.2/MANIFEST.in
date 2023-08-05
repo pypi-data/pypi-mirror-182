@@ -1,0 +1,4 @@
+recursive-include aliyun-computenest *.ico *.js *.css *.png *.jpeg *.html *.eot *.svg *.ttf *.woff
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+include  LICENSE
