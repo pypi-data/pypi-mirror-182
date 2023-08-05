@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+michalpdf.egg-info/PKG-INFO
+michalpdf.egg-info/SOURCES.txt
+michalpdf.egg-info/dependency_links.txt
+michalpdf.egg-info/top_level.txt
