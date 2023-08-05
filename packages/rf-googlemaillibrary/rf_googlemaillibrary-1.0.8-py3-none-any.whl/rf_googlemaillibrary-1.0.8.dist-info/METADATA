@@ -1,0 +1,183 @@
+Metadata-Version: 2.1
+Name: rf-googlemaillibrary
+Version: 1.0.8
+Summary: Google Mail Library
+Home-page: https://mainsystemdev.github.io/GoogleMailLibrary
+Author: Francisco G. Quinola
+Author-email: francisco.quinola@mnltechnology.com
+License: Type license() to see the full license text
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Description-Content-Type: text/markdown
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: html2text
+Requires-Dist: oauth2client
+Requires-Dist: robotframework-pythonlibcore (>=3.0.0)
+Requires-Dist: robotframework-seleniumlibrary (>=4.5.0)
+Requires-Dist: robotframework (>=5.0.0)
+
+# GoogleMailLibrary
+
+
+![PyPI](https://img.shields.io/pypi/v/rf-googlemaillibrary?label=rf-googlemaillibrary&style=for-the-badge)
+
+Library Scope: **GLOBAL**
+
+created: **September 21, 2022 12:20 UTC8**
+
+
+Author: **Francisco Quinola Jr. | email: francisco.quinola@mnltechnology.com**
+
+company: **Spiralworks Technologies Inc**
+
+Full Documentation: **https://mainsystemdev.github.io/GoogleMailLibrary**
+
+### Contents:
+- [GoogleMailLibrary](https://mainsystemdev.github.io/GoogleMailLibrary)
+    - [Contents](#contents)
+    - [Introduction](#introduction)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Generating Documentation](#generating-documentation)
+    - [Dependencies](#dependencies)
+
+
+### Introduction
+**GoogleMailLibrary** is a [Robotframework](https://www.robotframework.org) Test Library for interfacing tests with 
+Google Email using __Google Mail API v1__.  
+<!-- ![PyPI - Downloads](https://img.shields.io/pypi/dd/rf-googlemaillibrary?style=for-the-badge)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rf-googlemaillibrary?style=for-the-badge) -->
+
+
+### Installation
+**Option 1**  
+Install using pypi, run:
+```bash
+pip install rf-googlemaillibrary
+```
+**Option 2**  
+With recent version of `pip`, it is possible to install directly from GitHub repository. To Install latest source
+from the master branch, use this command:
+```bash
+pip install git+https://github.com/MainSystemDev/GoogleMailLibrary.git
+```
+Please note that installation will take some time, because ``pip`` will
+clone the [GoogleMailLibrary](https://github.com/MainSystemDev/GoogleMailLibrary.git) project to a temporary directory and then
+perform the installation.
+
+
+### Usage
+To use GoogleMailLibrary in Robot Framework tests, the library needs to
+first be imported using the `Library` setting as any other library.
+
+
+```robotframework
+*** Settings ***
+Documentation                         This is demo test script to show how GoogleMailLibrary Works
+
+Library                               GoogleMailLibrary
+...                                   scopes=['https://www.googleapis.com/auth/gmail.readonly']
+
+Library                               String
+
+Suite Setup                           Initialize Email
+...                                   tokenFile=path/to/token.json
+
+Force Tags                            gmail-api
+
+*** Variables ***
+# Sample id
+# Should be a specific valid email id from an inbox from gmail to work.
+${email_id}                           183a2a567gf2db7c
+
+*** Test Cases ***
+Get First Email In Inbox
+    [Documentation]                   Get the first email in inbox and return raw data.
+    ...                               Please refer to the link on the datas returned for raw
+    ...                               https://developers.google.com/gmail/api/reference/rest/v1/users.messages#Message.FIELDS
+    [Tags]                            gmail-api-1
+    ${first_email_raw}                Parse First Email
+    Log To Console                    ${first_email_raw}
+
+Get Recent Id In Inbox
+    [Documentation]                   Get the first email id in inbox.
+    ...                               Please refer to the link on the datas returned for raw
+    ...                               https://developers.google.com/gmail/api/reference/rest/v1/users.messages#Message.FIELDS
+    [Tags]                            gmail-api-2
+    ${recent_message_id_in_inbox}     Get First Id In Inbox
+    Log To Console                    \n${recent_message_id_in_inbox}
+
+Get Specific Id In Inbox
+    [Documentation]                   Get the Specific email id in inbox.
+    ...                               Please refer to the link on the datas returned for raw
+    ...                               expecting an argument for specific email_id
+    ...                               https://developers.google.com/gmail/api/reference/rest/v1/users.messages#Message.FIELDS
+    [Tags]                            gmail-api-3
+    ${specific_message_in_inbox}      Parse Email                        ${email_id}
+    Log To Console                    \n${specific_message_in_inbox}
+
+Delete Specific Mail
+    [Documentation]                   Delete the specific email in inbox
+    ...                               Please refer to the link on the datas returned for raw
+    ...                               expecting an argument for specific email_id
+    ...                               https://developers.google.com/gmail/api/reference/rest/v1/users.messages/delete
+    [Tags]                            gmail-api-4
+    Delete Message                    ${email_id}
+
+Return Email Body Content
+    [Documentation]                   Get the specific email in inbox
+    ...                               Email format can be in plain text, rich text and html
+    ...                               Converts the html content to a readable text
+    ...                               expecting an argument for specific email_id
+    [Tags]                            gmail-api-5
+    ${body_content}                   Return Email Body Content        
+    ...                               ${email_id}
+    Log To Console                    \n${body_content}
+
+Return Sender of Specific Email
+    [Documentation]                   Get the specific email in inbox
+    ...                               Return the specific sender of email
+    [Tags]                            gmail-api-6
+    ${sender}                         Return Sender Name            ${email_id}
+    Log To Console                    \n${sender}
+
+Return TimeStamp of Specific Email
+    [Documentation]                   Get the specific timestamp of email
+    ...                               Return the specific timestamp of email
+    [Tags]                            gmail-api-7
+    ${timestamp}                      Return Email Timestamp            ${email_id}
+    Log To Console                    \n${timestamp}
+
+```
+
+
+
+### Generating Documentation
+To Generate the keyword Documentation, simply run:
+```bash
+python -m robot.libdoc GoogleMailLibrary documentation.html
+```
+Note that the library must first be installed before generating a documentation.
+
+
+
+### Dependencies
+
+>![Pypi - Html2text version](https://img.shields.io/pypi/v/html2text?label=Html2text&style=flat-square)\
+>![Pypi - google-api-python-client version](https://img.shields.io/pypi/v/google-api-python-client?label=google-api-python-client&style=flat-square)\
+>![Pypi - Html2text version](https://img.shields.io/pypi/v/google-auth-httplib2?label=google-auth-httplib2&style=flat-square)\
+>![Pypi - Html2text version](https://img.shields.io/pypi/v/google-auth-oauthlib?label=google-auth-oauthlib&style=flat-square)\
+>![Pypi - Html2text version](https://img.shields.io/pypi/v/google-auth?label=google-auth&style=flat-square)\
+>![Pypi - Html2text version](https://img.shields.io/pypi/v/oauth2client?label=oauth2client&style=flat-square)
+
+
+
