@@ -1,0 +1,6 @@
+mongo_unit_of_work/__init__.py,sha256=5AWMz0awH3U-JEEJtllt6pbOWOhl0t62mkrUUUeE3nA,108
+mongo_unit_of_work/abstraction.py,sha256=p7kV-mONG-4YVuREEeRRrDLzTWw9TvLJtM5epg2r6A8,526
+mongo_unit_of_work/unit_of_work_tools.py,sha256=Qn-B-YBukCfT6acRl5-JRnSsIPkwTlQupOKUgM12kEE,2796
+mongo_unit_of_work-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mongo_unit_of_work-0.1.0.dist-info/METADATA,sha256=O6vBO4nhEzjPlJtOoDo0lx5wGlNX3JWn6rpQ8pBL8Ck,383
+mongo_unit_of_work-0.1.0.dist-info/RECORD,,
