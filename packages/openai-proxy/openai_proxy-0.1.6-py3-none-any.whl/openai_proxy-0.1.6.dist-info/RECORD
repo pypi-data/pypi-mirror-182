@@ -1,0 +1,11 @@
+openai_proxy/__init__.py,sha256=R2PtU8wE3dOMJ0w-oFxzxCm6xmPoHhI48hlmGMX0kRE,490
+openai_proxy/completion.py,sha256=KO_CT1zhVAlO3ol6abdIEOIHRXx5X_XcyfJgx2eb3SE,2127
+openai_proxy/price.py,sha256=GhbiNMkLVVHhXDlrw08X2xMd8lk1dGUn8iU4LXRWwLE,1301
+openai_proxy/utils/__init__.py,sha256=CVzkYzuZtL1UO8TQxHCT9Snr62zh23Grp6JJN-tYQPI,101
+openai_proxy/utils/constants.py,sha256=hb7ixSe01t3Nja09vP-Xkx6qISz005GOA2ATqpUr-90,1579
+openai_proxy/utils/token_estimator.py,sha256=Qix1YGCdGt5KERg-hrt__0H6q_rbI6j4KPUUjkRjGWU,1983
+openai_proxy/utils/constants/__init__.py,sha256=7M1EDUTQo4RHovGncfee8-UDQIpufrqeu_5gRtNZACw,1643
+openai_proxy-0.1.6.dist-info/METADATA,sha256=5DFvdqdyAJ6OU80BLHFbo9gy1hoT4IUenkcVWCog0MI,797
+openai_proxy-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+openai_proxy-0.1.6.dist-info/top_level.txt,sha256=bnS6Ie3OMsIxgGgH-hAG9XlomxddXt4IiDaxW5VJovs,13
+openai_proxy-0.1.6.dist-info/RECORD,,
