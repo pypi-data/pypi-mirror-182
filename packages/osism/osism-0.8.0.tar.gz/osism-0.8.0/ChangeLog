@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.8.0
+------
+
+* Remove etcd from infrastructure-basic mapping (#258)
