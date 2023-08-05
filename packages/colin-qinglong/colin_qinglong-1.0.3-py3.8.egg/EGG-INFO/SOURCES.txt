@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+myQLApi.py
+setup.py
+colin_qinglong.egg-info/PKG-INFO
+colin_qinglong.egg-info/SOURCES.txt
+colin_qinglong.egg-info/dependency_links.txt
+colin_qinglong.egg-info/top_level.txt
