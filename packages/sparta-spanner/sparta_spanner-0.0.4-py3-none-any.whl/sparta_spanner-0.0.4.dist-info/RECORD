@@ -1,0 +1,13 @@
+sparta_spanner-0.0.4-py3.9-nspkg.pth,sha256=9RAK6QevL_sJWVuwTHAUfcDYzjXvv7DmuT7Pkozj5l4,539
+sparta/spanner/__init__.py,sha256=2Ynaet3p7-F9q9vR6hr5n_82EIgWX8PjchmZjweaFps,137
+sparta/spanner/concurrency.py,sha256=v98-RqQ-KBFfCeXhU5XiDsss5BLhe3ynxJ-EbNUPBfs,603
+sparta/spanner/metadata.py,sha256=XGHEdYPg0EEz52aAMImq9WRviVcWqXhYOc-tUxQJZoI,2846
+sparta/spanner/service.py,sha256=F1LKuMxTg8r9ZImNaBWPxQkK6swD5Wkv7xyTz8qK7BQ,2922
+sparta/spanner/utils.py,sha256=sAK5UfYlLRUNwRWKb-QpwtlSm8FqesfCka60_sVAtHQ,2319
+sparta/spanner/wrapper.py,sha256=G-67GYLv4-SDZ7vZfxFI_YEoUpryqt7TNckSIXhWU3s,1661
+sparta_spanner-0.0.4.dist-info/LICENSE,sha256=I4y5rncemEaBxME38OG_5a1fhrn_OaSrWNmM-Pk9XUc,1073
+sparta_spanner-0.0.4.dist-info/METADATA,sha256=SADW8gz7DWeziLjYesI-OfPlIRzZb9TAA7iifwrev68,1801
+sparta_spanner-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sparta_spanner-0.0.4.dist-info/namespace_packages.txt,sha256=9rswyiejD5V8XRmuvDo-VtldjpMNe_bJT6-7N4OR2DI,7
+sparta_spanner-0.0.4.dist-info/top_level.txt,sha256=9rswyiejD5V8XRmuvDo-VtldjpMNe_bJT6-7N4OR2DI,7
+sparta_spanner-0.0.4.dist-info/RECORD,,
