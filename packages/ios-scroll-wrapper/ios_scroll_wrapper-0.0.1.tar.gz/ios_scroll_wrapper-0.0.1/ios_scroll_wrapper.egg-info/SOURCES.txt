@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+ios_scroll_wrapper/IosScrollWrapper.py
+ios_scroll_wrapper/__init__.py
+ios_scroll_wrapper/_imports_.py
+ios_scroll_wrapper/ios_scroll_wrapper.min.js
+ios_scroll_wrapper/ios_scroll_wrapper.min.js.map
+ios_scroll_wrapper/metadata.json
+ios_scroll_wrapper/package-info.json
+ios_scroll_wrapper.egg-info/PKG-INFO
+ios_scroll_wrapper.egg-info/SOURCES.txt
+ios_scroll_wrapper.egg-info/dependency_links.txt
+ios_scroll_wrapper.egg-info/top_level.txt
