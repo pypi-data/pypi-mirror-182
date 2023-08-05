@@ -1,0 +1,11 @@
+azure-identity
+azure-keyvault-secrets
+requests-toolbelt
+requests
+click
+loguru
+pandas
+tabulate
+click-option-group
+
+[dev]
