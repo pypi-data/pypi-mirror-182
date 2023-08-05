@@ -1,0 +1,8 @@
+baserow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+baserow/lib.py,sha256=Y0AWwuXI04yEeOZ8iIpIpCVP1if5MUtsihKICgQ2y1g,1090
+baserow/table.py,sha256=sMDvL0ZoZCneoIU-16UbSAimn4r1dP8nmpfmb_kZWNs,4193
+baserow/util.py,sha256=uxBL1CEXlkxPsZjXaMA7yTclOstsJmnjLF2Q09SytLM,1652
+baserow-0.0.1.dist-info/METADATA,sha256=8_dZZiOm_3AbKx3nqXmz0AS7PIAvmafVsKZwu2dftxY,805
+baserow-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+baserow-0.0.1.dist-info/top_level.txt,sha256=TM6srgfYqYFA8kKha7i9kYjx_NjrZf3Oti6vu7r_RxI,8
+baserow-0.0.1.dist-info/RECORD,,
