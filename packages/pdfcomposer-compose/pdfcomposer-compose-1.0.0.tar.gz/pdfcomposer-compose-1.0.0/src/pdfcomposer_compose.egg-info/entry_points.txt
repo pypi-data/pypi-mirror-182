@@ -1,0 +1,2 @@
+[pdfcomposer.output]
+compose = pdfcomposer_compose.__main__:main
