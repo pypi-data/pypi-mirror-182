@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kundajelab-shap
+Version: 1
+Summary: Kundaje lab edits to Scott Lundberg's unified approach to explain the output of any machine learning model.
+Home-page: http://github.com/kundajelab/shap
+Author: Avanti Shrikumar's modifications to Scott Lundberg original package
+Author-email: avanti@stanford.edu
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: tqdm (>4.25.0)
+Requires-Dist: ipython
+Requires-Dist: scikit-image
+
+UNKNOWN
+
