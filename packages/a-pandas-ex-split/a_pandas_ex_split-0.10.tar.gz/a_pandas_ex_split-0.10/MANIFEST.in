@@ -1,0 +1,4 @@
+include a_pandas_ex_split/requirements.txt
+include a_pandas_ex_split/thirdparty.json
+include a_pandas_ex_split/README.MD
+include a_pandas_ex_split/LICENSE
