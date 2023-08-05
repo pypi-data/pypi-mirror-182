@@ -1,0 +1,13 @@
+pymadng/__init__.py,sha256=huq22FYz51oLxvFkrjGPwG3vNXZsKB4-5ht6twtmlgk,358
+pymadng/mad_Darwin,sha256=B5JU7ooXxkxpF2hlmuX9Gxst8LpI37deOFBtm-U0chs,6008480
+pymadng/mad_Linux,sha256=B5JU7ooXxkxpF2hlmuX9Gxst8LpI37deOFBtm-U0chs,6008480
+pymadng/mad_completer.py,sha256=lGOBw_9_McJuNbnJNmEr98_bwgk8DTFFneOqQm_I2KQ,1831
+pymadng/mad_object copy.py,sha256=5uGqujsqVwSWxAGUdC1o6odIWGS4lXthVVOktuSkctE,18601
+pymadng/mad_object.py,sha256=789f3fYP27TwMZB6thK5N4DdhoLbuxL_z0T-dkk1N3k,18513
+pymadng/mad_process.py,sha256=nHFzbwzc6iQwIoPo10342xud-H1gM82zNY7U232oCSQ,12189
+pymadng/pymadClasses.py,sha256=0cuAq8XWec8gF__kmKwi1mdrB4hOUjO6F1l2QViztnA,6216
+pymadng-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pymadng-0.3.0.dist-info/METADATA,sha256=_UL40Xz3l8lAMezXeBzXWddWe3Xu0-_gTev3LsqV95w,1595
+pymadng-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pymadng-0.3.0.dist-info/top_level.txt,sha256=YR-wqQXgXv3GuXuzvpD_zcUzPAaRtSAZVof_t6x9Y5A,8
+pymadng-0.3.0.dist-info/RECORD,,
