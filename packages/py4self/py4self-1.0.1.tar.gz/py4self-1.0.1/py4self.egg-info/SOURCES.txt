@@ -1,0 +1,9 @@
+README.md
+setup.py
+py4self/__init__.py
+py4self/py4self.py
+py4self.egg-info/PKG-INFO
+py4self.egg-info/SOURCES.txt
+py4self.egg-info/dependency_links.txt
+py4self.egg-info/requires.txt
+py4self.egg-info/top_level.txt
