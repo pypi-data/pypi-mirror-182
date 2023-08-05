@@ -1,0 +1,9 @@
+stl/STL10.py,sha256=jhgPGgP6yZSMjidMcx3Lxc_s-C1gP6LkzT00f-OIJVE,4147
+stl/__init__.py,sha256=QpByOiaEjxopTxwgIoZNSUC9auvFCasvwpUGJt9PZic,23
+stl/constants.py,sha256=dj42a5kmkKu0OezYPmcQJvbyEMT0qm0UYgr1Xg02IvM,376
+stl/dataset_utils.py,sha256=7CQlYTMyDlK63t3G3ulqy3uZiInmrJ2jkq8cPFQ5M8s,5035
+stl/download_and_convert_stl10.py,sha256=W0zJo6H3-dr1qmKq8D4tp-zULeD7wBS7Vcw0HyS89ZE,6934
+STL10-0.0.2.dist-info/METADATA,sha256=IOwXdkO8fc_KZW_oP8RbnsCd2soHOwHlayEIVGlsAfU,593
+STL10-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+STL10-0.0.2.dist-info/top_level.txt,sha256=uhNU6NfJF-H1ykSlU9oT3dAfUibkYXjmXGGxjMCe2ls,4
+STL10-0.0.2.dist-info/RECORD,,
