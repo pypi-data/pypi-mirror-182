@@ -1,0 +1,5 @@
+claydates.egg-info/PKG-INFO
+claydates.egg-info/SOURCES.txt
+claydates.egg-info/dependency_links.txt
+claydates.egg-info/requires.txt
+claydates.egg-info/top_level.txt
