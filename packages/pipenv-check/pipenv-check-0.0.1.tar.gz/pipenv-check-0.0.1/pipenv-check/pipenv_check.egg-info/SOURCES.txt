@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pipenv-check/pipenv_check.egg-info/PKG-INFO
+pipenv-check/pipenv_check.egg-info/SOURCES.txt
+pipenv-check/pipenv_check.egg-info/dependency_links.txt
+pipenv-check/pipenv_check.egg-info/requires.txt
+pipenv-check/pipenv_check.egg-info/top_level.txt
