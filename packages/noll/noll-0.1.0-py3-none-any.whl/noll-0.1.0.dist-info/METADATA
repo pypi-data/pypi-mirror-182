@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: noll
+Version: 0.1.0
+Summary: Nothing. Nil. Nada.
+Home-page: https://gitlab.com/deepadmax/noll
+Author: Maximillian Strand
+Author-email: maxi@millian.se
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://gitlab.com/deepadmax/noll
+Description-Content-Type: text/markdown
+
+# Noll
+
+**Nothing. Nil. Nada.**
+
+An object that is as not there as I could conjure up.
+
+You can safely index it and compare with it. It will always return an untruthy value, whether that be `0`, `""`, or itself whenever possible.
+
+```py
+from noll import Noll
+
+Noll().index.whatever['and'].you.will.always.end.up['with'].a.Noll['object']
+```
+
