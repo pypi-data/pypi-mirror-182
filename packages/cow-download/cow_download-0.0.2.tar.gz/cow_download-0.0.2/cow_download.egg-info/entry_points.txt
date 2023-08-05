@@ -1,0 +1,3 @@
+[console_scripts]
+cow_download = cow_download.cow_download:main
+
