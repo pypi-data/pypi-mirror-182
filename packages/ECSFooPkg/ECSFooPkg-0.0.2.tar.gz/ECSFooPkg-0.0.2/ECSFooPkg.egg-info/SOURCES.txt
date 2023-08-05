@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+ECSFooPkg/__init__.py
+ECSFooPkg/accessor.py
+ECSFooPkg/plugins.py
+ECSFooPkg.egg-info/PKG-INFO
+ECSFooPkg.egg-info/SOURCES.txt
+ECSFooPkg.egg-info/dependency_links.txt
+ECSFooPkg.egg-info/entry_points.txt
+ECSFooPkg.egg-info/requires.txt
+ECSFooPkg.egg-info/top_level.txt

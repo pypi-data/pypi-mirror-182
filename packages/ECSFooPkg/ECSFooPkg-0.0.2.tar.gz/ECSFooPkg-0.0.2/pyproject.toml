@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ECSFooPkg"
+version = "0.0.2"
+authors = [
+    { name = "Oriol Tintó", email = "oriol.tinto@lmu.de" },
+]
+description = "A dummy template of a python package with tests and documentation."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'enstools-encoding >= 2022.12',
+    'xarray',
+    'hdf5plugin',
+    'pooch',
+    'netCDF4',
+]
+[project.scripts]
+load_plugins = "ECSFooPkg.plugins:main"
+
+[project.urls]
+"Homepage" = "https://gitlab.physik.uni-muenchen.de/LDAP_meteo/ECS_Foo"
+"Bug Tracker" = "https://gitlab.physik.uni-muenchen.de/LDAP_meteo/ECS_Foo/-/issues"
