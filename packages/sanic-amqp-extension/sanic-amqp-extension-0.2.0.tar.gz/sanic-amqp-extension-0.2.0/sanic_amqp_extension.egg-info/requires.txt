@@ -1,0 +1,2 @@
+sanic-base-extension==0.2.0
+aioamqp==0.15.0
