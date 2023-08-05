@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hoi4_converter
+Version: 1.1
+Summary: HOI4 Converter: A Python package for easier HOI4 Modding
+Home-page: https://github.com/maldun/hoi4_converter
+Download-URL: https://github.com/maldun/hoi4_converter/archive/refs/tags/1.0.tar.gz
+Author: Stefan Reiterer
+Author-email: stefan.harald.reiterer@gmail.com
+License: GPL3
+Keywords: modding,Paradox
+License-File: LICENSE

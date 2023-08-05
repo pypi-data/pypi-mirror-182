@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Hoi4Converter/__init__.py
+Hoi4Converter/converter.py
+Hoi4Converter/mappings.py
+Hoi4Converter/parser.py
+hoi4_converter.egg-info/PKG-INFO
+hoi4_converter.egg-info/SOURCES.txt
+hoi4_converter.egg-info/dependency_links.txt
+hoi4_converter.egg-info/requires.txt
+hoi4_converter.egg-info/top_level.txt
