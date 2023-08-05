@@ -1,0 +1,4 @@
+MDAnalysis
+pyyaml
+numpy
+tqdm
