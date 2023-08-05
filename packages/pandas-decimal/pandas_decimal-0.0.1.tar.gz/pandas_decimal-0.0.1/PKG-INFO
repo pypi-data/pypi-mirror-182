@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pandas_decimal
+Version: 0.0.1
+Summary: icy
+Author-email: Martin Durant <mdurant@anaconda.com>
+Maintainer-email: Martin Durant <mdurant@anaconda.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pandas-decimal
+
+Extension array for pandas implementing fixed-precision decimal numbers.
+
+Data is stored internally as integers and a dtype encoding the number of decimal
+places. Operations are mostly implemented as integer arithmetic (i.e., fast!)
+and always rounded to the required precision, meaning no floating point
+quirks.
+
+### Install
+
+```bash
+pip install git+//github.com/intake/pandas-decimal
+```
