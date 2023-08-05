@@ -1,0 +1,6 @@
+[console_scripts]
+21 = crypto_two1.cli:main
+channels = crypto_two1.channels.cli:main
+crypto_two1 = crypto_two1.cli:main
+twentyone = crypto_two1.cli:main
+wallet = crypto_two1.wallet.cli:main
