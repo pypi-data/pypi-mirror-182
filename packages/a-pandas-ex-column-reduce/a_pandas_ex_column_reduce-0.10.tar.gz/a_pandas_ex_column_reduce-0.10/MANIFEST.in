@@ -1,0 +1,4 @@
+include a_pandas_ex_column_reduce/requirements.txt
+include a_pandas_ex_column_reduce/thirdparty.json
+include a_pandas_ex_column_reduce/README.MD
+include a_pandas_ex_column_reduce/LICENSE
