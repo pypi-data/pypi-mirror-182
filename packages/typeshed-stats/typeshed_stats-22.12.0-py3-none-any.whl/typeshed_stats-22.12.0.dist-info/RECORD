@@ -1,0 +1,11 @@
+typeshed_stats/__init__.py,sha256=PNkXRoe4-DAJz9fjDEqAjFuZ6D1RI02VcC4WQOyNkmM,398
+typeshed_stats/__main__.py,sha256=5Cjugxk2fVU-utNVtDfj5kDkacCgftglJLb0CIQtFg8,271
+typeshed_stats/_cli.py,sha256=bHdfYVnzaTiq4XXvhuUeUF1qDVMtq6fg5ITWKlfYX0A,11046
+typeshed_stats/gather.py,sha256=92YEA63wqqpE6I--Jp82mbcNTEgtcIVefwsxiKFYSSM,38588
+typeshed_stats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typeshed_stats/serialize.py,sha256=pJhfAneRM9LIphEHkrzUELLn09LDzKxC2XGDDDdQalI,8997
+typeshed_stats-22.12.0.dist-info/METADATA,sha256=tbc-_YcbYMxPQBybDCQOwe5t-qmgZG2Gb9uoNCPBPMk,5131
+typeshed_stats-22.12.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+typeshed_stats-22.12.0.dist-info/entry_points.txt,sha256=wzOEKjVv36kiGkT1qzSjE_RV0F9pn7MT33KwCoM7Pvo,60
+typeshed_stats-22.12.0.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+typeshed_stats-22.12.0.dist-info/RECORD,,
