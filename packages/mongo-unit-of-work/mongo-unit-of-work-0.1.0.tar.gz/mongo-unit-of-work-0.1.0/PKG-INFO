@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mongo-unit-of-work
+Version: 0.1.0
+Summary: 
+Author: Aziz
+Author-email: walkingonadream2012@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ddd-misc (>=0.8.1,<0.9.0)
+Requires-Dist: motor (>=3.1.1,<4.0.0)
