@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "trackl-client"
+version = "2.1.1"
+description = "Trackl Python Client"
+authors = ["Nobody"]
+readme = "README.md"
+packages = [{include = "trackl_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+fire = "^0.5.0"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
