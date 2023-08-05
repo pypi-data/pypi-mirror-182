@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "uai_pre_import_transform_interface"
+version = "1.1.1"
+description = ""
+authors = ["understand.ai <postmaster@understand.ai>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "uai_pre_import_transform_interface"}]
+include = ["uai_pre_import_transform_interface/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+uai-uri-interface = "^0.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^22.10.0"}
+mypy = "^0.991"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
