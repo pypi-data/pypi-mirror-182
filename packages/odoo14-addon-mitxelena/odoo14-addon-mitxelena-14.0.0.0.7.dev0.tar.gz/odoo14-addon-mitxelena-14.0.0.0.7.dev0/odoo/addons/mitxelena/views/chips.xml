@@ -1,0 +1,96 @@
+<odoo>
+    <data>
+        <!-- Vista tree -->
+        <record id="view_mitxelena_chips_tree" model="ir.ui.view">
+            <field name="name">view.mitxelena.chips.tree</field>
+            <field name="model">mitxelena.chips</field>
+            <field name="arch" type="xml">
+                <tree string="Virutas">
+                    <field name="name"/>
+                    <field name="order_number"/>
+                    <field name="reference"/>
+                    <field name="material"/>
+                    <field name="bag_number"/>
+                    <field name="opening_date"/>
+                    <field name="collection_date"/>
+                    <field name="work_order"/>
+                    <field name="machine"/>
+                    <field name="operator"/>
+                    <field name="weight"/>
+                    <field name="number"/>
+                    <!--
+<button name="method" string="Acción" class="oe_highlight" type="object"/>
+-->
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- Vista form -->
+
+        <record id="view_mitxelena_chips_form" model="ir.ui.view">
+            <field name="name">view.mitxelena.chips.form</field>
+            <field name="model">mitxelena.chips</field>
+            <field name="arch" type="xml">
+                <form string="Virutas">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="order_number"/>
+                                <field name="reference"/>
+                                <field name="material"/>
+                                <field name="bag_number"/>
+                                <field name="opening_date"/>
+                                <field name="collection_date"/>
+                                <field name="work_order"/>
+                                <field name="machine"/>
+                                <field name="operator"/>
+                                <field name="weight"/>
+                                <field name="number"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista search -->
+        <record id="view_mitxelena_chips_search" model="ir.ui.view">
+            <field name="name">view.mitxelena.chips.search</field>
+            <field name="model">mitxelena.chips</field>
+            <field name="arch" type="xml">
+                <search string="Virutas">
+                    <field name="name"/>
+                    <field name="order_number"/>
+                    <field name="reference"/>
+                    <field name="material"/>
+                    <field name="bag_number"/>
+                    <field name="opening_date"/>
+                    <field name="collection_date"/>
+                    <field name="work_order"/>
+                    <field name="machine"/>
+                    <field name="operator"/>
+                    <field name="weight"/>
+                    <field name="number"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Acción -->
+        <record id="action_mitxelena_chips" model="ir.actions.act_window">
+            <field name="name">Virutas</field>
+            <field name="res_model">mitxelena.chips</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_mitxelena_chips_tree"/>
+            <field name="search_view_id" ref="view_mitxelena_chips_search"/>
+        </record>
+
+        <!-- Menú -->
+        <menuitem id="menu_mitxelena" name="Mitxelena" sequence="8" web_icon="odoo-mitxelena,static/src/img/icon.png" action="action_mitxelena_chips" groups="hr_attendance.group_hr_attendance_kiosk" />
+        <menuitem id="menu_mitxelena_chips" name="Virutas" parent="menu_mitxelena" action="action_mitxelena_chips" sequence="10" groups="hr_attendance.group_hr_attendance_kiosk"/>
+
+
+
+    </data>
+</odoo>

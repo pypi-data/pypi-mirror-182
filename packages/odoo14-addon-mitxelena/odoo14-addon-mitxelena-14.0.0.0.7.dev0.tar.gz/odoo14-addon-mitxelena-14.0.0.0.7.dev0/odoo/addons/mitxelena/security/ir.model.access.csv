@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mitxelena_chips_admin,mitxelena.chips.admin,model_mitxelena_chips,hr.group_hr_manager,1,1,1,1
+access_mitxelena_chips_user,mitxelena.chips.user,model_mitxelena_chips,hr_attendance.group_hr_attendance_kiosk,1,1,1,0
+access_mitxelena_chips_basic_user,mitxelena.chips.basic.user,model_mitxelena_chips,hr_attendance.group_hr_attendance_kiosk,1,0,0,0
+access_mitxelena_ncr_admin,mitxelena.ncr.admin,model_mitxelena_ncr,hr.group_hr_manager,1,1,1,1
+access_mitxelena_ncr_user,mitxelena.ncr.user,model_mitxelena_ncr,hr_attendance.group_hr_attendance_kiosk,1,1,1,0
+access_mitxelena_ncr_basic_user,mitxelena.ncr.basic.user,model_mitxelena_ncr,hr_attendance.group_hr_attendance_kiosk,1,0,0,0
+access_mitxelena_acm_admin,mitxelena.acm.admin,model_mitxelena_acm,hr.group_hr_manager,1,1,1,1
+access_mitxelena_acm_user,mitxelena.acm.user,model_mitxelena_acm,hr_attendance.group_hr_attendance_kiosk,1,1,1,0
+access_mitxelena_acm_basic_user,mitxelena.acm.basic.user,model_mitxelena_acm,hr_attendance.group_hr_attendance_kiosk,1,0,0,0

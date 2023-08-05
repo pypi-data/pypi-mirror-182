@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-mitxelena
+Version: 14.0.0.0.7.dev0
+Summary: Manufacturing and chip management customisation for Talleres mitxelena
+Home-page: https://gitlab.com/coopdevs
+Author: Coopdevs Treball SCCL
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Python: >=3.6
