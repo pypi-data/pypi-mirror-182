@@ -1,0 +1,2 @@
+SERVICE_NAME = "RCTI_PlUS"
+ENV_LOCAL = "local"
