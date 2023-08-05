@@ -1,0 +1,9 @@
+faker
+pypattyrn
+returns
+
+[dev]
+check-manifest
+
+[test]
+coverage

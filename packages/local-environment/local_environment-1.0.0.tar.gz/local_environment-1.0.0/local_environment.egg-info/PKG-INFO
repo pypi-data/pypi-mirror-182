@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: local-environment
+Version: 1.0.0
+Summary: Landa's Local Environment Management Library
+Home-page: UNKNOWN
+Author: Amit Assaraf
+Author-email: amit@landa.app
+License: MIT
+Keywords: setuptools development
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: test
+
+UNKNOWN
+
