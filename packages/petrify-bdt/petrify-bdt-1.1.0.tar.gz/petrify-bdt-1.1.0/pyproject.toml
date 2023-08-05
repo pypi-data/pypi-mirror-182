@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "petrify-bdt"
+version = "1.1.0"
+authors = [
+  { name="Andy Buckley", email="andy.buckley@glasgow.ac.uk" },
+  { name="Louie Corpe", email="l.corpe@cern.ch" },
+]
+description = "Convert Scikit-learn and TMVA boosted decision trees (BDTs) to dependency-free C++ or Python"
+readme = "README.md"
+requires-python = ">=2.7"
+#dependencies = ['scikit-learn'] #, "ROOT"]
+classifiers = [
+  "Programming Language :: Python",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Topic :: Software Development :: Code Generators",
+]
+
+# [project.optional-dependencies]
+# scikit-learn
+
+[tool.setuptools]
+packages = ["petrifybdt"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/hepcedar/petrify-bdt/"
+"Bug Tracker" = "https://gitlab.com/hepcedar/petrify-bdt/-/issues"
+
+[project.scripts]
+petrify-tmvabdt = "petrifybdt.tmvabdt:main"
+petrify-sklbdt = "petrifybdt.sklbdt:main"
