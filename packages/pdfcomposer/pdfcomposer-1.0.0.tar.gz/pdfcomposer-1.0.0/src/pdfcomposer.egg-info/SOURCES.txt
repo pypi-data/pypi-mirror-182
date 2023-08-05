@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/pdfcomposer.egg-info/PKG-INFO
+src/pdfcomposer.egg-info/SOURCES.txt
+src/pdfcomposer.egg-info/dependency_links.txt
+src/pdfcomposer.egg-info/entry_points.txt
+src/pdfcomposer.egg-info/requires.txt
+src/pdfcomposer.egg-info/top_level.txt

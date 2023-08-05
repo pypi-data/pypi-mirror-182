@@ -1,0 +1,5 @@
+[console_scripts]
+pdfcomposer = pdfcomposer.__main__:main
+
+[pdfcomposer.output]
+index = pdfcomposer.__main__:index

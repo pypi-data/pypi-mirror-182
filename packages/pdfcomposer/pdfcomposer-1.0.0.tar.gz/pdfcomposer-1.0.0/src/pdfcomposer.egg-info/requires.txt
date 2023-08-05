@@ -1,0 +1,3 @@
+setuptools
+importlib-metadata<5.0
+wheel
