@@ -1,0 +1,9 @@
+google-cloud-storage
+google-cloud-resource-manager
+termcolor
+print2
+
+[dev]
+black
+flake8
+pytest
