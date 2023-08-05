@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: abricot
+Version: 0.0.4a4
+Summary: ...
+Author-email: TENG CHIH HENG <wiiiy5505aa@gmail.com>
+Project-URL: Homepage, https://github.com/henry202-TENG/abricot
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# abricot
+The abricot is the first word in French vocabulary book, just like abandon. Mean this is my first project on PyPl.
