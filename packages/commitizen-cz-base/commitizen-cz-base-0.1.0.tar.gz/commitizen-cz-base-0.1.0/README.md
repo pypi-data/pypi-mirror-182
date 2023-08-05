@@ -1,0 +1,1 @@
+# commitizen-cz-base

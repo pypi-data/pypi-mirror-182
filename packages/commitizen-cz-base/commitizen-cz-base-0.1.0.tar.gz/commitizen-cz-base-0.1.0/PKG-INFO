@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: commitizen-cz-base
+Version: 0.1.0
+License: Apache Software License 2.0
+
+Commitizen configuration for base Angewandte projects

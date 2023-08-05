@@ -1,0 +1,8 @@
+README.md
+cz_base.py
+setup.py
+commitizen_cz_base.egg-info/PKG-INFO
+commitizen_cz_base.egg-info/SOURCES.txt
+commitizen_cz_base.egg-info/dependency_links.txt
+commitizen_cz_base.egg-info/requires.txt
+commitizen_cz_base.egg-info/top_level.txt
