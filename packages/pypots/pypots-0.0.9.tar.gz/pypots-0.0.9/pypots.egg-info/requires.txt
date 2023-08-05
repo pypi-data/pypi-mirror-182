@@ -1,0 +1,9 @@
+matplotlib
+numpy
+scikit_learn
+scipy
+torch>=1.10
+tensorboard
+pandas
+pycorruptor
+tsdb
