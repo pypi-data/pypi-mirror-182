@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gsheet-pandas
+Version: 0.1.0
+Summary: Download and upload pandas dataframes to the Google sheets
+Home-page: https://github.com/iakov-kaiumov/gsheet-pandas
+Author: Iakov Kaiumov
+Author-email: shudson@anl.gov
+License: MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: google-api-python-client
+Requires-Dist: google-api-core
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: pandas
+
+UNKNOWN
+
