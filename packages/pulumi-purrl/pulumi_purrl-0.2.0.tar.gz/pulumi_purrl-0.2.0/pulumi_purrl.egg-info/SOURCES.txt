@@ -1,0 +1,15 @@
+README.md
+setup.py
+pulumi_purrl/__init__.py
+pulumi_purrl/_utilities.py
+pulumi_purrl/provider.py
+pulumi_purrl/pulumi-plugin.json
+pulumi_purrl/py.typed
+pulumi_purrl.egg-info/PKG-INFO
+pulumi_purrl.egg-info/SOURCES.txt
+pulumi_purrl.egg-info/dependency_links.txt
+pulumi_purrl.egg-info/not-zip-safe
+pulumi_purrl.egg-info/requires.txt
+pulumi_purrl.egg-info/top_level.txt
+pulumi_purrl/purrl/__init__.py
+pulumi_purrl/purrl/purrl.py
