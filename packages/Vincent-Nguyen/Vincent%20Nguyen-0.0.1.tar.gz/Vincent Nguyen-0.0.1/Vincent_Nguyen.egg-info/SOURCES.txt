@@ -1,0 +1,9 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Vincent_Nguyen.egg-info/PKG-INFO
+Vincent_Nguyen.egg-info/SOURCES.txt
+Vincent_Nguyen.egg-info/dependency_links.txt
+Vincent_Nguyen.egg-info/top_level.txt

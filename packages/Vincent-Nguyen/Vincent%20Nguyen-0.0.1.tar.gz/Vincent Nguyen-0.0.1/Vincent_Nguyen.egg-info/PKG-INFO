@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Vincent-Nguyen
+Version: 0.0.1
+Summary: Random Library 
+Home-page: 
+Author: Vincent Nguyen
+Author-email: thanhvinhnguyenduc@gmail.com
+License: MIT
+Keywords: RANDOM
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+# Random Library Implementation in Las Vegas Algorithms and Monte Carlo Algorithms
+
+## Las Vegas
+
+- Las Vegas Algorithms are sometimes fast but always correct.
+
+## Monte Carlo
+
+- Monte Carlo Algorithms are always fast and probably correct.
+
+
+Change Log
+==========
+
+0.0.1 (19/12/2022)
+-------------------
+- First Release
