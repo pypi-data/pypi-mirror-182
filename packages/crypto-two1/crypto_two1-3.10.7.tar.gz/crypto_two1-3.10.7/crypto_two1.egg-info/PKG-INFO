@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: crypto-two1
+Version: 3.10.7
+Summary: Buy and sell anything on the internet with bitcoin.
+Author: Lts
+Author-email: nail.velichko2016@yandex.ru
+License: FreeBSD
+Keywords: bitcoin blockchain client server
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
