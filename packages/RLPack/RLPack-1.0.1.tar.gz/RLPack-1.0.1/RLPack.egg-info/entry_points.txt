@@ -1,0 +1,2 @@
+[console_scripts]
+rlpack_entry = rlpack.bin.simulator.__main__:main
