@@ -1,0 +1,15 @@
+cchess/__init__.py,sha256=vLqRUOPC1g6wku6y-3t4NoOLL5wV7r1WCiu9HmiiFB0,990
+cchess/board.py,sha256=UbIzTbrJFOdVdMZL0V9Ikmk1YXt-US9bT4pE6LaQC-U,14994
+cchess/exception.py,sha256=J7rTyEYCYJEA9jazHcNctdZ_YbQ9JQ6iIH7y_mBzC58,795
+cchess/game.py,sha256=VxPjLCnAnp2c_9A4BJ5FHDVHVRh45zUnjkhNxwjW8-0,4049
+cchess/move.py,sha256=heCt9PR-2_A1I4tcgwzGFJYGljSo7Z-RrbFNDhzsgRU,10910
+cchess/piece.py,sha256=24cSy6VyBmf77xQZ5R2hrQy4b4TzFloPT2aDMEYbKag,12840
+cchess/read_cbf.py,sha256=HLbsmk25cjBmaZwKzXPsXpD4Be_A8zD8_qohk-pYCGE,1930
+cchess/read_pgn.py,sha256=uKfvHc6Zo31z-Nxa_eHzqbKly17nE06nOmxCYMpaX3o,2633
+cchess/read_txt.py,sha256=I41V-9tIDi5w94WKUeywILuJQ5fXa4guDS0vLCm4cRk,2675
+cchess/read_xqf.py,sha256=Da1QBeMpTxIyeFMUXIqbkQTYenD4z1ZIFGdgr5XAkes,12321
+cchess/ucci.py,sha256=BY0uXvZKmqpBRUFZHqrh5OGxr6u9QpYLgVgOAuZqNgY,6242
+cchess-0.80.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+cchess-0.80.dist-info/METADATA,sha256=QNr1mmHDzRU25poQLL9qXtDOfy-9qE4CMmyhTFKWqZU,2460
+cchess-0.80.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+cchess-0.80.dist-info/RECORD,,
