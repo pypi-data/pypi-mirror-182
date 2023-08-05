@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+py2js/__init__.py
+py2js/js2py.py
+py2js/visitor.py
+py2js.egg-info/PKG-INFO
+py2js.egg-info/SOURCES.txt
+py2js.egg-info/dependency_links.txt
+py2js.egg-info/top_level.txt
+py2js/transformers/__init__.py
+py2js/transformers/console.py
+py2js/transformers/transformers.py
