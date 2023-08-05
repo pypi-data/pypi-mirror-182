@@ -1,0 +1,9 @@
+pysfn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysfn/condition.py,sha256=_vwn6VvQN9Nskw0MussMIzkVKAJFuWi-1HPzpxCqq0k,2463
+pysfn/function.py,sha256=zBBaRbKt-Utxe-7dg9NOCjzs5iTF41tln0DbJRLIDzs,4531
+pysfn/lmbda.py,sha256=7_DTfwYwOOs5-t9rKmHHDnio8BpbZOudRDHat-OwQIw,7037
+pysfn/s3.py,sha256=vKnfKuLJ3_fmwXSvSxk0VZGxPRykC5_Gj2JnwPu2XAE,1859
+pysfn/steps.py,sha256=YC3TdP1HKuLrUuh_0FFrs4D1TpseABwNdsp1o_i9fVA,45150
+pysfn-0.1.6.dist-info/METADATA,sha256=_vxQKD6nH6RVuaR-RyQNy-W-3VrJ2aD0D9ZMAO2sUgE,22330
+pysfn-0.1.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pysfn-0.1.6.dist-info/RECORD,,
