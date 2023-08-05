@@ -1,0 +1,8 @@
+setup.py
+NMCSS/src/NMCSS.egg-info/PKG-INFO
+NMCSS/src/NMCSS.egg-info/SOURCES.txt
+NMCSS/src/NMCSS.egg-info/dependency_links.txt
+NMCSS/src/NMCSS.egg-info/requires.txt
+NMCSS/src/NMCSS.egg-info/top_level.txt
+NMCSS/src/NMCSS.py
+NMCSS/src/NMCSS.egg-info/SOURCES.txt
