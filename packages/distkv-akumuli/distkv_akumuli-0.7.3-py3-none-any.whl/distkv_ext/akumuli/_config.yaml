@@ -1,0 +1,6 @@
+akumuli:
+  prefix: !P :.distkv.akumuli
+  server_default:
+    host: localhost
+    port: 8282
+    delta: true
