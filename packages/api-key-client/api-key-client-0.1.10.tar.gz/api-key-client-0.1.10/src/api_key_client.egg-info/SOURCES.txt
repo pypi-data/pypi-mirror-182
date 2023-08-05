@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/api_key_client/__init__.py
+src/api_key_client/utils.py
+src/api_key_client.egg-info/PKG-INFO
+src/api_key_client.egg-info/SOURCES.txt
+src/api_key_client.egg-info/dependency_links.txt
+src/api_key_client.egg-info/top_level.txt
