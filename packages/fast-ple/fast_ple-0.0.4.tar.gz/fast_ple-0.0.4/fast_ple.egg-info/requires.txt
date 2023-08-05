@@ -1,0 +1,11 @@
+pip
+packaging
+loguru
+mmcv
+loguru
+tabulate
+fastcore
+pandas
+pytorch_lightning
+
+[dev]
