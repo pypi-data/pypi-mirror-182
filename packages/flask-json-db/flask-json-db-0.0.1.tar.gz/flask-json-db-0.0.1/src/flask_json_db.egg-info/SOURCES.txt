@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+src/flask_json_db/__init__.py
+src/flask_json_db.egg-info/PKG-INFO
+src/flask_json_db.egg-info/SOURCES.txt
+src/flask_json_db.egg-info/dependency_links.txt
+src/flask_json_db.egg-info/top_level.txt
