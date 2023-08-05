@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ECSFooPkg
+Version: 0.0.2
+Summary: A dummy template of a python package with tests and documentation.
+Author-email: Oriol Tintó <oriol.tinto@lmu.de>
+Project-URL: Homepage, https://gitlab.physik.uni-muenchen.de/LDAP_meteo/ECS_Foo
+Project-URL: Bug Tracker, https://gitlab.physik.uni-muenchen.de/LDAP_meteo/ECS_Foo/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: enstools-encoding (>=2022.12)
+Requires-Dist: xarray
+Requires-Dist: hdf5plugin
+Requires-Dist: pooch
+Requires-Dist: netCDF4
+
+# ECS Foo Example Package
+
+This is a simple example package for the ECS Foo members to enjoy.
+
+## How to upload the project in the PyPackage Index
+
+We need to build the distribution files. To do so we use build. To make sure that we have the latest version:
+
+```bash
+pip install -U build
+```
+
+Then, we just go inside the package folder and run:
+
+```bash
+python -m build
+```
+
+It will create a new folder called dist.
+
+To upload these files to the **Python Package Index** we first need to have an account.
+
+That can be done in: **https://pypi.org/account/register/**
+
+After we have an account, will use the tool **twine** to upload our package.
+We can install it also from **pip**:
+
+```bash
+pip install twine
+```
+
+And then run: 
+
+```bash
+twine upload dist/*
+```
+
+Completely different.
