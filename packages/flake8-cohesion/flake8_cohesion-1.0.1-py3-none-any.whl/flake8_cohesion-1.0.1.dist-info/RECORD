@@ -1,0 +1,9 @@
+flake8_cohesion/__init__.py,sha256=l3yq6ni3eryxjPH8Wntxdh7pKv_brcy51qmyCcHeTpA,160
+flake8_cohesion/extension.py,sha256=qk2PPK_xisFM7rRxwXvWBsM-_cE4QQsC6qUPU5intOA,2289
+flake8_cohesion/module.py,sha256=lh5xUZFADzylcKmfcUGzokQOVminRE6ro-2B6Jf1O44,7222
+flake8_cohesion/parser.py,sha256=jLN87eNBKwY8_BBY_qZZNfMU0S8_KEOQsG8AX-XdB1E,4856
+flake8_cohesion-1.0.1.dist-info/entry_points.txt,sha256=QwL5NHyuPjCh_NtcwSA9GN5Yq0iUDCBpIL8p7mbxnaw,66
+flake8_cohesion-1.0.1.dist-info/WHEEL,sha256=_LDBqpgIVFNHZvvFOGbg2pvJOENq6RHAyT5px-HeX0U,87
+flake8_cohesion-1.0.1.dist-info/METADATA,sha256=67yDpTcHg1p0OrsFGJ9yA-IMYJM0wtNwFw57wOlTVBM,340
+flake8_cohesion-1.0.1.dist-info/licenses/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+flake8_cohesion-1.0.1.dist-info/RECORD,,
