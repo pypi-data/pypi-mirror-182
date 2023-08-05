@@ -1,0 +1,12 @@
+README.md
+setup.py
+texthandler/__init__.py
+texthandler/api.py
+texthandler.egg-info/PKG-INFO
+texthandler.egg-info/SOURCES.txt
+texthandler.egg-info/dependency_links.txt
+texthandler.egg-info/entry_points.txt
+texthandler.egg-info/requires.txt
+texthandler.egg-info/top_level.txt
+texthandler/apps/__init__.py
+texthandler/apps/model.py
