@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+samcarswell_test.egg-info/PKG-INFO
+samcarswell_test.egg-info/SOURCES.txt
+samcarswell_test.egg-info/dependency_links.txt
+samcarswell_test.egg-info/entry_points.txt
+samcarswell_test.egg-info/requires.txt
+samcarswell_test.egg-info/top_level.txt
+src/__init__.py
+src/main.py
