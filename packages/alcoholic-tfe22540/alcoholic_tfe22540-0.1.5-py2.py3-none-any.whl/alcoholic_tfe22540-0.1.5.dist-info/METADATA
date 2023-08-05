@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: alcoholic-tfe22540
+Version: 0.1.5
+Summary: Framework of my master thesis on the effect of withdrawal on the white matter of alcoholic patients using dMRI data.
+Home-page: https://github.com/mdausort/TFE22-540
+Author: Manon Dausort
+Author-email: manon.dausort@uclouvain.be
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Requires-Dist: numpy
+Requires-Dist: nibabel
+Requires-Dist: xlsxwriter
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: seaborn
+Requires-Dist: dipy
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: openpyxl
+
+UNKNOWN
+
