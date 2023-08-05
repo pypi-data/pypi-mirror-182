@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "FizzBuzz-a-a-r-2"
+version = "0.1.0"
+description = "Setting up CI project"
+authors = ["augustin-marie <a.marie189@laposte.net>"]
+readme = "README.md"
+packages = [{include = "fizzbuzz"}]
+
+[tool.poetry.dependencies]
+python = ">3.9"
+flake8 = "^6.0.0"
+setuptools = "57.2.0"
+
+[tool.isort]
+profile = "isort"
+src_paths = ["isort", "test"]
+
+
