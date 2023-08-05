@@ -1,0 +1,6 @@
+torch>=1.9
+torchvision
+transformers<=4.21.0
+ftfy
+regex
+tqdm
