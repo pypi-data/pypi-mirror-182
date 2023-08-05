@@ -1,0 +1,8 @@
+click
+requests
+yamlns
+consolemsg
+packaging
+decorator
+unidic-lite
+cutlet
