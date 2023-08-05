@@ -1,0 +1,14 @@
+prefect_google_sheets/__init__.py,sha256=TN38qiV69TKWPQqGEHCLQaSDETsCPAfL7P20GYt_XO0,119
+prefect_google_sheets/_version.py,sha256=3tts1piriWzdNxlEajDbPot7OkdzD6370SactyopScw,497
+prefect_google_sheets/blocks.py,sha256=joVbhzPMu8wY39J7h6IGVbFTaJ5xV1_mQPHZOG7SiaA,836
+prefect_google_sheets/exceptions.py,sha256=KtHGfnJBrqfXhah6n4xy06yVy5b2Hz2noQis59zS2Ks,486
+prefect_google_sheets/tasks.py,sha256=kUZI17cnt2_5qJBuWQUPb9TxwRjZs2ZIHbRW2kkowgs,10416
+prefect_google_sheets/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_google_sheets/utils/dataframe.py,sha256=iLgFeJG7hLNLcdKNy6vKBegB8ktHo5FKc5eoWrxNAK4,1748
+prefect_google_sheets/utils/google.py,sha256=BYZCEpWGkuRYQgqCvbwOVe18WCNEfkdWyXE9bP0cYhg,1702
+prefect_google_sheets-0.1.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_google_sheets-0.1.1.dist-info/METADATA,sha256=Qcw0Giz0gNZirpBHMnhe5_e2pkz7wlAnnSCxU7MXzjo,7444
+prefect_google_sheets-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+prefect_google_sheets-0.1.1.dist-info/entry_points.txt,sha256=IEF7pfnY4IE4rbPE2h9eSvNPgCingBTEExbZHTA19bw,68
+prefect_google_sheets-0.1.1.dist-info/top_level.txt,sha256=tIoLAw8n5GnqHruxJgx9bi2UWRq8cagDY3g-Jb9GnL8,22
+prefect_google_sheets-0.1.1.dist-info/RECORD,,
