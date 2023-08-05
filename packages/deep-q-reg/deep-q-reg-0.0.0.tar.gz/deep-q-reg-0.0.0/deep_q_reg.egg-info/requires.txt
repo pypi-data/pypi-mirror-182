@@ -1,0 +1,6 @@
+ezpip
+sout>=1.2.1
+relpath
+fies
+tqdm
+eznorm
