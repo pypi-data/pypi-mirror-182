@@ -1,0 +1,10 @@
+ango/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ango/plugin_tests.py,sha256=1eRtU8AoQ0QeCwY9szWFuMdUQHR6bnPqJdB6UqJ4Rws,2908
+ango/plugins.py,sha256=t4bgCukl7LIpQ7B_XWacR4ZJs41mVd1P-7kkxYEMGr4,3274
+ango/sdk.py,sha256=2NlRZEkm_vhW1_aJM3CZ--thu4vN-gzOpN0gGVfWl7Y,26251
+ango/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ango/models/label_category.py,sha256=rbcJfX43j5HPQbdzHcGWx_6IgLopRGolUHfAp9Ea9vA,4970
+ango-0.0.30.dist-info/METADATA,sha256=8835POvOpbkr1QfwEKwCS8I2nkMYi9hYfgyjddcZV9o,1830
+ango-0.0.30.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ango-0.0.30.dist-info/top_level.txt,sha256=qhsze1tXId4WfdgrEzen2NolXE5HV3fzd_YHQ0hBDY4,5
+ango-0.0.30.dist-info/RECORD,,
