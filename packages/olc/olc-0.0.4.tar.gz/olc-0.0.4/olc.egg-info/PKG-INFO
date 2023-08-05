@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: olc
+Version: 0.0.4
+Summary: Basic Open Source License Collector
+Home-page: https://github.com/rommelag/olc
+Author: Rommelag iLabs
+License: 0BSD
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Basic open source license collector script.
+
+Outputs a licenses.json file.
+
+Currently supported platforms:
+* Debian
+* Alpine
+* Python
+
+Planned:
+* Node
+
+## Usage
+```
+pip3 install olc
+detect_licenses $PROJECTNAME
+```
+
+
