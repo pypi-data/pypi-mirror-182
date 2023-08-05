@@ -1,0 +1,4 @@
+numpy
+psychopy
+PyQt5
+scipy
