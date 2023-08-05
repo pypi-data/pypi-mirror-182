@@ -1,0 +1,5 @@
+enstools-encoding>=2022.12
+xarray
+hdf5plugin
+pooch
+netCDF4
