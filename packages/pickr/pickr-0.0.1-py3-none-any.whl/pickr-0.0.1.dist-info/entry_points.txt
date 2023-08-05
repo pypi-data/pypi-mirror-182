@@ -1,0 +1,3 @@
+[console_scripts]
+peaks=peaks.cli:peaks
+
