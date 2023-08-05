@@ -1,0 +1,8 @@
+django_sql_query_to_excel/__init__.py,sha256=gjShgQnJ3XgfPLWA5bp-2XhbylTWeycEBFD93c7JNSE,2081
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_main.py,sha256=5QMgcX2soNEfRxiK_gszi99aTjpU6Yna7_sNjh2Hkl0,197
+django_sql_query_to_excel-1.0.0.dist-info/LICENSE,sha256=UcQ48dlLd8DaUpYSLd6kEaZaEqM1jaE06Kuqh5vA0Kk,1073
+django_sql_query_to_excel-1.0.0.dist-info/METADATA,sha256=4iIgFoaRSY8xT1m2MKlzj5KcQy5YQ0HCdnyiGWbIIYA,732
+django_sql_query_to_excel-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_sql_query_to_excel-1.0.0.dist-info/top_level.txt,sha256=ISKOj-_NiXJgE2wf4dDMXb-0mMjle_ZKuCu7wV_YT7k,31
+django_sql_query_to_excel-1.0.0.dist-info/RECORD,,
