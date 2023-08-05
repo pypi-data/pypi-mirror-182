@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cow-download
+Version: 0.0.5
+Summary: Easily downlaod file from cow transfer
+Home-page: https://github.com/txbhandsome/cow_download.git
+Author: txb
+Author-email: txb.sdn@gmail.com
+License: MIT
+Keywords: python,DownloadKit,cow_download
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# cow_download
+
+## download
+```
+pip install cow_download -i https://pypi.douban.com/simple/
+```
+## use
+一个完整的奶牛快传链接就像这样：https://xiyoucloud.cowtransfer.com/s/883b0501521c4b
+你可以根据文件的 id 来下载到文件 883b0501521c4b。
+
+```
+cow_download download 883b0501521c4b
+```
+
