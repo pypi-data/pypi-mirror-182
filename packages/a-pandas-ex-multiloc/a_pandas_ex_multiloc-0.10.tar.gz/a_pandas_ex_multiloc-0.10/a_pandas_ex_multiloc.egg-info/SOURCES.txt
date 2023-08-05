@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_multiloc/LICENSE
+a_pandas_ex_multiloc/README.MD
+a_pandas_ex_multiloc/__init__.py
+a_pandas_ex_multiloc/requirements.txt
+a_pandas_ex_multiloc/thirdparty.json
+a_pandas_ex_multiloc.egg-info/PKG-INFO
+a_pandas_ex_multiloc.egg-info/SOURCES.txt
+a_pandas_ex_multiloc.egg-info/dependency_links.txt
+a_pandas_ex_multiloc.egg-info/requires.txt
+a_pandas_ex_multiloc.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+include a_pandas_ex_multiloc/requirements.txt
+include a_pandas_ex_multiloc/thirdparty.json
+include a_pandas_ex_multiloc/README.MD
+include a_pandas_ex_multiloc/LICENSE
