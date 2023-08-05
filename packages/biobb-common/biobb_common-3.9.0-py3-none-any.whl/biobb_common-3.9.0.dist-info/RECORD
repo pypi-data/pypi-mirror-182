@@ -1,0 +1,15 @@
+biobb_common/__init__.py,sha256=7bLZVVKsfggiEBER9gzJt3v1sZjFGp-31Bl_JWpicwo,44
+biobb_common/command_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/command_wrapper/cmd_wrapper.py,sha256=W0UZDRzNZA3DEsRhi3XDHhi1Wig6fq8AAHxyY409p3I,2006
+biobb_common/configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/configuration/settings.py,sha256=h7ceCK3_94zQzq4WjuN4NgyrkYXF6D8uNhUekdiFiMg,13764
+biobb_common/generic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/generic/biobb_object.py,sha256=5f0yIEVZJVZEK6z7YU1p0XR3NYROmJW13FOclvhVVJc,14016
+biobb_common/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/tools/file_utils.py,sha256=5CeSsmiKKwvC9Q3ghijR6ztSiHSJwPdH0CY6hd7t3Wo,25745
+biobb_common/tools/test_fixtures.py,sha256=cI0zvYUflvTXDy4fP1kkAd_ji39rYP5UmEjw-E0hgoM,7880
+biobb_common-3.9.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+biobb_common-3.9.0.dist-info/METADATA,sha256=8LnDOaDImPYUzRdCjP52qQ8F24pY7wvOpu-MfsVGTHw,2704
+biobb_common-3.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+biobb_common-3.9.0.dist-info/top_level.txt,sha256=4-T8yEB9bIr01XlLalB9REBLD4U84F4HK4eLNrH7Ri8,13
+biobb_common-3.9.0.dist-info/RECORD,,
