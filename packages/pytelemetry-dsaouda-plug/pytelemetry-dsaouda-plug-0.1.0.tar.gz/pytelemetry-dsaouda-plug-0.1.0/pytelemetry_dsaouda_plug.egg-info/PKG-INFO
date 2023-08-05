@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytelemetry-dsaouda-plug
+Version: 0.1.0
+Summary: A simple and default open telemetry log formatter
+Home-page: https://github.com/diego-plug/pytelemetry
+Author: Diego Saouda
+Author-email: dsaouda@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pytelemetry
+
+A simple and default open telemetry log formatter
