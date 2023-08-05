@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: grew
+Version: 0.5.1
+Summary: DEPRECATED: replaced by https://pypi.org/project/grewpy
+Home-page: https://grew.fr/usage/python
+Author: bguil
+Author-email: Bruno.Guillaume@loria.fr
+License: LICENSE/Licence_CeCILL_V2-en.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# DEPRECATED
+
+See http://grew.fr/usage/python
+
+
