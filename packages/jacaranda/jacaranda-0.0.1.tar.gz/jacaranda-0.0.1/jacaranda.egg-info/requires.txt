@@ -1,0 +1,7 @@
+scipy==1.7.0
+pandas
+numpy
+torch
+optuna
+scikit-learn
+xgboost
