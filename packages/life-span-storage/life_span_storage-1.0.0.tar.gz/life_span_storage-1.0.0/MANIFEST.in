@@ -1,0 +1,11 @@
+include life_span_storage/life_span_storage.min.js
+include life_span_storage/life_span_storage.min.js.map
+include life_span_storage/async-*.js
+include life_span_storage/async-*.js.map
+include life_span_storage/*-shared.js
+include life_span_storage/*-shared.js.map
+include life_span_storage/metadata.json
+include life_span_storage/package-info.json
+include README.md
+include LICENSE
+include package.json
