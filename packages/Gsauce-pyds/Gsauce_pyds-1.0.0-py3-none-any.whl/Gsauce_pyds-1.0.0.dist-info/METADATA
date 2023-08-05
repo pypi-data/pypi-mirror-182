@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Gsauce-pyds
+Version: 1.0.0
+Summary: Some useful and known data structure.
+Home-page: https://github.com/GSAUC3/Gsauce-pyds
+Author: Rajarshi Banerjee
+Author-email: sambaner1050@outlook.com 
+License: MIT
+Keywords: python,linked list,singly linked list,Binary Search Tree,Binary Tree
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# Data Structures for python
+- Linked List
+    - Singly Linked List
+    - Circularly Singly Linked List
+    - Doubly Linked List
+    - Circularly Doubly Linked List
+- Stack
+    - Stack using list 
+    - Stack using linked list   
+- Queue
+    - Queue using singly linked list
+- Dequeue 
+    - dequeue using doubly linked list
+- Trees
+    - Binary Trees
+    - Binary search trees (BST)
+    
+## Installation
+Latest Version : 0.3.0
+```
+pip install Gsauce-pyds
+```
+
+## License
+
+© 2021 Rajarshi Banerjee
+
+This repository is licensed under the MIT license. See Licence for details.
+
+## Link to package
+
+<a href="https://pypi.org/project/Gsauce-pyds/">Gsauce-pyds | pypi </a>
+
+***
+

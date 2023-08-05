@@ -1,0 +1,12 @@
+dstructure/Algos.py,sha256=p9Cb5AMqXxenZi87lHFYKNffIgov5ZvYjYKHg7jQLEk,585
+dstructure/Sorting.py,sha256=0yimqJ1-b8OlszARa1WNuc0oZB7eIgn2byHE8N0zJaI,1896
+dstructure/__init__.py,sha256=3VGRFfY81nt41Aelb5WUfKVSJG49Fb1sO7FLngczRyU,206
+dstructure/binarytree.py,sha256=3VKuPHcZX7re5OJ0Vydj3Oi9IrZtypsBokH4Zd0FRdg,5521
+dstructure/exceptions.py,sha256=OM43nbGQ8LuJYR5q2gC59xczCL6_YKDavyywWrd-eF0,120
+dstructure/linkedlist.py,sha256=mIAE8Jl7T8jU0qIwfu3pw6Uo5nsj1XDFSjoe_zLzngs,13702
+dstructure/queues.py,sha256=dubzn-2MH08APR7KkRrGSYyIOJvWPUscrdzRwgdayQc,2790
+dstructure/stack.py,sha256=vM7Tvwt9nMRbhbLSj07ArGENCnA_IPZWpsvTfKwaV3M,1817
+Gsauce_pyds-1.0.0.dist-info/METADATA,sha256=ARY_5YyzBqglBClIVvt3wgrt2CNF_k81cVdjR4XbMW4,1219
+Gsauce_pyds-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Gsauce_pyds-1.0.0.dist-info/top_level.txt,sha256=WXl3CYj24tbpVB8I6fZg3CtCU4iw3aSPkJOeXcoB2oY,11
+Gsauce_pyds-1.0.0.dist-info/RECORD,,
