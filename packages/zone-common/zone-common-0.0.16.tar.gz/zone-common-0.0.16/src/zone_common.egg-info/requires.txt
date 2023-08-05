@@ -1,0 +1,5 @@
+werkzeug
+nats-py
+asyncio
+python-decouple
+pyjwt
