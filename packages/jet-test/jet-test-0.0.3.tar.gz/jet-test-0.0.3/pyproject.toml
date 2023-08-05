@@ -1,0 +1,26 @@
+[project]
+name = "jet-test"
+version = "0.0.3"
+authors = [
+  { name="António Leitão", email="aleitao@novaims.unl.pt" },
+]
+description = "Simple clean testing toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "rich>=12.6.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Antonio-Leitao/jet"
+
+[project.scripts]
+jet = "jet_test.main:main"
+
+[tool.setuptools]
+packages = ["jet_test"]
