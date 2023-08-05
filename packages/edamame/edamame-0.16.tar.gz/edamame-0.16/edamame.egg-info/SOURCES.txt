@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+edamame.egg-info/PKG-INFO
+edamame.egg-info/SOURCES.txt
+edamame.egg-info/dependency_links.txt
+edamame.egg-info/requires.txt
+edamame.egg-info/top_level.txt
