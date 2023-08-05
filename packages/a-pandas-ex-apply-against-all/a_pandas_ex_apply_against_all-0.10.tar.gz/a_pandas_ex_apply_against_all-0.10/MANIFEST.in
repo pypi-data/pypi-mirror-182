@@ -1,0 +1,4 @@
+include a_pandas_ex_apply_against_all/requirements.txt
+include a_pandas_ex_apply_against_all/thirdparty.json
+include a_pandas_ex_apply_against_all/README.MD
+include a_pandas_ex_apply_against_all/LICENSE
