@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: interaction_simple
+Version: 1.0.1
+Summary: "It will have a simple conversation with client.",
+Author: Akash Ojha
+Keywords: interaction
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Interaction Package
+It's a simple package which implements a interaction
+
+### Run these in python cli after installing the package
+`import interaction_simple`
+
+`interaction_simple.start()`
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/interaction_simple.py
+src/interaction_simple.egg-info/PKG-INFO
+src/interaction_simple.egg-info/SOURCES.txt
+src/interaction_simple.egg-info/dependency_links.txt
+src/interaction_simple.egg-info/top_level.txt
