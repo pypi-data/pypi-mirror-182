@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: disqover
+Version: 1
+Summary: Placeholder for the Python API for ONTOFORCE's DISQOVER
+Home-page: https://www.ontoforce.com
+Author: ONTOFORCE
+Author-email: backend@ontoforce.com
+License: MIT
+Description: This is a placeholder. To get the real API library, install disqover-api from the private pip repository.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

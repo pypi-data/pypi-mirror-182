@@ -1,0 +1,6 @@
+setup.py
+src/disqover/__init__.py
+src/disqover.egg-info/PKG-INFO
+src/disqover.egg-info/SOURCES.txt
+src/disqover.egg-info/dependency_links.txt
+src/disqover.egg-info/top_level.txt
