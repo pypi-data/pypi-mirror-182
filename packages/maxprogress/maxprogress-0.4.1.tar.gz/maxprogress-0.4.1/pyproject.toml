@@ -1,0 +1,24 @@
+[project]
+name = "maxprogress"
+version = "0.4.1"
+description = "A customized Rich Progress Bar."
+authors = [
+    { name = "maxludden", email = "dev@maxludden.com" },
+]
+dependencies = [
+    "maxconsole>=0.5.1",
+    "rich>=12.6.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm]
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
