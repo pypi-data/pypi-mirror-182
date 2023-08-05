@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+csvplus/__init__.py
+csvplus.egg-info/PKG-INFO
+csvplus.egg-info/SOURCES.txt
+csvplus.egg-info/dependency_links.txt
+csvplus.egg-info/top_level.txt

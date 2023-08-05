@@ -1,0 +1,4 @@
+exclude build.sh
+exclude publish.sh
+exclude test/*
+exclude test.sh
