@@ -1,0 +1,10 @@
+trappist/__init__.py,sha256=PCpQob5pYzMOhNBY6Jvm3xuaEWRLGI0tIGwtb5KvmnY,1177
+trappist/bnet.py,sha256=Cq9-RC-nAHFhj87ybakrWTA6wQmlYEmsvlAn02_WCCc,3061
+trappist/max_sat.py,sha256=hN2v3k7BtdDqVstXT3XRakkZme35Mfh93PP2KG8Yt5Q,3131
+trappist/naive.py,sha256=-3j4s9BQ-fYJCZPW3TywFYNsE7TUHfiqSpbHpK-1brA,6240
+trappist/trappist.py,sha256=87FiVuxHKq-1zYcvhEm5qN6S7RCjUrWR-F05xE8m-d4,8477
+trappist-0.5.0.dist-info/METADATA,sha256=2vyafZaqnI9Kboxdqrpj8uSVCoQq-b97PjWf8gnw88E,2016
+trappist-0.5.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+trappist-0.5.0.dist-info/entry_points.txt,sha256=BHUzq9PzOV_ooTi1TRR3fXJpi5qqih_mN7FW5YorulE,52
+trappist-0.5.0.dist-info/licenses/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+trappist-0.5.0.dist-info/RECORD,,
