@@ -1,0 +1,4 @@
+include a_pandas_ex_fast_string/requirements.txt
+include a_pandas_ex_fast_string/thirdparty.json
+include a_pandas_ex_fast_string/README.MD
+include a_pandas_ex_fast_string/LICENSE
