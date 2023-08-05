@@ -1,0 +1,13 @@
+assuan/.client.py.swp,sha256=4YqGtwR80PaBtF0Bkum6Kh0RZO47UqVo3CJVl8CseTc,28672
+assuan/.common.py.swp,sha256=mnzXa41Mwzmk4sABj15l0sEtNZTb5Neai1KKteoep9c,36864
+assuan/.server.py.swp,sha256=N-04-yXgwaFYKENSKIGJWAv2Dh8WMEmqCghlDfc9ioU,32768
+assuan/__init__.py,sha256=OpnpQ2L5kSPpJBFXg2GkeZ5yoMMgUCEFrvf9XFLMbBc,1855
+assuan/client.py,sha256=qlhztctpM_AMQwG6W73lXeL4USmIB-CDLBKNhAeSvNg,8992
+assuan/common.py,sha256=UvNEu7mcdGN5xHqjbmlN90oXFXNAHfWr2RTcLlpgxQg,11008
+assuan/exception.py,sha256=oMwfO3sFzx-VUopmgXCSxkeKQIfR4NaOkmStQlVJIuc,9742
+assuan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assuan/server.py,sha256=hNJb95LwcnXBwibguGoRvPnGyaBaXtn-MjoB7NB3XpY,11768
+assuan-0.2.1b1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+assuan-0.2.1b1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+assuan-0.2.1b1.dist-info/METADATA,sha256=IzXrL9shJ24lIK7-I4EXmvWbUwbjxdjwkERQ-NzgvMQ,3823
+assuan-0.2.1b1.dist-info/RECORD,,
