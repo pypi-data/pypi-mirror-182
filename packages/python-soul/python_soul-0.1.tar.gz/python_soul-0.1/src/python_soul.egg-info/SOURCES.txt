@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/python_soul/__init__.py
+src/python_soul/command_executer.py
+src/python_soul/command_manager.py
+src/python_soul.egg-info/PKG-INFO
+src/python_soul.egg-info/SOURCES.txt
+src/python_soul.egg-info/dependency_links.txt
+src/python_soul.egg-info/top_level.txt
