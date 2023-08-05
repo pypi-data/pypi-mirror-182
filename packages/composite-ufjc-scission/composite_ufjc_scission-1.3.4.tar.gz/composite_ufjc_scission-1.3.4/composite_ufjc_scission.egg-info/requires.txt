@@ -1,0 +1,9 @@
+numpy
+scipy
+
+[numerical_quadrature]
+orthopy==0.8.92
+quadpy==0.16.16
+
+[plotting]
+matplotlib
