@@ -1,0 +1,6 @@
+nonebot_plugin_gpt3/__init__.py,sha256=S56M8TqvLY-Zfu0YXxYWlJlsZ6VadY0ouxLGTjFiFnk,7488
+nonebot_plugin_gpt3/config.py,sha256=nygisE9A8OxOs1Hzw6NMZ-V28e4oshOnMAg2nG5Dt94,1391
+nonebot_plugin_gpt3/openai.py,sha256=j0UbDi7KXVxPFka5JZMUK4A0UOr7Gz_Ut-NEkocHoRo,733
+nonebot_plugin_gpt3-1.0.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nonebot_plugin_gpt3-1.0.8.dist-info/METADATA,sha256=aRjxOJRuZfnc9GOrfa2oaI6Lb-K6SfNmjyXqYzxxIm4,4783
+nonebot_plugin_gpt3-1.0.8.dist-info/RECORD,,
