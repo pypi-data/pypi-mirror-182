@@ -1,0 +1,14 @@
+picslate/__init__.py,sha256=G_q4XNV-d13p6IseLDoTNXZVRYYsUfq_QcCxfZaz9og,41
+picslate/__main__.py,sha256=UNiE5N7Yy42tJBTqCtjmY4OJqgEH4O-3nHzi59PnjwU,1081
+picslate/core.py,sha256=6DXQuHI9ZtU0NkCwQMNQMGK8BHTD-uSTb8aGF62naMA,1427
+picslate/corrector.py,sha256=7BCF_Q8del2UgxWcECeDjAZ7yLOnBG-VfuWatVtLTGw,3168
+picslate/make_picture.py,sha256=znLsMX13RcgqNq_uVcPPdYj5CdYzIaq82QxcQtStD4s,10792
+picslate/paragraphs.py,sha256=x6Of08bT_0DzbJk0zvgVmTHoa0nMtW2zbdKUav43PZc,3165
+picslate/picture.py,sha256=8inF-R8F6ibV-c2v3yKx7XdqKxsyE-SPZOlItVpctOA,6052
+picslate/translate.py,sha256=-7NryMCgPIhyDt4wLVw2Jmid3Mz8GEyXiSJnFifyNH4,1291
+picslate-0.2.dist-info/LICENSE.md,sha256=nVPZfP3_uy7t2aMp7Jr6Tsj-KDeaaOBy3bpwCcJbTeU,1054
+picslate-0.2.dist-info/METADATA,sha256=wAy_bLGT6tMivSGh51TDvAdiLJAkAj3uTugc4fvwtmA,191
+picslate-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+picslate-0.2.dist-info/entry_points.txt,sha256=TY2wMbv5rico3twO9MRD14Ztkw8JCMt75EyfqOeryNo,54
+picslate-0.2.dist-info/top_level.txt,sha256=wU2Lbb7ePTt9LtGAl9ZrfJlNaswr9Ly6VHT6YDxrb_Y,9
+picslate-0.2.dist-info/RECORD,,
