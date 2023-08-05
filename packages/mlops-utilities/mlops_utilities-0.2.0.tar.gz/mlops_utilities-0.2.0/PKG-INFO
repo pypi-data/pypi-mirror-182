@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mlops-utilities
+Version: 0.2.0
+Summary: 
+Author: Provectus Team
+Author-email: mlops@provectus.com
+Requires-Python: >=3.8
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.26,<1.27)
+Requires-Dist: omegaconf (>=2.2,<2.3)
+Requires-Dist: pytest (==7.2.0)
+Requires-Dist: sagemaker (>=2.112,<2.113)
+Description-Content-Type: text/markdown
+
+# MLOps Utilities
+
+This library provides implementation for a few high level operations most commonly occuring in any MLOps workflows built in AWS:
+- Upsert pipeline
+- Run pipeline
+- Deploy model
+    - Create endpoint
+    - Update endpoint
+
+### User guide
+#### Installation
+`pip3 install mlops-utilities`
+#### Project structure conventions
+TODO
+#### Actions
+TODO
+```
+from mlops_utilities.actions import run_pipeline
+    
+run_pipeline(
+  pipeline_name='test_pipeline',
+  execution_name_prefix='test_pipeline',
+  dryrun=True,
+  pipeline_params={}
+)
+```
+
