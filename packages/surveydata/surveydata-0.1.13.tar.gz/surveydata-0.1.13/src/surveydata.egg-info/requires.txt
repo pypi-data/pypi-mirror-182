@@ -1,0 +1,11 @@
+requests
+pandas
+numpy
+boto3
+botocore
+google-cloud-storage
+azure-storage-blob
+azure-identity
+pyodk
+python-dateutil
+flatten_json
