@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+storage_observer/StorageObserver.py
+storage_observer/__init__.py
+storage_observer/_imports_.py
+storage_observer/metadata.json
+storage_observer/package-info.json
+storage_observer/storage_observer.min.js
+storage_observer/storage_observer.min.js.map
+storage_observer.egg-info/PKG-INFO
+storage_observer.egg-info/SOURCES.txt
+storage_observer.egg-info/dependency_links.txt
+storage_observer.egg-info/top_level.txt
