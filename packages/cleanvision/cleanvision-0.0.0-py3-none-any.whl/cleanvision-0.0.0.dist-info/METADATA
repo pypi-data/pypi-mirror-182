@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cleanvision
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author-email: ulyana@cleanlab.ai
+License: AGPLv3+
+Keywords: computer_vision cv image_data issue_detection data_quality image_quality machine_learning data_cleaning image_deduplication
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.7
+Requires-Dist: Pillow (>=8.4)
+Requires-Dist: numpy (>=1.11.3)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: imagehash (>=4.2.0)
+Requires-Dist: tqdm (>=4.53.0)
+
+UNKNOWN
+
+
