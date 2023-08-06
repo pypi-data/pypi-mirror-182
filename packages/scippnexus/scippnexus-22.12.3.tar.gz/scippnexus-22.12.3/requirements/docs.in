@@ -1,0 +1,13 @@
+-r base.in
+ipykernel
+ipywidgets
+packaging
+plopp<0.3  # https://github.com/scipp/plopp/issues/111
+pooch
+requests
+sphinx
+sphinx-autodoc-typehints==1.18.3  # later versions require sphinx >=5 which is incompatible with current sphinx-book-theme
+sphinx-book-theme
+sphinx-copybutton
+matplotlib
+nbsphinx
