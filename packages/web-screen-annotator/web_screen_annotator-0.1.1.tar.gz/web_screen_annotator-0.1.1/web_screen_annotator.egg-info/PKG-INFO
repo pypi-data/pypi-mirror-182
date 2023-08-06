@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: web-screen-annotator
+Version: 0.1.1
+Summary: data extraction library
+Home-page: UNKNOWN
+Author: Ghaith Nabli
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# web screen annotator
+a tool to collect data for element detection in web site screen shots,
+extract elements from a web site and generates a json file.
+
+### Installation
+```
+pip install web_screen_annotator
+```
+
+### Get started
+How to extract data from web sites using this lib:
+
+```Python
+import web_screen_annotator 
+# list of urls of sites
+urls = [
+        "C:\\Users\\DELL\\Projects\\First Demo\\login.html",
+        ]
+annotator = web_screen_annotator.DataAnnotator(urls,depth = 5)
+annotator.execute(viz=True)
+```
+
