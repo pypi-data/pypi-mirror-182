@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: midi-utils
+Version: 1.2.0
+Summary: midi-utils provides a couple of simple tools to generate midi notes in different scales
+Home-page: https://gitlab.com/gltd/midi-utils
+Author: Brian Abelson
+Author-email: hey@gltd.email
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
