@@ -1,0 +1,7 @@
+oss2
+requests
+requests-toolbelt
+aliyun-python-sdk-core
+aliyun-python-sdk-kms
+aliyun-python-sdk-sts
+tqdm
