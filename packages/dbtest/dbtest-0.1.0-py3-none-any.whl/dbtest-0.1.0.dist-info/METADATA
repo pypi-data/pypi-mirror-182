@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dbtest
+Version: 0.1.0
+Summary: Testing for dbt.
+Author: Indi Harrington
+Author-email: hi@indigo.rocks
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
