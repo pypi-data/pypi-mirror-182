@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+simpcamcap/__init__.py
+simpcamcap/__main__.py
+simpcamcap/simple_camera_capture.py
+simpcamcap.egg-info/PKG-INFO
+simpcamcap.egg-info/SOURCES.txt
+simpcamcap.egg-info/dependency_links.txt
+simpcamcap.egg-info/entry_points.txt
+simpcamcap.egg-info/top_level.txt
