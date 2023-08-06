@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+suadoPygameTools/__init__.py
+suadoPygameTools.egg-info/PKG-INFO
+suadoPygameTools.egg-info/SOURCES.txt
+suadoPygameTools.egg-info/dependency_links.txt
+suadoPygameTools.egg-info/top_level.txt
