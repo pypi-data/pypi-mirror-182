@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/st_switcher/__init__.py
+src/st_switcher.egg-info/PKG-INFO
+src/st_switcher.egg-info/SOURCES.txt
+src/st_switcher.egg-info/dependency_links.txt
+src/st_switcher.egg-info/requires.txt
+src/st_switcher.egg-info/top_level.txt
+src/st_switcher/frontend/index.html
+src/st_switcher/frontend/main.js
+src/st_switcher/frontend/script.js
+src/st_switcher/frontend/streamlit-component-lib.js
+src/st_switcher/frontend/style.css
