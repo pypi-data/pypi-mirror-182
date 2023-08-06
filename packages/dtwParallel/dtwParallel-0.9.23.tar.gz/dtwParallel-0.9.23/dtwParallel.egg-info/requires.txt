@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+gower
+setuptools
+scipy
+tslearn
+joblib
+numba
+tslearn
+h5py
