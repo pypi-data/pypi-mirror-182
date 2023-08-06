@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: specialsauce
+Version: 0.0.2
+Summary: Physiological formulas in Python
+Home-page: https://github.com/aaron-schroeder/specialsauce
+Author: Aaron Schroeder
+Author-email: aaron@trailzealot.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# specialsauce
+
+No marketing-speak - just the recipe.
