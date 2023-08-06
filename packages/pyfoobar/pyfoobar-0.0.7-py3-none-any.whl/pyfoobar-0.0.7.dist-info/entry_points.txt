@@ -1,0 +1,2 @@
+[console_scripts]
+pyfoobar = pyfoobar.cli:show
