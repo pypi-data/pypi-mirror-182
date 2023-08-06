@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: leela-doc
+Version: 0.1.0
+Summary: Minimal viable project documentation publishing site
+Author-email: Julien Lecomte <julien@lecomte.at>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/jlecomte/python/leela-doc
+Project-URL: Documentation, https://jlecomte.gitlab.io/python/leeladoc/
+Project-URL: Source code, https://gitlab.com/jlecomte/python/leela-doc
+Project-URL: Bug tracker, https://gitlab.com/jlecomte/python/leela-doc/-/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flasket
+Requires-Dist: python-magic
+
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](https://spdx.org/licenses/MIT.html)
+[![pipelines](https://gitlab.com/jlecomte/python/leela-doc/badges/master/pipeline.svg)](https://gitlab.com/jlecomte/python/leela-doc/pipelines)
+[![coverage](https://gitlab.com/jlecomte/python/leela-doc/badges/master/coverage.svg)](https://jlecomte.gitlab.io/python/leela-doc/coverage/index.html)
+
+# leela-doc
+
+Minimal viable project documentation publishing site.
+
+## Installation from PyPI
+
+You can install the latest version from PyPI package repository.
+
+~~~bash
+python3 -mpip install -U leela-doc
+~~~
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Locations
+
+  * GitLab: [https://gitlab.com/jlecomte/python/leela-doc](https://gitlab.com/jlecomte/python/leela-doc)
+  * PyPi: [https://pypi.org/project/leeladoc](https://pypi.org/project/leeladoc)
