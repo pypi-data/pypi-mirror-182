@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tgclients
+Version: 0.2.0
+Summary: TextGrid Python client library for textgrid.de repository access.
+Home-page: https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients
+Author: Stefan Hynek, Ubbo Veentjer
+License: LGPL
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: jinja2
+Requires-Dist: zeep
+Requires-Dist: xsdata[lxml]
+Requires-Dist: defusedxml
+Provides-Extra: dev
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: bandit ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: rstcheck ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: requests-mock ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: reuse ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: testbook ; extra == 'dev'
+Provides-Extra: icu
+Requires-Dist: PyICU ; extra == 'icu'
+
