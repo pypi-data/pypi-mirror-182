@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_rotate/DashRotate.py
+dash_rotate/__init__.py
+dash_rotate/_imports_.py
+dash_rotate/dash_rotate.min.js
+dash_rotate/dash_rotate.min.js.map
+dash_rotate/metadata.json
+dash_rotate/package-info.json
+dash_rotate.egg-info/PKG-INFO
+dash_rotate.egg-info/SOURCES.txt
+dash_rotate.egg-info/dependency_links.txt
+dash_rotate.egg-info/top_level.txt
