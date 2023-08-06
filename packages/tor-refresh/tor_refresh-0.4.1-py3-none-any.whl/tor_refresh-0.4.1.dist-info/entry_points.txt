@@ -1,0 +1,2 @@
+[console_scripts]
+tor_refresh = tor_refresh:main
