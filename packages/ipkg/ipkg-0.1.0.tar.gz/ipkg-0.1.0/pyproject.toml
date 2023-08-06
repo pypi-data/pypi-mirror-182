@@ -1,0 +1,44 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "$version"
+version_files = ["pyproject.toml:version"]
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "ipkg"
+version = "0.1.0"
+description = "My Package Manager"
+authors = ["Qin Li <liblaf@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://liblaf.github.io/ipkg/"
+repository = "https://github.com/liblaf/ipkg"
+documentation = "https://liblaf.github.io/ipkg/"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+rich = "^12.6.0"
+click = "^8.1.3"
+httpie = "^3.2.1"
+questionary = "^1.10.0"
+
+[tool.poetry.group.build.dependencies]
+pyinstaller = "^5.7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+isort = "^5.11.2"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^8.5.11"
+mkdocs = "^1.4.2"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+mkdocs-git-committers-plugin-2 = "^1.1.1"
+mkdocs-git-authors-plugin = "^0.7.0"
