@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aiosyncapi
+Version: 0.0.6
+Summary: manage asyncapi documentation
+Home-page: https://gitlab.com/nobox_/aioapi
+License: MIT
+Keywords: keyword,another_keyword
+Author: Arie
+Author-email: ariesorkin3@gmail.com
+Requires-Python: ==3.11.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: asyncer (>=0.0.2,<0.0.3)
+Requires-Dist: orjson (>=3.8.3,<4.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Project-URL: Repository, https://gitlab.com/nobox_/aioapi
+Description-Content-Type: text/markdown
+
+
