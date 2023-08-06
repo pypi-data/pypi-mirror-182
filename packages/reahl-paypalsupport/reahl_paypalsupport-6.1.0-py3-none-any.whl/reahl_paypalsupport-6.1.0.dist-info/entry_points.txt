@@ -1,0 +1,3 @@
+[reahl.translations]
+reahl-paypalsupport = reahl.messages
+
