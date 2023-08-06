@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: remesh-backend
+Version: 0.0.1
+Summary: A backend for remeshing 3D meshes.
+Home-page: https://github.com/hx-w/RenderLab
+Author: carol
+Author-email: CarOL <herixth@163.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
