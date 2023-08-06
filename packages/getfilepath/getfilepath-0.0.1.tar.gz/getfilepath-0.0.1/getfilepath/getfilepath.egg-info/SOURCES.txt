@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+documentation/index.rst
+documentation/install.rst
+getfilepath/getfilepath.egg-info/PKG-INFO
+getfilepath/getfilepath.egg-info/SOURCES.txt
+getfilepath/getfilepath.egg-info/dependency_links.txt
+getfilepath/getfilepath.egg-info/top_level.txt
