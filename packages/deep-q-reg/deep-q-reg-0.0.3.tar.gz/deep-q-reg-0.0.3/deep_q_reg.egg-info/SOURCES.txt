@@ -1,0 +1,11 @@
+README.md
+setup.py
+deep_q_reg/__init__.py
+deep_q_reg/test.py
+deep_q_reg.egg-info/PKG-INFO
+deep_q_reg.egg-info/SOURCES.txt
+deep_q_reg.egg-info/dependency_links.txt
+deep_q_reg.egg-info/requires.txt
+deep_q_reg.egg-info/top_level.txt
+deep_q_reg/parts/default_params.py
+deep_q_reg/parts/utils.py
