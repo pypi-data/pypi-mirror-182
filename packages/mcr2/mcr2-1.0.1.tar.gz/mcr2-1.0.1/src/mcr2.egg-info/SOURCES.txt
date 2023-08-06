@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mcr2/__init__.py
+src/mcr2.egg-info/PKG-INFO
+src/mcr2.egg-info/SOURCES.txt
+src/mcr2.egg-info/dependency_links.txt
+src/mcr2.egg-info/top_level.txt
+src/mcr2/losses/__init__.py
+src/mcr2/losses/ctrl.py
+src/mcr2/losses/mcr2.py
+src/mcr2/primitives/__init__.py
+src/mcr2/primitives/coding_rate.py
+src/mcr2/primitives/logdet.py
+src/mcr2/primitives/products.py
+src/mcr2/primitives/statistics.py
