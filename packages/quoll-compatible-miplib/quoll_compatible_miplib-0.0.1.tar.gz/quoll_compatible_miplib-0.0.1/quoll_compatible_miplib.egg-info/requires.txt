@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+
+[fullmiplib]
+h5py
+SimpleITK
+jpype1
+matplotlib
+pims
+scikit-image
+psf
