@@ -1,0 +1,17 @@
+pyfontrpmspec/__init__.py,sha256=xFcZo9FGQ6rsvo6a9OCBM_I0tocTUNceip2g3hhPoqY,729
+pyfontrpmspec/_debugpath.py,sha256=lNzqQt-fgS5LpKEtr8HB4PkF-JWm0bO_nzezWLD7ZEM,193
+pyfontrpmspec/converter.py,sha256=3UgISyHOdTto1I5mqNxPIYRqUPZk9V8dtwpcv93TFVQ,6653
+pyfontrpmspec/font_reader.py,sha256=At-wmrkWEozuhTqzZoNL5UXH400gkmre495jEdd8tTA,6994
+pyfontrpmspec/generator.py,sha256=8avb9I-JpBALK6WhgygF1zIhoBgSeCrNR95m34ZSQo4,12690
+pyfontrpmspec/messages.py,sha256=OBjdxAYzVk9yijthauA9rcBX0dqFvC9sNIrXC_OKUD4,2592
+pyfontrpmspec/package.py,sha256=J3ZSUUKWc3xHHCiHJmmzZBEBGIwM11rFEmNHy5kaX1Y,4692
+pyfontrpmspec/sources.py,sha256=LVSSrheYdahWtArlZz-CvFDG2xFhTSY1BCSF2Et3SfA,14106
+pyfontrpmspec/template.py,sha256=y43x5zfRzrtAfYntbteyJ3riZk-Sz3Un5Oa10_BCSms,1460
+pyfontrpmspec/template/spectemplate-fonts-multi.spec,sha256=OLAL2bZCRbkrICU3Wr-Oes6ZIcZLtW_rNz7Vx1rIYEQ,4392
+pyfontrpmspec/template/spectemplate-fonts-simple.spec,sha256=j5oAirF0zAfzo8Y-IgikYO4Pt26zISe27qptLd5gzvo,3523
+fontrpmspec-0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fontrpmspec-0.2.dist-info/METADATA,sha256=yKJKq4ZPFL4m_gYfp3KjTvZRDQzJqafckAbk0PwkMBM,44344
+fontrpmspec-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fontrpmspec-0.2.dist-info/entry_points.txt,sha256=MMWyPvoQTKecTzgYaG3c7lJdeCGxoWZz-Yh1CJJWMs8,113
+fontrpmspec-0.2.dist-info/top_level.txt,sha256=2QpM3yiQXPmgYaa35INYpufk4aV20p7J_-QtFCzwcTY,14
+fontrpmspec-0.2.dist-info/RECORD,,
