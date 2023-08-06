@@ -1,0 +1,24 @@
+[project]
+name = "modgraph"
+version = "0.2.0"
+description = "a tool to analyze sample overlap between tracker module files"
+authors = [
+    {name = "Ilia Pozdnyakov", email = "ilia.pozdnyakov@ya.ru"},
+]
+dependencies = [
+    "trackrip>=2.0.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.12.0",
+    "pandas>=1.5.2",
+    "ipykernel>=6.19.4",
+    "matplotlib>=3.6.2",
+    "nbconvert>=7.2.7",
+]
+[tool.pdm.scripts]
+post_build = "python -m nbconvert README.ipynb --to markdown"
