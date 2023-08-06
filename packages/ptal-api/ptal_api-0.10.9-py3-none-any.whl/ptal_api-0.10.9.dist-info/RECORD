@@ -1,0 +1,15 @@
+ptal_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/adapter.py,sha256=zo80d6Oj85iJhlydze4mln9AEkWd3EuuCIGemBx_4rE,56531
+ptal_api/core/values/value_mapping.py,sha256=qaWVegUwxP10WOv3tGIZXy8u3VhDlhhLEZrgxXuGTTQ,3287
+ptal_api/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/providers/gql_providers.py,sha256=U97KWb1bLBCL8LcSHSpt4z0_49vizC-UOLFqJ3pkdRA,4803
+ptal_api/schema/README.md,sha256=Ubj-6QlEZjkb6030dBsYfC8a_nujIIa2OSPW7m12DI0,659
+ptal_api/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/schema/api_schema.py,sha256=7v2rLkH2CoHeC2irEa6d4QFRhl3hkJp_SCbMvfgHCuk,553843
+ptal_api/schema/crawlers_api_schema.py,sha256=leP2bACa_EbDNvl5rOzaomRuQ7rprJ-RzUIl3kCLAv4,78438
+ptal_api/schema/utils_api_schema.py,sha256=Kfvg4H0UK5MIlGh9Cyxrl6oOomBGjNHsj8Nl7_1jbaM,103366
+ptal_api/tdm_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/tdm_builder/tdm_builder.py,sha256=xunrqBpI5tP1y_mmhVgxXLGGrat_uG3BqB5FDXFJfSU,1224
+ptal_api-0.10.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ptal_api-0.10.9.dist-info/METADATA,sha256=57qvVStZMgB7pTiGWM3oNATeFB5AEGitNA8vRPhBfXo,1176
+ptal_api-0.10.9.dist-info/RECORD,,
