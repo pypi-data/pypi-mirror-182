@@ -1,0 +1,12 @@
+*__pycache__/
+*.pyc
+outputfiles/*
+PYPI_deployment/*
+backup/*
+Datafactory/dist/*
+Test_Env/*
+Datafactory/pyproject.toml
+Datafactory/README.md
+Datafactory/LICENSE
+Datafactory/outputfiles/*
+Datafactory/Test_Report/*
