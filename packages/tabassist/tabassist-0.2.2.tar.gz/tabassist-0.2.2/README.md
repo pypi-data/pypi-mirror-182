@@ -1,0 +1,108 @@
+# TABASSIST
+
+## What's is about
+
+This package has aim to assist you while you work with Tableau and takes some routine from your shoulders.
+
+## INSTALATION
+
+```console
+pip install tabassist
+```
+
+## USAGE
+
+```console
+// Check Tableau workbook for errors
+$ tabassist check --file "/Users/user_name/Tableau_workbook.twbx"
+
+T100: 'check_NOT_in_lowercase' field not in lowercase
+T101: ' check_trailing_whitespace' field has trailing whitespace
+T101: 'check_trailing_whitespace ' field has trailing whitespace
+T102: 'check_non_unique_name (copy)' field has non allowed symbol(s)
+T102: 'check_non_allowed_символы' field has non allowed symbol(s)
+T103: 'check_non_unique_name (copy)' field has '(copy)' as a part of name
+T104: 'check_comment_doesnt_exist' field doesn’t have comment
+T105: 'check_comment_position' field has inline comment which doesn’t start from first line
+T106: 'id' field doesn’t used by any worksheet
+T106: 'check_unused_by_worksheet' field doesn’t used by any worksheet
+T106: 'city' field doesn’t used by any worksheet
+```
+
+```console
+// Export documentation of Tableau workbook
+$ tabassist doc export --file "/Users/user_name/Tableau_workbook.twbx" --name documentaion.md
+Document exported to '/Users/user_name/'.
+```
+<details><summary>documentaion.md</summary>
+
+>## Описание дашборда
+>to be updated...
+>
+>## Кто пользуется дашбордом 
+>to be updated...
+>
+>## Частота обновления 
+>to be updated...
+>
+>## MOCK_DATA
+>
+>### Местонахождение
+>
+>
+>Сервер -   
+>Тип БД - textscan  
+>База данных - None  
+>Порт - None  
+>
+>
+>
+>### Описание полей
+>
+>| Наименование | Описание | Формула |
+>| ------ | ------ | ------ |
+>id | |None
+>first_name | |None
+>last_name | |None
+>email | |None
+>gender | |None
+>ip_address | |None
+>birth_date | |None
+>order_date | |None
+>city | |None
+>city | |None
+>id | |None
+>ages | | //&ensp;age&ensp;of&ensp;fake&ensp;client<br/>DATEDIFF('year',&ensp;[birth_date],&ensp;>TODAY())
+>check_NOT_in_lowercase | | //&ensp;check&ensp;field&ensp;name&ensp;in&ensp;lowercase<br/>'fake'
+>check_non_unique_name (copy) | | //&ensp;check&ensp;stop&ensp;words<br/>'fake'
+>check_non_allowed_символы | | //&ensp;check&ensp;non&ensp;allowed&ensp;symbols<br/>'fake'
+>check_comment_doesnt_exist | | 'fake'
+>check_unused_by_worksheet | | //&ensp;check&ensp;field&ensp;is&ensp;unused<br/>'fake'
+>check_trailing_whitespace  | | //&ensp;check&ensp;field&ensp;name&ensp;for&ensp;containing&ensp;>whitespace&ensp;after<br/>'fake'
+>check_comment_exist | | //&ensp;check&ensp;commect&ensp;exist<br/>'fake'
+>check_comment_position | | 'fake'<br/>//&ensp;check&ensp;comment&ensp;starts&ensp;from&ensp;first&>ensp;line
+> check_trailing_whitespace | | //&ensp;check&ensp;field&ensp;name&ensp;for&ensp;containing&ensp;>whitespace&ensp;before<br/>'fake'
+>first_name | |None
+>last_name | |None
+>email | |None
+>gender | |None
+>ip_address | |None
+>birth_date | |None
+>order_date | |None
+>
+>
+>## Known issues and workaround
+>
+>not found yet.
+</details>
+
+## DEVELOPMENT
+
+1. virtualenv env
+2. source ./env/bin/activate
+3. pip install -r requarements.txt
+4. (OPTIONAL)
+
+    - pip install pycodestyle
+    - pip install pydocstyle
+    - pip install pytest
