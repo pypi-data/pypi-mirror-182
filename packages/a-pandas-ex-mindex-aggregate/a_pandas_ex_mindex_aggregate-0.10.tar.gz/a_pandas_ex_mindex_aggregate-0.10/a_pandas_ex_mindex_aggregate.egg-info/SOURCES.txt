@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_mindex_aggregate/LICENSE
+a_pandas_ex_mindex_aggregate/README.MD
+a_pandas_ex_mindex_aggregate/__init__.py
+a_pandas_ex_mindex_aggregate/requirements.txt
+a_pandas_ex_mindex_aggregate/thirdparty.json
+a_pandas_ex_mindex_aggregate.egg-info/PKG-INFO
+a_pandas_ex_mindex_aggregate.egg-info/SOURCES.txt
+a_pandas_ex_mindex_aggregate.egg-info/dependency_links.txt
+a_pandas_ex_mindex_aggregate.egg-info/requires.txt
+a_pandas_ex_mindex_aggregate.egg-info/top_level.txt
