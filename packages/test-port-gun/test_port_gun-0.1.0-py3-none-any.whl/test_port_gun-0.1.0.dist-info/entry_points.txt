@@ -1,0 +1,3 @@
+[console_scripts]
+test-port-gun=test_port_gun.main:app
+
