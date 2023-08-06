@@ -1,0 +1,4 @@
+kcapi>=1.0.34
+
+[devel]
+keycloak-fetch-bot==0.0.6
