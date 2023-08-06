@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pymyers/__init__.py
+pymyers/debug.py
+pymyers/myers.py
+pymyers.egg-info/PKG-INFO
+pymyers.egg-info/SOURCES.txt
+pymyers.egg-info/dependency_links.txt
+pymyers.egg-info/top_level.txt
