@@ -1,0 +1,3 @@
+## Include
+include README.md LICENSE NOTICE requirements.txt
+recursive-include pygeez *.py *.tl *.tsv *.txt
