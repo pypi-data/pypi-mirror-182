@@ -1,0 +1,4 @@
+include ctypes_window_info/requirements.txt
+include ctypes_window_info/thirdparty.json
+include ctypes_window_info/README.MD
+include ctypes_window_info/LICENSE
