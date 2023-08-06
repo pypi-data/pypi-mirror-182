@@ -1,0 +1,20 @@
+name: Run lint and static analysis checks
+on: pull_request
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone this git repository
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Download actionlint
+        id: get_actionlint
+        run: bash <(curl -sSL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+        shell: bash
+
+      - name: Check workflow files
+        run: |
+          echo "::add-matcher::.github/actionlint-matcher.json"
+          ${{ steps.get_actionlint.outputs.executable }}
+        shell: bash
