@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ArseinRubika
+Version: 4.6.1
+Summary: library Robot Rubika
+Home-page: https://github.com/Arseinlibrary/Arsein__library.git
+Author: arian abasi nedamane
+Author-email: aryongram@gmail.com
+License: MIT
+Keywords: rubika,bot,robot,library,rubikalib,rubikalib.ml,rubikalib.ir,rubika.ir,libraryArsein,libraryarsein,Rubika,Python,libraryArseinRubika
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+
+### How to import the Rubik's library
+
+``` bash
+from libraryArsein.Arsein import Robot_Rubika
+```
+
+### How to install the library
+
+``` bash
+pip install ArseinRubika==4.6.1
+```
+
+### My ID in Telegram
+
+``` bash
+@Team_Arsein
+```
+
+## An example:
+``` python
+from libraryArsein.Arsein import Robot_Rubika
+
+bot = Robot_Rubika("Your Auth Account")
+
+gap = "your guid or gap or pv or channel"
+
+bot.sendMessage(gap,"libraryArsein")
+```
+Made by Team ArianBot
+
+Address of our team's GitHub :
+
+https://github.com/Arseinlibrary/Arsein__library.git
