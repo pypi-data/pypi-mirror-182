@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: keyclock-dhruvanshu1775
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: dhruv p
+Author-email: dhruvanshu.p@latitudetechnolabs.com
+License: MIT
+Description: this is simple library
+Keywords: mykeyclock
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
