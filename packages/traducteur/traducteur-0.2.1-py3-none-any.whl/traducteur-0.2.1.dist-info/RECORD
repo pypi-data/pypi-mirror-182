@@ -1,0 +1,13 @@
+traducteur/__init__.py,sha256=8zRB3qaYBZeqTtZKlcuOBnyZJlhifCshKC5-Db0_I7k,95
+traducteur/query.py,sha256=kIuf6DFZhHnaJZRF3yYjOQidAhMx4uqSTcxqPTo7dDw,1257
+traducteur/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+traducteur/lib/context.py,sha256=C8CQrOj4Ri3qIg5m1Co3F4cp2uHIhTO2V7yf6zSr4BM,1370
+traducteur/lib/manager.py,sha256=ooZhiTR-fyxCWg2M1TFOjOIfwKFgbN6qUy2XYiT6DPg,7188
+traducteur/lib/model.py,sha256=n4ByaTocRq-ivMRarxDIU51V_8pEJ9enzV7v5fBpPv4,3812
+traducteur/lib/mongo.py,sha256=yEdnV2QQxXXVjk7G89xs-R9mIFc9XxvKYuaPpCCGd4k,1109
+traducteur/lib/sql.py,sha256=VAZRwCKu-j-i329MqMsr0Au3AtvM4CUSTLhbht28nDg,1281
+traducteur-0.2.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+traducteur-0.2.1.dist-info/METADATA,sha256=8THFD0dgsXg_SSd2wEqXd9jZRRZbsQw3cOql8WbF95Y,1929
+traducteur-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+traducteur-0.2.1.dist-info/top_level.txt,sha256=A9sGqBMkCOlFOUqcQXlEX-ljC_31CGV9lZp4W7Ippls,11
+traducteur-0.2.1.dist-info/RECORD,,
