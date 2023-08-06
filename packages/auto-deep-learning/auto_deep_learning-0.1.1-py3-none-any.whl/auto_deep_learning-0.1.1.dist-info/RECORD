@@ -1,0 +1,16 @@
+auto_deep_learning/__init__.py,sha256=BqSJQeCKU6zUpVg2Dbl_UPAgLxlNfh_xxFx-zWEJmNc,90
+auto_deep_learning/augmentation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning/config.py,sha256=nAbiuGHN-Q6pVm5dhdAr8TM9TaXWD1HDazwYbQAN3WA,56
+auto_deep_learning/constants.py,sha256=Kp88vsB7o-YHOJclr8sFiTEaX7cvOuj49aZCWSPepkI,76
+auto_deep_learning/functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning/test/test_augmentation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning/test/test_constants.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning/test/test_functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_deep_learning-0.1.1.data/data/README.md,sha256=U_KT5d2GFKRfUYB94-faAMY5G39NaTW_mTzoj6i2Dgw,938
+auto_deep_learning-0.1.1.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+auto_deep_learning-0.1.1.dist-info/METADATA,sha256=cUtySdjqcd8wlYfe5wPztlHjfDGQCy9Wvm1NMFDgHNg,1941
+auto_deep_learning-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+auto_deep_learning-0.1.1.dist-info/top_level.txt,sha256=hIpwYhADephUqtgp0sND7h08dFPsc27_EJwbWl5_MV8,19
+auto_deep_learning-0.1.1.dist-info/RECORD,,
