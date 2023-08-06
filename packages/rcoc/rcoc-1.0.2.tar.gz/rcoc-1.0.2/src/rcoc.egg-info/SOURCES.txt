@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/rcoc.egg-info/PKG-INFO
+src/rcoc.egg-info/SOURCES.txt
+src/rcoc.egg-info/dependency_links.txt
+src/rcoc.egg-info/top_level.txt
