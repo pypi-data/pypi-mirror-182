@@ -1,0 +1,10 @@
+mgpdf/__about__.py,sha256=YqvRDgoDmJCSGYSr6Dsqnmvvdo0WuaXD7WBpySkGmaI,127
+mgpdf/__init__.py,sha256=tCZYEmYhwtu1he2v5DtHQwOJhdZc0I7qSMwBNiM1fzg,104
+mgpdf/mgpdf.py,sha256=5vYnms0InPBZEp12FlqrCHEGBC8AL7Jc5T7vSLL9nxY,5911
+mgpdf/pdfinfo.py,sha256=RNymu8gm8RvuXs1eOpbEcXuDTeJvVvo4bQZG5Wq9TGQ,3571
+mgpdf/template.tex,sha256=ziiyKi2Lq_DwGX-UMoeQarCOpweRWpnvmi5X0ULjH1M,1240
+mgpdf-0.0.2.dist-info/entry_points.txt,sha256=BHtU6LegSlkwl7K93Yc4S8Sw7qcOBB-pT-Tq0UTJRCM,41
+mgpdf-0.0.2.dist-info/LICENSE,sha256=9JCguZkZTPwr15Wz6GceK21kMu7YRpOJWqWok9GfGec,1086
+mgpdf-0.0.2.dist-info/METADATA,sha256=cnn9bGULzWfqSY55a9-qMxgwJmkj6mpkqP9jRhRNgpE,1180
+mgpdf-0.0.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mgpdf-0.0.2.dist-info/RECORD,,
