@@ -1,0 +1,9 @@
+scanhub/__init__.py,sha256=B3XHrfRNJCJIbEBO9a2S8VQYNsC33aHA2JBMc2HITv4,684
+scanhub/_version.py,sha256=Qkdiz6Ybn1PE1SlWhKAQBmETf7pQ0yr5HmkqLVDxsqE,21
+scanhub/workflows/__init__.py,sha256=MvRAus-UERwQfs1z3PFgPjw2bq6_gkxd_wkw9bfw1BE,659
+scanhub/workflows/mri.py,sha256=3SgKhUpVjh_3H52Ub1unn0tMp6YDAcGXi2VLHMjhYAE,442
+scanhub-0.0.4.dist-info/LICENSE,sha256=xUus51Pf0S4TBOkbR23gzQoutVm3lvxMbfyxNhaG9g8,1583
+scanhub-0.0.4.dist-info/METADATA,sha256=-YCUj0E5SEPKPTtFgGkOr_fZDdAhtHzor9-giYAHUmk,3110
+scanhub-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scanhub-0.0.4.dist-info/top_level.txt,sha256=3GOUuwEws8gCjugHmdnJaDYoHYG1BuVeArhLIElnGPc,8
+scanhub-0.0.4.dist-info/RECORD,,
