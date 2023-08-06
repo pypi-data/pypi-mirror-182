@@ -1,0 +1,15 @@
+{% extends "smart_admin/console.html" %}{% load static i18n %}
+{% block left %}
+<div class="console module{% if cl.has_filters %} filtered{% endif %}" id="changelist">
+    <div class="changelist-form-container">
+        <table>
+            {% for k, v in config %}
+                <tr>
+                    <th>{{ k }}</th>
+                    <td>{{ v }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock left %}
