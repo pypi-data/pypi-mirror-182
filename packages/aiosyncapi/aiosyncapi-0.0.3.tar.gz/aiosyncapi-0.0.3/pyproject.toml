@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "aiosyncapi"
+version = "0.0.3"
+description = "manage asyncapi documentation"
+authors = ["Arie <ariesorkin3@gmail.com>"]
+readme = "README.md"
+repository = "https://gitlab.com/nobox_/aioapi"
+keywords = ["keyword", "another_keyword"]
+license = "MIT"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+asyncer = "^0.0.2"
+pydantic = "^1.10.2"
+orjson = "^3.8.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1a1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+ 
+packages = [
+    { include = "aiosyncapi" },
+]
