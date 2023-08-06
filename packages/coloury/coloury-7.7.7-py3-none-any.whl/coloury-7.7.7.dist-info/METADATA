@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: coloury
+Version: 7.7.7
+Summary: Make your ASCII art beautiful!
+Home-page: https://github.com/CodeIntelligenceAgency
+Author: Cyanraze
+Author-email: cyan@cia.works
+License: MIT
+Keywords: coloury
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Coloury
+> ## Make your ASCII art beautiful!
+
+```
+import coloury
+
+# Example
+
+text = """
+  cccc yy   yy   aa aa nn nnn  rr rr    aa aa zzzzz   eee  
+cc     yy   yy  aa aaa nnn  nn rrr  r  aa aaa   zz  ee   e 
+cc      yyyyyy aa  aaa nn   nn rr     aa  aaa  zz   eeeee  
+ ccccc      yy  aaa aa nn   nn rr      aaa aa zzzzz  eeeee 
+        yyyyy                                              
+"""
+
+output = coloury.purplish(text)
+
+print(output)
+```
+
+All cosmetic styles:
+## purplish
+## grellow
+## green_flames
+## crimson
+## flaming
+## pink
+
+> ## Check CIA out on **[GitHub](https://github.com/CodeIntelligenceAgency)**!
