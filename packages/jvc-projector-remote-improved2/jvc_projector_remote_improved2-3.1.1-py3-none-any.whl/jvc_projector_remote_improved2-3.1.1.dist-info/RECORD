@@ -1,0 +1,12 @@
+jvc_projector/__init__.py,sha256=quoOOerqxBds7o12X5YsKJJP-Oynjz3grBP0va1_KuQ,151
+jvc_projector/commands.py,sha256=TGMtB8y3fnwo0rUz658LoeFg1mehIKqKW8ttVeFqGQs,5269
+jvc_projector/jvc_projector.py,sha256=Wg97dIR0of9ZVUOl10Tr7vF6fQBPO9PAnpO_dCFQI04,17987
+mock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mock/mochrie.py,sha256=hjpKEcvfpNzMujMCB3toD8ihzNQPvsMB_u7iD3D7XWQ,3403
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/testLowLatency.py,sha256=z1BDms9SMJ6OjOIuTaAYNhGnB6SQHYztkXq38VqXmws,1006
+jvc_projector_remote_improved2-3.1.1.dist-info/LICENSE,sha256=v8MmCiXdP_s8e9Bcck0Yqeu1xcRGdh92r4pjKAh-JSk,1074
+jvc_projector_remote_improved2-3.1.1.dist-info/METADATA,sha256=44lJ35AYi5-fAxFmGtHJ8gHI7wJFS--6E0GzJGTYOWM,6341
+jvc_projector_remote_improved2-3.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jvc_projector_remote_improved2-3.1.1.dist-info/top_level.txt,sha256=uv-PmkPY1iG0Gab_iarWQr177_DNDUqdDBgcCtEPYp4,25
+jvc_projector_remote_improved2-3.1.1.dist-info/RECORD,,
