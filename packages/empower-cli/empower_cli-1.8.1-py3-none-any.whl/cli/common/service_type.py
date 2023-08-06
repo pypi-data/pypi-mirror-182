@@ -1,0 +1,9 @@
+from enum import Enum
+
+
+class ServiceType(Enum):
+    EMPOWER_API = "EMPOWER_API"
+    EMPOWER_DISCOVERY = "EMPOWER_DISCOVERY"
+    EMPOWER_AUTH = "EMPOWER_AUTH"
+    USER_SERVICE = "USER_SERVICE"
+    SOURCE_TYPE = "SOURCE_TYPE"
