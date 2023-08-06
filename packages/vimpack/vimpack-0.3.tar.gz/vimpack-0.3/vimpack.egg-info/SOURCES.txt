@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+myMilePackage/__init__.py
+myMilePackage/mileConverter.py
+vimpack.egg-info/PKG-INFO
+vimpack.egg-info/SOURCES.txt
+vimpack.egg-info/dependency_links.txt
+vimpack.egg-info/top_level.txt
