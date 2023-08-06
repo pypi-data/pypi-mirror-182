@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stac_table
+Version: 1.0.0
+Summary: Generate STAC Collections for tabular datasets.
+Author-email: Tom Augspurger <taugspurger@microsoft.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: dask
+Requires-Dist: fsspec
+Requires-Dist: pandas
+Requires-Dist: dask-geopandas
+Requires-Dist: pyarrow
+Requires-Dist: pystac[validation]>=1.1.0
+Requires-Dist: shapely
+Requires-Dist: pytest >=2.7.3 ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: sphinx ; extra == "doc"
+Provides-Extra: dev
+Provides-Extra: doc
