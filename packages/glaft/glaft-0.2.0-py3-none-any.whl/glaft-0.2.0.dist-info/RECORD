@@ -1,0 +1,9 @@
+glaft/__init__.py,sha256=ydzNJpVoI2uNUHwdOD7YbzGqCiOD_haTH4NDS0r7JZ0,71
+glaft/georaster.py,sha256=0Ipc9leXZtuWOK8f1hAFoNg8N6Z1YP_pkCYhvLIeesg,32910
+glaft/metrics.py,sha256=PzzXR0IgfbNqiIPEEDDA1vtPbycTz-t8ySI4iWrQhP0,58800
+glaft/preprocess.py,sha256=-aWCKbtHUI7z_jpZpTOVDkLt0i-sRuqgvaKTOwYaV_Q,2507
+glaft-0.2.0.dist-info/LICENSE,sha256=EKmyhw1q0VE1HEjNStd3fN5QLi8KPutCbzYGw1qgmOM,1070
+glaft-0.2.0.dist-info/METADATA,sha256=NApGIROGTGbMX7hVLqULctiOlAD7CZFY3xYMgJ67WQs,1507
+glaft-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+glaft-0.2.0.dist-info/top_level.txt,sha256=riFhj1JxeBTXzlTMSMsVcYGBcX0Vi1yN8ZVX-w7idgQ,6
+glaft-0.2.0.dist-info/RECORD,,
