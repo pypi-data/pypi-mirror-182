@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+vcompy/Compiler.py
+vcompy/Media.py
+vcompy/Overlay.py
+vcompy/Text.py
+vcompy/Video.py
+vcompy/__init__.py
+vcompy/version.py
+vcompy.egg-info/PKG-INFO
+vcompy.egg-info/SOURCES.txt
+vcompy.egg-info/dependency_links.txt
+vcompy.egg-info/requires.txt
+vcompy.egg-info/top_level.txt
