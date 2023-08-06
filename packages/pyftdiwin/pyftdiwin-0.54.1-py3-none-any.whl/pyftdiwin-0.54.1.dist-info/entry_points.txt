@@ -1,0 +1,5 @@
+[console_scripts]
+ftconf = pyftdi.bin.ftconf:main
+ftdi_urls = pyftdi.bin.ftdi_urls:main
+i2cscan = pyftdi.bin.i2cscan:main
+pyterm = pyftdi.bin.pyterm:main
