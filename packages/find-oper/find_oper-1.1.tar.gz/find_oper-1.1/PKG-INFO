@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: find_oper
+Version: 1.1
+Summary: select the operator covering the largest number of regions
+Home-page: UNKNOWN
+Author: nuqo888
+Author-email: vladimirovich.aleksei.ru@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Practical work 6 - Modular programs
+
+**Baldenko Aleksei,**
+**KI22-17/1b,**
+**Variant 5**
+
+`$ python package --help` - calling the interface to demonstrate the work
+
+`$ pythonpackage -t` - calling test mode
+
+example:
+
+```python
+from find_operators import find
+print(find({'РњРµРіР°РєРѕРј': {4, 5, 7, 9}, 'O!': {1, 2, 3, 4, 5, 6}}, {1, 2, 3, 4, 5, 7}))
+```
+
+
+`['РњРµРіР°РєРѕРј', 'O!']`
+

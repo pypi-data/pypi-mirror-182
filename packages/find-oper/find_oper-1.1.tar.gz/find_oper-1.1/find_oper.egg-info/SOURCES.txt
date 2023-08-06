@@ -1,0 +1,12 @@
+README.md
+setup.py
+find_oper/__init__.py
+find_oper/__main___1.py
+find_oper/example.py
+find_oper/find_operators.py
+find_oper/test.py
+find_oper.egg-info/PKG-INFO
+find_oper.egg-info/SOURCES.txt
+find_oper.egg-info/dependency_links.txt
+find_oper.egg-info/entry_points.txt
+find_oper.egg-info/top_level.txt
