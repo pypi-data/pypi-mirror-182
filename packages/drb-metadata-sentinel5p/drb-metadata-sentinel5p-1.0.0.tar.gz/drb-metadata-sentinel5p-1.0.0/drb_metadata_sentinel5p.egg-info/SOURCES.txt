@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+drb_md_sentinel5p/__init__.py
+drb_md_sentinel5p/_version.py
+drb_md_sentinel5p/cortex.yaml
+drb_metadata_sentinel5p.egg-info/PKG-INFO
+drb_metadata_sentinel5p.egg-info/SOURCES.txt
+drb_metadata_sentinel5p.egg-info/dependency_links.txt
+drb_metadata_sentinel5p.egg-info/entry_points.txt
+drb_metadata_sentinel5p.egg-info/requires.txt
+drb_metadata_sentinel5p.egg-info/top_level.txt
