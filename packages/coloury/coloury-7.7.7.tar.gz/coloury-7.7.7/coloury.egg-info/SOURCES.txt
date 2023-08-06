@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+coloury/__init__.py
+coloury.egg-info/PKG-INFO
+coloury.egg-info/SOURCES.txt
+coloury.egg-info/dependency_links.txt
+coloury.egg-info/top_level.txt
