@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dash-vizlink-components
+Version: 0.0.1
+Summary: Vizlink suite of Dash components
+Author: Inigo Echeverria <ie@idest.io>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
+

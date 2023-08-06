@@ -1,0 +1,75 @@
+{
+  "src/lib/components/Breadcrumbs.react.js": {
+    "description": "Breadcrumbs is a component to aid in app navigation.\nIt takes a list of objects, each with a `label` property,\nIt also takes in a value which corresponds to the label\nof the currently active item.\nIt renders a navigation bar, with items laid out sequentially in\nthe order they were provided. The active item is displayed as text,\nwhile all other items are displayed as links, which when clicked are set\nas the current active item.",
+    "displayName": "Breadcrumbs",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "items": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "shape",
+            "value": {
+              "label": {
+                "name": "string",
+                "description": "Label for the breadcrumb item.",
+                "required": false
+              }
+            }
+          }
+        },
+        "required": false,
+        "description": "The list of items displayed in the navigation bar."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The label of the active item."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The default color of the items."
+      },
+      "activeColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the active item."
+      },
+      "backgroundColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The background color of the bar."
+      },
+      "hoverColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the link items when hovered."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
