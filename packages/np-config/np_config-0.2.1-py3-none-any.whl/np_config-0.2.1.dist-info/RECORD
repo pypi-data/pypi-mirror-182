@@ -1,0 +1,8 @@
+np_config.py,sha256=0VfPbUMYjF82lgN7cHjMLO9BXzcz4y7QWTHX_gBQCcE,13602
+tests/conftest.py,sha256=hIwbgRzMG06cbeyjI3YfLrsYTAtoNDtHvIG309oGKnE,283
+tests/debug.log,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/info.log,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=F8hzVDFPqHHVkbeiGuT8ti9pt13yB6vzw870cc-KX2U,4504
+np_config-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+np_config-0.2.1.dist-info/METADATA,sha256=EgqGHeqq9iLh42eLav0b5uxRq2hHZw3mZoHbuqeF6fo,1623
+np_config-0.2.1.dist-info/RECORD,,
