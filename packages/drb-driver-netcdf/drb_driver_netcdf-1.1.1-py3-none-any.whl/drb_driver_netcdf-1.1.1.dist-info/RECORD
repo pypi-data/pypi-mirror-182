@@ -1,0 +1,17 @@
+drb/drivers/netcdf/__init__.py,sha256=fylSQfAFpSo80EWz7sxm6cyu2I1Ca6dtdK8p_UiJJzc,725
+drb/drivers/netcdf/_version.py,sha256=9Kx6-hVKSt7EyjYqm34BQp8yDaUWloPk3r9riTfyka4,497
+drb/drivers/netcdf/netcdf_common.py,sha256=MGFBWxip1QB_AoTNCnf27IEQYda8c5Q9k9Pf7UwMF58,3636
+drb/drivers/netcdf/netcdf_dimension_node.py,sha256=t5ZLJbbWuck5fP7noI1Uzwy25vkNGKjYAgwxMnsjPDA,2350
+drb/drivers/netcdf/netcdf_group_node.py,sha256=ry2QAkCIjh_28GuTS6j6s5iYFrWPys5WWNAmWvaCuCA,4368
+drb/drivers/netcdf/netcdf_list_node.py,sha256=Wp_Ksmvfh8Vlc0N_Zdy6EfW_P9HvEcQ5eiyUfSUJxbU,1968
+drb/drivers/netcdf/netcdf_node_factory.py,sha256=2rsaMIAQJPUR_k9jxa7AQxp4x3f9NTDRE20_dNIStZM,3395
+drb/drivers/netcdf/netcdf_variable_node.py,sha256=_6sHcoGoYGRhhQAmHhupHhAakYNCHPPiWj4WRpfijQc,4673
+drb/exceptions/netcdf.py,sha256=zqFTwE700chrSa0P5zOoK2KruqooJhW36qhPWUo83JQ,190
+drb/topics/netcdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb/topics/netcdf/cortex.yml,sha256=HLHFHA2bz7utqSGmIZM0Oo7HIwKmhwxtTyhjqEu-TvA,486
+drb_driver_netcdf-1.1.1.data/data/requirements.txt,sha256=vkBcw0Cd-Y-PXXUEkkFyvTgB-X_p6hoYttoyXywmBo4,77
+drb_driver_netcdf-1.1.1.dist-info/METADATA,sha256=KGDg3zrhS0uTCFQDbFEuWeU1fwDw0y78zUj7m1PLwnQ,2786
+drb_driver_netcdf-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_driver_netcdf-1.1.1.dist-info/entry_points.txt,sha256=wuBa9_Kqj0DIGHyXaR2a-djBLi2LinrCvjxmZFjvYWQ,99
+drb_driver_netcdf-1.1.1.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_driver_netcdf-1.1.1.dist-info/RECORD,,
