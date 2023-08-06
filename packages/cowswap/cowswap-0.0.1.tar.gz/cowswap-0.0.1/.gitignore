@@ -1,0 +1,7 @@
+.eggs/
+.mypy_cache/
+build/
+dist/
+env/
+__pycache__
+cowswap.egg-info/
