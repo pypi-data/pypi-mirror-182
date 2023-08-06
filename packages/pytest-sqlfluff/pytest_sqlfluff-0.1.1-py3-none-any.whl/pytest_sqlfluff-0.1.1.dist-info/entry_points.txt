@@ -1,0 +1,3 @@
+[pytest11]
+sqlfluff=pytest_sqlfluff
+
