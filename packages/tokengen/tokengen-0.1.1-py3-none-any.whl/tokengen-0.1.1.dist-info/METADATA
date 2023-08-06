@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: tokengen
+Version: 0.1.1
+Summary: A simple CLI utility for automating token generations with kubernetes.
+Home-page: 
+Author: Sharhan Alhassan
+Author-email: sharhan.alhassan@tiacloud.co
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: azure-common (==1.1.28)
+Requires-Dist: azure-core (==1.26.1)
+Requires-Dist: azure-identity (==1.12.0)
+Requires-Dist: azure-keyvault-secrets (==4.6.0)
+Requires-Dist: certifi (==2022.9.24)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: cryptography (==38.0.4)
+Requires-Dist: docker (==6.0.1)
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: isodate (==0.6.1)
+Requires-Dist: msal (==1.20.0)
+Requires-Dist: msal-extensions (==1.0.0)
+Requires-Dist: msrest (==0.7.1)
+Requires-Dist: oauthlib (==3.2.2)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: portalocker (==2.6.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: PyJWT (==2.6.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: randomname (==0.1.5)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: termcolor (==2.1.1)
+Requires-Dist: typing-extensions (==4.4.0)
+Requires-Dist: urllib3 (==1.26.13)
+Requires-Dist: websocket-client (==1.4.2)
+
+
+
+# Configure Azure CLI from CLI or Environment Variables
+```sh
+# 1. Authenticate with Azure CLI Creds from Terminal 
+az login 
+
+# 2. Authenticate with Environmental variables
+export AZURE_CLIENT_ID="*******"
+export AZURE_TENANT_ID="*******"
+export AZURE_CLIENT_SECRET="*******"
+
+# Make sure Role has Azurekeyvault read/write permissions
+```
+
+# Authenticate with Gitlab Registry
+```sh
+# In order not to be passing flags for the gitlab credentials, export them once on your terminal session
+export username="*******"
+export email="*******"
+export password="*******"
+```
+
+# How to Setup
+```sh
+# Create virtual environment -- Optional
+python -m venv venv && source venv/bin/activate
+
+# Install via pip
+pip install tokengen
+
+# Check commands and subcommands
+tokengen -h
+
+# Available subcommands
+tokengen generate               # To create 4 Tokens at Once
+tokengen bridgetoken            # To optionally create Bridgetoken later
+```
+
+# How to generate tokens
+```sh
+# Create and Store 4 Tokens in Azurekeyvault at ONCE -- Optional(bridgetoken)
+# 1. AIFI_API_TOKEN and PEPPER Token as retailere>-cloud-oasis-api-retailer-token
+# 2. KEYCLOAK credentials as <retailer>-cloud-keycloak-admin
+# 3. RETAILER_TOKEN and oasis-api-token secret as <retailer>-cloud-oasis-api-token
+# 4. RETAILER_BRIDGE_TOKEN as <store-id>-retailer-bridge-token
+```
+
+# Generate 4 Tokens at ONCE
+```sh
+# --btoken is optional if you want to generate a Bridgetoken, else just elimimate it from the --flags
+tokengen generate --vault <vault_name> \
+        --vault_url <vault_url> \
+        --secret <secret_name> \
+        --domain <store-domain-prefix> \
+        --btoken ronaldo-express-003
+
+
+# To Use Default credentials of keyvault, Run
+tokengen generate --secret <retailer_name_example_zucchini> --domain holtebar
+
+```
+
+# Generate Bridgetoken separately
+```sh
+# tokengen bridgetoken --btoken <store-id>
+tokengen bridgetoken --btoken umari-express-0001
+```
+
+## Why Python Secrets?
+```sh
+# From Python Docs
+The secrets module is used for generating cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets.
+
+In particularly, secrets should be used in preference to the default pseudo-random number generator in the random module, which is designed for modelling and simulation, not security or cryptography.
+```
+
+# To Contribute, Setup Environment
+```sh
+# create venv
+python3 -m venv venv
+
+# Activate the venv
+source venv/bin/activate
+
+# Install packages
+pip install -r requirements.txt
+
+# Switch to developer mode
+python3 setup.py develop
+
+# To test with your Azure keyvault, pass these flags to bypass default flags set for keyvault
+--vault
+--vault_url
+```
