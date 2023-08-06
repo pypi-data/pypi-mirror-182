@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+carate.egg-info/PKG-INFO
+carate.egg-info/SOURCES.txt
+carate.egg-info/dependency_links.txt
+carate.egg-info/entry_points.txt
+carate.egg-info/requires.txt
+carate.egg-info/top_level.txt
