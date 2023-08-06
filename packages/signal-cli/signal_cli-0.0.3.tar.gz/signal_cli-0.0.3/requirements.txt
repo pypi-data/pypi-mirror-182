@@ -1,0 +1,4 @@
+filetype==1.2.0
+requests==2.22.0
+pathlib==1.0.1
+typing==3.7.4.3

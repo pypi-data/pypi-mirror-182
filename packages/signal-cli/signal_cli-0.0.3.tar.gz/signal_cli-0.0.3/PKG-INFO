@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: signal_cli
+Version: 0.0.3
+Summary: A python wrapper for the signal-cli-rest-api created by bbernhard on github
+Project-URL: signal-cli-rest-api, https://github.com/bbernhard/signal-cli-rest-api
+Project-URL: documentation, https://fhune.de/signal_cli_documentation/
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# signal-cli-rest-api wrapper
+
+This is a python wrapper for the signal-cli-rest-api docker image created by bbhernhard on github [here](https://github.com/bbernhard/signal-cli-rest-api).
+
+Configure the wrapper in the config file located in the module directory.
