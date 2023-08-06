@@ -1,0 +1,12 @@
+proxys/__init__.py,sha256=3OqPt-Vphy4Njp0VD3_Xofe0U_pughd4-REBHjDQ4mI,443
+proxys/api.py,sha256=1civRE9Wi9N-eO0sB8vORhSnYyMTId3BKQVgqQoNO74,264
+proxys/base_proxy.py,sha256=U31gKPWIxfHxMKNGep1ivhcUq0ztvoEaLmByyIJo06Q,13305
+proxys/proxys.txt,sha256=17Z1zWjRxOVRLWW9gLxWk86ivCLCF2EgRsM5TXg6qSA,2683
+proxys/__pycache__/BaseCrawler.cpython-39.pyc,sha256=Nn3AR2_lYs4oN_fxtrPcE75wYI2YTcjQ3zRMX1GeHp0,12448
+proxys/__pycache__/__init__.cpython-39.pyc,sha256=Jci-aqumXByvx7vKXnkF2AN16m9XIUyyVY0Tg-R4MnM,635
+proxys/__pycache__/api.cpython-39.pyc,sha256=-fzRCvt_N6ILHBK4bOAhP1jxWQknwyyuAMkY3-i6Ql4,344
+proxys/__pycache__/base_proxy.cpython-39.pyc,sha256=6jS56L9KMgDU4cnZg82jnbr5fQcQwAwTIZfQV25ATZs,12580
+proxys-0.0.3.dist-info/METADATA,sha256=8sC41NjmBMjqAo2asAsU9hCNMCBI1ShLX3JT5J67BXg,2237
+proxys-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+proxys-0.0.3.dist-info/top_level.txt,sha256=3uscP3nXcyyCyzp1cNnZHA7RQarWf2xaF1jqZyi14Bc,7
+proxys-0.0.3.dist-info/RECORD,,
