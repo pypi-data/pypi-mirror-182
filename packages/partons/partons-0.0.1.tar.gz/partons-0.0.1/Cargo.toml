@@ -1,0 +1,24 @@
+[package]
+name = "partons_py"
+version = "0.0.1"
+authors = ["Alessandro Candido <candido.ale@gmail.com>"]
+edition = "2021"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AleCandido/partons"
+readme = "../README.md"
+keywords = ["high-energy-physics", "physics"]
+categories = ["science"]
+description = "Partons library"
+
+[package.metadata.maturin]
+name = "partons"
+
+[lib]
+name = "partons"
+crate-type = ["cdylib"]
+
+[dependencies]
+ndarray = "0.15.3"
+numpy = "0.16.2"
+partons = { path = "local_dependencies/partons", version = "0.0.1" }
+pyo3 = { features = ["extension-module"], version = "0.16.4" }
