@@ -1,0 +1,7 @@
+setup.py
+canopy_kmeans/__init__.py
+canopy_kmeans/test.py
+canopy_kmeans.egg-info/PKG-INFO
+canopy_kmeans.egg-info/SOURCES.txt
+canopy_kmeans.egg-info/dependency_links.txt
+canopy_kmeans.egg-info/top_level.txt
