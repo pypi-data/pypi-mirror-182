@@ -1,0 +1,9 @@
+pyncd/__init__.py,sha256=3-Lbz5CVyEs34fKpLsYRkrE7ldDVc-iEbougmiRGXr8,282
+pyncd/models/__init__.py,sha256=wMkhTPJl-bPqmoio8YC4hW3m4yJJx_7sNd_VZYFzh0Q,254
+pyncd/models/base.py,sha256=qXCOsYboCKKcVxqyL7udRqgf8ltNjTAHBXo2oHaKOtA,885
+pyncd/models/louvain.py,sha256=qGO91LzXGzjprBm6jgAiQyepcc-pgZFGI55Nh62KZZY,12418
+pyncd-0.1.0.dist-info/LICENSE,sha256=oWbDkIUrlIh73i1_tAsHl0HMQTce5dYNQzUSxjZ8QXU,1323
+pyncd-0.1.0.dist-info/METADATA,sha256=2G6lKhPX8amlRDYGlkyUVpyh6-lKFJRuHmsd-XK9tSI,1228
+pyncd-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyncd-0.1.0.dist-info/top_level.txt,sha256=bJ2aTGappyuqkDlF1H0aFPjt9paZjocM2X-J9P7T7Dc,6
+pyncd-0.1.0.dist-info/RECORD,,
