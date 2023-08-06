@@ -1,0 +1,16 @@
+demesstify/__init__.py,sha256=C3cO2MOAMIYtX9u9_roiPa8oJn_jm9IA3QH1MvGYekU,138
+demesstify/emojis.py,sha256=bomSNmHLNkb8zCPUg9b775R7Q1N23lDx6rzHfx5O3dA,6072
+demesstify/errors.py,sha256=Ub1WUhAf8YKXA8u8sn4d6uWV1nKb7xbu1jt76DK3rKQ,1982
+demesstify/parser.py,sha256=Zh58mJg-stWX7Uq1CVRLFEVfPsOVhY1KRt3jsraf5ho,15856
+demesstify/reactions.py,sha256=5apX1q-nO0jGChERgYtyLgi-3Z-phk-BnSpgh09QyNo,7314
+demesstify/testing/__init__.py,sha256=XH_vWA2n7hogKXFCEGHp_a2u8CPFzxmrk3a0oGKj9tc,45
+demesstify/testing/messages.py,sha256=wKHRwpWh1L6RSXppm-XqgZrFcX8xGaq5mwdom4Zg3Yg,4680
+demesstify/testing/settings.py,sha256=xQWtr3bwRc-kAsJ-ad1EArMo9Po5pm6NNqrxPiYTzvI,560
+demesstify/visualize/__init__.py,sha256=Keuq-qVTmEF_KNlf8PSoUo_DKlgnYtshYvCoTKzR7qk,65
+demesstify/visualize/cloud.py,sha256=v-qeaHkNm0uJ5NcXyAHmFvlohwz27GzkVqaxIjaoQe8,5029
+demesstify/visualize/color_funcs.py,sha256=qNC7EmsC68dXsXXoMkn5sazNNpQ8e2DJ0Hg6zIHaJtI,1239
+demesstify/visualize/plots.py,sha256=SwZsXlimLqGQ3zjhQGGQ3h1CBbWZn96VNAqPAyGoYT8,23695
+demesstify-0.0.1.dist-info/METADATA,sha256=SM_yOiIPPojUDhVKWe-RQSW78EnUapgG54jjcrECONU,4897
+demesstify-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+demesstify-0.0.1.dist-info/top_level.txt,sha256=XLWNlhdq3ByGV9gkr9vNSafI26zJF1TEJcnicW8Jfag,11
+demesstify-0.0.1.dist-info/RECORD,,
