@@ -1,0 +1,4 @@
+[reahl.component.commands]
+Ngrok = reahl.workstation.ngroksupport:Ngrok
+Xpra = reahl.workstation.xprasupport:ControlXpra
+
