@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+tests/nsj_rest_test_util.egg-info/PKG-INFO
+tests/nsj_rest_test_util.egg-info/SOURCES.txt
+tests/nsj_rest_test_util.egg-info/dependency_links.txt
+tests/nsj_rest_test_util.egg-info/requires.txt
+tests/nsj_rest_test_util.egg-info/top_level.txt
