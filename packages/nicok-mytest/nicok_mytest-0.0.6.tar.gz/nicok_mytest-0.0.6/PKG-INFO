@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nicok_mytest
+Version: 0.0.6
+Summary: Demonstrating how to use PyPI
+Home-page: UNKNOWN
+Author: Nico
+Author-email: pypi@nk7.de
+License: UNKNOWN
+Description: # pyfi
+        
+        Demonstration des PyPI
+        
+        ## Benutzung
+        Lässige Grüße aus Modul2:
+        ```python
+        import pyfi
+        pyfi.funktion2()
+        ```
+Keywords: python,code
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
