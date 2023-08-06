@@ -1,0 +1,9 @@
+aiosyncapi/__init__.py,sha256=BQhQWoH-BgMl5AxZKTi5TgN2pRYFW8_o0eXbNAY6HGg,76
+aiosyncapi/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosyncapi/models.py,sha256=UeI3grl8T4sw53Skn816Fw5JMbxePDjkFBKsOXDsdAk,1410
+aiosyncapi/ponicode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosyncapi/ponicode/main_test.py,sha256=UqqowMYIwt4y7Gd1N7OQYlh6ra209AQ3gPNcQRGRRWI,274
+aiosyncapi/utils.py,sha256=D2h-_QXzHFTXnc56GccjlZbitNMJj0Ojl5X5SzrC5hI,2155
+aiosyncapi-0.0.6.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+aiosyncapi-0.0.6.dist-info/METADATA,sha256=U5cZkoSB8yN073sZrNukGaPlFAdr-_G-9am7fWLSIk8,579
+aiosyncapi-0.0.6.dist-info/RECORD,,
