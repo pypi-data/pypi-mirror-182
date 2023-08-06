@@ -1,0 +1,8 @@
+install-playwright
+playwright>=1.29.0
+
+[dev]
+mypy>=0.991
+pre-commit>=2.20.0
+pytest
+pytest-cov
