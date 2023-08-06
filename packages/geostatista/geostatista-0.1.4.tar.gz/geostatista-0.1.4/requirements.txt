@@ -1,0 +1,8 @@
+loguru >=0.6.0
+numpy ==1.23.5
+pip >=22.3.1
+pyramids >=0.2.10
+pytest >=7.2.0
+pytest-cov ==4.0.0
+python >=3.9,<3.15
+statista >=0.1.7
