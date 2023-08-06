@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: /
+    # Check for updates once a day
+    schedule:
+      interval: "weekly"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "DEP: "
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    # Check for updates once a week
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "CICD: "
