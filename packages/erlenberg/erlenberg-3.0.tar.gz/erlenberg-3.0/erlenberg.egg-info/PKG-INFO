@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: erlenberg
+Version: 3.0
+Summary: Some personal librarys for python
+Author: Tizian Erlenberg
+Author-email: mail@erlenberg.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pythonUtils
+Some personal librarys for python
+
+Install instructions:
+
+```
+pip install erlenberg
+```
+
+Usage instructions in python program:
+
+```
+import erlenberg
+logger = erlenberg.logHandler.Logger(erlenberg.logHandler.DEBUG).start()
+
+logger.debug('Some debug message')
+```
+
+Usage instructions for the specific submodules (e.g. logHandler) can be found in the "information" directory.
