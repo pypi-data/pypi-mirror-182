@@ -1,0 +1,3 @@
+[console_scripts]
+mindful=mindful.cli:app
+

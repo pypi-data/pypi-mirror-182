@@ -1,0 +1,13 @@
+mindful/__init__.py,sha256=cpM_CT3mZ3peIEzW8FFxzYIZ3ey3CJnkN8lpwjV0RuA,207
+mindful/__main__.py,sha256=RdLVvrmJJDdQQ1bW6sVfNtOplvGs4paeIR2mIG1_VzI,72
+mindful/api.py,sha256=iR4DrJRYdtk59RUqLPgmieJYqRyJvBxmLGH7kpJ0LFw,2149
+mindful/board.py,sha256=AClvmxO1sgc8iTKzx2wLRJXAsEUohkm43ZmAPOJXaow,24064
+mindful/cli.py,sha256=CvqauHtbgwp0lmbbR5slsItnkLayFlFDHANfR8wKPmI,2319
+mindful/configs.py,sha256=CZREPl1f4hbSxTQbcU0vePRTxzYbcwBzBvIcr3dLQ2o,1145
+mindful/defaults.py,sha256=LuEs43FizOQbqNj3M-0kMyKNASFKmoPN-TiH1fqZXZE,563
+mindful/times.py,sha256=oj3egMO7tPjBRhq9arwXvKxbOFucSOopKZVCRh1VF5k,151
+mindful-0.0.0.dist-info/entry_points.txt,sha256=ukUu8l-33QUucs-zxXtXK8r8FpjUbkhOiKArhercLjg,43
+mindful-0.0.0.dist-info/LICENSE,sha256=qGy0rlG_cXUEViigwTQsSzIO1yjXemSC__67jerv1X0,1071
+mindful-0.0.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+mindful-0.0.0.dist-info/METADATA,sha256=PM1ua3EtCC6syu2B3p9kzZNrR4iXRddW6iv6knI4IZE,513
+mindful-0.0.0.dist-info/RECORD,,

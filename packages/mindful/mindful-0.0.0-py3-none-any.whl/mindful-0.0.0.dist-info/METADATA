@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mindful
+Version: 0.0.0
+Summary: Utilities for analyzing Trello boards.
+Author-email: blakeNaccarato <blake.naccarato+mindful@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: datamodel-code-generator~=0.14.0
+Requires-Dist: pyperclip~=1.8.2
+Requires-Dist: typer~=0.7.0
+Project-URL: Home, https://github.com/blakeNaccarato/mindful
+
+# Lens for Trello
+
+Utilities for analyzing Trello boards for time tracking, estimation, report writing, and more.
+
