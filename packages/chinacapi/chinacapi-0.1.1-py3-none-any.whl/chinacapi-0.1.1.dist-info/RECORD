@@ -1,0 +1,12 @@
+chinacapi/__init__.py,sha256=rjUTGnp51wiiVFCtlyZqVi_S_ypuVjPY7nFhYhNnq0A,134
+chinacapi/chinac_api.py,sha256=-6PM9BBJakoHgGOB3EOjnK5Tfa_QAo2juULoYbbMi3c,3232
+chinacapi/cloud_phone_api.py,sha256=oXIFb5MlcyKubCOlnvhFSwxrOn9lMqWq7IqCgl58Sik,5375
+chinacapi/cloud_phone_region.py,sha256=XOR7MSVQ9qEvf4_W0HNmPTT_-XoEd61g5RtL7fnXKiU,539
+chinacapi/utils.py,sha256=o96sXKPZgTNO0q3bbBlLIH1PWJDl2WDpFU0y3p55fmY,3171
+chinacapi/exception/__init__.py,sha256=i1NfKRefg0DYNCb_mVxyDU175UGCphOSMZY9eGxpRm8,177
+chinacapi/exception/cloud_phone_status.py,sha256=tWjZxrYOBPgiZdcU0hNIhbb-q9E3zKGD0xZiCep9288,721
+chinacapi-0.1.1.dist-info/LICENSE,sha256=tWPD3Ei6X2d7cmgn1TOf0mhYRtXUHjQRky1iG1SC1ZI,1084
+chinacapi-0.1.1.dist-info/METADATA,sha256=erSq8P1GLHDRC7zshgz0j5r_oNpUfRHYWFkjQtuJEfA,2766
+chinacapi-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chinacapi-0.1.1.dist-info/top_level.txt,sha256=7FCYlX-mNkJeBWbFbwKuEgRM9YmlA09em5WNgrb38-A,10
+chinacapi-0.1.1.dist-info/RECORD,,
