@@ -1,0 +1,13 @@
+sudokuPackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sudokuPackage/main.py,sha256=aePxTBeZZyMP5WgvdidVqwVXeizPhcU42q6aqZAjhZo,949
+sudokuPackage/Sudoku_Show/Generate.py,sha256=_WQBui0dhs54ipK-w6GyRsf3eF7XxW7pE8evEo26VK8,4712
+sudokuPackage/Sudoku_Show/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sudokuPackage/Sudoku_Show/paint.py,sha256=grEoQq4jrHL-jgWJlC3CFX7os4RdsKUQeP-34N9_v7g,9544
+sudokuPackage/Sudoku_Solve/Game_Sudoku.py,sha256=MMV86nC4nG4WKulu08fW5g_0BUpErR_yol9v8WA4XcY,9012
+sudokuPackage/Sudoku_Solve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sudokuPackage/Sudoku_Solve/configs.py,sha256=i0TXO1Egxp_gnoU8rYTAI2A6FtU3E0mXCkNYDIcUorE,1364
+sudokuPackage-0.1.dist-info/LICENSE.txt,sha256=VArMB231BAXG4R1w2EzLTsaRLjthmP80QFTjgjo3Znw,1067
+sudokuPackage-0.1.dist-info/METADATA,sha256=eYJ_4Yv75FkJr1TqsdRbUNUvDwOp5tPtVMdBKFfElpQ,272
+sudokuPackage-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sudokuPackage-0.1.dist-info/top_level.txt,sha256=d51L7BO23zPPsGKLh_t2AfUpRfldX2IWSsBNuR-BzPI,14
+sudokuPackage-0.1.dist-info/RECORD,,
