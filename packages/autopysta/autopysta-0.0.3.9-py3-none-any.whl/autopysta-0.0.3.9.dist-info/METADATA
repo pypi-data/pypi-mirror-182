@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: autopysta
+Version: 0.0.3.9
+Summary: 2D traffic modeling.
+Home-page: https://bitbucket.org/rdelpiano/autopysta/
+Author: Rafael Delpiano
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Requires-Python: >=3.8.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Autopysta
+Autopysta is a python library for modeling 2-D highway traffic, it's written natively on C++ for better performance and wrapped in SWIG to be used in Python
+
+- ## **Important**
+    Only Python 3.8 works on Windows, other versions are not working due to problems with the .dll
+
+    For Linux you can use any version from Python 3.8 onwards and there's also legacy support for python 2.7
+
+    The 3.8 version is al compatible with Google Colaboratory
+
+- ## Details
+    The package comes with a .so file (Linux), a .pyd file (Windows) and a .py that uses those files depending on your OS
+
+    There is no Mac OS support at the moment, but an implementation is planned for future realeses
+
+- ## How to use
+
+    ### Installation
+    You can install Autopysta using the pip installer
+    >`pip install autopysta`
+
+    To begin using Autopysta you just need to import the module on Python:
+    >`import `autopysta
+    
+    And now you can use all the functions available on the library
+
+- ## Examples
+   A quick implementation of Autopysta:
+    ```
+    import autopysta as ap
+
+
+    geo = ap.geometry(1000, 1, 0, 1000)
+
+    newell = ap.newell()
+
+    # Since this example doesn't use lane changes we use the no lane change as our model
+    lcm = ap.no_lch()
+
+    creators_list = [ap.fixed_state_creator(newell, 20, 10),]
+
+    total_time = 120
+
+    # total_time must be a multiple of dt
+    dt = 1.2
+
+    pre_made_vehicles = []
+
+    # We run the simulation
+    simulation = ap.simulation(lcm, total_time, geo, creators_list, pre_made_vehicles, dt)
+
+    results = simulation.run()
+
+    # And plot the results
+    results.plot_x_vs_t()
+    ```
+    This gives us the following output :
+    >`INITIAL STATE SIMULATION`\
+    >`[simulation.cpp] Out of loops, getting the answer ready`
+
+    And the plot :
+    ![autopysta_example](images/autopysta.png)
+    
+
