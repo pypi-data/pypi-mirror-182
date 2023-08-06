@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "aiohttp-oauth2-session"
+version = "0.1.1"
+description = "A fully typed, package that adds OAuth2 support for aiohttp.ClientSession."
+authors = ["Cikmo <59421913+Cikmo@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Cikmo/OAuth2Session"
+repository = "https://github.com/Cikmo/OAuth2Session"
+keywords = ["aiohttp", "oauth", "oauth2", "oauthlib", "session"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+oauthlib = "^3.2.2"
+aiohttp = "^3.8.3"
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1a1", allow-prereleases = true}
+pytest = "^7.2.0"
+pytest-asyncio = "^0.20.3"
+
+[tool.poetry.group.build.dependencies]
+poetry-dynamic-versioning = "^0.21.2"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
