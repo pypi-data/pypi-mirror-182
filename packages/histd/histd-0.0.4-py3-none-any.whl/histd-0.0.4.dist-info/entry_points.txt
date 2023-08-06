@@ -1,0 +1,2 @@
+[console_scripts]
+histd = histd.cli:main
