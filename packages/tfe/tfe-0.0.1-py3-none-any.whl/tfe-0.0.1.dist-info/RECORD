@@ -1,0 +1,10 @@
+tfe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfe/initializers/HeUniform.py,sha256=UZQhgE_tBJnfMldChley33jJRo53T9j5r3wNw4F0uro,1608
+tfe/initializers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfe/layers/Conv2D.py,sha256=sLO0SzdU5kUdEOYMbU9CQkOCzJnEbPmy4y-paUaybC0,2808
+tfe/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfe-0.0.1.dist-info/LICENSE,sha256=DsbgDeMvM33W0RtMuJXv32qkc1CdP3RAxysQ1_H40LA,1055
+tfe-0.0.1.dist-info/METADATA,sha256=xZJcBejDWGWE1j9ichMnLVxKENXhpMk0bXjRg3eLFyg,609
+tfe-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tfe-0.0.1.dist-info/top_level.txt,sha256=wroCW7LI1DoEKU5CLZWsBx0PtGAqM5PDxVa4PkVs3sA,4
+tfe-0.0.1.dist-info/RECORD,,
