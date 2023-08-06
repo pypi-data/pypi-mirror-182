@@ -1,0 +1,3 @@
+numpy>=1.15
+obspy>=1.0.0
+matplotlib

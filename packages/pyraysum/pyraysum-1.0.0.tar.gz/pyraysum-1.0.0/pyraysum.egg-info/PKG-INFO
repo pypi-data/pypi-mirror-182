@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyraysum
+Version: 1.0.0
+Summary: Python wrapper around Fortran code Raysum
+Author: Andrew Frederiksen, Pascal Audet
+Author-email: pascal.audet@uottawa.ca
+Maintainer: Pascal Audet
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+License-File: LICENSE
