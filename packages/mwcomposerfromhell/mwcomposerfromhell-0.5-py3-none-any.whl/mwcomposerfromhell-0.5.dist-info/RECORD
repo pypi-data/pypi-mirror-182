@@ -1,0 +1,12 @@
+mwcomposerfromhell/__init__.py,sha256=Pl8BEL10QowT9qp5FMx8sgzgjxUsCUM99whSCXMiS-8,430
+mwcomposerfromhell/__main__.py,sha256=kIN4LzZwMe8NMGler3rcwKK68Q9yY0LeVPwbkTwseDM,856
+mwcomposerfromhell/composer.py,sha256=6rp_Zgj2cutu7t_dxTR7vRYNI-tOST-jqSqy3wtTJX8,31587
+mwcomposerfromhell/magic_words.py,sha256=f0BoaDbK5N3op5dKqH2-zl5pg1J-kPS1_5sBAmHKd1s,2002
+mwcomposerfromhell/namespace.py,sha256=7jelM3CUrPOFI1hm4M5hXpGFuEuKAMjXBK2Tk_vFHVw,9403
+mwcomposerfromhell/nodes.py,sha256=4SCI61YKx3JIaz_EsPfL8-6wSVL4RqHavPw3aCPePeQ,516
+mwcomposerfromhell/parser_tests_parser.py,sha256=jlTTd983Zzq8s5MS6PQ8uX8mC8Nq1IuQffA1QCeUvWE,8793
+mwcomposerfromhell-0.5.dist-info/LICENSE,sha256=S-GFjda38gkIon8oxasCb0V9iMzKqLZXUT9KN6kwF-o,732
+mwcomposerfromhell-0.5.dist-info/METADATA,sha256=zAdUMqeDMHwUnl8dty3gRfhSupF8MSTI_TqlhsGob2s,2462
+mwcomposerfromhell-0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mwcomposerfromhell-0.5.dist-info/top_level.txt,sha256=U7b54a3dZUh5890CwOouKjJf9V_aMBobuBSoc0FHTsk,19
+mwcomposerfromhell-0.5.dist-info/RECORD,,
