@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: polanalyser
+Version: 1.2.0
+Summary: Polarization image analysis tool
+Home-page: https://github.com/elerac/polanalyser
+Author: Ryota Maeda
+Author-email: maeda.ryota.elerac@gmail.com
+License: MIT
+License-File: LICENSE
+
