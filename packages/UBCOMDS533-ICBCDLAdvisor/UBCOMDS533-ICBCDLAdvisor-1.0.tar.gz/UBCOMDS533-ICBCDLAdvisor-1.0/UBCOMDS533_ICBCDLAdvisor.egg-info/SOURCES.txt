@@ -1,0 +1,13 @@
+setup.py
+DLAdvisor/Main.py
+DLAdvisor/__init__.py
+DLAdvisor/Analyzer/Advisor.py
+DLAdvisor/Analyzer/Resource.py
+DLAdvisor/Analyzer/__init__.py
+DLAdvisor/ProfileBuilder/Collector.py
+DLAdvisor/ProfileBuilder/UserProfile.py
+DLAdvisor/ProfileBuilder/__init__.py
+UBCOMDS533_ICBCDLAdvisor.egg-info/PKG-INFO
+UBCOMDS533_ICBCDLAdvisor.egg-info/SOURCES.txt
+UBCOMDS533_ICBCDLAdvisor.egg-info/dependency_links.txt
+UBCOMDS533_ICBCDLAdvisor.egg-info/top_level.txt
