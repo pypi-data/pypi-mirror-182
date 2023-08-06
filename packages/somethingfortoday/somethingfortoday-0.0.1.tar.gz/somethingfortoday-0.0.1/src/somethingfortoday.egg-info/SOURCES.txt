@@ -1,0 +1,7 @@
+pyproject.toml
+src/__init__.py
+src/main.py
+src/somethingfortoday.egg-info/PKG-INFO
+src/somethingfortoday.egg-info/SOURCES.txt
+src/somethingfortoday.egg-info/dependency_links.txt
+src/somethingfortoday.egg-info/top_level.txt

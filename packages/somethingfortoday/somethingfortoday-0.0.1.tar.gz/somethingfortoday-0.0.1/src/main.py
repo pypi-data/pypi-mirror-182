@@ -1,0 +1,2 @@
+def worked():
+    print("Hello")
