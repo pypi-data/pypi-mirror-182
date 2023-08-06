@@ -1,0 +1,11 @@
+RPA/Assistant/__init__.py,sha256=L6tJRH3DGsvoiXdwrbGRtRbRSzGQnKjExZiKf_tWOpA,31
+RPA/Assistant/date_picker.py,sha256=rmyJt3qeEUCKfWncw-5Hp6UhDfbM3aeTDZtbM73zX6M,4037
+RPA/Assistant/dialog_types.py,sha256=oYzKhgvrJ8D-t4EbW8YidQdi0TJUxJR44NP7AWDeYj0,402
+RPA/Assistant/flet_client.py,sha256=9RAeFTCh3bi-8Wx-qS1r02S_WPPaZl1uTKyikOJSWNM,4750
+RPA/Assistant/library.py,sha256=c7kMaPcT7tPJFbQBpKw77QWaKr1SJ2MEaX_35miHWm8,34740
+RPA/Assistant/tests/assistant_test.py,sha256=sdWPiTFt7Lyd8JXCo5dGfdEZCXqLpnOtvKHdPqXmRI4,1771
+RPA/Assistant/utils.py,sha256=mIQ8uTWfktLeIGHzXueUNLs6DtYyxvzmb8WUASB3MK0,1761
+rpaframework_assistant-0.1.0.dist-info/LICENSE,sha256=DREwTEnlFQcHakxEJgQTR6OTYZd5PivKSDAoqzsdJLc,11358
+rpaframework_assistant-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+rpaframework_assistant-0.1.0.dist-info/METADATA,sha256=7MAvximvvUIx0P9OsnKELL9Lgp6DkRIYbUvpWNrzvoI,1757
+rpaframework_assistant-0.1.0.dist-info/RECORD,,
