@@ -1,0 +1,9 @@
+LICENSE
+README.md
+_manylinux.py
+setup.cfg
+setup.py
+manylinux_max.egg-info/PKG-INFO
+manylinux_max.egg-info/SOURCES.txt
+manylinux_max.egg-info/dependency_links.txt
+manylinux_max.egg-info/top_level.txt
