@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/endat.egg-info/PKG-INFO
+src/endat.egg-info/SOURCES.txt
+src/endat.egg-info/dependency_links.txt
+src/endat.egg-info/top_level.txt
