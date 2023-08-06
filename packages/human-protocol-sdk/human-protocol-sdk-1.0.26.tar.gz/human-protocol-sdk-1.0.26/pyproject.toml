@@ -1,0 +1,6 @@
+[project]
+name = "human-protocol-sdk"
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = ".__version__"}
