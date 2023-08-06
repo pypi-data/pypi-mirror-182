@@ -1,0 +1,10 @@
+xia_api/__init__.py,sha256=17oyDnMLnJeK8eCBOUt6MyWYyPwohwdKMZ1e4Re6MJI,421
+xia_api/auth_client.cpython-310-darwin.so,sha256=RaeqzReS_5uuXbENRkKo_PFq-qczFmOxFmLM0M-xrsE,201808
+xia_api/message.cpython-310-darwin.so,sha256=FtxHfkyJLrDoqnZTp6aFzHBV2fxpTlRh1tePy3QkD2k,251936
+xia_api/open_api.cpython-310-darwin.so,sha256=hxMQt4M17hgGCBgzo-6llqmV5eecCocNZ3v275_XdGk,523560
+xia_api/rest.cpython-310-darwin.so,sha256=KhT7nkluWenHple4OL4AJ2PJpp3nNpkZU8qcnLkNVFk,355728
+xia_api-0.0.36.dist-info/LICENSE.txt,sha256=Ttf2VW9fqSQdbOE-h8EVivyg_c5obqacx70-ob7oLI4,155
+xia_api-0.0.36.dist-info/METADATA,sha256=SCXAbxbJE_59mvNR644RGDI0sazdrKWAez7LzcNPXXE,641
+xia_api-0.0.36.dist-info/WHEEL,sha256=NsapCMY7EanMRKZsZABtoiyq2rs4aXJ4FKsV_kV91NE,108
+xia_api-0.0.36.dist-info/top_level.txt,sha256=krL7__RbzvbaNfgnuF-oCqAnr2y3Yy6whD8CBZyVXyw,8
+xia_api-0.0.36.dist-info/RECORD,,
