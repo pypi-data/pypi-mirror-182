@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pdfremoveduplicatepages
+Version: 0.0.1
+Summary: A simple tool to remove duplicate or near-duplicate PDF pages by comparing extracted text.
+Home-page: https://github.com/carsten-engelke/pdf-remove-duplicate-pages
+Author: Carsten Engelke
+Author-email: carsten.engelke@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyMuPDF (>=1.21.1)
+
+# Remove duplicate pages from pdf
+A simple tool to remove duplicate or near-duplicate PDF pages by comparing extracted text.
+
+Adapted from simplifyPDF (https://github.com/melasoli/simplifyPDF) Thanks for the nice script!
+
+(c) Carsten Engelke 2022
