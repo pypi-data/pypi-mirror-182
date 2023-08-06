@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-hierarchical = napari_hierarchical:napari.yaml
