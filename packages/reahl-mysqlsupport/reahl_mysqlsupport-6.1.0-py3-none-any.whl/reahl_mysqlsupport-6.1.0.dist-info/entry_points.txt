@@ -1,0 +1,3 @@
+[reahl.component.databasecontrols]
+MysqlControl = reahl.mysqlsupport:MysqlControl
+
