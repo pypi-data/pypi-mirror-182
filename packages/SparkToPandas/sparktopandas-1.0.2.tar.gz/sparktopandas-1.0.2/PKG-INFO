@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: SparkToPandas
+Version: 1.0.2
+Summary: A pyspark package with the syntax similar to pandas.
+Project-URL: Homepage, https://github.com/govardhan26/SparkToPandas
+Project-URL: Bug Tracker, https://github.com/govardhan26/SparkToPandas/issues
+Project-URL: Donate, https://www.buymeacoffee.com/govardhan26
+Project-URL: linkedin, https://www.linkedin.com/in/govardhan-selvaraj/
+Project-URL: Docs, https://sparktopandas.readthedocs.io/en/latest/index.html
+Author-email: Govardhan Selvaraj <govardhan_selvaraj@yahoo.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+-------------
+# SparkToPandas
+--------------
+
+
+
+The SparkToPandas is a plugin for pyspark module, which has the syntax similar to the pandas module.
+
+To install the package:
+
+`pip install SparkToPandas`
+
+
+Visit the [docs](https://sparktopandas.readthedocs.io/en/latest/index.html) page, for the official documentation.
+
+If you are interested in enhancing the module or collaboration, please reachout.
+
+*For more info, mail me @ govardhan_selvaraj@yahoo.com*
+
+If you find this repository useful, [buy me a coffee](https://www.buymeacoffee.com/govardhan26)... :)
+
+-----------
+
+
+
+
