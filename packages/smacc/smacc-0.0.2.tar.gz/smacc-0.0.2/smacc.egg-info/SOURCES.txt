@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+smacc/__init__.py
+smacc/__main__.py
+smacc/config.py
+smacc/gui.py
+smacc/utils.py
+smacc.egg-info/PKG-INFO
+smacc.egg-info/SOURCES.txt
+smacc.egg-info/dependency_links.txt
+smacc.egg-info/requires.txt
+smacc.egg-info/top_level.txt
