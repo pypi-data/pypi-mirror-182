@@ -1,0 +1,32 @@
+# Rho-Crypto
+
+Basic cryptographic utilties for common tasks.
+
+## AES Cipher
+
+Utility class for encrypting and decrypting a string.
+
+Sample use:
+
+    from rho_crypto.aes import AESCipher
+
+    AES_SECRET_KEY = os.environ.get('AES_SECRET_KEY', None)
+    cipher = AESCipher(AES_SECRET_KEY)
+
+    # Encrypt a password
+    cipher.encrypt('plaintext-password').decode('utf-8')
+
+    # Decrypt a password
+    cipher.decrypt('encrypted-password')
+
+
+## Hashing
+
+Create consistent SHA1 hash of a file.
+
+Sample use:
+
+    from rho_crypto.hashing import Hasher
+
+    my_hasher = Hasher()
+    sha1_hash_val = my_hasher.hash_from_path('tests/fixtures/test-file.txt', 'SHA1')
