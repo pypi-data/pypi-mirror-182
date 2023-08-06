@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/micropython_ppm_reader.egg-info/PKG-INFO
+src/micropython_ppm_reader.egg-info/SOURCES.txt
+src/micropython_ppm_reader.egg-info/dependency_links.txt
+src/micropython_ppm_reader.egg-info/requires.txt
+src/micropython_ppm_reader.egg-info/top_level.txt
+src/ppm_reader/__init__.py
+src/ppm_reader/__main__.py
