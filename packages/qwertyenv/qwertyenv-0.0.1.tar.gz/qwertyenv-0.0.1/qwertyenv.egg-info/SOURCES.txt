@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+qwertyenv/__init__.py
+qwertyenv/black_jack.py
+qwertyenv.egg-info/PKG-INFO
+qwertyenv.egg-info/SOURCES.txt
+qwertyenv.egg-info/dependency_links.txt
+qwertyenv.egg-info/requires.txt
+qwertyenv.egg-info/top_level.txt
+qwertyenv.egg-info/zip-safe
