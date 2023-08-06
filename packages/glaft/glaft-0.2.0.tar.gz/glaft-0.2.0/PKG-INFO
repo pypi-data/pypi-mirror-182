@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: glaft
+Version: 0.2.0
+Summary: GLAFT evaluates the quality of glacier velocity maps using statistics and physics based metrics.
+Home-page: https://github.com/whyjz/GLAFT.git
+Author: The GLAFT team
+Author-email: whyjz@berkeley.edu
+Maintainer: Whyjay Zheng
+Maintainer-email: whyjz@berkeley.edu
+License: MIT
+Description: # GLAcier Feature Tracking testkit: `glaft`
+        
+        Python module for assessing glacier velocity maps using statistics- and physics-based metrics. Includes demo Notebook examples using data from Kaskawulsh glacier, Canada.
+        
+        ## installation
+        
+        Download the repository, go to the repo folder, and 
+        
+        ```
+        pip install .
+        ```
+        
+        Alternatively, for a development installation you can type
+        
+        ```
+        pip install -e .
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
