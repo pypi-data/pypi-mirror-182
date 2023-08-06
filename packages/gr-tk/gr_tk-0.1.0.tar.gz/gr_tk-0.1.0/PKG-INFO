@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gr-tk
+Version: 0.1.0
+Summary: Gerenciamento de risco - tool kit para CLI
+Author: Valmir Franca
+Author-email: vfranca3@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Description-Content-Type: text/markdown
+
+# gr
+Cálculos de gerenciamento de risco para trading
+
