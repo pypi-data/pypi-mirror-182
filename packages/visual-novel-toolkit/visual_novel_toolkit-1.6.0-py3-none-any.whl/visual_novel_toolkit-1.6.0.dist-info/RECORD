@@ -1,0 +1,16 @@
+visual_novel_toolkit/__init__.py,sha256=LTFWR3SnpaxlJahwpvvZsH6tHJm_MVxoOzYHyD6yceE,244
+visual_novel_toolkit/cli.py,sha256=0YQI_J_HiQcp_gvg2y1rpTlGLq29SOvNJDFcTmMZ2p8,866
+visual_novel_toolkit/find_missed_drafts.py,sha256=iQMZ-oB7QtUjO25BAv-gEL9mnC72JiYDEa6c3A6uYC4,237
+visual_novel_toolkit/find_unused_words.py,sha256=bsh0oPROOe_KtjGqgwjpEmrBi44eZbX40-6CqmLczgc,959
+visual_novel_toolkit/make_draft.py,sha256=omMpZQowBIDSNK9DtHO0MCrauS-E4ZezPG12CA4eXus,421
+visual_novel_toolkit/proofread_words.py,sha256=4EYFe3cfoR2trZoG3_01ha5zzPluNRFBUU3t1ctIwU4,1457
+visual_novel_toolkit/sort_words.py,sha256=wk6wC2K25mMDnbJYVdQeFCyf7hRdINjgi9sRl-ddhbs,520
+visual_novel_toolkit/types.py,sha256=WYIZ4Yty-BGG5oaUge35OxcVQUccg28Uc_Tv42GiCyY,620
+visual_novel_toolkit/words/__init__.py,sha256=ksioYLsyhyCqGqxjuwQSHwx6XNqy8JZ0t9B6OvWVTUk,141
+visual_novel_toolkit/words/config_words.py,sha256=N5EjQcdK6_2rWpdDQUdK69_xvkgd7P8z3GuwfIfoMRg,728
+visual_novel_toolkit/words/file_words.py,sha256=fxTXGr4G1PayhBBvbcwDJ5eKMFzFv9DwtdgOrrLdkTg,544
+visual_novel_toolkit-1.6.0.dist-info/entry_points.txt,sha256=hmltf-L1K9Fx-QfuL9z4t0ht72Fuv_x4odXCOOM9Y9w,49
+visual_novel_toolkit-1.6.0.dist-info/METADATA,sha256=gAya8HuYksfCq5HYKW5Oz-pf7KwdrJz-RB-2Y51Bjvo,2556
+visual_novel_toolkit-1.6.0.dist-info/LICENSE,sha256=syJb8WyrBUqyhrCy-bb1oeDTybqZhtKrNtb5H4LhXMM,1279
+visual_novel_toolkit-1.6.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+visual_novel_toolkit-1.6.0.dist-info/RECORD,,
