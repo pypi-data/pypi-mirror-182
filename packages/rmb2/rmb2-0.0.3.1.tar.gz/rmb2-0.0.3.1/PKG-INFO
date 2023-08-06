@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rmb2
+Version: 0.0.3.1
+Summary: rmb is a Python RMB translation library
+Author: PyDa5
+Author-email: 1174446068@qq.com
+
+修改了rmb-0.0.3的一处bug
