@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: codevault
+Version: 1
+Summary: password manager
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+secure code storage manager 
+
+
+100000000% bullet proof nuclear proof code
+
+from codevault import *
+
+save script 
+
+fire scipt

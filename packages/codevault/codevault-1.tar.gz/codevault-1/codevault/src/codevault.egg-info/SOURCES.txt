@@ -1,0 +1,8 @@
+setup.py
+codevault/src/codevault.egg-info/PKG-INFO
+codevault/src/codevault.egg-info/SOURCES.txt
+codevault/src/codevault.egg-info/dependency_links.txt
+codevault/src/codevault.egg-info/requires.txt
+codevault/src/codevault.egg-info/top_level.txt
+codevault/src/codevault.py
+codevault/src/codevault.egg-info/SOURCES.txt
