@@ -1,0 +1,43 @@
+# AUTO GENERATED FILE - DO NOT EDIT
+
+from dash.development.base_component import Component, _explicitize_args
+
+
+class DashAlert(Component):
+    """A DashAlert component.
+
+
+Keyword arguments:
+
+- id (string; optional)
+
+- buttons (list of dicts; required)
+
+- is_open (boolean; default False)
+
+- messages (a list of or a singular dash component, string or number; required)
+
+- title (a list of or a singular dash component, string or number; optional)
+
+- value (string | number; optional)"""
+    _children_props = ['messages', 'title']
+    _base_nodes = ['messages', 'title', 'children']
+    _namespace = 'dash_alert'
+    _type = 'DashAlert'
+    @_explicitize_args
+    def __init__(self, id=Component.UNDEFINED, messages=Component.REQUIRED, title=Component.UNDEFINED, buttons=Component.REQUIRED, value=Component.UNDEFINED, is_open=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['id', 'buttons', 'is_open', 'messages', 'title', 'value']
+        self._valid_wildcard_attributes =            []
+        self.available_properties = ['id', 'buttons', 'is_open', 'messages', 'title', 'value']
+        self.available_wildcard_properties =            []
+        _explicit_args = kwargs.pop('_explicit_args')
+        _locals = locals()
+        _locals.update(kwargs)  # For wildcard attrs and excess named props
+        args = {k: _locals[k] for k in _explicit_args}
+
+        for k in ['buttons', 'messages']:
+            if k not in args:
+                raise TypeError(
+                    'Required argument `' + k + '` was not specified.')
+
+        super(DashAlert, self).__init__(**args)
