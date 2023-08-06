@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: learning_to_rank
+Version: 0.0.2
+Summary: A small package for learning to rank
+Home-page: https://github.com/guankaisi/learning_to_rank
+Author: guankaisi
+Author-email: guankaisi@ruc.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ReadMe
+
+a small package for traditional learning to rank.
+
+
+
+
+
