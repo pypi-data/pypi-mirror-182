@@ -1,0 +1,16 @@
+itk/DissolvePython.py,sha256=LK31homU6rKCeo00h5bUvCfy-tphJ2y5o9QPVrfStrU,2448
+itk/_DissolvePython.pyd,sha256=n8H36_jsW6S91Xc7fcsIP1bySCAHRE8kv7oVH1IHwMc,1187840
+itk/__init_dissolve__.py,sha256=xLoTmEG-r6S1n4QUD5xo_fHIX9CKiWnxtWazJuG3Glk,1189
+itk/itkDissolveMaskImageFilterPython.py,sha256=PzlSeAm7rIodU2DpSJ0aoIaGxlCrXPQhTDHKp78fPkQ,114515
+itk/Configuration/DissolveConfig.py,sha256=RCZ-JN8_Foj9dRun4UeV_hyE0RaXdCkJk7M_R9EHjKE,5143
+itk/Configuration/Dissolve_snake_case.py,sha256=_Q8RW6TJi6XOk6pu-iOqNvuykSuQ4GVm2reCms71BL4,57
+itk_dissolve.libs/.load-order-itk_dissolve-1.0.6,sha256=dqJ8frvbj6y9-J5sC1v-87tVGLD_hrXI3sO3OEdMzIw,45
+itk_dissolve.libs/msvcp140.dll,sha256=8xDLPAoQdkHBe3ToLm_EVo-Q_xFnDT-kFf9azl2zxA8,579984
+itk_dissolve.libs/tbb12.dll,sha256=3Ym0FW-dLjEApD2zv1XnQJvS8nxkBRLWEJ6dviOb1Tg,308736
+itk_dissolve.libs/vcruntime140_1.dll,sha256=w3FG7vTP5bBcMqMznqJ68iEZyVuHxy9aHfcrpbNhJfs,49512
+itk_dissolve-1.0.6.dist-info/DELVEWHEEL,sha256=nI-Flc3qxsHjgtKPnIKX2-yrTnDkjH8FahE_hRgU0pY,256
+itk_dissolve-1.0.6.dist-info/LICENSE,sha256=ElXTxn8mkXPrambDtwUL2ylMi0hBTdr5gYp2Zg82tBk,1092
+itk_dissolve-1.0.6.dist-info/METADATA,sha256=1IKqM1Mo2f7GXRG0hKyX7QVa9JnEVeaKOj8K9NGoja0,3418
+itk_dissolve-1.0.6.dist-info/WHEEL,sha256=wd2i1GnxwY1DQ5YZyH3h_5Bb0U-2NtGDRUARDJuM4XM,95
+itk_dissolve-1.0.6.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_dissolve-1.0.6.dist-info/RECORD,,
