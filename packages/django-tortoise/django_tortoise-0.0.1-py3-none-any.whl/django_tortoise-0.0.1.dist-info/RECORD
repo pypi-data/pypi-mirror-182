@@ -1,0 +1,11 @@
+django_tortoise/__init__.py,sha256=bPQoQN89QscMrZyb9Z75vkKC-urugMfXZfaEpMY4WzM,168
+django_tortoise/apps.py,sha256=VLpOk3T7pDauFuuH3ujWEHEwClEwejaRAQ38D9f19FQ,141
+django_tortoise/asgi.py,sha256=dQoJy0lLfDi3RhTjYFn_qB9B0X22kwEYr-qY76Jw82Q,344
+django_tortoise/fields.py,sha256=a5FKu2sB_9hD9HiEnU54afWKVVs5YoKZCiJ_l-aHEr0,11708
+django_tortoise/mapping.py,sha256=eW658jQIJAJ_hGND4jf6xakxG-8F6BItbyNbPklY5nw,9807
+django_tortoise/models.py,sha256=V39DSx6R1xkSz6juKHNIBuV0ZImYraRCbEsyxvIqBRw,4344
+django_tortoise-0.0.1.dist-info/LICENSE,sha256=DIb3V_w88RBPgeV46bOierTuSuHpIPpFqhicjNdK_nw,1069
+django_tortoise-0.0.1.dist-info/METADATA,sha256=ekz8qw9fkCnSgknJ7GW3XeD2mEvoVTQQxh9ar4OPu78,3359
+django_tortoise-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_tortoise-0.0.1.dist-info/top_level.txt,sha256=F5rwrD43zipW-UvwEP82Y8pGSyT2lBNd9i-AOTSIz8A,16
+django_tortoise-0.0.1.dist-info/RECORD,,
