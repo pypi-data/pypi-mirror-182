@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: deep-q-reg
+Version: 0.0.3
+Summary: Tool to easily perform quantile regression using deep learning (pytorch).
+Home-page: https://github.co.jp/
+Author: bib_inf
+Author-email: contact.bibinf@gmail.com
+License: CC0 v1.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
+Requires-Dist: ezpip
+Requires-Dist: sout (>=1.2.1)
+Requires-Dist: relpath
+Requires-Dist: fies
+Requires-Dist: tqdm
+Requires-Dist: eznorm
+
+# deep-q-reg
+
+下の方に日本語の説明があります
+
+## Overview
+
+- Tool to easily perform quantile regression using deep learning (pytorch).
+- Automatically compensates for quantile order swapping defects in predicted data.
+- Customizable granularity, from "hyper-parameter unspecified mode" to "detailed parameter settings".
+- The number of data dimensions is set automatically at the first training with define-by-run.
+
+## Example usage
+```python
+import deep_q_reg
+
+# Prepare data
+train_x = load_x_data()    # [[0.538], [0.469], ...]
+train_y = load_y_data()    # [24.0, 21.6, ...]
+
+# Parameters
+params = {}    # This can also be omitted. See details below for specifying parameters
+
+# Deep quantile regression [deep_q_reg]
+dqr = deep_q_reg.Deep_Q_Reg(params)
+# Training [deep_q_reg]
+dqr.train(train_x, train_y)
+# Inference [deep_q_reg]
+pred_y = dqr.predict(test_x)
+```
+
+## Details of specifying parameters
+- Parameters are specified as follows. Omitted specifications are automatically filled in with default values.
+
+```python
+params = {
+    'normalize_x': True,    # Automatic normalization of x
+    'quant_ls': [0.25, 0.5, 0.75],    # List of prediction target quantiles
+    # Layer structure
+    'layers': [
+        {
+            'activation': 'ReLU',    # Activation function name (Specify names under torch.nn such as Tanh, ReLU, Sigmoid)
+            'out_n': 32    # Output dimension of the layer (Input dimension is automatically determined from training data or previous layer settings)
+        },
+        {'activation': 'ReLU', 'out_n': 32}
+    ],
+    # Training parameters
+    'mini_batch_n': 10000,    # Number of iterations for training (mini-batch training)
+    'mini_batch_size': 512    # Mini-batch size
+}
+```
+
+## 概要
+- 深層学習(pytorch)による分位点回帰を簡単に実施できるツール
+- 推論データにおける分位点順序の入れ替わり不具合を自動的に補正する
+- 「パラメータ等指定無し」から「詳細なパラメータ設定」まで自由なカスタマイズ粒度で扱える
+- データ次元数の設定がdefine-by-runで初回学習時に自動で設定される
+
+## 使用例
+```python
+import deep_q_reg
+
+# データ準備
+train_x = load_x_data()	# [[0.538], [0.469], ...]
+train_y = load_y_data()	# [24.0, 21.6, ...]
+
+# パラメータ
+params = {}	# このように省略してもよい。詳細な指定の仕方は後述
+
+# 深層分位点回帰 [deep_q_reg]
+dqr = deep_q_reg.Deep_Q_Reg(params)
+# 学習 [deep_q_reg]
+dqr.train(train_x, train_y)
+# 推論 [deep_q_reg]
+pred_y = dqr.predict(test_x)
+```
+
+## paramsの指定詳細
+- paramsは下記のように指定します。省略された指定値は自動的にdefault値が補完されます。
+```python
+params = {
+    'normalize_x': True,    # xの自動正規化
+    'quant_ls': [0.25, 0.5, 0.75],    # 予測対象分位点一覧
+    # 層構成
+    'layers': [
+        {
+            'activation': 'ReLU',    # 活性化関数名 (torch.nn配下の名前を指定する。Tanh, ReLU, Sigmoid など)
+            'out_n': 32    # 層の出力次元数 (入力次元数は学習データや前層設定から自動的に判断される)
+        },
+        {'activation': 'ReLU', 'out_n': 32}
+    ],
+    # 学習パラメータ
+    'mini_batch_n': 10000,    # 繰り返し学習回数 (ミニバッチ学習)
+    'mini_batch_size': 512    # ミニバッチのサイズ
+}
+```
+
+
