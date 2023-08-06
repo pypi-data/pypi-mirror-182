@@ -1,0 +1,10 @@
+AWholeS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AWholeS/__main__.py,sha256=HF84QtGPKMZhwn2ZeK1_11Zr-lipEl70ep5R5GKe_CU,1678
+AWholeS/ec2.py,sha256=O_vdN2iWiMeefWdpxWGEtwBC1Dczn0bySIUoAeijqQI,484
+AWholeS/sts_calls.py,sha256=ef4y6igdXcYxMHjixt2eg33AVztrfXkSZ17xfhHfYu0,607
+AWholeS/trusted_advisor_security.py,sha256=4I1F3nHkdp5l0SnxsOSGhGw2HJA3vHrk1_ozalHnHhM,3391
+AWholeS-0.0.2.dist-info/LICENSE,sha256=_xDsU_DGu7En7vDhm55zaTMo64ln34mamP5FrlqQPGY,1062
+AWholeS-0.0.2.dist-info/METADATA,sha256=LXw5PIng57NGat5va-52InfnzYE18HCqw0HEFdfeV5M,1369
+AWholeS-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AWholeS-0.0.2.dist-info/top_level.txt,sha256=OwwGsXX6oPhBeBsvHgH8tL0_iQfo6DbEBu4wroXebfc,8
+AWholeS-0.0.2.dist-info/RECORD,,
