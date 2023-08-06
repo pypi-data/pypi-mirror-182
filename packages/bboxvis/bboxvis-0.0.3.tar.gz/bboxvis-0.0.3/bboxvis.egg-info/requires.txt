@@ -1,0 +1,6 @@
+matplotlib>=3.5.1
+numba
+vispy==0.9.6
+pyzmq
+scipy
+loguru
