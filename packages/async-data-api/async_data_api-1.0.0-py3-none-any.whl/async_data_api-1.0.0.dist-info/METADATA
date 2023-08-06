@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: async-data-api
+Version: 1.0.0
+Summary: Async Client for PSIs REST DataApi (https://data-api.psi.ch)
+Author: Niklas Laufkoetter
+Author-email: niklas.laufkoetter@psi.ch
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.23.1,<0.24.0)
+Requires-Dist: isodate (>=0.6.1,<0.7.0)
+Requires-Dist: pandas (>=1.5.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# async_data_api - Async DataApi Client
+
+[![pipeline status](https://git.psi.ch/proscan_data/async_data_api/badges/main/pipeline.svg)](https://git.psi.ch/proscan_data/async_data_api/-/commits/main)
+
+[![coverage report](https://git.psi.ch/proscan_data/async_data_api/badges/main/coverage.svg)](https://git.psi.ch/proscan_data/async_data_api/-/commits/main)
+
+#### Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Quick-start Guid](#quick-start-guide)
+- [Documentation](#documentation)
+- [Dependencies](#dependencies)
+- [Contribute](#contribute)
+- [Project Changes and Tagged Releases](#project-changes-and-tagged-releases)
+- [Developer Notes](#developer-notes)
+- [Contact](#contact)
+
+# Introduction
+This project/package aims to provide a fully asynchronous client for PSIs REST DataAPI.
+
+# Installation
+Install with pip
+```bash
+pip install async_data_api
+```
+# Quick-start Guide
+Here are some simple examples to get you started:
+```python
+import asyncio
+from datetime import datetime, timedelta
+
+from async_data_api import (
+    Aggregation,
+    Backends,
+    ChannelName,
+    DataApi,
+    EventFields,
+    RangeByDate,
+)
+
+
+async def search_channels_example():
+    """Example of how to find a channel by it's name on any backend.
+    """
+    async with DataApi(base_url="https://data-api.psi.ch/") as api:
+        channels = await api.find_channels(
+                regex="MMAC3:STR:2",
+                return_config=True,
+            )
+    print(channels)
+
+
+async def get_data_example():
+    """Example to get the data for a channel of the last 3 days, aggregated and binned to 500 bins, as pandas dataframe.
+    """
+    async with DataApi(base_url="https://data-api.psi.ch/") as api:
+        async for result in api.get_data(
+            channels=ChannelName(name="MMAC3:STR:2", backend=Backends.proscan),
+            range=RangeByDate(
+                start_date=datetime.now() - timedelta(days=3),
+                endDate=datetime.now(),
+                start_expansion=False,
+            ),
+            event_fields=[EventFields.global_millis, EventFields.raw_value],
+            aggregation=Aggregation(
+                aggregations=[
+                    Aggregation.Aggregations.min,
+                    Aggregation.Aggregations.mean,
+                    Aggregation.Aggregations.max,
+                ],
+                nr_of_bins=500,
+            ),
+        ):
+            df = api.json_to_dataframe(result)
+            print(df)
+
+
+async def main():
+    """Uncomment the example you want to run
+    """
+    #await search_channels_example()
+    #await get_data_example()
+    pass
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+```
+
+
+# Documentation
+Current Features:
+* Fully asynchronous
+* 100% Test coverage
+* Search for channels
+* get data as pandas dataframe
+
+
+Check out the wiki for more info!
+
+# Dependencies
+* [httpx](https://github.com/encode/httpx/)
+* [isodate](https://github.com/gweis/isodate/)
+* [pandas](https://pandas.pydata.org/)
+
+
+# Contribute
+To contribute, simply clone the project.
+You can uses ``` pip -r requirements.txt ``` or the Makefile to set up the project.
+After that you can make changes and create a pull request or if allowed merge your changes.
+
+
+# Project Changes and Tagged Releases
+* See the Changelog file for further information
+* Project releases are available in pypi (NOT YET)
+
+# Developer Notes
+Currently None
+
+# Contact
+If you have any questions pleas contract 'niklas.laufkoetter@psi.ch'
+
