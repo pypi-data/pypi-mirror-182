@@ -1,0 +1,11 @@
+cricguru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cricguru/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cricguru/helpers/data_extract.py,sha256=C5UAEucwHZ9zd-IAaQOgQ2hcjyyWK-m7wl1zyqRcIu4,1048
+cricguru/main.py,sha256=oHdIVy5EbPqcMhPXf07m510eFN97jcCNIwZd3J2aSHY,1327
+cricguru/player.py,sha256=RAfjpJAoHVYzXUF_PYQ15yQAQ1rx4M1sJFFTl3pyL_I,6377
+cricguru/scraper.py,sha256=evvFLEn-hSO79mYcbolNrKhge5s4YQ7LJKUvxL749uo,1897
+cricguru/team.py,sha256=v8Fm6Ta7ttqIeXV7bAEHlToQzmbhGHNI3eNL3GQ-CrQ,3122
+cricguru-0.1.0.dist-info/LICENSE.md,sha256=kIeLJ8v1PhH6KTrlHxRU0q-JUgomdQ5JehX7xaSuOWY,1087
+cricguru-0.1.0.dist-info/METADATA,sha256=Jl7J2UCgkhYrcfSp62-baChCK2rrhU7nUttAbFXvmUM,517
+cricguru-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+cricguru-0.1.0.dist-info/RECORD,,
