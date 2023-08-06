@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+pyproject.toml
+request_content_type_finder.py
+setup.cfg
+request_content_type_finder.egg-info/PKG-INFO
+request_content_type_finder.egg-info/SOURCES.txt
+request_content_type_finder.egg-info/dependency_links.txt
+request_content_type_finder.egg-info/top_level.txt
+src/__init__.py
+src/content_type.json
+src/file_signatures.json
+src/finder.py

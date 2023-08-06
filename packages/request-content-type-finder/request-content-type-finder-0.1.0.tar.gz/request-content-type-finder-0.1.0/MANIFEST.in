@@ -1,0 +1,2 @@
+include src/*.json
+include *.py

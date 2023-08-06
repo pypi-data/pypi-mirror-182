@@ -1,0 +1,14 @@
+{
+    "file_content_type": {
+        "pdf" : ["application/pdf"],
+        "gz": ["application/gzip"],
+        "zip": ["application/zip", "application/x-zip-compressed"],
+        "xlsx": ["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"],
+        "xls": ["application/vnd.ms-excel"],
+        "tif": ["image/tiff"],
+        "json": ["application/json"],
+        "csv": ["test/csv"],
+        "txt": ["text/plain"],
+        "xml": ["application/xml", "text/xml", "application/atom"]
+    }
+}
