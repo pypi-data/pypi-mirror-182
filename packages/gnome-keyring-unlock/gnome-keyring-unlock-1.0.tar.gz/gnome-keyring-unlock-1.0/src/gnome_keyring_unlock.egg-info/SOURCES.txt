@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gnome_keyring_unlock.egg-info/PKG-INFO
+src/gnome_keyring_unlock.egg-info/SOURCES.txt
+src/gnome_keyring_unlock.egg-info/dependency_links.txt
+src/gnome_keyring_unlock.egg-info/entry_points.txt
+src/gnome_keyring_unlock.egg-info/top_level.txt
+src/gnomeunlock/__init__.py
+src/gnomeunlock/unlock.py

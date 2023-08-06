@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2022 Gerard Weatherby <gerardw@alum.mit.edu> 
+#
+# SPDX-License-Identifier: Python-2.0.1 
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
