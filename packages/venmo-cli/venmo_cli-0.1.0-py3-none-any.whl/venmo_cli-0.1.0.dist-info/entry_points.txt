@@ -1,0 +1,2 @@
+[console_scripts]
+venmo = venmo:cli
