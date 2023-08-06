@@ -1,0 +1,12 @@
+visual_novel_toolkit/__init__.py,sha256=VToWSeoqpailbH5vrTxh4K9aIGs5uzGx3MH0ehwJKZg,188
+visual_novel_toolkit/cli.py,sha256=o7EZvRdxSHc9dgZct36z8HGvaYOMQ-0-_iJKGmwCYcU,597
+visual_novel_toolkit/find_missed_drafts.py,sha256=iQMZ-oB7QtUjO25BAv-gEL9mnC72JiYDEa6c3A6uYC4,237
+visual_novel_toolkit/find_unused_words.py,sha256=aRrbZQVu5IkaK9wdzwG2rsf_IavYC0MJa8SOUOOonEg,1321
+visual_novel_toolkit/make_draft.py,sha256=omMpZQowBIDSNK9DtHO0MCrauS-E4ZezPG12CA4eXus,421
+visual_novel_toolkit/sort_words.py,sha256=rdAZkA1yCEAgUge-a-tiNulEVf16ghskTqwVaTBqEWs,597
+visual_novel_toolkit/types.py,sha256=ZnYpBR4TFVzYR1iWbsuqb7Zz2K3Y5tZiMeG0UMIOyfQ,85
+visual_novel_toolkit-1.3.0.dist-info/entry_points.txt,sha256=hmltf-L1K9Fx-QfuL9z4t0ht72Fuv_x4odXCOOM9Y9w,49
+visual_novel_toolkit-1.3.0.dist-info/METADATA,sha256=hCvbhUmAObk-lnT9eQ9yV5m4hG4IANOyHDVzaqnGiVk,2704
+visual_novel_toolkit-1.3.0.dist-info/LICENSE,sha256=syJb8WyrBUqyhrCy-bb1oeDTybqZhtKrNtb5H4LhXMM,1279
+visual_novel_toolkit-1.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+visual_novel_toolkit-1.3.0.dist-info/RECORD,,
