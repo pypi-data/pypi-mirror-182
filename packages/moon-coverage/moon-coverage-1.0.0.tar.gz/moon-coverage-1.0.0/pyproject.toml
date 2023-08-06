@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moon-coverage"
+version = "1.0.0"
+description = '⚠️ This package is no longer supported, please migrate to planetary-coverage as soon as possible ⚠️'
+authors = [
+    {email ="moon-coverage@univ-nantes.fr" },
+    {name="LPG Nantes"},
+]
+license = {text = "BSD"}
+readme = "README.md"
+classifiers = [
+    'Development Status :: 7 - Inactive',
+]
+requires-python = ">=3.8"
+dependencies = [
+    "planetary-coverage",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine",
+]
+
+[project.urls]
+Homepage = 'https://docs.planetary-coverage.org'
