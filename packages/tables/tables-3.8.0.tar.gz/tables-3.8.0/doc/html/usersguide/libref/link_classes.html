@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link classes &mdash; PyTables 3.8.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Declarative classes" href="declarative_classes.html" />
+    <link rel="prev" title="Homogenous storage classes" href="homogenous_storage.html" />
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111342564-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111342564-1');
+</script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html">
+            <img src="../../_static/logo-pytables-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                3.8.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">User’s Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../FAQ.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../other_material.html">Other Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../MIGRATING_TO_3.x.html">Migrating from 2.x to 3.x</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../downloads.html">Downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release_notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../project_pointers.html">Project pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../development.html">Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dev_team.html">Development Team</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PyTables</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">PyTables User’s Guide</a></li>
+          <li class="breadcrumb-item"><a href="../libref.html">Library Reference</a></li>
+      <li class="breadcrumb-item active">Link classes</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/usersguide/libref/link_classes.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="link-classes">
+<h1>Link classes<a class="headerlink" href="#link-classes" title="Permalink to this heading">¶</a></h1>
+<section id="the-link-class">
+<span id="linkclassdescr"></span><h2>The Link class<a class="headerlink" href="#the-link-class" title="Permalink to this heading">¶</a></h2>
+<section id="link-instance-variables">
+<h3>Link instance variables<a class="headerlink" href="#link-instance-variables" title="Permalink to this heading">¶</a></h3>
+</section>
+<section id="link-methods">
+<h3>Link methods<a class="headerlink" href="#link-methods" title="Permalink to this heading">¶</a></h3>
+<p>The following methods are useful for copying, moving, renaming and removing
+links.</p>
+</section>
+</section>
+<section id="the-softlink-class">
+<span id="softlinkclassdescr"></span><h2>The SoftLink class<a class="headerlink" href="#the-softlink-class" title="Permalink to this heading">¶</a></h2>
+<section id="softlink-special-methods">
+<h3>SoftLink special methods<a class="headerlink" href="#softlink-special-methods" title="Permalink to this heading">¶</a></h3>
+<p>The following methods are specific for dereferencing and representing soft
+links.</p>
+</section>
+</section>
+<section id="the-externallink-class">
+<h2>The ExternalLink class<a class="headerlink" href="#the-externallink-class" title="Permalink to this heading">¶</a></h2>
+<section id="externallink-methods">
+<h3>ExternalLink methods<a class="headerlink" href="#externallink-methods" title="Permalink to this heading">¶</a></h3>
+</section>
+<section id="externallink-special-methods">
+<h3>ExternalLink special methods<a class="headerlink" href="#externallink-special-methods" title="Permalink to this heading">¶</a></h3>
+<p>The following methods are specific for dereferencing and representing
+external links.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="homogenous_storage.html" class="btn btn-neutral float-left" title="Homogenous storage classes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="declarative_classes.html" class="btn btn-neutral float-right" title="Declarative classes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2011–2022, PyTables maintainers.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

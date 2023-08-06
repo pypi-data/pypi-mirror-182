@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homogenous storage classes &mdash; PyTables 3.8.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Link classes" href="link_classes.html" />
+    <link rel="prev" title="Structured storage classes" href="structured_storage.html" />
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111342564-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111342564-1');
+</script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html">
+            <img src="../../_static/logo-pytables-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                3.8.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">User’s Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../FAQ.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../other_material.html">Other Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../MIGRATING_TO_3.x.html">Migrating from 2.x to 3.x</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../downloads.html">Downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release_notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../project_pointers.html">Project pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../development.html">Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dev_team.html">Development Team</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PyTables</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">PyTables User’s Guide</a></li>
+          <li class="breadcrumb-item"><a href="../libref.html">Library Reference</a></li>
+      <li class="breadcrumb-item active">Homogenous storage classes</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/usersguide/libref/homogenous_storage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="homogenous-storage-classes">
+<h1>Homogenous storage classes<a class="headerlink" href="#homogenous-storage-classes" title="Permalink to this heading">¶</a></h1>
+<section id="the-array-class">
+<span id="arrayclassdescr"></span><h2>The Array class<a class="headerlink" href="#the-array-class" title="Permalink to this heading">¶</a></h2>
+<section id="array-instance-variables">
+<h3>Array instance variables<a class="headerlink" href="#array-instance-variables" title="Permalink to this heading">¶</a></h3>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tables.Array.atom">
+<span class="sig-prename descclassname"><span class="pre">Array.</span></span><span class="sig-name descname"><span class="pre">atom</span></span><a class="headerlink" href="#tables.Array.atom" title="Permalink to this definition">¶</a></dt>
+<dd><p>An Atom (see <a class="reference internal" href="declarative_classes.html#atomclassdescr"><span class="std std-ref">The Atom class and its descendants</span></a>) instance representing the <em>type</em>
+and <em>shape</em> of the atomic objects to be saved.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tables.Array.nrow">
+<span class="sig-prename descclassname"><span class="pre">Array.</span></span><span class="sig-name descname"><span class="pre">nrow</span></span><a class="headerlink" href="#tables.Array.nrow" title="Permalink to this definition">¶</a></dt>
+<dd><p>On iterators, this is the index of the current row.</p>
+</dd></dl>
+
+</section>
+<section id="array-methods">
+<h3>Array methods<a class="headerlink" href="#array-methods" title="Permalink to this heading">¶</a></h3>
+</section>
+<section id="array-special-methods">
+<h3>Array special methods<a class="headerlink" href="#array-special-methods" title="Permalink to this heading">¶</a></h3>
+<p>The following methods automatically trigger actions when an <code class="xref py py-class docutils literal notranslate"><span class="pre">Array</span></code>
+instance is accessed in a special way (e.g. <code class="docutils literal notranslate"><span class="pre">array[2:3,...,::2]</span></code> will be
+equivalent to a call to
+<code class="docutils literal notranslate"><span class="pre">array.__getitem__((slice(2,</span> <span class="pre">3,</span> <span class="pre">None),</span> <span class="pre">Ellipsis,</span> <span class="pre">slice(None,</span> <span class="pre">None,</span> <span class="pre">2))))</span></code>.</p>
+</section>
+</section>
+<section id="the-carray-class">
+<span id="carrayclassdescr"></span><h2>The CArray class<a class="headerlink" href="#the-carray-class" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-earray-class">
+<span id="earrayclassdescr"></span><h2>The EArray class<a class="headerlink" href="#the-earray-class" title="Permalink to this heading">¶</a></h2>
+<section id="earray-methods">
+<span id="earraymethodsdescr"></span><h3>EArray methods<a class="headerlink" href="#earray-methods" title="Permalink to this heading">¶</a></h3>
+</section>
+</section>
+<section id="the-vlarray-class">
+<span id="vlarrayclassdescr"></span><h2>The VLArray class<a class="headerlink" href="#the-vlarray-class" title="Permalink to this heading">¶</a></h2>
+<section id="vlarray-properties">
+<h3>VLArray properties<a class="headerlink" href="#vlarray-properties" title="Permalink to this heading">¶</a></h3>
+</section>
+<section id="vlarray-methods">
+<h3>VLArray methods<a class="headerlink" href="#vlarray-methods" title="Permalink to this heading">¶</a></h3>
+</section>
+<section id="vlarray-special-methods">
+<h3>VLArray special methods<a class="headerlink" href="#vlarray-special-methods" title="Permalink to this heading">¶</a></h3>
+<p>The following methods automatically trigger actions when a <code class="xref py py-class docutils literal notranslate"><span class="pre">VLArray</span></code>
+instance is accessed in a special way (e.g., vlarray[2:5] will be equivalent
+to a call to vlarray.__getitem__(slice(2, 5, None)).</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="structured_storage.html" class="btn btn-neutral float-left" title="Structured storage classes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="link_classes.html" class="btn btn-neutral float-right" title="Link classes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2011–2022, PyTables maintainers.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
