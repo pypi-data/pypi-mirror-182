@@ -1,0 +1,27 @@
+﻿"""_1938.py
+
+LoadedAbstractSphericalRollerBearingStripLoadResults
+"""
+
+
+from mastapy.bearings.bearing_results.rolling import _1988
+from mastapy._internal.python_net import python_net_import
+
+_LOADED_ABSTRACT_SPHERICAL_ROLLER_BEARING_STRIP_LOAD_RESULTS = python_net_import('SMT.MastaAPI.Bearings.BearingResults.Rolling', 'LoadedAbstractSphericalRollerBearingStripLoadResults')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('LoadedAbstractSphericalRollerBearingStripLoadResults',)
+
+
+class LoadedAbstractSphericalRollerBearingStripLoadResults(_1988.LoadedRollerStripLoadResults):
+    """LoadedAbstractSphericalRollerBearingStripLoadResults
+
+    This is a mastapy class.
+    """
+
+    TYPE = _LOADED_ABSTRACT_SPHERICAL_ROLLER_BEARING_STRIP_LOAD_RESULTS
+
+    def __init__(self, instance_to_wrap: 'LoadedAbstractSphericalRollerBearingStripLoadResults.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
