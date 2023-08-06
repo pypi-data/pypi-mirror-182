@@ -1,0 +1,4 @@
+pydot
+rich
+pygocron>=0.1.9
+pandas
