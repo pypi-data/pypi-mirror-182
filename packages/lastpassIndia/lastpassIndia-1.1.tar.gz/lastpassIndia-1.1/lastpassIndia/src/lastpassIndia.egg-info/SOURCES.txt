@@ -1,0 +1,8 @@
+setup.py
+lastpassIndia/src/lastpassIndia.egg-info/PKG-INFO
+lastpassIndia/src/lastpassIndia.egg-info/SOURCES.txt
+lastpassIndia/src/lastpassIndia.egg-info/dependency_links.txt
+lastpassIndia/src/lastpassIndia.egg-info/requires.txt
+lastpassIndia/src/lastpassIndia.egg-info/top_level.txt
+lastpassIndia/src/lastpassIndia.py
+lastpassIndia/src/lastpassIndia.egg-info/SOURCES.txt
