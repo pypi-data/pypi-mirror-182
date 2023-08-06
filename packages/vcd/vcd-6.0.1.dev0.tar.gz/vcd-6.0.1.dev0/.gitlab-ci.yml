@@ -1,0 +1,198 @@
+include:
+  - remote: 'https://gitlab.com/yesolutions/gitlab-ci-templates/raw/main/templates/pre-commit-autofix.yaml'
+
+stages:
+  - test
+  - build
+  - deploy
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS && $CI_PIPELINE_SOURCE == "push"
+      when: never
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
+    - if: $CI_COMMIT_TAG
+
+# Default Job Configuration
+.default:
+  image: registry.gitlab.com/vicomtech/v4/libraries/vcd/vcd-python/python_ocv:3.8
+
+  # Pip's cache doesn't store the python packages
+  # https://pip.pypa.io/en/stable/topics/caching/
+  #
+  # If you want to also cache the installed packages, you have to install
+  # them in a virtualenv and cache it as well.
+  cache:
+    paths:
+      - .cache/pip
+      - venv/
+  before_script:
+    - virtualenv venv
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+
+# Pre-commit
+pre-commit:
+  image: registry.gitlab.com/vicomtech/v4/libraries/vcd/vcd-python/docker-pre-commit
+  variables:
+    PRE_COMMIT_HOME: ${CI_PROJECT_DIR}/.cache/pre-commit
+  cache:
+    paths:
+      - ${PRE_COMMIT_HOME}
+
+# Test Jobs
+test_code:
+  stage: test
+  extends: .default
+  variables:
+    PYTHONPATH: "$CI_PROJECT_DIR"
+  script:
+    - pip install pytest pytest-cov
+    - coverage run --source=vcd --branch -m pytest tests
+    - coverage report
+    - coverage xml
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    when: on_success
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+  needs:
+    - job: pre-commit
+      artifacts: false
+      optional: true
+  interruptible: true
+
+# Build Jobs
+build_pkg:
+  stage: build
+  extends: .default
+  script:
+    - pip install build
+    - python -m build -w -s
+    - pip install dist/*.whl
+    - "cp dist/*.whl $CI_PROJECT_DIR 2>/dev/null || :"
+    - "cp dist/*.tar.gz $CI_PROJECT_DIR 2>/dev/null || :"
+  artifacts:
+    name: 'vcd-pkg'
+    paths:
+      - "*.whl"
+      - "*.tar.gz"
+  needs:
+    - job: pre-commit
+      artifacts: false
+      optional: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG
+  interruptible: true
+
+# Deploy Jobs
+.deploy:
+  extends: .default
+  rules:
+    - if: $CI_COMMIT_TAG
+  needs:
+    - job: test_code
+      artifacts: false
+    - job: build_pkg
+      artifacts: true
+
+pages:
+  stage: deploy
+  extends: .deploy
+  script:
+    - pip install pdoc3
+    - pdoc --html --output-dir ./docs/pdoc ./vcd --force
+    - mkdir -p public/$CI_COMMIT_TAG
+    - cp ./docs/pdoc/vcd/* ./public/$CI_COMMIT_TAG -R
+  artifacts:
+    name: 'vcd-docs'
+    paths:
+      - public
+  cache:
+    paths:
+      - public
+
+deploy_pkg_in_gitlab:
+  stage: deploy
+  extends: .deploy
+  variables:
+    TWINE_PASSWORD: ${CI_JOB_TOKEN}
+    TWINE_USERNAME: gitlab-ci-token
+  script:
+    - pip install twine
+    - echo "Deploying package in GitLab Internal PyPi package registry"
+    - python -m twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi *.whl *.tar.gz
+    - WHEELNAME=$(basename *.whl)
+    - TARNAME=$(basename *.tar.gz)
+    - echo WHEELNAME=$WHEELNAME >> pkg_names.env
+    - echo TARNAME=$TARNAME >> pkg_names.env
+    - echo WHEELSHA256=$(sh -c 'sha256sum < "$1" | cut -d" " -f1' -- $WHEELNAME) >> pkg_names.env
+    - echo TARSHA256=$(sh -c 'sha256sum < "$1" | cut -d" " -f1' -- $TARNAME) >> pkg_names.env
+  artifacts:
+    reports:
+      dotenv: pkg_names.env
+
+deploy_pkg_in_test_pypi:
+  stage: deploy
+  extends: .deploy
+  variables:
+    TWINE_PASSWORD: ${TEST_PYPI_TOKEN}
+    TWINE_USERNAME: __token__
+  script:
+    - pip install twine
+    - echo "Deploying package in Test PyPi Repository"
+    - python -m twine upload --repository testpypi *.whl *.tar.gz
+
+deploy_pkg_pypi:
+  stage: deploy
+  extends: .deploy
+  variables:
+    TWINE_PASSWORD: ${PYPI_TOKEN}
+    TWINE_USERNAME: __token__
+  script:
+    - pip install twine
+    - echo "Deploying package in PyPi Repository"
+    - python -m twine upload *.whl *.tar.gz
+
+create_release:
+  stage: deploy
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  extends: .deploy
+  before_script: []
+  cache:
+    paths: []
+  script:
+    - echo "Automatic Release $CI_COMMIT_TAG"
+    - echo "Commit Branch $CI_COMMIT_BRANCH "
+  release:
+    tag_name: $CI_COMMIT_TAG
+    name: 'VCD-Python $CI_COMMIT_TAG'
+    description: 'VCD Python Library $CI_COMMIT_TAG'
+    assets:
+      links:
+      - name: 'documentation'
+        url: 'https://vicomtech.gitlab.io/v4/libraries/vcd/vcd-python'
+      - name: '$WHEELNAME'
+        url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi/files/$WHEELSHA256/$WHEELNAME#sha256=$WHEELSHA256'
+      - name: '$TARNAME'
+        url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi/files/$TARSHA256/$TARNAME#sha256=$TARSHA256'
+  needs:
+    - job: pages
+      artifacts: false
+    - job: deploy_pkg_in_gitlab
+      artifacts: true
+    - job: deploy_pkg_pypi
+      artifacts: false

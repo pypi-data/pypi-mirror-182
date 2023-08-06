@@ -1,0 +1,21 @@
+FROM python:3.8
+LABEL MAINTAINER jdortega@vicomtech.org
+
+RUN apt-get update && \
+    apt-get install -y --fix-missing --no-install-recommends \
+        libgl1 \
+    && apt-get clean && rm -rf /tmp/* /var/tmp/* /var/cache/apt/archives/* /var/lib/apt/lists/*
+
+RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
+
+RUN apt-get update && \
+    apt-get install -y --fix-missing --no-install-recommends \
+        git \
+    && apt-get clean && rm -rf /tmp/* /var/tmp/* /var/cache/apt/archives/* /var/lib/apt/lists/*
+
+RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
+
+RUN curl -sSL https://get.docker.com/ | sh
+
+RUN python -m pip install --upgrade pip && \
+    pip install virtualenv cibuildwheel twine

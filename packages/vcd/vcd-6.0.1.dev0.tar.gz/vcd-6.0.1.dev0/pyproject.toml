@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vcd"
+authors = [
+    { name = "Marcos Nieto", email = "mnieto@vicomtech.org" },
+]
+description = "Video Content Description (VCD) library"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+requires-python = ">=3.7"
+dynamic = ["dependencies","version"]
+
+[project.urls]
+VCD-project = "https://vcd.vicomtech.org"
+VCD-repo = "https://github.com/Vicomtech/video-content-description-VCD"
+
+[project.license]
+file = "LICENSE"
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools.package-dir]
+vcd = "vcd"
+
+[tool.setuptools_scm]
+write_to = "vcd/_version.py"
