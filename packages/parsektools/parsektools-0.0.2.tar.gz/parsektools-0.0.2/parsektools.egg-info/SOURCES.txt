@@ -1,0 +1,10 @@
+README.md
+setup.py
+parsektools/__init__.py
+parsektools/isa_athmosphere.py
+parsektools/sutherland.py
+parsektools.egg-info/PKG-INFO
+parsektools.egg-info/SOURCES.txt
+parsektools.egg-info/dependency_links.txt
+parsektools.egg-info/requires.txt
+parsektools.egg-info/top_level.txt
