@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+cards_rk/__init__.py
+cards_rk/_modidx.py
+cards_rk/card.py
+cards_rk/deck.py
+cards_rk.egg-info/PKG-INFO
+cards_rk.egg-info/SOURCES.txt
+cards_rk.egg-info/dependency_links.txt
+cards_rk.egg-info/entry_points.txt
+cards_rk.egg-info/not-zip-safe
+cards_rk.egg-info/requires.txt
+cards_rk.egg-info/top_level.txt
