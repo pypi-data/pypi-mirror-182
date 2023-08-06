@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: synonym-cli
+Version: 0.2.0
+Summary: 🌾Get synonyms and antonyms of words from Thesaurus.com and other sources in your terminal, with rich output.
+Home-page: https://github.com/agmmnn/syn
+Keywords: synonym,antonym,thesaurus,cli
+Author: agmmnn
+Author-email: agmmnn@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Dist: aiohttp (>=3.8.3,<4.0.0)
+Requires-Dist: gazpacho (>=1.1,<2.0)
+Requires-Dist: importlib-metadata (>=5.2.0,<6.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Project-URL: Bug Tracker, https://github.com/agmmnn/syn/issues
+Project-URL: Changelog, https://github.com/agmmnn/syn/releases
+Project-URL: Repository, https://github.com/agmmnn/syn
+Project-URL: Source, https://github.com/agmmnn/syn
+Description-Content-Type: text/markdown
+
+<div align="center"><img src="https://user-images.githubusercontent.com/16024979/162848437-8da9d5d4-a234-44d3-94d8-048f92b015a6.png" alt="syn"><a alt="Github" href="https://github.com/agmmnn/syn"><img alt="GitHub release" src="https://img.shields.io/github/v/release/agmmnn/syn"></a> <a href="https://pypi.org/project/synonym-cli/"><img alt="PyPI" src="https://img.shields.io/pypi/v/synonym-cli"></a></div>
+
+# 🌾 syn
+
+Get synonyms and antonyms of words from [Thesaurus.com](https://www.thesaurus.com/), [AlterVista](https://thesaurus.altervista.org/openapi) in your terminal, with [rich](https://github.com/Textualize/rich) output.
+
+# Install:
+
+```
+pip install synonym-cli
+```
+
+## Usage:
+
+```
+syn <word>
+```
+
+### Explore Mode
+
+Returns more particular results about the given word. Uses [Datamuse API](https://www.datamuse.com/api/).
+
+`$ syn dominant -d`
+![](https://user-images.githubusercontent.com/16024979/209144722-897ae8b6-c0c5-4f62-bb09-27010e94b4b0.png)
+
+### Other Languages
+
+For other languages you can use `--lang`, `-l` command. To use this feature, you need to get an api key from [here](https://thesaurus.altervista.org/openapi).
+
+`$ syn -l fr belle`
+![](https://user-images.githubusercontent.com/16024979/209144768-0cde6709-65d9-4142-9eae-bb4bc38e4a13.png)
+
+`$ syn -l ru фраза`
+![](https://user-images.githubusercontent.com/16024979/209144765-abca9b54-5495-4295-98f7-15acdbde7623.png)
+
+> AlterVista's Thesaurus API supports the following languages:
+
+> Czech: `cs`, Danish: `da`, English (US): `en`, French: `fr`, German (Germany): `de`, German (Switzerland): `de`, Greek: `el`, Hungarian: `hu`, Italian: `it`, Norwegian: `no`, Polish: `pl`, Portuguese: `pt`, Romanian: `ro`, Russian: `ru`, Slovak: `sk`, Spanish: `es`.
+
+### Set Default Language
+
+You can set the default language with the `--setlang <lang_code>` argument, so you don't have to give the `-l` argument every time.
+
+```
+$ syn --setlang fr
+> default language is: fr
+$ syn belle
+> ...
+```
+
+## Arguments
+
+```
+  -h, --help      show this help message and exit
+  -p, --plain     returns plain text output
+  -l, --lang      <language>
+  --setkey        set apikey for altervista api
+  --setlang       set default language (currently default is 'en')
+  --show          show settings file
+  -v, --version   show program's version number and exit
+```
+
+# Contrubuting
+
+Contributions are welcome. If you want to contribute to this list send a pull request or just open a new issue.
+

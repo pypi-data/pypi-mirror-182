@@ -1,0 +1,3 @@
+[console_scripts]
+syn=src.__main__:cli
+
