@@ -1,0 +1,9 @@
+from_root/__init__.py,sha256=HQ5l1WFgvLWWeW0gmo1y_qThQE0iasTd2YoCWHDnnZM,58
+from_root/base.py,sha256=H-SrF9ykSQ5f8iXjR9lRleBRyDNyknuOvfIj7xxjXac,187
+from_root/get_project_root.py,sha256=gu_imNcH3xDrYgczyjhAF7MJ5IYP8dv68At24uiDj0s,1163
+from_root/here.py,sha256=uR_3UWT1nVYBVpEWWolfu94CZMd1DfcSgWxe3vVKQfA,531
+from_root/root.py,sha256=twhyq_C5MH6vsU_OaBkxLUL7SfMnxxj7AbptggNtBZ8,480
+from_root-1.2.0.dist-info/LICENSE,sha256=HDbMJ7oItmxTn3jVtZFi6jUFAHovset5jzAPUderjOc,1073
+from_root-1.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+from_root-1.2.0.dist-info/METADATA,sha256=BOUVDSmYB41Cf4C8l0me4DU7cMIf6tvKql6ltnrqv2s,3258
+from_root-1.2.0.dist-info/RECORD,,
