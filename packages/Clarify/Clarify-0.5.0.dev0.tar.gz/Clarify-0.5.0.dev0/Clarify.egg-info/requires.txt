@@ -1,0 +1,6 @@
+requests
+cssselect
+futures
+requests-futures
+six
+wheel
