@@ -1,0 +1,9 @@
+README.md
+setup.py
+modelselect/__init__.py
+modelselect/selector.py
+modelselect.egg-info/PKG-INFO
+modelselect.egg-info/SOURCES.txt
+modelselect.egg-info/dependency_links.txt
+modelselect.egg-info/requires.txt
+modelselect.egg-info/top_level.txt

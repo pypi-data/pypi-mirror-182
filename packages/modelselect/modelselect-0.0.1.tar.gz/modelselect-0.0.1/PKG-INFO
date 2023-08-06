@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: modelselect
+Version: 0.0.1
+Summary: A package helps select independent variables for traditional linear regression models
+Home-page: https://github.com/shoukewei/modelselect
+Author: Shouke Wei
+Author-email: shouke.wei@gmail.com
+License: MIT License
+Keywords: python,linear regression,statsmodels,model improvement,select variables,insignificant,multicollinearity
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# modelselect
+
+A package helps easily create an optimal linear regression model by removing the insignificant and multicollinearity predictor variables, which can help you reduce the interactive process and tedious work to run the model, estimate it, evaluate it, reestimate and reevaluate it, etc. 
+
+Developed by Shouke Wei from Deepsim Academy, Deepsim Intelligence Technology Inc. (c) 2022
+
+## Install the package
+```python
+pip install modelselect
+```
+
+## import the package
+```python
+from modelselect import LRSelector
+```
+then use the `LRSelector()` directly. Or 
+```python
+import modelselect as ms
+```
+then use `ms.LRSelector()`
+
+## Document
+An example: https://github.com/shoukewei/modelselect/blob/main/docs/example.ipynb
+
+
