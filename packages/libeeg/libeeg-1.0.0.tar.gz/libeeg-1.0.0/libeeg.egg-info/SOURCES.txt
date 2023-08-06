@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+libeeg/__init__.py
+libeeg/libeeg.py
+libeeg.egg-info/PKG-INFO
+libeeg.egg-info/SOURCES.txt
+libeeg.egg-info/dependency_links.txt
+libeeg.egg-info/not-zip-safe
+libeeg.egg-info/top_level.txt
