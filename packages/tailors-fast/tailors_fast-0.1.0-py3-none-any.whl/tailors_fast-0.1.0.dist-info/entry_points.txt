@@ -1,0 +1,3 @@
+[console_scripts]
+tailors-fast-train=tailors_fast.train:train
+

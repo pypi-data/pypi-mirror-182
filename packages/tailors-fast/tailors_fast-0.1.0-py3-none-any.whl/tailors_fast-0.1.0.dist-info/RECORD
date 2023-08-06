@@ -1,0 +1,13 @@
+tailors_fast/__init__.py,sha256=fN7RXPYFKjdWIxyG3a3tOg4uvaux7tNcKnl97jUnV70,133
+tailors_fast/dates.py,sha256=a3AOZQQQtkFdngp1P82t-iDoxQYLzHbcHShNtqK18ak,577
+tailors_fast/locations.py,sha256=oRxM-ILEi-W5TyloKhmart-aazgcd0bCKy_lzj-1lag,522
+tailors_fast/model.py,sha256=Twy8BjUBYm-H9gSqqkRsV7S3csy5gtMmygsy19M4810,1772
+tailors_fast/split.py,sha256=fuJKsBKNNfZm6G2wlQ0yCxmwWXkz1fuO5do_LAY7xNY,2249
+tailors_fast/stopwords.py,sha256=m5vXrk8wx0dOoAeBo3ji8th9RIg4mbEN4ZkG-Tb5rLw,13144
+tailors_fast/texts.py,sha256=rboIWHkNkBy0l3BPmJoPS-PTvuY5O8d0n7v-FKG7CII,1708
+tailors_fast/tokenizer.py,sha256=2hTLH4B0emcQiu4Nu4NeJLrnWEUypUysXriL39qifQg,3987
+tailors_fast/train.py,sha256=JQm-7P5zaUiHaMRmTqXGTPf0BnnKK7acKSc2FGLEdgk,5785
+tailors_fast-0.1.0.dist-info/entry_points.txt,sha256=SW1GRFY4dookTtFJxODsevCBn_b4rarJQeGtxPsOXqc,63
+tailors_fast-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tailors_fast-0.1.0.dist-info/METADATA,sha256=vxZu3ltX1ws9xI_Wd326uOqeAHK73P4Htkzo5L5k08c,533
+tailors_fast-0.1.0.dist-info/RECORD,,
