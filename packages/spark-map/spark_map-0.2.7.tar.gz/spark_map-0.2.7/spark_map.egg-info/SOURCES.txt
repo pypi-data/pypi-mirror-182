@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+README.rst
+pyproject.toml
+setup.py
+spark_map.egg-info/PKG-INFO
+spark_map.egg-info/SOURCES.txt
+spark_map.egg-info/dependency_links.txt
+spark_map.egg-info/requires.txt
+spark_map.egg-info/top_level.txt
