@@ -1,0 +1,66 @@
+{
+    "Header": {
+        "data_specs_version": "01.00.00",
+        "cmor_version": "3.5",
+        "table_id": "Table 6hrRef",
+        "realm": "atmos",
+        "table_date": "Aug 23, 2021",
+        "missing_value": "1e20",
+        "int_missing_value": "-999",
+        "product": "model-output",
+        "approx_interval": "1.00000",
+        "generic_levels": "",
+        "mip_era": "CMIP6",
+        "Conventions": "CF-1.8"
+    },
+    "variable_entry": {
+        "ta": {
+            "frequency": "6hrPt",
+            "modeling_realm": "atmos",
+            "standard_name": "air_temperature",
+            "units": "K",
+            "cell_methods": "time: point",
+            "cell_measures": "",
+            "long_name": "Air Temperature",
+            "comment": "Air Temperature",
+            "dimensions": "longitude latitude plev137 time",
+            "out_name": "ta",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": ""
+        },
+        "ua": {
+            "frequency": "6hrPt",
+            "modeling_realm": "atmos",
+            "standard_name": "eastward_wind",
+            "units": "m s-1",
+            "cell_methods": "time: point",
+            "cell_measures": "",
+            "long_name": "Eastward Wind",
+            "comment": "Zonal wind (positive in a eastward direction).",
+            "dimensions": "longitude latitude plev137 time",
+            "out_name": "ua",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": ""
+        },
+        "va": {
+            "frequency": "6hrPt",
+            "modeling_realm": "atmos",
+            "standard_name": "northward_wind",
+            "units": "m s-1",
+            "cell_methods": "time: point",
+            "cell_measures": "",
+            "long_name": "Northward Wind",
+            "comment": "Meridional wind (positive in a northward direction).",
+            "dimensions": "longitude latitude plev137 time",
+            "out_name": "va",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": ""
+        }
+    }
+}
