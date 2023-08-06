@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+SETUP.py
+pypip.py
+setup.py
+ranjethabasiccalculator.egg-info/PKG-INFO
+ranjethabasiccalculator.egg-info/SOURCES.txt
+ranjethabasiccalculator.egg-info/dependency_links.txt
+ranjethabasiccalculator.egg-info/top_level.txt
