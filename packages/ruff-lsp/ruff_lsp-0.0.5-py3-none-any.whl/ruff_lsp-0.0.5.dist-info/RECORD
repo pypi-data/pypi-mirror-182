@@ -1,0 +1,10 @@
+ruff_lsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruff_lsp/__main__.py,sha256=4GHLTn-mOmWXmZh5KUsbaLQgb8w2ML4eSTYVYsG3ZQE,130
+ruff_lsp/_debug_server.py,sha256=kk3VbQrUUXuOGUyLxR1rO9ScTwwMe47xP8gVZsK3sFQ,1188
+ruff_lsp/server.py,sha256=Ldc0UYZFuYvwJ0tv2I_BQPNYNwHzjw0mBopRnIEi9NE,22389
+ruff_lsp/utils.py,sha256=joyCalwcYeD6ZyOHuK0uvZBChyZ7OV2IwHGKFQjSO3I,2718
+ruff_lsp-0.0.5.dist-info/entry_points.txt,sha256=EIklnzvUmghBzSyFLHQbRxcaRgDFxMfk35oldvvaB1k,51
+ruff_lsp-0.0.5.dist-info/LICENSE,sha256=fkDcCgnbYjV7lGYLBvTPrf_1z-ccs7OCUvy5Bhdg4a8,1070
+ruff_lsp-0.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ruff_lsp-0.0.5.dist-info/METADATA,sha256=z3vxrDVXGTIocXDJ4ivL65pc4SrJ2_LOjnZ89aGlIiA,7262
+ruff_lsp-0.0.5.dist-info/RECORD,,
