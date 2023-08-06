@@ -1,0 +1,15 @@
+pydantic
+pyyaml
+
+[ci]
+build
+twine
+
+[dev]
+black
+flake8
+mypy
+isort
+
+[test]
+pytest
