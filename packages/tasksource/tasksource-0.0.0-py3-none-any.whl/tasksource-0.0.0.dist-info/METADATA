@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tasksource
+Version: 0.0.0
+Summary: Preprocessings to prepare datasets for a task
+Home-page: https://github.com/sileod/tasksource/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dotwiz
+Requires-Dist: funcy
+Requires-Dist: datasets
+Requires-Dist: exrex
+Requires-Dist: magicattr
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# tasksource
+Datasets curation and datasets metadata for extreme multitask learning
+
+
+ ### contact
+ `damien.sileo@inria.fr`
