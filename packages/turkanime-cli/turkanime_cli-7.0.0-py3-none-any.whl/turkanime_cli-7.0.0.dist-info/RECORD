@@ -1,0 +1,11 @@
+turkanime_api/.cli/turkanime.py,sha256=d2Rbk8GU-L1pHIPWhcsMMzjv39p-Q9T3N5TX5a9cERQ,5802
+turkanime_api/__init__.py,sha256=CS96K275-ZVbscur57CbQGiucfbbwI7f2eiBQeCTsRU,205
+turkanime_api/anime.py,sha256=B3S6SHMElKmqMMqb_Vv5r5zvaEf8D7dqxJzET_HR8P8,4836
+turkanime_api/dosyalar.py,sha256=nrIloB46bZMxwZV0u0lFZR__bvG8rYuRrqY9bx-v23Y,8057
+turkanime_api/players.py,sha256=xKqRgB_GK-UWQJGYHoo2TB-ULPOUCwcXlFyI6sDFi08,7745
+turkanime_api/tools.py,sha256=QrCqrF1dnBMti2XmS3SZKPjjtJMjT6esQc8T6lRiHiw,4564
+turkanime_cli-7.0.0.dist-info/entry_points.txt,sha256=2bCd6_AbgnPan8tO_JB3h8rIGi9esZhC-O9djSZD9oM,44
+turkanime_cli-7.0.0.dist-info/METADATA,sha256=NZrcNHs2j7G8JdpbHQIfl2Oky8ikuj-y1aorhfPVOrY,4054
+turkanime_cli-7.0.0.dist-info/LICENSE,sha256=RWuPqTqrnj123I42-cADoO5_b9zhEc3I0gwMSBlcwx0,15036
+turkanime_cli-7.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+turkanime_cli-7.0.0.dist-info/RECORD,,
