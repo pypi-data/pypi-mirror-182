@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.8.1
+------
+
+* Move MAP\_ROLE2ROLE & MAP\_ROLE2ENVIRONMENT to core.enums (#261)
