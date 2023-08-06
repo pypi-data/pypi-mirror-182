@@ -1,0 +1,6 @@
+synapse_graph/__init__.py,sha256=DhXXtqxMNQTK_T_O93qy6QgvtiPpsL9h1qh3kZpvDX8,133
+synapse_graph/graph.py,sha256=eaN-UYFSglaDb-MUIx1ZoqPdKJ5bnBYwrWAeFmGAIDw,8585
+synapse_graph-0.5.3.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+synapse_graph-0.5.3.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+synapse_graph-0.5.3.dist-info/METADATA,sha256=k9cCpf4R0S2Yjzbn60MLtD575WrNq2Tq53HioDKKrHI,370
+synapse_graph-0.5.3.dist-info/RECORD,,
