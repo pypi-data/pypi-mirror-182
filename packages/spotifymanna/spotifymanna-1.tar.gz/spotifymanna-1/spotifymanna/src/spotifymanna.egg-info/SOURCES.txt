@@ -1,0 +1,8 @@
+setup.py
+spotifymanna/src/spotifymanna.egg-info/PKG-INFO
+spotifymanna/src/spotifymanna.egg-info/SOURCES.txt
+spotifymanna/src/spotifymanna.egg-info/dependency_links.txt
+spotifymanna/src/spotifymanna.egg-info/requires.txt
+spotifymanna/src/spotifymanna.egg-info/top_level.txt
+spotifymanna/src/spotifymanna.py
+spotifymanna/src/spotifymanna.egg-info/SOURCES.txt
