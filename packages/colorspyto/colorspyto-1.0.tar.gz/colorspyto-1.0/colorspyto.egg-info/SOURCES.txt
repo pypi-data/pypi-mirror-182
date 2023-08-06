@@ -1,0 +1,9 @@
+setup.py
+colorspyto/__init__.py
+colorspyto/_init_.py
+colorspyto/colorspyto.py
+colorspyto.egg-info/PKG-INFO
+colorspyto.egg-info/SOURCES.txt
+colorspyto.egg-info/dependency_links.txt
+colorspyto.egg-info/not-zip-safe
+colorspyto.egg-info/top_level.txt
