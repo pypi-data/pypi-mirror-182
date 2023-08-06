@@ -1,0 +1,11 @@
+.venv/
+.vscode/
+.pytest_cache/
+__pycache__/
+*.pyc
+.sectionHistory
+.coverage
+dist/
+.DS_Store
+coverage.xml
+codecov
