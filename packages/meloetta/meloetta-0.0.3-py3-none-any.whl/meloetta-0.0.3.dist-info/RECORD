@@ -1,0 +1,9 @@
+meloetta/__init__.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+meloetta/battle.py,sha256=XaeF3QdBYKp8upe71F68rrcJEpPwENrkuAYz7WVeoME,4110
+meloetta/client.py,sha256=xxW5b5rlNZLRpAtS4r35IbFJXyRKd2k6xeemuQLc3d0,4303
+meloetta/player.py,sha256=gC_kM0D1UGkIYn971f2cOR1OWa65pgifxumYBhQCta4,10903
+meloetta-0.0.3.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+meloetta-0.0.3.dist-info/METADATA,sha256=cs32FeveUXPqQ442yjXqyvEIFrcPh7cRaICUc8GnUGk,299
+meloetta-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+meloetta-0.0.3.dist-info/top_level.txt,sha256=Qp-t2Z_nVajsVvczBqzXUGsBpRS7z5sTJIr3M5uDVPQ,9
+meloetta-0.0.3.dist-info/RECORD,,
