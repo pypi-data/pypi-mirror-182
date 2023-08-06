@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mwbot
+Version: 0.0.3
+Summary: 为PRTS和ArcaeaCNWiki提供编辑功能的mediawiki api库
+Home-page: https://github.com/GuGuMur/mwbot
+Author: GuGuMur
+Author-email: 2221533105@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WikiBot
+为PRTS和ArcaeaCNWiki提供编辑功能的mediawiki api库，封装了<del>个性化</del>的一些工具
+
+# 使用的bot账号
+
+# 文档
