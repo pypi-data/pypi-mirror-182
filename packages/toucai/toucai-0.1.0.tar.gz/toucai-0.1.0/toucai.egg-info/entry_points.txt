@@ -1,0 +1,2 @@
+[console_scripts]
+toucai = toucai.cli:main
