@@ -1,0 +1,9 @@
+coopmongo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coopmongo/constants.py,sha256=tM3l7Vtfp7P-yby09BFYNYVSvpY_GY89Pg8yMyvhOgA,74
+coopmongo/errors.py,sha256=LHDXNO976z0rAZ6sjgLlnUrwFfq6WZO_rA7nZ5Le2ps,185
+coopmongo/mongoCollectionHandler.py,sha256=3YPvUft9S-ktNnOLvRu06b6lMR4SsRyi7opGRegjDMo,3108
+coopmongo/mongo_utils.py,sha256=A-7sUtTB21IPVEnYxRGJjCg3Me3iVPwQJapm_-68rM4,9274
+coopmongo-0.1.dist-info/METADATA,sha256=eszW4O-nBH_Rw6I6697ea1bPfbwo0hNUwDeSp2d7VuU,1101
+coopmongo-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+coopmongo-0.1.dist-info/top_level.txt,sha256=8_nHnSxjW3z4NidEE_-fvS5VihbLOJvhTpbTmnBQV1k,10
+coopmongo-0.1.dist-info/RECORD,,
