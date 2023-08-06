@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+sodatest/__init__.py
+sodatest/boxplot.py
+sodatest/line.py
+sodatest.egg-info/PKG-INFO
+sodatest.egg-info/SOURCES.txt
+sodatest.egg-info/dependency_links.txt
+sodatest.egg-info/top_level.txt
