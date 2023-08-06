@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: auto_deep_learning
+Version: 0.1
+Summary: Automation of the creation of the architecture of the neural network based on the input
+Home-page: https://github.com/Nil-Andreu/auto-nn
+Author: Nil Andreu
+Author-email: nilandreug@email.com
+License: MIT
+Keywords: deep learning,machine learning,convolutional neural networks,neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
+
+UNKNOWN
+
