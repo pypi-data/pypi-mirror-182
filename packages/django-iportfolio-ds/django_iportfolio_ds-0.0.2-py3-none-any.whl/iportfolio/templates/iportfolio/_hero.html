@@ -1,0 +1,14 @@
+{% load static %}
+
+<style>
+  #hero {
+  background: url("{% static 'img/hero/'|add:hero.bg|add:'.jpg' %}") top center;
+}
+</style>
+
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="hero-container" data-aos="fade-in">
+    <h1>{{ hero.title }}</h1>
+    <p>{{ hero.head_slogan }} <span class="typed" data-typed-items="{{ hero.slogan }}"></span></p>
+  </div>
+</section>

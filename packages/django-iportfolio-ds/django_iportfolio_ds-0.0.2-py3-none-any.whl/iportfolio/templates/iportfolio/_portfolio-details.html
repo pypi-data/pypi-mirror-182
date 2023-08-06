@@ -1,0 +1,133 @@
+{% load static %}
+{% load compress %}
+{% load sections %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ======= SEO ======= -->{% include 'iportfolio/seo.html' %}<!-- End SEO -->
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'iportfolio/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  {% compress css %}
+    <link type="text/x-scss" href="{% static 'iportfolio/scss/style.scss' %}" rel="stylesheet">
+  {% endcompress %}
+</head>
+
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->{% include 'iportfolio/header.html' %}<!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>{{ obj.filter }}</h2>
+          <ol>
+            <li><a href="{% url 'iportfolio:home' %}">Home</a></li>
+            <li>{{ obj.filter }}</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="{{ obj.image1.url }}" alt="">
+                </div>
+                {% if obj.image2 %}
+                <div class="swiper-slide">
+                  <img src="{{ obj.image2.url }}" alt="">
+                </div>
+                {% endif %}
+                {% if obj.image3 %}
+                <div class="swiper-slide">
+                  <img src="{{ obj.image3.url }}" alt="">
+                </div>
+                {% endif %}
+                {% if obj.image4 %}
+                <div class="swiper-slide">
+                  <img src="{{ obj.image4.url }}" alt="">
+                </div>
+                {% endif %}
+                {% if obj.image5 %}
+                <div class="swiper-slide">
+                  <img src="{{ obj.image5.url }}" alt="">
+                </div>
+                {% endif %}
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>{{ obj.title }}</h3>
+              <ul>
+                <li><strong>Category</strong>: {{ obj.filter }}</li>
+                {% comment %}
+                <li><strong>Doctor</strong>: {{ doctor }}</li>
+                {% endcomment %}
+                <li><strong>Features</strong>: {{ obj.subtitle }}</li>
+                {% if obj.url %}
+                <li><strong>Reference</strong>: <a href="{{ obj.url }}" target="_blank">{{ obj.url }}</a></li>
+                {% endif %}
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <p>
+                {{ obj.description }}
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->{% include 'iportfolio/footer.html' %}<!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'iportfolio/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/waypoints/noframework.waypoints.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'iportfolio/js/main.js' %}"></script>
+
+</body>
+
+</html>
