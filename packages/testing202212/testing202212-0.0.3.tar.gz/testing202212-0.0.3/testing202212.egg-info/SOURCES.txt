@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/funcs.cpp
+src/wrap.cpp
+test/test.py
+testing202212.egg-info/PKG-INFO
+testing202212.egg-info/SOURCES.txt
+testing202212.egg-info/dependency_links.txt
+testing202212.egg-info/top_level.txt

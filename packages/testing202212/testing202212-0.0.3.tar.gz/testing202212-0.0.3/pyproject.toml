@@ -1,0 +1,6 @@
+[build-system]
+requires = ["setuptools>=42", "pybind11[global]"]
+build-backend = "setuptools.build_meta"
+
+[tool.cibuildwheel]
+build-verbosity = 3
