@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: tensorboard_plugin_customizable_plots
+Version: 0.1.6
+Summary: A plugin for TensorBoard to customize and export Scalar plots
+License-File: LICENSE
