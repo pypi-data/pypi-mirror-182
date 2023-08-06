@@ -1,0 +1,16 @@
+signal_cli/Attachments.py,sha256=SEytcoUclcpk1KzD_A1THu06nehAPUlH0jdPmbP9p_w,2643
+signal_cli/Contacts.py,sha256=GuDN4TBWxDTljG78OylHxkLlMFwlshwPsKTP8hRs_RI,1508
+signal_cli/Devices.py,sha256=-vId7gOtCUU1vCOTr091iVUrMxQ3_kyKmN0OXxOKvY0,5363
+signal_cli/General.py,sha256=r7L8vhUOgme7vGMPllXC7J2nopmcBwQRr4jLaI_IryM,3031
+signal_cli/Groups.py,sha256=72zUYGe2-eEW6KQPQT_rye3NbXLXJiI-_luz1CRaBzI,6993
+signal_cli/Identities.py,sha256=bkk_ZB2QNQLJJbTUg-FTUmPIxboixDuOVwnChBDyTkk,1943
+signal_cli/Messages.py,sha256=bsPSK4kUBpeFnRt7Na1avFNZxhGwSYZ9NSkkLW4VKyE,3149
+signal_cli/Profiles.py,sha256=3Ja6-hWqSwlP4wUOGOOt0RUJlIzJrN4aJC4aRtFJ3bE,2116
+signal_cli/Reactions.py,sha256=CL-8FCuvaog48RPhhLvjV-_OLSjA-njKXF-Eo4yyrlM,2560
+signal_cli/Search.py,sha256=exiF97M_HzV1cf_b29CZNvQpj7VMKaCi3nUlCn4h1xE,1149
+signal_cli/__init__.py,sha256=9v-hS8u5uXR6i0smEYW7GXyqe_TisFKSpLf7O7A-5rI,442
+signal_cli/config.json,sha256=us0CfMuHFXRr4pQ9D_v--LJfsegKFXUYRJng3pN9RqI,77
+signal_cli-0.0.4.dist-info/METADATA,sha256=N4GK8qen8dVnYJA_jU6DzwcXBywSS1wlb_JzCCG82iY,911
+signal_cli-0.0.4.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+signal_cli-0.0.4.dist-info/licenses/LICENSE,sha256=Az6hyk3fyDJslgq9F0CF78Kp29hBvgA0dh9pB_HQbX0,1067
+signal_cli-0.0.4.dist-info/RECORD,,
