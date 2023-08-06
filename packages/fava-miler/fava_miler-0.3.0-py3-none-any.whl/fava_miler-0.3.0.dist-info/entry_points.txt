@@ -1,0 +1,2 @@
+[console_scripts]
+fava-miler = fava_miler.miler:miler
