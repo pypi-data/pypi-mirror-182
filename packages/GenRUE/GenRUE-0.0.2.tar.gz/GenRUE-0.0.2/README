@@ -1,0 +1,85 @@
+GenRUE is designed to calculate the flow pattern under the ridesharing user equilibrium status.
+No public transit mode in the transportation network.
+
+Input:
+(1) Transportation network topology through an Excel file, including two sheets named "Link" and "OD" respectively.
+    [Example]
+    The information in two sheets are listed as follows:
+    "Link":
+    _____________________________________________________________________________________________
+    Serial number | Start node | End node | Free flow time | Capacity
+    1	               | 1	           | 2	          | 6	               |  25900.20064
+    2	               | 1	           | 3	          | 4	               |  23403.47319
+    3	               | 2	           | 1	          | 6	               |  25900.20064
+    4	               | 2	           | 6	          | 5	               |  4958.180928
+    5	               | 3	           | 1	          | 4	               |  23403.47319
+
+    "OD":
+   __________________________________________________________________________________
+    Serial number | Origin node | Destination node | Travel demand
+    1	               | 1	            | 2	                |    100
+    2	               | 2	            | 1	                |    100
+    3	               | 1	            | 3	                |    100
+    4	               | 3	            | 1	                |    100
+    5	               | 1	            | 4	                |    500
+
+(2) K: the maximum number of paths per OD pair, or the parameter of k-shortest path (KSP) algorithm.
+
+(3) rider_Ca: the maximum number of riders a ridesharing driver can carry at a time.
+     The number of travel roles in the transportation network equals 2*rider_Ca+1, i.e., RoleNum = 2*rider_Ca+1
+     The whole travel roles:
+     solo driver: SD
+     ridesharing driver: 1_RD, 2_RD, ..., rider_Ca_RD
+     rider: 1_R, 2_R, ..., rider_Ca_R
+
+(4) Travel cost parameters, including
+    value of time (VOT), coefficient of inconvenience (COI), benchmark price (benchmark),
+    surge price (surge_cof), miscellaneous cost (sundry)
+    [Example]
+    If rider_Ca=2, then RoleNum=5, the parameters can be defined as follows:
+    VOT = mat(np.array([[1], [0.8], [0.8], [0.4], [0.3]]))
+    COI = mat(np.array([[0], [0.3], [0.4], [0.3], [0.4]]))
+    benchmark = mat(np.array([[0], [20], [20], [20], [20]]))
+    surge_cof = mat(np.array([[0], [5], [5], [1], [1]]))
+    sundry = mat(np.array([[1], [1], [1], [0], [0]]))
+
+(5) accuracy_0: The convergence accuracy condition in the iteration process of MSA or CA algorithm.
+    During the iteration, if the current accuracy <= accuracy_0, then stop the algorithm.
+
+
+Output:
+(1) OD-Route matrix: "OD_Route" sheet
+(2) Route-Link matrix: "Route_Link" sheet
+(3) pathflow result: "pathflow_CA" or "pathflow_MSA" sheet
+(4) generalized path travel cost: "general_cost_CA" or "general_cost_MSA" sheet
+(5) Pi, the Lagrangian multiplier: "Pi" sheet
+
+
+Test Code:
+# ##### ################## #####
+filename = "E:\\Sioux-Falls.xlsx"
+rider_Ca = 2
+K = 3
+accuracy_0 = 0.001
+VOT = mat(np.array([[1], [0.8], [0.8], [0.4], [0.3]]))
+COI = mat(np.array([[0], [0.3], [0.4], [0.3], [0.4]]))
+benchmark = mat(np.array([[0], [20], [20], [20], [20]]))
+surge_cof = mat(np.array([[0], [5], [5], [1], [1]]))
+sundry = mat(np.array([[1], [1], [1], [0], [0]]))
+# ##### ################## #####
+
+Net = GenRUE.TransNet()
+
+Net.InitialNet(filename, rider_Ca, K)   # Initialize network topology
+pathflow_0 = Net.Initial_PathFlow()  # Initialize the path flow
+Net.SaveNetInfo(filename)   # Save the route information: OD_Route matrix and Route_Link matrix
+
+# ### Solve path flow and generalized travel cost through the CA algorithm
+[pathflow_CA, general_cost_CA] = Net.CA(pathflow_0, VOT, COI, benchmark, surge_cof, sundry, accuracy_0)
+Pi_CA = Net.CheckResult(pathflow_CA, general_cost_CA)  # Calculate the Lagrangian multiplier
+Net.SaveResult(pathflow_CA, general_cost_CA, Pi_CA, rider_Ca, filename)  # Save the path flow, travel cost and multiplier results
+
+# ### Solve path flow and generalized travel cost through the MSA algorithm
+[pathflow_MSA, general_cost_MSA] = Net.MSA(pathflow_0, VOT, COI, benchmark, surge_cof, sundry, accuracy_0)
+Pi_MSA = Net.CheckResult(pathflow_MSA, general_cost_MSA)  # Calculate the Lagrangian multiplier
+Net.SaveResult(pathflow_MSA, general_cost_MSA, Pi_MSA, rider_Ca, filename)  # Save the path flow, travel cost and multiplier results

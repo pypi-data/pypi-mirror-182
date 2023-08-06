@@ -1,0 +1,9 @@
+README
+setup.py
+GenRUE/__init__.py
+GenRUE/_core.py
+GenRUE.egg-info/PKG-INFO
+GenRUE.egg-info/SOURCES.txt
+GenRUE.egg-info/dependency_links.txt
+GenRUE.egg-info/requires.txt
+GenRUE.egg-info/top_level.txt
