@@ -1,0 +1,9 @@
+[tool.pyright]
+reportUnnecessaryTypeIgnoreComment = "warning"
+reportUnusedImport = "error"
+pythonVersion = "3.11.1"
+typeCheckingMode = "strict"
+
+
+[tool.black]
+line-length = 88
