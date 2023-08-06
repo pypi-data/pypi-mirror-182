@@ -1,0 +1,5 @@
+colorama
+mako
+pwn
+pygments
+requests
