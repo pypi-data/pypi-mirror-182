@@ -1,0 +1,2 @@
+wrapt>=1.10.4
+requests-kerberos>=0.14.0
