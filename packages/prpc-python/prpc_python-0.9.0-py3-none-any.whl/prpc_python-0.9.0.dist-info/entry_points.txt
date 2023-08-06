@@ -1,0 +1,6 @@
+[console_scripts]
+prpc=prpc_python.cli:prpc
+
+[prpc_python]
+sample=prpc_python.sample:app
+

@@ -1,0 +1,10 @@
+prpc_python/__api.py,sha256=lVatX-EkAwmb5Mqrvh_0TxJx3DKx1VuA3nr0_xnpi3E,2293
+prpc_python/__init__.py,sha256=Vpc4oj3leB_qVjy2NCUmapnfFlA4TB-Te65v1wst5Os,59
+prpc_python/cli.py,sha256=pv46KPHmIip4EiiJGcvUotmPX2-62Wdcfo2S5N2Cqbw,1621
+prpc_python/flask.py,sha256=LgzRZCbzbuY9Hf9xqe1y_4MhdBP43yTjc5PkeQjBcIc,1259
+prpc_python/pyodide.py,sha256=bBas04CUXdOtKWbkHJU9yMBS65RzqGacj8irhRpP67s,1543
+prpc_python/sample.py,sha256=TlaRrPs9VdHnHVU4pGeg8Vmz7Ih2WIrJVpGok_e3u6A,1380
+prpc_python-0.9.0.dist-info/entry_points.txt,sha256=iKWpkF22u5rCNlOVBLXxaJUaSESR8yrDtmwM7kBBXIA,90
+prpc_python-0.9.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+prpc_python-0.9.0.dist-info/METADATA,sha256=g4S1B4H8C7qPq0zD0p5ELCAnilQpfWid_FG7mQQa_Mg,1266
+prpc_python-0.9.0.dist-info/RECORD,,
