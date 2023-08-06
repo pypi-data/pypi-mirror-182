@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PhrExt
+Version: 0.1.0
+Summary: Extract phrase from English sentence such as noun, verb, preposition based on NLP task word chunking and HuggingFace library
+Author: Le Minh Khoi
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Phrase extraction
+
+```text
+Input: PennyLane went to the school
+
+Output: [{'Noun Phrase': 'PennyLane'}, {'Verb Phrase': 'went'}, {'Preposition': 'to'}, {'Noun Phrase': 'the school'}]
+```
+
+I train a sequence tagging model based on RoBERTa of Huggingface. The training code is given in `train.py`.
+
+## How to use
+
+```python
+from PhrExt import PhraseExtractor
+
+if __name__ == "__main__":
+    phrase_extractor = PhraseExtractor('transZ/phrext', 'roberta-base')
+    sent = "PennyLane went to the school"
+    res = phrase_extractor(sent)
+    print(res)
+```
