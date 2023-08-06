@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: zyfra-check
+Version: 0.0.9
+Summary: A plugin that allows multiple failures per test.
