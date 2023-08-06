@@ -1,0 +1,3 @@
+recursive-include src/st_switcher/frontend *
+include README.md
+include LICENSE

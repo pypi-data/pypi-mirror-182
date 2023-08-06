@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: st-switcher
+Version: 0.1.0
+Summary: Streamlit component that allows you to do X
+Author: Abraão Andrade
+Author-email: abraaolpandrade@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# st_switcher
+
+Streamlit component that allows you to do X
+
+## Installation instructions 
+
+```sh
+pip install st_switcher
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from st_switcher import st_switcher
+
+value = st_switcher()
+
+st.write(value)
