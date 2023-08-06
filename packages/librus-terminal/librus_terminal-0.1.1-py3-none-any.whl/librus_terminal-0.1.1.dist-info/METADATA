@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: librus-terminal
+Version: 0.1.1
+Author: Piotr Ginał
+Requires-Dist: librus-scraper
+
