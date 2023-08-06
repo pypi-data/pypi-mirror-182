@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: bluestacks-fast-screenshot
+Version: 0.12
+Summary: This module takes screenshots of BlueStacks using the win32 API, resizes and crops them to the same size of an ADB screenshot.
+Home-page: https://github.com/hansalemaos/bluestacks_fast_screenshot
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: bluestacks,adb,openCV,win32,screenshots,windows,bot,video,streaming
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: a-cv2-easy-resize
+Requires-Dist: ctypes-screenshots
+Requires-Dist: ctypes-window-info
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+
+
+### This module takes screenshots of BlueStacks using the win32 API, resizes and crops them to the same size of an ADB screenshot.  
+
+
+
+##### You can easily get more than 100 FPS, but the BlueStacks window may not be minimized! You can put it in the background, but don't minimize it!
+
+
+
+
+
+```python
+
+pip install bluestacks-fast-screenshot
+
+
+
+# Update 22/12/2022 - Less code / less dependencies 
+
+
+
+from bluestacks_fast_screenshot import get_bluestacks_screenshot
+
+import cv2
+
+blueit = get_bluestacks_screenshot(
+
+    adb_path="C:\\Users\\USERNAME\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+
+    deviceserial="localhost:5795",
+
+    windowtitle="bluestacks",
+
+    interpolation=cv2.INTER_AREA,
+
+    ignore_exceptions=True,
+
+    show_fps=True,
+
+)
+
+
+
+for pic in blueit:
+
+    # do your stuff here
+
+    cv2.imshow("", pic.copy())
+
+    
+
+    if cv2.waitKey(1) & 0xFF == ord("q"):
+
+        cv2.destroyAllWindows()
+
+        break
+
+
+
+
+
+```
+
+
+
