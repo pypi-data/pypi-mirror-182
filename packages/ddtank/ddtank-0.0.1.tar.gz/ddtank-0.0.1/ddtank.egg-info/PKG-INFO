@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ddtank
+Version: 0.0.1
+Summary: A package used for writing ddtank game scripts.
+Author: zx
+Author-email: jugking6688@gmail.com
+License: MIT Licence
+Keywords: pip,ddtank
+Platform: any
+License-File: LICENSE.txt

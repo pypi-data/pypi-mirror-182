@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+ddtank/__init__.py
+ddtank/get_info.py
+ddtank.egg-info/PKG-INFO
+ddtank.egg-info/SOURCES.txt
+ddtank.egg-info/dependency_links.txt
+ddtank.egg-info/requires.txt
+ddtank.egg-info/top_level.txt
