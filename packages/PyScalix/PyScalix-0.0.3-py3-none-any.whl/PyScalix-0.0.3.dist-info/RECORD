@@ -1,0 +1,8 @@
+PyScalix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyScalix/toCsv.py,sha256=GuBGg2LtrfYfEYynRMXe1yqHKr5EdD7d8LwhbjGBBgA,644
+PyScalix/toSqlite.py,sha256=fVvG_KVDQmwMzWaeIy15eHjrc9dyT7d6GurD0vLHePo,1010
+PyScalix-0.0.3.dist-info/LICENSE,sha256=NFKamcncp2hIrp2VDaMFAhfpv2z3UALTb1kCyTmKyBE,1103
+PyScalix-0.0.3.dist-info/METADATA,sha256=knAdD3AilTiiVzmCiwgalyiqIU8G9KdTUIWkxPvQwj4,1401
+PyScalix-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PyScalix-0.0.3.dist-info/top_level.txt,sha256=t5uXtYwSAaNG-zmj0GVer_2hLzAzA2jh62jNWRU-LqY,9
+PyScalix-0.0.3.dist-info/RECORD,,
