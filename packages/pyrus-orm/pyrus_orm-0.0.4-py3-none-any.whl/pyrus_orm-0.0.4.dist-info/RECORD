@@ -1,0 +1,14 @@
+pyrus_orm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrus_orm/catalog.py,sha256=Czv2apqExFHV-QPqmLNJ29IlzVsJnEaNDZzwSYeqzfQ,2578
+pyrus_orm/fields.py,sha256=IiXZwc5SPaHppKqEcFuGYYTsG0uWpB1D1Hq8zFsde0Q,5260
+pyrus_orm/manager.py,sha256=tlSKB6Mtx2dH0lRbTerXECZ0sqh8EeprlEJ2jGhQ33A,1506
+pyrus_orm/model.py,sha256=SGlV2hjV7Y32-ORK9Ymw0PZ72C_dMWwx3lb05gmfYE0,3775
+pyrus_orm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrus_orm/session.py,sha256=Rpau60dY_z51yX7vDGhZB556zOF3p8JHgNQ5CDYmq88,3838
+pyrus_orm/task.json,sha256=sCc3S4Ih7iKwOcu3_kCN1dKjl77rseZJJeWdoYj8nxk,17490
+pyrus_orm/types.py,sha256=9H4lRQKyHb3uOENunS2v_hFE5U8zccDeACC1IGe3Po8,184
+pyrus_orm/utils.py,sha256=irC1793nrX_mYOoIlwttI0W7CkfUoVhPPjU27smaLI0,300
+pyrus_orm-0.0.4.dist-info/LICENSE,sha256=w5g92tUg2zL-eWNROuh7JLIWwN5uWOFUJFD6pJghvks,1074
+pyrus_orm-0.0.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyrus_orm-0.0.4.dist-info/METADATA,sha256=cTfAq86tFl0yGuRX5wPp_XxCDr9Z42oywJJa9rDzAXc,4613
+pyrus_orm-0.0.4.dist-info/RECORD,,
