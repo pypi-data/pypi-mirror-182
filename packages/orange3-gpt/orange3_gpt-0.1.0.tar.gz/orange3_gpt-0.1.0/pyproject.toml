@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "orange3-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Irgolic <hello@irgolic.com>"]
+license = "GNU AGPL-3.0"
+readme = "README.md"
+packages = [{include = "orangecontrib"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
