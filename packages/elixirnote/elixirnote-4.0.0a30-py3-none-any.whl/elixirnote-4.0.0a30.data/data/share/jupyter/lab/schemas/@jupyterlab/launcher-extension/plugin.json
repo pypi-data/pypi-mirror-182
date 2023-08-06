@@ -1,0 +1,27 @@
+{
+  "title": "Launcher",
+  "description": "Launcher settings.",
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "jp-mainmenu-file",
+        "items": [
+          {
+            "command": "launcher:create",
+            "rank": 0.99
+          }
+        ]
+      }
+    ]
+  },
+  "jupyter.lab.shortcuts": [
+    {
+      "command": "launcher:create",
+      "keys": ["Accel Shift L"],
+      "selector": "body"
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false,
+  "type": "object"
+}

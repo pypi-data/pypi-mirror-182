@@ -1,0 +1,5 @@
+[console_scripts]
+elixir-lab = jupyterlab.labapp:main
+elixir-labextension = jupyterlab.labextensions:main
+elixir-labhub = jupyterlab.labhubapp:main
+jlpm = jupyterlab.jlpmapp:main
