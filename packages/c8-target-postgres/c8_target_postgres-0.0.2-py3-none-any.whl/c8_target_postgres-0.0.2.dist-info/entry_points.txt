@@ -1,0 +1,3 @@
+[console_scripts]
+c8-target-postgres=c8_target_postgres:main
+
