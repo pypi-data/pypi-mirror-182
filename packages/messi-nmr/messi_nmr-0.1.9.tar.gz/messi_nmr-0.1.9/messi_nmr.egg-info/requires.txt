@@ -1,0 +1,7 @@
+tk
+pandas
+numpy
+scipy
+openpyxl
+pathlib
+scikit-learn
