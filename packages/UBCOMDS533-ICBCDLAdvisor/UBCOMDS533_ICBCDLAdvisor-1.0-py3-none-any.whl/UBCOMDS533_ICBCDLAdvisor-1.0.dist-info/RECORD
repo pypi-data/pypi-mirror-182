@@ -1,0 +1,12 @@
+DLAdvisor/Main.py,sha256=6YE93IDDmFzVgT7TbSpw8EIOjZxTK28I6z968GBJnBM,1152
+DLAdvisor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DLAdvisor/Analyzer/Advisor.py,sha256=XycHPcN0gzZLfl-vq7PQpH3yRgMevDVoI1DWdowvaHM,4337
+DLAdvisor/Analyzer/Resource.py,sha256=6P1pHwWDvnsDsvpOc4dEc6nKMv-3fpy1mkUogZSG73Q,1598
+DLAdvisor/Analyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DLAdvisor/ProfileBuilder/Collector.py,sha256=SLd3G51DPvJinQUtVRJIe9Rfr2iQVto8Gmg1GudGGeE,4372
+DLAdvisor/ProfileBuilder/UserProfile.py,sha256=Uh8w_RyalylHUwDqmjkc6zbm_YyGN5pSAbkqefr_t-8,1349
+DLAdvisor/ProfileBuilder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UBCOMDS533_ICBCDLAdvisor-1.0.dist-info/METADATA,sha256=3k0qpPb_kHfJMJHN9cbwIEf2Og15eitf9b_4Kbphuhk,265
+UBCOMDS533_ICBCDLAdvisor-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+UBCOMDS533_ICBCDLAdvisor-1.0.dist-info/top_level.txt,sha256=0faug1iQpKLh__0WuM-HtXu6fgV1KKRG42luBe29g-0,10
+UBCOMDS533_ICBCDLAdvisor-1.0.dist-info/RECORD,,
