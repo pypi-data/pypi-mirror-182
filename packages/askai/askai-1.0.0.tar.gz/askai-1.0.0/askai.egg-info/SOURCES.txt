@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+entrypoint_askai.py
+setup.cfg
+setup.py
+askai.egg-info/PKG-INFO
+askai.egg-info/SOURCES.txt
+askai.egg-info/dependency_links.txt
+askai.egg-info/entry_points.txt
+askai.egg-info/requires.txt
+askai.egg-info/top_level.txt

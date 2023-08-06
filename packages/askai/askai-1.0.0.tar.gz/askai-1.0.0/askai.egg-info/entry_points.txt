@@ -1,0 +1,2 @@
+[console_scripts]
+askai = entrypoint_askai:askai
