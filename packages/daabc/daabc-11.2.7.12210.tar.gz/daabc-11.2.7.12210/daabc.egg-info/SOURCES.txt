@@ -1,0 +1,9 @@
+setup.py
+/usr/local/include/daab_c_api.h
+/usr/local/include/daab_cxx_api.h
+/usr/local/lib/libdaabc.so.11.2.7
+/usr/local/lib/libdaabcxx.so.11.2.7
+daabc.egg-info/PKG-INFO
+daabc.egg-info/SOURCES.txt
+daabc.egg-info/dependency_links.txt
+daabc.egg-info/top_level.txt
