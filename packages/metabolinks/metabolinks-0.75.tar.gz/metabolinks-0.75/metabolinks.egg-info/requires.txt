@@ -1,0 +1,12 @@
+requests
+numpy
+pandas>=0.25
+xlrd
+xlsxwriter
+pandas-flavor
+matplotlib>=2.0
+scipy
+scikit-learn>=1.0
+
+[test]
+pytest
