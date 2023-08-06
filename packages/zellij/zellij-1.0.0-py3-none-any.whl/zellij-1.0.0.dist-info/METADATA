@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: zellij
+Version: 1.0.0
+Summary: A software framework for HyperParameters Optimization
+Home-page: https://github.com/ThomasFirmin/zellij
+Author: Thomas Firmin
+Author-email: thomas.firmin@univ-lille.fr
+Project-URL: Bug Tracker, https://github.com/ThomasFirmin/zellij/issues
+Keywords: fractal,continuous optimization,global optimization,black-box functions,decision space partitioning,exploration,exploitation,metaheuristics,tree search
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CeCILL-C Free Software License Agreement (CECILL-C)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: numpy (>=1.21.4)
+Requires-Dist: scipy (>=1.7.3)
+Requires-Dist: DEAP (>=1.3.1)
+Requires-Dist: botorch (>=0.6.3.1)
+Requires-Dist: gpytorch (>=1.6.0)
+Requires-Dist: pandas (>=1.3.4)
+Requires-Dist: enlighten (>=1.10.2)
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.0.0) ; extra == 'docs'
+Requires-Dist: docutils ; extra == 'docs'
+Requires-Dist: pylons-sphinx-themes (>=1.0.8) ; extra == 'docs'
+Requires-Dist: pylons-sphinx-latesturl ; extra == 'docs'
+Requires-Dist: repoze.sphinx.autointerface ; extra == 'docs'
+Requires-Dist: sphinxcontrib-autoprogram ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinx-tabs ; extra == 'docs'
+Requires-Dist: sphinx-panels ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: pillow (>=6.2.0) ; extra == 'docs'
+Provides-Extra: mpi
+Requires-Dist: mpi4py (>=3.1.2) ; extra == 'mpi'
+
+ <!-- @Author: Thomas Firmin <ThomasFirmin> -->
+ <!-- @Date:   2022-05-03T15:41:48+02:00 -->
+ <!-- @Email:  thomas.firmin@univ-lille.fr -->
+ <!-- @Project: Zellij -->
+ <!-- @Last modified by:   ThomasFirmin -->
+ <!-- @Last modified time: 2022-05-03T15:44:11+02:00 -->
+ <!-- @License: CeCILL-C (http://www.cecill.info/index.fr.html) -->
+ <!-- @Copyright: Copyright (C) 2022 Thomas Firmin -->
+
+
+![alt text](./sources/zellij_logo.png)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/ansicolortags.svg)](https://pypi.org/project/zellij/)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.org/project/zellij/)
+[![Documentation Status](https://readthedocs.org/projects/zellij/badge/?version=latest)](https://zellij.readthedocs.io/en/latest/?badge=latest)
+[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+![Maintainer](https://img.shields.io/badge/maintainer-T.Firmin-blue)
+
+
+**Zellij** is an open source Python framework for *HyperParameter Optimization* (HPO) which was orginally dedicated to *Fractal Decomposition based algorithms* [[1]](#1) [[2]](#2).
+It includes tools to define mixed search space, manage objective functions, and a few algorithms.
+To implements metaheuristics and other optimization methods, **Zellij** uses [DEAP](https://deap.readthedocs.io/)[[3]](#3) for the *Evolutionary Algorithms* part
+and [BoTorch](https://botorch.org/) [[4]](#4) for *Bayesian Optimization*.
+**Zellij** is defined as an easy to use and modular framework, based on Python object oriented paradigm.
+
+See [documentation](https://zellij.readthedocs.io/en/latest/).
+
+## Install Zellij
+
+#### Original version
+```
+$ pip install zellij
+```
+
+#### Distributed Zellij
+
+This version requires a MPI library, such as [MPICH](https://www.mpich.org/) or [Open MPI](https://www.open-mpi.org/).
+It is based on [mpi4py](https://mpi4py.readthedocs.io/en/stable/intro.html#what-is-mpi)
+
+```
+$ pip install zellij[mpi]
+```
+
+User will then be able to use the `MPI` option of the `Loss` decorator.
+```python
+@Loss(MPI=True)
+```
+Then the python script must be executed using `mpiexec`:
+```python
+$ mpiexec -machinefile <path/to/hostfile> -n <number of processes> python3 <path/to/python/script>
+```
+
+## Dependencies
+
+#### Original version
+
+* **Python** >=3.6
+* [numpy](https://numpy.org/)=>1.21.4
+* [DEAP](https://deap.readthedocs.io/en/master/)>=1.3.1
+* [botorch](https://botorch.org/)>=0.6.3.1
+* [gpytorch](https://gpytorch.ai/)>=1.6.0
+* [pandas](https://pandas.pydata.org/)>=1.3.4
+* [enlighten](https://python-enlighten.readthedocs.io/en/stable/)>=1.10.2
+
+#### MPI version
+* **Python** >=3.6
+* [numpy](https://numpy.org/)=>1.21.4
+* [DEAP](https://deap.readthedocs.io/en/master/)>=1.3.1
+* [botorch](https://botorch.org/)>=0.6.3.1
+* [gpytorch](https://gpytorch.ai/)>=1.6.0
+* [pandas](https://pandas.pydata.org/)>=1.3.4
+* [enlighten](https://python-enlighten.readthedocs.io/en/stable/)>=1.10.2
+* [mpi4py](https://mpi4py.readthedocs.io/en/stable/)>=3.1.2
+
+## Contributors
+### Design
+* Thomas Firmin: thomas.firmin@univ-lille.fr
+* El-Ghazali Talbi: el-ghazali.talbi@univ-lille.fr
+
+## References
+<a id="1">[1]</a>
+Nakib, A., Ouchraa, S., Shvai, N., Souquet, L. & Talbi, E.-G. Deterministic metaheuristic based on fractal decomposition for large-scale optimization. Applied Soft Computing 61, 468–485 (2017).
+
+<a id="2">[2]</a>
+Demirhan, M., Özdamar, L., Helvacıoğlu, L. & Birbil, Ş. I. FRACTOP: A Geometric Partitioning Metaheuristic for Global Optimization. Journal of Global Optimization 14, 415–436 (1999).
+
+<a id="3">[3]</a>
+Félix-Antoine Fortin, François-Michel De Rainville, Marc-André Gardner, Marc Parizeau and Christian Gagné, "DEAP: Evolutionary Algorithms Made Easy", Journal of Machine Learning Research, vol. 13, pp. 2171-2175, jul 2012.
+
+<a id="4">[4]</a>
+M. Balandat, B. Karrer, D. R. Jiang, S. Daulton, B. Letham, A. G. Wilson, and E. Bakshy. BoTorch: A Framework for Efficient Monte-Carlo Bayesian Optimization. Advances in Neural Information Processing Systems 33, 2020.
