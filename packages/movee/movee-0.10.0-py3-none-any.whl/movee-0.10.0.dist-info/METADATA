@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: movee
+Version: 0.10.0
+Summary: 🎦 movee: Script asciinema movies 🎦
+License: MIT
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: impall (>=1.1.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: safer (>=4.4.1,<5.0.0)
+Requires-Dist: tdir (>=1.4.1,<2.0.0)
+Requires-Dist: termtosvg (>=1.1.0,<2.0.0)
+Description-Content-Type: text/x-rst
+
+🎦 movee: Script asciinema movies 🎦
+--------------------------------------------
+
+Love asciinema movies? Have performance anxiety?
+
+movee lets you script your asciinema movies, for Python, bash
+or any other command interpreter.
+
