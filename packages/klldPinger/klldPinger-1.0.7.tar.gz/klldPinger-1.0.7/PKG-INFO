@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: klldPinger
+Version: 1.0.7
+Summary: Async Tool For Uploading URL's To klldPinger
+Home-page: https://pinger.klld.tk/
+Author: klld
+License: UNKNOWN
+Description: # klldPinger
+        Use This To Upload Files To klldPinger
+        
+        [![Downloads](https://pepy.tech/badge/klldPinger)](https://pepy.tech/project/klldPinger)
+        [![Downloads](https://pepy.tech/badge/klldPinger/week)](https://pepy.tech/project/klldPinger)
+        [![Downloads](https://pepy.tech/badge/klldPinger/month)](https://pepy.tech/project/klldPinger)
+        [![Requires: Python 3.x](https://img.shields.io/pypi/pyversions/klldPinger.svg)](https://pypi.org/project/klldPinger/)
+        [![Version: 1.0.4](https://img.shields.io/pypi/v/klldPinger.svg)](https://pypi.org/project/klldPinger/)
+        
+        ### Setup:
+        ``pip3 install klldPinger``
+        
+        [Examples](https://github.com/klldme/klldPinger/tree/main/Examples "github.com/klldme/klldPinger/tree/main/Examples")
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
