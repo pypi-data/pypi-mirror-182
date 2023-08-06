@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: uc_sgsim
+Version: 1.1.1
+Summary: Random Field Generation
+Home-page: https://github.com/Zncl2222/Stochastic_UC_SGSIM
+Author: Zncl2222
+Author-email: 3002shinning@gmail.com
+License: MIT
+Keywords: RandomField,Sequential Gaussian Simulation,geostatistic
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.md
