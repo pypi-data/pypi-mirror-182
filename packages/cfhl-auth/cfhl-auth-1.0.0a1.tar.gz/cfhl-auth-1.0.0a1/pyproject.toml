@@ -1,0 +1,36 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+]
+build-backend="setuptools.build_meta"
+
+[project]
+name = "cfhl-auth"
+version = "1.0.0-alpha.1"
+authors = [
+    {name="Mario Cerón", email="mario.ceron@cqinversiones.co"}
+]
+description = "Cadefihuila Authorization System"
+readme = "README.md"
+license = {file="LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3.9",
+    "Development Status :: 3 - Alpha",
+    "Framework :: Django",
+    "Framework :: Django :: 4.1",
+    "Environment :: Web Environment",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP"
+]
+dependencies = [
+    "Django==4.1",
+    "djangorestframework",
+    "cfhl-oasis4"
+]
+keywords = [
+    "django",
+    "cadefihuila"
+]
