@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyextoverlay"
+version = "1.1.4"
+description = "simple overlay library"
+authors = ["Xenely"]
+license = "Reflect Solutions"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
