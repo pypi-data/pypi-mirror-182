@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+str_authFr/__init__.py
+str_authFr/authenticate.py
+str_authFr/exceptions.py
+str_authFr/hasher.py
+str_authFr/utils.py
+str_authFr.egg-info/PKG-INFO
+str_authFr.egg-info/SOURCES.txt
+str_authFr.egg-info/dependency_links.txt
+str_authFr.egg-info/requires.txt
+str_authFr.egg-info/top_level.txt
