@@ -1,0 +1,53 @@
+# Query: example_pypi_package
+# ContextLines: 1
+
+18 results - 2 files
+
+README.md:
+    2  
+    3: [![PyPI package](https://img.shields.io/badge/pip%20install-example--pypi--package-brightgreen)](https://pypi.org/project/example-pypi-package/) [![version number](https://img.shields.io/pypi/v/example-pypi-package?color=green&label=version)](https://github.com/tomchen/example_pypi_package/releases) [![Actions Status](https://github.com/tomchen/example_pypi_package/workflows/Test/badge.svg)](https://github.com/tomchen/example_pypi_package/actions) [![License](https://img.shields.io/github/license/tomchen/example_pypi_package)](https://github.com/tomchen/example_pypi_package/blob/main/LICENSE)
+    4  
+
+   26  
+   27: [![Use the template](https://img.shields.io/static/v1?label=&message=Click%20here%20to%20use%20this%20package%20as%20a%20template%20to%20start%20a%20new%20repo%20on%20GitHub&color=brightgreen&style=for-the-badge)](https://github.com/tomchen/example_pypi_package/generate)
+   28  
+
+   30  
+   31: (If you do not use GitHub, you can [download the archive of the example package](https://github.com/tomchen/example_pypi_package/archive/main.zip))
+   32  
+
+   34  
+   35: Many use a same package and module name, you could definitely do that. But this example package and its module's names are different: `example_pypi_package` and `stdontoday`.
+   36  
+   37: Open `example_pypi_package` folder with Visual Studio Code, <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> (Windows / Linux) or <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> (MacOS) to find all occurrences of both names and replace them with your package and module's names. Also remember to change the name of the folder **src/stdontoday**.
+   38  
+
+  125  
+  126: If you add more files to the root directory (**example_pypi_package/**), you'll need to add your file to `check-manifest --ignore` list in **tox.ini**.
+  127  
+
+  143  
+  144: From `example_pypi_package` directory, run the following command, in order to generate production version for source distribution (sdist) in `dist` folder:
+  145  
+
+  154  ```bash
+  155: pip install dist/example_pypi_package-0.1.0.tar.gz
+  156  ```
+
+  160  ```bash
+  161: pip uninstall example_pypi_package
+  162  ```
+
+setup.py:
+   6  setuptools.setup(
+   7:     name='example_pypi_package',
+   8      author='Tom Chen',
+
+  13      long_description_content_type='text/markdown',
+  14:     url='https://github.com/tomchen/example_pypi_package',
+  15      project_urls={
+  16:         'Documentation': 'https://github.com/tomchen/example_pypi_package',
+  17          'Bug Reports':
+  18:         'https://github.com/tomchen/example_pypi_package/issues',
+  19:         'Source Code': 'https://github.com/tomchen/example_pypi_package',
+  20          # 'Funding': '',
