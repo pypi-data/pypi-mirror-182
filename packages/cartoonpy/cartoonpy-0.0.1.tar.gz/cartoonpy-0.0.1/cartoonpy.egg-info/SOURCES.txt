@@ -1,0 +1,7 @@
+README.md
+license.txt
+setup.py
+cartoonpy.egg-info/PKG-INFO
+cartoonpy.egg-info/SOURCES.txt
+cartoonpy.egg-info/dependency_links.txt
+cartoonpy.egg-info/top_level.txt

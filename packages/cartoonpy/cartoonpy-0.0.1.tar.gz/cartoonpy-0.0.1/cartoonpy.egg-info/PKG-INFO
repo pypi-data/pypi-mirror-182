@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cartoonpy
+Version: 0.0.1
+Summary: A library to convert images and videos into cartoons.
+Author: Levin Hinder
+License-File: license.txt
