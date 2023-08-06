@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: AliProductExtractor
+Version: 0.9
+Summary: It will get the product data from ali express
+Home-page: https://github.com/BadarSaghir/AliProductExtractor
+Download-URL: https://github.com/BadarSaghir/AliProductExtractor/releases/download/0.1/AliProductExtractor.zip
+Author: Sardar Badar Saghir
+Author-email: dataentrybadar@gmail.com
+License: MIT
+Keywords: Ali express,Ali  express product,Ali express product scraper,scraper Ali express,scraper,extractor
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+    
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+
+## Features
+
+- Extract products from Ali Express
+- Easy to use
+
+
+
+## Tech
+
+Dillinger uses a number of open source projects to work properly:
+
+- [python] - Programing Language!
+- [vscode] -  text editor
+- [selenium] - Markdown parser done right. Fast and easy to extend.
+
+
+
+## Installation
+
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+pip install AliProductExtractor
+```
+
+
+
+## Usage example
+
+
+```python
+
+from AliProductExtractor.scrape_ali_express import aliExtractor
+import os
+
+if __name__ == "__main__":
+    os.environ['WDM_LOG_LEVEL'] = '0'
+    os.environ['WDM_LOCAL'] = '1'
+    url = 'https://www.aliexpress.us/item/3256804136971215.html'
+
+    data = aliExtractor(url)
+
+    print(data)
+
+```
+    
+    
