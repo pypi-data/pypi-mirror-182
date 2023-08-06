@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+logol/__init__.py
+logol/logol.py
+logol.egg-info/PKG-INFO
+logol.egg-info/SOURCES.txt
+logol.egg-info/dependency_links.txt
+logol.egg-info/top_level.txt
