@@ -1,0 +1,8 @@
+README.md
+setup.py
+consoleplus/__init__.py
+consoleplus/out.py
+consoleplus.egg-info/PKG-INFO
+consoleplus.egg-info/SOURCES.txt
+consoleplus.egg-info/dependency_links.txt
+consoleplus.egg-info/top_level.txt
