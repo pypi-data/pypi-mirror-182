@@ -1,0 +1,11 @@
+_dlib_pybind11.cpython-39-darwin.so,sha256=Yj4aBvGw0-B7o4ugE5jCgX0J9SHsNjrEHFrLcqBFZa4,11836864
+dlib_bin-19.24.0.dist-info/RECORD,,
+dlib_bin-19.24.0.dist-info/WHEEL,sha256=UlNw_PQRbc8y2O60L5paNCXmEdKCjgP3umWDtB6RxVY,109
+dlib_bin-19.24.0.dist-info/top_level.txt,sha256=YlPTFGFSVvLz81p6HYDNqxTUr3We6NCIOoigvmBElAc,20
+dlib_bin-19.24.0.dist-info/LICENSE.txt,sha256=jYKRyvHO4m0jrPPrZ8n5otWPHGgbFqT76Mv7njwLWps,1337
+dlib_bin-19.24.0.dist-info/METADATA,sha256=ZpE36SKJ-nuqWWJatpgXRM84Py8fhB1QAL2pdnjs_hU,1419
+dlib/__init__.py,sha256=y55qzYkSndW8n7vxf08Ku8ewnVIQO-Fne9vaiV5Vi54,775
+dlib/.dylibs/libpng16.16.dylib,sha256=poyrTj6DH7fUIAQCHO9ul2jUD2ti-XxPylg-B4K-Ic8,209152
+dlib/.dylibs/libgif.7.2.0.dylib,sha256=dEkCxJGVffiThUcOP-qoRPJApAi_2_sjkmQISmERfA0,72608
+dlib/.dylibs/libwebp.7.dylib,sha256=-MdrXbIE6XU4S6cvYEfn3l6wIkhkaQvQXLDjFr5K9Ww,458832
+dlib/.dylibs/libjpeg.8.2.2.dylib,sha256=73yPw3HW5D9X0wgNn9E_eur8K78vhEMPf4XZhfzgSLk,673104
