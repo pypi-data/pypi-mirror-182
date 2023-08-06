@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+serapeum.egg-info/PKG-INFO
+serapeum.egg-info/SOURCES.txt
+serapeum.egg-info/dependency_links.txt
+serapeum.egg-info/not-zip-safe
+serapeum.egg-info/top_level.txt
