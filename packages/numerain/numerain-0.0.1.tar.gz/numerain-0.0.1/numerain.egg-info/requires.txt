@@ -1,0 +1,7 @@
+pandas
+numerapi
+numpy
+scipy
+halo
+
+[dev]
