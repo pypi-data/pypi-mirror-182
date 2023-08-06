@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "next-composer-vault"
+version = "0.1.0"
+description = ""
+authors = ["Victor Tsetsulin <victor.tsetsulin@nexttrucking.com>"]
+readme = "README.md"
+packages = [{include = "next_composer_vault"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hvac = "0.11.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
