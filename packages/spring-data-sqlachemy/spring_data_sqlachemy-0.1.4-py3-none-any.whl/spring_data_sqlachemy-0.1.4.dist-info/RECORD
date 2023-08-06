@@ -1,0 +1,9 @@
+springdata_sqlalchemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+springdata_sqlalchemy/asyncio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+springdata_sqlalchemy/asyncio/repository.py,sha256=-B2J3iSzz1FI-cI06NSp75SgDova6oRLvsmGwxFMjtk,10794
+springdata_sqlalchemy/repository.py,sha256=ISzi8Hcy2JCKl2HnZTLH9M2T_42bD2GG__rhkGxGz0c,10299
+springdata_sqlalchemy/utils.py,sha256=o7Y1NeMynZ0qxMO58h5_2EiO37okV0GwH2e2vn48uxs,1161
+spring_data_sqlachemy-0.1.4.dist-info/LICENSE,sha256=8qm5b6--J2FS-Fz9VmOxvK_lnRmVeyHojHgojQJYOYE,1092
+spring_data_sqlachemy-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+spring_data_sqlachemy-0.1.4.dist-info/METADATA,sha256=5BQWmiN_Wh_cF8RRKY7s3B3E2CilRuUBpAnmdYYVVjM,913
+spring_data_sqlachemy-0.1.4.dist-info/RECORD,,
