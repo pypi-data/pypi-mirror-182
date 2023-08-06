@@ -1,0 +1,9 @@
+numpy
+pandas
+plotly
+plotnine
+tldextract
+nltk
+ipywidgets
+ipython
+nbformat
