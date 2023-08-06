@@ -1,0 +1,9 @@
+cfu_count/__init__.py,sha256=qjKVZF9IkIgmFNXE8FX3HnPaYzEgX3nKceiI7pocTAA,240
+cfu_count/culture.py,sha256=5dm5KwFzD0AGtdyNEcW2lFnhbi-ceOL-4Sx-Z4LfMpA,1407
+cfu_count/main.py,sha256=u1xTm5ex6JIerNoGNQ3XTlPbkioeZQf296c15faRiHY,15855
+cfu_count/poisson.py,sha256=D9fmZFgXsJ5tfvgbNGDiIqbvEGKt3z7-fSjxXgvGn-o,4169
+cfu_count-0.0.0.dist-info/entry_points.txt,sha256=eb9TgoH8h43iPSNWCC0GjtkUrFez94eQ15Yu2HofVkQ,49
+cfu_count-0.0.0.dist-info/LICENSE.txt,sha256=FLzsYWNCFI31yqaHiRaEsAJrLwnfGewWjJRXu0xTyeg,32452
+cfu_count-0.0.0.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+cfu_count-0.0.0.dist-info/METADATA,sha256=jN97B13uvasdG7VVV7aMa3m0GbqPrSZt11Xy138xrGc,2287
+cfu_count-0.0.0.dist-info/RECORD,,

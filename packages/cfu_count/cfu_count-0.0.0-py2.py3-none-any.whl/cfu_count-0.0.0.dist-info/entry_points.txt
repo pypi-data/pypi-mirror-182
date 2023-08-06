@@ -1,0 +1,3 @@
+[console_scripts]
+cfu-count=cfu_count.main:main
+
