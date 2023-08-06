@@ -1,0 +1,6 @@
+README.md
+setup.py
+open_tools_pkg/open_tools_pkg.egg-info/PKG-INFO
+open_tools_pkg/open_tools_pkg.egg-info/SOURCES.txt
+open_tools_pkg/open_tools_pkg.egg-info/dependency_links.txt
+open_tools_pkg/open_tools_pkg.egg-info/top_level.txt
