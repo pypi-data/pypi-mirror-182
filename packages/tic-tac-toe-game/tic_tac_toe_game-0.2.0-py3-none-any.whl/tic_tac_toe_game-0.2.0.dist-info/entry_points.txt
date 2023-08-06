@@ -1,0 +1,4 @@
+[console_scripts]
+game=app.__main__:main
+tic-tac-toe-game=tic_tac_toe_game.__main__:main
+

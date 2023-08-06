@@ -1,0 +1,16 @@
+tic_tac_toe_game/AI/__init__.py,sha256=5dhSii_tSIiAtTDIZJ65gjVsYQdH0vwdD1Cy5Dyabus,24
+tic_tac_toe_game/AI/mcts.py,sha256=4ARnQg7mc92EkIDGpNF47b3MENDxYNZxSur5G0BUAns,5640
+tic_tac_toe_game/AI/naive.py,sha256=bgsPPNzqtT7-8xky-CxL8DdcI86FIp5rNWYlnu2VbV4,630
+tic_tac_toe_game/AI/negamax.py,sha256=lmDwMTHAG4XIwRgIxqH_ab9IXrdHsuKm0YrjNs3TeJI,3996
+tic_tac_toe_game/__init__.py,sha256=cLdWw3kmPnf-_LYZDflKSnYNnU6DCzSJOrVzE5_AS5g,21
+tic_tac_toe_game/__main__.py,sha256=eHwbgkeLBEJARv0vRyOiqvAHAL0jCsuGi7u_RJuxnFQ,1839
+tic_tac_toe_game/engine.py,sha256=dnTtzg2OUdCyfrSczY1iUZfL_yWNOjF3qHNNQ8StgLg,20401
+tic_tac_toe_game/errors.py,sha256=pye7XcVRmbt_aXDXJK4fdwrt-gRNgDW9glDdCDN6-1c,476
+tic_tac_toe_game/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tic_tac_toe_game/state.py,sha256=w9i2oMItDgPwuUCjamV9tzKJkQmh-EYvurj_e2d8tnw,643
+tic_tac_toe_game/typing.py,sha256=_OJUTU2hHcNJfNykC17mLQWCUuOC6muHH6Q4Qy5trLs,134
+tic_tac_toe_game-0.2.0.dist-info/entry_points.txt,sha256=cP8FmEQHi_FSzKvBSFSVcRbU-2PuPh205PPEG2MxPNU,90
+tic_tac_toe_game-0.2.0.dist-info/METADATA,sha256=q-4czl3eZlxuG2F0cQvHYjIqnKz3gTnHdgokZVVNasc,3996
+tic_tac_toe_game-0.2.0.dist-info/LICENSE,sha256=5YWmrO1BN0-GlFNaa4K8AmLbRVry-NFx3xTpoS99uZw,1087
+tic_tac_toe_game-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tic_tac_toe_game-0.2.0.dist-info/RECORD,,
