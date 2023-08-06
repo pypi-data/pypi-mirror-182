@@ -1,0 +1,8 @@
+setup.py
+annaPack1/__init__.py
+annaPack1/funcs.py
+annaPack1.egg-info/PKG-INFO
+annaPack1.egg-info/SOURCES.txt
+annaPack1.egg-info/dependency_links.txt
+annaPack1.egg-info/requires.txt
+annaPack1.egg-info/top_level.txt
