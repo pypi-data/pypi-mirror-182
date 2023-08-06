@@ -1,0 +1,9 @@
+ngin/__init__.py,sha256=fKAGQtvPqoToDTHCuJPz179d7Y_P1FoU1O46N3-bVOs,271
+ngin/command_pb2.py,sha256=TsBGMTd0xtquuStAaTJtvqA1bFwNk9gMhTCSYCjeDZ0,9947
+ngin/ngin.py,sha256=vWAPs1tykhmlOur-dEh1Sy7lE_3yi_ug0N97sqhDxtI,11250
+ngin/plane.py,sha256=7WBmM9x4w66a9Ntoem8sLJVEJCGfS4P-hNu0UeL-JRU,6958
+ngin-0.5.dist-info/LICENSE,sha256=YeYO7K9ap5SSp6UulNNIUi1EE39u6BngkYAAW6n2i_w,1068
+ngin-0.5.dist-info/METADATA,sha256=6XWjbGmQ2vSSONZZdXoXy3juAaYHExnCEraxf3LN4q0,248
+ngin-0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ngin-0.5.dist-info/top_level.txt,sha256=5gr0Vy6SgJ_ZH9kMu4QnTHtRa2AUWhoN99QSNn3wV8c,5
+ngin-0.5.dist-info/RECORD,,
