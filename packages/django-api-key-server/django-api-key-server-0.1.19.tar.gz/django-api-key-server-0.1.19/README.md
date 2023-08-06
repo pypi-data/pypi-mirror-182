@@ -1,0 +1,42 @@
+# Secure API Signature Mechanism
+
+> Internal used for creating signed url for server installed api-key-server
+
+## Install
+
+```sh
+pip install api-key-client
+```
+
+### Example:
+
+1. `sign_request_1(url, api_key, api_secret)` recommand
+
+```python
+>>> from api_key_client.utils import sign_request_1
+>>> url = 'https://api.example.co/sample/something-important/'
+>>> sign_request_1(url, 'SOME-TEST', 'some-key-xxxxxx')
+'https://api.example.co/sample/something-important/?api_key=SOME-TEST&timestamp=20220209144716&sign=7f210048e1e972d968186f8a35a86f9a'
+```
+
+2. `sign_request_1(url, api_secret)` 
+
+    place api_key in url
+
+```python
+# sign.py
+>>> from api_key.utils import sign_request, sign_request_1
+>>> url = 'https://example.site.com/sample/secret-info/?api_key=xxx&xxxxx=true&id=163'
+>>> url = sign_request(url, 'your_secret')
+
+
+> Note:
+
+please check system date to the correct timezone,
+Otherwise the timeout checking could be invalid
+
+For docker container (alpine)
+```dockerfile
+RUN apk add --updat tzdata
+ENV TZ=Pacific/Auckland
+```
