@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: akms-logs
+Version: 0.1.0
+Summary: A wrapper logger package for akms logging
+Home-page: https://github.com/apinanyogaratnam/akms-logs-package
+Author: apinanyogaratnam
+Author-email: apinanapinan@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AKMS Logs Package
+
+[![Downloads](https://static.pepy.tech/personalized-badge/akms-logs-package?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/akms-logs-package)
+
+A template of README best practices to make your README simple to understand and easy to use.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [Contributing](#contributing)
+
+## Installation
+
+Install the package using pip:
+
+```sh
+pip install akms-logs
+```
+
+## Usage
+
+```python
+from akms_logs import log as akms_logger
+
+log()
+```
+
+## Support
+
+Please [open an issue](https://github.com/apinanyogaratnam/akms-logs-package/issues/new) for support.
+
+## Contributing
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/apinanyogaratnam/akms-logs-package/compare/).
