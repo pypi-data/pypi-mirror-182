@@ -1,0 +1,70 @@
+# large_file_splitter
+
+下の方に日本語の説明があります
+
+## Overview
+- The tool considers a file so large that it does not fit in memory as a single string and performs a split process of the string. The tool stores the result as separate files.
+- under construction
+
+## Usage
+```python
+
+import large_file_splitter
+
+# Split a large file [large_file_splitter].
+large_file_splitter.split(
+	"dummy_large_file.txt", # File to be split
+	split_str = "SPLIT_MARK\r\n", # Split string (For convenience of splitting, it is processed as binary internally, so setting this to a single character is not recommended because it may lead to erroneous splitting of multi-byte characters, etc.)
+	div_mode = "start", # mode for handling split strings (delete: split string is not included in output; start: split string is concatenated at the beginning of the next chunk; end: split string is concatenated at the end of the previous chunk)
+	output_filename_frame = "./output/div_%d.txt", # Template for output filename (an integer value is automatically inserted for %d)
+	cache_size = 10 * 1024 * 1024 # Specify the size of the chunk of data to work with in memory (in bytes; memory capacity must be at least several times this size.)
+)
+```
+
+## Example of usage (in the context of a for loop)
+```python
+import large_file_splitter
+
+# Split a large file (for loop version) [large_file_splitter]
+for one_str in large_file_splitter.for_split(
+	"dummy_large_file.txt",	# Target file for splitting
+	split_str = "SPLIT_MARK\r\n",	# Split string (for internal processing, it is treated as binary, so it is not recommended to make this a single character, etc., as it may lead to incorrect splitting of multi-byte characters)
+	div_mode = "start",	# Mode of handling the split string (delete: split string is not included in the output; start: split string is joined to the beginning of the next block; end: split string is joined to the end of the previous block)
+	cache_size = 1024	# Specifies the size of the data block to work with in memory (in bytes; at least this multiple of memory capacity is required)
+):
+	# Some processing using the string `one_str`
+	print(one_str)
+```
+
+## 概要
+- メモリに乗らないほど巨大なファイルを一つの文字列とみなし、文字列のsplit処理を実施。その結果を別々のファイルとして格納するツール。
+- 説明は執筆中です
+
+## 使用例
+```python
+import large_file_splitter
+
+# 巨大ファイルの分割 [large_file_splitter]
+large_file_splitter.split(
+	"dummy_large_file.txt",	# 分割対象ファイル
+	split_str = "SPLIT_MARK\r\n",	# 分割文字列 (分割の都合上内部ではbinaryとして処理するので、ここを一文字等にするのは、マルチバイト文字等の誤分割に繋がる可能性があるため非推奨)
+	div_mode = "start",	# 分割文字列の扱いのモード (delete: 分割文字列は出力に含まない; start: 分割文字列は次の塊の先頭に結合される; end: 分割文字列は前の塊の末尾に結合される)
+	output_filename_frame = "./output/div_%d.txt",	# 出力先ファイル名のテンプレート (%dのところは自動で整数値が挿入される)
+	cache_size = 10 * 1024 * 1024	# メモリで作業するデータ塊の大きさの指定 (バイト単位; メモリ容量は少なくともこの数倍は必要)
+)
+```
+
+## 使用例 (for文脈での利用)
+```python
+import large_file_splitter
+
+# 巨大ファイルの分割 (for文脈バージョン) [large_file_splitter]
+for one_str in large_file_splitter.for_split(
+	"dummy_large_file.txt",	# 分割対象ファイル
+	split_str = "SPLIT_MARK\r\n",	# 分割文字列 (分割の都合上内部ではbinaryとして処理するので、ここを一文字等にするのは、マルチバイト文字等の誤分割に繋がる可能性があるため非推奨)
+	div_mode = "start",	# 分割文字列の扱いのモード (delete: 分割文字列は出力に含まない; start: 分割文字列は次の塊の先頭に結合される; end: 分割文字列は前の塊の末尾に結合される)
+	cache_size = 1024	# メモリで作業するデータ塊の大きさの指定 (バイト単位; メモリ容量は少なくともこの数倍は必要)
+):
+	# 文字列 `one_str` を用いた何らかの処理
+	print(one_str)
+```
