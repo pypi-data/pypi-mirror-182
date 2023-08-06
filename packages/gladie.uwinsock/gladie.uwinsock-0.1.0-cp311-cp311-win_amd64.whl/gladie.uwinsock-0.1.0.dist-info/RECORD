@@ -1,0 +1,7 @@
+_winsock.cp311-win_amd64.pyd,sha256=JpX4tJDqTj2JmvBKFiVo0-38qbC0a2z_nD08u2AGtLs,67072
+uwinsock/__init__.py,sha256=dSohNjS2RBaIYX7oi9jOo9ATatyxwWiVzsKdmkPV-kE,200
+uwinsock/fakesocket.py,sha256=rkv6iKEylREqyEXYeo76WgsUcw6BMLZXkcjPghZseuU,17826
+gladie.uwinsock-0.1.0.dist-info/METADATA,sha256=r1vGcpMGC2la5Eul-8hbwH7PIa3Kt2uclarJkNcO_mk,213
+gladie.uwinsock-0.1.0.dist-info/WHEEL,sha256=wklNeoByNLhdCl-oEQTdaHIeDl4q9zaQVqAlPxUEgLU,102
+gladie.uwinsock-0.1.0.dist-info/top_level.txt,sha256=c4MD5tU6x69zU6SK2gdvoYlX1qVpDBu-3rzl8CCdZVI,18
+gladie.uwinsock-0.1.0.dist-info/RECORD,,
