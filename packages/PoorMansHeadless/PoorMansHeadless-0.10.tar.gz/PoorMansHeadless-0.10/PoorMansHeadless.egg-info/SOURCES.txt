@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PoorMansHeadless/LICENSE
+PoorMansHeadless/README.MD
+PoorMansHeadless/__init__.py
+PoorMansHeadless/requirements.txt
+PoorMansHeadless/thirdparty.json
+PoorMansHeadless.egg-info/PKG-INFO
+PoorMansHeadless.egg-info/SOURCES.txt
+PoorMansHeadless.egg-info/dependency_links.txt
+PoorMansHeadless.egg-info/requires.txt
+PoorMansHeadless.egg-info/top_level.txt

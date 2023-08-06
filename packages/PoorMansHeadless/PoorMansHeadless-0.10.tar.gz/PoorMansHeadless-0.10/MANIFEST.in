@@ -1,0 +1,4 @@
+include PoorMansHeadless/requirements.txt
+include PoorMansHeadless/thirdparty.json
+include PoorMansHeadless/README.MD
+include PoorMansHeadless/LICENSE
