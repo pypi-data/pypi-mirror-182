@@ -1,0 +1,19 @@
+{%- if (language == 'en') or (language == 'en_us') or (language == 'en_US') or (language == 'EN_US') %}
+{%- set doc = 'Documentation' %}
+{%- set currentLan = 'English' %}
+{%- else %}
+{%- set doc = '文档' %}
+{%- set currentLan = '简体中文' %}
+{%- endif %}
+{% if theme_display_header|tobool %}
+<div id="header"></div>
+{% endif %}
+<script>
+  window.sphinxEnosThemeHeader = {
+    language: '{{ language }}',
+    docUrl: '{{ doc_url }}',
+    READTHEDOCS: '{{ READTHEDOCS }}',
+    slug: '{{ slug }}',
+    currentVersion: '{{ current_version }}',
+  }
+</script>
