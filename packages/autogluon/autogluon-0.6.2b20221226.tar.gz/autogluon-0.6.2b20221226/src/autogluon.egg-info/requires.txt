@@ -1,0 +1,7 @@
+autogluon.core[all]==0.6.2b20221226
+autogluon.features==0.6.2b20221226
+autogluon.tabular[all]==0.6.2b20221226
+autogluon.multimodal==0.6.2b20221226
+autogluon.text==0.6.2b20221226
+autogluon.vision==0.6.2b20221226
+autogluon.timeseries[all]==0.6.2b20221226
