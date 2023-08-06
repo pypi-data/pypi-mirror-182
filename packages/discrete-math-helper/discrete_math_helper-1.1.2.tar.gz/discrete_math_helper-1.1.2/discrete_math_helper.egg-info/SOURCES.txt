@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+discrete_math_helper/__init__.py
+discrete_math_helper/calc.py
+discrete_math_helper.egg-info/PKG-INFO
+discrete_math_helper.egg-info/SOURCES.txt
+discrete_math_helper.egg-info/dependency_links.txt
+discrete_math_helper.egg-info/top_level.txt
