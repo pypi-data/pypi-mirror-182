@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: symbolite-array
+Version: 0.1
+Summary: A minimalistic symbolic package.
+Author-email: "Hernán E. Grecco" <hernan.grecco@gmail.com>, Mauro Silberberg <maurosilber@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Hernán E. Grecco
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/hgrecco/symbolite-array
+Project-URL: Bug Tracker, https://github.com/hgrecco/symbolite-array/issues
+Keywords: symbolic
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: symbolite (>=0.2)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# symbolite-array: an array extension from symbolite
+
+______________________________________________________________________
+
+[Symbolite](https://github.com/hgrecco/symbolite) allows you to
+create symbolic mathematical expressions. Just create a symbol
+(or more) and operate with them as you will normally do in Python.
+
+This extension allows you to use arrays
+
+```python
+>>> from symbolite.abstract import array
+>>> arr = array.Array("arr")
+>>> expr1 = arr + 1
+>>> print(expr1)
+(arr + 1)
+```
+
+and you can get one item.
+
+```python
+>>> from symbolite.abstract import array
+>>> arr = array.Array("arr")
+>>> expr2 = arr[1] + 1
+>>> print(expr2)
+(arr[1] + 1)
+```
+
+You can easily replace the symbols by the desired value.
+
+```python
+>>> expr3 = expr2.replace_by_name(arr=(1, 2, 3))
+>>> print(expr3)
+((1, 2, 3)[1] + 1)
+```
+
+and evaluate:
+
+```python
+>>> print(expr3.eval())
+3
+```
+
+Included in this library are implementations for `sum` and `prod`,
+in the default implementation (based on python's math), NumPy, and
+SciPy. In SciPy, `Array` is also mapped to SciPy's `IndexedBase`.
+
+## Vectorizing expresion
+
+If you have an expression with a number of scalars, you can convert it
+into an expresion using a vector with scalar symbols occuping specific
+places within the array.
+
+```python
+>>> from symbolite.abstract import scalar
+>>> x = scalar.Scalar("x")
+>>> y = scalar.Scalar("y")
+>>> print(array.vectorize(x + scalar.cos(y), ("x", "y")))
+(arr[0] + libscalar.cos(arr[1]))
+```
+
+The first argument is the expression and the second list (in order)
+the scalars to be replaced by the array. You can also use a dictionary
+mapping scalars names to indices
+
+```python
+>>> print(array.vectorize(x + scalar.cos(y), dict(x=3, y=5)))
+(arr[3] + libscalar.cos(arr[5]))
+```
+
+If you want to replace all scalars automatically, auto
+
+```python
+>>> from symbolite.abstract import scalar
+>>> x = scalar.Scalar("x")
+>>> y = scalar.Scalar("y")
+>>> names, vexpr = array.auto_vectorize(x + scalar.cos(y))
+>>> print(names) # names are given in the order of the array.
+('x', 'y')
+>>> print(vexpr)
+(arr[0] + libscalar.cos(arr[1]))
+```
+
+### Installing:
+
+```bash
+pip install -U symbolite-array
+```
