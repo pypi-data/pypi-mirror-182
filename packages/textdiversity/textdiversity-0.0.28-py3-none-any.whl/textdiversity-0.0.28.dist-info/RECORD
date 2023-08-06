@@ -1,0 +1,17 @@
+textdiversity/__init__.py,sha256=GtoHXzKp_B6Z9as0z6J_EntgHPDMHi4DEKzLwxdDyzU,283
+textdiversity/metric.py,sha256=-PAflfR_sGmsf5C1G4O7hcfgI3JzKVHZBIcKoYYG8Gg,8029
+textdiversity/utils.py,sha256=iPvdFlvIHxryoc51Rl9gDFfnXNDJ1YLPoXXctgZIfn8,8761
+textdiversity/search/__init__.py,sha256=jI2DWm_rSMbBG1uHTv2M-uZy7wQf0rMwSW8mp4VzrK0,32
+textdiversity/search/textfetch.py,sha256=013twm__02jBuHV7pgeP32Nh9akV8LZdfqpPsSU30Bk,10919
+textdiversity/similarities/__init__.py,sha256=9kLl-BhyZFRLSXu4TOmNo3Ju4dn4A8EJZ1nAK8oaQcs,48
+textdiversity/similarities/amrsim.py,sha256=puXKKG5JM-aW9bwfcsBHZXjVludh14n8Vi9mUv5sqJ4,52042
+textdiversity/similarities/phoneme_similarities.csv,sha256=gcAjT_qTkhzq_zTiWctkIdGu6CLXO4vwYza1LAiUriM,36516
+textdiversity/text_diversities/__init__.py,sha256=WcYekXHJS_DezAczty9RwmHmU4IyIBjpUFoJOALK6yI,110
+textdiversity/text_diversities/morphological.py,sha256=FRuTM3Z5exFJ3royPEbS2j3GKJ8d7Anzh0mhfH79ViY,4320
+textdiversity/text_diversities/phonological.py,sha256=x6ArmPCLs1FwpKfWYt1vJOqiv_OS5CFpWlMXnESPHfU,8098
+textdiversity/text_diversities/semantic.py,sha256=tPccwE8DcPqVWdFWel2tTq0DojhQ72M34WtClm4qmys,20800
+textdiversity/text_diversities/syntactic.py,sha256=bqD5HsIn2qgLVuoJHP_0pYZC6xz_6iquMtpFUwdTuPU,17041
+textdiversity-0.0.28.dist-info/METADATA,sha256=nkcpKDb3gyFMdQFcQDPAZtFyeWTbEQYJyy4QM9VrVP0,2216
+textdiversity-0.0.28.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+textdiversity-0.0.28.dist-info/top_level.txt,sha256=scdPHysUkHnlHEyzmm7XF_2mk2Sr9oR6Wc0BsxaZ2Gk,14
+textdiversity-0.0.28.dist-info/RECORD,,
