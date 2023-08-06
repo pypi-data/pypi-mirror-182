@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/popcred/__init__.py
+src/popcred/__main__.py
+src/popcred/cli.py
+src/popcred/daemon.py
+src/popcred/popcreding.py
+src/popcred.egg-info/PKG-INFO
+src/popcred.egg-info/SOURCES.txt
+src/popcred.egg-info/dependency_links.txt
+src/popcred.egg-info/entry_points.txt
+src/popcred.egg-info/not-zip-safe
+src/popcred.egg-info/requires.txt
+src/popcred.egg-info/top_level.txt
+src/popcred/core/__init__.py

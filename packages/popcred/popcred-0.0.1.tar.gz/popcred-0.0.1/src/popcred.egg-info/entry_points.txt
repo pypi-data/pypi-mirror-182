@@ -1,0 +1,3 @@
+[console_scripts]
+popcred = popcred.cli:main
+popcredd = popcred.daemon:main
