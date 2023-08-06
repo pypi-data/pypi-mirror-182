@@ -1,0 +1,73 @@
+=============
+SERIALIZATION
+=============
+
+Introduction
+============
+
+Serialization and deserialization of ``Ito`` hiearchies is easy to accomplish in Pawpaw, which offers native support for both:
+
+ * Pickling
+ * JSON
+
+In either case, support for any dynamically ascribed .value methods are not serializable\ [#]_\ .
+
+Pickling
+========
+
+
+>>> import pickle
+>>> s = 'See Jack run.'
+>>> i = Ito(s, desc='my desc')
+>>> i.children.add(*i.str_split())
+>>> pickle_data = pickle.dumps(i)
+>>> j = pickle.loads(pickle_data)
+>>> len(j.children)
+3
+
+JSON
+========
+
+Pawpaw offers two JSON serialization ecnoder options:
+
+1. Ito.JsonEncoder : _Does_ serialize .string
+2. Ito.JsonEncoderStringless : Does _not_ serialize .string
+
+Ito.JsonEncoder
+---------------
+
+For serialization that includes string data, use the normal the python json ``.dump(s)``
+and ``.load(s)`` methods, passing the ``Ito.JsonEncoder`` class and ``Ito.json_decoder``
+method to each respetively:
+
+>>> import json
+>>> json_data = json.dumps(i, cls=Ito.JsonEncoder)
+>>> s in json_data  # verify s is present in JSON
+True
+>>> j = json.loads(json_data, object_hook=Ito.json_decoder)
+>>> len(j.children)
+3
+
+The resulting output conserves memory by saving the string data for a hierarchy once,
+since a given ``Ito`` and its children all share the same value.
+
+Ito.JsonEncoderStringless
+-------------------------
+
+For stringless serilization, use the normal the python json ``.dump(s)``
+methods and passing the ``Ito.JsonEncoderStringless`` class to them.  For
+deserialization, use the static ``Ito.json_decode_stringless`` method, which
+has its inputs both the string and json data being de-serialized:
+
+>>> import json
+>>> json_data = json.dumps(i, cls=Ito.JsonEncoderStringless)
+>>> s in json_data  # verify s not present in JSON
+False
+>>> j = Ito.json_decode_stringless(s, json_data)
+>>> j
+Ito('See Jack run.', 0, 13, 'my desc')
+
+----
+
+.. [#] The python pickle library supports neither lambdas nor methods not-defined at the top level of a module.  See `Python pickle docs
+<https://docs.python.org/3/library/pickle.html/>` for more info.
