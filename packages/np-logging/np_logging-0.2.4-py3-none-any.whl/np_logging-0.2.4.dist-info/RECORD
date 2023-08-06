@@ -1,0 +1,7 @@
+configs/logging.json,sha256=orDnMP0WRSsMtZMd-iRS-nIk6peefCbxZ_Ggj0eTpCI,1056
+configs/logging.yaml,sha256=wka7KMa1a4kbiDqIR9gCoSIIUwzhnWqPx0reFWmGG_Y,763
+configs/project.yaml,sha256=T2RmNyw3iD4bPZ2MsX0Bv4CT-BZGIaYbYAz7VW-iKgQ,838
+np_logging.py,sha256=9GsUW8-mdXDTmsYCwej-4V3hLy1JAnYDlsbMWHYY3WE,4694
+np_logging-0.2.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+np_logging-0.2.4.dist-info/METADATA,sha256=ZX9K2CeQMwzunuwocBJq_6B6Sqe31oUGO-piRZBa-vs,3157
+np_logging-0.2.4.dist-info/RECORD,,
