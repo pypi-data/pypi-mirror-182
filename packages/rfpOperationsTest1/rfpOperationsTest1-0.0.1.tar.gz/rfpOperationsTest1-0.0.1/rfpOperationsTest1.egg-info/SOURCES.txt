@@ -1,0 +1,5 @@
+setup.py
+rfpOperationsTest1.egg-info/PKG-INFO
+rfpOperationsTest1.egg-info/SOURCES.txt
+rfpOperationsTest1.egg-info/dependency_links.txt
+rfpOperationsTest1.egg-info/top_level.txt
