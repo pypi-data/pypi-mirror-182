@@ -1,0 +1,13 @@
+SeanFunctions/__init__.py,sha256=uJ4LxKGQ49E6eblk3jrcEEyhf87h4KzjnLh4HO7jI90,39
+SeanFunctions/_version.py,sha256=DVdp2K-qZwxxjpCZnC-ubiDdMSk-3cwps2NNJ4q5fdQ,164
+SeanFunctions/fitting.py,sha256=qAmC0C3Jf7BYoSWwZSVEiG6U_V1geDkg8fA5AmTM7Fk,1709
+SeanFunctions/math.py,sha256=sFit3Qje8H4O9p8DCckud0PzihAub5EmOMNhmNosvbk,4929
+SeanFunctions/scattering.py,sha256=gmq5BSAOeb8BcUzVItGIDi20_0g_69XsJPvkeiyNLYY,4281
+SeanFunctions/Data/AtomicFormFactorConstants.csv,sha256=jBF_haqZpiEHSA5bSODPQKbrZi_EbZQl9iqETXYWF4U,19820
+SeanFunctions/Data/NeutronScatteringLengths.csv,sha256=mexyENPHhr0pU-R1klOc_yhOnbP_uKS3IcDAToyYwas,14993
+SeanFunctions/Data/NeutronScatteringLengths_Corrected.csv,sha256=P4oTjvQDnp-aI8jF4HMPzXHk3QCJ-sFXpHtvRbtT1v0,15625
+SeanFunctions-0.2.0.dist-info/LICENSE,sha256=ojCvmAFe44eUiZdS0NbGhDSNd8BF6GDDXwNptsW66Uw,1087
+SeanFunctions-0.2.0.dist-info/METADATA,sha256=q7fK-y3pGdhfta4ONXSDS7STt-9-2wrdH-oM2lH7Nd8,686
+SeanFunctions-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+SeanFunctions-0.2.0.dist-info/top_level.txt,sha256=d5AgCjWf4o2GQ1VJufHeAbcX0oavhzK6g2l0Liwuxbg,14
+SeanFunctions-0.2.0.dist-info/RECORD,,
