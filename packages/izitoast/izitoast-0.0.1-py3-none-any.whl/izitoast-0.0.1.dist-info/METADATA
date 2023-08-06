@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: izitoast
+Version: 0.0.1
+Summary: Elegant, responsive, flexible, and lightweight notification plugin.
+Home-page: https://www.abdulrahimk.com/
+Author: Abdul Rahim K
+Author-email: abdulrahim.uj@gmail.com
+License: MIT
+Keywords: izitoast
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read()
+
+
