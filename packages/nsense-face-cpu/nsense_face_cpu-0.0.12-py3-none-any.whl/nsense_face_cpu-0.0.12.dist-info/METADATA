@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nsense-face-cpu
+Version: 0.0.12
+Summary: nsense_face package CPU version
+Author: minsuny
+Author-email: minsun.y@nsensecorp.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: onnxruntime
+Requires-Dist: torch
+Requires-Dist: openvino (==2022.2.0)
+
+UNKNOWN
+
