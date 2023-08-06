@@ -1,0 +1,2 @@
+frictionless==4.40.8
+jsonschema==4.17.0
