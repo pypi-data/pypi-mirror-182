@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+kerberos-proxy-auth-init.pth
+setup.py
+kerberos_proxy_auth/bootstrap.py
+kerberos_proxy_auth/wrapt_pip.py
+kerberos_proxy_auth/wrapt_requests.py
+kerberos_proxy_auth/wrapt_urllib3.py
+kerberos_proxy_auth.egg-info/PKG-INFO
+kerberos_proxy_auth.egg-info/SOURCES.txt
+kerberos_proxy_auth.egg-info/dependency_links.txt
+kerberos_proxy_auth.egg-info/requires.txt
+kerberos_proxy_auth.egg-info/top_level.txt
