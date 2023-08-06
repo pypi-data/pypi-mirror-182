@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gauss-rank-scaler/__init__.py
+gauss-rank-scaler/grs.py
+gauss_rank_scaler.egg-info/PKG-INFO
+gauss_rank_scaler.egg-info/SOURCES.txt
+gauss_rank_scaler.egg-info/dependency_links.txt
+gauss_rank_scaler.egg-info/requires.txt
+gauss_rank_scaler.egg-info/top_level.txt
