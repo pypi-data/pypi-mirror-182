@@ -1,0 +1,2 @@
+[console_scripts]
+get_pic = nonebot_plugin_face2cartoonpic:get_pic
