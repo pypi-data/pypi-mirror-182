@@ -1,0 +1,15 @@
+nodevectors2/__init__.py,sha256=a7SUM_1Y_EQ1ofqDpzq0OIItT5l5VFyjn2_xRR9_zrs,323
+nodevectors2/embedders.py,sha256=EACRtjlSreELWcz0wolZehA2DwYiudBUgHEXVCgTTFI,6927
+nodevectors2/ggvec.py,sha256=aCMPX-EWqqfMr74CEJguPWEDb3ot2tluPBDDXZL6c9M,4862
+nodevectors2/glove.py,sha256=bjT4skJqYF9Yt4sfbZcSmOt9w2TSvmSbdZCy68NxZhg,3631
+nodevectors2/grarep.py,sha256=TFuz-ApK5j5dhTfBsiKJwwAcYLyuXFLbCm8AyF4X0CU,3612
+nodevectors2/node2vec.py,sha256=ceI9Aq2osDhnIyejR9LLmcWQ2BmXHSuPwK7ZTfhwk1w,7143
+nodevectors2/prone.py,sha256=_behEq01dTTwb-8vE07ma89ubHlzMe-BHObAzsaHe3A,6050
+nodevectors2/evaluation/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nodevectors2/evaluation/graph_eval.py,sha256=e7Bx2tWhXOBHkRVYcWiA3z8q2FlM_Ktp7blDvFBWzsI,12987
+nodevectors2/evaluation/link_pred.py,sha256=kbRv7q_1iMCkDC3H-wv5gAXcocefgq0CEXhXb-yr3lk,4637
+nodevectors2-0.1.23.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+nodevectors2-0.1.23.dist-info/METADATA,sha256=Z0SPMjiIdhNK2gJHEZrRTda-H5Fdb278p0p_1dh3LZg,452
+nodevectors2-0.1.23.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nodevectors2-0.1.23.dist-info/top_level.txt,sha256=MiAccS4lPAVNvjeOML8uF83VOOWOelM8nQ71HW7WsBc,13
+nodevectors2-0.1.23.dist-info/RECORD,,
