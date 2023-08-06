@@ -1,0 +1,6 @@
+funciones.py
+pyproject.toml
+javmur.egg-info/PKG-INFO
+javmur.egg-info/SOURCES.txt
+javmur.egg-info/dependency_links.txt
+javmur.egg-info/top_level.txt

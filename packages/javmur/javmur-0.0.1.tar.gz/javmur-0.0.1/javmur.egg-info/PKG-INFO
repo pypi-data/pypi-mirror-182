@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: javmur
+Version: 0.0.1
+Summary: Funciones
+Author-email: Javi <javortmur@alu.edu.gva.es>
+Project-URL: Homepage, https://github.com/Darkkklon/python/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
