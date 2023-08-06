@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = ">=7.2.0,<7.3.0"
+pytest-cov = ">=4.0.0,<4.1.0"
+pytest-randomly = ">=3.12.0,<3.13.0"
+pytest-lazy-fixture = ">=0.6.3 ,<0.7.0"
+tox = "*"
+ipython = "*"
+codecov = "*"
+tox-travis = "*"
+black = ">=22.10.0,<22.11.0"
+mypy = ">=0.910,<0.911"
+flake8 = ">=4.0.1,<4.1.0"
+flake8-docstrings = ">=1.6.0,<1.7.0"
+mkdocs = "*"
+markdown-include = "*"
+isort = ">=5.10.1,<5.11.0"
+mistune = "==2.0.0a4"
+mkdocs-material = "*"
+types-click = "*"
+vulture = ">=2.3,<2.4"
+
+[requires]
+python_version = "3.7"
