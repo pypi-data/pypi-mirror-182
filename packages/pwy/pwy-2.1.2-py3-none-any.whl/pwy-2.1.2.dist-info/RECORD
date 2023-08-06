@@ -1,0 +1,12 @@
+pwy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pwy/__main__.py,sha256=mV26lHfDFa-GUABB9GVc_k9pc73hSg5JAOfOBwaA9fM,1210
+pwy/__version__.py,sha256=DiPN3KL4hbgLGsFKq7n4jZsFRdaH5mrko5grt4QTAJM,1121
+pwy/ascii.py,sha256=wNWQW0WB7ekEDVZLYwXN3HRkWqSyYofGTSu6jGut9y0,2700
+pwy/cli.py,sha256=c4OWF8UPBxfFFu5ko3MmL2_aDlV2k0lD5XvWl8DmXdI,7616
+pwy/translation.py,sha256=wojLbS0r69aUAq-09yswO5uYm4J1VHtUgOn03BvME8k,19349
+pwy-2.1.2.dist-info/LICENSE,sha256=_F8WbP4t1ob49FU_ysIei1Eqcq9cvMm3jIqE4HzFnhc,1059
+pwy-2.1.2.dist-info/METADATA,sha256=5dC6xLix-yXQhv9RsZn3blfNdMbVX7MWbZfjPsli7L0,4133
+pwy-2.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pwy-2.1.2.dist-info/entry_points.txt,sha256=mYv4PnHEsXs_jPY3c2zOssGFOZ7PHu-fPvmebXeJxds,43
+pwy-2.1.2.dist-info/top_level.txt,sha256=w-KBx5BqTM5bjz_mXVNME9KD8pHbykyJaI05HemgqRU,4
+pwy-2.1.2.dist-info/RECORD,,

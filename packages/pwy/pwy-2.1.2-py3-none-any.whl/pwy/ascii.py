@@ -1,0 +1,97 @@
+# MIT License
+#
+# Copyright (c) cegargo
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+
+from rich import color
+
+clear_sky = [
+    "[b yellow]    \\   /    [/]",
+    "[b yellow]     .-.     [/]",
+    "[b yellow]  ‒ (   ) ‒  [/]",
+    "[b yellow]     `-᾿     [/]",
+    "[b yellow]    /   \\    [/]",
+]
+
+
+few_clouds = [
+    "[b yellow]   \\  /       [/]",
+    '[b yellow] _ /""[/][b white].-.     [/]',
+    "[b yellow]   \\ [/][b white]_(  ).-. [/]",
+    "[b yellow]   /[/][b white](________)[/]",
+    "              ",
+]
+
+
+overcast_cloud = [
+    "[b grey]          [/]",
+    "[b grey]  .-.     [/]",
+    "[b grey] (   ).-. [/]",
+    "[b grey](________)[/]",
+    "[b grey]          [/]",
+]
+
+
+rain = [
+    "[b grey]    .-.     [/]",
+    "[b grey]   (   ).-. [/]",
+    "[b grey]  (________)[/]",
+    "[b blue]  ‚ʻ‚ʻ‚ʻ‚ʻ  [/]",
+    "[b blue]  ‚ʻ‚ʻ‚ʻ‚ʻ  [/]",
+    "            ",
+]
+
+
+thunderstorm = [
+    "[b grey]  .-.     [/]",
+    "[b grey] (   ).-. [/]",
+    "[b grey](________)[/]",
+    "[b blue]‚ʻ[/][b yellow]⚡[/][b blue]ʻ‚[/][b yellow]⚡[/][b blue]‚ʻ[/]",
+    "[b blue]‚ʻ‚ʻ[/][b yellow]⚡[/][b blue]ʻ‚ʻ [/]",
+    "         ",
+]
+
+
+snow = [
+    "[b grey]  .-.     [/]",
+    "[b grey] (   ).-. [/]",
+    "[b grey](________)[/]",
+    "[b white]  * * * * [/]",
+    "[b white] * * * *  [/]",
+]
+
+
+mist = [
+    "[b grey]             [/]",
+    "[b grey] _ - _ - _ - [/]",
+    "[b grey]  _ - _ - _  [/]",
+    "[b grey] _ - _ - _ - [/]",
+    "             ",
+]
+
+
+unknown = [
+    "[b white]    .-.      [/]",
+    "[b white]     __)     [/]",
+    "[b white]    (        [/]",
+    "[b white]     `-᾿     [/]",
+    "[b white]      •      [/]",
+]
