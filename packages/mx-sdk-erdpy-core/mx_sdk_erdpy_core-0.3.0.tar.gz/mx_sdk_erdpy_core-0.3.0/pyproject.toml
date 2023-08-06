@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mx-sdk-erdpy-core"
+version = "0.3.0"
+authors = [
+  { name="MultiversX" },
+]
+license = "MIT"
+description = "MultiversX: core components of erdpy."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pycryptodomex==3.16.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ElrondNetwork/sdk-erdpy-core"
