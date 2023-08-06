@@ -1,0 +1,10 @@
+twinning/__init__.py,sha256=yuSvLn4UIWkw72bdHvoYPlvpWjnVcsCXVCYmkV65Wuc,2096
+twinning/twinning.py,sha256=TAv5elKJ2xqparOpLdv6U7W99kemfMDek9usKPdhxHY,11989
+twinning/twinning_cpp/twinning_linux_x64.so,sha256=CJGN4HhJFrRby3_vbRdd0t2KkR447eXNSFjwVuxfIKY,48160
+twinning/twinning_cpp/twinning_mac_x64.dylib,sha256=jOktTdR6BHujKElSblDbaJArJVMjqmIV170bi6O43sc,50440
+twinning/twinning_cpp/twinning_win_x64.dll,sha256=KWDVLtDbnTtV5JSBymhxG9PfLY_rMF5skYZmN52CDO0,39936
+twinning-1.0.dist-info/LICENSE,sha256=XTWzfgvDGs4ActgO-iSGnDucu2Kb9aJI-UPoQAbAkno,11343
+twinning-1.0.dist-info/METADATA,sha256=Bc9AFQQUdDysYTmqf-7n6Yu5k79HOaMfVCTU61uyI2c,199
+twinning-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+twinning-1.0.dist-info/top_level.txt,sha256=9Qh0Y8frEA47wJEnIpE2_k0OXsYYaVAoYwjHTsOQtsc,9
+twinning-1.0.dist-info/RECORD,,

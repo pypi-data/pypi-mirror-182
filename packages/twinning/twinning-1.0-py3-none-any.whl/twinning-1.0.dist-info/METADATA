@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: twinning
+Version: 1.0
+Summary: An efficient algorithm for data twinning.
+Author: Akhil Vakayil
+Author-email: akhilv@gatech.edu
+License-File: LICENSE
+Requires-Dist: numpy
+
