@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "stac_table"
+authors = [{name = "Tom Augspurger", email = "taugspurger@microsoft.com"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "dask",
+    "fsspec",
+    "pandas",
+    "dask-geopandas",
+    "pyarrow",
+    "pystac[validation]>=1.1.0",
+    "shapely",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest >=2.7.3",
+    "pytest-cov",
+    "pre-commit"
+]
+doc = ["sphinx"]
