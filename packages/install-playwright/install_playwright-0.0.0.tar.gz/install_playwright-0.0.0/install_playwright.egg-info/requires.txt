@@ -1,0 +1,9 @@
+playwright
+
+[dev]
+pre-commit
+pytest
+pytest-asyncio
+pytest-cov
+setuptools>=46.4.0
+types-setuptools

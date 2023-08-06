@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+install_playwright/__init__.py
+install_playwright/py.typed
+install_playwright.egg-info/PKG-INFO
+install_playwright.egg-info/SOURCES.txt
+install_playwright.egg-info/dependency_links.txt
+install_playwright.egg-info/requires.txt
+install_playwright.egg-info/top_level.txt
