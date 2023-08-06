@@ -1,0 +1,14 @@
+mcr2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcr2/losses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcr2/losses/ctrl.py,sha256=NYSmTZLI_1qeQUTB13pgWmlegg9JzIYY-T4Q5bBaByc,1883
+mcr2/losses/mcr2.py,sha256=U_gGjUkGm-FZQAk_9AfaXHsQIB5nYvHihjJJYBtmV9Y,757
+mcr2/primitives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcr2/primitives/coding_rate.py,sha256=evauTnGRSWtB61Af_l5HBEt4EvhZplJoguVDTEt_wQw,6483
+mcr2/primitives/logdet.py,sha256=pNFGvFEQmBQjDXygQGQu-j7OnMFszWVrMbKSR-zpmKg,470
+mcr2/primitives/products.py,sha256=Ld7dJnoDSkARpuHsMNsnHFgxVXlASBZaq4c3dzVim_4,926
+mcr2/primitives/statistics.py,sha256=tdoS9SZFvtfA6e9Hk73iVe3Qx_djiZJH0aAzUfppMtE,1851
+mcr2-1.0.1.dist-info/LICENSE,sha256=eBAenenADYCkkcMvOm3cgoldMUGnWL4LN-r1tR1eSjo,1064
+mcr2-1.0.1.dist-info/METADATA,sha256=9cTQ70rR2I7Y0bJrwW-A1D3FTTWhuXZ4hitgZ20nvrA,3224
+mcr2-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mcr2-1.0.1.dist-info/top_level.txt,sha256=lKs8nPIrs2t6XpVK4-LXWe4C9NUF6VcTocijZho9e04,5
+mcr2-1.0.1.dist-info/RECORD,,
