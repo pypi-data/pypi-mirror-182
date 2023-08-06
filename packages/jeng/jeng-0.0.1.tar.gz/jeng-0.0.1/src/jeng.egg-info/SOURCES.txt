@@ -1,0 +1,17 @@
+MANIFEST.in
+license.md
+pytest.ini
+readme.md
+setup.py
+src/jeng/__init__.py
+src/jeng/client.py
+src/jeng.egg-info/PKG-INFO
+src/jeng.egg-info/SOURCES.txt
+src/jeng.egg-info/dependency_links.txt
+src/jeng.egg-info/requires.txt
+src/jeng.egg-info/top_level.txt
+tests/test_client.py
+tests/query/well_create.xml
+tests/query/well_delete.xml
+tests/query/well_read.xml
+tests/query/well_update.xml
