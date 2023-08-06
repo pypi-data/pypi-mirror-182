@@ -1,0 +1,13 @@
+csrgraph2/__init__.py,sha256=20ekU4mjkUCxEb4zyObF2ibEzsDH-tTBp-ictKGO1pQ,140
+csrgraph2/ggvec.py,sha256=yjK3LOmDh3pfXARnFc7ozttL8LV0PQw7SaMYU_V7UIA,7732
+csrgraph2/glove.py,sha256=zrZ0FCKyecz1qdlHLq95ZcYul_TsHJ6mW4IbHoi_GNE,5196
+csrgraph2/graph.py,sha256=l_1DqvmzLXBDwvgF3ZUhJ0qDIbKXRWEBU_3jtqeJ9u0,21290
+csrgraph2/grarep.py,sha256=otU7wfB7SnLmoPho3QSKXk5j496qEE3sQOVk4Arv_K0,2795
+csrgraph2/methods.py,sha256=L8tHp7qrzeX3PxdnG7Nm4jtli6-kTLe_Ec_LQc06CeM,3538
+csrgraph2/random_walks.py,sha256=2F3qocnBEj68zIwyjA_J3K8qKVo1wlOYqScQxC8CoAg,8038
+csrgraph2/version.py,sha256=VUMZhLk0sNeb0Db-xDRu0n3WYZspLmaQD8iKUOAH_H8,22
+csrgraph2-0.1.29.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+csrgraph2-0.1.29.dist-info/METADATA,sha256=PywM3BvD4T4yK3drBA6GQgdU8l7eQAF2OUKw_BzwVtA,371
+csrgraph2-0.1.29.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+csrgraph2-0.1.29.dist-info/top_level.txt,sha256=b9wGFIGhczQEteMvbRo1nb-lL30TXONODu5rso2RFvo,10
+csrgraph2-0.1.29.dist-info/RECORD,,
