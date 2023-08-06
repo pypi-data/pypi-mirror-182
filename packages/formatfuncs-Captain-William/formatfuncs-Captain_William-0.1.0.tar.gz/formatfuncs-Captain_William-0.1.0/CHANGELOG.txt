@@ -1,0 +1,20 @@
+Change Log 
+==========
+
+0.1.0
+- Fixed string error with string_format
+cutting off the first character when paragraph is 
+set to zero. 
+
+0.0.9
+- Fixed init error
+
+0.0.8 
+- First public release 12/22/2022
+
+0.0.2
+- Fixed dependancy issue 12/21/2022
+
+0.0.1
+- First test release 12/21/2022
+
