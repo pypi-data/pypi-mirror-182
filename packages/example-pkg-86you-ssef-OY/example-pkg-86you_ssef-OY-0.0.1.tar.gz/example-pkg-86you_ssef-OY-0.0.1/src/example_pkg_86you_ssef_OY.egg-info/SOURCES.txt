@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/example_pkg_86you_ssef_OY.egg-info/PKG-INFO
+src/example_pkg_86you_ssef_OY.egg-info/SOURCES.txt
+src/example_pkg_86you_ssef_OY.egg-info/dependency_links.txt
+src/example_pkg_86you_ssef_OY.egg-info/top_level.txt
