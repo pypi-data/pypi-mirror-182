@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tce
+Version: 0.0.1
+Summary: TCE app, built with Textual.
+Home-page: https://github.com/wmramadan/tce
+Author: Wael Ramadan
+Author-email: wamramadan@gmail.com
+Maintainer: Wael Ramadan
+Maintainer-email: wamramadan@gmail.com
+License: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Keywords: terminal code editor
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TCE
+
+Terminal Code Editor
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+tce=tce.tce:main
+
