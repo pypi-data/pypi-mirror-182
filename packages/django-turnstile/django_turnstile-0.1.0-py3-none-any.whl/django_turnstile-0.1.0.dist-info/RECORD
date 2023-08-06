@@ -1,0 +1,12 @@
+turnstile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnstile/apps.py,sha256=BfF3e4G6R9v1VsubRgIwRlesJFrxmyRHHMogMRFL-dY,98
+turnstile/fields.py,sha256=YSrTAYEMk_4ljOZE5YkmjWBdzNFVXP2RMEkyPv2Qvao,2396
+turnstile/settings.py,sha256=KVfKKALKjZPM6pimkzQcazbwaGd2GVX-NS8IQB390kk,606
+turnstile/widgets.py,sha256=hQlAbvv9A_EPPtnOgGOzaREWYEgUsT8mKjhmLvehFj8,902
+turnstile/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnstile/templates/turnstile/forms/widgets/turnstile_widget.html,sha256=UvYseHY3MZvV2Xs4ynV8C-L0sV8XRbo40wXtCxtoaCM,133
+django_turnstile-0.1.0.dist-info/LICENSE,sha256=3kDTJFnkWbM9Fs6GQOobuuOwYAnOlI1xsp0c1Zp1Qsg,1091
+django_turnstile-0.1.0.dist-info/METADATA,sha256=T5nJxOkRyTU1ymmmCJBMbKMD_8xbKMqlKy8yvKXROWs,4446
+django_turnstile-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_turnstile-0.1.0.dist-info/top_level.txt,sha256=qr0nzfzdSleFYa_tH66YoSq7invuxLmjL90QCOqkPcw,10
+django_turnstile-0.1.0.dist-info/RECORD,,
