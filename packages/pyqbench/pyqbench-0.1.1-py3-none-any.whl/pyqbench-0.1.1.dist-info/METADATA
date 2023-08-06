@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyqbench
+Version: 0.1.1
+Summary: Library for benchmarking gate computers
+Author-email: Paulina Lewandowska <plewandowska@iitis.pl>, Konrad Jałowiecki <dexter2206@gmail.com>, Aleksandra Krawiec <aaleksandra.krawiec@gmail.com>, Łukasz Pawela <lukasz.pawela@gmail.com>
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/iitis/PyQBench
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (~=1.22.0)
+Requires-Dist: scipy (~=1.7.0)
+Requires-Dist: pandas (~=1.5.0)
+Requires-Dist: amazon-braket-sdk (>=1.11.1)
+Requires-Dist: pydantic (~=1.9.1)
+Requires-Dist: qiskit (~=0.37.2)
+Requires-Dist: mthree (~=1.1.0)
+Requires-Dist: tqdm (~=4.64.1)
+Requires-Dist: pyyaml (~=6.0)
+Requires-Dist: qiskit-braket-provider (~=0.0.3)
+Provides-Extra: dev
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'dev'
+Requires-Dist: black (>=21.12b0) ; extra == 'dev'
+Requires-Dist: isort (>=5.10.1) ; extra == 'dev'
+Requires-Dist: mypy (>=0.961) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=5.3.0) ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme (>=0.11.0) ; extra == 'docs'
+Requires-Dist: sphinx-math-dollar (>=1.2.1) ; extra == 'docs'
+Requires-Dist: myst-nb (~=0.17.1) ; extra == 'docs'
+Requires-Dist: iplantuml (~=0.1.1) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.1.2) ; extra == 'test'
+Requires-Dist: pytest-mock (>=3.3.1) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.12.1) ; extra == 'test'
+
+# PyQBench
+
+PyQBench is a package for benchmarking gate-based quantum computers by 
+estimating how well they can discriminate between certain measurements.
