@@ -1,0 +1,1 @@
+from .rubikaclient import Client
