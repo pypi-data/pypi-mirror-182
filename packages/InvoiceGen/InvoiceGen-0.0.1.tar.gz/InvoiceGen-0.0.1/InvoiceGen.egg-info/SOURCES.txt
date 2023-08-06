@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LINCENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+InvoiceGen/__init__.py
+InvoiceGen.egg-info/PKG-INFO
+InvoiceGen.egg-info/SOURCES.txt
+InvoiceGen.egg-info/dependency_links.txt
+InvoiceGen.egg-info/top_level.txt
