@@ -1,0 +1,2 @@
+[console_scripts]
+bluepyentity = bluepyentity.app.main:main

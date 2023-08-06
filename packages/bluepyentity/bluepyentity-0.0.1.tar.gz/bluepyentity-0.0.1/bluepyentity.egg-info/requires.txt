@@ -1,0 +1,15 @@
+click
+keyring
+lazy-object-proxy<2.0.0,>=1.5.2
+more-itertools<9.0.0,>=8.2.0
+nexusforge<1.0.0,>=0.7.0
+pyjwt
+rich
+more-itertools
+
+[docs]
+sphinx
+sphinx-bluebrain-theme
+
+[krb]
+requests_kerberos
