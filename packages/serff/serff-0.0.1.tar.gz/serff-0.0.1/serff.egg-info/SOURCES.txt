@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+serff/__init__.py
+serff/main.py
+serff.egg-info/PKG-INFO
+serff.egg-info/SOURCES.txt
+serff.egg-info/dependency_links.txt
+serff.egg-info/top_level.txt
