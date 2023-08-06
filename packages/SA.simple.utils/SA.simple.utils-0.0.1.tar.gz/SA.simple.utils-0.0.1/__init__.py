@@ -1,0 +1,12 @@
+from .Airflow_scripts import app as airflow_scripts_app
+from .Aws_scripts import app as aws_scripts_app
+from .Azure_scripts import app as azure_scripts_app
+from .Casandra_scripts import app as Casandra_scripts_app
+from .Kafka_scripts import app as Kafka_scripts_app
+from .Mongo_scripts import app as Mongo_scripts_app
+from .Mysql_scripts import app as Mysql_scripts_app
+from .Postgres_scripts import app as Postgres_scripts_app
+from .Redshift_scripts import app as Redshift_scripts_app
+from .Snowflake_scripts import app as Snowflake_scripts_app
+from .Spark_scripts import app as Spark_scripts_app
+from .System_scripts import app as System_scripts_app
