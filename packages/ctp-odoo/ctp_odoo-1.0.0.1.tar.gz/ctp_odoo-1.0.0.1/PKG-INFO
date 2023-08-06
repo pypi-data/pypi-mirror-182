@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ctp_odoo
+Version: 1.0.0.1
+Summary: Cybernetics Plus Function in Odoo
+Home-page: https://www.cybernetics.plus
+Download-URL: https://github.com/Cybernetics-Plus/ctp_odoo.git
+Author: Cybernetics Plus Co., Ltd.
+Author-email: dev@cybernetics.plus
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ctp_odoo
+Cybernetics Plus Odoo Function in Pypi.org
+
+https://www.cybernetics.plus

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ctp_odoo/__init__.py
+ctp_odoo.egg-info/PKG-INFO
+ctp_odoo.egg-info/SOURCES.txt
+ctp_odoo.egg-info/dependency_links.txt
+ctp_odoo.egg-info/top_level.txt
