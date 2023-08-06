@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: parsedbudr
+Version: 0.1.9
+Summary: A simple package to get Databricks FQDN IP addresses
+Home-page: UNKNOWN
+Author: Arvind Ravish
+Author-email: arvind.ravish@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+### https://dzone.com/articles/executable-package-pip-install
+

@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+parsedbudr.egg-info/PKG-INFO
+parsedbudr.egg-info/SOURCES.txt
+parsedbudr.egg-info/dependency_links.txt
+parsedbudr.egg-info/requires.txt
+parsedbudr.egg-info/top_level.txt
+parseudr/__init__.py
+parseudr/convertfqdntoip.py
+parseudr/utility.py
