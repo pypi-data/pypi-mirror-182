@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clprint"
+version = "0.0.10"
+authors = [
+  { name="Latheesh V M", email="latheeshvmv@gmail.com" },
+]
+description = "A package to print colored text in terminal"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["color", "print", "terminal", "clprint", "colorprint", "color-print"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/latheeshvm/clprint"
+"Bug Tracker" = "https://github.com/latheeshvm/clprint/issues"
