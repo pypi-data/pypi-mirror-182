@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/goosearchimg.py
+src/goosearchimg.egg-info/PKG-INFO
+src/goosearchimg.egg-info/SOURCES.txt
+src/goosearchimg.egg-info/dependency_links.txt
+src/goosearchimg.egg-info/top_level.txt
