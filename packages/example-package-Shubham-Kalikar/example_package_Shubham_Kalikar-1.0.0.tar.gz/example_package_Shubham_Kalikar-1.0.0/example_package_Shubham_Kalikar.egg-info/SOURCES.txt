@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+example_package_Shubham_Kalikar.egg-info/PKG-INFO
+example_package_Shubham_Kalikar.egg-info/SOURCES.txt
+example_package_Shubham_Kalikar.egg-info/dependency_links.txt
+example_package_Shubham_Kalikar.egg-info/requires.txt
+example_package_Shubham_Kalikar.egg-info/top_level.txt
