@@ -1,0 +1,10 @@
+stonemark/CHANGES,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stonemark/LICENSE,sha256=w4w68Tw-HOZud1-7GagG455sZHjwjcgW1IkkyFzO5dY,1362
+stonemark/__init__.py,sha256=eZt05rqoTrMK2UtbbB86olszyNu26ExsrS-oOFPSysI,56783
+stonemark/__main__.py,sha256=DfOUKbaubSR0CtA0oU84AmMuhnc4B7N6o0fDMC2uVIE,1001
+stonemark/test.py,sha256=GFitw9UBFs_ZbhE0c387xTP4pUHKN0K2YsO6KMKz9tU,72629
+stonemark-0.2.15.dist-info/METADATA,sha256=rKD-3L87dZkwrkKDrGfPTeXlDtqHS8yEFK64G-cfMnw,3213
+stonemark-0.2.15.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stonemark-0.2.15.dist-info/entry_points.txt,sha256=pFZRkxZV6KgjYKmerj_l8TppFSOba1vGfDpKzE9LYDE,55
+stonemark-0.2.15.dist-info/top_level.txt,sha256=J6fyfIM83IiF90Lkixb6dGuWOMhkT-6aYVhYD8GsjtQ,10
+stonemark-0.2.15.dist-info/RECORD,,
