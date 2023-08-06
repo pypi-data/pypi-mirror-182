@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: json-as-db
+Version: 0.1.0b1
+Summary: Using JSON as very lightweight database
+License: MIT
+Keywords: json,lightweight,database
+Author: Joonas
+Author-email: joonas.yoon@gmail.com
+Maintainer: Joonas
+Maintainer-email: joonas.yoon@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Filesystems
+Requires-Dist: aiofiles (>=22.1.0)
+Requires-Dist: shortuuid (>=1.0.11)
+Project-URL: changelog, https://github.com/joonas-yoon/json-as-db/blob/master/CHANGELOG.md
+Project-URL: documentation, https://json-as-db.readthedocs.io/
+Project-URL: homepage, https://www.joonas.io/json-as-db
+Project-URL: repository, https://github.com/joonas-yoon/json-as-db
+Description-Content-Type: text/markdown
+
+# JSON-as-DB
+
+![Python Version Badge] [![RTD](https://readthedocs.org/projects/json-as-db/badge/?version=latest)](https://json-as-db.readthedocs.io/) [![PyTest Badge]](https://github.com/joonas-yoon/json-as-db/actions/workflows/pytest.yml) ![Wheel Badge] [![Hits Badge]](#)
+
+Using JSON as very lightweight database
+
+- Documentation: https://json-as-db.readthedocs.io/
+
+## Installation
+
+Installing via pip:
+
+```bash
+pip install json-as-db
+```
+
+Installing via GitHub repository,
+
+```bash
+git clone https://github.com/joonas-yoon/json-as-db.git
+pip install -e json-as-db
+```
+
+## Contributing
+
+Contributing guidelines can be found [CONTRIBUTING.md](CONTRIBUTING).
+
+Welcome all contributions to the community and feel free to contribute.
+
+## License
+
+Under the MIT license. See the [LICENSE] file for more info.
+
+
+[Python Version Badge]: https://img.shields.io/pypi/pyversions/json-as-db?style=flat-square
+[PyTest Badge]: https://github.com/joonas-yoon/json-as-db/actions/workflows/pytest.yml/badge.svg
+[Wheel Badge]: https://img.shields.io/pypi/wheel/json-as-db?style=flat-square
+[Hits Badge]: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fjson-as-db
+[CONTRIBUTING]: CONTRIBUTING.md
+[LICENSE]: LICENSE
+
