@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+dns_local/__init__.py
+dns_local/__main__.py
+dns_local/dnsserver.py
+dns_local/exceptions.py
+dns_local.egg-info/PKG-INFO
+dns_local.egg-info/SOURCES.txt
+dns_local.egg-info/dependency_links.txt
+dns_local.egg-info/entry_points.txt
+dns_local.egg-info/requires.txt
+dns_local.egg-info/top_level.txt
