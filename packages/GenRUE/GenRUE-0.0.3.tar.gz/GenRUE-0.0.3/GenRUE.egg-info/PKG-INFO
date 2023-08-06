@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: GenRUE
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/WangQianlian/GenRUE
+Author: Qianlian Wang
+Author-email: wangqianlian@foxmail.com
+Maintainer: Qianlian Wang
+Maintainer-email: wangqianlian@foxmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
