@@ -1,0 +1,10 @@
+setup.py
+mrashid_distributions/Binomialdistribution.py
+mrashid_distributions/Gaussiandistribution.py
+mrashid_distributions/Generaldistribution.py
+mrashid_distributions/__init__.py
+mrashid_distributions.egg-info/PKG-INFO
+mrashid_distributions.egg-info/SOURCES.txt
+mrashid_distributions.egg-info/dependency_links.txt
+mrashid_distributions.egg-info/not-zip-safe
+mrashid_distributions.egg-info/top_level.txt
