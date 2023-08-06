@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+proxylist/__init__.py
+proxylist/base.py
+proxylist/errors.py
+proxylist/parser.py
+proxylist/proxylist.py
+proxylist/py.typed
+proxylist/server.py
+proxylist/source.py
+proxylist.egg-info/PKG-INFO
+proxylist.egg-info/SOURCES.txt
+proxylist.egg-info/dependency_links.txt
+proxylist.egg-info/top_level.txt
