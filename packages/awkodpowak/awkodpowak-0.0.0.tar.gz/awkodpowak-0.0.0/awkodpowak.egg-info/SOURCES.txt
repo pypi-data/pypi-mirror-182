@@ -1,0 +1,5 @@
+setup.py
+awkodpowak.egg-info/PKG-INFO
+awkodpowak.egg-info/SOURCES.txt
+awkodpowak.egg-info/dependency_links.txt
+awkodpowak.egg-info/top_level.txt
