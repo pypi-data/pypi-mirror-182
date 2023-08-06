@@ -1,0 +1,14 @@
+nostr_relay/__init__.py,sha256=PBBwQocIXq_UldgZTwBm_bxOxKEF-Y29IAwy5B434k0,22
+nostr_relay/asgi.py,sha256=vmoa79TGmohGECcIiiVIqi5DnYTx2xV--zmUVL6fCqs,48
+nostr_relay/cli.py,sha256=7bgWuNFw8kBHuzhauvXiDEGp5wjd9k2Bqrt3r4j6NUs,581
+nostr_relay/config.py,sha256=8z_UxEVpBCb1gk0r_ijf2MbsiCPOV9YRxdchUiZunwY,1552
+nostr_relay/db.py,sha256=azJYOaip6rB7BSbkPrbbBGVb0c8VGtajxI-gx3xc9No,12520
+nostr_relay/event.py,sha256=cAHzYQPJMGVHGZUXC9I4JdnHE0XrVrVjNpM8gb6AWwQ,3220
+nostr_relay/web.py,sha256=kAPIX3rmZtE0f-se6nD5FqKkm65cwWv3-dGGQKal718,6861
+nostr_relay-0.8.1.dist-info/LICENSE.txt,sha256=3Q9NMeTklaYBA8CGKVQT2Enm2XMnadIXx4-B_jmE0iA,1530
+nostr_relay-0.8.1.dist-info/METADATA,sha256=Fn1UAXZUizhA_c7qPUWoixfZWS3JgUHQ8LVl5RNWx6c,1305
+nostr_relay-0.8.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nostr_relay-0.8.1.dist-info/entry_points.txt,sha256=Qxld0oODgLqpATgZ9C3zmHzcd1Y52ArZZeHp_SZFJXw,53
+nostr_relay-0.8.1.dist-info/top_level.txt,sha256=i80nzpCR4rhjnFeD7cIyVBGfZMY6ZrEhkiELtKhiG_s,12
+nostr_relay-0.8.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nostr_relay-0.8.1.dist-info/RECORD,,
