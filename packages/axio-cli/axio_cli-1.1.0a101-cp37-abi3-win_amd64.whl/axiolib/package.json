@@ -1,0 +1,23 @@
+{
+  "name": "axio-engine",
+  "version": "1.1.0-a.101",
+  "description": "axio client engine core",
+  "category": "package",
+  "dependencies": {
+    "pysite-axio-win-py3": {
+      "version": "1.2.11"
+    }
+  },
+  "build_ref": "9455710c665bf89b64710b3207d3eb8d471e0116",
+  "build_id": "182032",
+  "repository": "http://192.168.23.62/axio/axio-cli",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.package@2.0.0",
+    "package_manager.package@1.1.0"
+  ],
+  "system": "windows_amd64",
+  "python_version": "3",
+  "edition": "standard",
+  "variant": "zlg"
+}
