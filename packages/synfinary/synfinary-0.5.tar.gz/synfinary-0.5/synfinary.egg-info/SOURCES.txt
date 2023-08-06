@@ -1,0 +1,8 @@
+setup.py
+synfinary/__init__.py
+synfinary/bincrypt.py
+synfinary/binify.py
+synfinary.egg-info/PKG-INFO
+synfinary.egg-info/SOURCES.txt
+synfinary.egg-info/dependency_links.txt
+synfinary.egg-info/top_level.txt
