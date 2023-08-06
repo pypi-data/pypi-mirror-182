@@ -1,0 +1,17 @@
+pandas>=1.4.0
+numpy>=1.22.0
+
+[dev]
+autoflake
+black
+build
+coverage
+flake8
+isort
+mypy
+pre-commit
+pytest
+pytest-cov
+toml
+tox
+twine
