@@ -1,0 +1,6 @@
+setup.py
+monql/__init__.py
+monql.egg-info/PKG-INFO
+monql.egg-info/SOURCES.txt
+monql.egg-info/dependency_links.txt
+monql.egg-info/top_level.txt
