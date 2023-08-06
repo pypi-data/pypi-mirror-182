@@ -1,0 +1,10 @@
+geniusdotpy/__init__.py,sha256=K1VYZ9ov5qzddVDckjVFjaiHBRcwE-G-2Wc3nsfdhhQ,127
+geniusdotpy/artist.py,sha256=B0OjdZ3cc6rK8BxFzMntvr97zL0FPw4f0e9-j72TOIQ,217
+geniusdotpy/genius_builder.py,sha256=-y5c3dK2WYET4pR0suAt5CB8cf6opWJknSPYTNar7vk,1599
+geniusdotpy/lyrics.py,sha256=4IpNYPTz38syZH00JPGIA-whr3v0HZQ_f0pKJoUWg28,363
+geniusdotpy/track.py,sha256=S74WuuQFsDCau4NNPUjFJ-WVTrC4uqb0W0Ikprj-6Ds,2363
+geniusdotpy-0.1.4.dist-info/LICENSE,sha256=rerZdmIH9K-xXbs3FeohQxOL9DnhbLKwbmixw0bmiYE,1061
+geniusdotpy-0.1.4.dist-info/METADATA,sha256=fHkbovmQakdqaWP05PS3P1cqalKcn66cuQaxVsi-F0U,1736
+geniusdotpy-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+geniusdotpy-0.1.4.dist-info/top_level.txt,sha256=veyklUg6mxbtNC-jP71Kmnf1nCZU9DgzJcvextkNnHg,12
+geniusdotpy-0.1.4.dist-info/RECORD,,
