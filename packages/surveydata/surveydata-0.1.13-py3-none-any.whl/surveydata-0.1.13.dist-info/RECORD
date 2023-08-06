@@ -1,0 +1,17 @@
+surveydata/__init__.py,sha256=WMCt3s_gSxW2yEQ5GGj4a_uV3Azb0bPu6sVySLkVxmY,1296
+surveydata/azureblobstorage.py,sha256=947iZ0txBJ-FpT3YmeRIxCl_-F2IUaZoUMYUkXtsDmE,17734
+surveydata/dynamodbstorage.py,sha256=xJ9pH8ZjbEAhB6t4cT8ErXjYuLcwwbI2oYm9FVsKbcs,16427
+surveydata/filestorage.py,sha256=q1fywFiFetLnBfaujw3KiA4yMGTXtcwREIIIrEORf2U,15547
+surveydata/googlecloudstorage.py,sha256=AJkH0PMDAUtppbhQSIc1sv8Vvft4UTtZtTY-ppx6BA0,16894
+surveydata/odkexportstorage.py,sha256=AHtHE_caZpZ2SUy48qZq8KXuU9O4nPLsv0qtWqrpe_k,16243
+surveydata/odkplatform.py,sha256=kV1itmSUG27SZVI4cGnGFf17iO6vpB_MiElk8CkG8X8,10811
+surveydata/s3storage.py,sha256=F9nKkR-0rMlpGPD3u8kmqScrA-Bg0Y_bHMF9QdlV50U,17577
+surveydata/storagesystem.py,sha256=yqJl6FV-jVfD2F8m0rzg8nlkBLLJTYXwnoMvLqTvj6Q,12102
+surveydata/surveyctoexportstorage.py,sha256=_or1gD-xaxRJi0B_pTVSJlLqUMZGaRwINBwH7EMH9W0,11523
+surveydata/surveyctoplatform.py,sha256=mDpk9vWORuRkMiktovFoWQLAjafgIoyBn-RgL1T7E6Q,30405
+surveydata/surveyplatform.py,sha256=lOvEJ9VpXCNJyxPGo-WNwpgAWbUYnu-fa9JgpCkwiPg,2129
+surveydata-0.1.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+surveydata-0.1.13.dist-info/METADATA,sha256=CO4Hc8UlSPb1ORbCcPgSpmayOjZh_VwzTEDEZg2QcAU,5332
+surveydata-0.1.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+surveydata-0.1.13.dist-info/top_level.txt,sha256=e5u9eDriT30jlV2uLLwjKwv1o4pi6i5p8w049Qsu65w,11
+surveydata-0.1.13.dist-info/RECORD,,
