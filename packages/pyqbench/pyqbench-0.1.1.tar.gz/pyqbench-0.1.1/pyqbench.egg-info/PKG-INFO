@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyqbench
+Version: 0.1.1
+Summary: Library for benchmarking gate computers
+Author-email: Paulina Lewandowska <plewandowska@iitis.pl>, Konrad Jałowiecki <dexter2206@gmail.com>, Aleksandra Krawiec <aaleksandra.krawiec@gmail.com>, Łukasz Pawela <lukasz.pawela@gmail.com>
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/iitis/PyQBench
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# PyQBench
+
+PyQBench is a package for benchmarking gate-based quantum computers by 
+estimating how well they can discriminate between certain measurements.
