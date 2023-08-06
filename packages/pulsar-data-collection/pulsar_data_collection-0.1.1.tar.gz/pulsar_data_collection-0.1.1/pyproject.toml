@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "pulsar-data-collection"
+version = "0.1.1"
+description = "sdk enabling data collection from model serving code for our MPM solution"
+authors = [
+    "Pulsar team <pulsar@data-rs.io>"
+    ]
+readme = "README.md"
+homepage = "https://github.com/Rocket-Science-Development/pulsar_data_collection"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.2"
+pysqlite3 = "^0.4.7"
+SQLAlchemy = "^1.4.39"
+influxdb-client = {extras = ["ciso"], version = "^1.31.0"}
+pydantic = "^1.6.2"
+influxdb = "5.3.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+pre-commit = "^2.19.0"
+pytest = "^7.1.2"
+matplotlib = "^3.5.2"
+scikit-learn = "^1.1.1"
+jupyter = "^1.0.0"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+flake8 = "^6.0.0"
+flake8-pyproject = "^1.2.1"
+
+[tool.black]
+line-length = 130
+target-version = ['py36', 'py37', 'py38', 'py39']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+ignore = ['E231', 'E241']
+per-file-ignores = [
+    '__init__.py:F401',
+]
+max-line-length = 130
+count = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
