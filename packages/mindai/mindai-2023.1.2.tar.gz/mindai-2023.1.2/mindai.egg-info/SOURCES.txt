@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mindai/__init__.py
+mindai/mindai.py
+mindai.egg-info/PKG-INFO
+mindai.egg-info/SOURCES.txt
+mindai.egg-info/dependency_links.txt
+mindai.egg-info/requires.txt
+mindai.egg-info/top_level.txt
