@@ -1,0 +1,14 @@
+autorequests/__init__.py,sha256=eOcDkHuMhX1AKFfm4MUnxl__PjNeQksh9xf63ZLONag,121
+autorequests/__main__.py,sha256=1tRxPoArTqS9oKAEeOuy7p9rV02TyTk1P5lxaE_O8tU,2916
+autorequests/commons.py,sha256=9Vv6pV_O1nxXXLSBZ94kR7vOZa8jYK5ceVuUWEA5dPE,2558
+autorequests/parsing/__init__.py,sha256=uYKkeGjOXEtbvc1Yu358lWD4dIFSUj0QlCryCw1pWew,504
+autorequests/parsing/body.py,sha256=bB20GplMS7QVtd9zoMzmXN7ZTvmKxJwHISm68nzU64g,2677
+autorequests/parsing/fetch.py,sha256=U_F7-QMG3ejlj3Cbu-oyHbChh9JXSHZfKl_PSn1G-kU,2194
+autorequests/parsing/powershell.py,sha256=Bi8xLkhB8Enw3BH1wdKidHt5TBV2gN6TcF3L6KCTDXE,5828
+autorequests/request.py,sha256=PX3OAEihxGHQJIr23FgV2J994L3K6i75fUdomjLq3Ks,2921
+autorequests/typings.py,sha256=PZEOwcv3hXg3zErr4niZkW_NlklkWLHTUE0qYHmdvm4,428
+autorequests-2.1.0.dist-info/entry_points.txt,sha256=sJgHvsOk_SzUOoDaSfG8P4b4ZPcvkzvemP8ik8Q2o_o,58
+autorequests-2.1.0.dist-info/LICENSE,sha256=qNi3mG-dHAASJAbSPcPPUZjwRVUImMbK02e5HPd4hnk,1082
+autorequests-2.1.0.dist-info/METADATA,sha256=OgfCItuWIBHoKefEf8owWtURNsFiTQrpx9Z54PJGxy0,3807
+autorequests-2.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+autorequests-2.1.0.dist-info/RECORD,,
