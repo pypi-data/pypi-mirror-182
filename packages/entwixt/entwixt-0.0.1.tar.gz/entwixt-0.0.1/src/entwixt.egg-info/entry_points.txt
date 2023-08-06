@@ -1,0 +1,3 @@
+[console_scripts]
+entwixt = entwixt.cli:main
+entwixtd = entwixt.daemon:main
