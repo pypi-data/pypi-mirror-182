@@ -1,0 +1,7 @@
+cu2qu
+freetype-py
+glfw
+numpy
+PyGLM
+PyOpenGL
+scipy
