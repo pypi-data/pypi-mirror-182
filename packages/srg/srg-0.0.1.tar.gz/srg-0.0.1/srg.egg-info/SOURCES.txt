@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+srg/__init__.py
+srg/__main__.py
+srg/_menu.py
+srg.egg-info/PKG-INFO
+srg.egg-info/SOURCES.txt
+srg.egg-info/dependency_links.txt
+srg.egg-info/entry_points.txt
+srg.egg-info/requires.txt
+srg.egg-info/top_level.txt
