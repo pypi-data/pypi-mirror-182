@@ -1,0 +1,11 @@
+config_name: test_config
+seed: 42
+data_dir: data
+results_dir: results
+n_jobs: 40
+# minimum number of valid data point when computing correlation
+min_sample_count: 20
+# whether to output the edge list or not
+output_edgelist: False
+# number of top edges to outpu
+n_output_edge: -1  # not used if output_edge set to false

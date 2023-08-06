@@ -1,0 +1,17 @@
+{
+    "n_jobs": 40,
+    "output_edgelist": false,
+    "n_output_edge": -1,
+    "seed": 42,
+    "cor_type": "pearson",
+    "split_by": "edge",
+    "feature_set": "mutual_rank",
+    "test_size": 0.5,
+    "ml_type": "xgboost",
+    "filter_before_prediction": true,
+    "min_feature_count": 1,
+    "filter_after_prediction": true,
+    "filter_criterion": "max",
+    "filter_threshold": 0.95,
+    "filter_blacklist": true
+}
