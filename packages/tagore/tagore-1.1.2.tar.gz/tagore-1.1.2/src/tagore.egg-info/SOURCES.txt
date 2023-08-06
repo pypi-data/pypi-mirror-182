@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tagore/__init__.py
+src/tagore/base.svg.p
+src/tagore/main.py
+src/tagore.egg-info/PKG-INFO
+src/tagore.egg-info/SOURCES.txt
+src/tagore.egg-info/dependency_links.txt
+src/tagore.egg-info/entry_points.txt
+src/tagore.egg-info/requires.txt
+src/tagore.egg-info/top_level.txt
+src/tagore/scripts/rfmix2tagore.py

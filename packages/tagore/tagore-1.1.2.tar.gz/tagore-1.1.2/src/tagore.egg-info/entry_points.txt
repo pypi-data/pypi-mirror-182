@@ -1,0 +1,3 @@
+[console_scripts]
+rfmix2tagore = tagore.scripts.rfmix2tagore:main
+tagore = tagore.main:run
