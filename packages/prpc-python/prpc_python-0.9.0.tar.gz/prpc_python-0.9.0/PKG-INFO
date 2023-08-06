@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: prpc-python
+Version: 0.9.0
+Summary: A very simple RPC-like library to make writing Pyodide applications easier. At the core of the library is a simple App + Decorator based approach inspired by Flask.
+Home-page: https://github.com/SocialFinanceDigitalLabs/prpc
+License: MIT
+Keywords: rpc,pyodide
+Author: Kaj Siebert
+Author-email: kaj@k-si.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: cli
+Provides-Extra: flask
+Provides-Extra: simple
+Requires-Dist: click (>=8.1.3,<9.0.0); extra == "cli" or extra == "simple"
+Requires-Dist: click-log (>=0.4.0,<0.5.0); extra == "cli" or extra == "simple"
+Requires-Dist: flask (>=2.2.2,<3.0.0); extra == "flask" or extra == "simple"
+Requires-Dist: flask-cors (>=3.0.10,<4.0.0); extra == "flask" or extra == "simple"
+Requires-Dist: rich (>=12.6.0,<13.0.0); extra == "cli" or extra == "simple"
+Requires-Dist: setuptools (>=62.0.0,<63.0.0)
+Project-URL: Repository, https://github.com/SocialFinanceDigitalLabs/prpc
+Description-Content-Type: text/markdown
+
+
