@@ -1,0 +1,10 @@
+ctypes_windows/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+ctypes_windows/README.MD,sha256=UDFV85o89VIWewU2oqUyVrBvDwlqkVQ5cBhfdU8L0Xk,655
+ctypes_windows/__init__.py,sha256=maZGkdlRkcyNkYoczHU8VQ9ausMNpOf2O2RzD7SsS10,1722
+ctypes_windows/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ctypes_windows/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+ctypes_windows-0.10.dist-info/LICENSE.rst,sha256=mUm-wCZOuzvKLxt9Gac_Zo5cah8QOM0gqn2Z-AluELM,1148
+ctypes_windows-0.10.dist-info/METADATA,sha256=22leqXmMxbXItLxb15A4IYmiUBepsvT2rEcg4FMJ668,1527
+ctypes_windows-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ctypes_windows-0.10.dist-info/top_level.txt,sha256=90NkYnTVVyLykgW8g8Py89aGEGe4NguXM_zbpoWngZA,15
+ctypes_windows-0.10.dist-info/RECORD,,
