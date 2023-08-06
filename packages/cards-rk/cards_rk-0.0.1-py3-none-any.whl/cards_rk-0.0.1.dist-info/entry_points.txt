@@ -1,0 +1,2 @@
+[nbdev]
+cards_rk = cards_rk._modidx:d
