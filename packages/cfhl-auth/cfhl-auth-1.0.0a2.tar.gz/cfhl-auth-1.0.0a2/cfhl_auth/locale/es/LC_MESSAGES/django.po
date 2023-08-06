@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-22 10:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/services/cfhl_auth.py:60
+msgid "Authorization code"
+msgstr "Código de autorización"
+
+#: lib/services/cfhl_auth.py:69
+msgid ""
+"The client id or email is invalid. Please confirm your details at the "
+"nearest office and try again."
+msgstr ""
+"El id del cliente o el correo son inválidos. Por favor confirme sus datos en "
+"la oficina más cercana y vuelva a intentarlo."
+
+#: lib/services/cfhl_auth.py:70
+msgid "Invalid data"
+msgstr "Datos inválidos."
+
+#: lib/services/cfhl_auth.py:73
+msgid "Data request not found."
+msgstr "Los datos requeridos no existen."
+
+#: lib/services/cfhl_auth.py:75
+msgid "Error at database validations"
+msgstr "Errar en la validación de la base de datos"
+
+#: lib/services/cfhl_auth.py:81
+msgid "Customer does not exist."
+msgstr "El cliente no existe."
+
+#: lib/services/cfhl_auth.py:85
+msgid "Not controlled exception error."
+msgstr "Error de excepción no controlada."
+
+#: templates/code_mail.html:8 templates/code_mail.txt:2
+msgid "Hello"
+msgstr "Hola"
+
+#: templates/code_mail.html:9
+msgid ""
+"Thank you for use the <strong>CADEFIHUILA's</strong> transactional portal. "
+"For access to the portal options, please use the code below:"
+msgstr ""
+"Gracias por utilizar el portal transaccional de <strong>CADEFIHUILA</"
+"strong>. Para acceder a las opciones del portal, por favor utilice el código "
+"que encuentra a continuación:"
+
+#: templates/code_mail.html:13 templates/code_mail.txt:8
+#, python-format
+msgid "The code is valid for %(code_timeout)s minutes."
+msgstr "El código es valido por %(code_timeout)s minutos."
+
+#: templates/code_mail.html:16 templates/code_mail.txt:11
+#, python-format
+msgid ""
+"This email was generated automatically at %(email_datetime)s with id "
+"%(email_id)s. Please do not answer it."
+msgstr ""
+"Este correo fue generado automáticamente el %(email_datetime)s con el id "
+"%(email_id)s. Por favor no lo responda."
+
+#: templates/code_mail.txt:4
+msgid ""
+"Thank you for use the CADEFIHUILA's transactional portal. For access to the "
+"portal options, please use the code below:"
+msgstr ""
+"Gracias por utilizar el portal transaccional de CADEFIHUILA. "
+"Para acceder a las opciones del portal, por favor utilice el código "
+"que encuentra a continuación:"
