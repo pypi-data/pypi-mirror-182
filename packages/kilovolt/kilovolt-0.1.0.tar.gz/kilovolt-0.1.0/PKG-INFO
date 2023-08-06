@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kilovolt
+Version: 0.1.0
+Summary: Python client for Kilovolt servers, supports Kilovolt Protocol v9+
+Project-URL: Homepage, https://github.com/strimertul/kilovolt-client-python
+Project-URL: Bug Tracker, https://github.com/strimertul/kilovolt-client-python/issues
+Author-email: Ash Keel <ash@nebula.cafe>
+License-File: LICENSE
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: websockets>=10
+Description-Content-Type: text/markdown
+
+# Kilovolt client
+
+Python client for Kilovolt servers, supports Kilovolt Protocol v9+
+
+## LICENSE
+
+Kilovolt client is licensed under ISC, see `LICENSE` for more details.
