@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+certbot_dns_dnsmanager/__init__.py
+certbot_dns_dnsmanager/dns_dnsmanager.py
+certbot_dns_dnsmanager.egg-info/PKG-INFO
+certbot_dns_dnsmanager.egg-info/SOURCES.txt
+certbot_dns_dnsmanager.egg-info/dependency_links.txt
+certbot_dns_dnsmanager.egg-info/entry_points.txt
+certbot_dns_dnsmanager.egg-info/requires.txt
+certbot_dns_dnsmanager.egg-info/top_level.txt

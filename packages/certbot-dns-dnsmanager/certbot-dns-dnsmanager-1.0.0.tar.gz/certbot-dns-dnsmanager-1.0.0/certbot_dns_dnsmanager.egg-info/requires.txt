@@ -1,0 +1,4 @@
+requests>=2.25.1
+setuptools>=41.6.0
+acme>=1.0.0
+certbot>=1.0.0
