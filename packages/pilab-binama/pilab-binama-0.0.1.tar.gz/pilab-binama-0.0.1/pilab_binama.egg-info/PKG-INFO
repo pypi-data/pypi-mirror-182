@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pilab-binama
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/PiLAB-Medical-Imaging/BinaryMasks
+Author: PiLAB
+Author-email: nicolas.delinte@uclouvain.be
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# Binary Masks Operations
+
+Welcome to the Binary Masks Operations's Github repository! 
+
+## Description
+
+This package contains helpful functions enabling a faster clean up of binary masks and other functionalities.
+
