@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mfunc
+Version: 0.0.1
+Summary: Wrapper class around Python functions allowing mathematical operations, as if they'd already been evaluated.
+Project-URL: Homepage, https://github.com/josh-read/mfunc
+Project-URL: Bug Tracker, https://github.com/josh-read/mfunc/issues
+Author-email: Josh Read <joshua-read@hotmail.co.uk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# mfunc
+Wrapper class around Python functions allowing mathematical operations, as if they'd already been evaluated.
