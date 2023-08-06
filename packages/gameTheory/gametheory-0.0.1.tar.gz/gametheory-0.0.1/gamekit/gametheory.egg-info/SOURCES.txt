@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+gamekit/gametheory.egg-info/PKG-INFO
+gamekit/gametheory.egg-info/SOURCES.txt
+gamekit/gametheory.egg-info/dependency_links.txt
+gamekit/gametheory.egg-info/requires.txt
+gamekit/gametheory.egg-info/top_level.txt
