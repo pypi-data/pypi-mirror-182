@@ -1,0 +1,11 @@
+nonebot_plugin_what2eat/__init__.py,sha256=fpACvyyta0kIb-sjfqSB_CdXDrPtYL9aCbIKVCxZzGU,11476
+nonebot_plugin_what2eat/config.py,sha256=jRxYbkzZCIaVm01le6j3lLmlTxtH3EhEgNkpos5Ql9g,4887
+nonebot_plugin_what2eat/data_source.py,sha256=6v_C3Pjq3Lyi_jaK079HpFElbf1O5ax3hQl8Hakjiqk,16901
+nonebot_plugin_what2eat/resource/drinks.json,sha256=v2CiucAvImdl4yoEtzJWVR40k6rpPW4lLbZ4ELFF5O8,9971
+nonebot_plugin_what2eat/resource/eating.json,sha256=eOCGudqlA9qgMrHwjBsHMJrM37-XxDqg-piF069Z8cU,8505
+nonebot_plugin_what2eat/resource/greetings.json,sha256=KH3ExaR1W7FOJPrnet3wQ3eu3ThSs8UsXwRWW2UzvdI,1005
+nonebot_plugin_what2eat/utils.py,sha256=mO9x1VckbQNG4vNYV3dGugfq2p7zqTFSuJo1qjNip24,3612
+nonebot_plugin_what2eat-0.3.5a1.dist-info/LICENSE,sha256=aHhX9so28tCgkKmNzL5jtZdjzSzN2eYBBjr15v2qSD8,1068
+nonebot_plugin_what2eat-0.3.5a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nonebot_plugin_what2eat-0.3.5a1.dist-info/METADATA,sha256=uYY67x1aoqfl2KrNB8XJfqlE7SINnsUAOFSdRmEh9BM,6756
+nonebot_plugin_what2eat-0.3.5a1.dist-info/RECORD,,
