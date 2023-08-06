@@ -1,0 +1,2 @@
+[console_scripts]
+mp3toolsce = mp3toolsce.mp3tools:main
