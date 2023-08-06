@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Pymenulist
+Version: 1.1.2
+Summary: Create console menu
+Home-page: UNKNOWN
+Author: Rushpy
+Author-email: oivan4218@gmail.com
+License: UNKNOWN
+Description: # start menu list
+        
+        import Pymenulist
+        def print_blue():
+            print("blue")
+        def print_red():
+            print("red")
+        
+        
+        menulist = [["1", "print blue", print_blue], ["2", "print red", print_red]]
+        #["index menu", "name menu", object func]
+        Pymenulist.start_menu_list(menulist)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
