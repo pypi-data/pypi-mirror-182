@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+myMilePackage/__init__.py
+myMilePackage/mileConverter.py
+myMileViji.egg-info/PKG-INFO
+myMileViji.egg-info/SOURCES.txt
+myMileViji.egg-info/dependency_links.txt
+myMileViji.egg-info/top_level.txt
