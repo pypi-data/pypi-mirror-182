@@ -1,0 +1,11 @@
+forensicface/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+forensicface/_modidx.py,sha256=HDQ-giCm12wwg5oTl6F7RXz1tPcwX0yuDUUtNFpMsRg,3582
+forensicface/app.py,sha256=1ibY4yIAYCpDxknHvPu13TH99Q0WNeZ7RkWQJcGbr2g,4543
+forensicface/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+forensicface/forensicface.py,sha256=wR3aqxBOPLW6j92rZsOsW2Ka-yOa1ZVXzBoNJXqoPRg,3279
+forensicface-0.0.1.dist-info/LICENSE,sha256=ktqRI5o4TI0L3ga8HLgq3xEVVl9n0e0q0QbT5lJWk_w,1510
+forensicface-0.0.1.dist-info/METADATA,sha256=N71a0cYBu3WZ3UacdEh5Ps4K9IZlqNhmwpDigfvXQVA,2974
+forensicface-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+forensicface-0.0.1.dist-info/entry_points.txt,sha256=pyIbDk5VsOTniSyMa-6j_FR_hipUCZZzeaUnqWuECKw,46
+forensicface-0.0.1.dist-info/top_level.txt,sha256=sSR821Q-QZscAcZqCN-nAe3xiooxHC_shyWe-9Tuh0k,13
+forensicface-0.0.1.dist-info/RECORD,,
