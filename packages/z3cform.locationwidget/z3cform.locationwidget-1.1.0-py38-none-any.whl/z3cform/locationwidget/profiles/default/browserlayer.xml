@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="z3cform.locationwidget"
+      interface="z3cform.locationwidget.interfaces.IZ3CformLocationwidgetLayer"
+      />
+</layers>

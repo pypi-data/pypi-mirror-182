@@ -1,0 +1,172 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      i18n:domain="z3cform.locationwidget"
+      tal:omit-tag="">
+
+
+<!--?  <input type="text"-->
+<!--?         placeholder="Type an address"-->
+<!--?         i18n:attributes="placeholder"-->
+<!--?         tal:attributes="class python:'text-widget required textline-field' if view.required else 'text-widget textline-field';-->
+<!--?                         id    string:location-widget-address-${view/timestamp};" />-->
+
+  <div style="padding: 10px 0px;" >
+    <label><input type="checkbox" tal:attributes="id string:show-coor-${view/timestamp}" /> <metal:block i18n:translate="">Show coordinates</metal:block> </label>
+    <input type="text"
+           class="hidden"
+           placeholder="lat|lng"
+           tal:attributes="name view/name;
+                           value view/value;
+                           data-init-value python:view.value or view.default_value;
+                           id string:location-widget-coordinates-${view/timestamp}" />
+  </div>
+
+  <div tal:attributes="id string:location-widget-map-${view/timestamp}" ></div>
+
+
+  <div class="temp-script">
+  <script type="text/javascript" importance="high">
+    require([
+      'jquery',
+      '++resource++z3cform.locationwidget/gmaps.js',
+      'https://maps.googleapis.com/maps/api/js?key=${view/api_key}'
+    ], (function($, GMaps){
+
+        var timestamp = ${view/timestamp},
+            inputCoordinates = $('#location-widget-coordinates-'+timestamp),
+            inputAddress     = $('#location-widget-address-'+timestamp),
+            state = {
+              mapCenter: parseLatLng( inputCoordinates.attr('data-init-value') )
+            }
+
+        function setState(attr, value, shouldUpdate) {
+          state[attr] = value
+          if (shouldUpdate !== false) {
+            update()
+          }
+        }
+
+        function update(){
+          updateMapCenter()
+          updateInputCoordinates()
+        }
+
+        function updateInputCoordinates(){
+          inputCoordinates.val( parseLatLng(state.marker.getPosition()) )
+        }
+
+        function updateMapCenter(){
+          map.setCenter(state.mapCenter.lat, state.mapCenter.lng)
+        }
+
+
+        var map = new GMaps({
+          div: '#location-widget-map-'+timestamp,
+          lat: state.mapCenter.lat,
+          lng: state.mapCenter.lng,
+          height: '350px',
+          width: '100%',
+          drag: function(){
+            setState('mapCenter', {
+              lat: this.getCenter().lat(),
+              lng: this.getCenter().lng()
+            })
+          }
+        })
+
+        var marker = map.addMarker({
+          lat: state.mapCenter.lat,
+          lng: state.mapCenter.lng,
+          animation: google.maps.Animation.DROP,
+          draggable: true,
+          dragend: function(){
+            setState('marker', this)
+          },
+          drag: function(){
+            setState('mapCenter', {
+              lat: map.getCenter().lat(),
+              lng: map.getCenter().lng()
+            })
+          }
+        })
+        setState('marker', marker)
+
+
+        var geolocate = function(event){
+            console.log('geoooo')
+
+          GMaps.geocode({
+            address: event.target.value,
+            callback: function(results, status) {
+              if (status == 'OK') {
+                var latlng = results[0].geometry.location;
+                state.marker.setPosition(latlng);
+                setState('mapCenter', {
+                  lat: latlng.lat(),
+                  lng: latlng.lng()
+                })
+              }
+            }
+          });
+
+        }
+        inputAddress.on('input', debounce(geolocate, 500) )
+
+
+        inputCoordinates.on('input', debounce(function(event){
+          var latlng = parseLatLng(event.target.value)
+          state.marker.setPosition(latlng);
+          setState('mapCenter', latlng)
+        }, 500) )
+
+        $('#show-coor-'+timestamp).on('input, change, click', function(e){
+          $(this).is(":checked") ? inputCoordinates.removeClass('hidden') : inputCoordinates.addClass('hidden')
+        })
+
+        // utils
+
+        function parseLatLng(input){
+          if (!input) {
+            return state.mapCenter
+          }
+          if (typeof input ==  'object') {
+            if (typeof input.lat == 'function') {
+              return input.lat() + '|' + input.lng()
+            } else {
+              return input.lat + '|' + input.lng
+            }
+
+          } else if (typeof input == 'string') {
+            var coor = input.split('|')
+            return {
+              lat: parseFloat(coor[0]),
+              lng: parseFloat(coor[1])
+            }
+          }
+        }
+
+        function debounce(func, wait, immediate) {
+          var timeout;
+          return function() {
+            var context = this, args = arguments;
+            var later = function() {
+              timeout = null;
+              if (!immediate) func.apply(context, args);
+            };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+          };
+        };
+
+      })
+    )
+  </script>
+  </div>
+
+
+
+</html>

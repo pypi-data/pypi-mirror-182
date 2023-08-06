@@ -1,0 +1,62 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:z3c="http://namespaces.zope.org/z3c"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="z3cform.locationwidget">
+
+  <i18n:registerTranslations directory="locales" />
+
+<!--?  <includeDependencies package="." />-->
+
+  <include package=".browser" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Widget MapLocation (z3cform.locationwidget)"
+      directory="profiles/default"
+      description="Installs the z3cform.locationwidget add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      i18n:attributes="title;description"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Widget MapLocation (z3cform.locationwidget) (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the z3cform.locationwidget add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      i18n:attributes="title;description"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="z3cform.locationwidget-hiddenprofiles" />
+
+
+
+  <class class=".widget.LocationWidget">
+      <require permission="zope.Public"
+               interface=".interfaces.ILocationWidget" />
+  </class>
+
+  <adapter
+      factory=".widget.LocationFieldWidget"
+      for=".interfaces.ILocationField
+           z3c.form.interfaces.IFormLayer" />
+
+  <z3c:widgetTemplate
+    mode="input"
+    widget=".interfaces.ILocationWidget"
+    layer="z3c.form.interfaces.IFormLayer"
+    template="location_input.pt" />
+
+  <z3c:widgetTemplate
+    mode="display"
+    widget=".interfaces.ILocationWidget"
+    layer="z3c.form.interfaces.IFormLayer"
+    template="location_display.pt" />
+
+</configure>
