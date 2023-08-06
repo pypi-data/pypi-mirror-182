@@ -1,0 +1,11 @@
+setup.py
+whitelist_roblox.egg-info/PKG-INFO
+whitelist_roblox.egg-info/SOURCES.txt
+whitelist_roblox.egg-info/dependency_links.txt
+whitelist_roblox.egg-info/requires.txt
+whitelist_roblox.egg-info/top_level.txt
+wl_magixx/__init__.py
+wl_magixx/discordbot/__init__.py
+wl_magixx/discordbot/cogs/whitelist.py
+wl_magixx/discordbot/__init__.py
+wl_magixx/discordbot/cogs/whitelist.py
