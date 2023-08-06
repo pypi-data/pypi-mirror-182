@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: drives
+Version: 0.0.1
+Summary: Drives for Humans™
+Home-page: https://pypi.org/project/drives
+License: BSD-3-Clause
+Author: Yi Zhang
+Author-email: yizhang.dev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://drives.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/imyizhang/drives
+Description-Content-Type: text/markdown
+
+# Drives
+
+[![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link]
+
+Store your data in seconds.
+
+
+
+
+## Installation
+
+```bash
+pip install drives
+```
+
+
+
+## Quickstart
+
+```python
+import drives
+```
+
+
+
+## License
+
+**Drives** has a BSD-3-Clause license, as found in the [LICENSE](https://github.com/imyizhang/drives/blob/main/LICENSE) file.
+
+
+
+## Contributing
+
+Thanks for your interest in contributing to **Drives**! Please feel free to create a pull request.
+
+
+
+## Changelog
+
+**Drives 0.0.1**
+
+* Initial release
+
+
+
+[github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
+[github_link]: https://github.com/imyizhang/drives
+
+
+
+[pypi_badge]: https://badgen.net/pypi/v/drives?icon=pypi&color=black&label
+[pypi_link]: https://www.pypi.org/project/drives
