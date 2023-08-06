@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+akms_logs/__init__.py
+akms_logs/main.py
+akms_logs.egg-info/PKG-INFO
+akms_logs.egg-info/SOURCES.txt
+akms_logs.egg-info/dependency_links.txt
+akms_logs.egg-info/top_level.txt
