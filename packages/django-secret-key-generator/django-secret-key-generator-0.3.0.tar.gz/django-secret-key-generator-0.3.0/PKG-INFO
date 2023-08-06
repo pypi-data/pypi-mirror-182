@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-secret-key-generator
+Version: 0.3.0
+Summary: A secure secret key generator for django
+Home-page: https://github.com/arshad-shah/django_key
+Author: Arshad Shah
+Author-email: shaharshad57@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Generate a secure django SECRET KEY
+
+## Installation:
+`$ pip install django-secret-key-generator`
+
+### How to use:
+
+Run this command:
+
+`$ django-secret-key-generator`
