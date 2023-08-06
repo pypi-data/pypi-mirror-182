@@ -1,0 +1,3 @@
+[console_scripts]
+run = sneks.engine.runner:main
+validate = sneks.validator.main:main
