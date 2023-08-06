@@ -1,0 +1,45 @@
+image: public.ecr.aws/sam/build-python3.9
+
+definitions:
+  steps:
+    - step: &init
+        name: Install necessary pakages
+        caches:
+          - pip
+        script:
+          - pip install -r requirements.txt
+    - step: &build
+        name: Generating distribution archives
+        script:
+          - pip install -r requirements.txt
+          - VERSION=$((1 + $RANDOM % 10)).$((1 + $RANDOM % 10)).$((1 + $RANDOM % 10))
+          - PACKAGE_NAME="example_package_nqtuan"
+          - echo $VERSION
+          - echo $PACKAGE_NAME
+          - sed -i "/version = /s/PACKAGE_VERSION/\"$VERSION\"/" $(pwd)/pyproject.toml
+          - sed -i "/name = /s/PACKAGE_NAME/\"$PACKAGE_NAME\"/" $(pwd)/pyproject.toml
+          - cat $(pwd)/pyproject.toml
+          - python3 -m build
+        artifacts:
+          - dist/*
+    - step: &upload-dev
+        name: Uploading the distribution archives
+        script:
+          - pip install -r requirements.txt
+          - python3 -m twine upload --repository testpypi dist/* --skip-existing -u $PYPI_DEV_USERNAME -p $PYPI_DEV_PASSWORD
+    - step: &upload-prod
+        name: Uploading the distribution archives
+        script:
+          - pip install -r requirements.txt
+          - python3 -m twine upload dist/* --skip-existing -u $PYPI_PROD_USERNAME -p $PYPI_PROD_PASSWORD
+
+pipelines:
+  branches:
+    dev:
+      - step: *init
+      - step: *build
+      - step: *upload-dev
+    master:
+      - step: *init
+      - step: *build
+      - step: *upload-prod
