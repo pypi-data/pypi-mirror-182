@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/my_own_package/__init__.py
+src/primul_pachet_Iustin_Muresanu.egg-info/PKG-INFO
+src/primul_pachet_Iustin_Muresanu.egg-info/SOURCES.txt
+src/primul_pachet_Iustin_Muresanu.egg-info/dependency_links.txt
+src/primul_pachet_Iustin_Muresanu.egg-info/top_level.txt
