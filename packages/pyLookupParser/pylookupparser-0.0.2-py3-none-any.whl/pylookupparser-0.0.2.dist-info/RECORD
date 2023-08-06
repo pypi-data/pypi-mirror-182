@@ -1,0 +1,17 @@
+plp/__init__.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+plp/download.py,sha256=r5VhqTZiIAZNAU3k9yO0LDSUV2WZHAWS9_1jc3ZWJhI,3664
+plp/eventrefparser.py,sha256=gMHPycpua16DgKI5rONFVvzqZ8yTRR6qtvHUggwt_vg,3353
+plp/eventsignature.py,sha256=LX6U04i_ySnvKR6Saz5JuqBIGOZODpIQMEVbHXooXA0,1536
+plp/ordinal.py,sha256=WPF67rV4qkB-YC_-NtEacIFwaayQDWG5iDdDjJuLeJE,2099
+plp/parsing.py,sha256=acqz5FRTlMBCF6oDCQwP9yUYsz3n8k_Cvf5dW1aGFi0,5636
+plp/signature.py,sha256=37L032k-4J4aBDkrMcHL1Lifs7BXmKMu_0RfZH98KBE,12527
+plp/resources/acronyms.yaml,sha256=fAUNRH-fKyG45XX1reB_MApMUQqL_9MdiTcSnz07uTE,1191437
+plp/resources/cityNamePrefixes.yaml,sha256=vkvmmrnlgxPyjoExeZF_7Mwo-aFLoH4YH06FLYWQWls,1059
+plp/resources/cityNames.yaml,sha256=I_firLRSPYeg6SvEqka5tfYIhqzjbeRtfG2rMKoDIm4,14122
+plp/resources/countries.yaml,sha256=dzYW4CVRVtdbze3rEAYXkGwt-GrIGURKPPcmwLHrK8k,7567
+plp/resources/dictionary.yaml,sha256=6E4y88zx72prDjAgKnGj8sIn2fHR02Dc8kru8wpZSic,24485
+plp/resources/years.yaml,sha256=FLzqSkh91sVypTYFkd3-c9whQew8DZMoTX1Y47XtQmA,2513
+pylookupparser-0.0.2.dist-info/METADATA,sha256=D3W_FRxz1lxoZg3CpoGgVpTVA7ufRfNKuA4ZvJCA03k,2515
+pylookupparser-0.0.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pylookupparser-0.0.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pylookupparser-0.0.2.dist-info/RECORD,,
