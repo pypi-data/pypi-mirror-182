@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ioutil"
+version = "1.0.3"
+description = "To read and write files."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "Apache License, Version 2.0" }
+authors = [
+    { name = "srg", email = "srg.code@pm.me" },
+]
+dependencies = [
+    "toml",
+    "srutil",
+    "pandas",
+    "pyarrow"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "io", "read", "write", "file", "ioutil"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/codesrg/ioutil"
+"Bug Tracker" = "https://github.com/codesrg/ioutil/issues"
+
+[project.scripts]
+ioutil = "ioutil.__main__:main"

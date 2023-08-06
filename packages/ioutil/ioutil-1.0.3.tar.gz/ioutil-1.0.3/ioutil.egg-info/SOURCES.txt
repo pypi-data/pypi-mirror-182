@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+ioutil/__init__.py
+ioutil/__main__.py
+ioutil/_csv.py
+ioutil/_file.py
+ioutil/_json.py
+ioutil/_parquet.py
+ioutil/_text.py
+ioutil/_toml.py
+ioutil.egg-info/PKG-INFO
+ioutil.egg-info/SOURCES.txt
+ioutil.egg-info/dependency_links.txt
+ioutil.egg-info/entry_points.txt
+ioutil.egg-info/requires.txt
+ioutil.egg-info/top_level.txt
