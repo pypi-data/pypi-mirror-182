@@ -1,0 +1,10 @@
+lotto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lotto/cli.py,sha256=5dQ-7H-2_4vhrQh2DDD2Zp1Ov_mFaT76VJlvMykzO78,533
+lotto/controllers.py,sha256=UnAaJugiCCofutSkRBMee12PopyHPR9efeY_yzVjpcQ,1412
+lotto/main.py,sha256=rJGXxUfQSw1EIN-Ivc-vtPWXj99QACHV81nNHGwuE0M,601
+lotto/models.py,sha256=kvEW88BUVWBvLtrg7CbxPz9v7wrkA7QUymFjzqrkkdU,878
+lotto/views.py,sha256=45vTobBkciCIdyOjzg1Xeo142gVgTbYD-mzs1SA8x58,584
+thath_lotto-0.1.0.dist-info/entry_points.txt,sha256=yQ4eOY3j-rUxDj5QUheHuCHMKS4L6u3rH5yQldpwf-k,39
+thath_lotto-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+thath_lotto-0.1.0.dist-info/METADATA,sha256=lhZAnIwnvqfmnhDbMzLpN9U5qQsYn57DaJufVkANmPU,448
+thath_lotto-0.1.0.dist-info/RECORD,,
