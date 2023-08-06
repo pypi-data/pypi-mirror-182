@@ -1,0 +1,12 @@
+WebOb<1.8.999,>=1.8
+prompt_toolkit<3.0.999,>=2.0.10
+reahl-component<6.2,>=6.1
+reahl-dev<6.2,>=6.1
+reahl-tofu<6.2,>=6.1
+reahl-web<6.2,>=6.1
+selenium<4.7.9999,>=2.42
+setuptools>=51.0.0
+watchdog<2.2.999,>=0.8.3
+
+[pillow]
+Pillow<9.3.999,>=2.5
