@@ -1,0 +1,5 @@
+executor/safe_queue.py,sha256=2Y4C5ZvSeDezJE2v1Wm_V3Ys5ZfxiZtcy_JVVbs-4Mc,2057
+thread_executor-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thread_executor-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+thread_executor-0.1.1.dist-info/METADATA,sha256=nEeUU7T1ibjbQzz9YLDAW0alXxEVgHvaneqOyN9NwDY,4705
+thread_executor-0.1.1.dist-info/RECORD,,
