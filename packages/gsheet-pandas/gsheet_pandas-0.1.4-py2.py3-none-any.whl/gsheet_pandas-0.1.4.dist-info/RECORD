@@ -1,0 +1,8 @@
+gsheet_pandas/__init__.py,sha256=hcVsgrFI1f_wxAAI90zlL-3yplvim16MGyjra9WO7tY,99
+gsheet_pandas/connection.py,sha256=8R-jAefZtHYLdZ5vU8Lb-dgYinq0crWtcR0FzlyGgII,4658
+gsheet_pandas/test.py,sha256=fXUgctnwxwR0TVta9k4bkMViQhRv2ZL14nOTf8GGIw0,1720
+gsheet_pandas-0.1.4.dist-info/LICENSE,sha256=Kg_CXBAeAdV7W_m3E0e5Sz2o5iWS5Q1ScDK0xc0xO4w,1069
+gsheet_pandas-0.1.4.dist-info/METADATA,sha256=MT4kzMbkBw_RNKti8OtFlX_nmh3_PrWRv35AkLK0U3Q,3890
+gsheet_pandas-0.1.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+gsheet_pandas-0.1.4.dist-info/top_level.txt,sha256=BLKUjpwfbwdlf0izS5f0DquvijpB0t9cSSskEBDjV14,14
+gsheet_pandas-0.1.4.dist-info/RECORD,,
