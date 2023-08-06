@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/PhoneCreate/__init__.py
+src/PhoneCreate/phone.py
+src/PhoneCreate.egg-info/PKG-INFO
+src/PhoneCreate.egg-info/SOURCES.txt
+src/PhoneCreate.egg-info/dependency_links.txt
+src/PhoneCreate.egg-info/top_level.txt
