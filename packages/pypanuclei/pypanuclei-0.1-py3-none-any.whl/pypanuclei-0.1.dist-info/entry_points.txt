@@ -1,0 +1,2 @@
+[console_scripts]
+pypanuclei = pypanuclei.pypanuclei:cli
