@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "grand-challenge"
+version = "0.1.0"
+description = "Next Generation Grand Challenge Python Client"
+authors = ["James Meakin <12661555+jmsmkn@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "grand_challenge"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
