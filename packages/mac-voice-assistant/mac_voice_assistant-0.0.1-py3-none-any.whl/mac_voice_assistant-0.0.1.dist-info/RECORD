@@ -1,0 +1,15 @@
+mac_voice_assistant/__init__.py,sha256=w3SMdOXeA1u5YGsgkTSFNOg21HVAEV8qRbcopFbwigg,58
+mac_voice_assistant/main.py,sha256=tw8q-PC0d5cX2I8ZVGIu4xOTGoOpwwXVZ-MLKc35Vik,132
+mac_voice_assistant/my_assistant.py,sha256=h-_fJsoQidfO8UGkkatsG4NgOjWxvounSeh7dTnunTQ,8411
+mac_voice_assistant/my_hotkey.py,sha256=lUpbG_d2b4qUPAoZQgQPAJh7QUI3Rrl2NAug3ORc8sI,189
+mac_voice_assistant/neuralintents.py,sha256=TXEXLEH585U-Z_YhCCTF_ZpRWFPO4A56gN_3eclawUk,6776
+mac_voice_assistant/responses.py,sha256=ixUVSazP7dOKzBRqxb0Ko2A847EaW07ArVg9sWSRtQY,311
+mac_voice_assistant/settings.py,sha256=a4EZDBBRRDAIuELfROwBy5fdjy4seV99jDnceCcvJj0,54
+mac_voice_assistant/speech.py,sha256=kULovbmR9jhrUtNiJGwCWCK4tjmqDzpINWnD3j2MXWU,1707
+mac_voice_assistant/start.py,sha256=qGkwS4thJwgLxIi1fBm_jjBxvJIc4nMal10Qm8PGxBY,520
+mac_voice_assistant/utilities.py,sha256=j2osztpSF4cRGvNO2HuBkFHPqSlgr0nakptcZhd9120,110
+mac_voice_assistant-0.0.1.dist-info/LICENSE,sha256=jRZJaKV8lydo0hWMFY8Uz3mv1Qt9ycQhjx8RslO6PQM,1067
+mac_voice_assistant-0.0.1.dist-info/METADATA,sha256=bpXGaHhsoCb0XzqtWYwh5J1sh_WC0cnLWhuInVmANJI,1900
+mac_voice_assistant-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mac_voice_assistant-0.0.1.dist-info/top_level.txt,sha256=08_6SYn1xHaG6NmOKoJbTdhSpWnxcgnTBl21xufmzG0,20
+mac_voice_assistant-0.0.1.dist-info/RECORD,,
