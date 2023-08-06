@@ -1,0 +1,11 @@
+collection/__init__.py,sha256=u_Wsc6U0-5p8KzrYAmrd_X-JbGII6vxZtCHOR8yMhq0,33
+collection/collection.py,sha256=NyNlkTuXZT9G4UelZFxdHNaiiOe5fqqTh3d2-kOf4yk,1528
+pycollection/__init__.py,sha256=EdmTrMgKqhdJ4x_zM1T47dRonHiqKITjiBomUkpyTDQ,34
+pycollection/collection.py,sha256=ORtRQ1-EfYjyf0LS2Bgb-uj9lhhH7dd-z98uwQLqpD0,1914
+src/__init__.py,sha256=EdmTrMgKqhdJ4x_zM1T47dRonHiqKITjiBomUkpyTDQ,34
+src/collection.py,sha256=NyNlkTuXZT9G4UelZFxdHNaiiOe5fqqTh3d2-kOf4yk,1528
+pycollection-1.0.5.dist-info/LICENSE,sha256=yCLyD7iPPCZSqa_JH6iqXZAviLhayGlOD5entYlu8oA,1062
+pycollection-1.0.5.dist-info/METADATA,sha256=BOPSCNO--bPD26GcfIyJkNtB0wIx6oSK5pbsBqbkLo8,2400
+pycollection-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycollection-1.0.5.dist-info/top_level.txt,sha256=DBZwJRlO0kiTSaq9mXGR8veTPHwKHoESscjltE1uGS8,13
+pycollection-1.0.5.dist-info/RECORD,,
