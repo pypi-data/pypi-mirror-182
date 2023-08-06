@@ -1,0 +1,2 @@
+[console_scripts]
+tenkan = tenkan.cli:main
