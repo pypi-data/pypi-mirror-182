@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: danopenshift
+Version: 1.1.0
+Home-page: https://github.com/dansolo1304/openshift-restclient-python
+Author: Dan
+Author-email: tuyentd@yandex.com
+License: MIT
+Keywords: Openshift
+License-File: LICENSE
