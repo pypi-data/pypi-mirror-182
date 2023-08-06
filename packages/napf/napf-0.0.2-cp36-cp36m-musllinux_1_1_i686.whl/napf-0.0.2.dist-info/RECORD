@@ -1,0 +1,10 @@
+napf.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+napf.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+napf-0.0.2.dist-info/WHEEL,sha256=vKL5TyPvBaqrVS_wrd1wwVcCEkHcF1Y5mT8I1AQaxRA,110
+napf-0.0.2.dist-info/top_level.txt,sha256=2c4FwFA9xSRIW492mX30Z9nXLvzdzrPzQtXoKxCbQM0,5
+napf-0.0.2.dist-info/LICENSE,sha256=RQpxfZtmIABHeQ62S0CQ74mI2Ddoay4UcJiw87LGnUs,1068
+napf-0.0.2.dist-info/RECORD,,
+napf-0.0.2.dist-info/METADATA,sha256=IcMqKMOa4y_z3TaAYOCqV4Prxjq490d5sZY9S0q75Gc,2251
+napf/base.py,sha256=ZUE-ZD-CoAbU_OjT_im4LF5vjAJqe-j_Ow6Hd3t4zSQ,8484
+napf/_napf.cpython-36m-i386-linux-gnu.so,sha256=17Sc3sFVh0s1WBbuHZjCSV75W8wxbNXvF_nG7yUahbY,5816712
+napf/__init__.py,sha256=70buXUQyVx6xnsXWwQU0A6voO7lox4SRmfxTtZdL2No,339
