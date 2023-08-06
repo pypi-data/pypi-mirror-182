@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+test/__init__.py
+test/test_urbitob.py
+urbitob/__init__.py
+urbitob/co.py
+urbitob/ob.py
+urbitob.egg-info/PKG-INFO
+urbitob.egg-info/SOURCES.txt
+urbitob.egg-info/dependency_links.txt
+urbitob.egg-info/requires.txt
+urbitob.egg-info/top_level.txt
