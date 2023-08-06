@@ -1,0 +1,2 @@
+[console_scripts]
+s3prl-vc-decode = s3prl_vc.bin.decode:main
