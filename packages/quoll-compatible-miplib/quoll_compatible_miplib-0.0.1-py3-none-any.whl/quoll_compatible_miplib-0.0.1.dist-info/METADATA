@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: quoll-compatible-miplib
+Version: 0.0.1
+Summary: A Python software library for (optical) microscopy image restoration, reconstruction and analysis.
+Download-URL: https://github.com/sakoho81/miplib/archive/v1.0.5.tar.gz
+Author: Sami Koho
+Author-email: sami.koho@gmail.com
+License: BSD
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+License-File: License.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Provides-Extra: fullmiplib
+Requires-Dist: h5py ; extra == 'fullmiplib'
+Requires-Dist: SimpleITK ; extra == 'fullmiplib'
+Requires-Dist: jpype1 ; extra == 'fullmiplib'
+Requires-Dist: matplotlib ; extra == 'fullmiplib'
+Requires-Dist: pims ; extra == 'fullmiplib'
+Requires-Dist: scikit-image ; extra == 'fullmiplib'
+Requires-Dist: psf ; extra == 'fullmiplib'
+
