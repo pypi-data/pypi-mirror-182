@@ -1,0 +1,9 @@
+postfixcalc/__init__.py,sha256=ycA_p2_epHfVXba43EPp_-VMIIBVU3b4A0KaF8UDu6Q,25
+postfixcalc/parser.py,sha256=vpayIJ0vUG4ymjiFDmQGOIvmkkg8sEQ7zrZpFw2Mz8A,6270
+postfixcalc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postfixcalc/pyeval.py,sha256=vKkKoM5tNNelIccNUGVmVVWiuzVkoa1kmAh8PUUBCOI,3694
+postfixcalc/typings.py,sha256=T00JqUaoik5R1SKgpvh0P4XyOsKUCM0sB449z5b_x78,360
+postfixcalc-0.8.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+postfixcalc-0.8.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+postfixcalc-0.8.0.dist-info/METADATA,sha256=T8QStwFOE7MU2I-YWOnepTeQtmMd8_9AQXtLOi8IOVg,3140
+postfixcalc-0.8.0.dist-info/RECORD,,
