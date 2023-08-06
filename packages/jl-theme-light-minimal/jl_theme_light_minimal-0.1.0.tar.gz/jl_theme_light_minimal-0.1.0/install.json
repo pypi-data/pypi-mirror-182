@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "jl_theme_light_minimal",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package jl_theme_light_minimal"
+}
