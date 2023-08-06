@@ -1,0 +1,2 @@
+[console_scripts]
+dfac = dfac.__main__:run
