@@ -1,0 +1,10 @@
+tagore/__init__.py,sha256=XKAZUKb5AjBRGl9KymvY1bBgiCG_X0Oznuh5TALtF1Y,20
+tagore/base.svg.p,sha256=9lXKTYas_z_u9AHe0IE8frZpMYmObc8we6MBS7KMKRk,25046
+tagore/main.py,sha256=IwPFJlmh1Uvwrxeo6GWyksXgPh92e6plBaGccl4Nz2w,13828
+tagore/scripts/rfmix2tagore.py,sha256=rZllqf8WHI6XtDcoFMQ7Amh0WMr7IJfDxGE4jE1zjwU,2354
+tagore-1.1.2.dist-info/LICENSE,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+tagore-1.1.2.dist-info/METADATA,sha256=VECCMz8DwuoN0Uw02QM2ZCxX7DSGrU91NdOyzo-Qvw8,4993
+tagore-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tagore-1.1.2.dist-info/entry_points.txt,sha256=QF5_w2stsqtNB-qO1c_-AI4icyBkaLa9FZdaXkGG8ZI,91
+tagore-1.1.2.dist-info/top_level.txt,sha256=TSY0nDNQJpMrMHOyWjF-CK65Tk4UbSeowIeBCyJxATo,7
+tagore-1.1.2.dist-info/RECORD,,
