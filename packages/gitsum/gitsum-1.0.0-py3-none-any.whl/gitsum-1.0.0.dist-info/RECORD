@@ -1,0 +1,11 @@
+gitsum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitsum/cli.py,sha256=8GrVzzYbNFTRBWGu9ZpLeuW7fXD-zjA6vIKatAXzhzo,1547
+gitsum/message.py,sha256=fL6PcMwp2KRX-_bul7ay-_YYI2Fje5NBb-FoxYWSCjc,143
+gitsum/search.py,sha256=b8ek03myNjQ_M521eru1C_-Tdapd29cVRyN2DS-6Chw,1964
+gitsum/status.py,sha256=C9F17JA-K9_qszHo962lrTMuQFyLJXoj0RvLXdk3hII,2981
+gitsum-1.0.0.dist-info/LICENSE.txt,sha256=fuYQ74JReq4fqibz8TWFf5K7b5rfrLL1bmB5EgJBrbM,1094
+gitsum-1.0.0.dist-info/METADATA,sha256=ZxO7JvsKOs4LBBdwS9D5ALUeIPcnhi91P_f_vrmZDWc,4753
+gitsum-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gitsum-1.0.0.dist-info/entry_points.txt,sha256=WXKOTDFv5tavHtTPXLRunKTv1j-OR9kWGZYjMaSiLq8,43
+gitsum-1.0.0.dist-info/top_level.txt,sha256=ge5hchB4hsqJEiw8GoMEaRgrIY2nhjdUC7MiJ1XlG9I,7
+gitsum-1.0.0.dist-info/RECORD,,
