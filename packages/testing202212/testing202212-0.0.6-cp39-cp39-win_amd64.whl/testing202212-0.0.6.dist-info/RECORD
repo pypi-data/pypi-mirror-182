@@ -1,0 +1,9 @@
+wrap.cp39-win_amd64.pyd,sha256=aWCWwjWiGmsgYQpk3GirNxtVn-tW_Caq-Tww1BYE4H0,105472
+testing202212-0.0.6.data/platlib/.load-order-testing202212-0.0.6,sha256=wy-BqAd9rm5_gtQrsXWxdm3TyuLUPdh3D29l4NtpzCo,14
+testing202212-0.0.6.data/platlib/msvcp140.dll,sha256=yzx01vzAkfTrfGfuXrX3bByXPeqLHGuFH8ymLCqdiqg,579920
+testing202212-0.0.6.dist-info/DELVEWHEEL,sha256=uyLVWfFzWSZN_6tm2TL3wEPuba66XgK6O7QXirj_FNA,434
+testing202212-0.0.6.dist-info/license,sha256=Kkhlon--UWfsRGm6ba_QyTjL8ng-3OoiyGjJmPwMcTI,6774
+testing202212-0.0.6.dist-info/METADATA,sha256=5CEFBiYFRtGUKT3N5gax65RiR2XZARDJAtl6tvqNz9g,311
+testing202212-0.0.6.dist-info/RECORD,,
+testing202212-0.0.6.dist-info/top_level.txt,sha256=qpnJLkhgtyKZT9BqyTwUBYF_ukpIM2klVzpXI2rOO90,5
+testing202212-0.0.6.dist-info/WHEEL,sha256=J_4V_gB-O6Y7Pn6lk91K27JaIhI-q07YM5J8Ufzqla4,100
