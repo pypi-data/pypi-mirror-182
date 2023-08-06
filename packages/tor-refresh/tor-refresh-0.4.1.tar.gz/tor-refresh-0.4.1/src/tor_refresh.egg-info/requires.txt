@@ -1,0 +1,7 @@
+colorama
+readchar
+requests
+rich
+stem
+python_string_utils
+typer
