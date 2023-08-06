@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+rootconfig/__init__.py
+rootconfig/rootconfig.py
+rootconfig.egg-info/PKG-INFO
+rootconfig.egg-info/SOURCES.txt
+rootconfig.egg-info/dependency_links.txt
+rootconfig.egg-info/top_level.txt
