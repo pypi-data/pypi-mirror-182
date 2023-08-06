@@ -1,0 +1,3 @@
+[console_scripts]
+pythonav = pythonav.__main__:main
+

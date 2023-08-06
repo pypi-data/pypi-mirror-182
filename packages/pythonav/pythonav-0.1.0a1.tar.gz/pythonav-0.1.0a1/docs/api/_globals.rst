@@ -1,0 +1,5 @@
+
+Globals
+=======
+
+.. autofunction:: pythonav.open
