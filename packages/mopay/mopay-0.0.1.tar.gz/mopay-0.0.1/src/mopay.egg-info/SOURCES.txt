@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/mopay/__init__.py
+src/mopay/__main__.py
+src/mopay/cli.py
+src/mopay/daemon.py
+src/mopay/mopaying.py
+src/mopay.egg-info/PKG-INFO
+src/mopay.egg-info/SOURCES.txt
+src/mopay.egg-info/dependency_links.txt
+src/mopay.egg-info/entry_points.txt
+src/mopay.egg-info/not-zip-safe
+src/mopay.egg-info/requires.txt
+src/mopay.egg-info/top_level.txt
+src/mopay/core/__init__.py

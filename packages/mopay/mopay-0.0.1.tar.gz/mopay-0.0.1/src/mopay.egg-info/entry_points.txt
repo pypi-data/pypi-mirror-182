@@ -1,0 +1,3 @@
+[console_scripts]
+mopay = mopay.cli:main
+mopayd = mopay.daemon:main
