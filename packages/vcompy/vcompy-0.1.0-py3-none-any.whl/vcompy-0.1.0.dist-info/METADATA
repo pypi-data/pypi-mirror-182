@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: vcompy
+Version: 0.1.0
+Summary: Video compiler
+Home-page: https://github.com/dot-six/vcompy
+Author: Hanz <hanz@godot.id>
+License: MIT License
+Keywords: video editing ffmpeg
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow (==9.3.0)
+Requires-Dist: imageio (==2.23.0)
+Requires-Dist: imageio[pyav]
+Requires-Dist: numpy (==1.24.0)
+
+# VComp
+Video compiler framework
+
+## Getting started
+```python
+from vcompy import Video, Text, Compiler
+
+FPS = 60
+VIDEO_SIZE = (1280, 720)
+
+vid = Video.from_file("/path/to/file.mp4")
+text = Text("Hey, this thing is working!", font="/path/to/font", fontsize=16, duration=(2 * FPS), position=(0, 0))
+
+compiler = Compiler.simple([vid, tex])
+compiler.duration = 2 * FPS
+compiler.fps = FPS
+compiler.size = VIDEO_SIZE
+
+for progress in compiler.save_as("output.mp4"):
+	print(f"{progress}/{compiler.get_duration()}", end='\r')
+
+print()
+```

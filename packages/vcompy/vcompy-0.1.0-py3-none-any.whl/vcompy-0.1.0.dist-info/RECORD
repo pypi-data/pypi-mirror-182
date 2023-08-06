@@ -1,0 +1,12 @@
+vcompy/Compiler.py,sha256=C0IhnK8uCizP6yk8BYSYApIQ_EWPLMWHjX2Nh3FCVek,2158
+vcompy/Media.py,sha256=A6rFWVqbhnUneEVDm7U0vmvXJnZixQEn3LxzYL7L04M,103
+vcompy/Overlay.py,sha256=2G_ppiX2tnw3t2Xp5nFLoPP3Yfn7cLj9RkZOe3cd-ys,263
+vcompy/Text.py,sha256=VwvheE6pekSzYSz9V4s-mX3yTqN5IiFzQB6jQTSTsi0,351
+vcompy/Video.py,sha256=LRZ35BDSc_onAHbRkDy0SHXefl7avQ6Q4zYGaIQ4hiQ,677
+vcompy/__init__.py,sha256=SEkkt2UA99ZtbppArZ6CON2H49Xr72m6kg8QysCKVuk,144
+vcompy/version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+vcompy-0.1.0.dist-info/LICENSE,sha256=u1ahrjGhG3OnVERuzuyv8T48MAKMVzMPP99Dcy2U8mg,1061
+vcompy-0.1.0.dist-info/METADATA,sha256=QPYQ_Cy-2A_l3ghGIKOeMcKNF5Wfv468Mog-sO8U-FM,922
+vcompy-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vcompy-0.1.0.dist-info/top_level.txt,sha256=sVpzKC-lNa1QC6JCRsGTPeSGilUJ5R4ygcCVskPxV2E,7
+vcompy-0.1.0.dist-info/RECORD,,
