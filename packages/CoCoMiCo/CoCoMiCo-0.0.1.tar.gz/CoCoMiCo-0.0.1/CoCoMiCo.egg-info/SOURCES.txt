@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+CoCoMiCo/__init__.py
+CoCoMiCo.egg-info/PKG-INFO
+CoCoMiCo.egg-info/SOURCES.txt
+CoCoMiCo.egg-info/dependency_links.txt
+CoCoMiCo.egg-info/requires.txt
+CoCoMiCo.egg-info/top_level.txt
+CoCoMiCo/src/encodings/score.lp

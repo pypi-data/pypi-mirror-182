@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CoCoMiCo
+Version: 0.0.1
+Summary: COoperation and COmpetition potentials in MIcrobial COmunities
+Home-page: https://gitlab.inria.fr/mlecomte/CoCoMiCo
+Download-URL: https://gitlab.inria.fr/mlecomte/CoCoMiCo/tarball/0.0.1
+Author: Maxime lecomte
+Author-email: maxime.lecomte@inria.fr,clemence.frioux@inria.fr
+License: GPLv3+
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
