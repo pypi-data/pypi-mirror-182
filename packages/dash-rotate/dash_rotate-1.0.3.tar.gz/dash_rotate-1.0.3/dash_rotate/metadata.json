@@ -1,0 +1,82 @@
+{
+  "src/lib/components/DashRotate.react.js": {
+    "description": "",
+    "displayName": "DashRotate",
+    "methods": [
+      {
+        "name": "getOrientation",
+        "docblock": "\u753b\u9762\u5411\u304d\u3092\u53d6\u5f97\r\n@returns portrait\uff0flandscape",
+        "modifiers": [],
+        "params": [],
+        "returns": {
+          "description": "portrait\uff0flandscape",
+          "type": null
+        },
+        "description": "\u753b\u9762\u5411\u304d\u3092\u53d6\u5f97"
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "orientation": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "message": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": ""
+      },
+      "reload": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "timing": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "\"all\"",
+          "computed": false
+        }
+      },
+      "delay": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "10",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
