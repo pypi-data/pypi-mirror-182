@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+athena_udf/__init__.py
+athena_udf.egg-info/PKG-INFO
+athena_udf.egg-info/SOURCES.txt
+athena_udf.egg-info/dependency_links.txt
+athena_udf.egg-info/requires.txt
+athena_udf.egg-info/top_level.txt
