@@ -1,0 +1,8 @@
+node.ext.fs
+node>=1.0
+pyyaml
+setuptools
+
+[test]
+coverage
+zope.testrunner
