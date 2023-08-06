@@ -1,0 +1,16 @@
+itk/Thickness3DPython.py,sha256=Jn4s-LHLAJ1D8ywavrNY1tO2_v70hh24njg_FizsYq4,2560
+itk/_Thickness3DPython.pyd,sha256=U7qTpdk0ouvQHxkJlGIrBY4zL55emHxn1xUjFRH45uM,1118720
+itk/__init_thickness3d__.py,sha256=60v5nTar2ASMueGWrKmrEuoGXhUrFYvGJSxio9rH1fI,1198
+itk/itkThickness3DPython.py,sha256=w90DEDBlwPB8_UF5reZiwjXFBfUIXONiA-j-166NTuM,46431
+itk/Configuration/Thickness3DConfig.py,sha256=6d9pxUArYIUvawCXZuvZayuDzFPfN5SCs5xTniAa0iY,2789
+itk/Configuration/Thickness3D_snake_case.py,sha256=g9ASTTYHBijjkmyZ70KAVrPJRVisjZChnQncfgeLgmk,98
+itk_thickness3d.libs/.load-order-itk_thickness3d-5.3.0,sha256=dqJ8frvbj6y9-J5sC1v-87tVGLD_hrXI3sO3OEdMzIw,45
+itk_thickness3d.libs/msvcp140.dll,sha256=8xDLPAoQdkHBe3ToLm_EVo-Q_xFnDT-kFf9azl2zxA8,579984
+itk_thickness3d.libs/tbb12.dll,sha256=3Ym0FW-dLjEApD2zv1XnQJvS8nxkBRLWEJ6dviOb1Tg,308736
+itk_thickness3d.libs/vcruntime140_1.dll,sha256=w3FG7vTP5bBcMqMznqJ68iEZyVuHxy9aHfcrpbNhJfs,49512
+itk_thickness3d-5.3.0.dist-info/DELVEWHEEL,sha256=lCaoSXHYPgLCCHdjSj3U5LVamxBGDi3WbfEqlz0qJzA,258
+itk_thickness3d-5.3.0.dist-info/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_thickness3d-5.3.0.dist-info/METADATA,sha256=7_jEQzEGVmlubupjcp7guJaH1B1qf6wnv1eXyV4x89A,1397
+itk_thickness3d-5.3.0.dist-info/WHEEL,sha256=jL6ZCD5prqRj5SeXb-w-Rj4UkjJwWWPDr_xe1MHU59c,94
+itk_thickness3d-5.3.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_thickness3d-5.3.0.dist-info/RECORD,,
