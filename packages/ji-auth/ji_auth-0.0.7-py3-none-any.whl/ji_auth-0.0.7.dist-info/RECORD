@@ -1,0 +1,12 @@
+ji_auth/__init__.py,sha256=S55jlqKR9MkPbugD8x2ZgZH2mbNFAdfTyr9kBq1d-M8,65
+ji_auth/__main__.py,sha256=2dWP4Tzx3oCmjNxO0zPtdh6fbu8w69RbIROF7yypX3Y,2332
+ji_auth/canvas.py,sha256=Sngz7YCJ_QB_KK-2IwTGjBV6UyGWTswflaNn_MU_66I,1498
+ji_auth/coursesel.py,sha256=Uex3eiv5wAbp6eea38GYiRnblxF5U23fKNwJX7h7XUU,401
+ji_auth/joj.py,sha256=8d4G0UkkhThPsHiReMplEu8VE1VUii50cb3Kj2GyPMA,383
+ji_auth/login.py,sha256=X916zTBajebKkantbM1rvuMIVPOzl8HpkUN638sWQKw,620
+ji_auth-0.0.7.dist-info/LICENSE,sha256=yomCqCNAzUiZ8IclYTB_D6T9PD1lXpHjBI-fuw_XNxI,1064
+ji_auth-0.0.7.dist-info/METADATA,sha256=x9n6oIg6Jx5LEXHQEkHAq4I2YmGg_OTUzFH1br9VZDg,2853
+ji_auth-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ji_auth-0.0.7.dist-info/entry_points.txt,sha256=s_GQdhnzYm4onWjCgWQ7ccJJKX1aqHtgzYznsBrPef8,41
+ji_auth-0.0.7.dist-info/top_level.txt,sha256=46Gc1j_A0LANfWplivUAWQEiGAVt4oKihKIIQqqS7Jk,8
+ji_auth-0.0.7.dist-info/RECORD,,
