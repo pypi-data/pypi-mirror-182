@@ -1,0 +1,12 @@
+metablock/__init__.py,sha256=IQgQV4t_aMVWGu3At_00FWL9HrVn4nMBiH_YqOVeMio,502
+metablock/client.py,sha256=Te1x6K1WFHsUz6NXMixyMR8HO-KAcbyqCA9a3VuNHQs,4118
+metablock/components.py,sha256=lQ6EWOWnmfo1S1SfunDKcr3DRCRITyJGJH0uTCpnnQA,7868
+metablock/extensions.py,sha256=a5IcqgO5yPZ2v5jrdIN5c-VyFPKum3g9OqNaDVC_qh8,540
+metablock/orgs.py,sha256=UYw2sRqdSoxnCJbCgyeRdFOzRQ_DLT9crOnDKhwAu8E,1850
+metablock/spaces.py,sha256=4-aknP9k_n9RSXMdXBG66J7QQ18cA-dZrLZwNhTZPL4,3029
+metablock/user.py,sha256=OB2C0kaoqtcHzJyQlmf-h6JXvxxewY5ZRPJmamUfmsg,1350
+metablock/utils.py,sha256=x7tEm7I7WDJ9dWYOtoFNCNFvyOpKNeWJ1vtG3iluvcU,531
+metablock-0.5.1.dist-info/METADATA,sha256=mo62Qco3ftqDtirHpNNB8BT1MiGwsDAkoi5bgJX1eGo,1472
+metablock-0.5.1.dist-info/LICENSE,sha256=j1KvOSfYHjeDXwMA2w-472vFaxkgwb2I4OIvkrkHmq0,1482
+metablock-0.5.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+metablock-0.5.1.dist-info/RECORD,,
