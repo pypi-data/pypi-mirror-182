@@ -1,0 +1,11 @@
+intenc/__init__.py,sha256=-f1799NMuQegaJeppcnOmvWoaTGg35M0TwQFts_saDg,1451
+intenc/pyintenc.cpython-310-darwin.so,sha256=DiSeNRsKuVbX4UzcAW-o7Ei0RvQvFohuxCOEnmgh4Ns,193832
+src/intenc.cpython-310-darwin.so,sha256=96CjAAXzAIEuPUcChF1XeHkOZGR90fVwSEUdI7OgFto,107472
+src/intenc/bpe.cpython-310-darwin.so,sha256=fAh-JVCo8rh_E0kGpSBSs-HJ09LRoE0PXQ-0RO5EUAo,107480
+src/intenc/ne.cpython-310-darwin.so,sha256=kXMueFYijShDozia4eNQIs8xQnkeAyczNqY8M2iiJmA,107472
+src/intenc/utils.cpython-310-darwin.so,sha256=T5cmDh4L_eLoHYnrELH9x81NI-Z2IDTZuX6JmTvPCqs,107496
+tests/tintenc.cpython-310-darwin.so,sha256=dRpme06tTxVxVyHZ-rCNAhFLMhgXZ13YxG_RIXcd1Ts,208712
+intenc-0.1.0.dist-info/METADATA,sha256=NukPGSAW9hDuVZL3v-FgXZC65bwoH2DCoKWWHzHsr48,155
+intenc-0.1.0.dist-info/WHEEL,sha256=xqPktfbMcRP5QxLmFLhrMmPREVXJMjALWzg8FFwO5Cw,111
+intenc-0.1.0.dist-info/top_level.txt,sha256=qF9dUaEX1rFejf5e4n7J-yxHk33CRL4TewPTY_bGcBY,17
+intenc-0.1.0.dist-info/RECORD,,
