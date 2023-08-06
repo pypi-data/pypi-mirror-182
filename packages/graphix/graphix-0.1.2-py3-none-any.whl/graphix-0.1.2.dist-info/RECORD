@@ -1,0 +1,17 @@
+graphix/__init__.py,sha256=R8G-Mc1EntDCwJFYlsxQQtRGaPU8hwAWGFLQ3Hg_8O4,243
+graphix/clifford.py,sha256=Jf_dSLmqXMgbq8Gwnydw8z8tBnCxWBXm2ifwXhZ-_OU,6954
+graphix/gflow.py,sha256=1KLQNHaDEpwUbqLh7dqV2a6nelcUb5YAWuQp64mABmI,18838
+graphix/graphsim.py,sha256=7qaCNjwbgH1N7cacXYfOXxVH6u3SNBndX36-Ti7MFNE,12943
+graphix/ops.py,sha256=MSUw8fB0yq7YZC2srSC9PlQhFoVJzUZzRmD8MsCXwlc,1568
+graphix/pattern.py,sha256=yzse2ZDnZRbEl_pIdeH71L4x8h2fNWO5BmfBGzoKeoI,40362
+graphix/simulator.py,sha256=PAm_yo-DVydeizZ2Uc7dV9ae82o_pfGoMaRxCJJ-Hu8,2211
+graphix/transpiler.py,sha256=TlEH1DYn1YJtGtc2QtqIq0hkBxxpC7L9wIIfPWOqSwA,31562
+graphix/version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+graphix/sim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphix/sim/mps.py,sha256=JyZy5UOYhvy9FxXmKy0r5PwRcnf3T1Jfq0SHWOhzcVM,18177
+graphix/sim/statevec.py,sha256=7sndSV_-GEGMU-MF3rAmrFgKRTV58gLzeMWARvRpjHE,11187
+graphix-0.1.2.dist-info/LICENSE,sha256=0riUw2RtPYV1hcgxd8ZSwrr2Nhe5HxHLlUprlh-ki2Q,10761
+graphix-0.1.2.dist-info/METADATA,sha256=03y0Bptfipl_P6kNOn04iANMh9szBF09d-JbMFjg6yQ,3725
+graphix-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+graphix-0.1.2.dist-info/top_level.txt,sha256=opHWcU4n6C__feAhQZAgSZ2h_9tTpT1MQwrSKcwVgx8,8
+graphix-0.1.2.dist-info/RECORD,,
