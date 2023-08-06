@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+census_data_collection/__init__.py
+census_data_collection/censuscollection.py
+census_data_collection.egg-info/PKG-INFO
+census_data_collection.egg-info/SOURCES.txt
+census_data_collection.egg-info/dependency_links.txt
+census_data_collection.egg-info/requires.txt
+census_data_collection.egg-info/top_level.txt

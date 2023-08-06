@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: census_data_collection
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/jinyan0425/census_collection
+Author: Jinyan Xiang
+Author-email: jxiang5@vt.edu
+License: MIT
+Description: UNKNOWN
+Keywords: census,american_community_survey
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
