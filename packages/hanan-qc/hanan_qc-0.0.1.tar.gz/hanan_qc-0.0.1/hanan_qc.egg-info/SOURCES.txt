@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+Setup.py
+setup.py
+hanan_qc/__init__.py
+hanan_qc.egg-info/PKG-INFO
+hanan_qc.egg-info/SOURCES.txt
+hanan_qc.egg-info/dependency_links.txt
+hanan_qc.egg-info/top_level.txt

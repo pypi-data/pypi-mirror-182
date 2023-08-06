@@ -1,0 +1,1 @@
+this is a basic library that takes input from user and creates a Quantum circuit using qiskit.
