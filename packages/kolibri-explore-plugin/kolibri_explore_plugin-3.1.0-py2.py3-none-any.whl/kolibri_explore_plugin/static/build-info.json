@@ -1,0 +1,16 @@
+{
+    "commit": "e96ea07",
+    "date": "Fri Dec 23 14:59:02 2022",
+    "last_release": "v3.1.0",
+    "log": [
+{ "commit": "e96ea07", "subject": "Improve getting the last tag", "author": "Manuel Quiñones" },
+{ "commit": "19e26e7", "subject": "Bump version: 3.0.4 → 3.1.0", "author": "Manuel Quiñones" },
+{ "commit": "28bcf2a", "subject": "Add custom script to bump version", "author": "Manuel Quiñones" },
+{ "commit": "4af5b14", "subject": "Add version file", "author": "Manuel Quiñones" },
+{ "commit": "7aba046", "subject": "Bump version: 3.0.3 → 3.0.4", "author": "Dylan McCall" },
+{ "commit": "f4ecb7b", "subject": "About modal: Update About EK text", "author": "Manuel Quiñones" },
+{ "commit": "ed79c86", "subject": "About modal: add privacy policy section", "author": "Manuel Quiñones" },
+{ "commit": "b5c7e50", "subject": "Navigation bar: add privacy policy button", "author": "Manuel Quiñones" },
+{ "commit": "3fd5f6c", "subject": "Welcome screen: Add modal with privacy policy", "author": "Manuel Quiñones" },
+{ "commit": "cbe3da0", "subject": "components: Add new PrivacyPolicyText component", "author": "Manuel Quiñones" },
+{ "commit": "2be76db", "subject": "Welcome screen: Use vue-router push", "author": "Manuel Quiñones" }]}
