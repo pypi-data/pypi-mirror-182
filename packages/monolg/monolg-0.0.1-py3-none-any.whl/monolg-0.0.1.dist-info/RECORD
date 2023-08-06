@@ -1,0 +1,10 @@
+monolg/__init__.py,sha256=0vVA-82IbYX3a_kcfXDIfjObYuSlbZoyxzkO8EKGccw,190
+monolg/_schemas.py,sha256=hEoCjyeKDQq7k74Kf8TAYDXAZa9XFM6pccOX65o3Bag,2064
+monolg/errors.py,sha256=2_7XBeba69TJ-AXDMJmlTQFRGO2i5qPoHqDv28PdTzk,1614
+monolg/mongo_log.py,sha256=5bDGDB-0OXE6IayRJ7UAv4V3voQ1L0JTXCsXxG2ERbA,21021
+monolg/utils.py,sha256=MzrRtHIoAIrtyvePcyjRuEUZIqTKDQGtOfPxweeUoCs,1937
+monolg-0.0.1.dist-info/LICENSE,sha256=AG2jBaxlWElv0hZ1MHRufBtfVWLqD5A8T_Lgj9mhENI,1098
+monolg-0.0.1.dist-info/METADATA,sha256=SOfhJ4-rZEf5OdSO8OsOar1BuF56JrRoCnHfhiP3Jro,2765
+monolg-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+monolg-0.0.1.dist-info/top_level.txt,sha256=fVD4A4CmtL8atDWLSBUjfuCCam-DRQ0pyM8FkdnqIjw,7
+monolg-0.0.1.dist-info/RECORD,,
