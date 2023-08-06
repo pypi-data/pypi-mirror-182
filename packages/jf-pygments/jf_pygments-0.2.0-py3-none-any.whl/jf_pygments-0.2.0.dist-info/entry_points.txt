@@ -1,0 +1,7 @@
+[pygments.lexers]
+baldrsql=jf_pygments:BaldrSqlLexer
+
+[pygments.styles]
+baldr=jf_pygments:BaldrStyle
+white=jf_pygments:WhiteStyle
+

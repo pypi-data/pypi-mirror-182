@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jf-pygments
+Version: 0.2.0
+Summary: Extend the Python syntax highlighter with some custom lexers and styles.
+Home-page: https://github.com/Josef-Friedrich/jf_pygments
+License: GPL-3.0-only
+Author: Josef Friedrich
+Author-email: josef@friedrich.rocks
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Dist: pygments (>=2.13.0,<3.0.0)
+Project-URL: Repository, https://github.com/Josef-Friedrich/jf_pygments
+Description-Content-Type: text/x-rst
+
+jf_pygments
+===========
+
+Extend the Python syntax highlighter with some custom lexers and styles.
+
