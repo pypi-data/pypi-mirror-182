@@ -1,0 +1,8 @@
+setup.py
+one_dir/__init__.py
+one_dir/main.py
+publish_example.egg-info/PKG-INFO
+publish_example.egg-info/SOURCES.txt
+publish_example.egg-info/dependency_links.txt
+publish_example.egg-info/requires.txt
+publish_example.egg-info/top_level.txt
