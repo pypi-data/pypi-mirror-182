@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: python-screen
+Version: 1.0.1
+Summary: A simple python wrapper for GNU Screen
+Home-page: https://gitlab.com/jvadair/pyscreen
+Author: jvadair
+Author-email: dev@jvadair.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
