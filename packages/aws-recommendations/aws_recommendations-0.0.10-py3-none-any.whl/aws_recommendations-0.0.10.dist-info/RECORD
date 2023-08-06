@@ -1,0 +1,16 @@
+aws_recommendations/__init__.py,sha256=12PTnDLbJnCkyFl2gV9tP0h_e5lPNbcYcg3aBnMkJlQ,986
+aws_recommendations/cost_estimations.py,sha256=7OZ5rrPhIYxs8mi6tJNHzQ1yING-bSSdIQeMMdwvzlY,9320
+aws_recommendations/ebs.py,sha256=bh4sRQ1Gcxd0YPpyIJ6iVDFwgYU3kGTQVisNYfWx-mM,7707
+aws_recommendations/ec2.py,sha256=RSNp_7MVTFl3JywieUdBJSlFrDClmwi_dIozrcRrpsI,17335
+aws_recommendations/elb.py,sha256=QhqtE2GrCRng3VOrGzAfl64edXwWEfEBeomDjsgV-Rw,3700
+aws_recommendations/rds.py,sha256=QowMIjYooMaPu8AhsTbL4iyro820F12e0pvUqg33WvM,7696
+aws_recommendations/recommendation.py,sha256=4i_Xja1cg1rgvEPYXilt10Mm1L0eL6XIAzq77B4TbJg,2304
+aws_recommendations/redshift.py,sha256=M7GeUwVaFMnfVcITpiexl-q1pNjJeBdKw_hBHzB-4y8,4133
+aws_recommendations/s3.py,sha256=qSz-FKsn605ZcziIDt0YbWvoNVWOok4eA_I5fJDWcmg,1506
+aws_recommendations/truted_advisor.py,sha256=bk4bKlWcOuvksHl0ROe8STc9s_HzVkUxDIinLPKHOkM,787
+aws_recommendations/utils.py,sha256=2O_VGRTah_nyVDcJWQpVhHRcRKtXv29RSseJ2YskCc8,3294
+aws_recommendations-0.0.10.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_recommendations-0.0.10.dist-info/METADATA,sha256=doVLfL2h8vgitorqJlDBj0oRL6dtXPH31d8a2Q69Cyg,1090
+aws_recommendations-0.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_recommendations-0.0.10.dist-info/top_level.txt,sha256=mePysV9Jn9yCV_We1p7tHptGL5KZ97tAq-Fzf-aqyiM,20
+aws_recommendations-0.0.10.dist-info/RECORD,,
