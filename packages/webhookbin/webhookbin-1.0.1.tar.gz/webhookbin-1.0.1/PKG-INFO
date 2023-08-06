@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: webhookbin
+Version: 1.0.1
+Summary: Python library for webhookbin.net
+Home-page: https://github.com/Sumiza/webhookbin-library/
+Author: Sumiza
+Author-email: sumiza@gmail.com
+Project-URL: Bug Tracker, https://github.com/Sumiza/webhookbin-library/issues
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# webhookbin-library
+Python library for https://www.webhookbin.net
+
+Install with pip 
+```
+pip install webhookbin
+```
+
+Examples:
+```py
+import webhookbin
+
+print(webhookbin.makebin().text)
+
+print(webhookbin.post({"data": "here"}).text)
+
+print(webhookbin.get().text)
+
+print(webhookbin.makebin("both").text)
+
+print(webhookbin.makebin("post").text)
+
+print(webhookbin.makebin("get").text)
+
+print(webhookbin.post({"data": "here"},headers={"Customheader": "Something"}).text)
+
+headers = {"Customheader": "Something"}
+
+print(webhookbin.post({"data": "here"},headers=headers,token="DBwIfrB_9BDycs0a4rm0YVRrgsPPpmS2_Vl11ElKpIM").text)
+
+print(webhookbin.get(delete=False).text)
+
+print(webhookbin.get(orderby="acending").text)
+
+print(webhookbin.get(token="DBwIfrB_9BDycs0a4rm0YVRrgsPPpmS2_Vl11ElKpIM").text)
+
+print(webhookbin.patch().text)
+```
