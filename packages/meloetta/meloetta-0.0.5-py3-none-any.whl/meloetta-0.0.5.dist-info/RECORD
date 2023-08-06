@@ -1,0 +1,11 @@
+meloetta/__init__.py,sha256=vucW-Fe97d2P_nl7TMRJ2Cp458lb7VTRk6EckM_ozdM,23
+meloetta/battle.py,sha256=WyZT39HjMqlVW_qGF8cSCGnCS3b3NfatRIWtHDKfauk,4714
+meloetta/client.py,sha256=xxW5b5rlNZLRpAtS4r35IbFJXyRKd2k6xeemuQLc3d0,4303
+meloetta/data.py,sha256=kYeFaJ0B8PJWCB3vJFpIxWFdSkptVnBweX4lSmUgX_Q,1802
+meloetta/player.py,sha256=gC_kM0D1UGkIYn971f2cOR1OWa65pgifxumYBhQCta4,10903
+meloetta/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meloetta-0.0.5.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+meloetta-0.0.5.dist-info/METADATA,sha256=c9juyGbY3C3db4mDzB_kGP5UYKyzOfRru5OImL6HNpk,299
+meloetta-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+meloetta-0.0.5.dist-info/top_level.txt,sha256=Qp-t2Z_nVajsVvczBqzXUGsBpRS7z5sTJIr3M5uDVPQ,9
+meloetta-0.0.5.dist-info/RECORD,,
