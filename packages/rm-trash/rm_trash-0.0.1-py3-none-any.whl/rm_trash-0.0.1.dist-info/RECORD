@@ -1,0 +1,9 @@
+rm_trash/LICENSE.md,sha256=Exm-SSSOGRHQ6zarmSG92rkWFyTSlwhkjm450OrOhtM,1120
+rm_trash/__init__.py,sha256=GhkIHAlNc-jY2UrDaNjdyHwWwEeb33bQUJcZvjFfP1o,80
+rm_trash/commands.py,sha256=9tAYwxMHNZ9odudP_S315CF8iYVV6cBe3znqDxcBraA,1352
+rm_trash/trash.py,sha256=vUUxu5qvWTMvb05vsGZ-i1DT2cnQ-e8_ztukjsgCK1c,11715
+rm_trash-0.0.1.dist-info/entry_points.txt,sha256=xGy_VBZjdX-S5YYGSNE4IWfDS9iZ2-m_s_Rm2qGDQpE,44
+rm_trash-0.0.1.dist-info/LICENSE.md,sha256=Exm-SSSOGRHQ6zarmSG92rkWFyTSlwhkjm450OrOhtM,1120
+rm_trash-0.0.1.dist-info/METADATA,sha256=b__F21jPYr8DqWoQeWSQwklIvgwj8bbL_QCfuDZped8,2279
+rm_trash-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+rm_trash-0.0.1.dist-info/RECORD,,
