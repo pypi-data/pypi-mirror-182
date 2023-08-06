@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ibpmodel package &mdash; ibpmodel 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="References" href="reference.html" />
+    <link rel="prev" title="API" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> ibpmodel
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">API</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">ibpmodel package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-ibpmodel.ibpcalc">ibpmodel.ibpcalc module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.align_time_of_year"><code class="docutils literal notranslate"><span class="pre">align_time_of_year()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.checkDoyMonth"><code class="docutils literal notranslate"><span class="pre">checkDoyMonth()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.checkParameter"><code class="docutils literal notranslate"><span class="pre">checkParameter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.compute_lambda"><code class="docutils literal notranslate"><span class="pre">compute_lambda()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.compute_probability"><code class="docutils literal notranslate"><span class="pre">compute_probability()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.compute_probability_exp"><code class="docutils literal notranslate"><span class="pre">compute_probability_exp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.doyFromMonth"><code class="docutils literal notranslate"><span class="pre">doyFromMonth()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.fourier_model"><code class="docutils literal notranslate"><span class="pre">fourier_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.monthFromDoy"><code class="docutils literal notranslate"><span class="pre">monthFromDoy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.monthfromString"><code class="docutils literal notranslate"><span class="pre">monthfromString()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.read_model_file"><code class="docutils literal notranslate"><span class="pre">read_model_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.tile_aggregate"><code class="docutils literal notranslate"><span class="pre">tile_aggregate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpcalc.tiler"><code class="docutils literal notranslate"><span class="pre">tiler()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-ibpmodel.ibpforward">ibpmodel.ibpforward module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpforward.butterflyData"><code class="docutils literal notranslate"><span class="pre">butterflyData()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpforward.calculateIBPindex"><code class="docutils literal notranslate"><span class="pre">calculateIBPindex()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpforward.plotButterflyData"><code class="docutils literal notranslate"><span class="pre">plotButterflyData()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ibpmodel.ibpforward.plotIBPindex"><code class="docutils literal notranslate"><span class="pre">plotIBPindex()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ibpmodel</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">API</a></li>
+      <li class="breadcrumb-item active">ibpmodel package</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="ibpmodel-package">
+<h1>ibpmodel package<a class="headerlink" href="#ibpmodel-package" title="Permalink to this heading"></a></h1>
+<section id="module-ibpmodel.ibpcalc">
+<span id="ibpmodel-ibpcalc-module"></span><h2>ibpmodel.ibpcalc module<a class="headerlink" href="#module-ibpmodel.ibpcalc" title="Permalink to this heading"></a></h2>
+<p>This module contains the main functions and the auxiliary/control functions needed to calculate the IBP index.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.align_time_of_year">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">align_time_of_year</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">day_of_year</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">month</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#align_time_of_year"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.align_time_of_year" title="Permalink to this definition"></a></dt>
+<dd><p>Guess day of year and month from each other.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>day_of_year</strong> (<em>int</em><em> or </em><em>ndarray</em><em> of </em><em>ints</em>) – Time as the day of year, restricted to <code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">&lt;</span> <span class="pre">day_of_year</span> <span class="pre">&lt;=</span> <span class="pre">356</span></code>,
+with the value 0 meaning it should be calculated based on <cite>month</cite>
+(which gives the median day of the <cite>month</cite>).</p></li>
+<li><p><strong>month</strong> (<em>int</em><em> or </em><em>ndarray</em><em> of </em><em>ints</em>) – Time as the month in the year, with january being month 1,
+so <code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">&lt;</span> <span class="pre">month</span> <span class="pre">&lt;=</span> <span class="pre">12</span></code>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>day_of_year</strong> (<em>int or ndarray of ints</em>) – A recalculated possible copy of the <cite>day_of_year</cite> parameter.</p></li>
+<li><p><strong>month</strong> (<em>int or ndarray of ints</em>) – A recalculated copy of the <cite>month</cite> parameter.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">align_time_of_year</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span>
+<span class="go">(166, 6)</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">align_time_of_year</span><span class="p">(</span><span class="mi">162</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">(162, 6)</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">align_time_of_year</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">(array([ 16,  45,  75, 105, 136, 166, 197, 228, 258, 289, 319, 350]),</span>
+<span class="go"> array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12]))</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">align_time_of_year</span><span class="p">(</span>
+<span class="go">    np.array([0,33,21,17,267,0,115,96,315,0,172,256]),np.arange(12)+1)</span>
+<span class="go">(array([ 16,  33,  21,  17, 267, 166, 115,  96, 315, 289, 172, 256]),</span>
+<span class="go"> array([ 1,  2,  1,  1,  9,  6,  4,  4, 11, 10,  6,  9]))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.checkDoyMonth">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">checkDoyMonth</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">day_month</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#checkDoyMonth"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.checkDoyMonth" title="Permalink to this definition"></a></dt>
+<dd><p>Control if input is day of the year (<em>int</em>) or abbreviated month name (<em>str</em>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>day_month</strong> (<em>int</em><em> or </em><em>str</em><em> or </em><em>list</em>) – Value to be checked</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>doy_out</strong> – list of days of the year</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list of int(s)</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">checkDoyMonth</span><span class="p">([</span><span class="s1">&#39;Mar&#39;</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+<span class="go">[74, 200, 1]</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">checkDoyMonth</span><span class="p">(</span><span class="s1">&#39;Dec&#39;</span><span class="p">)</span>
+<span class="go">[349]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.checkParameter">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">checkParameter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">para</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">para_range</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#checkParameter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.checkParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Check if <em>para</em> or element of <em>para</em> in <em>para_range</em>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>para</strong> (<em>int</em><em> or </em><em>float</em><em> or </em><em>list</em>) – Value to be checked</p></li>
+<li><p><strong>para_range</strong> (<em>range</em>) – searching range</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Numpy.array contains <em>para</em>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>numpy.array</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">checkParameter</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="go">array([3])</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">checkParameter</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="go">array([0, 1, 2, 3, 4])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.compute_lambda">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">compute_lambda</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">longitude</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f107</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gosc_val</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">density</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">month</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#compute_lambda"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.compute_lambda" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the ‘lambda’ parameter.
+Lambda is the intensity, one of the parameters describing
+the final probability and modeled as a Poisson process.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>longitude</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The longitude(s) of the point(s) we calculate lambda for.</p></li>
+<li><p><strong>params</strong> (<em>array-like</em>) – Parameter values from the model (CDF-file).</p></li>
+<li><p><strong>f107</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The Solar Radio Flux (F10.7 index).</p></li>
+<li><p><strong>gosc_val</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – result of method <cite>fourier_model()</cite></p></li>
+<li><p><strong>density</strong> (<em>ndarray</em><em> of </em><em>floats</em>) – Density values from the model (CDF-file).</p></li>
+<li><p><strong>month</strong> (<em>int</em><em> or </em><em>ndarray</em><em> of </em><em>ints</em><em>, </em><em>optional</em>) – The number of months since the year started, meaning January would
+be 0. The default is 0.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float or ndarray of floats</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_lambda</span><span class="p">(</span><span class="mi">1</span><span class="p">,[</span><span class="o">-</span><span class="mf">232.54229262</span><span class="p">,</span> <span class="mf">4.67324294</span><span class="p">],</span> <span class="mf">123.4</span><span class="p">,</span> <span class="mf">17.3</span><span class="p">,</span>
+<span class="go">    np.array([2.1,3.0]) )</span>
+<span class="go">1084.307658528</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">params</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mf">232.54229262</span><span class="p">,</span> <span class="mf">4.67324294</span><span class="p">,</span> <span class="mf">1.34695254</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.31448553</span><span class="p">,</span> <span class="mf">1.09712955</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">densi_once</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">360</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">180</span><span class="p">)</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_lambda</span><span class="p">(</span><span class="mi">1</span><span class="p">,[</span><span class="o">-</span><span class="mf">232.54229262</span><span class="p">,</span> <span class="mf">4.67324294</span><span class="p">],</span> <span class="mf">123.4</span><span class="p">,</span> <span class="mf">17.3</span><span class="p">,</span> <span class="n">densi_once</span> <span class="p">)</span>
+<span class="go">1788.2556529203105</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">densi_year</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span> <span class="p">(</span><span class="n">densi_once</span> <span class="o">-</span><span class="mi">3</span><span class="p">)</span><span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">month</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">6</span><span class="p">)</span>
+<span class="go">    + 8 for month in range(12)])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_lambda</span><span class="p">(</span><span class="mi">1</span><span class="p">,[</span><span class="o">-</span><span class="mf">232.54229262</span><span class="p">,</span> <span class="mf">4.67324294</span><span class="p">],</span> <span class="mf">123.4</span><span class="p">,</span> <span class="mf">17.3</span><span class="p">,</span> <span class="n">densi_year</span><span class="p">,</span>
+<span class="go">    month=5)</span>
+<span class="go">1851.5944384882494</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">months</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">20</span><span class="p">))</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="mi">12</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;int&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_lambda</span><span class="p">(</span><span class="mi">1</span><span class="p">,[</span><span class="o">-</span><span class="mf">232.54229262</span><span class="p">,</span> <span class="mf">4.67324294</span><span class="p">],</span> <span class="mf">123.4</span><span class="p">,</span> <span class="mf">17.3</span><span class="p">,</span>
+<span class="go">    densi_year[:,months], month=months)</span>
+<span class="go">array([2149.6915391, 2149.6915391, 2149.6915391, 2149.6915391,</span>
+<span class="go">       2149.6915391, 2149.6915391, 2149.6915391, 2149.6915391,</span>
+<span class="go">       2149.6915391, 2149.6915391, 2149.6915391, 2149.6915391,</span>
+<span class="go">       2149.6915391, 2149.6915391, 2149.6915391, 2149.6915391,</span>
+<span class="go">       2149.6915391, 2149.6915391, 2149.6915391, 2149.6915391])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.compute_probability">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">compute_probability</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expected_bubbles</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expected_lifetime</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mu</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigma</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#compute_probability"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.compute_probability" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the probability of Ionospheric Plasma Bubbles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>time</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The local time, can be eiter as an array or not.</p></li>
+<li><p><strong>expected_bubbles</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The expected amount of bubbles, can be eiter as an array or not.</p></li>
+<li><p><strong>expected_lifetime</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The expected lifetime of each bubble, can be eiter as an array or not.</p></li>
+<li><p><strong>mu</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The mean position of the probability distribution in the model, can be eiter as an array or not.</p></li>
+<li><p><strong>sigma</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The standard deviation of the probability distribution in the model, can be eiter as an array or not.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The Ionospheric Bubble Index, value(s) between 0.0 and 1.0, it has the same length as all of the inputs</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or ndarray of floats</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Plasma Bubbles are large-scale depletions compared to the background
+ionosphere,  occurring in  the  equatorial  F-region, in  particular
+after  sunset.   They  are   assumably  driven   by  Rayleigh-Taylor
+instability and already in the past extensively studied by different
+techniques,   showing   occurrence    probabilities   depending   on
+evironmental  parameters as  season,  location, local  time and  sun
+activity.</p>
+<p>For a climatologic model of these dependencies, extracted from fairly
+long time series of distortions in the magnetic field readings of the
+LEO satellites CHAMP (2000-2010) and Swarm (since 2013) the function
+calculates a probability density.</p>
+</div>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_probability</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">0.049701856965716384</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span><span class="o">+</span><span class="mf">0.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_probability</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">a</span><span class="p">)</span>
+<span class="go">array([0.12259724, 0.32454412, 0.48001002, 0.5996932 , 0.69182957,</span>
+<span class="go">       0.76275943, 0.81736377, 0.85940013, 0.89176121, 0.91667393,</span>
+<span class="go">       0.93585262, 0.95061706, 0.96198326, 0.97073336, 0.9774695 ,</span>
+<span class="go">       0.98265522, 0.98664737, 0.98972067, 0.99208661, 0.99390799,</span>
+<span class="go">       0.99531015, 0.99638959, 0.99722058, 0.9978603 ])</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_probability</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">,</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.3</span><span class="p">,</span><span class="mf">0.4</span><span class="p">)</span>
+<span class="go">array([2.00069488e-02, 7.81272947e-01, 8.55868576e-01, 6.93670227e-01,</span>
+<span class="go">       4.83704476e-01, 2.96120013e-01, 1.65026216e-01, 8.64714939e-02,</span>
+<span class="go">       4.35684741e-02, 2.14048463e-02, 1.03395302e-02, 4.93490050e-03,</span>
+<span class="go">       2.33423700e-03, 1.09629097e-03, 5.11888048e-04, 2.37840684e-04,</span>
+<span class="go">       1.10040886e-04, 5.07234746e-05, 2.33043267e-05, 1.06755465e-05,</span>
+<span class="go">       4.87751438e-06, 2.22316484e-06, 1.01112283e-06, 4.58962618e-07])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.compute_probability_exp">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">compute_probability_exp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">day_of_year</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">month</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">longitude</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">local_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f107</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#compute_probability_exp"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.compute_probability_exp" title="Permalink to this definition"></a></dt>
+<dd><p>Compute the Ionospheric Bubble index.
+Core routine to return a probability of the occurence of a bubble.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>day_of_year</strong> (<em>int</em><em> or </em><em>ndarray</em><em> of </em><em>ints</em>) – Time as the day of year, restricted to <code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">&lt;</span> <span class="pre">day_of_year</span> <span class="pre">&lt;=</span> <span class="pre">356</span></code>,
+with the value 0 meaning it should be calculated based on month
+(which gives the median day of the month).</p></li>
+<li><p><strong>month</strong> (<em>int</em><em> or </em><em>ndarray</em><em> of </em><em>ints</em>) – Time as the month in the year, with january being month 1, <code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">&lt;</span> <span class="pre">month</span> <span class="pre">&lt;=</span> <span class="pre">12</span></code>.</p></li>
+<li><p><strong>longitude</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The geographical longitude(s), <code class="docutils literal notranslate"><span class="pre">-180</span> <span class="pre">&lt;=</span> <span class="pre">longitude</span> <span class="pre">&lt;=</span> <span class="pre">180</span></code>.</p></li>
+<li><p><strong>local_time</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The local time, can be eiter as an array or not, <code class="docutils literal notranslate"><span class="pre">-6.0</span> <span class="pre">&lt;=</span> <span class="pre">local_time</span> <span class="pre">&lt;=</span> <span class="pre">24</span></code>.</p></li>
+<li><p><strong>f107</strong> (<em>float</em><em> or </em><em>ndarray</em><em> of </em><em>floats</em>) – The Solar Radio Flux (F10.7 index), <code class="docutils literal notranslate"><span class="pre">0.0</span> <span class="pre">&lt;=</span> <span class="pre">f107</span> <span class="pre">&lt;=</span> <span class="pre">200.0</span></code>.</p></li>
+<li><p><strong>data</strong> (<em>dict</em>) – Containing the parameters of the model (CDF-file).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The Ionospheric Bubble Index, value(s) between 0.0 and 1.0,
+it has the same length as all of the inputs</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or ndarray of floats</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">ibpcalc</span><span class="o">.</span><span class="n">read_model_file</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_probability_exp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">17.3</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+<span class="go">0.0016535983798842135</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_probability_exp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">17.3</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+<span class="go">0.0</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">parts</span> <span class="o">=</span> <span class="n">ibpcalc</span><span class="o">.</span><span class="n">tiler</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">12</span><span class="p">,</span><span class="mi">124</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">6</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">compute_probability_exp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">*</span><span class="n">parts</span><span class="p">,</span> <span class="n">f107</span><span class="o">=</span><span class="mf">17.3</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+<span class="go">array([0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,</span>
+<span class="go">       0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,</span>
+<span class="go">       0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,</span>
+<span class="go">       7.24797932e-03, 3.47038779e-03, 1.65359838e-03, 7.87395045e-04,</span>
+<span class="go">       3.74847713e-04, 1.78430902e-04, 2.71409055e-03, 1.30214944e-03,</span>
+<span class="go">       6.20242441e-04, 2.95263158e-04, 1.40545020e-04, 6.68965929e-05,</span>
+<span class="go">       0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,</span>
+<span class="go">       0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,</span>
+<span class="go">       0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00])</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Rearranged/rewritten and optimized by
+Ask Neve Gamby &lt;<a class="reference external" href="mailto:aknvg&#37;&#52;&#48;space&#46;dtu&#46;dk">aknvg<span>&#64;</span>space<span>&#46;</span>dtu<span>&#46;</span>dk</a>&gt;.</p>
+<p>The resolution of the function <cite>gosc</cite> is higher than monthly.
+If a <cite>day_of_year</cite> is known, the results can be more precise.</p>
+<p>It is now possible to calculate with either ndarrays or single values,
+for all parameters except data (which has a special structure).
+Note that this version is, compared with the initial version
+more closely resembling the original ‘R’ code, much more efficient
+due to vectorization.</p>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.doyFromMonth">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">doyFromMonth</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">month</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#doyFromMonth"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.doyFromMonth" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate day of year from the 15th of the month</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>month</strong> (<em>int</em>) – Value as the month in the year, with january being month 1, <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">&lt;=</span> <span class="pre">month</span> <span class="pre">&lt;=</span> <span class="pre">12</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Day of year.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">doyFromMonth</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+<span class="go">196</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.fourier_model">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">fourier_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">coeffients</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">periode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">365.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#fourier_model"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.fourier_model" title="Permalink to this definition"></a></dt>
+<dd><p>Computes a value based on a model of fourier components up to 2nd degree.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>coeffients</strong> (<em>array-like</em><em> of </em><em>numbers</em>) – The coefficients of the fourier series up to second degree,
+with even numbers representing cosinus and odd sinus.
+The shape of <cite>coefficients</cite> must be <em>(5,*theta.shape)</em>.</p></li>
+<li><p><strong>theta</strong> (<em>number</em><em> or </em><em>ndarray</em><em> of </em><em>numbers</em>) – The part representing the phase in the fourier expansion.
+It is in the same units as the periode.</p></li>
+<li><p><strong>periode</strong> (<em>number</em><em>, </em><em>optional</em>) – The amount of <cite>theta</cite> need for one periode of the 1st degree
+of the fourier expansion. Defaults to 365 (the days in a year).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The shape of this is equivalent to the shape of <cite>theta</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>number or ndarray of numbers</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">fourier_model</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="mi">180</span><span class="p">)</span>
+<span class="go">1.0420963481067607</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">fourier_model</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.7</span><span class="p">],</span><span class="mi">1</span><span class="p">,</span><span class="n">periode</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="go">-0.48044810416758793</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">fourier_model</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.7</span><span class="p">],</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">11</span><span class="p">),</span><span class="mi">10</span><span class="p">)</span>
+<span class="go">array([-0.3       , -0.4804481 , -0.218165  ,  0.98765424,  2.0886424 ,</span>
+<span class="go">        1.7       , -0.03798462, -1.50224404, -1.53249278, -0.70496209,</span>
+<span class="go">       -0.3       ])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.monthFromDoy">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">monthFromDoy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">doy</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#monthFromDoy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.monthFromDoy" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate month from day of the year</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>doy</strong> (<em>int</em>) – Day of the year, <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">&lt;=</span> <span class="pre">doy</span> <span class="pre">&lt;=</span> <span class="pre">365</span></code>.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value as the month in the year, with january being month 1.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">monthFromDoy</span><span class="p">(</span><span class="mi">275</span><span class="p">)</span>
+<span class="go">10</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.monthfromString">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">monthfromString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">month_str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#monthfromString"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.monthfromString" title="Permalink to this definition"></a></dt>
+<dd><p>Convert abbreviated month name to <em>int</em></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>month_str</strong> (<em>str</em>) – Abbreviated month name. <em>[‘Jan’, ‘Feb’, ‘Mar’, ‘Apr’, ‘May’, ‘Jun’, ‘Jul’, ‘Aug’, ‘Sep’,        ‘Oct’, ‘Nov’, ‘Dec’]</em></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value as the month in the year, with january being month 1.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">monthfromString</span><span class="p">(</span><span class="s1">&#39;Mar&#39;</span><span class="p">)</span>
+<span class="go">3</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.read_model_file">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">read_model_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#read_model_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.read_model_file" title="Permalink to this definition"></a></dt>
+<dd><p>Load CDF content into a dictionary. If no file is declared, the CDF file included in the package will be used.
+(SW_TEST_IBP_CLI_2__00000000T000000_99999999T999999_0001.cdf)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>file</strong> (<em>file path</em><em>, </em><em>optional</em>) – Path to cdf file containing parametors for the model. The default is None.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Contains the content of the CDF file.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.tile_aggregate">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">tile_aggregate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">result</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aggregator</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">numpy.mean</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#tile_aggregate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.tile_aggregate" title="Permalink to this definition"></a></dt>
+<dd><p>Compresses tiles and aggregate results on the last axis of tiled ranges</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>result</strong> (<em>numpy.array</em>) – Array that is aggregated.</p></li>
+<li><p><strong>*args</strong> (<em>list</em><em> or </em><em>numpy.array</em>) – Along the last element is crompressed.</p></li>
+<li><p><strong>aggregator</strong> (<em>function</em><em>, </em><em>optional</em>) – Specifies how to aggregate. the defaults is <cite>np.mean</cite>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>last element is the compressed result</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list of numpy.array</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">tile_aggregate</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">]),</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">12</span><span class="p">],</span> <span class="p">[</span><span class="mi">20</span><span class="p">,</span><span class="mi">21</span><span class="p">,</span><span class="mi">22</span><span class="p">,</span><span class="mi">24</span><span class="p">])</span>
+<span class="go">(10, 12, array([2.75, 1.5 ]))</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">tile_aggregate</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">12</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">20</span><span class="p">,</span><span class="mi">21</span><span class="p">]))</span>
+<span class="go">(12, array([2.5]))</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">tile_aggregate</span><span class="p">(</span>
+<span class="go">    np.array([3,2,2,1,4,2,3,3,1,4,8,5,9,6,7,4,5,2,1,6,7,9,5,7]),</span>
+<span class="go">    [9,10,11], [20,21]), [7,8,5,6])</span>
+<span class="go">(array([ 9,  9, 10, 10, 11, 11]), array([20, 21, 20, 21, 20, 21]),</span>
+<span class="go">array([2. , 3. , 4.5, 6.5, 3.5, 7. ]))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpcalc.tiler">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpcalc.</span></span><span class="sig-name descname"><span class="pre">tiler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpcalc.html#tiler"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpcalc.tiler" title="Permalink to this definition"></a></dt>
+<dd><p>Provides mixed combinations of arguments.</p>
+<p>Creates copies of the arguments that have length equal to the product of the length of the arguments.
+This results in an ordered set of all combinations of the individual values from each of the arguements.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>*args</strong> (<em>array-likes</em>) – Each argument is an array-like of possibly different length.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A list of ordered combination of the input arguments.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list of array-likes</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ibpmodel</span> <span class="kn">import</span> <span class="n">ibpcalc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">tiler</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">])</span>
+<span class="go">[array([1, 1, 2, 2, 3, 3]),</span>
+<span class="go"> array([&#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;], dtype=&#39;&lt;U1&#39;)]</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ibpcalc</span><span class="o">.</span><span class="n">tiler</span><span class="p">([</span><span class="mi">17</span><span class="p">,</span><span class="mi">13</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">])</span>
+<span class="go">[array([17, 17, 17, 17, 17, 17, 13, 13, 13, 13, 13, 13]),</span>
+<span class="go"> array([1, 1, 2, 2, 3, 3, 1, 1, 2, 2, 3, 3]),</span>
+<span class="go"> array([&#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;, &#39;A&#39;, &#39;B&#39;],</span>
+<span class="go">       dtype=&#39;&lt;U1&#39;)]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+<section id="module-ibpmodel.ibpforward">
+<span id="ibpmodel-ibpforward-module"></span><h2>ibpmodel.ibpforward module<a class="headerlink" href="#module-ibpmodel.ibpforward" title="Permalink to this heading"></a></h2>
+<p>This module contains the application functions for the calculation of the IBP index as well as the graphical visualization.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpforward.butterflyData">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpforward.</span></span><span class="sig-name descname"><span class="pre">butterflyData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f107</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">150</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpforward.html#butterflyData"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpforward.butterflyData" title="Permalink to this definition"></a></dt>
+<dd><p>Calculates the Ionospheric Bubble Propability Index for all months (using the center DOY of each month) and all integer longitudes (resolution of 5 degree)
+using Local_Time of range -5 to 1 and a fixed value of F10.7. IBP index is then averaged from the Local_Times.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>f107</strong> (<em>int</em><em>, </em><em>optional</em>) – The Solar Radio Flux (F10.7 index). The default is 150.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>out_data</strong> – [[month],[longitude],[IBP index]].</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>numpy.array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpforward.calculateIBPindex">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpforward.</span></span><span class="sig-name descname"><span class="pre">calculateIBPindex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">day_month</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">longitude</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[-180,</span> <span class="pre">-175,</span> <span class="pre">-170,</span> <span class="pre">-165,</span> <span class="pre">-160,</span> <span class="pre">-155,</span> <span class="pre">-150,</span> <span class="pre">-145,</span> <span class="pre">-140,</span> <span class="pre">-135,</span> <span class="pre">-130,</span> <span class="pre">-125,</span> <span class="pre">-120,</span> <span class="pre">-115,</span> <span class="pre">-110,</span> <span class="pre">-105,</span> <span class="pre">-100,</span> <span class="pre">-95,</span> <span class="pre">-90,</span> <span class="pre">-85,</span> <span class="pre">-80,</span> <span class="pre">-75,</span> <span class="pre">-70,</span> <span class="pre">-65,</span> <span class="pre">-60,</span> <span class="pre">-55,</span> <span class="pre">-50,</span> <span class="pre">-45,</span> <span class="pre">-40,</span> <span class="pre">-35,</span> <span class="pre">-30,</span> <span class="pre">-25,</span> <span class="pre">-20,</span> <span class="pre">-15,</span> <span class="pre">-10,</span> <span class="pre">-5,</span> <span class="pre">0,</span> <span class="pre">5,</span> <span class="pre">10,</span> <span class="pre">15,</span> <span class="pre">20,</span> <span class="pre">25,</span> <span class="pre">30,</span> <span class="pre">35,</span> <span class="pre">40,</span> <span class="pre">45,</span> <span class="pre">50,</span> <span class="pre">55,</span> <span class="pre">60,</span> <span class="pre">65,</span> <span class="pre">70,</span> <span class="pre">75,</span> <span class="pre">80,</span> <span class="pre">85,</span> <span class="pre">90,</span> <span class="pre">95,</span> <span class="pre">100,</span> <span class="pre">105,</span> <span class="pre">110,</span> <span class="pre">115,</span> <span class="pre">120,</span> <span class="pre">125,</span> <span class="pre">130,</span> <span class="pre">135,</span> <span class="pre">140,</span> <span class="pre">145,</span> <span class="pre">150,</span> <span class="pre">155,</span> <span class="pre">160,</span> <span class="pre">165,</span> <span class="pre">170,</span> <span class="pre">175]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">local_time</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">numpy.arange</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f107</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">150</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpforward.html#calculateIBPindex"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpforward.calculateIBPindex" title="Permalink to this definition"></a></dt>
+<dd><p>Calculates the Ionospheric Bubble propability index based on the input parameters.
+Returns a <em>pandas.DataFrame</em> with input parameters and IBP index.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>day_month</strong> (<em>int</em><em> or </em><em>str</em><em> or </em><em>list</em><em>, </em><em>optional</em>) – Day of year (<em>int</em>) or the month of the year (<em>str</em>).
+<em>int</em>: Day of the year, <code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">&lt;=</span> <span class="pre">doy</span> <span class="pre">&lt;=</span> <span class="pre">365</span></code>. The value 0 means it should be calculated based on every month.
+<em>str</em>: Abbreviated month name. [‘Jan’, ‘Feb’, ‘Mar’, ‘Apr’, ‘May’, ‘Jun’, ‘Jul’, ‘Aug’, ‘Sep’, ‘Oct’, ‘Nov’, ‘Dec’]
+The default is 0.</p></li>
+<li><p><strong>longitude</strong> (<em>int</em><em> or </em><em>list</em><em> of </em><em>ints</em><em>, </em><em>optional</em>) – The geographical longitude(s), <code class="docutils literal notranslate"><span class="pre">-180</span> <span class="pre">&lt;=</span> <span class="pre">longitude</span> <span class="pre">&lt;=</span> <span class="pre">180</span></code>. The default is <cite>list(range(-180,181,5))</cite>.</p></li>
+<li><p><strong>local_time</strong> (<em>int</em><em> or </em><em>float</em><em> or </em><em>list</em><em>, </em><em>optional</em>) – The local time, <code class="docutils literal notranslate"><span class="pre">-6.0</span> <span class="pre">&lt;=</span> <span class="pre">local_time</span> <span class="pre">&lt;=</span> <span class="pre">24</span></code>. The default is <cite>np.arange(-6,6.1,0.1)</cite>.</p></li>
+<li><p><strong>f107</strong> (<em>int</em><em> or </em><em>float</em><em> or </em><em>list</em><em>, </em><em>optional</em>) – The Solar Radio Flux (F10.7 index), <code class="docutils literal notranslate"><span class="pre">0.0</span> <span class="pre">&lt;=</span> <span class="pre">f107</span> <span class="pre">&lt;=</span> <span class="pre">200.0</span></code>. The default is 150.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>df</strong> – contains the columns: Doy (Day(s) of the year), Month (Month(s) from the day of the year),
+Lon (Longitude(s)), LT (Local Time(s)), F10.7 (solar index(es)), IBP (Ionospheric Bubble Index, value(s) between 0.0 and 1.0).</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pandas.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpforward.plotButterflyData">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpforward.</span></span><span class="sig-name descname"><span class="pre">plotButterflyData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f107</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">150</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getFig</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpforward.html#plotButterflyData"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpforward.plotButterflyData" title="Permalink to this definition"></a></dt>
+<dd><p>Create a contour plot of the result from function butterflyData().</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f107</strong> (<em>int</em><em>, </em><em>optional</em>) – The Solar Radio Flux (F10.7 index). The default is 150.</p></li>
+<li><p><strong>getFig</strong> (<em>bool</em><em>, </em><em>optional</em>) – True: return matplotlib.axes, False: show picture. The default is False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>matplotlib.axes or bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ibpmodel.ibpforward.plotIBPindex">
+<span class="sig-prename descclassname"><span class="pre">ibpmodel.ibpforward.</span></span><span class="sig-name descname"><span class="pre">plotIBPindex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">doy</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f107</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">150</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getFig</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ibpmodel/ibpforward.html#plotIBPindex"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ibpmodel.ibpforward.plotIBPindex" title="Permalink to this definition"></a></dt>
+<dd><p>Create a contour plot of IBP index for the given day. The resolution along the longitude is 5 degree. Local time spans from 6 pm to 6 am with a resolution of 0.1 hours.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>doy</strong> (<em>int</em>) – Day of the year.</p></li>
+<li><p><strong>f107</strong> (<em>int</em><em>, </em><em>optional</em>) – The Solar Radio Flux (F10.7 index). The default is 150.</p></li>
+<li><p><strong>getFig</strong> (<em>bool</em><em>, </em><em>optional</em>) – True: return matplotlib.axes, False: show picture. The default is False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>matplotlib.axes or bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="reference.html" class="btn btn-neutral float-right" title="References" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Ina Wehner.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
