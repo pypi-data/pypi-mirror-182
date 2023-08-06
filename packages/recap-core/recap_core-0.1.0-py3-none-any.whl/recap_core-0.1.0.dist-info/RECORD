@@ -1,0 +1,16 @@
+recap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recap/api.py,sha256=lsWLFSHAp-eYq6yzCneCcAo7nOE3mbwmGw7yvvSx0IY,1757
+recap/catalog/__init__.py,sha256=dNNfpfUtWfa0A01r2AExIJTbQpfHtZhBojkn5uZ86no,1052
+recap/catalog/abstract.py,sha256=jUrJJCYd_3xKVOcCXKTUS9sXWFmDSTdVYgRXWVWK6C4,977
+recap/catalog/duckdb.py,sha256=l5lI5Okbd-hupU3hqO8U1gxiMwKMQ2Vf6mLbsau44zg,5523
+recap/catalog/fs.py,sha256=uJM6cf8bAXZ4nGnMzewn-GuGmcCK4im6fyCXYN2ljmw,4324
+recap/catalog/recap.py,sha256=hB2EM-iHTZbS_7UujR5UPwsFPqTR4U4hx8YUmlUML6s,1507
+recap/cli.py,sha256=8H0DomA3luMkdd0uIk_HdE2WZvR4rRvSddPME8DvHug,1798
+recap/config.py,sha256=uGv5omODByZ-TqUu1uv4nxJSXUUFwlrIVhlHho81YAE,323
+recap/crawlers/__init__.py,sha256=BrsT4RRSMP00uP8sYQxujf7IdXAFaGIn43VEg6nkST4,1382
+recap/crawlers/db.py,sha256=-DoAfqDWPXY_2Nrgpgks8n_26XFgOK8ojvZv7NNNDvE,17862
+recap_core-0.1.0.dist-info/entry_points.txt,sha256=XTAQInPlv5V1xkUpvZJIBQoMSQJCKF1dKt1F9Emh2bQ,39
+recap_core-0.1.0.dist-info/WHEEL,sha256=_LDBqpgIVFNHZvvFOGbg2pvJOENq6RHAyT5px-HeX0U,87
+recap_core-0.1.0.dist-info/METADATA,sha256=fOCaWKw0pjA2_VJVHoPjo2J5MDEnY0PbNY8OudJYc0I,6342
+recap_core-0.1.0.dist-info/licenses/LICENSE,sha256=BpQU4KUyVh9YCoquevUVD5PKlCZTkl7LShYY7o3-hQo,30592
+recap_core-0.1.0.dist-info/RECORD,,
