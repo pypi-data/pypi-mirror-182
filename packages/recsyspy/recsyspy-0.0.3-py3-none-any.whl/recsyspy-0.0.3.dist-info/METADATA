@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: recsyspy
+Version: 0.0.3
+Summary: The Recommender Systems Python Package
+Author-email: Markus Lill <markus.lill@gmx.de>
+Project-URL: Homepage, https://github.com/malill/recsyspy
+Project-URL: Bug Tracker, https://github.com/malill/recsyspy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=1.4.0)
+Requires-Dist: numpy (>=1.22.0)
+Provides-Extra: dev
+Requires-Dist: autoflake ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: toml ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# RecSysPy | Python Recommender System Package
+
+![version](https://img.shields.io/badge/version-0.0.3-blue)
+
+Python package calculating recommendations from implicit feedback.
+
+# Development
+
+## Project Setup
+
+Project Setup forked from GitHub Repository [PythonExampleProject](https://github.com/Coding-Crashkurse/PythonExampleProject) (see tutorial in [YouTube](https://www.youtube.com/watch?v=3QvUqHIglmo)).
+
+# Testing
+
+Before pushing commits to `develop` branch run `tox` from the project root.
+
+> TODO: This needs to be automatd and pushed to a GitHub Action
+
+# Build & Distribution
+
+## TestPyPI
+
+A GitHub Action is in place that builds and publishes to **TestPyPI** whenever a commit is **pushed** to the `develop` branch.
+
+For building and publishing to **TestPyPI** (not recommended) see official [PyPI Docs](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
+
+```cmd
+py -m build
+py -m twine upload --repository testpypi dist/*
+```
+
+## PyPI
+
+Another GitHub Action is in place on **pull requests** on the `main` branch. The Python Package will be build and published to **PyPI**.
