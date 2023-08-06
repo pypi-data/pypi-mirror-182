@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_logsplit/LICENSE
+a_pandas_ex_logsplit/README.MD
+a_pandas_ex_logsplit/__init__.py
+a_pandas_ex_logsplit/requirements.txt
+a_pandas_ex_logsplit/thirdparty.json
+a_pandas_ex_logsplit.egg-info/PKG-INFO
+a_pandas_ex_logsplit.egg-info/SOURCES.txt
+a_pandas_ex_logsplit.egg-info/dependency_links.txt
+a_pandas_ex_logsplit.egg-info/requires.txt
+a_pandas_ex_logsplit.egg-info/top_level.txt

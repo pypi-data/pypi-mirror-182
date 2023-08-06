@@ -1,0 +1,4 @@
+include a_pandas_ex_logsplit/requirements.txt
+include a_pandas_ex_logsplit/thirdparty.json
+include a_pandas_ex_logsplit/README.MD
+include a_pandas_ex_logsplit/LICENSE
