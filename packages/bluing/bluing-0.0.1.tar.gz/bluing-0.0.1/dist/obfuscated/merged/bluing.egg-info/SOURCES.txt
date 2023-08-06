@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dist/obfuscated/merged/bluing/__init__.py
+dist/obfuscated/merged/bluing/__main__.py
+dist/obfuscated/merged/bluing.egg-info/PKG-INFO
+dist/obfuscated/merged/bluing.egg-info/SOURCES.txt
+dist/obfuscated/merged/bluing.egg-info/dependency_links.txt
+dist/obfuscated/merged/bluing.egg-info/entry_points.txt
+dist/obfuscated/merged/bluing.egg-info/top_level.txt
+dist/obfuscated/merged/bluing/pytransform/__init__.py
+dist/obfuscated/merged/bluing/pytransform/platforms/linux/aarch64/_pytransform.so
+dist/obfuscated/merged/bluing/pytransform/platforms/linux/x86_64/_pytransform.so
