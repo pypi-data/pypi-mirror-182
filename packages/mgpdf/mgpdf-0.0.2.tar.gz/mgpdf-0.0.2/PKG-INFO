@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mgpdf
+Version: 0.0.2
+Summary: 
+Home-page: https://github.com/liuxsdev/mgpdf
+License: MIT
+Author: liuxsdev
+Author-email: 1028330144@qq.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pypdf2 (>=3.0.0,<4.0.0)
+Project-URL: Repository, https://github.com/liuxsdev/mgpdf
+Description-Content-Type: text/markdown
+
+# mgpdf
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mgpdf.svg)](https://pypi.org/project/mgpdf)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mgpdf.svg)](https://pypi.org/project/mgpdf)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install mgpdf
+```
+
+## License
+
+`mgpdf` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
