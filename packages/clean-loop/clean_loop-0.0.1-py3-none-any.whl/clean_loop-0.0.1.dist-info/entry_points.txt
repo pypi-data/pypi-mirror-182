@@ -1,0 +1,3 @@
+[console_scripts]
+clean-loop = clean_loop.cli:main
+
