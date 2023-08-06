@@ -1,0 +1,3 @@
+[console_scripts]
+enstelco = enstelco.cli:main
+

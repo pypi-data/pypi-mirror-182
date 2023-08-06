@@ -1,0 +1,4 @@
+ase
+nlopt
+spglib
+rich
