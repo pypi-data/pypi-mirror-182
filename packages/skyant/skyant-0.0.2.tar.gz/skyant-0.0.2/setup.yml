@@ -1,0 +1,27 @@
+NAMESPACE: skyant
+MODULES:
+    -   skyant
+
+VERSION: 0.0
+MINOR: 2
+
+DESCR: Cloud Application Framework
+KEYWORDS: grpc, rest, api, dash, cloud application
+
+LICENSE: MIT
+
+HOME: https://skyant.dev
+DOCUMENTATION: https://docs.skyant.dev/projects/shell
+
+
+AUTHOR: Iurii Tarasenko
+EMAIL: info@skyant.dev
+
+PYTHON_REQ: '>=3.10'
+REQUIREMENTS:
+
+CLASSIFIERS:
+    -   'Programming Language :: Python :: 3.10'
+    -   'Intended Audience :: Developers'
+    -   'Intended Audience :: Information Technology'
+    -   'Topic :: Software Development :: Libraries :: Python Modules'
