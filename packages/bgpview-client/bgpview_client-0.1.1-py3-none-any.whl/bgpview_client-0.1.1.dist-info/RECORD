@@ -1,0 +1,10 @@
+bgpview/__init__.py,sha256=L4qC1fhq5LhCXDnwFI-wytwf7IxY1uKmlHov8RZsf8A,59
+bgpview/api_client.py,sha256=LAMxuA_AkJvZb8lC-0OsNk5Mq0M2nAskbcyEeYB0mcU,1551
+bgpview/bgpview.py,sha256=FWh4B3FsCPthdNuAqMcHMciJhOe9wZ_gzgov1mJaqAk,3361
+bgpview/util.py,sha256=KgkBqB-R-TRZrXcxIrItrSCR3kZq0Wo16PDWPZni7uc,117
+bgpview_client-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bgpview_client-0.1.1.dist-info/METADATA,sha256=FSpMbtzcpYxMDYziGwnhAXOpyPF7j48Op34B6n0atLM,1388
+bgpview_client-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bgpview_client-0.1.1.dist-info/top_level.txt,sha256=E2hgYYYGg-rMFxTqelzOm3TdrloeiLdAGaBAU_MQa2g,8
+bgpview_client-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bgpview_client-0.1.1.dist-info/RECORD,,
