@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-port-gun"
+version = "0.1.0"
+description = ""
+authors = ["danprince8984 <danprince8984@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_port_gun"}]
+
+[tool.poetry.scripts]
+test-port-gun = "test_port_gun.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
