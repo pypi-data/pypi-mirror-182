@@ -1,0 +1,83 @@
+{% load static %}
+{% load compress %}
+{% load sections %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ======= SEO ======= -->{% include 'iportfolio/seo.html' %}<!-- End SEO -->
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'iportfolio/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'iportfolio/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  {% compress css %}
+    <link type="text/x-scss" href="{% static 'iportfolio/scss/style.scss' %}" rel="stylesheet">
+  {% endcompress %}
+</head>
+
+<body>
+  {% load popup_tags %}
+  {% show_popup %}
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->{% include 'iportfolio/header.html' %}<!-- End Header -->
+  <!-- ======= Hero Section ======= -->{% hero %}<!-- End Hero Section -->
+
+  <main id="main">
+    {% for component, is_use, _, _, _ in components %}
+      {% if is_use %}
+        {% if component == 'popup' %}
+          {% load popup_tags %}
+          {% show_popup %}
+        {% elif component == 'about' %}
+          <!-- ======= About Section ======= -->{% about %}<!-- End About Section -->
+        {% elif component == 'facts' %}
+          <!-- ======= Facts Section ======= -->{% facts %}<!-- End Facts Section -->
+        {% elif component == 'skills' %}
+          <!-- ======= Skills Section ======= -->{% skills %}<!-- End Skills Section -->
+        {% elif component == 'resume' %}
+          <!-- ======= Resume Section ======= -->{% resume %}<!-- End Resume Section -->
+        {% elif component == 'portfolio' %}
+          <!-- ======= Portfolio Section ======= -->{% portfolio %}<!-- End Portfolio Section -->
+        {% elif component == 'services' %}
+          <!-- ======= Services Section ======= -->{% services %}<!-- End Services Section -->
+        {% elif component == 'testimonials' %}
+          <!-- ======= Testimonials Section ======= -->{% testimonials %}<!-- End Testimonials Section -->
+        {% elif component == 'contact' %}
+          <!-- ======= Contact Section ======= -->{% contact %}<!-- End Contact Section -->
+        {% elif component == 'analytics' %}
+          {% load analytics_tags %}
+          {% make_analytics %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->{% include 'iportfolio/footer.html' %}<!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'iportfolio/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'iportfolio/vendor/waypoints/noframework.waypoints.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'iportfolio/js/main.js' %}"></script>
+
+</body>
+
+</html>
