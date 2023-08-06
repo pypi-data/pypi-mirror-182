@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: CLogs-Ulif
+Version: 1.0.0
+Summary: A library for creating changelog programmatically with ease.
+Author-email: UlifSystems <ulifsystems@gmail.com>
+Project-URL: Homepage, https://github.com/ulifprojects/clogs
+Project-URL: Bug Tracker, https://github.com/ulifprojects/clogs/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# CLogs
+
+Create Changelogs automatically
+
+
+
+
+
+## Usage/Examples
+
+### Create new log
+```python
+import clog
+
+log = clog.Clog()
+
+```
+or
+```python
+import clog
+
+log = clog.Clog("C:\...")
+
+```
+
+### Add entry to log
+
+```python
+import clog
+
+log = clog.Clog()
+
+data = LogData("V1.0", "UlifSystems") # LogData(version, contributor)
+data.AddEntry("Example Eentry")
+
+log.WriteLog(data)
+```
+
+### Get existing log
+
+```python
+import clog
+
+log = clog.GetExistingLog("C:\...")
+
+data = LogData("V1.0", "UlifSystems") # LogData(version, contributor)
+data.AddEntry("Example Eentry")
+
+log.WriteLog(data)
+```
+
+### Delete log
+
+```python
+import clog
+
+log = clog.GetExistingLog("C:\...")
+
+clog.DeleteLog("C:\...")
+```
+## Installation
+
+Install clogs with pip
+
+```bash
+  python3 -m pip install clogs
+```
+    
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
