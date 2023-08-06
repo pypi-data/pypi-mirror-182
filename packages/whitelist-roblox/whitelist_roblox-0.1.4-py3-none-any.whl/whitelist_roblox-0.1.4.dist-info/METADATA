@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: whitelist-roblox
+Version: 0.1.4
+Summary: Whitelist For Roblox Script
+Author: MaGiXx#6964
+Requires-Dist: requests
+Requires-Dist: disnake
+
