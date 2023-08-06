@@ -1,0 +1,3 @@
+[console_scripts]
+txSweeper=txSweeper.main:main
+
