@@ -1,0 +1,2 @@
+WARNING  root:executor.py:19 /tmp/UTBot/30_coverage_db_print_node
+WARNING  root:executor.py:19 /home/vyacheslav/Projects/utbot_executor/utbot_executor/database_func_A
