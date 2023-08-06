@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: dataModul13
+Version: 1.2
+Summary: Syntax:		function: data("{data}")# save data;		function; read(); read data		function encodeData() encode data		function decodeData() decode data		example:		from dataModul import *;		test=data("ABC");		test.encode();		print(test.read());		test.decode();		print(test.read());				Console:		{0}{1}{2}		abc
+Author-email: pyprogrammer13@gmail.com

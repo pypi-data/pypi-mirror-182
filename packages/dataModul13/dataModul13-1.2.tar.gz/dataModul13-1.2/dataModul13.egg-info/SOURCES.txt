@@ -1,0 +1,7 @@
+dataModul13.py
+setup.py
+dataModul13.egg-info/PKG-INFO
+dataModul13.egg-info/SOURCES.txt
+dataModul13.egg-info/dependency_links.txt
+dataModul13.egg-info/not-zip-safe
+dataModul13.egg-info/top_level.txt
