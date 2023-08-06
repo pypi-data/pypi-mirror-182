@@ -1,0 +1,38 @@
+QDialog{
+background-color: rgb(50, 50, 50);
+}
+
+QWidget{
+background-color: rgb(29, 29, 29);
+color: rgb(51, 51, 51);
+}
+
+QPlainTextEdit{
+background-color: rgb(29, 29, 29);
+color: rgb(221, 221, 221);
+}
+
+QTextEdit{
+background-color: rgb(39, 39, 39);
+color: rgb(221, 221, 221);
+}
+
+
+QLineEdit{
+color: rgb(221, 221, 221);
+padding: 2px 2px;
+font-size: 12pt;
+}
+
+QTabWidget{
+background-color: rgb(29, 29, 29);
+color: rgb(21, 21, 21);
+}
+
+QDockWidget{
+background-color: rgb(29, 29, 29);
+color: rgb(21, 21, 21);
+}
+
+background-color: rgb(29, 29, 29);
+color: rgb(51, 51, 51);
