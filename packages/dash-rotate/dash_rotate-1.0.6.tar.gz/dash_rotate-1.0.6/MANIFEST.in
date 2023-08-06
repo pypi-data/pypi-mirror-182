@@ -1,0 +1,11 @@
+include dash_rotate/dash_rotate.min.js
+include dash_rotate/dash_rotate.min.js.map
+include dash_rotate/async-*.js
+include dash_rotate/async-*.js.map
+include dash_rotate/*-shared.js
+include dash_rotate/*-shared.js.map
+include dash_rotate/metadata.json
+include dash_rotate/package-info.json
+include README.md
+include LICENSE
+include package.json
