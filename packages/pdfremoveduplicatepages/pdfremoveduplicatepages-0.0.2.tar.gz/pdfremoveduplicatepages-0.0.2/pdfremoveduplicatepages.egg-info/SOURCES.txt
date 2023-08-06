@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pdfremoveduplicatepages.egg-info/PKG-INFO
+pdfremoveduplicatepages.egg-info/SOURCES.txt
+pdfremoveduplicatepages.egg-info/dependency_links.txt
+pdfremoveduplicatepages.egg-info/entry_points.txt
+pdfremoveduplicatepages.egg-info/requires.txt
+pdfremoveduplicatepages.egg-info/top_level.txt
