@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+check_password/__init__.py
+check_password/check_password.py
+check_password.egg-info/PKG-INFO
+check_password.egg-info/SOURCES.txt
+check_password.egg-info/dependency_links.txt
+check_password.egg-info/top_level.txt
