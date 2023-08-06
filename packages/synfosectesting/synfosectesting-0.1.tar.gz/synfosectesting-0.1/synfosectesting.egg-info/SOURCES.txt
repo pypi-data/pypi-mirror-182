@@ -1,0 +1,7 @@
+set.py
+synfosectesting/__init__.py
+synfosectesting/greeting.py
+synfosectesting.egg-info/PKG-INFO
+synfosectesting.egg-info/SOURCES.txt
+synfosectesting.egg-info/dependency_links.txt
+synfosectesting.egg-info/top_level.txt
