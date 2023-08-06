@@ -1,0 +1,8 @@
+rst_pypi_ref/__init__.py,sha256=I2wC4Q8B5dTiEDbFa5oJgXLFmwjUW8305tZN52E4glA,78
+rst_pypi_ref/cli.py,sha256=fLTTsWq5QqR62WTMitYP_5RPq1tnW607GZezUP8ypE4,204
+rst_pypi_ref/core.py,sha256=_uaclXeB0yJflK7nlTqQrKOZq8HxYYBlJ7KcfqOc5Xc,636
+rst_pypi_ref/sphinx.py,sha256=ckBFnWQQeZDOjCtiB5E9mJ0rJGYxnAhHytkas6xxj4I,384
+rst_pypi_ref-0.1.1.dist-info/LICENSE,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+rst_pypi_ref-0.1.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+rst_pypi_ref-0.1.1.dist-info/METADATA,sha256=7fbrPu4Vo4q7C8gohnZXveYUwI_Mpmj2NiC2XpViw7Q,2436
+rst_pypi_ref-0.1.1.dist-info/RECORD,,
