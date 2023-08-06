@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fileformats
+Version: 0.1
+Summary: Python classes for representing different file formats for use in type hinting in data workflows.
+License: CC BY-NC-SA 4.0
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: fileformats-core
+Requires-Dist: fileformats-common
+Requires-Dist: fileformats-medimage
+
