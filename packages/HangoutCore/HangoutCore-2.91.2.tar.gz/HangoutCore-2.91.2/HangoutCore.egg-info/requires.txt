@@ -1,0 +1,5 @@
+requests
+discord.py[voice]
+click
+colorama
+jproperties
