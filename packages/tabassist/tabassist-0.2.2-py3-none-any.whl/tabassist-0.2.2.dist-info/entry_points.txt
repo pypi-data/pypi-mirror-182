@@ -1,0 +1,2 @@
+[console_scripts]
+tabassist = tabassist.__main__:cli

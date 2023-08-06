@@ -1,0 +1,13 @@
+tabassist/__init__.py,sha256=Mrpwj5GjvVUM9EmYYAvxlEZwoPU3o0bpYmeVMJMYCEI,71
+tabassist/__main__.py,sha256=yXtxT757DUidKMOVnp6wnlaR5EijXxW2eNWS39lER2I,3725
+tabassist/check.py,sha256=zh6bLKja4h7SifErQ8bjVAIAQdewZrONaM8BNbLXdP0,6814
+tabassist/doc.py,sha256=iTSuu-4_rdeu7lcPak5r69hZDGHSnOnrRNHdmh0ReBA,3412
+tabassist/error.py,sha256=NlwnVUBCnG0yT3i4SwwLP-vVX-68wuyfnLb5-6KXtFs,2216
+tabassist/log.py,sha256=Z8ne_RdU8NGhXqOTScKIHusWncNvhwvsMkDsbeEUHj0,790
+tabassist/data/template.md,sha256=scl3mPJZUV6WRby-vBbFh3zhYCUeKzvUL8VeC5icaEo,1180
+tabassist-0.2.2.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tabassist-0.2.2.dist-info/METADATA,sha256=RNCYbiBz_dg7j4Mm_pLiLSuXc08cvMha9KiDdRfSTw8,4034
+tabassist-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tabassist-0.2.2.dist-info/entry_points.txt,sha256=QdeRGLJE8gxFgpYnMBRcQhrDVkauHUk0Tm8brQHXFcg,53
+tabassist-0.2.2.dist-info/top_level.txt,sha256=6e0c1-5fp9JNWw1Fyl7uURgNdt0I5q2OeQzakQp6WJs,10
+tabassist-0.2.2.dist-info/RECORD,,
