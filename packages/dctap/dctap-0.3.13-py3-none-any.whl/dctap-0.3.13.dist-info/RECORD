@@ -1,0 +1,16 @@
+dctap/.gitignore,sha256=cDyX0HLetWXGlPHkVHw7AQ5WaUz1ETIXvERHxWyY77Y,33
+dctap/__init__.py,sha256=_j52BJ8f7XH5rnh7s6CeD1ygdo1_SZGaL-UnL5eKwgA,397
+dctap/cli.py,sha256=FA9ldP_zE5QYufuv2yWVt9mf1eaeZ_sLyuEV_WFA_TI,3597
+dctap/config.py,sha256=b53gsNDjtVIQ5D9Yja4MnTSszzip89dMqT7PV8krBuQ,5415
+dctap/csvreader.py,sha256=jLq7eo1I3fXHpG-jlVwF1Aw9jkeVAV_nBfjdXDnTqKE,8743
+dctap/defaults.py,sha256=hFsca5vxvIST9GFNtlSB7PRxr04eQ7ERBFWg4OtvjrI,1326
+dctap/exceptions.py,sha256=1UiuAEZlnXFzWocN2VbLGLNACSH412lDzdPk-SUDji8,196
+dctap/inspect.py,sha256=9yX-sHJvIpavLDksBzrwuHyZ3zYYbaxy4WIiE34_Ck4,2355
+dctap/loggers.py,sha256=_oCpwegtdvt5dySg4ueDThcY0nnQ3LrZUDZjGDe6wMs,1822
+dctap/tapclasses.py,sha256=mXLxTCgh331mijTqyBcDGm4y3VyeNe2v5PpIk_zwaYs,13929
+dctap/utils.py,sha256=Du0OJ48qW3oLH3PvjomwEXy_ckDuCpTxVTh7CXexXis,2970
+dctap-0.3.13.dist-info/entry_points.txt,sha256=4NN81BijGdYnPE9clVqDoReV2P7NI9D2ztCyJ3vBvSc,39
+dctap-0.3.13.dist-info/LICENSE,sha256=GBaak9DfD3weHn1YZ02xUsfjeyu8YqAs3g_Kh6nZ73o,1061
+dctap-0.3.13.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+dctap-0.3.13.dist-info/METADATA,sha256=joe_gDMzSxpVd9RZawuQemAJ7mESWdcahVX5HO3vyTM,6188
+dctap-0.3.13.dist-info/RECORD,,
