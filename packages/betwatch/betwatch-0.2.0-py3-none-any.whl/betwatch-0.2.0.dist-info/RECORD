@@ -1,0 +1,11 @@
+betwatch/__about__.py,sha256=3ApK0I_VNeTlOg7PVcL4PHk2fJEOo-udLW5Y-EvnBpg,127
+betwatch/__init__.py,sha256=oagO6MWomvD86o0dEtXMRbGZ20TVngLJ0lv8xtF5HO8,187
+betwatch/client.py,sha256=oyApdZpssZGH-N5idPMNCeI53v8q6sk16D70Pn5qVwo,1613
+betwatch/client_async.py,sha256=_xThyUl3uTj92OaoukBo_lkCevCQkGOyHIkhsPmuxFY,5747
+betwatch/queries.py,sha256=LXhp3993VgwtS68bf974fBPYbPgjQTiDjiBA4JTo9Oo,2522
+betwatch/types/markets.py,sha256=ucv_CU3G3ksBeW89n-cn1xGY9e_2Loq6Cjq0K2DahTA,2275
+betwatch/types/race.py,sha256=7QiB3TNIRhatj8CSU6FjcLPWk2VH87NO01zzVlwL92k,3396
+betwatch-0.2.0.dist-info/METADATA,sha256=v9FWTw0-nM8fePfe11IYbEj-9wlRq9HdZ0lBRaab1ZQ,1525
+betwatch-0.2.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+betwatch-0.2.0.dist-info/licenses/LICENSE.txt,sha256=DuISfSYfnTZlrVBZgzztgwVRlBhcHL6UrBkqYgNvsVo,1097
+betwatch-0.2.0.dist-info/RECORD,,
