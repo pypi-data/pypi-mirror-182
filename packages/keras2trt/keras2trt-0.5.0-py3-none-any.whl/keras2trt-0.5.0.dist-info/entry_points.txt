@@ -1,0 +1,3 @@
+[console_scripts]
+keras2trt=keras2trt.cli:app
+
