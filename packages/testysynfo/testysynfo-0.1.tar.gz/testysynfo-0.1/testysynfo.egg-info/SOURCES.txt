@@ -1,0 +1,7 @@
+set.py
+testysynfo/__init__.py
+testysynfo/hello.py
+testysynfo.egg-info/PKG-INFO
+testysynfo.egg-info/SOURCES.txt
+testysynfo.egg-info/dependency_links.txt
+testysynfo.egg-info/top_level.txt
