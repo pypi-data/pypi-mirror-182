@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: helper-for-maxi
+Version: 0.0.2
+Summary: Contains all Functions
+Author: Maxi Myoga
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Helper for Maxi
+
+All the Functions I could need multiple times
+
+## Instructions
+
+1. Install:
+
+```
+pip install helper-for-maxi
+```
+
+2. Import package:
+
+```python
+from helper import *
+# You can replace * with what you need!
+``` 
