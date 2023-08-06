@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/garmin_dayly.egg-info/PKG-INFO
+src/garmin_dayly.egg-info/SOURCES.txt
+src/garmin_dayly.egg-info/dependency_links.txt
+src/garmin_dayly.egg-info/entry_points.txt
+src/garmin_dayly.egg-info/requires.txt
+src/garmin_dayly.egg-info/top_level.txt

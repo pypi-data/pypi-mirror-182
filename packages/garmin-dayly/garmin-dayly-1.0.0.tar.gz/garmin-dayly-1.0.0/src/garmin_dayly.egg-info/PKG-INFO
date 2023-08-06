@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: garmin-dayly
+Version: 1.0.0
+Summary: Aggregate data from Garmin Connect dayly. Also contains script to convert goodreads books to markdown files, for example for Obsidian.
+Home-page: https://andgineer.github.io/garmin-dayly/
+Author: Andrey Sorokin
+Author-email: andrey@sorokin.engineer
+Keywords: Garmin Connect Health goodreads book markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+[![Build Status](https://github.com/andgineer/garmin-dayly/workflows/ci/badge.svg)](https://github.com/andgineer/garmin-dayly/actions)
+# Fill Google Sheets with data from Garmin Connect
+
+# Documentation
+
+[garmin-dayly](https://andgineer.github.io/garmin-dayly/)
+
+# Developers
+
+Do not forget to run `. ./activate.sh`.
