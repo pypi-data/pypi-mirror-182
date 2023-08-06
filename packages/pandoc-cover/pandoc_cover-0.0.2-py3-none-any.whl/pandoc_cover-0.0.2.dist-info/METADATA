@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pandoc-cover
+Version: 0.0.2
+Summary: Add a PDF cover to a document using an SVG template and the pandoc metadata 
+Author-email: Damien Clochard <damien.clochard@dalibo.com>
+Project-URL: Homepage, https://github.com/daamien/pandoc-cover
+Project-URL: Bug Tracker, https://github.com/daamien/pandoc-cover/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: panflute
+Requires-Dist: jinja2
+
+# pandoc-cover
+
+Add a PDF cover to document using an SVG template and
+the document metadata.
+
+Currently, this only works if you are also using the
+`eisvogel` template
+
+
+## Example
+
+1. Create a SVG template called `foo.svg` and write
+   `{{ metadata.title }}` in place of the title.
+
+2. Add a `title` metadata in your pandoc document
+
+3. Activate the plugin in the header of your document (`bar.md`)
+
+   ```yaml
+   title: 'Hello World !"
+   titlepage: false
+   titlepage-background: 'path/to/foo.svg'
+   ```
+
+4. Launch pandoc
+
+    ```
+    pandoc --filter=pandoc_cover --template=eisvogel bar.md -o bar.pdf
+    ```
