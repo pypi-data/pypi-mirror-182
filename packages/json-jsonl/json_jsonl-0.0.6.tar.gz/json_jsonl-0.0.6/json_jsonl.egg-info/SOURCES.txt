@@ -1,0 +1,7 @@
+setup.py
+json_jsonl/__init__.py
+json_jsonl/__json_jsonl.py
+json_jsonl.egg-info/PKG-INFO
+json_jsonl.egg-info/SOURCES.txt
+json_jsonl.egg-info/dependency_links.txt
+json_jsonl.egg-info/top_level.txt
