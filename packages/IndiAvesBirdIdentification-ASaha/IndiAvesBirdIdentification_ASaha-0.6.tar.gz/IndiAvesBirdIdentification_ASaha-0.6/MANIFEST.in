@@ -1,0 +1,10 @@
+include IndiAvesBirdIdentification/model-best/ner/*.*
+include IndiAvesBirdIdentification/model-best/vocab/*.*
+include IndiAvesBirdIdentification/model-best/tok2vec/*.*
+include IndiAvesBirdIdentification/model-best/ner/*
+include IndiAvesBirdIdentification/model-best/vocab/*
+include IndiAvesBirdIdentification/model-best/tok2vec/*
+include IndiAvesBirdIdentification/model-best/tokenizer
+include IndiAvesBirdIdentification/model-best/*
+include IndiAvesBirdIdentification/files/all_birds_list
+include IndiAvesBirdIdentification/files/birdnames_words
