@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+clearsrc/__init__.py
+clearsrc.egg-info/PKG-INFO
+clearsrc.egg-info/SOURCES.txt
+clearsrc.egg-info/dependency_links.txt
+clearsrc.egg-info/top_level.txt
