@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+descripstats/__init__.py
+descripstats/stats.py
+descripstats.egg-info/PKG-INFO
+descripstats.egg-info/SOURCES.txt
+descripstats.egg-info/dependency_links.txt
+descripstats.egg-info/requires.txt
+descripstats.egg-info/top_level.txt

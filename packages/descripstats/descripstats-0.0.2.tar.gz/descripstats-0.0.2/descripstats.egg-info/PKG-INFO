@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: descripstats
+Version: 0.0.2
+Summary: A descriptive statistics package
+Home-page: https://github.com/shoukewei/descripstats
+Author: Shouke Wei
+Author-email: shouke.wei@gmail.com
+License: MIT License
+Keywords: python,descriptive statistics,more measures,pandas describe,pandas dataframe
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# descripstats
+
+This is a small package to help add more descriptive statistics to the default `describe()` of Pandas, which include:   
+- mad: mean absolute deviation
+- variance: variance
+- sem: standard error of the mean
+- sum: sum
+- skewness: skewness
+- kurtosis: kurtosis
+
+Developed by Shouke Wei from Deepsim Academy, Deepsim Intelligence Technology Inc. (c) 2022
+
+## Install the package
+```python
+pip install descripstats
+```
+
+## import the package
+```python
+from descripstats import Describe
+```
+then use the `Describe()` directly. Or 
+```python
+import descripstats as ds
+```
+then use `ds.Discribe()`
+
+## Document
+An example: https://github.com/shoukewei/descripstats/blob/main/docs/example.ipynb
+
+
