@@ -1,0 +1,8 @@
+setup.py
+colorspyton.egg-info/PKG-INFO
+colorspyton.egg-info/SOURCES.txt
+colorspyton.egg-info/dependency_links.txt
+colorspyton.egg-info/requires.txt
+colorspyton.egg-info/top_level.txt
+libname/__init__.py
+libname/colorsPyto.py
