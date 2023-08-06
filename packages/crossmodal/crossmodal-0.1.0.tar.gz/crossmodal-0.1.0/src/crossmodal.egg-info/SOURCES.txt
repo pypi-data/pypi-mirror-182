@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/crossmodal/__init__.py
+src/crossmodal.egg-info/PKG-INFO
+src/crossmodal.egg-info/SOURCES.txt
+src/crossmodal.egg-info/dependency_links.txt
+src/crossmodal.egg-info/top_level.txt

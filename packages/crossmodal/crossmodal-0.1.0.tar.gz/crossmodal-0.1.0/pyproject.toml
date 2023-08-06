@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crossmodal"
+version = "0.1.0"
+description = "Cross-modal retrieval toolkit"
+readme = "README.md"
+authors = [{ name = "Wang Zuo", email = "u3008567@connect.hku.hk" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["cross-modal"]
+requires-python = ">=3.9"
+
+[project.urls]
+homepage = "https://github.com/wangzuo/crossmodal"
+source = "https://github.com/wangzuo/crossmodal"
