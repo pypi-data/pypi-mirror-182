@@ -1,0 +1,8 @@
+setup.py
+synscrape/__init__.py
+synscrape/getter.py
+synscrape.egg-info/PKG-INFO
+synscrape.egg-info/SOURCES.txt
+synscrape.egg-info/dependency_links.txt
+synscrape.egg-info/requires.txt
+synscrape.egg-info/top_level.txt
