@@ -1,0 +1,6 @@
+venv/
+env/
+__pycache__
+dist/
+.tox
+.ruff_cache/
