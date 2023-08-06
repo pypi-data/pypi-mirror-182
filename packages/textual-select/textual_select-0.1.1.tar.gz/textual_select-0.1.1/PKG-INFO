@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: textual-select
+Version: 0.1.1
+Summary: A select widget (aka dropdown) for Textual.
+Home-page: https://github.com/mitosch/textual-select
+License: MIT
+Keywords: textual,textual select,textual dropdown
+Author: Mischa Schindowski
+Author-email: mschindowski@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: textual (>=0.6.0)
+Project-URL: Repository, https://github.com/mitosch/textual-select
+Description-Content-Type: text/markdown
+
+# Textual: Select
+
+A simple select widget (aka dropdown) for [textual](https://github.com/Textualize/textual).
+
+## Usage
+
+```python
+from textual_select import Select
+
+dropdown_data = [
+    {"value": 0, "text": "Pick-Up"},
+    {"value": 1, "text": "SUV"},
+    {"value": 2, "text": "Hatchback"},
+    {"value": 3, "text": "Crossover"},
+    {"value": 4, "text": "Convertible"},
+    {"value": 5, "text": "Sedan"},
+    {"value": 6, "text": "Sports Car"},
+    {"value": 7, "text": "Coupe"},
+    {"value": 8, "text": "Minivan"}
+]
+
+Select(
+    placeholder="please select",
+    items=dropdown_data,
+    list_mount="#main_container"
+)
+```
+
+## Installation
+
+```bash
+pip install textual-select
+```
+
+Requires textual 0.6.0 or later.
+
