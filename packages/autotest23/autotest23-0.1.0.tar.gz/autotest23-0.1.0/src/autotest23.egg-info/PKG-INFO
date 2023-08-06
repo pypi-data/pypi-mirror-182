@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autotest23
+Version: 0.1.0
+Summary: A small example package
+Author-email: Sabbir Hossain <bsse1014@iit.du.ac.bd>
+Project-URL: Homepage, https://github.com/FahimDev/django-autotest-QA-tool
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# django-autotest-QA-Tool
+ This is a R&D project for Brain Station 23
