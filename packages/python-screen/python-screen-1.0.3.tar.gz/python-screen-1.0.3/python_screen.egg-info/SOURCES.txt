@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyscreen/__init__.py
+pyscreen/errors.py
+python_screen.egg-info/PKG-INFO
+python_screen.egg-info/SOURCES.txt
+python_screen.egg-info/dependency_links.txt
+python_screen.egg-info/top_level.txt
