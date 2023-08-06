@@ -1,0 +1,23 @@
+{% load static %}
+<section id="services" class="services">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>{{ services.title }}</h2>
+      {% autoescape off %}
+      <p>{{ services.subtitle }}</p>
+      {% endautoescape %}
+    </div>
+
+    <div class="row">
+      {% for item in services.items %}
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="{% cycle '0' '100' '200' '300' '400' '500' '600' '700' %}">
+        <div class="icon"><i class="bi {{ item.icon }}"></i></div>
+        <h4 class="title"><a href="">{{ item.title }}</a></h4>
+        <p class="description">{{ item.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

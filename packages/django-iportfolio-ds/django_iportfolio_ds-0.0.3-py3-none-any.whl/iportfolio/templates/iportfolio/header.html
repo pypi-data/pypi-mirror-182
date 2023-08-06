@@ -1,0 +1,39 @@
+{% load static %}
+
+<header id="header">
+  <div class="d-flex flex-column">
+
+    <div class="profile">
+      <img src="{% static 'img/header/profile.jpg' %}" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-light"><a href="{{ header.link }}">{{ header.title }}</a></h1>
+      <div class="social-links mt-3 text-center">
+        {% if social.twitter %}
+        <a href="{{ social.twitter }}" class="twitter"><i class="bx bxl-twitter"></i></a>
+        {% endif %}
+        {% if social.facebook %}
+        <a href="{{ social.facebook }}" class="facebook"><i class="bx bxl-facebook"></i></a>
+        {% endif %}
+        {% if social.instagram %}
+        <a href="{{ social.instagram }}" class="instagram"><i class="bx bxl-instagram"></i></a>
+        {% endif %}
+        {% if social.youtube %}
+        <a href="{{ social.youtube }}" class="youtube"><i class="bx bxl-youtube"></i></a>
+        {% endif %}
+        {% if social.blog %}
+        <a href="{{ social.blog }}" class="blog"><i class="bx bxl-blogger"></i></a>
+        {% endif %}
+      </div>
+    </div>
+
+    <nav id="navbar" class="nav-menu navbar">
+      <ul>
+        <li><a href="{% url 'iportfolio:home' %}#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        {% for component, _, title, is_show, bx_icon in components %}
+        {% if is_show %}
+        <li><a href="{% url 'iportfolio:home' %}#{{ component }}" class="nav-link scrollto"><i class="bx {{ bx_icon }}"></i> <span>{{ title }}</span></a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav><!-- .nav-menu -->
+  </div>
+</header>
