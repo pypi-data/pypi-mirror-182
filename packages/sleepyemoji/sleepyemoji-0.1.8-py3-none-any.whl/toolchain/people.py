@@ -1,0 +1,5 @@
+peopleDict = { 
+# Emoji    Discord             ios
+  '🤷' : [':person_shrugging', 'person shrugging'],
+}
+# '' : ['::', ''],

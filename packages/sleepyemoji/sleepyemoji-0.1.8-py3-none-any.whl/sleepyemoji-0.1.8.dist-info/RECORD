@@ -1,0 +1,12 @@
+sleepyemoji.py,sha256=C5oGZYBCRz6iI4nnR7sELV80fHuTs0eDtb-9W8nIYkQ,4328
+toolchain/animals.py,sha256=HfAAWk0_hLZ7qB4KU-VgHEyJe0doCGvo3IwnWDYo6y4,169
+toolchain/combos.py,sha256=JQey4LK-etfeWsG7p8gNTacupKnEPb5n12cyAJ3Mtr4,212
+toolchain/faces.py,sha256=egUWfJARvVwW2oh-ZAeWKxL5ki1ZvkrxFRpK-tPPtWU,1112
+toolchain/fetcher.py,sha256=XxgGQY8pyCLHMqHuDtymHztfqAq9yWKs3dZn5dBXa3M,812
+toolchain/hands.py,sha256=hXy5faQWKnjL5lcp7DDobwyuaTrZKo-R4iiDdURTcgE,433
+toolchain/icons.py,sha256=cTjHSjNIh1YMrB3lmoKv0IE_hBdtamUSBW0bc1fNXN0,1080
+toolchain/option_utils.py,sha256=GzWOs56dQmqk-TgOYIatCjVwGaKSAtqnav3wiLCYrC8,1785
+toolchain/people.py,sha256=joxh4eem_DmtPCKF8qV7J9kZnA7yn2Hm7ws_QkopsKk,125
+sleepyemoji-0.1.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sleepyemoji-0.1.8.dist-info/METADATA,sha256=UQZID35NCJn91kFCZAfxTo4ExfiguPuaAXrwEkahSwY,3056
+sleepyemoji-0.1.8.dist-info/RECORD,,
