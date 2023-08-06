@@ -1,0 +1,2 @@
+[console_scripts]
+srg = srg.__main__:main

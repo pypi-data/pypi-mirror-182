@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: srg
+Version: 0.0.1
+Author-email: srg <srg.code@pm.me>
+License: Apache License, Version 2.0
+Project-URL: Homepage, https://github.com/codesrg/srg
+Project-URL: Bug Tracker, https://github.com/codesrg/srg/issues
+Keywords: srg
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: srutil
+Requires-Dist: sipher
+Requires-Dist: ioutil
+Requires-Dist: browseon
+Requires-Dist: savescreen
+Requires-Dist: zenpass
+Requires-Dist: local
+
+# srg
+
+[![PyPI](https://img.shields.io/pypi/v/srg)](https://pypi.python.org/pypi/srg)
+[![Pypi - License](https://img.shields.io/github/license/codesrg/srg)](https://github.com/codesrg/srg/blob/main/LICENSE)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/srg?color=red)](https://pypi.python.org/pypi/srg)
+
+## Installation
+
+`pip install -U srg`
+
+## Usage
+
+```
+usage: srg [-h] [--version] {zenpass,sipher,ioutil,browseon,savescreen,local}
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show version number and exit
+
+positional arguments:
+  {zenpass,sipher,ioutil,browseon,savescreen,local}
+
+```
