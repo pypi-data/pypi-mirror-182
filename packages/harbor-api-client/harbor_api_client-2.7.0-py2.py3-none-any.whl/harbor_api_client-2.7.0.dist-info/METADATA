@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: harbor-api-client
+Version: 2.7.0
+Summary: Client for the Harbor API
+Home-page: https://container-registry.com
+License: Apache-2.0
+Keywords: Swagger,Harbor API
+Author: Vadim Bauer
+Author-email: vb@container-registry.com
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: certifi (>=14.05.14,<15.0.0)
+Requires-Dist: python_dateutil (>=2.5.3,<3.0.0)
+Requires-Dist: setuptools (>=21.0.0,<22.0.0)
+Requires-Dist: six (>=1.10,<2.0)
+Requires-Dist: urllib3 (>=1.15.1,<2.0.0)
+Project-URL: Repository, https://github.com/container-registry/harbor-python-client-api
