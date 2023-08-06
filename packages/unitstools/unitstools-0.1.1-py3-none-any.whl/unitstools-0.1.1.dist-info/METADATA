@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: unitstools
+Version: 0.1.1
+Summary: Unitstools is a Python library that helps to manage units of measurement in code via static typing.
+Author: Aloizio Macedo
+Author-email: aloiziomacedo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Introduction
+
+Unitstools is a Python library that helps scientists, programmers and enthusiasts to manage units of measurement in code via static typing.
+
+This package makes it more difficult for magic constants that actually have units to silently live in the code preventing things like a sustainable units conversion for example.
