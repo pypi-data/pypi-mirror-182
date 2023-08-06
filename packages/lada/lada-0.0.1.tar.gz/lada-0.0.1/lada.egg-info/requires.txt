@@ -1,0 +1,3 @@
+logging
+coloredlogs
+ftd2xx
