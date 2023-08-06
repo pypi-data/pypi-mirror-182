@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+sockethelp.egg-info/PKG-INFO
+sockethelp.egg-info/SOURCES.txt
+sockethelp.egg-info/dependency_links.txt
+sockethelp.egg-info/top_level.txt
