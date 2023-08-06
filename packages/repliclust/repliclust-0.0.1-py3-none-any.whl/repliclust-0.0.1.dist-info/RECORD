@@ -1,0 +1,17 @@
+repliclust/__init__.py,sha256=AVnCAGhJTNQDPkFBSpj5wweNPdzV9QofNFmP9roVaSQ,1028
+repliclust/base.py,sha256=dW_VwD0iANUNOdIxTwpS_59Yt0KJBGttuydFCtU3PYw,28233
+repliclust/config.py,sha256=wgD5CeItsAPizZJPQbw928pW383wkt1D6En1RIDDWNA,193
+repliclust/distributions.py,sha256=5DD5oR7o4ufTNTNadrWcQJKG1Rep3hWBr-CjBDQ-vCY,6515
+repliclust/random_centers.py,sha256=IPkVIxM0E6Afy13WGkJqhtqZS8cto6dJIug9Nw8v25A,2865
+repliclust/utils.py,sha256=ZDH_S7Ak9rnZYuMVD_R0XNER58uNA0Nw4w86y3FCPKQ,3715
+repliclust/maxmin/__init__.py,sha256=zIVcML6LDJJ6mzM7xHDl8crs2iUbnaGein7tGaq02NE,106
+repliclust/maxmin/archetype.py,sha256=8XXqtlWZKhd2yMU1PNgFOhRHub4waY0_T-8XJkkOYoM,9558
+repliclust/maxmin/covariance.py,sha256=X0xgrh0Pi3EaTL-KUFdmmOmnvFVvWbwYLlpdYXjLcaI,6930
+repliclust/maxmin/groupsizes.py,sha256=uFV4m0UEqmqeEbHp0LQXklqfC0gA6r7W3VudFjz2eL0,4154
+repliclust/maxmin/utils.py,sha256=9Pgex1LWo9cPzo9QDBYjAtxF9sUX9DhqmPH9ODr5jmc,2559
+repliclust/overlap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repliclust/overlap/centers.py,sha256=EShTlV8dwgLGZe_gLWv9RiBb_ldqhieir0Jg-TdaFQw,6864
+repliclust/overlap/gradients.py,sha256=-PIut-5k9frrEh8oSfRzLv661fbgQVKZhS1ZgZT2rU8,13176
+repliclust-0.0.1.dist-info/METADATA,sha256=2-4jo9HSOEHEH1HzRsgtCUYzxqiCASQ0yZuWPuwgof4,1160
+repliclust-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+repliclust-0.0.1.dist-info/RECORD,,
