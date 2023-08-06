@@ -1,0 +1,7 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/host_client.py,sha256=mKjzXxmWq2b5iBbOFFu1Glv_4a2QC7PGheVGBZreLNE,2936
+client/instance_client.py,sha256=hg8KiCxTyw15g_v5vm0aVXrEvl7Fu2Q8VrqwgLbJCwE,2233
+client/sequence_client.py,sha256=tL_KvgaQkhBMsVyguet_9deiaSq6m0Mxg9mp3TmgBXA,834
+scramjet_api_client-0.1.1a1.dist-info/METADATA,sha256=MbiZXImZjXwUYHH34z8qyW4VeLqWg9dS8A7XAmNesKY,24007
+scramjet_api_client-0.1.1a1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+scramjet_api_client-0.1.1a1.dist-info/RECORD,,
