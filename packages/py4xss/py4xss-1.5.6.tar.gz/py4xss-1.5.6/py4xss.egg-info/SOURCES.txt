@@ -1,0 +1,7 @@
+README.md
+setup.py
+py4xss.egg-info/PKG-INFO
+py4xss.egg-info/SOURCES.txt
+py4xss.egg-info/dependency_links.txt
+py4xss.egg-info/requires.txt
+py4xss.egg-info/top_level.txt
