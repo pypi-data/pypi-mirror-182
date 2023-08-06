@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+cqhttpsdk.egg-info/PKG-INFO
+cqhttpsdk.egg-info/SOURCES.txt
+cqhttpsdk.egg-info/dependency_links.txt
+cqhttpsdk.egg-info/top_level.txt
+go_cqhttpsdk/__init__.py
+go_cqhttpsdk/go_cqhttpsdk.py
