@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: manchats
+Version: 1
+Summary: Multimedia file as key
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+from manchats import *
+
+this is the server
+
+first register ngrok on your device
+
+then launch ngrok using terminal
+
+use command ngrok tcp 1234
+
+when the program asks for non ngrok port enter 1234
+
+your program is ready to accept incoming connections from anywhere in the world 
+
+save the script 
+
+run the script
+
+for executable for windows 
+
+pip install pyinstaller
+
+type this command in terminal pyinstaller --onefile script.py
