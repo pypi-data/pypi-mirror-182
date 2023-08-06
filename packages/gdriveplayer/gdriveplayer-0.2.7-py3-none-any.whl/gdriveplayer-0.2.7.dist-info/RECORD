@@ -1,0 +1,12 @@
+GDrivePlayer/__init__.py,sha256=sZ9Lg1FYH9APTlUSHFX-NQbD86qtpLVlcwHzQeWcrEs,159
+GDrivePlayer/anime.py,sha256=_wWK9EDB0rPfnSm8NA2P3Sm7TVjDW_yVJlrtXoKJFEg,2816
+GDrivePlayer/drama.py,sha256=oCd0q4DTRJ6hu_Ui6dr89qmVUhrXTbqo20CYZvpWVZs,2819
+GDrivePlayer/exceptions.py,sha256=UkjOyGZpZf6bftc9KhRSoDjM5OMTRyx00k5Qz6W4h1U,451
+GDrivePlayer/gdriveplayer.py,sha256=DbpzC6u1bTCkLApf5Cba-6Gmz_R52e3bhK62BTBNowc,607
+GDrivePlayer/movie.py,sha256=EcqNvUP3Ql1_-g1zEyVblcvSZXDdOrutknNJ_the7sE,3736
+GDrivePlayer/series.py,sha256=2sgv1lNvwpBHL2PIpj2JvLbCQHgRph9Q-ZiBdYaDaiw,3244
+GDrivePlayer/utils.py,sha256=HuqtIfsfNBe67QwuM-CFv8TwSEI8IqOGN0emQlm1crw,406
+gdriveplayer-0.2.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gdriveplayer-0.2.7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gdriveplayer-0.2.7.dist-info/METADATA,sha256=IyKzPWJ-zUVfv5z7JdK_RTB0RbB6EDY7yKNTZvKkeE8,3667
+gdriveplayer-0.2.7.dist-info/RECORD,,
