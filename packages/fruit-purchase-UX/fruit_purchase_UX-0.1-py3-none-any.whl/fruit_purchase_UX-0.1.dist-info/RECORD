@@ -1,0 +1,14 @@
+customer/Customer.py,sha256=YC_MIxfCg1r05wvrQzau8vbO1RXuZ9xDODWymyrWbeg,990
+customer/Search.py,sha256=Y6gXiEWQ-tqj4kZ_56a_r_qV3xfBgxOm2iALlUdSPvg,1889
+customer/Testcustomer.py,sha256=_FmOCv4qf1OeuCnmyLm9Jp4sfzG4qyiSxaQL0ZVwPzs,1183
+customer/Testsearch.py,sha256=f17PhUqyDY658f5AXMNFnHLS37jHPf26XU98dS1mq4Q,1403
+customer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+produce/Testfruit.py,sha256=CBOwD20v861CcbhKvQiE7cF3asWSrw9gw0L1EXYptiU,1126
+produce/Testinventory.py,sha256=JjTFsnwA1Ld8cA5C501iRQnRY_u-MqPh6o2XfYWygk4,1136
+produce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+produce/fruit.py,sha256=N6G1zYIvr0bwMNw_FUbLfzqkacxNE33rf77B-Nc6mUc,2190
+produce/inventory.py,sha256=0WaxPrBdjKoa9JVl1Pz93m8-Z9qZtuScwHYbNIBH8P8,2112
+fruit_purchase_UX-0.1.dist-info/METADATA,sha256=kKUXJVTFvvfPr-ZjiYDnvnnmOaCrFaFfwbD5RfgMzbo,318
+fruit_purchase_UX-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fruit_purchase_UX-0.1.dist-info/top_level.txt,sha256=QAA7wWqfl-ATw1fAaiKBeKwenrDAQi9fv8tw3RFuLGY,17
+fruit_purchase_UX-0.1.dist-info/RECORD,,
