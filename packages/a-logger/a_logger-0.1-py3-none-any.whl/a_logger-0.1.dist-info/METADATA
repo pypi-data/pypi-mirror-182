@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: a-logger
+Version: 0.1
+Summary: A simple logger
+Home-page: https://github.com/Aryan3301/logger
+Author: Aryan
+Requires-Dist: colorama
+
+A simple logger
