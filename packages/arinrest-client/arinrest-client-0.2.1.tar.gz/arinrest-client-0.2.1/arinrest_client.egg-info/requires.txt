@@ -1,0 +1,11 @@
+requests>=2.28
+pydantic>=1.10
+cryptography>=38.0.4
+
+[dev]
+black
+flake8
+typing-extensions
+pytest
+build
+twine
