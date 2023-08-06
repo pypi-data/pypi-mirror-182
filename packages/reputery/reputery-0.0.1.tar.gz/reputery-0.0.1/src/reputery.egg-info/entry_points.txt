@@ -1,0 +1,3 @@
+[console_scripts]
+reputery = reputery.cli:main
+reputeryd = reputery.daemon:main

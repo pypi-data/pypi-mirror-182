@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/reputery/__init__.py
+src/reputery/__main__.py
+src/reputery/cli.py
+src/reputery/daemon.py
+src/reputery/reputering.py
+src/reputery.egg-info/PKG-INFO
+src/reputery.egg-info/SOURCES.txt
+src/reputery.egg-info/dependency_links.txt
+src/reputery.egg-info/entry_points.txt
+src/reputery.egg-info/not-zip-safe
+src/reputery.egg-info/requires.txt
+src/reputery.egg-info/top_level.txt
+src/reputery/core/__init__.py
