@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+pandas_market_calendars
+python_dateutil
+requests
+twelvedata
