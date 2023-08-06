@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: py-rpautom
+Version: 0.0.1b0
+Summary: Conjunto de utilitários para automação de processos.
+Home-page: https://github.com/aranseiki/py-rpautom/
+Author: aranseiki
+Author-email: techall@hotmail.com.br
+Project-URL: Py-RPAutom, https://github.com/aranseiki/py-rpautom/
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl
+Requires-Dist: psutil
+Requires-Dist: pywinauto
+Requires-Dist: pywin32
+Requires-Dist: python-docx
+Requires-Dist: PyMuPDF
+Requires-Dist: PyPDF2
+Requires-Dist: Pytesseract
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: urllib3
+
