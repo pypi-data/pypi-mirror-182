@@ -1,0 +1,126 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "frequency/_version.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+  "/tests",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["frequency"]
+
+[project]
+name = "frequency"
+readme = "README.md"
+description = "Python wrapper for frequency analysis codes applied to particle accelerator data"
+authors = [
+    {name = "Felix Soubelet", email = "felix.soubelet@cern.ch"},
+]
+license = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.8"
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+  "numpy >= 1.21",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest >= 6.0",
+  "pytest-cov >= 3.0",
+  "pytest-xdist >= 2.5",
+  "coverage[toml] >= 5.2",
+]
+dev = [
+  "black >= 22.1",
+  "isort >= 5.10",
+  "ruff",
+]
+docs = [
+  "Sphinx >= 4.4",
+  "sphinx-rtd-theme >= 1.0",
+  "sphinx-issues >= 3.0",
+  "sphinx_copybutton < 1.0",
+  "sphinxcontrib-bibtex >= 2.4",
+  "sphinx-panels < 1.0",
+  "sphinx-gallery < 1.0",
+  "sphinx-prompt >= 1.5",
+]
+
+[project.urls]
+homepage = "https://github.com/???"
+repository = "https://github.com/???"
+documentation = "https://github.com/???"
+changelog = "https://github.com/???"
+
+# ----- Testing Configuration ----- #
+
+[tool.pytest.ini_options]
+addopts = "--cov-report=xml --cov-report term-missing --cov-config=pyproject.toml --cov=frequency"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["frequency/"]
+
+[tool.coverage.report]
+ignore_errors = true
+precision = 2
+
+# ----- Dev Tools Configuration ----- #
+
+[tool.isort]
+atomic = true
+ensure_newline_before_comments = true
+filter_files = true
+force_grid_wrap = 0
+force_single_line = false
+include_trailing_comma = true
+known_first_party = "pyhdtoolkit"
+known_third_party = "pytest"
+line_length = 110
+lines_between_types = 1
+multi_line_output = 3
+use_parentheses = true
+profile = "black"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | tests/.*/setup.py
+)/
+'''

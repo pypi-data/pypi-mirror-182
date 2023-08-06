@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: frequency
+Version: 0.0.1rc0
+Summary: Python wrapper for frequency analysis codes applied to particle accelerator data
+Project-URL: homepage, https://github.com/???
+Project-URL: repository, https://github.com/???
+Project-URL: documentation, https://github.com/???
+Project-URL: changelog, https://github.com/???
+Author-email: Felix Soubelet <felix.soubelet@cern.ch>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.21
+Provides-Extra: dev
+Requires-Dist: black>=22.1; extra == 'dev'
+Requires-Dist: isort>=5.10; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx-copybutton<1.0; extra == 'docs'
+Requires-Dist: sphinx-gallery<1.0; extra == 'docs'
+Requires-Dist: sphinx-issues>=3.0; extra == 'docs'
+Requires-Dist: sphinx-panels<1.0; extra == 'docs'
+Requires-Dist: sphinx-prompt>=1.5; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme>=1.0; extra == 'docs'
+Requires-Dist: sphinx>=4.4; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex>=2.4; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: coverage[toml]>=5.2; extra == 'test'
+Requires-Dist: pytest-cov>=3.0; extra == 'test'
+Requires-Dist: pytest-xdist>=2.5; extra == 'test'
+Requires-Dist: pytest>=6.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Frequency
+
+Frequency is a Python package for frequency analysis applied to particle accelerator data.
+It acts as a wrapper, providing a consistent unified interface to a number of different frequency analysis packages.
