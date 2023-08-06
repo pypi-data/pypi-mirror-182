@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jupytee/__init__.py
+jupytee/jupytee.py
+jupytee/untitled.py
+jupytee.egg-info/PKG-INFO
+jupytee.egg-info/SOURCES.txt
+jupytee.egg-info/dependency_links.txt
+jupytee.egg-info/top_level.txt
