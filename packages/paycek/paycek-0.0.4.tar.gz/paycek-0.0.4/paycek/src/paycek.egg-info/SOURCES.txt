@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+paycek/src/__init__.py
+paycek/src/paycek.py
+paycek/src/paycek.egg-info/PKG-INFO
+paycek/src/paycek.egg-info/SOURCES.txt
+paycek/src/paycek.egg-info/dependency_links.txt
+paycek/src/paycek.egg-info/top_level.txt
