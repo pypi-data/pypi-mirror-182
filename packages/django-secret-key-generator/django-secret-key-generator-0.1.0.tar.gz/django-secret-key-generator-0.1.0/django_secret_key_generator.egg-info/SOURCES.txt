@@ -1,0 +1,8 @@
+LICENSE
+README.md
+key_generator.py
+setup.py
+django_secret_key_generator.egg-info/PKG-INFO
+django_secret_key_generator.egg-info/SOURCES.txt
+django_secret_key_generator.egg-info/dependency_links.txt
+django_secret_key_generator.egg-info/top_level.txt
