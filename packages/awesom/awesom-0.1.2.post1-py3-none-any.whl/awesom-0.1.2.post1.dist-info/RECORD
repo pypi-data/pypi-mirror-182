@@ -1,0 +1,13 @@
+awesom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awesom/datasets.py,sha256=ZSV3SHxJepY4Pg4xnLLHH3uK2iXcionDpS1rP5yKAfI,1480
+awesom/defaults.py,sha256=Urb5MofpZOq3z32l2800lITNktV3N6L1Y9xeRAO8G_w,113
+awesom/grid.py,sha256=rQlNEogo4bWDzp4O5i_WeKo0-cMgVfnaDc549N7W3TY,1906
+awesom/neighbors.py,sha256=SMnnZLBc2ae7_atJl7ZkB_yKUZRcQN-Z9xrCPMrrn4k,3429
+awesom/plot.py,sha256=uMHXkd2I1uvgxYUsuIzllxw1zeA4Zs-JfLVV-q5SPh4,7018
+awesom/som.py,sha256=XN9s5xSsKNFAS1ry_eLiChaSv4AuMxSpJCdGQnVrHU4,10724
+awesom/typealias.py,sha256=T1vg4IlHlX1n9sXtkFbtgQ3hQ_QHy8ZUD5fSyIWgVPs,379
+awesom/utilities.py,sha256=1Qoeg8L4_tZLUl_e4AmF5Ac876iPH-5cZwOSqk_0JuU,9220
+awesom-0.1.2.post1.dist-info/LICENSE,sha256=e-9T5SGFNDMH8xwE-TFGsKZOZQxCMEjVmHrviju96FM,1521
+awesom-0.1.2.post1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+awesom-0.1.2.post1.dist-info/METADATA,sha256=sVj3WQzlv1xRm-u9i7S3pYc2vI9dl2ZtcS-ndNCxHOQ,1928
+awesom-0.1.2.post1.dist-info/RECORD,,
