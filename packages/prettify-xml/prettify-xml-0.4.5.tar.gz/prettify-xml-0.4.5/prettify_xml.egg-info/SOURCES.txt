@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+prettify_xml/__init__.py
+prettify_xml/formatter.py
+prettify_xml.egg-info/PKG-INFO
+prettify_xml.egg-info/SOURCES.txt
+prettify_xml.egg-info/dependency_links.txt
+prettify_xml.egg-info/entry_points.txt
+prettify_xml.egg-info/requires.txt
+prettify_xml.egg-info/top_level.txt
