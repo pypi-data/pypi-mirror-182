@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ensuechaos"
+version = "2.1"
+description = "Just a useless tool that makes your screen go crazy (FLASH WARNING)"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Ryan Sakurai", email = "ryansakurai03@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyautogui",
+    "colorama"
+]
+
+[project.urls]
+repository = "https://github.com/ryansakurai/ensuechaos.git"
+
+[project.scripts]
+ensuechaos = "ensuechaos.ensuechaos:main"
