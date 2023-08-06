@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+optimus/__init__.py
+optimus/__main__.py
+optimus_py.egg-info/PKG-INFO
+optimus_py.egg-info/SOURCES.txt
+optimus_py.egg-info/dependency_links.txt
+optimus_py.egg-info/requires.txt
+optimus_py.egg-info/top_level.txt
