@@ -1,0 +1,4 @@
+python-slugify[unidecode]
+wikipedia-api
+orgee
+kombini
