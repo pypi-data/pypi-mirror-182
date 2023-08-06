@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: blockchain-exploration
+Version: 1.4.0
+Summary: Exploring the blockchain with hyperlinks
+Home-page: https://github.com/sweet-io-org/blockchain_exploration
+Author: Owen Miller
+Author-email: Owen Miller <owen@sweet.io>
+License: MIT
+Keywords: blockchain link hyperlink sweet
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
