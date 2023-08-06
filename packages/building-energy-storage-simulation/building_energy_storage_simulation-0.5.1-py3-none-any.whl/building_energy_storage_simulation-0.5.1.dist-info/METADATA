@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: building-energy-storage-simulation
+Version: 0.5.1
+Summary: A simulation of a building to optimize energy storage utilization.
+Author: Tobias Rohrer
+Author-email: tobias.rohrer@outlook.com
+License-File: LICENCE
+Requires-Dist: gymnasium
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
