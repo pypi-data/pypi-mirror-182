@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: extended-jsonschema
+Version: 0.1.0
+Summary: A fast JSON Schema validator with extensions
+Home-page: https://github.com/v-v-vishnevskiy/extended-jsonschema-py
+Author: Valery Vishnevskiy
+Author-email: v.v.vishnevskiy@yandex.ru
+License: MIT
+Project-URL: CI: Travis, https://travis-ci.org/v-v-vishnevskiy/extended-jsonschema-py
+Project-URL: Coverage: codecov, https://codecov.io/gh/v-v-vishnevskiy/extended-jsonschema-py
+Project-URL: GitHub: repo, https://github.com/v-v-vishnevskiy/extended-jsonschema-py
+Keywords: extended,json,jsonschema,schema,validator
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides: extendedjsonschema
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Extended JSON Schema
+
+A fast [JSON Schema](https://json-schema.org/) validator with extensions.
+
+**Warning**: This packages is early stage in active development. **DO NOT use it in production yet**.
+
+
+## Features
+
+- No any other programming languages like C/C++ or Rust for speedy execution. Just pure Python and a little Cython magic under the hood.
+
+## Basic Usage
+```python
+from extendedjsonschema import Validator
+
+validator = Validator({"type": "string"})
+
+errors = validator(3.14)
+print(errors)
+
+>>> [{'path': [], 'keyword': 'type', 'value': 'string'}]
+```
+
+## License
+`extendedjsonschema` is offered under the MIT license.

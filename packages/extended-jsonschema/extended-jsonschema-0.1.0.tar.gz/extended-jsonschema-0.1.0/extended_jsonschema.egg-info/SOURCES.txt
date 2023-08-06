@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+extended_jsonschema.egg-info/PKG-INFO
+extended_jsonschema.egg-info/SOURCES.txt
+extended_jsonschema.egg-info/dependency_links.txt
+extended_jsonschema.egg-info/requires.txt
+extended_jsonschema.egg-info/top_level.txt
+extendedjsonschema/__init__.py
+extendedjsonschema/errors.py
+extendedjsonschema/keyword.py
+extendedjsonschema/optimizer.py
+extendedjsonschema/program.py
+extendedjsonschema/schema.py
+extendedjsonschema/tools.py
+extendedjsonschema/utils.py
+extendedjsonschema/validator.py
