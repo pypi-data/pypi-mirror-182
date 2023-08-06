@@ -1,0 +1,9 @@
+create_py_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_py_app/create_files.py,sha256=lJXtdyXSOeCb3ucaEArLOmHC01cK4YyDYsISpHsw6nM,526
+create_py_app/main.py,sha256=8C_Ax2APl04bTVFT7BktjXPxB0PKKA5MNX7E-GCTSoc,813
+create_py_app-0.1.2.dist-info/LICENSE,sha256=TgwafceOPWqQ3wnIoZxVr1NGahwItU1-h_1nIYiiFzQ,1072
+create_py_app-0.1.2.dist-info/METADATA,sha256=Oz_UG-bkg_fPAsOTP19f9X_lretKFXOaW8ulxWhg_GI,909
+create_py_app-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+create_py_app-0.1.2.dist-info/entry_points.txt,sha256=yCXQcc4ri6lpkEU9mjAVBd7hQdFA1afXL2OUn5WdYgM,58
+create_py_app-0.1.2.dist-info/top_level.txt,sha256=Oeos5UmtPlpmdymtCdmkDwEc5HGQw9Ku7t89iYZdGm8,14
+create_py_app-0.1.2.dist-info/RECORD,,
