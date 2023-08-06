@@ -1,0 +1,11 @@
+KEGGutils/KEGGapi.py,sha256=DmJjeowVg4oHn2b4heuRhnsxecH0uk1oUPYzgq9T-l4,33781
+KEGGutils/KEGGerrors.py,sha256=cUa5YckHq1SCTAeJ-8EpDSJsH8OQA5U5TJlWj4j-hiw,3560
+KEGGutils/KEGGgraphs.py,sha256=AXS1a0gA_WpBlrQ3X_Id7CmAufCsRm_GzCplXTIvjLY,20580
+KEGGutils/KEGGhelpers.py,sha256=PO7tyGttXi2NvBzlBxTZ1LG_rW5xl7w-TIE1DDA6IC4,1426
+KEGGutils/KEGGpathway.py,sha256=ZqKMUt9E_dDj8hT6XC8Z-tPdeYzyMy9Udg3pmEJcAKA,15387
+KEGGutils/KEGGutils.py,sha256=tbPp-LX8nOfO9LuqDz7Weco6OdSVOaCHsQFI-T6_r74,12046
+KEGGutils/__init__.py,sha256=fqXr8CczwBAzl56UoDii9GvX09ABPpjMSvp2h0w-3xI,861
+KEGGutils-0.4.0.dist-info/METADATA,sha256=0rTJLlyFoQIgZ8Q2bOslo4SUEPibhBPcltDATMEnvi8,4435
+KEGGutils-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+KEGGutils-0.4.0.dist-info/top_level.txt,sha256=lKwlVFzNX7QLnEuA2ofaoL7XFN9hqZKQSuahFUO0pxs,10
+KEGGutils-0.4.0.dist-info/RECORD,,
