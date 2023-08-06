@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+buildprint.egg-info/PKG-INFO
+buildprint.egg-info/SOURCES.txt
+buildprint.egg-info/dependency_links.txt
+buildprint.egg-info/top_level.txt
