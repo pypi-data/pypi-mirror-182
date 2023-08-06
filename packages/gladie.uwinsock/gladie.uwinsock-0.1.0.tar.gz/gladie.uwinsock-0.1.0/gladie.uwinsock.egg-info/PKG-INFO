@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gladie.uwinsock
+Version: 0.1.0
+Summary: Implementation of Winsock AF_UNIX socket type for Python.
+Author: Noah Tanner
+Author-email: 50159154+kevinshome@users.noreply.github.com

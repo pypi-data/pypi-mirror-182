@@ -1,0 +1,8 @@
+setup.py
+gladie.uwinsock.egg-info/PKG-INFO
+gladie.uwinsock.egg-info/SOURCES.txt
+gladie.uwinsock.egg-info/dependency_links.txt
+gladie.uwinsock.egg-info/top_level.txt
+uwinsock/__init__.py
+uwinsock/fakesocket.py
+uwinsock/_winsock/_winsock.c

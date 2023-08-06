@@ -1,0 +1,1 @@
+#error This package is not meant to be built from sdist. If you can not install a wheel, you can not install this package.
