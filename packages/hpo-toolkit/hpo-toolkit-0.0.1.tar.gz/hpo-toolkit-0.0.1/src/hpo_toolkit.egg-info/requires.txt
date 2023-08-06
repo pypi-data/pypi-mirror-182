@@ -1,0 +1,4 @@
+networkx>=2.8.8
+
+[STANDARD]
+networkx>=2.8.8
