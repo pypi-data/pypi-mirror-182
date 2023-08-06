@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: litten
+Version: 0.0.9
+Summary: A python package to visualize sequentail tensorflow model archtictures
+Home-page: UNKNOWN
+Author: Hossam Asaad
+Author-email: hossamasaad10@gmail.com
+License: UNKNOWN
+Keywords: python,tensorflow,keras,PIL,pillow,visualize models,visualize
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Litten is a python package to help visualize Tensorflow neural network models architecture.
+
