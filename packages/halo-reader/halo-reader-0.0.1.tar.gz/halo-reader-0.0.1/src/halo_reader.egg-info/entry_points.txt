@@ -1,0 +1,3 @@
+[console_scripts]
+halo2nc = halo_reader.cli:halo2nc
+halobg2nc = halo_reader.cli:halobg2nc
