@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+yoloai/__init__.py
+yoloai.egg-info/PKG-INFO
+yoloai.egg-info/SOURCES.txt
+yoloai.egg-info/dependency_links.txt
+yoloai.egg-info/top_level.txt
