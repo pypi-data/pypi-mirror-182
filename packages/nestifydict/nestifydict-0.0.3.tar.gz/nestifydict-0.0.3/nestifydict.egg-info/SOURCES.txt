@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nestifydict/__init__.py
+nestifydict/nestifydict.py
+nestifydict.egg-info/PKG-INFO
+nestifydict.egg-info/SOURCES.txt
+nestifydict.egg-info/dependency_links.txt
+nestifydict.egg-info/top_level.txt
