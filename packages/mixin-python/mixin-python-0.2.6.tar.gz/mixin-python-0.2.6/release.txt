@@ -1,0 +1,4 @@
+Release v0.2.6
+
+1. Add support for Python 3.11
+2. Update Mixin to v0.14.18
