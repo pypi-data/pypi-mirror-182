@@ -1,0 +1,2 @@
+[console_scripts]
+databits = databits.cli:main
