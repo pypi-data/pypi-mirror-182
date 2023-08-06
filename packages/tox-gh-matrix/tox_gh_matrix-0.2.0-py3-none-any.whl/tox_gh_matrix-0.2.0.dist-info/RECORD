@@ -1,0 +1,11 @@
+tox_gh_matrix/__init__.py,sha256=H8O5V2zHPHZXwbCbz1hzd4xi8UPYUwREcVIc3Gp-rFI,72
+tox_gh_matrix/plugin.py,sha256=Czm99yCuLxuFvH_CqCo_r3G7RKdY8LawbtCQfaBj0Jk,4600
+tox_gh_matrix/version.py,sha256=dQUHa1PGpJsNE2x_SQFxtOX-jousEqplwH1bdsk6mnE,160
+tox_gh_matrix/version_utils.py,sha256=IPagUNv1QnF1FpaAqJmZVHhA8nGmQ1TLhap6a-i_JoA,2743
+tox_gh_matrix-0.2.0.dist-info/LICENSE,sha256=9Y8XFIOs30nyXapmQokvH0vgPdaA5hEENqnnR-xSsw4,1080
+tox_gh_matrix-0.2.0.dist-info/METADATA,sha256=-7HsVq4ODUXrLdjExs9-lPRANPifcCCJ1kdqbxvjZ08,21712
+tox_gh_matrix-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tox_gh_matrix-0.2.0.dist-info/entry_points.txt,sha256=ND_VaPeXbAoKAK37jEBtZJGT5c2Wb29iwY7vqyQsx_0,43
+tox_gh_matrix-0.2.0.dist-info/top_level.txt,sha256=DonSLKa75zWI2FbWsw0grawiRphmzPAsue9ce53ziRE,14
+tox_gh_matrix-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tox_gh_matrix-0.2.0.dist-info/RECORD,,
