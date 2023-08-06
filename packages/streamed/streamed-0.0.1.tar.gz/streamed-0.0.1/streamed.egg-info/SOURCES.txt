@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+streamed.egg-info/PKG-INFO
+streamed.egg-info/SOURCES.txt
+streamed.egg-info/dependency_links.txt
+streamed.egg-info/top_level.txt
