@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dumcure"
+version = "0.2.1"
+description = "Simple package which displays current currencies."
+authors = ["buzonek <buzonekk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.1"
+
+
+[tool.poetry.scripts]
+dumcure = 'dumcure.dumcure:main'
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
