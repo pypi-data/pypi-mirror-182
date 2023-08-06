@@ -1,0 +1,5 @@
+setup.py
+ijoawuoijhwad.egg-info/PKG-INFO
+ijoawuoijhwad.egg-info/SOURCES.txt
+ijoawuoijhwad.egg-info/dependency_links.txt
+ijoawuoijhwad.egg-info/top_level.txt
