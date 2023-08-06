@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+itic/__init__.py
+itic/__main__.py
+itic/itic.py
+itic.egg-info/PKG-INFO
+itic.egg-info/SOURCES.txt
+itic.egg-info/dependency_links.txt
+itic.egg-info/entry_points.txt
+itic.egg-info/requires.txt
+itic.egg-info/top_level.txt
