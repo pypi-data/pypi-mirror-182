@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: WxMessage
+Version: 1.0.0
+Summary: 一个用于微信发送消息的包
+Home-page: https://github.com/bosichong/PrimarySchoolMathematics
+Author: inilisefa
+Author-email: 2659593323@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+> 公众号：Python编程站
+>
+> 获取超多编程资源
+>
+> 代码实例，实用技术文章；项目源码分享……
+>
+> 欢迎关注
+>
+
+## 微信扫一扫关注公众号
+
+[![公众号](https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/5dfa56d5dc47fe2aa79cf8d49060ea157bfdbfb3481403288d6210c65bf6051e41f3afe7fc99c6fcf9242c823b008623?pictype=scale&from=30013&version=3.3.3.3&uin=2659593323&fname=%E5%85%AC%E4%BC%97%E5%8F%B7.jpg&size=300 'Python编程站')
+](https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/5dfa56d5dc47fe2aa79cf8d49060ea157bfdbfb3481403288d6210c65bf6051e41f3afe7fc99c6fcf9242c823b008623?pictype=scale&from=30013&version=3.3.3.3&uin=2659593323&fname=%E5%85%AC%E4%BC%97%E5%8F%B7.jpg&size=750)
+
+# 使用教程
+
+---
+
+### 1、安装包：
+
+```python
+pip install wxmsg
+pip install pyautogui==0.9.53
+pip install pyperclip==1.8.2
+```
+
+### 2、发送消息示例
+
+```python
+from Wxmsg.wx import WxMsg
+
+# 实例化类，speed参数是控制操作速度
+wx = WxMsg(speed=1)
+# 参数1：消息发送对象，参数2：消息内容
+wx.send('xxx', 'hi')
+```
+
