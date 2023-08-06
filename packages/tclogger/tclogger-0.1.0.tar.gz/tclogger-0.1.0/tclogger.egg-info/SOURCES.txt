@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tclogger/__init__.py
+tclogger.egg-info/PKG-INFO
+tclogger.egg-info/SOURCES.txt
+tclogger.egg-info/dependency_links.txt
+tclogger.egg-info/top_level.txt
