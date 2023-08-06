@@ -1,0 +1,12 @@
+{
+	"name": "jasmin-log-dev",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "logger",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"postCreateCommand": "/usr/local/bin/python -m pip install -U autopep8; /usr/local/bin/python -m pip install --upgrade build; /usr/local/bin/python -m pip install --upgrade twine; echo \"alias build='rm -rf dist/*; python3 -m build'; alias push='python3 -m twine upload -u __token__ -p \\$PYPI_TOKEN dist/*'; export PYPI_TOKEN=pypi-AgEIcHlwaS5vcmcCJDQ3YTYzZmM1LWJiNGItNDMwNC1iMjlhLTViYzQxOTJlZjNlMQACG1sxLFsiamFzbWluLW1vbmdvLWxvZ2dlciJdXQACLFsyLFsiYjRiZjExNzUtNjhmMi00ZWFmLWI0YWUtOThiMDY5NmYzNzAwIl1dAAAGIE79egf_sHwVuUEufGDOCR-C1oHWitmzkFQnxgwWxhrV\" > ~/.bashrc "
+}
