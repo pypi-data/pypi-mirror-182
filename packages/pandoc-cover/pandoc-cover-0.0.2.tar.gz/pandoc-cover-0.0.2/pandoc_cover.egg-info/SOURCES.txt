@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+pandoc_cover.egg-info/PKG-INFO
+pandoc_cover.egg-info/SOURCES.txt
+pandoc_cover.egg-info/dependency_links.txt
+pandoc_cover.egg-info/requires.txt
+pandoc_cover.egg-info/top_level.txt
