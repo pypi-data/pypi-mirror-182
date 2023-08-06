@@ -1,0 +1,11 @@
+mcsrv/__init__.py,sha256=ECzUK1BA1AcgnHFUZZX--kWPlE3q3SX8VZZFaUTDIR8,28
+mcsrv/__main__.py,sha256=iWb6CeqVMTLmT0WYlypyxXgePG8oKaDVqJW14ULFyoM,73
+mcsrv/cli.py,sha256=VxC03CWirxqCoqIHf8YwXfJvV6eNN_T6teC3NmCZtCI,6868
+mcsrv/javaexecutable.py,sha256=RMq3YFGyal4MweDDnXNS0KuLtJ_kQxIsxJe3rJKlcFI,3025
+mcsrv/server.py,sha256=Q9u6Mwd5IJN-UI6et8uwz2euyDr_BCzZWdbnav59-u8,8221
+mcsrv/util.py,sha256=hllf3Xt2vgq8GZtzNJ6O_DN_fSz6wrPrBWSIXQrXAto,1375
+mcsrv_xImAnton-1.1.5.dist-info/METADATA,sha256=U6yZWEAjJUbS9s-b5Mhe_a5hirU-F0aSj1N_1krFeeo,787
+mcsrv_xImAnton-1.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mcsrv_xImAnton-1.1.5.dist-info/entry_points.txt,sha256=byght2bXdRmJxvY4mP8V4jGGG_8l1lzNaeln4M3p7dA,41
+mcsrv_xImAnton-1.1.5.dist-info/top_level.txt,sha256=ogao8G0_q4IhENrduPKfN8M2zOtlmKGNaV31gTRXtR8,6
+mcsrv_xImAnton-1.1.5.dist-info/RECORD,,
