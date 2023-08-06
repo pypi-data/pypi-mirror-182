@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pack2534
+Version: 0.0.1
+Summary: Python package for Adserver team in KITECH
+Home-page: UNKNOWN
+Author: JJH2
+Author-email: hyo156@kitech.re.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: scipy (>=1.5.0)
+Requires-Dist: matplotlib (>=3.0.0)
+
+UNKNOWN
+
+
