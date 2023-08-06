@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: orgee
+Version: 0.0.1
+Summary: A tool to manipulate org-mode documents
+Home-page: https://github.com/chunglak/orgee
+Author: Alfred Leung
+Author-email: chunglak@gmail.com
+License: GPL-3.0-or-later
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Orgee
+A tool to manipulate org-mode documents
+## Installation
+```shell
+$ pip install orgee
+```
