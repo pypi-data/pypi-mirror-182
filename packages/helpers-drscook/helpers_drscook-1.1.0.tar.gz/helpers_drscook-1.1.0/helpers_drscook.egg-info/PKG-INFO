@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: helpers-drscook
+Version: 1.1.0
+Summary: helpers
+Home-page: https://github.com/drscookconfig
+Author: Scott Cook
+Author-email: scook@tarleton.edu
+Keywords: pypi,python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Helper code for Scott Cook & his students
