@@ -1,0 +1,11 @@
+scandi_reddit/__init__.py,sha256=MRQPH6MrUvOG7IXggTwLTO3_8aLUQsqjv84PMvOYzy0,376
+scandi_reddit/build.py,sha256=PMWyLSYFl1ivnmSwuFU0ZcaGqs538il33Ce5mMKHei8,9446
+scandi_reddit/cli.py,sha256=Xhh7B_UGgp-2kNEHGlm2eq5iVrVwEEutJ_8GY8j_2EY,1415
+scandi_reddit/download.py,sha256=OTPZc0KVO-Uk680obYhWBWWA-eq7C7xrjBtc2bykYEU,1471
+scandi_reddit/language_filter.py,sha256=8ZcYifGj23svDwRhNggYAUUjuvaTiQS7PpWpN_OCNfA,1760
+scandi_reddit/postprocess.py,sha256=LC3IdBF57xKDi-0gN_0aGyk_25f5zALsnWDNqI-JRXo,3143
+scandi_reddit-0.2.1.dist-info/entry_points.txt,sha256=zHqQpACeh8FyOTpnIZKv4nZ8UAKsv4u2kQ8CkF4jQXE,48
+scandi_reddit-0.2.1.dist-info/LICENSE,sha256=Dh2aps1lx4wNVryWQJNP-tQLF_cPUAQd9UqqiweJs98,1077
+scandi_reddit-0.2.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+scandi_reddit-0.2.1.dist-info/METADATA,sha256=cAkvQb5wce02HT4o28AcZQUlEV8ZnAF0QsQa519qLUY,1968
+scandi_reddit-0.2.1.dist-info/RECORD,,
