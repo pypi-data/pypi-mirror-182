@@ -1,0 +1,9 @@
+jinja2
+pyyaml
+
+[dev]
+ansible
+pytest
+flake8
+build
+twine
