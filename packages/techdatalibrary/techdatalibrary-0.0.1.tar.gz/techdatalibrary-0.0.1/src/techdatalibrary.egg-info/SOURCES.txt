@@ -1,0 +1,7 @@
+setup.py
+src/techdata.py
+src/techdatalibrary.egg-info/PKG-INFO
+src/techdatalibrary.egg-info/SOURCES.txt
+src/techdatalibrary.egg-info/dependency_links.txt
+src/techdatalibrary.egg-info/requires.txt
+src/techdatalibrary.egg-info/top_level.txt
