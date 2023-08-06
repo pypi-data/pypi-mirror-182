@@ -1,0 +1,3 @@
+[console_scripts]
+dscore = dscore.cli:dscore_run
+dscore_plot = dscore.cli:dscore_plot
