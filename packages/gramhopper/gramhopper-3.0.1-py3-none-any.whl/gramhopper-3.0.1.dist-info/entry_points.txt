@@ -1,0 +1,2 @@
+[console_scripts]
+gramhopper = gramhopper.bot:start_bot
