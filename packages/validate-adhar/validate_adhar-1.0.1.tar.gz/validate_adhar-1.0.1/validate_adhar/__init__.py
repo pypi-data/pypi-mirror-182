@@ -1,0 +1,1 @@
+from .validate_adhar import validate_adhar_details

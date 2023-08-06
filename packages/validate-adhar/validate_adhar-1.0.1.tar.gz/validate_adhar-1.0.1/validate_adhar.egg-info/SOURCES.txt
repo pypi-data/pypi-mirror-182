@@ -1,0 +1,7 @@
+validate_adhar/__init__.py
+validate_adhar/setup.py
+validate_adhar/validate_adhar.py
+validate_adhar.egg-info/PKG-INFO
+validate_adhar.egg-info/SOURCES.txt
+validate_adhar.egg-info/dependency_links.txt
+validate_adhar.egg-info/top_level.txt
