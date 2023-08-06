@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+sudokuPackage/__init__.py
+sudokuPackage/main.py
+sudokuPackage.egg-info/PKG-INFO
+sudokuPackage.egg-info/SOURCES.txt
+sudokuPackage.egg-info/dependency_links.txt
+sudokuPackage.egg-info/top_level.txt
+sudokuPackage/Sudoku_Show/Generate.py
+sudokuPackage/Sudoku_Show/__init__.py
+sudokuPackage/Sudoku_Show/paint.py
+sudokuPackage/Sudoku_Solve/Game_Sudoku.py
+sudokuPackage/Sudoku_Solve/__init__.py
+sudokuPackage/Sudoku_Solve/configs.py
