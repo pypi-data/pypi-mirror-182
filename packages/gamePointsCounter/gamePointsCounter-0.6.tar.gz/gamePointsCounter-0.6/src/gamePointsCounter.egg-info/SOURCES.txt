@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/gamePointsCounter.egg-info/PKG-INFO
+src/gamePointsCounter.egg-info/SOURCES.txt
+src/gamePointsCounter.egg-info/dependency_links.txt
+src/gamePointsCounter.egg-info/top_level.txt
