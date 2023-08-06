@@ -1,0 +1,7 @@
+setup.py
+share121/__init__.py
+share121/say_hello.py
+share121.egg-info/PKG-INFO
+share121.egg-info/SOURCES.txt
+share121.egg-info/dependency_links.txt
+share121.egg-info/top_level.txt
