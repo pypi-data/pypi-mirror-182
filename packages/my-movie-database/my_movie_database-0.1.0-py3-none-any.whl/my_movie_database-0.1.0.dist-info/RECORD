@@ -1,0 +1,15 @@
+my_movie_database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_movie_database/app.py,sha256=vtTQfLGSFPZPfm4zHcbBltjZSTXCMWe9JsXw6ImRu-o,2363
+my_movie_database/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_movie_database/models/movie.py,sha256=E250kW4tNStdmldthQkSMntKSKE1dE4IpRMTPTcPh8w,639
+my_movie_database/operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_movie_database/operations/add.py,sha256=Mj2s1qRM-GgufAhZD6FZQXYlAxowKCTxabyf_1aGctg,879
+my_movie_database/operations/delete.py,sha256=nhgQVvF0ME8YR1nKFCU6HL1TSqeK6ZFQ4KxsYFo0DWk,757
+my_movie_database/operations/list.py,sha256=DWKu2m_PoNmOcn_npfHBhvZFCmszuImsDkhTzheuZB0,824
+my_movie_database/operations/reset.py,sha256=z7H4M-nNFMMp1qa_IDKDAwozDJYU_Oi-UK0gRvoX6rM,488
+my_movie_database-0.1.0.data/scripts/my-movie-database,sha256=xvj75RhUZvNP3aQx67BGccowsuzJyC3qtxqssEo6mbE,88
+my_movie_database-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+my_movie_database-0.1.0.dist-info/METADATA,sha256=pe9nTNWCzi3oyySNgoLankiNN5626aHwy-tIwWKxXWU,607
+my_movie_database-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+my_movie_database-0.1.0.dist-info/top_level.txt,sha256=TqvB_li71FUZGDk22SambbwChtyE4LGD6ujEEwSBnns,18
+my_movie_database-0.1.0.dist-info/RECORD,,

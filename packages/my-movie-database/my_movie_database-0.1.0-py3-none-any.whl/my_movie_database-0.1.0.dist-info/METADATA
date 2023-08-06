@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: my-movie-database
+Version: 0.1.0
+Summary: A command line tool to keep track of the movies you watched
+Home-page: https://github.com/kumuthu53/my-movie-database
+Author: Kumuthu Edirisinghe
+Author-email: ekumuthu@gmail.com
+Project-URL: Bug Tracker, https://github.com/kumuthu53/my-movie-database/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (==1.4.45)
+Requires-Dist: rich (==12.6.0)
+
+A command line tool to keep track of the movies you watched. Installable via pip. Uses SqlAlchemy. Built for Linux
