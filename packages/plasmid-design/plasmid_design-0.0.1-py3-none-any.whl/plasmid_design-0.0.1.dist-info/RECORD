@@ -1,0 +1,13 @@
+plasmid_design/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plasmid_design/constants.py,sha256=hahxXAt4OdzGqI_zR78_ZKSBRZ1aeDjgbxNzm_580yQ,844
+plasmid_design/drive.py,sha256=a9BZ7lS3V7dbJtFM70Jq4GUMWUf2Sne7fb7j8HVRKc8,3333
+plasmid_design/idt_api.py,sha256=s0m9CXkN7ZTXbtI86a_tVOPLVz4Glipd5tLEp7YPgxc,4285
+plasmid_design/plasmid_design.py,sha256=WC75KcxsIF-gaZdUYAHDNb-j8OVmYRrmzdWfbvb1RpU,15547
+plasmid_design/sequence.py,sha256=4-9qYx-fF_pATqBAr_sSOKh2dHMINt68W77sN4PORQk,3057
+plasmid_design/utils.py,sha256=zitMhcBfT-LjNjgQxKlN-2MvOwboz6SCuAJvPLuKYTk,2664
+plasmid_design-0.0.1.dist-info/LICENSE.txt,sha256=QsRFwuYWvBw0kBfJIhlezUMf06INjV8Qhen6voOvFqg,1056
+plasmid_design-0.0.1.dist-info/METADATA,sha256=d7N5bavROoqo0gS5N6bMCTDcd0_ljxBbz66-lIhFpSU,3417
+plasmid_design-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+plasmid_design-0.0.1.dist-info/entry_points.txt,sha256=RsfCEy-kGwGFhM9hITwJxDV_qQsbpFJiw6pDQ_W6DFk,70
+plasmid_design-0.0.1.dist-info/top_level.txt,sha256=zWLAaMergn1X7JG7PaqzJT8duipkvbVoqzzfh3uR_dc,15
+plasmid_design-0.0.1.dist-info/RECORD,,
