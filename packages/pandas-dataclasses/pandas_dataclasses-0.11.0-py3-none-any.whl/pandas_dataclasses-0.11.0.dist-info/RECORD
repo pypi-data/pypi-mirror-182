@@ -1,0 +1,12 @@
+pandas_dataclasses/__init__.py,sha256=qh6M4Wx0I0lXKVWmdrM0DEWj5aMwTUqFMmRH9yd1c0A,563
+pandas_dataclasses/core/__init__.py,sha256=toF4lqYTI3mWQJukvZJ9w-MDXEU2lNZbujR8i3ZKyRQ,98
+pandas_dataclasses/core/api.py,sha256=Ctcphb4hZex1ahdhHryrTAGINuGls-g8uu3lGz9Bb6s,7804
+pandas_dataclasses/core/specs.py,sha256=pj_i2RajRjMXz5KBOYy0mdn-CMdMLT9Z1AV77TtkuoI,4676
+pandas_dataclasses/core/typing.py,sha256=wBmvsb0m-27nejkoc99isvpzEHOtnMJZgCK2LfcGLUA,4648
+pandas_dataclasses/extras/__init__.py,sha256=AkQ-Zxx78_1zXYfoNGKoXlWY9hjgLZu_j-1zAge3tv8,38
+pandas_dataclasses/extras/new.py,sha256=OZa87BHIwSlhXrhQY9u6pZ83qNAMBOkJjQVlVTE8t20,2532
+pandas_dataclasses/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_dataclasses-0.11.0.dist-info/METADATA,sha256=J3KMfJAkOzD-QUtFJnobFDYxOJu-B33aQ8pUUuKtWWE,16219
+pandas_dataclasses-0.11.0.dist-info/LICENSE,sha256=AwVHSDhhvyXGi7ByCs2UpfO_1vaRtDzGVNu5qhVYSV8,1076
+pandas_dataclasses-0.11.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pandas_dataclasses-0.11.0.dist-info/RECORD,,
