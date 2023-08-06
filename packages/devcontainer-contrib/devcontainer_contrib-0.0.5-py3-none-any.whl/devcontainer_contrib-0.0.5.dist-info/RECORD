@@ -1,0 +1,17 @@
+devcontainer_contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcontainer_contrib/__main__.py,sha256=na4EnvB3WsrqELEJnyrlomjgILMojO4HwYgcmR4WiwI,247
+devcontainer_contrib/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcontainer_contrib/cli/features.py,sha256=r33U2aP3yaSKEA6GWCn69Wcd1HZjSyEWitZFcPrry0M,3137
+devcontainer_contrib/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcontainer_contrib/features/dependencies_sh.py,sha256=J3-BblFSl5NWcRtXT2jfvF277Usj0kczO8wB5kw3H7Q,2520
+devcontainer_contrib/features/feature_sh.py,sha256=NPA4L-vyZdLrKz717soTW3V_Wwz5k1BFiA1zEgB3YJo,782
+devcontainer_contrib/features/install_command_sh.py,sha256=FvB--8ho9sLdouD1whBLGgRAMp_bWUO-ppfEwL2qyxA,367
+devcontainer_contrib/features/install_sh.py,sha256=RF90xqH8XBsrQtebw63KoBgqSR_03J5LH4MDautjoAs,298
+devcontainer_contrib/features/test_sh.py,sha256=el6c72RX4BrT4icf2j3KcnKRegjdzmqXlkirS8tuR-U,430
+devcontainer_contrib/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcontainer_contrib/models/devcontainer_feature.py,sha256=DVwaMdaqC_-sKeBkbZFZdm4_1z7uwl81Mpq1CfynOFA,5944
+devcontainer_contrib/models/devcontainer_feature_definition.py,sha256=pP1X65mCcYB0IAnfgirHr3zfz85X4PUQrBxczNRtAHs,6931
+devcontainer_contrib-0.0.5.dist-info/METADATA,sha256=ZUGbKBZHzu4xNRQB6OHiDFwVQUxlbszEXsCCqSTB6aI,385
+devcontainer_contrib-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+devcontainer_contrib-0.0.5.dist-info/top_level.txt,sha256=YbUq4yUz4-TKzMy5WSDOEt99B3BKq1_UABZPr9UoQxM,21
+devcontainer_contrib-0.0.5.dist-info/RECORD,,
