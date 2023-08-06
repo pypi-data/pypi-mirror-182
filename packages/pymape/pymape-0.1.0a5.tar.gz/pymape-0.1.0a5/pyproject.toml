@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "pymape"
+version = "0.1.0a5"
+description = "Framework to develop Self-Adaptive system based on MAPE-K loop."
+license = "GPL-3.0-only"
+authors = ["Emanuele Palombo <muttley.bd@gmail.com>"]
+readme = "README.md"
+homepage = "https://elbowz.github.io/PyMAPE/"
+repository = "https://github.com/elbowz/PyMAPE"
+documentation = "https://elbowz.github.io/PyMAPE/"
+keywords = ["mape","mapek", "mape-k", "self-adaptive", "autonomus system"]
+classifiers = [
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent"
+]
+packages = [
+    { include = "mape", from = "src" },
+]
+
+[tool.poetry.dependencies]
+# These packages are mandatory and form the core of this package’s distribution.
+python = "^3.8"
+Rx = "^3.2.0"
+PyYAML = "^6.0"
+
+# Dependency for remote stream and storage
+# TODO: refactor code and set "optional = true", allowing the user to choose what use and install
+# eg. aiohttp = { version = "^3.8.1", optional = false }
+aiohttp = "^3.8.1"
+fastapi = "^0.73"
+uvicorn = "^0.17.4"
+redis-purse = "~0.25.0"
+influxdb-client = "^1.26.0"
+
+# Extras can be installed by the end user using pip.
+#[tool.poetry.extras]
+#rest-client = ["aiohttp"]
+#rest-server = ["fastapi", "uvicorn"]
+#rest = ["aiohttp", "fastapi", "uvicorn"]
+#redis-client = ["redis-purse"]
+#influxdb-client = ["influxdb-client"]
+#all = ["aiohttp", "fastapi", "uvicorn", "redis-purse", "influxdb-client"]
+
+# Dependency groups, other than the implicit main group, must only contain dependencies you need in your development process. Installing them is only possible by using Poetry.
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.20.0"
+pytest = "^7.2.0"
+mkdocs = "^1.4.2"
+mkdocs-material = "^8.5.11"
+mkdocs-minify-plugin = "^0.6.2"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+mkdocs-glightbox = "^0.3.1"
+mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+
+[tool.poetry.group.examples.dependencies]
+numpy = "^1.22.0"
+prompt-toolkit = "^3.0.24"
+asyncstdlib = "^3.10.3"
+simple-pid = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
