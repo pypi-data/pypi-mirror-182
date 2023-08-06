@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyexotel/__init__.py
+pyexotel/pyexotel.py
+pyexotel.egg-info/PKG-INFO
+pyexotel.egg-info/SOURCES.txt
+pyexotel.egg-info/dependency_links.txt
+pyexotel.egg-info/requires.txt
+pyexotel.egg-info/top_level.txt
