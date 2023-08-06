@@ -1,0 +1,6 @@
+[project]
+name = "cannuckfind"
+version = "0.0.8"
+description = "Provide an easy interface to geolocation libraries"
+readme = "README.md"
+
