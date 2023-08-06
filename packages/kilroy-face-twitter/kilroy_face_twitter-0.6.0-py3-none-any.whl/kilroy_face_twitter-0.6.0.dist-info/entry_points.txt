@@ -1,0 +1,4 @@
+[console_scripts]
+kilroy-face-twitter=kilroy_face_twitter.__main__:cli
+kilroy-face-twitter-fetch-models=kilroy_face_twitter.models:fetch_models
+
