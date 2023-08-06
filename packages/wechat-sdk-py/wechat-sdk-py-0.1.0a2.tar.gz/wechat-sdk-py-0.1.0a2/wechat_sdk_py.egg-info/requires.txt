@@ -1,0 +1,6 @@
+dynaconf
+cryptography
+requests
+
+[test]
+responses
