@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: json-as-db
+Version: 0.0.1b0
+Summary: Using JSON as very lightweight database
+License: MIT
+Keywords: json,lightweight,database
+Author: Joonas
+Author-email: joonas.yoon@gmail.com
+Maintainer: Joonas
+Maintainer-email: joonas.yoon@gmail.com
+Requires-Python: >=3.6
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Filesystems
+Project-URL: changelog, https://github.com/joonas-yoon/json-db/blob/master/CHANGELOG.md
+Project-URL: documentation, http://joonas.io/json-db
+Project-URL: homepage, http://joonas.io/json-db
+Project-URL: repository, https://github.com/joonas-yoon/json-db
+Description-Content-Type: text/markdown
+
+# json-db
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/json-db?style=flat-square) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/json-db?style=flat-square) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fjson-db)](https://hits.seeyoufarm.com&style=flat-square)
+
+![PyPI - Python Version](Python Version Badge)
+![PyPI - Wheel](Wheel Badge)
+[![Hits](Hits Badge)](Hits)
+
+Using JSON as very lightweight database
+
+## Installation
+
+Installing via pip:
+
+```
+pip install json-db
+```
+
+Installing via GitHub repository,
+
+```
+git clone https://github.com/joonas-yoon/json-db.git
+pip install -e json-db
+```
+
+## Contributing
+
+Contributing guidelines can be found [CONTRIBUTING.md](CONTRIBUTING).
+
+Welcome all contributions to the community and feel free to contribute.
+
+## License
+
+Under the MIT license. See the [LICENSE] file for more info.
+
+
+[Python Version Badge]: https://img.shields.io/pypi/pyversions/json-db?style=flat-square
+[Wheel Badge]: https://img.shields.io/pypi/wheel/json-db?style=flat-square
+[Hits Badge]: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fjson-db
+[Hits]: https://hits.seeyoufarm.com&style=flat-square
+[CONTRIBUTING]: CONTRIBUTING.md
+[LICENSE]: LICENSE
+
