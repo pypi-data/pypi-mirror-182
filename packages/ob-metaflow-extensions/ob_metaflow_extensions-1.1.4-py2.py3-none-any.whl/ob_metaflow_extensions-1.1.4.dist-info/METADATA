@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ob-metaflow-extensions
+Version: 1.1.4
+Summary: Outerbounds Platform Extensions for Metaflow
+Author: Outerbounds, Inc.
+License: Commercial
+Requires-Dist: boto3
+Requires-Dist: kubernetes
+Requires-Dist: ob-metaflow (==2.7.13.5)
+
