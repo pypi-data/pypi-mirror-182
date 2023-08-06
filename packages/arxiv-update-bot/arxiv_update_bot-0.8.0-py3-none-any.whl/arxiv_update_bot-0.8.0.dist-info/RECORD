@@ -1,0 +1,8 @@
+arxiv_update_bot/__init__.py,sha256=y6yk1rI04zBu0mdxMplk1ww_9EuipR7aRmWkkTao_NM,126
+arxiv_update_bot/config.example.ini,sha256=GEqE_DSPc07VKtlH_S8BBH2tDDUd6cqxOmnPYJC7YGk,202
+arxiv_update_bot/main.py,sha256=rxrk5sgASOCHHA0CeGJKDCtEn678dl5odncwTL3Qo6U,5789
+arxiv_update_bot-0.8.0.dist-info/entry_points.txt,sha256=syDbGLlFgQggmLgy7jKVOIU_JZdhf7Cgz7E8V1Tc2W8,63
+arxiv_update_bot-0.8.0.dist-info/LICENSE,sha256=lHFHRiLu5FP6IeJSWAWNg7sWryfHrjXeD3kvqy5VBBo,1069
+arxiv_update_bot-0.8.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+arxiv_update_bot-0.8.0.dist-info/METADATA,sha256=5Cd7cBTLt3q310WhGOgMVhhZKc0j3NKzZQXufpGB3Bo,3428
+arxiv_update_bot-0.8.0.dist-info/RECORD,,
