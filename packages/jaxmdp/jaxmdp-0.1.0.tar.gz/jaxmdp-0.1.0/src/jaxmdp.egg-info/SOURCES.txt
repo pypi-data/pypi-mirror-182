@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/jaxmdp.egg-info/PKG-INFO
+src/jaxmdp.egg-info/SOURCES.txt
+src/jaxmdp.egg-info/dependency_links.txt
+src/jaxmdp.egg-info/top_level.txt
