@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LINCENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+khuscalculator/__init__.py
+khuscalculator.egg-info/PKG-INFO
+khuscalculator.egg-info/SOURCES.txt
+khuscalculator.egg-info/dependency_links.txt
+khuscalculator.egg-info/top_level.txt
