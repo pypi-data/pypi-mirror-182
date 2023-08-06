@@ -1,0 +1,15 @@
+sphinxcontrib/specs/__init__.py,sha256=vgrL3gMKOn6PSqm3pwxrNYfWAbY1Ys-rpspHNXa5DBg,977
+sphinxcontrib/specs/builder.py,sha256=r9EIRk7BGCrYCviqFT5085zgrJFzi41l3di-OOgRnaM,204
+sphinxcontrib/specs/content.py,sha256=PJMNr3OwO6ScL3zkkoT-xTWMRghZi_ScAWoFvT63o_Q,6089
+sphinxcontrib/specs/objectives.py,sha256=xqEsHMxzftFinUjbjkapBuNc8-8H3R2DEWP049VjYoQ,4728
+sphinxcontrib/specs/overridedirectives.py,sha256=huSxO7mLCROKrChP3zRXjYTDMIMj4cihsq5gXH3i73U,2559
+sphinxcontrib/specs/overridenodes.py,sha256=otfyiwughaPU0r-8tPM7LQHViLp362XFf-En7b2REQQ,5280
+sphinxcontrib/specs/steps.py,sha256=ZXMpJib1qYu5xaGwXVe2FfjKHgeEO1oqwQC4lxdRtN4,4010
+sphinxcontrib/specs/theme/layout.html,sha256=_XCEZvuMYhEiWeJ_GO8nVBFwNx83kIhM2BrPWvMY8Mg,1276
+sphinxcontrib/specs/theme/page.html,sha256=-kgKA9enVtAjuzP4sKYfWCTHWMQvLvVyxRgUYUViI4M,378
+sphinxcontrib/specs/theme/static/layout.css,sha256=mabkzuTMe4ajnqsYiDKojmy0xN-7kAwiGtirgchfQGI,7329
+sphinxcontrib/specs/theme/theme.conf,sha256=5aG4EoFbjQXRtQypraE1dh4GrDu3nzvmi3ph-Xbx7Fg,73
+sphinxcontrib_specs-1.0.4.dist-info/METADATA,sha256=hQCtQitMPl4GIuKfPu4Ka-04BSMqA4K9BhAejc0Z9s0,417
+sphinxcontrib_specs-1.0.4.dist-info/LICENSE,sha256=rxdbnZbuk8IaA2FS4bkFsLlTBNSujCySHHYJEAuo334,15921
+sphinxcontrib_specs-1.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sphinxcontrib_specs-1.0.4.dist-info/RECORD,,
