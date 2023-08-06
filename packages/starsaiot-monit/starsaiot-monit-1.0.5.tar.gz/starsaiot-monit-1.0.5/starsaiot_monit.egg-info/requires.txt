@@ -1,0 +1,11 @@
+sphinx
+sphinx_rtd_theme
+nose
+coverage
+pypi-publisher
+paho-mqtt
+paramiko
+psutil
+pillow
+wxpython
+pyscreenshot
