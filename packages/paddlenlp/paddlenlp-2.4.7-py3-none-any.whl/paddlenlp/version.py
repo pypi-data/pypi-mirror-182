@@ -1,0 +1,1 @@
+VERSION = '33421(cat VERSION)'
