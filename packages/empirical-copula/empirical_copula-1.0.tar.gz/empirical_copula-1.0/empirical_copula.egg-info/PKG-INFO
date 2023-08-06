@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: empirical-copula
+Version: 1.0
+Summary: Empirical copulas for discrete variables
+Home-page: https://github.com/pberkes/empirical_copula
+Author: Pietro Berkes
+Author-email: pietro.berkes@gmail.com
+License-File: LICENSE
