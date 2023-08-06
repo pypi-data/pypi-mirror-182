@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: kilroy-face-server-py-sdk
+Version: 0.9.0
+Summary: SDK for kilroy face servers in Python 🧰
+Home-page: https://github.com/kilroybot/kilroy-face-server-py-sdk
+Author: kilroy
+Author-email: kilroymail@pm.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: kilroy-face-py-shared (>=0.6,<0.7)
+Requires-Dist: kilroy-server-py-utils (>=0.4,<0.5)
+Project-URL: Documentation, https://kilroybot.github.io/kilroy-face-server-py-sdk
+Project-URL: Repository, https://github.com/kilroybot/kilroy-face-server-py-sdk
+Description-Content-Type: text/markdown
+
+<h1 align="center">kilroy-face-server-py-sdk</h1>
+
+<div align="center">
+
+SDK for kilroy face servers in Python 🧰
+
+[![Lint](https://github.com/kilroybot/kilroy-face-server-py-sdk/actions/workflows/lint.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-server-py-sdk/actions/workflows/lint.yaml)
+[![Tests](https://github.com/kilroybot/kilroy-face-server-py-sdk/actions/workflows/test-multiplatform.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-server-py-sdk/actions/workflows/test-multiplatform.yaml)
+[![Docs](https://github.com/kilroybot/kilroy-face-server-py-sdk/actions/workflows/docs.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-server-py-sdk/actions/workflows/docs.yaml)
+
+</div>
+
+---
+
+## Installing
+
+Using `pip`:
+
+```sh
+pip install kilroy-face-server-py-sdk
+```
+
+## Usage
+
+```python
+from kilroy_face_server_py_sdk import Face, FaceServer
+
+class MyFace(Face):
+    ... # Implement all necessary methods here
+
+face = await MyFace.build()
+server = FaceServer(face)
+
+await server.run(host="0.0.0.0", port=10000)
+```
+
