@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loadgui"
+version = "1.0.0"
+description = "Build a loading screen for your project."
+readme = "README.md"
+authors = [{ name = "Gorzan", email = "gorzan0123@gmai.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["loader", "screen"]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pip-tools"]
+
+[project.urls]
+Homepage = "https://github.com/InfinityGorzan/load-screen"

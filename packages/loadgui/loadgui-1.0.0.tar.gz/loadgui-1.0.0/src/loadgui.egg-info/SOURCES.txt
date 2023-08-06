@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/loadgui/__main__.py
+src/loadgui/oscheck.py
+src/loadgui.egg-info/PKG-INFO
+src/loadgui.egg-info/SOURCES.txt
+src/loadgui.egg-info/dependency_links.txt
+src/loadgui.egg-info/requires.txt
+src/loadgui.egg-info/top_level.txt
