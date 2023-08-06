@@ -1,0 +1,2 @@
+[console_scripts]
+spider-web = spider_web.record_netstat:record_netstat
