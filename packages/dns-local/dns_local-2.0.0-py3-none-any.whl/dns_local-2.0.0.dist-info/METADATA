@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dns-local
+Version: 2.0.0
+Summary: Simple python3 DNS server
+Home-page: https://github.com/doronz88/dns_local
+Author: DoronZ
+Author-email: doron88@gmail.com
+License: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
+Project-URL: dns_local, https://github.com/doronz88/dns_local
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ifaddr
+Requires-Dist: click
+Requires-Dist: coloredlogs
+Requires-Dist: dnslib
+
+[![Python application](https://github.com/doronz88/dns_local/workflows/Python%20application/badge.svg)](https://github.com/doronz88/dns_local/actions/workflows/python-app.yml "Python application action")
+[![Pypi version](https://img.shields.io/pypi/v/dns_local.svg)](https://pypi.org/project/dns_local/ "PyPi package")
+
+# Description
+
+Simple python3 DNS server
+
+# Installation
+
+```shell
+python3 -m pip install dns_local
+```
+
+Or directly from sources:
+
+```shell
+git clone git@github.com:doronz88/dns_local.git
+cd dns_local
+python3 -m pip install -e .
+```
+
+# Usage
+
+```
+Usage: python -m dns_local [OPTIONS]
+
+  Start a DNS implemented in Python
+
+Options:
+  --bind TEXT      bind address
+  --tcp            enable TCP server
+  --udp            enable UDP server
+  --domain TEXT    domain reply (e.g. example.com:127.0.0.1)
+  --fallback TEXT  fallback dns server (e.g. 8.8.8.8)
+  --help           Show this message and exit.
+```
+
+For example, consider the following usage:
+
+```shell
+python3 -m dns_local --bind 192.168.2.1:53 --udp --fallback 8.8.8.8 --domain kaki:192.168.2.1 --domain kaki2:192.168.2.1
+```
+
+This will start a `udp` DNS server listening at `192.168.2.1:53` with the two entries:
+
+- `kaki1` -> `192.168.2.1`
+- `kaki2` -> `192.168.2.1`
+
+And use Google's DNS server (`8.8.8.8`) as a fallback for any entry not in given domain list.
+

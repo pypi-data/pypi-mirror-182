@@ -1,0 +1,10 @@
+dns_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dns_local/__main__.py,sha256=4VSLduo7KpQWjMZcMY6SmtYKxBEBxUwky3G48wGRCDU,1905
+dns_local/dnsserver.py,sha256=V5Bhx4zwXRSWD_w_kUAWiFjojG6h4tjRfxQ_Es3ZgaM,5368
+dns_local/exceptions.py,sha256=rKwK8UTsXEOMkwN0O_KYwUdr7f3mRzKCWkZermB3YIw,45
+dns_local-2.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+dns_local-2.0.0.dist-info/METADATA,sha256=eRAGxSePyeHxTWHNYCWfcq7JergL-F2elOkp-h5QGOc,2057
+dns_local-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dns_local-2.0.0.dist-info/entry_points.txt,sha256=WAPBBHvl1mawZoZjLZEiMOm0hfF9DYxAOmk6h1PHdmU,53
+dns_local-2.0.0.dist-info/top_level.txt,sha256=gGLyYCG1jIdEZySZ6caJZysVNnNX-xLv4RVCfqE8_OE,10
+dns_local-2.0.0.dist-info/RECORD,,
