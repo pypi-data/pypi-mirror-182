@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: NepseData
+Version: 1.0
+Summary: Every information and data in nepse daily trading are available
+Home-page: UNKNOWN
+Author: Anup Timsina
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:   { ticker : Stock Symbol },{ ltp : Last Transaction Price },{ change : Change in Points }, { change_in_percentage : Percentage change of particular stock }, { opens : Opening Price of Stock }, { high : Highest price of stock that day},{ low : Lowest price of stock that day},{ volume = Total transaction volume that day } 
+Platform: UNKNOWN
