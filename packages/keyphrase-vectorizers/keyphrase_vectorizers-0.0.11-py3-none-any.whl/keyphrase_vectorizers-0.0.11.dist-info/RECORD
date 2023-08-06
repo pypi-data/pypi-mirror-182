@@ -1,0 +1,14 @@
+keyphrase_vectorizers/__init__.py,sha256=uwU34F2MxPuC1gNFr7NpxBoMfEE2T0lrBv_sQbzlNK4,314
+keyphrase_vectorizers/_version.py,sha256=hiU_rp5scA1P5fsYbz24O_RUsChart9LA0KijNB5GvU,23
+keyphrase_vectorizers/keyphrase_count_vectorizer.py,sha256=cSEgy0ZUXnIDr8FCQWuFTPnAAUuPvwVgGt5rPULti6M,14769
+keyphrase_vectorizers/keyphrase_tfidf_vectorizer.py,sha256=uh16Tyh35okYwHRkQMsiwDlA2xMqMr5R7jASusANlZQ,12286
+keyphrase_vectorizers/keyphrase_vectorizer_mixin.py,sha256=-f4Lw0J5Aqfm2LA45JBHmYOvqovkjjR4LGZF6mtot4I,16118
+keyphrase_vectorizers-0.0.11.data/data/requirements/requirements.txt,sha256=70phtarpmTDaLW1oGn9siW_X5pufofbsD1rld3ODZiI,109
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_vectorizers.py,sha256=OKnEbQUgKHgUBnNw9scJPrJch5tOB6PlzlKFsfm-nnU,5686
+tests/utils.py,sha256=T2oD1jP3C7V_jdxStCtxCfmw8G_9CBTzu8dudHSVXbM,8712
+keyphrase_vectorizers-0.0.11.dist-info/LICENSE,sha256=zhlY9qBfq7uRv7iaeL10R0M3ObGuocQzjs-fd2BCURA,1518
+keyphrase_vectorizers-0.0.11.dist-info/METADATA,sha256=xuGsZ37KoxuWBGumWUT4qFxI23-i7YWOCQUvyowu0aA,39434
+keyphrase_vectorizers-0.0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keyphrase_vectorizers-0.0.11.dist-info/top_level.txt,sha256=7iaQDkRuPHYs8ZWgDYnUMtbrWQfeb9RY_68bmo5wD4Q,28
+keyphrase_vectorizers-0.0.11.dist-info/RECORD,,
