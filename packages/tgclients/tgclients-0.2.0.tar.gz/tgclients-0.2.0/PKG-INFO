@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tgclients
+Version: 0.2.0
+Summary: TextGrid Python client library for textgrid.de repository access.
+Home-page: https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients
+Author: Stefan Hynek, Ubbo Veentjer
+License: LGPL
+Provides-Extra: dev
+Provides-Extra: icu
+License-File: LICENSE
+License-File: AUTHORS
