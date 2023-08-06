@@ -1,0 +1,8 @@
+setup.py
+pack2534/__init__.py
+pack2534/funcs.py
+pack2534.egg-info/PKG-INFO
+pack2534.egg-info/SOURCES.txt
+pack2534.egg-info/dependency_links.txt
+pack2534.egg-info/requires.txt
+pack2534.egg-info/top_level.txt
