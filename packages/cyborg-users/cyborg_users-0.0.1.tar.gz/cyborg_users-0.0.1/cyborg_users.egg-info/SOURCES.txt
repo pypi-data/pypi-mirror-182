@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+cyborg_users.egg-info/PKG-INFO
+cyborg_users.egg-info/SOURCES.txt
+cyborg_users.egg-info/dependency_links.txt
+cyborg_users.egg-info/top_level.txt
