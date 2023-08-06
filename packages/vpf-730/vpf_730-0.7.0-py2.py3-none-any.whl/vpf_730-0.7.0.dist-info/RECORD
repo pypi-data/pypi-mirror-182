@@ -1,0 +1,13 @@
+vpf_730/__init__.py,sha256=-tcwgpKqDrnaXaZNbvzRmoo06UC1H2iyeBuTc8LpIT4,400
+vpf_730/__main__.py,sha256=evLq9NDAxSTMRGZzXHGBGWiEjaTtNZrgP2yPptG6V-Q,87
+vpf_730/logger.py,sha256=WsC_M0h7ORp65aG67_VhoeFfQbyFWNBmqhgqV3iSt_E,4118
+vpf_730/main.py,sha256=SV5Iz20WNo959_TvwR63VFX9UUYxvGnZfTYvw-LtMzc,6895
+vpf_730/sender.py,sha256=gbgUEPo2fPQMDr7tMAGrwmC1JbRc-bLfFeEsRzby31E,9079
+vpf_730/utils.py,sha256=KpY0ajyBJ_wYHMheM-QBPmwpnMXw5UvNEr5SzoGkiEE,3110
+vpf_730/vpf_730.py,sha256=mZzYDJoBM_3k9OluvaYs-Mp2qRFy7MkwVr8dU385r_U,14133
+vpf_730-0.7.0.dist-info/LICENCE,sha256=zY6Xi7fXfTSdjUD0uyTvzQR4RckOKxpkno3JyRUKkI0,1070
+vpf_730-0.7.0.dist-info/METADATA,sha256=dwg6LlUWJp_gFEkqtIvZXO6BeDvs8Fb39X_CFBc9dwA,2347
+vpf_730-0.7.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+vpf_730-0.7.0.dist-info/entry_points.txt,sha256=EiRzm09P70Y7wDEmYTSL7piHdOiHARNxtPqBz9iS_go,46
+vpf_730-0.7.0.dist-info/top_level.txt,sha256=fRd3WLGu628x4CeBnMUiRusH5IVvx67LvrSjWXh4neo,8
+vpf_730-0.7.0.dist-info/RECORD,,
