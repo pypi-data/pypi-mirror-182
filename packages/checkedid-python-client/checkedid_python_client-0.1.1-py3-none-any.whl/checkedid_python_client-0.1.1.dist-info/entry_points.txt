@@ -1,0 +1,3 @@
+[console_scripts]
+checkedid-python-client=checkedid.__main__:main
+

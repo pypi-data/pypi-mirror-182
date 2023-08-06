@@ -1,0 +1,14 @@
+checkedid/__init__.py,sha256=61pRtM_ql_nRefOaB_po02IvGQJniLesZGt0_6CnzOI,35
+checkedid/__main__.py,sha256=soS-TzKUioBjw1oF8gMPRSVamq-Zn-dSd05f-DlixnU,240
+checkedid/client.py,sha256=wQr0cERZ-2jQ0N1HAt2txeEczjLjtk1buwTNzuyjdY0,3110
+checkedid/models/__init__.py,sha256=_FRC5uzDPi20iGVXgIMYNfpEuNcwQZVQZa_FijIrpjw,387
+checkedid/models/base.py,sha256=u1VSsuFdSJOoECWL_li1Idmd2jSeAi809y5VrJUpHls,198
+checkedid/models/generated.py,sha256=3aBGBUuYwCmuW8xmacje7U_F862kCKTRx8m7u3ecMa8,14738
+checkedid/models/missing.py,sha256=3sSqif-c15zt_WaZ8uo6AYCD3Dxr_5nOjd43JxF3y-0,147
+checkedid/models/renamed.py,sha256=svPPQ7-LBz2xxf5FAHUQ55tcQb3kKqOgdI_8koUyz88,152
+checkedid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkedid_python_client-0.1.1.dist-info/entry_points.txt,sha256=LRRwRvb-NziwdrQKXnvjWCRn-qkKY3WLVAqzWCyCilo,67
+checkedid_python_client-0.1.1.dist-info/LICENSE,sha256=sZdMHieNQOOepmmmzcb6PwegCgp3EuvYwwx9uYswXQ8,1071
+checkedid_python_client-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+checkedid_python_client-0.1.1.dist-info/METADATA,sha256=-a8Pnzyr2R-JvEAP436Fkfo4Exwx6qizbB7iSceodKY,3744
+checkedid_python_client-0.1.1.dist-info/RECORD,,
