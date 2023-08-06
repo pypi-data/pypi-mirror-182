@@ -1,0 +1,8 @@
+gradescope/__init__.py,sha256=BeWn-jGxdloUdVaFkTnJci113UtNqJ0lRAdxjL-lg3Y,26
+gradescope/build_auto.py,sha256=_keywuUz65OzqlhwACuhjnML0ZRPEU5qPhCRMnw55eg,2860
+gradescope/run_autograder,sha256=vGFDMO_zhtQFv6DTVwwhPVf7GB1DOycSM7a6VnYygCY,935
+gradescope/setup.sh,sha256=Y6oCjbEeob7xBsR-CmLW-63bIS-EaaQ_5R9vcPlMmyQ,152
+gradescope_auto_py-0.0.9.dist-info/METADATA,sha256=WxIRXB91O7LYZAFXVlvBhl7OfNzTiERHvEkpMedaYMg,3607
+gradescope_auto_py-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gradescope_auto_py-0.0.9.dist-info/top_level.txt,sha256=axXpch8tm_TjR7D3QVlg4aQs6w_kclAewxd5TMmvEjU,11
+gradescope_auto_py-0.0.9.dist-info/RECORD,,
