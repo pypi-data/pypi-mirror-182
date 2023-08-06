@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BMKR
+Version: 1.0.3
+Summary: this is a test for package by myself upload to pypi
+Home-page: https://github.com/lichanghong/wenyali.git
+Author: renjunyi
+Author-email: 2998345156@qq.com
+License: MIT
+Keywords: keyword
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+
+this is a test for package by myself upload to pypi
