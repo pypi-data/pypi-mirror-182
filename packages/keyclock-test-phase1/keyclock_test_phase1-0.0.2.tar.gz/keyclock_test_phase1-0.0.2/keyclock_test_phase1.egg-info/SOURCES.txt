@@ -1,0 +1,8 @@
+README.txt
+setup.py
+keyclock_test_phase1/__init__.py
+keyclock_test_phase1.egg-info/PKG-INFO
+keyclock_test_phase1.egg-info/SOURCES.txt
+keyclock_test_phase1.egg-info/dependency_links.txt
+keyclock_test_phase1.egg-info/requires.txt
+keyclock_test_phase1.egg-info/top_level.txt
