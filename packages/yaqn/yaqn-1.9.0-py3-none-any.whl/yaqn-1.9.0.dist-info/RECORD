@@ -1,0 +1,17 @@
+yaqn/.DS_Store,sha256=AgLokmb26qFwT0Lu0qlxAA5BIWWDxrrJINVZUWG1tYY,8196
+yaqn/.vscode/settings.json,sha256=6Vn5k_pjgUBpt3dheMDO-UYYbqCu870RlF5tJzDHcj4,49
+yaqn/__init__.py,sha256=Zd0-HuGWDl-8EOqWTnbji0Pdpci3NaTujEkwYk11mm8,90
+yaqn/about.py,sha256=vnrmENp0f3h3H8xYOaNvS7coBS3TtpgAz1sdk_93Q2E,4713
+yaqn/assets/logo_high_res.png,sha256=jEc1hLt0OS5udcSeahcGHZClME75KTaKvUTQjtVU1Uw,45805
+yaqn/assets/logo_low_res.png,sha256=qWF_6j_x_i60PkOF6C85nIw_tNk_WYnvRkizhxWKg1o,814
+yaqn/assets.py,sha256=kDSd7sh9geA7di3NkRRpdPTaKjkMJ9Q0Ooej0rwjMEI,435
+yaqn/config.py,sha256=wBlG2UjR8zGuoB6e-N8Z12Mnjk6blCAkpx3_IBegb7Y,3855
+yaqn/gui.py,sha256=d_pPHBbFcI53QIROKg4hfUq10IodaCwmPR7vqOKch6o,5599
+yaqn/main.py,sha256=EEwZQI4nOL5HmulR2d4ytQVXS9SbNepYpWrWb8rXaIU,2264
+yaqn/notes.py,sha256=UIuHnLT2QIqC5cOYLCvTkh6WuS4g4cyhVIvcLT1sl3s,1930
+yaqn/terminal.py,sha256=NNo-BLRsKBikouSKppUlZ-4NIuDqQ9ZZm4xJwj8zIIQ,115
+yaqn-1.9.0.dist-info/entry_points.txt,sha256=cHkgLTHp-uhI2C8LqMR3V6RcxRWzcC6wejNuuRi8yQU,39
+yaqn-1.9.0.dist-info/LICENSE.txt,sha256=VvA1bZ3KmaWjPb4oI2AQZQpZh60eq-j-Wj_bYstP6Rs,1061
+yaqn-1.9.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+yaqn-1.9.0.dist-info/METADATA,sha256=5KpcKJDfzAdW35q8mKcx62nJXQ4QauJU7ceeka2u-8I,3462
+yaqn-1.9.0.dist-info/RECORD,,
