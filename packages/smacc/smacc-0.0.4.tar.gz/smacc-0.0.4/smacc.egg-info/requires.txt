@@ -1,0 +1,6 @@
+numpy
+PyQt5
+scipy
+
+[port_triggers]
+psychopy
