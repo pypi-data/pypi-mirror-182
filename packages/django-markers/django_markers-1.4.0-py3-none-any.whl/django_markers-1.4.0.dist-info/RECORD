@@ -1,0 +1,15 @@
+markers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markers/exceptions.py,sha256=5kpM8A5ZVk2LrQSQ2NBU_91DLIsUIxBfio0Hh3L5x2U,190
+markers/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markers/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markers/management/commands/clean_markers.py,sha256=DPcxAELQch_qai4hwYkbThAmDZ8pFOX8k2Ue5t8uKLs,1279
+markers/models.py,sha256=2IWQP00PXIbt24ulKwuvTPXb4WrwKvbJoneWO2iZhlI,8210
+markers/static/markers/fonts/DroidSans-Bold.ttf,sha256=tjG2d69apzFil6i1ah_jux2nBnN_jJeF1aX8lPquHqk,191032
+markers/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markers/templatetags/markers.py,sha256=oonfGsTXEnLqYpWA2Z0ABNZF6qz33TCWWsCtwTAbM_A,762
+markers/urls.py,sha256=vSSc-Ss9dG5aKn6nLG-gMG4fkpglKbKO6I9I4JEEyrg,167
+markers/views.py,sha256=uX9dZyOiOe6DyilGJk8Ops-RARrDvES15NW5xOnI6Zg,1823
+django_markers-1.4.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+django_markers-1.4.0.dist-info/METADATA,sha256=wazXo6NCaovVD8ZdTmN_W63g9v3enj8ZP7aHJIPYbPQ,5961
+django_markers-1.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+django_markers-1.4.0.dist-info/RECORD,,
