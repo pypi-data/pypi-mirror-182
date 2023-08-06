@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: quick_preprocessing
+Version: 0.0.7
+Summary: A small python package
+Home-page: https://github.com/AnkurDas-krypto/quick_preprocessing
+Author: AnkurDas-krypto
+Author-email: ankurdas8017@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/AnkurDas-krypto/quick_preprocessing/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Provides-Extra: testing
+License-File: LICENSE
+
+## quick_preprocessing
+This package is meant to quickly preprocess text data to save developers time. This package includes lemmatization, stemming, punctuation removal, spelling correction, stopwords removal and many more.
+    
+##Documentation
+    https://ankurdas-krypto.github.io/quick_preprocessing/
