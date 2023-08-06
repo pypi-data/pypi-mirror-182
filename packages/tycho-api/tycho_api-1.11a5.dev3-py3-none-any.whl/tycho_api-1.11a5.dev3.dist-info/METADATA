@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tycho-api
+Version: 1.11a5.dev3
+Summary: Tycho is an API, compiler, and executor for cloud native distributed systems.
+Author-email: Renaissance Computing Institute <scox@renci.org>
+Maintainer-email: Murali Karthik Kothapalli <muralikarthik.k@renci.org>
+Project-URL: documentation, https://github.com/helxplatform/tycho
+Project-URL: repository, https://github.com/helxplatform/tycho
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: deepmerge (==1.0.1)
+Requires-Dist: docker-compose (==1.29.2)
+Requires-Dist: flasgger (==0.9.5)
+Requires-Dist: Flask (==2.0.3)
+Requires-Dist: flask-cors (==3.0.10)
+Requires-Dist: flask-restful (==0.3.9)
+Requires-Dist: GitPython (==3.1.11)
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: kubernetes (==25.3.0)
+Requires-Dist: netifaces (==0.11.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-cache (==0.9.2)
+
