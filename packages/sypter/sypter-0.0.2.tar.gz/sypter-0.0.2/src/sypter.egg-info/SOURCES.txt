@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+resources/images/logo.png
+src/sypter/__init__.py
+src/sypter/__main__.py
+src/sypter.egg-info/PKG-INFO
+src/sypter.egg-info/SOURCES.txt
+src/sypter.egg-info/dependency_links.txt
+src/sypter.egg-info/entry_points.txt
+src/sypter.egg-info/requires.txt
+src/sypter.egg-info/top_level.txt

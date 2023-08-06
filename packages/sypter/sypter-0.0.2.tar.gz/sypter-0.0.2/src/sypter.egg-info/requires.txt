@@ -1,0 +1,10 @@
+selenium
+geckodriver-autoinstaller
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
+tox
