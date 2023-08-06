@@ -1,0 +1,58 @@
+[project]
+name = "recap-core"
+version = "0.1.1"
+description = "Recap is a tiny metadata service built for engineers."
+authors = [
+    { name = "Chris Riccomini", email = "criccomini@apache.org" },
+]
+dependencies = [
+    "fastapi>=0.88.0",
+    "uvicorn[standard]>=0.20.0",
+    "fsspec>=2022.11.0",
+    "httpx>=0.23.1",
+    "typer>=0.7.0",
+    "psycopg2>=2.9.5",
+    "sqlalchemy>=1.4.45",
+    "dynaconf>=3.1.11",
+    "rich>=12.6.0",
+    "setuptools>=65.6.3",
+    "duckdb>=0.6.1",
+]
+requires-python = ">=3.9, <3.11"
+readme = "README.md"
+keywords = [
+    "metadata",
+    "data",
+    "data catalog",
+    "data engineering",
+    "data infrastructure",
+    "infrastructure",
+    "devtools",
+    "devops",
+]
+
+[project.license]
+text = "SSPL-1.0"
+
+[project.urls]
+homepage = "https://github.com/recap-cloud/recap"
+repository = "https://github.com/recap-cloud/recap"
+
+[project.scripts]
+recap = "recap.cli:app"
+
+[project.optional-dependencies]
+jq = [
+    "pyjq>=2.6.0",
+]
+all = [
+    "recap[jq]",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
