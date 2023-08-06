@@ -1,0 +1,18 @@
+[project]
+name = "sunnybeamtool2"
+version = "0.1.0"
+authors = [
+  { name="Peter Bosmans", email="petbos157@gmail.com" },
+]
+description = "Tool to read out the sunnybeam through USB"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/petbos157/SunnyBeamToolPython"
+"Bug Tracker" = "https://github.com/petbos157/SunnyBeamToolPython/issues"
