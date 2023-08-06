@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robotframework-Datum"
+version = "1.0.8" 
+description = "robot framework library that contains a set of functions for working with JSON, PDF and Text.."
+readme = "README.rst"
+requires-python = ">=3.6"
