@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: idle-eggs-hurt-test
+Version: 0.1
+Summary: test package
+Home-page: UNKNOWN
+Author: zhaofl
+Author-email: zhaofl_buaa@163.com
+Maintainer: zhaofl
+Maintainer-email: zhaofl_buaa@163.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.3
+
+please read me!
+
+
