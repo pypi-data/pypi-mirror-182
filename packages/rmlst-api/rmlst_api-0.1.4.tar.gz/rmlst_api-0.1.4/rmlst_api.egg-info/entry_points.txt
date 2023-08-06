@@ -1,0 +1,2 @@
+[console_scripts]
+rmlst-api = src.rmlst_api.cli:run_all
