@@ -1,0 +1,136 @@
+# PowerML Python Package
+
+## Installation
+
+    pip install powerml_app
+
+## Configure
+In order to use this library, first create a config file at `~/.powerml/configure.yaml`. Here's an example:
+
+    powerml:
+        key: "<POWERML-KEY>"
+    openai:
+        key: "<OPENAI-KEY>"
+
+You may also configure the `PowerML` class by passing in a dictionary 
+
+    from powerml import PowerML
+    config = {"powerml": {"key": "<POWERML-KEY>"}}
+    powerml = PowerML(config)
+
+### PowerML Key
+To get a powerml key, go to [https://staging.powerml.co/](https://staging.powerml.co/) and log in with your email. Contact our team if you are unable to log in and we'll add you!
+
+## Usage
+
+How to use:
+
+After configuring PowerML, we can use its member functions `fit` and `predict`
+
+    from powerml import PowerML
+    config = {"powerml": {"key": "<POWERML-KEY>"}}
+    powerml = PowerML(config)
+
+    testPrompt = "hello there"
+    response = powerml.predict(prompt=testPrompt)
+    data = ["item2", "item3"]
+    model_details = powerml.fit(data, model_name="llama")
+
+### Fit
+
+`fit` will return a dictionary object in the following format:
+
+    {
+        "model_id":"23",
+        "project_id":"None",
+        "user_id":"12",
+        "job_id":"89",
+        "model_name":"be894276039088c5f8db3f6bfaeb19953ed9ffe55f37a847a58f9fb320d307bc",
+        "job_config":"{\"type\": \"prompt_tune\", \"model_name\": \"llama\"}",
+        "prompt":"item2item3{{input}}",
+        "creation_time":"2022-12-20 02:19:36.519260",
+        "job":{
+            "job_id":"89",
+            "project_id":"None",
+            "user_id":"12",
+            "config":"{\"type\": \"prompt_tune\", \"model_name\": \"llama\"}",
+            "status":"COMPLETED",
+            "name":"be894276039088c5f8db3f6bfaeb19953ed9ffe55f37a847a58f9fb320d307bc",
+            "metric":"None",
+            "history":"None",
+            "start_time":"2022-12-20 02:19:36.369450",
+            "end_time":"2022-12-20 02:19:35.837668"
+        }
+    }
+
+### Predict
+
+`model_name` is the name of your newly fit model. The PowerML class will immediately start using this model in predictions, so all you need to do now is to call `predict`:
+
+    response = powerml.predict("test")
+
+Alternatively, you may use any model_name of a model you've trained before
+
+    response = powerml.predict("test", model_name="<MODEL_NAME>")
+
+## PowerML Class
+
+The `PowerML` class has member functions `fit` and `predict`.
+
+`predict` accepts the following arguments:
+
+    def predict(self,
+                prompt: str,
+                model: str = "",
+                stop: str = "",
+                max_tokens: int = 128,
+                temperature: int = 0,
+                ) -> str:
+
+`fit` accepts the following arguments:
+
+    def fit(self,
+            data: list[str],
+            model: str = "llama"):
+
+## PowerMLTopicModel Class
+
+The `PowerMLTopicModel` class is an example class designed to extract topics from the prompt.
+
+### Usage
+
+    def get_examples():
+        examples_path = os.path.join(os.path.dirname(__file__), "examples.json")
+        with open(examples_path) as examples_file:
+            examples = json.load(examples_file)
+        return examples
+
+    def get_topics():
+        return ["vscode","web","dashboard"]
+    
+    model = PowerMLTopicModel(get_topics())
+    examples = get_examples()
+    model.fit(examples)
+    topics = model.predict("Move invite teammates page to its own base route . per designs:   This PR just moves existing views around and adds a new base route (i.e. no new functionality)")
+    print("topics:", topics)
+
+### Methods
+
+`__init__` is defined as follows:
+
+    def __init__(self, topics: list[str]):
+
+`fit` is defined as follows:
+
+    def fit(self, 
+            examples: list[
+                {"example": str, "labels": list[str]}
+            ]):
+
+where examples is a list of dictionaries with format `{"example": str, "labels": list[str]}`.
+
+`predict` is defined as follows:
+
+    def predict(self, prompt: str):
+
+
