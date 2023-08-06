@@ -1,0 +1,4 @@
+nonebot-adapter-onebot<3.0.0,>=2.0.0-beta.2
+nonebot2<3.0.0,>=2.0.0-beta.1
+httpx>=0.23.1
+playwright>=1.28.0
