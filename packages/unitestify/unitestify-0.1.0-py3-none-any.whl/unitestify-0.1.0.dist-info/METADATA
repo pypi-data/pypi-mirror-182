@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: unitestify
+Version: 0.1.0
+Summary: Base unittest scaffold package
+Home-page: https://github.com/victory-sokolov/unitestify
+License: MIT
+Keywords: Django tests,unittests
+Author: Viktor Sokolov
+Author-email: viktorsokolov.and@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Project-URL: Repository, https://github.com/victory-sokolov/unitestify
+Description-Content-Type: text/markdown
+
+# Unitestify - Generate skeleton test file from Python file.
+
+Support Unnitests and Django tests.
+
+## How to use this package?
+
+
+```bash
+python unitestify --help
+Usage: unitestify.py [OPTIONS]
+
+  Unitestify command line arguments.
+
+Options:
+  --file TEXT  Path to file from which to generate test file
+  --type TEXT  Type of test to generate
+  --help       Show this message and exit.
+```
+
+There are two commands available:
+    * `--file` - Requires path to a Python file from which you want to generate the base test file.
+    * `--type` - Test type, `unittest` either `django`
+
+
+## Example
+
+`data.py`
+
+```python
+class Manager:
+
+    def manage_data(self):
+        return "Managing data"
+
+    def retrieve_data(self):
+        return "Retrieved data"
+```
+
+Here is our output file.
+
+`test_data.py`
+
+```python
+import unittest
+
+class TestManager(unittest.TestCase):
+    """TestManager."""
+
+    def test_manage_data(self):
+        """Test manage data."""
+
+    def test_retrieve_data(self):
+        """Test retrieve data."""
+```
+

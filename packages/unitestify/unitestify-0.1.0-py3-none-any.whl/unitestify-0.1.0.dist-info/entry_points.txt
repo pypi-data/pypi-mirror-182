@@ -1,0 +1,3 @@
+[console_scripts]
+unitestify=unitestify:unitestify
+
