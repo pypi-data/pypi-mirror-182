@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+ubcpkg.egg-info/PKG-INFO
+ubcpkg.egg-info/SOURCES.txt
+ubcpkg.egg-info/dependency_links.txt
+ubcpkg.egg-info/top_level.txt
