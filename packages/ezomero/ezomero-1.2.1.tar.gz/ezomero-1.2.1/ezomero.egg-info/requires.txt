@@ -1,0 +1,8 @@
+omero-py==5.11.2
+numpy>=1.22
+
+[:python_version < "3.7"]
+dataclasses
+
+[tables]
+pandas
