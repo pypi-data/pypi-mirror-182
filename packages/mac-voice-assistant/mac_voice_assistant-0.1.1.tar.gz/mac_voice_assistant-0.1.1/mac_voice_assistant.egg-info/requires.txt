@@ -1,0 +1,8 @@
+numpy
+nltk
+tensorflow
+portaudio
+PyAudio
+playsound
+pyttsx3
+SpeechRecognition
