@@ -1,0 +1,3 @@
+importlib.resources
+numpy
+tensorflow>=2.0.0

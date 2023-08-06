@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: DeepGlow
+Version: 1.0.0
+Summary: A neural network emulator for BOXFIT
+Home-page: https://github.com/OMBoersma/DeepGlow
+Author: Oliver Boersma
+Author-email: o.m.boersma@uva.nl
+License: BSD 2-clause
+Description: DeepGlow is a Python package which emulates the BOXFIT gamma-ray burst afterglow simulation code using a neural network approach.
+        It can calculate light curves in milliseconds to within a few percent accuracy compared to the original BOXFIT model.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
