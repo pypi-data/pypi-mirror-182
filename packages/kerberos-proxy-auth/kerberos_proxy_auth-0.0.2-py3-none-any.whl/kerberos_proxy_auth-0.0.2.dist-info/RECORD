@@ -1,0 +1,10 @@
+kerberos_proxy_auth/bootstrap.py,sha256=0pkHy1SLP9NzK9FDGLmXwMu-xt_R7rGM9jvuBMCs-Ao,2476
+kerberos_proxy_auth/wrapt_pip.py,sha256=hpn7uGZExYvqlIBzPNydQFQ4tOks0LN16-ELkMj5ng4,1840
+kerberos_proxy_auth/wrapt_requests.py,sha256=0f440z-LsKMvh_RTy-_-3SxQ3RA4m0ukAp4GXbLpbYM,928
+kerberos_proxy_auth/wrapt_urllib3.py,sha256=VksyV5kP7RPrz0dcJ5gZLkZwb4zoEZJPtazhrpM9w94,942
+kerberos_proxy_auth-0.0.2.data/data/lib/site-packages/kerberos-proxy-auth-init.pth,sha256=aZklmEJ4f1bBqTAyZZMaq-_PO5XXvbqMRRp1daS_q5Q,120
+kerberos_proxy_auth-0.0.2.dist-info/LICENSE,sha256=fCHCszmcQuRPirvDl2twAI5NDuz1tPaQbIMBnFLdMXg,1341
+kerberos_proxy_auth-0.0.2.dist-info/METADATA,sha256=fqFdvcQT9hRa5Q-6OguXVJJntpAZ1rhVHPiZNToeyBI,1993
+kerberos_proxy_auth-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kerberos_proxy_auth-0.0.2.dist-info/top_level.txt,sha256=GaW58IA5DZa-rlL4mEBz9QunrQVuKy2NAnkqa83Q1ik,20
+kerberos_proxy_auth-0.0.2.dist-info/RECORD,,
