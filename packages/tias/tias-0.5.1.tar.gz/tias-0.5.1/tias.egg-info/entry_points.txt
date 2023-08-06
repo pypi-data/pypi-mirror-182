@@ -1,0 +1,3 @@
+[console_scripts]
+tias = tias.app:main
+
