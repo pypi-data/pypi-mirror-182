@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+pkg_test_zhaofl/__init__.py
+pkg_test_zhaofl/main.py
+pkg_test_zhaofl.egg-info/PKG-INFO
+pkg_test_zhaofl.egg-info/SOURCES.txt
+pkg_test_zhaofl.egg-info/dependency_links.txt
+pkg_test_zhaofl.egg-info/top_level.txt
