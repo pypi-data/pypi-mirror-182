@@ -1,0 +1,7 @@
+setup.py
+hikka_filters/__init__.py
+hikka_filters/filters.py
+hikka_filters.egg-info/PKG-INFO
+hikka_filters.egg-info/SOURCES.txt
+hikka_filters.egg-info/dependency_links.txt
+hikka_filters.egg-info/top_level.txt
