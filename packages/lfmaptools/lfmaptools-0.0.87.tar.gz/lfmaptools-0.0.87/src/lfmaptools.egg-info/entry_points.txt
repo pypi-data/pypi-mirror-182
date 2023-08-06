@@ -1,0 +1,4 @@
+[console_scripts]
+lf_inundation = lfmaptools.scripts.lf_inundation:lf_inundation
+lf_to_gtif = lfmaptools.scripts.lf_to_gtif:lf_to_gtif
+lf_to_kml = lfmaptools.scripts.lf_to_kml:lf_to_kml
