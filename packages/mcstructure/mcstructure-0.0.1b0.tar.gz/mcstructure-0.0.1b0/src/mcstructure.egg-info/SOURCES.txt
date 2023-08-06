@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/mcstructure.py
+src/mcstructure.egg-info/PKG-INFO
+src/mcstructure.egg-info/SOURCES.txt
+src/mcstructure.egg-info/dependency_links.txt
+src/mcstructure.egg-info/requires.txt
+src/mcstructure.egg-info/top_level.txt
