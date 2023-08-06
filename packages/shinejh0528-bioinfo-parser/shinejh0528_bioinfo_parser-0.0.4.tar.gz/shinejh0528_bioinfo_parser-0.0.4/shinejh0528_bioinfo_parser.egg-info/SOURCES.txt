@@ -1,0 +1,7 @@
+setup.py
+bioinfo_parser/__init__.py
+bioinfo_parser/bioinfo_parser.py
+shinejh0528_bioinfo_parser.egg-info/PKG-INFO
+shinejh0528_bioinfo_parser.egg-info/SOURCES.txt
+shinejh0528_bioinfo_parser.egg-info/dependency_links.txt
+shinejh0528_bioinfo_parser.egg-info/top_level.txt
