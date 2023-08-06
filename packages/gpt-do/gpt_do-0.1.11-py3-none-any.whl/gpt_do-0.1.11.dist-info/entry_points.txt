@@ -1,0 +1,4 @@
+[console_scripts]
+ddo=gpt_do.cli:do
+do=gpt_do.cli:do
+
