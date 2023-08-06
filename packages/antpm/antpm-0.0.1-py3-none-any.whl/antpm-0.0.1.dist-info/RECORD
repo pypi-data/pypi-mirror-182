@@ -1,0 +1,8 @@
+antpm/__init__.py,sha256=q4V4KqXuS66RCdBQmjqWuXxNMYnmS9l52tVl2ojfQB0,4706
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_antpm.py,sha256=UmZ_Lgd46IrwAbqf-mwtQndWkhb3_UwdxCUUpSdPwew,5101
+antpm-0.0.1.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+antpm-0.0.1.dist-info/METADATA,sha256=Lfl73XiONVj-j4w3pvPrREqToKCJD-PgmCyM7JTY0Oc,420
+antpm-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+antpm-0.0.1.dist-info/top_level.txt,sha256=WXroX8k9Ik3P3EWCt93BGOV7xE00LmfbUxvlqJc7rx8,12
+antpm-0.0.1.dist-info/RECORD,,
