@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyncd
+Version: 0.1.0
+Summary: A Python Library for Network Community Detection
+Home-page: https://github.com/DengBoCong/pyncd
+Author: BoCong Deng
+Author-email: bocongdeng@gmail.com
+License: BSD-2
+Keywords: community detection,deep community detection,deep community detection,deep learning,network analysis,graph mining
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Python Network Community Detection (PyNCD)
+==========================================
+
+PyNCD is an open-source **Python library** for **network community detection**. PyNCD provides unified low-code implementation of different detection models based on PyTorch
+
+
+
+
