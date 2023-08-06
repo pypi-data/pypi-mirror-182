@@ -1,0 +1,3 @@
+[console_scripts]
+dbnd-dbt-monitor = dbnd_dbt_monitor.multiserver.dbt_multiserver:dbt_monitor
+
