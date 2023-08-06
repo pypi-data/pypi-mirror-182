@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/transfusion.egg-info/PKG-INFO
+src/transfusion.egg-info/SOURCES.txt
+src/transfusion.egg-info/dependency_links.txt
+src/transfusion.egg-info/not-zip-safe
+src/transfusion.egg-info/requires.txt
+src/transfusion.egg-info/top_level.txt
