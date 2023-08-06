@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: trendhunter
+Version: 0.0.1
+Summary: Asynchronous TrendHunter API (in Python)
+Author-email: Jake Ballantyne <jake.david.ballantyne@gmail.com>
+Maintainer-email: Jake Ballantyne <jake.david.ballantyne@gmail.com>
+Project-URL: homepage, https://github.com/jbal/trendhunter
+Project-URL: issues, https://github.com/jbal/trendhunter/issues
+Project-URL: repository, https://github.com/jbal/trendhunter
+Keywords: API
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# trendhunter
