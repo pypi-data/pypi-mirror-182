@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: keyclock_test_phase1
+Version: 0.0.3
+Summary: A very basic Login Authentication
+Home-page: UNKNOWN
+Author: jap dave
+Author-email: japdave1515@gmail.com
+License: MIT
+Description: this is simple library and good
+        
+        ADDED USER AUTHENTICATION FUNCTION
+Keywords: mykeyclock
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
