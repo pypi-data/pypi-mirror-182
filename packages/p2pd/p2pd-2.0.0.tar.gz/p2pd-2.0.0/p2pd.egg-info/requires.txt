@@ -1,0 +1,8 @@
+gmqtt==0.6.11
+ntplib==0.4.0
+readchar==3.0.5
+aiounittest==1.4.2
+xmltodict
+
+[:sys_platform != "win32"]
+netifaces==0.11.0
