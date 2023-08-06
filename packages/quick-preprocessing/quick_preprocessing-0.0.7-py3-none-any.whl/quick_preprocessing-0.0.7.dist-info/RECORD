@@ -1,0 +1,9 @@
+quick_preprocessing/__init__.py,sha256=wOSFtC6BHG2jp9OUlhE1El-wludRoAyQ7vPr092jdKM,201
+quick_preprocessing/logger.py,sha256=nvTnaDBx_QQ0zE83QhsG9r0kLdUi25nST8JdXVfncEk,450
+quick_preprocessing/manual_exception.py,sha256=xN0Xfgd0wkTMl2JKJ5S46WpjKSa9t3NynjYkAWLXcnI,173
+quick_preprocessing/preprocessing.py,sha256=-2xmtGJvCdxMJvL54q_0U6XItuXpztG3TdzB4C9G1YA,2757
+quick_preprocessing-0.0.7.dist-info/LICENSE,sha256=F4mAjED6t0Wiea_xzwBhifrA8iDPfQfyAWGQm5zvnfg,1066
+quick_preprocessing-0.0.7.dist-info/METADATA,sha256=hPvypS0REyi_-3rg_EG5lL7nY3qs1ai8a4gOCeVXVSA,1187
+quick_preprocessing-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quick_preprocessing-0.0.7.dist-info/top_level.txt,sha256=GFyAHoHaVu9TMuLYzB37P1CUNxJu_Kn0pkKR755-fhc,20
+quick_preprocessing-0.0.7.dist-info/RECORD,,

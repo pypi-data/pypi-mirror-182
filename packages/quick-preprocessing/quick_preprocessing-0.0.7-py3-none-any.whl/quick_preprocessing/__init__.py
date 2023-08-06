@@ -1,0 +1,3 @@
+from quick_preprocessing.preprocessing import lemmatize_preprocessing
+from quick_preprocessing.preprocessing import stemming_preprocessing
+from quick_preprocessing.preprocessing import spell_corrector
