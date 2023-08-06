@@ -1,0 +1,4 @@
+include ctypes_screenshots/requirements.txt
+include ctypes_screenshots/thirdparty.json
+include ctypes_screenshots/README.MD
+include ctypes_screenshots/LICENSE
