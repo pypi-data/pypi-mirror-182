@@ -1,0 +1,5 @@
+OpenAIAuth>=0.0.6
+cf_clearance2>=0.28.3
+httpx
+nest-asyncio
+playwright
