@@ -1,0 +1,13 @@
+hangoutcore/__init__.py,sha256=TG1kQAOYhulteo7LQ1QcJK2m5Q9tEawKqRHhklp_sNg,18
+hangoutcore/__main__.py,sha256=bIfAuXBdKvp27ac-6DHD04AX2ODFEHZaCc5aUsVA7Fs,15785
+hangoutcore/bot.py,sha256=7DLchTrlJ8D-NCabIGMUp3UIchMExJ745f716LY0Gwo,5468
+hangoutcore/setup.py,sha256=CiY_up_ss1uePFLWAEy2Jlbz5gev26eX8bO_OZXwT_8,2464
+hangoutcore/util.py,sha256=XwTtW4-KGWl_u8hYyLOKqUB2POL87UDMagPuCmC9gRM,65844
+hangoutcore/SystemCogs/development.py,sha256=Zu4iyGQ94P3-ButdLmkUXTS3Av5AT7zzXIJtDL8Sn3E,8463
+hangoutcore/__pycache__/__main__.cpython-310.pyc,sha256=dh7YnDr68kNhQUGYNS2gq-taPGhGWme-rd3VYzpPPzg,10664
+HangoutCore-2.90.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+HangoutCore-2.90.dist-info/METADATA,sha256=MIY8KizFIYjqziHSoBntGLALIAkHOnL0j4DEvB57QoI,5489
+HangoutCore-2.90.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+HangoutCore-2.90.dist-info/entry_points.txt,sha256=dCIPYNeBGsnVTSMRKdYU9MSFRAGYU4ccF6CvIeLorhA,58
+HangoutCore-2.90.dist-info/top_level.txt,sha256=mLh2Y8rSgkIsOcR2l4oL9vXTJ4wDPB82s-K2QU3t87o,12
+HangoutCore-2.90.dist-info/RECORD,,
