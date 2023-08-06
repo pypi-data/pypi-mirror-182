@@ -1,0 +1,6 @@
+[drb.driver]
+java = drb.drivers.java:DrbJavaFactory
+
+[drb.topic]
+java = drb.topics.java
+
