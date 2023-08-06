@@ -1,0 +1,8 @@
+README.md
+setup.py
+C:/Users/Hasnat/Desktop/Python/return_colored_text/__init__.py
+C:/Users/Hasnat/Desktop/Python/return_colored_text/colors.py
+return_colored_text.egg-info/PKG-INFO
+return_colored_text.egg-info/SOURCES.txt
+return_colored_text.egg-info/dependency_links.txt
+return_colored_text.egg-info/top_level.txt

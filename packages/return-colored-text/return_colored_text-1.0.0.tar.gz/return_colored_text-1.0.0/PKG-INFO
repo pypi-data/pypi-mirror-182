@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: return_colored_text
+Version: 1.0.0
+Summary: This package is for coloring the output text.
+Home-page: https://github.com/m-hasnat-1201/return_colored_text.git
+Author: Md Hasnat
+Author-email: mhasnat1201@gmail.com
+License: MIT
+Description: This package is for coloring the output text. 
+        
+        Containg a Class with two functions. 
+        Below are their name and functionality:
+        
+        color_line: This function will color the current text output and
+                    stops to color when it is done.
+        
+        color_lines: This function will color the current text output and
+                     continues to color all other output(s)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
