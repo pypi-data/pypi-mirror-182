@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cosmograph
+Version: 0.0.2
+Summary: Binder to the cosmograph visual analytics for big graphs
+Home-page: https://github.com/thorwhalen/cosmograph
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cosmograph
+
+Python binder to the [cosmograph visual analytics tools](https://github.com/cosmograph-org) for big graphs. 
+
+
+To install:	```pip install cosmograph```
+
