@@ -1,0 +1,11 @@
+annotation/annotate.py,sha256=qrLqlP89MHI_rdYPccp7BIQoROhLdEI0uRZnYWM-3-c,13096
+annotation/filters.py,sha256=L3dUDFsC4mz_zmHF9qU4tvKJEacyeSTY9-9TkrB7pYA,35
+annotation/utils.py,sha256=cQPXB-DXV3Hoy2NHjv2jStAoGRISfSlHROsqWFEw-yU,2919
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/visualize.py,sha256=b6gc_q9mYImvmX-6OqVC8prypNCPgKYK3mlYvOPjjek,4568
+pyOpenAnnotate-0.3.9.dist-info/LICENSE,sha256=GTHwwDjBGLD1m1XuvbS1v4gSTU48w7SRrck7W9rZ36Q,1068
+pyOpenAnnotate-0.3.9.dist-info/METADATA,sha256=XXnpuw1prFrRwlC_UX-ZLgG5kP8NTueGXj-pNvip1pU,4057
+pyOpenAnnotate-0.3.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyOpenAnnotate-0.3.9.dist-info/entry_points.txt,sha256=euHLUJx4mUVDOxr_T7yqrFNO3YHUe1-pJxA_07PzZJM,86
+pyOpenAnnotate-0.3.9.dist-info/top_level.txt,sha256=9PVSGhfbA7rrtGbkTcBicrRKibNBZqCojsFXpjmWT1U,17
+pyOpenAnnotate-0.3.9.dist-info/RECORD,,
