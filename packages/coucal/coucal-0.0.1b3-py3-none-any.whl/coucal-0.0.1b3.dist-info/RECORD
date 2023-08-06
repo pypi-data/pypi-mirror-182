@@ -1,0 +1,11 @@
+coucal/__init__.py,sha256=4RsKPeKDarX7XxAQXpwahoG7NBbRVEFfsFJFaC5I6vg,1078
+coucal/_language.py,sha256=H2seP-qfi9OfnQrXe5WRZNg9TXIkMS0HTHn6bPnRKOs,377
+coucal/_options.py,sha256=OUe_TFsh6GfqQH225uWWu0j95tzH-z6zRdeMJuvxg98,4637
+coucal/aggregate.py,sha256=6OK84IV3TCibu_arBPHpr1w7dXz3bUG4SUvoVn1t7mI,10406
+coucal/climate.py,sha256=Pkqsa46AuZNpBBsBtnVvnRudjpeEEgxV4XhFl-NU0Kw,8984
+coucal/version.py,sha256=hKzssoZIVq-W6vhsFA8UxVhayX2M2jUGAamytLmluzk,74
+coucal-0.0.1b3.dist-info/LICENSE,sha256=EXa9TeBMc3bjJ8QjcgV6rl6rc7tLDFdHIMzFD6ougSU,11382
+coucal-0.0.1b3.dist-info/METADATA,sha256=g_09J-DpWKA9--jqmRu8h08gQq2GDAaiJ1RR2onkfVI,2150
+coucal-0.0.1b3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+coucal-0.0.1b3.dist-info/top_level.txt,sha256=zC7yB7n4RBM_M0dFOuLyVpoGQMElqjcpWzm4liHx2Xk,7
+coucal-0.0.1b3.dist-info/RECORD,,
