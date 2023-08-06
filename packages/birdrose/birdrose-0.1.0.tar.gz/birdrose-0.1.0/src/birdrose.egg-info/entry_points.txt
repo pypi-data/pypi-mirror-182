@@ -1,0 +1,2 @@
+[console_scripts]
+updatepresets = birdrose.main:run
