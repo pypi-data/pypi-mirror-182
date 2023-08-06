@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ccgenerator.egg-info/PKG-INFO
+ccgenerator.egg-info/SOURCES.txt
+ccgenerator.egg-info/dependency_links.txt
+ccgenerator.egg-info/requires.txt
+ccgenerator.egg-info/top_level.txt
+certgenerator/__init__.py
