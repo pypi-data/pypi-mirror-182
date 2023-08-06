@@ -1,0 +1,13 @@
+_mecab.cpython-311-darwin.so,sha256=y0HMuxYxB8s6X3URnLI1IvtB0R05qKXX00GsqT2c4KU,514560
+python_mecab_ko-1.3.0.dist-info/RECORD,,
+python_mecab_ko-1.3.0.dist-info/LICENSE,sha256=p_yO0gG14Sqp5H-A6kfyYwkea1IfYeyiTHrlDg9qPLM,1460
+python_mecab_ko-1.3.0.dist-info/WHEEL,sha256=V4MgOdL8hB0MONNzyEXkjqg6fCQ0i-MT-UIIis4fuKU,110
+python_mecab_ko-1.3.0.dist-info/top_level.txt,sha256=Lf8XT2zNJYT5il6pTUd9pbfHEiuUp-0mQUBnr3UIFec,13
+python_mecab_ko-1.3.0.dist-info/METADATA,sha256=lQsHO_vvmsfedL8iyjVIurFfdQBk77nfBEtSfwrzvxY,4527
+mecab/mecabrc,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab/mecab.py,sha256=BrzT2CQ7oIhn0lEkstzxJiwD-5qG6XqTIn4XgUduROg,3621
+mecab/__init__.py,sha256=NaTw7JCA-HOMkG6LB471Ryh21p4xXptcVD5in3WKaU8,99
+mecab/utils.py,sha256=lXeniZm--pBnAj7v0jxr6LkxbPrqA_eBWSdN2A3OM8k,511
+mecab/__main__.py,sha256=xVxl8YxX_BwkIPutG9dBW0MfBWU4Qr-egmtlQJEbf-0,1449
+mecab/.dylibs/libmecab.2.dylib,sha256=lopCa2yZPEZ7HnFpd4KcGOh_7hvsTTkF5VvVuYwadXc,1187072
+mecab/pybind/_mecab/utils.h,sha256=QuOQaA6SlfhB1zguBmcGtj0CGorUA4GlrTjCKBRsjVc,286
