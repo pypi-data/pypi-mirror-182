@@ -1,0 +1,21 @@
+<ul class="errorlist">{% for data in raw %}<li>{{forloop.counter}}<ul class="errorlist"><li>{{data.tag}}</li><li>{{data.item}}</li></ul></li>{% endfor %}</ul>
+{% if position %}
+    <div class="alert-position"><li>{{position}}</li></div>  
+{% else %}
+    <div class="alert-position"><li>topRight</li></div> 
+{% endif %}
+{% if transition_in %}
+    <div class="transition-in"><li>{{transition_in}}</li></div>
+{% else %}
+    <div class="transition-in"><li>flipInX</li></div>
+{% endif %}
+{% if transition_out %}
+    <div class="transition-out"><li>{{transition_out}}</li></div>
+{% else %}
+    <div class="transition-out"><li>flipOutX</li></div>
+{% endif %}
+{% if time_out %}
+    <div class="time"><li>{{time_out}}</li></div>
+{% else %}
+    <div class="time"><li>3000</li></div>
+{% endif %}
