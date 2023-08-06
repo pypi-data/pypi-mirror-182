@@ -1,0 +1,15 @@
+cfhl_auth/__init__.py,sha256=VXz7GG6ExCaYtroyTE26OEoTWJJDzAil4RwwciLrSUs,508
+cfhl_auth/apps.py,sha256=KH4e3ErdsFL3GD2j41X4B-SoZ393UAEiJz5QLKnAnD0,788
+cfhl_auth/urls.py,sha256=u36O6Inl6znf07cVEq1Vdo_rrEe_vu3syESD_K4qSQA,809
+cfhl_auth/lib/__init__.py,sha256=YdqrldaItPyRMDuVXwgPQV4R9cdzjbel4FUuGQi9IAA,509
+cfhl_auth/lib/managers/__init__.py,sha256=YdqrldaItPyRMDuVXwgPQV4R9cdzjbel4FUuGQi9IAA,509
+cfhl_auth/lib/serializers/__init__.py,sha256=YdqrldaItPyRMDuVXwgPQV4R9cdzjbel4FUuGQi9IAA,509
+cfhl_auth/lib/services/__init__.py,sha256=3_r2S83dltejVXScY9iJ7st0IpcGIlRaqhnnYo_V0dA,571
+cfhl_auth/lib/services/cfhl_auth.py,sha256=2LptfJg54RiWmkyiFbZWTSURsjuog2yjPD4n2Y_TjKo,4400
+cfhl_auth/templates/code_mail.html,sha256=TFCqtn6dZBfcUcINHFkry3xahXlN7NYTkHoJMqxPda4,742
+cfhl_auth/templates/code_mail.txt,sha256=PFFFRK0ml8KrlxvCVATsuQcIMW2PFrjCKMac8asuRcY,506
+cfhl_auth-1.0.0a1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+cfhl_auth-1.0.0a1.dist-info/METADATA,sha256=PGeqfMep81KwfCZklvjl_AhCIP7tEhw9MWCI65qPPvI,41414
+cfhl_auth-1.0.0a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cfhl_auth-1.0.0a1.dist-info/top_level.txt,sha256=JmBxxU8-7UjXNNzkFNtwSMQhUlCRvhektTwM_n3e0S0,10
+cfhl_auth-1.0.0a1.dist-info/RECORD,,
