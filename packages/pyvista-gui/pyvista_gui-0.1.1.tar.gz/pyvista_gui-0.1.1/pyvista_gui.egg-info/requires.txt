@@ -1,0 +1,7 @@
+pyvista>=0.22.4
+PyQt5>=5.11.3
+scooby>=0.2.2
+matplotlib
+pyvistaqt
+qdarkstyle
+qtconsole
