@@ -1,0 +1,91 @@
+exclude: '^docs/conf.py'
+
+repos:
+- repo: local
+  hooks:
+  - id: generate-modules
+    name: generate-modules
+    entry: python scripts/generate_modules.py
+    language: python
+    pass_filenames: false
+    additional_dependencies: [jinja2]
+    stages: [manual]
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: trailing-whitespace
+    exclude: ^data/
+  - id: check-ast
+  - id: check-json
+  - id: check-merge-conflict
+  - id: check-xml
+  - id: check-yaml
+  - id: debug-statements
+  - id: end-of-file-fixer
+    exclude: ^data/
+  - id: requirements-txt-fixer
+  - id: mixed-line-ending
+    args: ['--fix=auto']  # replace 'auto' with 'lf' to enforce Linux/Mac line endings or 'crlf' for Windows
+
+## If you want to avoid flake8 errors due to unused vars or imports:
+# - repo: https://github.com/myint/autoflake
+#   rev: v1.4
+#   hooks:
+#   - id: autoflake
+#     args: [
+#       --in-place,
+#       --remove-all-unused-imports,
+#       --remove-unused-variables,
+#     ]
+
+- repo: https://github.com/pycqa/isort
+  rev: v5.11.3
+  hooks:
+  - id: isort
+
+- repo: https://github.com/psf/black
+  rev: 22.12.0
+  hooks:
+  - id: black
+    language_version: python3
+
+## If like to embrace black styles even in the docs:
+# - repo: https://github.com/asottile/blacken-docs
+#   rev: v1.12.0
+#   hooks:
+#   - id: blacken-docs
+#     additional_dependencies: [black]
+
+- repo: https://github.com/PyCQA/flake8
+  rev: 6.0.0
+  hooks:
+  - id: flake8
+    args: ['--ignore=E501']
+  ## You can add flake8 plugins via `additional_dependencies`:
+  #  additional_dependencies: [flake8-bugbear]
+
+- repo: https://github.com/pycqa/pylint
+  rev: v2.15.9
+  hooks:
+  - id: pylint
+    additional_dependencies:
+    - jinja2
+    - pytest
+
+- repo: https://github.com/econchick/interrogate
+  rev: 1.5.0
+  hooks:
+  - id: interrogate
+    args: [--verbose, --omit-covered-files, --fail-under=100]
+
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v0.991
+  hooks:
+  - id: mypy
+    entry: env MYPYPATH=src mypy
+    args: [--strict]
+    exclude: setup.py
+    additional_dependencies:
+    - jinja2
+    - pytest
