@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pixie-price-forecast
+Version: 0.1.1
+Summary: Price forecast tools.
+Home-page: https://github.mpi-internal.com/joseangel-mielgo/pixie-price-forecast
+Author: Pixie Pixel
+Author-email: joseangel.mielgo@adevinta.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.mpi-internal.com/joseangel-mielgo/pixie-price-forecast
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: sqlalchemy
+Requires-Dist: sshtunnel
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: python-dateutil
+
+# Pixie Price Forecast
+This repository's main aim is to get an overview of the price tendency throughout the next few months.
+
+## Install Requirements
+To begin with, please install all the python modules required to run the scripts.
+
+```{batch}
+pip install -r requirements.txt
+```
+
+## Running ETL
+In order to generate the aggregated dataset you can run the following code:
+
+```{python}
+from price_forecast.etl import export_aggregated_data
+
+export_aggregated_data(mode={mode})
+```
+
+Where `{mode}` can be either `'demand'` or `'offer'`. The former corresponds to average daily data per province for ads with at least 1 lead. The latter computes data using ads no matter the amount of leads.
+
+## Forecasting Prices
+As of today, it is possible to forecast the property price per province using one of the following models:
+
+* Arima
+* Random Forest: Using leads, visits and 3-6 months lags as drivers.
+
+You can use the following code to run the forecast.
+
+```{python}
+path = [location of input]
+provinces = [list of provinces you are interested in]
+search_grid = {dictionary with model parameters you want to try in a search grid}
+model_name = [either 'arima' or 'random_forest']
+date_train_window = [date with the following format '%Y-%m-%d']
+run_forecast(model_name=model_name, input_path=path, province_list=provinces, search_grid=search_grid,
+             train_from=date_train_window[0], train_to=date_train_window[1])
+```
+
+## Results
+Results can be found in [this Tableau Dashboard](https://tableau.mpi-internal.com/#/site/sch-es/views/PriceForecast/GeneralView?:iid=1).
+
+In case you do not have access, please contact [Jose Mielgo](mailto:joseangel.mielgo@adevinta.com)
+
+
