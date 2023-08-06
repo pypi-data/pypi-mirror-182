@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.2.1
+------
+
+* Run main() when using the console script (openstack\_image\_manager.manage) (#443)
