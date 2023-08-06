@@ -1,0 +1,5 @@
+pkg_testaws_handsonter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg_testaws_handsonter/aws.py,sha256=sAqQLtd-en7Zj48ryx4iYIjceFHaiWWZ4HY9sC3u_mY,519
+pkg_testaws_handsonter-0.0.1.dist-info/METADATA,sha256=_ItyNQzgj4h9y93ylsN-aspRpH8XEcjZvT0kttDWhsI,305
+pkg_testaws_handsonter-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pkg_testaws_handsonter-0.0.1.dist-info/RECORD,,
