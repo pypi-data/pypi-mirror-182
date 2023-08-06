@@ -1,0 +1,6 @@
+aiohttp_oauth2_session/__init__.py,sha256=IaI4Xz8xa175UBbAtbf-NMvBoU9jt-qI_jHFspt0GKo,215
+aiohttp_oauth2_session/session.py,sha256=mTHTEQFiOs30y_x8gA8CnVjsspFBffhizcZg1gUmnvs,14581
+aiohttp_oauth2_session/typed_oauthlib.py,sha256=QINw-kyxmSVL8ZQ57EwMVjybViQjHOKsDOUlRZOREK8,5254
+aiohttp_oauth2_session-0.1.0.dist-info/METADATA,sha256=YGyV4OY0hUo9UHInHU5rSiagcIstErAM74Rh9aWTG64,1035
+aiohttp_oauth2_session-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+aiohttp_oauth2_session-0.1.0.dist-info/RECORD,,
