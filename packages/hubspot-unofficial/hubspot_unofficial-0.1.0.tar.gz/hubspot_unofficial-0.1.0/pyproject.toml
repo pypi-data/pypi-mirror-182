@@ -1,0 +1,19 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.poetry]
+name = "hubspot-unofficial"
+description = "Reverse-engineered HubSpot client"
+version = "0.1.0"
+authors = []
+license = 'MIT'
+packages = [{ include = "uhubspot", from = "gen" }]
+include = ['gen/**/*']
+
+[tool.poetry.dependencies]
+python = "^3.9"
+lapidary = "^0.7.3"
+
+[tool.lapidary]
+package = "uhubspot"
