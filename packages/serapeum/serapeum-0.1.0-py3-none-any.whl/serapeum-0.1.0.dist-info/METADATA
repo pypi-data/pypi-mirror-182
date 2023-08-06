@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: serapeum
+Version: 0.1.0
+Summary: Hydroinformatics
+Home-page: https://github.com/MAfarrag/serapeum
+Author: Mostafa Farrag
+Author-email: moah.farag@gmail.come
+License: GNU General Public License v3
+Keywords: Hydrology,Distributed hydrological model,Hydaulic model,Hydroinformatics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# serapieum
+
+=======
+History
+=======
+
+0.1.0 (2022-12-26)
+------------------
+
+* initial commit.
+
