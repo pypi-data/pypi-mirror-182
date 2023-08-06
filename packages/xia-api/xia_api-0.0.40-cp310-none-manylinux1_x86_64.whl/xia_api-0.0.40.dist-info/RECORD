@@ -1,0 +1,10 @@
+xia_api/__init__.py,sha256=PcB5gP6WT5k41YuO2t5A9jNddThUbhzdXXbITtgUQKY,421
+xia_api/auth_client.cpython-310-x86_64-linux-gnu.so,sha256=i5kncuOUG72dklh5mDVCXTg3maAPpPf3SPOk9GRJsck,743880
+xia_api/message.cpython-310-x86_64-linux-gnu.so,sha256=tXPXCUcMLipcbAPgXEwsbqSTQIcVvqZX7C2VG8S8234,764392
+xia_api/open_api.cpython-310-x86_64-linux-gnu.so,sha256=yZxxZ_771ySLSn5AuUgQbgD6Ew7lhC2gl9gCZwliyOk,1034728
+xia_api/rest.cpython-310-x86_64-linux-gnu.so,sha256=pgeg2aOUsZIzpyRAbTu_rpi7qeGfZZLctwIe6WIDIiY,891432
+xia_api-0.0.40.dist-info/LICENSE.txt,sha256=Ttf2VW9fqSQdbOE-h8EVivyg_c5obqacx70-ob7oLI4,155
+xia_api-0.0.40.dist-info/METADATA,sha256=NfFvtmeZzgb8mM2blX_SWviLrJA8905Fpzj18GU8Gy4,641
+xia_api-0.0.40.dist-info/WHEEL,sha256=Kn0XEVEprF3m5Ls7p1vDRSgmlko_ccaWbbQdh4VEEUE,108
+xia_api-0.0.40.dist-info/top_level.txt,sha256=krL7__RbzvbaNfgnuF-oCqAnr2y3Yy6whD8CBZyVXyw,8
+xia_api-0.0.40.dist-info/RECORD,,
