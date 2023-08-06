@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gardener
+Version: 2.0.0
+Summary: Hook-based tree manipulation library
+License: MIT
+Author: Dmitry Gritsenko
+Author-email: k01419q45@ya.ru
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
