@@ -1,0 +1,17 @@
+termgame/__init__.py,sha256=OFi7YwDEIB7S91yBjsr5FwGRYRsW7vpx0iCeyOevu78,314
+termgame/logger.py,sha256=Y9ZrTK7tI0lYTQ9DhoN7iMrxRG1CEAqUGKUgTXl2vdg,828
+termgame/settings.py,sha256=bLyNo7IBhRk-G-F-wJYhsEyMbFvByIDh1MbU3Z55eAU,379
+termgame/util.py,sha256=I_3ygF5w0oB2IMIRHi7z6Kki22pOxFoMOBxcG3Dnra4,1956
+termgame/base/__init__.py,sha256=mCylg7aG8v3lU7iPM3STwO5jWQ6yNSlYNNtXcwZjQKI,234
+termgame/base/engine.py,sha256=hn361l7gXX_kANrPZ6_ryIxFl7KQ_t8sQA1Vta6ybk4,3813
+termgame/base/gameobject.py,sha256=SGwC6OiVlY1wEHqP7Fe5qJRMH72r3IoHLzzo5CVbvvA,2430
+termgame/base/physics_engine.py,sha256=8vvDdrtgF00JElcj331CPb6Rzx4D668xK_FdIoC9YuA,3247
+termgame/base/physics_gameobject.py,sha256=dKTPQeCOWPmzXq2U7kgm_YqOxxbCpBkGuixMwNfYGWY,3249
+termgame/graphics/__init__.py,sha256=4n50G3QH_yd2uYHU8mQgRFIRPWTtB6B73_jYl5LOppE,99
+termgame/graphics/pixel.py,sha256=VgsaewwFvQBDlGXHIwX8e334y5sTLFjZaEYz1MhCUIE,2588
+termgame/graphics/screen.py,sha256=SuhCtkRujUPZe1EvGfW3GUWC0kZEXQpMCPdtfDnAxGk,5061
+termgame-0.0.1.dist-info/LICENSE,sha256=aQ8tCgPyN-xahD8gaDJr1lNn2KVsN_9jddJVoghLC_c,1083
+termgame-0.0.1.dist-info/METADATA,sha256=piG3dLLH7IeRrgqIUu2bd5gg-EqxrB9M0_ij1xkXSkA,2325
+termgame-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+termgame-0.0.1.dist-info/top_level.txt,sha256=bgyXiIxT5plL4JPSz_mi_dPPanM_duMkxlBrGdfUnW8,9
+termgame-0.0.1.dist-info/RECORD,,
