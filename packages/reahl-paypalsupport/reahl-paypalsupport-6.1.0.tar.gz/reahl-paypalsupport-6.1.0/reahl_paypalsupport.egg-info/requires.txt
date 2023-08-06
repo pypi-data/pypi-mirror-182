@@ -1,0 +1,6 @@
+paypal-checkout-serversdk
+reahl-component<6.2,>=6.1
+reahl-domain<6.2,>=6.1
+reahl-sqlalchemysupport<6.2,>=6.1
+reahl-web-declarative<6.2,>=6.1
+reahl-web<6.2,>=6.1
