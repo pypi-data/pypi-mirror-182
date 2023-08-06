@@ -1,0 +1,13 @@
+.gitignore
+README.md
+setup.cfg
+setup.py
+pythonimmediate/__init__.py
+pythonimmediate/main.py
+pythonimmediate/py.typed
+pythonimmediate/pytotex.py
+pythonimmediate/textopy.py
+pythonimmediate_tex.egg-info/PKG-INFO
+pythonimmediate_tex.egg-info/SOURCES.txt
+pythonimmediate_tex.egg-info/dependency_links.txt
+pythonimmediate_tex.egg-info/top_level.txt
