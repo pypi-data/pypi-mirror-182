@@ -1,0 +1,7 @@
+validate_adhar/__init__.py,sha256=HhWXbxVNYGTuqSgmfthvWhv1b4zJvRc7N5p4jSOEoms,50
+validate_adhar/setup.py,sha256=wV5bbpPPvncHhac4DgkLJvEJzwFFDzdDwRpgDhCq25w,195
+validate_adhar/validate_adhar.py,sha256=YTyBP_WkSjQUftOitIW-op5WE67HQVrXrSvJcazbFxY,278
+validate_adhar-1.0.0.dist-info/METADATA,sha256=F3tjcUhA_zq2N_ykzkvGNdXkC_JvnyreWcsNlXbjFCw,229
+validate_adhar-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+validate_adhar-1.0.0.dist-info/top_level.txt,sha256=ScPRq7NrRUB0ADG9CXU5T6X6hRIoamtM-b1GZgZt0wg,15
+validate_adhar-1.0.0.dist-info/RECORD,,
