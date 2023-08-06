@@ -1,0 +1,10 @@
+pyRestTable/__init__.py,sha256=TjSjPcOGItuwIn69O11iLApkCVLuNaIblCZkbX1YYkc,832
+pyRestTable/_version.py,sha256=AK9TZNuHMhNHNwiZjbfCigOz027x-fGSgSYn4NmJtrU,166
+pyRestTable/rest_table.py,sha256=gji-39NHy20nD1jCBGvdO22MzpVFvj60vEwOrkNQxmE,13521
+pyRestTable/simple.py,sha256=OZc1zKf5GeM5Dyw7J-u6525wogftbSQCygIQ88YkilY,407
+pyRestTable/tests/__init__.py,sha256=-D6vl5gws5UTKVsG7XttbedVQSP97DoKbwPZOEiOi1I,6073
+pyRestTable/tests/test_results.py,sha256=tF0wv4NYV_BHO3EbCoGTXyjWBIObSNrOgJX-RhbQqDA,8140
+pyRestTable-2020.0.7.dist-info/METADATA,sha256=IHeKFNgjtVShMivuNKuASQ5qb20maA6aAc0BiVfYkPM,3707
+pyRestTable-2020.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyRestTable-2020.0.7.dist-info/top_level.txt,sha256=dke949wxvMn6QW2LF6IiQ2yWs538wseiHPJNuxdXBjA,12
+pyRestTable-2020.0.7.dist-info/RECORD,,
