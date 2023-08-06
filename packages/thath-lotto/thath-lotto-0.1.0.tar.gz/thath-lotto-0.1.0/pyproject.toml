@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "thath-lotto"
+version = "0.1.0"
+description = "This is a small lottery game"
+authors = ["Travis Hathaway <travis.j.hathaway@gmail.com>"]
+license = "BSD"
+packages = [
+    { include = "lotto" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+lotto = 'lotto.cli:cli'
