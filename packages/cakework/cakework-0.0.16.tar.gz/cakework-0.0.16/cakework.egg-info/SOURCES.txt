@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cakework.egg-info/PKG-INFO
+cakework.egg-info/SOURCES.txt
+cakework.egg-info/dependency_links.txt
+cakework.egg-info/requires.txt
+cakework.egg-info/top_level.txt
