@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bgpview/__init__.py
+bgpview/api_client.py
+bgpview/bgpview.py
+bgpview/util.py
+bgpview_client.egg-info/PKG-INFO
+bgpview_client.egg-info/SOURCES.txt
+bgpview_client.egg-info/dependency_links.txt
+bgpview_client.egg-info/requires.txt
+bgpview_client.egg-info/top_level.txt
+bgpview_client.egg-info/zip-safe
