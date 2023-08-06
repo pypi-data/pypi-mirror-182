@@ -1,0 +1,14 @@
+victron_ble/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+victron_ble/cli.py,sha256=kXF9w8f3NkZw_2zCVfl6Cv_KfHgg6M1KMwGclslfvCA,1789
+victron_ble/scanner.py,sha256=j74_CNfZTh9up99oqQm4t8gQ_UbN98UjolAgWgnlfYQ,3958
+victron_ble/devices/__init__.py,sha256=NrMCWOgYEy3rFieuvjh6EqB5aUAYTgtP4OdBr3dO4BM,1364
+victron_ble/devices/base.py,sha256=Xsc7FvJz6WAnNsdKR-a1aaqibkO2fyIYw0jfhPzK5NU,1207
+victron_ble/devices/battery_monitor.py,sha256=ia-nka88eAnS3hp1-5tB6o9QpUz4CjaWJMuK4XSCasY,7063
+victron_ble/devices/battery_sense.py,sha256=ltjJ5N01X-Bt6l8Gdx1Jtn-8dORDrqCKFrrad3e_dIc,780
+victron_ble/devices/dc_energy_meter.py,sha256=fk0J-HRw6-bAhXY6bKP2fx4dyNVPfvnPElar47BowHA,5218
+victron_ble-0.2.2.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+victron_ble-0.2.2.dist-info/METADATA,sha256=H5f7kOl572h75FOikLk5EL2sV4m-js_34ToNr0X4BmY,4843
+victron_ble-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+victron_ble-0.2.2.dist-info/entry_points.txt,sha256=dJ5i8wLbhEHGnfSWScnIt29E1Ll-i2q6kjZH9fuE_uk,52
+victron_ble-0.2.2.dist-info/top_level.txt,sha256=w2gGWTvXDmUtEkKY2RpP1z0MuHQMFG-cmnG_fa8jUWs,12
+victron_ble-0.2.2.dist-info/RECORD,,
