@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+csrgraph2/__init__.py
+csrgraph2/ggvec.py
+csrgraph2/glove.py
+csrgraph2/graph.py
+csrgraph2/grarep.py
+csrgraph2/methods.py
+csrgraph2/random_walks.py
+csrgraph2/version.py
+csrgraph2.egg-info/PKG-INFO
+csrgraph2.egg-info/SOURCES.txt
+csrgraph2.egg-info/dependency_links.txt
+csrgraph2.egg-info/requires.txt
+csrgraph2.egg-info/top_level.txt

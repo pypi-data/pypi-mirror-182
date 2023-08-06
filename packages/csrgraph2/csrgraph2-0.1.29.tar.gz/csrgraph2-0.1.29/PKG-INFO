@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: csrgraph2
+Version: 0.1.29
+Summary: Fast python graphs
+Home-page: https://github.com/VHRanger/CSRGraph
+Author: Matt Ranger
+License: MIT
+Keywords: graph,network
+License-File: LICENSE.txt
