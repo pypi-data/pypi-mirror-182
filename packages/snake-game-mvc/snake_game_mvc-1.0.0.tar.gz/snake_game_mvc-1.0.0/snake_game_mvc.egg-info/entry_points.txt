@@ -1,0 +1,2 @@
+[console_scripts]
+snake_game_mvc = snake_game_mvc:__init__

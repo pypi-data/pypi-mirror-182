@@ -1,0 +1,16 @@
+setup.cfg
+setup.py
+mvc_snake_game/High_Scores.txt
+mvc_snake_game/__init__.py
+mvc_snake_game/controller.py
+mvc_snake_game/model.py
+mvc_snake_game/path_getter.py
+mvc_snake_game/view.py
+mvc_snake_game/assets/bg.jpg
+snake_game_mvc.egg-info/PKG-INFO
+snake_game_mvc.egg-info/SOURCES.txt
+snake_game_mvc.egg-info/dependency_links.txt
+snake_game_mvc.egg-info/entry_points.txt
+snake_game_mvc.egg-info/not-zip-safe
+snake_game_mvc.egg-info/requires.txt
+snake_game_mvc.egg-info/top_level.txt
