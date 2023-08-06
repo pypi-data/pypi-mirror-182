@@ -1,0 +1,6 @@
+setup.py
+testoxolog/__init__.py
+testoxolog.egg-info/PKG-INFO
+testoxolog.egg-info/SOURCES.txt
+testoxolog.egg-info/dependency_links.txt
+testoxolog.egg-info/top_level.txt
