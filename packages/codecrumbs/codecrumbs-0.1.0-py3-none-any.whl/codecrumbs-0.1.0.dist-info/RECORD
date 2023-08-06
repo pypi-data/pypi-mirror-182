@@ -1,0 +1,12 @@
+codecrumbs/__init__.py,sha256=Xr758chN0UkC69fNZVVDmRtHpUNSMgxlum9NZ_Pj1AE,155
+codecrumbs/__main__.py,sha256=syHfmBvDM2RFYlqfM3i6dtX2HXoNoeuccX5IliIQsB8,1524
+codecrumbs/_argument.py,sha256=As7KX9jyI6hr55SG95Xa-RezjywqIMSt9gK4xvmfHII,5080
+codecrumbs/_attribute.py,sha256=WHtgU5IxNjalKvDGHNN1HpmWpvOLdxz65OdNJ_0RbkM,4987
+codecrumbs/_calling_expression.py,sha256=4_oL5L_ri4c__s7nEz7BSAYJCRCfnV_xijmjRXebQe0,2018
+codecrumbs/_rewrite_code.py,sha256=GPoHWZqBSlbKGM2LA1s-b1eqp1L-ih8-ThYplzKfZMw,6784
+codecrumbs/pytest_plugin.py,sha256=fqHopZMUxtfbEWynFnwvnnYmQDImrjRQNfJuk7rcCJc,1494
+codecrumbs-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+codecrumbs-0.1.0.dist-info/METADATA,sha256=qOQinjXFhBNcA95v66kM_GINHdZPLuqQJKjdOvE4w7I,3244
+codecrumbs-0.1.0.dist-info/LICENSE,sha256=JDBHuCdNT3LhMBx8NWZX2acpWiUXAQnEOAw6cmbqmJc,1082
+codecrumbs-0.1.0.dist-info/entry_points.txt,sha256=6h950vSuC5OWiT47LIjD-4dxVVjvFGZCAvnKsbNIZYU,103
+codecrumbs-0.1.0.dist-info/RECORD,,

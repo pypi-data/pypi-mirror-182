@@ -1,0 +1,6 @@
+[console_scripts]
+codecrumbs=codecrumbs.__main__:main
+
+[pytest11]
+codecrumbs=codecrumbs.pytest_plugin
+
