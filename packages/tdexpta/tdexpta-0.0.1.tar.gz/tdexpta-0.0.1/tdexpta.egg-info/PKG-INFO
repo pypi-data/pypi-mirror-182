@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: tdexpta
+Version: 0.0.1
+Summary: Track & Analyze your expenses based on TD Bank Statement
+Home-page: https://github.com/sahaavi/Expense-Tracker-and-Analysis
+Author: Avi&Ricky
+Author-email: avi1023@student.ubc.ca
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
