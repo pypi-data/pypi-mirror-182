@@ -1,0 +1,7 @@
+include versioneer.py
+include chew/_version.py
+include chew/data/*.bed.gz
+include *.rst
+include *.txt requirements/*.txt
+
+recursive-include chew *.py *.yml

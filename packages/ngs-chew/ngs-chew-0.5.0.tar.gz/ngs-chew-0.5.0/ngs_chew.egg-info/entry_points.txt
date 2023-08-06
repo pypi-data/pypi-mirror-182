@@ -1,0 +1,2 @@
+[console_scripts]
+ngs-chew = chew.__main__:main
