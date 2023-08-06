@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: graphcode
+Version: 0.1.4.12
+Summary: A foundation package to enable builders developing web services
+Author: Ryeojin Moon
+Author-email: <ryeojin1@gmail.com>
+Keywords: graphcode,web service,web services,cloud,aws,azure,gcp,google cloud
+Classifier: License :: Free To Use But Restricted
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: boto3 (>=1.26.22)
+
+A foundation package to enable builders developing web services
