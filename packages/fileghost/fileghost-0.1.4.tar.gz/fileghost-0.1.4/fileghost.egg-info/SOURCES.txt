@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+fileghost/__init__.py
+fileghost/fileghost.py
+fileghost.egg-info/PKG-INFO
+fileghost.egg-info/SOURCES.txt
+fileghost.egg-info/dependency_links.txt
+fileghost.egg-info/top_level.txt

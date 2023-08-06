@@ -1,0 +1,26 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fileghost"
+version = "0.1.4"
+description = "Open-source file encryption"
+readme = "README.md"
+authors = [{ name = "0ut0flin3", email = "0ut0flin3@protonmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["encryption", "file", "opensource"]
+dependencies = [
+    
+    
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/0ut0flin3/fileghost"
+
