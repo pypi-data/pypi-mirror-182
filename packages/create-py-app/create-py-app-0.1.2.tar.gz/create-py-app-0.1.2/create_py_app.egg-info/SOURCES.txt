@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+create_py_app/__init__.py
+create_py_app/create_files.py
+create_py_app/main.py
+create_py_app.egg-info/PKG-INFO
+create_py_app.egg-info/SOURCES.txt
+create_py_app.egg-info/dependency_links.txt
+create_py_app.egg-info/entry_points.txt
+create_py_app.egg-info/requires.txt
+create_py_app.egg-info/top_level.txt
