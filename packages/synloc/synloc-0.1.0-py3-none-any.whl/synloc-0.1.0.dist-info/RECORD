@@ -1,0 +1,10 @@
+synloc/__init__.py,sha256=pkt6GeQj9Jb9nAVgqXRdz2ch6Sh3XHqvBwkErIO-ixs,123
+synloc/clusterResampler.py,sha256=M5uqBBuXlRrGm6zSm5oJcZIalHfQ6VsXItlU1BPGcGM,2530
+synloc/dists.py,sha256=vm6mwM_Z0NRqrDDj2XGc8FY34YhE22uvxoLE4yh2YMM,4525
+synloc/kNNResampler.py,sha256=2AQoCiOwcpWVUI2HXK0pfUadcxco5LT-pcRRWxXC94g,2769
+synloc/tools.py,sha256=ixJTcg59ZWbYd2uklwquJneYirmuLAkwUWCyPS-xKTU,4144
+synloc-0.1.0.dist-info/LICENSE,sha256=NH-WSqw4iDHonrQzwkf8kJnScNyU1ZTG7cbiVSKCjp4,1094
+synloc-0.1.0.dist-info/METADATA,sha256=y-H0a9rg6YZ0S5PLaiZbt3Y3iEsM8uPJfWfP-AmG9D0,7944
+synloc-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+synloc-0.1.0.dist-info/top_level.txt,sha256=aNw_Zqvpx2rb6ZZY_F5R53XaeIDHK443pqU5LoYYaqQ,7
+synloc-0.1.0.dist-info/RECORD,,
