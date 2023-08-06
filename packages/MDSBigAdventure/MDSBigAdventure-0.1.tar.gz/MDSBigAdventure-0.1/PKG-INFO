@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: MDSBigAdventure
+Version: 0.1
+Summary: A small example package
+Home-page: https://github.com/chen-yuhong/DATA533-step3.git
+Author: Henry(Yiheng) Luo; Yuhong Chen
+Author-email: henryluo@student.ubc.ca
+License: MIT
+License-File: LICENSE.txt
