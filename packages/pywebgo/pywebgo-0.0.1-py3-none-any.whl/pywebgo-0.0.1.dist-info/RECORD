@@ -1,0 +1,9 @@
+pywebgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywebgo/controller.py,sha256=jh3AOYScGuIcOYVjgxMz7XXpQkEZHZwQezzs-EHKSCE,13530
+pywebgo/data.py,sha256=J4npomq-zqv9_5YXs2RSbZcaI1Zqe6sRAMvQZHLPuyI,703
+pywebgo/elements.py,sha256=67gd1dxsduRPIw-GE2x_u8jODeqjx8nTm7YEP9-p3sc,5893
+pywebgo/utils.py,sha256=GN7hym1wfv5knlapxpgucO6Dg9DvnrGhze-tNKvVLwc,2975
+pywebgo-0.0.1.dist-info/METADATA,sha256=MGWjXY8T7_J39M5-c-rHo-tawv5vDFc8G2BQUTHyHXg,576
+pywebgo-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pywebgo-0.0.1.dist-info/licenses/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pywebgo-0.0.1.dist-info/RECORD,,
