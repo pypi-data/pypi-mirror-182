@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: db-frostyfeet909
+Version: 0.0.6
+Summary: A db interface.
+Author-email: Algernon Sampson <algiesampson@gmail.com>
+Project-URL: Homepage, https://github.com/frostyfeet909/db_frostyfeet909
+Project-URL: Bug Tracker, https://github.com/frostyfeet909/db_frostyfeet909/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# db_frostyfeet909
+Provides methods to work with a queue pool from SQL alchemy, automatically instantiates pool using environment variables on import.
+
+Set `DB_CONN` as the following format,
+
+`DB_CONN=postgresql+psycopg2://{USERNAME}:{PASSWORD}@{IP}/{DATABASE}`
