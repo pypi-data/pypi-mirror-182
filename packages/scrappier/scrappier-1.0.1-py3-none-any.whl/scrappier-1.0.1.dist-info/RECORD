@@ -1,0 +1,10 @@
+scrappier/__init__.py,sha256=auLPIawWi9iSEtm3wsQ-OVjDlHm_eqRMPc68eYS22rE,27
+scrappier/browser.py,sha256=jqV4SJ53VIxabvr9FaUMYA-CN95apTakGU8KBdyy1JA,2909
+scrappier/element.py,sha256=liwzdoYhqOc2XmP5cscqz8VuAWZt7e0mShGr2xeg4lM,2752
+scrappier/element_collection.py,sha256=V7p8i44fGCqone5JYSfUa-Dej8nfxP3Nqem9LO0pkwk,400
+scrappier/element_finder.py,sha256=Gszi9rmH-4UASQTUpMK60E1-MG4DuxrNrcWSONQ_wks,2981
+scrappier-1.0.1.dist-info/LICENSE,sha256=73GUIuV1fQvsIM13U3Ep_AfbJ4qvJFkAStMbbr5CRNk,1062
+scrappier-1.0.1.dist-info/METADATA,sha256=8orQZUOjV5VgCx2ji3AMIscyhcNTiEzoRNX1CmLEUBE,1853
+scrappier-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scrappier-1.0.1.dist-info/top_level.txt,sha256=oOZKn-dGxeyEIfN_sVLjFPDWApRHcx2fVYLx5xUaTJQ,10
+scrappier-1.0.1.dist-info/RECORD,,
