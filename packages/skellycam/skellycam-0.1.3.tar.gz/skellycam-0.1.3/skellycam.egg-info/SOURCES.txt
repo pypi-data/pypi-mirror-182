@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+skellycam.egg-info/PKG-INFO
+skellycam.egg-info/SOURCES.txt
+skellycam.egg-info/dependency_links.txt
+skellycam.egg-info/requires.txt
+skellycam.egg-info/top_level.txt
