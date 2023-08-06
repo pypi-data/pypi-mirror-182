@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "async_eval"
+version = "0.1.11"
+description = "eval async code from sync"
+authors = ["Yurii Karabas <1998uriyyo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/uriyyo/async-eval"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+nest-asyncio = "^1.5.6"
+pydevd-pycharm = { version = "<=223.4884.74", optional = true }  # TODO: remove this, when pydevd-pycharm bug will be fixed
+trio = { version = ">=0.21,<0.23", optional = true }
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+pytest-asyncio = "^0.20.3"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+pre-commit = "^2.20.0"
+
+[tool.poetry.extras]
+pydevd-pycharm = ["pydevd-pycharm"]
+trio = ["trio"]
+all = ["pydevd-pycharm", "trio"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
