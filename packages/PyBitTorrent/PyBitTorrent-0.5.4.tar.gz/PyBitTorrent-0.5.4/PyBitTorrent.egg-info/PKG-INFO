@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: PyBitTorrent
+Version: 0.5.4
+Summary: Download torrent files according to BitTorrent specifications
+Home-page: https://github.com/gaffner/PyBitTorrent
+Author: Gaffner
+Author-email: gefen102@gmail.com
+License: LICENSE.txt
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+~~~python
+import impacket
+~~~

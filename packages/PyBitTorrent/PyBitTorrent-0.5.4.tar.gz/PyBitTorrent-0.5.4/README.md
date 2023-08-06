@@ -1,0 +1,24 @@
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+~~~python
+import impacket
+~~~
