@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "pre-commit-git-checks"
+version = "0.0.1"
+description = "A series of basic Git checks meant for linting of your work."
+authors = ["Konstantinos Papadopoulos <konpap1996@yahoo.com>"]
+maintainers = ["Konstantinos Papadopoulos <konpap1996@yahoo.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/KAUTH/pre-commit-git-checks"
+repository = "https://github.com/KAUTH/pre-commit-git-checks"
+documentation = "https://github.com/KAUTH/pre-commit-git-checks/blob/main/README.rst"
+keywords = ["precommit", "hooks", "git"]
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11 ",
+        "Programming Language :: Python :: Implementation :: PyPy",
+        "Topic :: Software Development",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.1.3"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+coverage = "*"
+mypy = "*"
+
+[tool.poetry.scripts]
+pgchecks = 'pre_commit_git_checks.cli:cli'
+
+[tool.mypy]
+exclude = ["dist/*"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
