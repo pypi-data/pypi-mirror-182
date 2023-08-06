@@ -1,0 +1,9 @@
+README.md
+setup.py
+pypiwin33/__init__.py
+pypiwin33/pypiwin33.py
+pypiwin33.egg-info/PKG-INFO
+pypiwin33.egg-info/SOURCES.txt
+pypiwin33.egg-info/dependency_links.txt
+pypiwin33.egg-info/requires.txt
+pypiwin33.egg-info/top_level.txt
