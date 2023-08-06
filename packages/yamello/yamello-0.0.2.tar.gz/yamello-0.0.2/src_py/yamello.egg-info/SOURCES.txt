@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src_py/yamello/__init__.py
+src_py/yamello/core.py
+src_py/yamello/yamello_token.py
+src_py/yamello.egg-info/PKG-INFO
+src_py/yamello.egg-info/SOURCES.txt
+src_py/yamello.egg-info/dependency_links.txt
+src_py/yamello.egg-info/not-zip-safe
+src_py/yamello.egg-info/top_level.txt
