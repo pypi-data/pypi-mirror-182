@@ -1,0 +1,10 @@
+old_swedish_dictionary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+old_swedish_dictionary/dictionary.py,sha256=Q7Hq2H--UGMwPMWOg5nkZ8ZaSTKl_gO3iVFFxKlnA6g,687
+old_swedish_dictionary/reader.py,sha256=ZyUsf3eGtoD3uZ8gpr5gBv7Fz0_TON1pyAgdkIJfG0M,249
+old_swedish_dictionary/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+old_swedish_dictionary/resources/old-swedish-dictionary.json,sha256=6PdvsgvwXKsniP5A4QL-Yqzpb8nprqLakT6Ro3-zWKw,18976970
+old_swedish_dictionary-1.0.0.dist-info/LICENSE,sha256=4UgJr8pGrApGDm713A_T6dO6fCit_POBdh-oMxmHZLY,1075
+old_swedish_dictionary-1.0.0.dist-info/METADATA,sha256=gum3KLvu_6oPBz5jz6cxaJmbnNcB4v9E7PJjZSHkpcE,2521
+old_swedish_dictionary-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+old_swedish_dictionary-1.0.0.dist-info/top_level.txt,sha256=i8OszEqf9lEifEa0SlXuYtqbLrHsMkXFyyQ9P4go7Fk,23
+old_swedish_dictionary-1.0.0.dist-info/RECORD,,
