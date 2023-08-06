@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lastpassIndia
+Version: 1.1
+Summary: password manager
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome
+
+password manager better than lastpass
+
+at least it cannot be hacked
+
+100000000% bullet proof nuclear proof code
+
+from lastpassIndia import *
+
+save script 
+
+fire scipt
