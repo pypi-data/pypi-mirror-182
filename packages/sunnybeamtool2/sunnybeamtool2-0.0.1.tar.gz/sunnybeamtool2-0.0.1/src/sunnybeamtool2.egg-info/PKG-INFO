@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sunnybeamtool2
+Version: 0.0.1
+Summary: Tool to read out the sunnybeam through USB
+Author-email: Peter Bosmans <petbos157@gmail.com>
+Project-URL: Homepage, https://github.com/petbos157/SunnyBeamToolPython
+Project-URL: Bug Tracker, https://github.com/petbos157/SunnyBeamToolPython/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sunnybeamtool Package
+
+This is a package for the sunnybeamtool.
