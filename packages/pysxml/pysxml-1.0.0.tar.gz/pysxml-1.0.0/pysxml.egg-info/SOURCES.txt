@@ -1,0 +1,7 @@
+LICENSE
+pysxml.py
+setup.py
+pysxml.egg-info/PKG-INFO
+pysxml.egg-info/SOURCES.txt
+pysxml.egg-info/dependency_links.txt
+pysxml.egg-info/top_level.txt
