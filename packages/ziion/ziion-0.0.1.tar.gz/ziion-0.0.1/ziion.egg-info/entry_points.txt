@@ -1,0 +1,3 @@
+[console_scripts]
+solc = solc_select.__main__:solc
+ziion = ziion_cli.__main__:main
