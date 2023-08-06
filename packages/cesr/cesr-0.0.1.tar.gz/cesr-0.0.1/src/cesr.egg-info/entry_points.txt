@@ -1,0 +1,3 @@
+[console_scripts]
+cesr = cesr.cli:main
+cesrd = cesr.daemon:main

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/cesr/__init__.py
+src/cesr/__main__.py
+src/cesr/cli.py
+src/cesr/daemon.py
+src/cesr/xoraing.py
+src/cesr.egg-info/PKG-INFO
+src/cesr.egg-info/SOURCES.txt
+src/cesr.egg-info/dependency_links.txt
+src/cesr.egg-info/entry_points.txt
+src/cesr.egg-info/not-zip-safe
+src/cesr.egg-info/requires.txt
+src/cesr.egg-info/top_level.txt
+src/cesr/core/__init__.py
