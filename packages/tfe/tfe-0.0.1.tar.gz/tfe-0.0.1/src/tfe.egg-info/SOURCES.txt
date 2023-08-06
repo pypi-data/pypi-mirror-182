@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/tfe/__init__.py
+src/tfe.egg-info/PKG-INFO
+src/tfe.egg-info/SOURCES.txt
+src/tfe.egg-info/dependency_links.txt
+src/tfe.egg-info/top_level.txt
+src/tfe/initializers/HeUniform.py
+src/tfe/initializers/__init__.py
+src/tfe/layers/Conv2D.py
+src/tfe/layers/__init__.py
