@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+setup.py
+ttsignature/__init__.py
+ttsignature.egg-info/PKG-INFO
+ttsignature.egg-info/SOURCES.txt
+ttsignature.egg-info/dependency_links.txt
+ttsignature.egg-info/top_level.txt
