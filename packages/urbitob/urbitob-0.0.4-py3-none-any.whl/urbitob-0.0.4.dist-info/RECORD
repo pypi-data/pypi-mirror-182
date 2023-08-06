@@ -1,0 +1,10 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_urbitob.py,sha256=Cs8Gpa3SjDdHSyz5QPzwa7ka1-3VYiTuVaujObKCeFQ,10745
+urbitob/__init__.py,sha256=7NWyRKeqmUR9Y4V32EEioOKUU-Dt2Mm0aGON77UGpFg,257
+urbitob/co.py,sha256=DtAQOM00ve8oUPReLPtcQIF-t36zpjaObE8dbeV1b54,7656
+urbitob/ob.py,sha256=Yd4pMhi8MINX4mdccsS5_BIpCRMNaZphcPLBs1M_6_U,1986
+urbitob-0.0.4.dist-info/LICENSE,sha256=yoLtjkdIs80ghNgzaeDL0SkoZTHznY3VRtodlnjdAzA,1071
+urbitob-0.0.4.dist-info/METADATA,sha256=dSKf-TfzJay33OYz_ntgnn2YJCV1ta_yJAlWboSHoqs,1696
+urbitob-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+urbitob-0.0.4.dist-info/top_level.txt,sha256=oY8D11OZ3mLJStKIbwgQ7IvdnkXOaXM65PZvpD5uLq0,13
+urbitob-0.0.4.dist-info/RECORD,,
