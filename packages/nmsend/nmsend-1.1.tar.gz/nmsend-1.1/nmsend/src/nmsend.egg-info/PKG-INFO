@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nmsend
+Version: 1.1
+Summary: long distance file sender
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+register ngrok
+
+launch ngrok tcp 8000
+
+use this code
+
+from nmsend import *
+
+save it as a script 
+
+ensure the files you want to share and the script are in same folder
+
+fire up the script

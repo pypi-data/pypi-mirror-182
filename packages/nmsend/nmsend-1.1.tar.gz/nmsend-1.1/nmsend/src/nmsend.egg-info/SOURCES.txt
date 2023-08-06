@@ -1,0 +1,8 @@
+setup.py
+nmsend/src/nmsend.egg-info/PKG-INFO
+nmsend/src/nmsend.egg-info/SOURCES.txt
+nmsend/src/nmsend.egg-info/dependency_links.txt
+nmsend/src/nmsend.egg-info/requires.txt
+nmsend/src/nmsend.egg-info/top_level.txt
+nmsend/src/nmsend.py
+nmsend/src/nmsend.egg-info/SOURCES.txt
