@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+amusing/__init__.py
+amusing/common.py
+amusing/framestovideo.py
+amusing/leftgoes.py
+amusing/mscx.py
+amusing/munim.py
+amusing/score.py
+amusing.egg-info/PKG-INFO
+amusing.egg-info/SOURCES.txt
+amusing.egg-info/dependency_links.txt
+amusing.egg-info/requires.txt
+amusing.egg-info/top_level.txt
+amusing/flowfield/__init__.py
+amusing/flowfield/merlin.py
