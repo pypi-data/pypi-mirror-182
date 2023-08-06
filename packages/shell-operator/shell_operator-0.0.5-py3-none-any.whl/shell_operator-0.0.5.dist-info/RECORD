@@ -1,0 +1,9 @@
+shell_operator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shell_operator/hook.py,sha256=q9vcDvG_ldoktPm9TlZdtVCXbWuqsbYYzdNqI-JVKtc,3038
+shell_operator/kubernetes.py,sha256=iTXIboSa5ANhYX1f3WyvOOs8jjTK-0Vim3qEOMkEdpY,8138
+shell_operator/metrics.py,sha256=A_5uk_rDxTRBkBhXy_E_KnZ0OIHZ1vqOn9a37RPSO6w,873
+shell_operator/storage.py,sha256=pBvdzvIPd7HvRNPFgqJ6xkqkWpshXWspv7-fhI6m3n0,841
+shell_operator-0.0.5.dist-info/METADATA,sha256=7UxM7MlEtZWtVrZkNzGMW3vz35cv2iUK0zDt1FW6sRM,1648
+shell_operator-0.0.5.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+shell_operator-0.0.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+shell_operator-0.0.5.dist-info/RECORD,,
