@@ -1,0 +1,8 @@
+easyfs[cookiecutter]==0.0.3
+pydantic
+typer
+
+[dev]
+pytest
+black
+mypy
