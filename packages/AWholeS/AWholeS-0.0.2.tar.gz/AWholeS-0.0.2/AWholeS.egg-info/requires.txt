@@ -1,0 +1,6 @@
+boto3>=1.26.26
+inquirer~=3.0
+
+[dev]
+black~=22.0
+pip-tools~=6.0

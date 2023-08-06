@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=65.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AWholeS"
+# Make sure this matches the description in GitHub and in the README.md
+description = "A project to review the security posture in AWS"
+readme = "README.md"
+authors = [{ "name" = "w0rmr1d3r" }]
+license = { text = "MIT" }
+classifiers = []
+# Make sure this matches the keywords in GitHub
+keywords = ["aws", "security", "cloudformation", "python"]
+version = "0.0.2"
+requires-python = ">=3.9"
+dependencies = [
+    "boto3>=1.26.26",
+    "inquirer~=3.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black~=22.0",
+    "pip-tools~=6.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/w0rmr1d3r/AWholeS"
+"Repository" = "https://github.com/w0rmr1d3r/AWholeS"
+"Bug Tracker" = "https://github.com/w0rmr1d3r/AWholeS/issues"
+"Documentation" = "https://github.com/w0rmr1d3r/AWholeS"
+"Changelog" = "https://github.com/w0rmr1d3r/AWholeS"
+
+[tool.setuptools]
+packages = ["AWholeS"]
+
+[tool.black]
+line-length = 120
+exclude = '''
+/(
+    \.eggs
+  | \.venv
+  | \.vscode
+  | dev
+  | venv
+)/
+'''

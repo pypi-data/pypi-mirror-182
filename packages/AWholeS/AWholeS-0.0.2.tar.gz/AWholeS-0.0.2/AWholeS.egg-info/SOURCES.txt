@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+AWholeS/__init__.py
+AWholeS/__main__.py
+AWholeS/ec2.py
+AWholeS/sts_calls.py
+AWholeS/trusted_advisor_security.py
+AWholeS.egg-info/PKG-INFO
+AWholeS.egg-info/SOURCES.txt
+AWholeS.egg-info/dependency_links.txt
+AWholeS.egg-info/requires.txt
+AWholeS.egg-info/top_level.txt
