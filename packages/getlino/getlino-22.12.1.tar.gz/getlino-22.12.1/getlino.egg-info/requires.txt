@@ -1,0 +1,6 @@
+GitPython
+click
+distro
+jinja2
+rstgen
+virtualenv
