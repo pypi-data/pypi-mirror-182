@@ -1,0 +1,9 @@
+spider_web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spider_web/netstat_no_cli.py,sha256=tJJjGtN1Y82WBtLELW7rNKU1wUuko9q9omfjRyqkXsc,769
+spider_web/record_netstat.py,sha256=SJ-oPuvEU2oHiG44J8RKgitOo9MO7yzgLOc4XK5EE_g,1283
+spider_web-0.0.4.dist-info/LICENSE.md,sha256=EsT3EumpygT70btGDz5bD-bWnX8BftKpwjoZqt1rgsY,34253
+spider_web-0.0.4.dist-info/METADATA,sha256=Bv6oRpsOYAkbIyMv8kDp-xoKSyGJS0yQWX8I3w3iVLg,1240
+spider_web-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+spider_web-0.0.4.dist-info/entry_points.txt,sha256=hgnWHEm6Ot7q-eWKhskAj981Vhm2xqRHskfB1xOHUrQ,72
+spider_web-0.0.4.dist-info/top_level.txt,sha256=SF3czPVb0crzZk3touzsdIgQr2zlfx7J5sEIgPEMET4,11
+spider_web-0.0.4.dist-info/RECORD,,
