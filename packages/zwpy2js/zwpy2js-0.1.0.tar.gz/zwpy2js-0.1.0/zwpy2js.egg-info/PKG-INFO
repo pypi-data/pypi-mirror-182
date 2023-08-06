@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: zwpy2js
+Version: 0.1.0
+Summary: zwpy2js，测试中。。。
+Home-page: https://pypi.org/project/zwpy2js/
+Author: 山东郭老师
+Author-email: sdnygls@126.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# zwpy2js
+<hr>
+
+测试中。。。
+

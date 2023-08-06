@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+zwpy2js.py
+zwpy2js.egg-info/PKG-INFO
+zwpy2js.egg-info/SOURCES.txt
+zwpy2js.egg-info/dependency_links.txt
+zwpy2js.egg-info/top_level.txt
