@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: binpi
+Version: 0.1.5
+Summary: Simple library for de/serializing binary data
+Home-page: https://github.com/romansvozil/binpi
+Author: Roman Svozil
+License: MIT
+Description: # binpi
+        
+        binpi aims to provide a simple interface for serializing and deserializing binary file formats. 
+        
+        ## Usage:
+        
+        ```python
+        import binpi
+        
+        
+        class FileHeader:
+            prop1: binpi.LEInt()
+            prop2: binpi.LEShort()
+            prop3: binpi.LEByte()
+            some_data: binpi.List(binpi.LEByte(), size="prop1")
+        
+        
+        # deserializing    
+        header_data = binpi.deserialize(FileHeader, binpi.FileReader("./some_path"))
+        
+        # modify
+        header_data.prop2 = 200
+        
+        # serializing 
+        binpi.serialize(header_data, binpi.FileWriter("./another_path"))
+        ```
+        
+        _For more examples, check `./examples/`_
+        
+        ## How to install:
+        ```bash 
+        pip install binpi
+        ```
+        
+        ## TODO:
+        - ~~Fix autocompletion (since we're using for annotation `binpi.LEInt()` the IDE's cannot guess the expected type correctly)~~ kinda fixed, but it's quite hacky
+        - Performance improvements (batch struct.un/pack should help)
+        - Partial structure (de)serializing (optional `from`/`to` arguments)
+        - String structure (custom encoding support, sized/c-like)
+        - Maybe get rid of LE/BE type prefixes and make it the reader's responsibility, not sure if any formats use both LE and BE.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
