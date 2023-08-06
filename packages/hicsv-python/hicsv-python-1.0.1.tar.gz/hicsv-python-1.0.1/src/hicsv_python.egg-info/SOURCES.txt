@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/hicsv/__init__.py
+src/hicsv_python.egg-info/PKG-INFO
+src/hicsv_python.egg-info/SOURCES.txt
+src/hicsv_python.egg-info/dependency_links.txt
+src/hicsv_python.egg-info/requires.txt
+src/hicsv_python.egg-info/top_level.txt
+test/test1.py
+test/test2.py
+test/test3.py
+test/test_txt2hicsv.py
