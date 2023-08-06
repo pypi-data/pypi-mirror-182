@@ -1,0 +1,3 @@
+[console_scripts]
+mpdr=metropro_dat_reader.main:app
+
