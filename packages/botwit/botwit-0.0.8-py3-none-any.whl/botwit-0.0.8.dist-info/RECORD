@@ -1,0 +1,9 @@
+botwit/__init__.py,sha256=inHtyLFg2nOs7O9eEyjT-jArtv2dYwYTQxyVUMPrImk,105
+botwit/__main__.py,sha256=EPoHhLa7wMHJLDh0NvNChlzFIWywanMNefBmZy0zTxg,5626
+botwit/config.py,sha256=wJaSwwvehvrkwwR-kc9x-7Zg9juH2JNVmhZILmjBDgA,515
+botwit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botwit/twitter_client.py,sha256=O0nRQthyRYIsBbS8gBWReaUQwd09cBFZ_WfGwP8vS74,12210
+botwit-0.0.8.dist-info/METADATA,sha256=LwxAVPjHNoCFmJDxdXxPwf45T_H1mFGYGw3hJhD_1zA,3312
+botwit-0.0.8.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+botwit-0.0.8.dist-info/licenses/LICENSE,sha256=xpk0plhUqRXCz4S1rUCwIKS-ZHt2USYmTIt9jmk1iBc,1097
+botwit-0.0.8.dist-info/RECORD,,
