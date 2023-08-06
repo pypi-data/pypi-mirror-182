@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+BookMySpot.egg-info/PKG-INFO
+BookMySpot.egg-info/SOURCES.txt
+BookMySpot.egg-info/dependency_links.txt
+BookMySpot.egg-info/top_level.txt

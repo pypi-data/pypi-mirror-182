@@ -1,0 +1,1 @@
+Online Dine-In Booking App. The name of the App is "Book My Spot"
