@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+avlautomation.egg-info/PKG-INFO
+avlautomation.egg-info/SOURCES.txt
+avlautomation.egg-info/dependency_links.txt
+avlautomation.egg-info/requires.txt
+avlautomation.egg-info/top_level.txt
