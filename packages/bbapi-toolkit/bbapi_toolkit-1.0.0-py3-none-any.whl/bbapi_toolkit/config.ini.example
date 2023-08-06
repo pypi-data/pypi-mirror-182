@@ -1,0 +1,23 @@
+; Copy the example below to your project directory and fill out
+; the appropriate ON and/or SKY API settings for this project.
+
+; -------------------- config file example --------------------
+
+[ON_API]
+; Settings for Blackbaud’s ON API
+agent               = custompythonscript/0.1
+key                 = 
+secret              = 
+urlbase             = https://<school>.myschoolapp.com/api
+
+[SKY_API]
+; Settings for Blackbaud’s SKY API
+agent               = custompythonscript/0.1
+account             = serviceaccount@school.org
+subscription_key    = 
+application_id      = 
+application_secret  = 
+redirect_uri        = http://localhost
+queries_per_second  = 5
+
+; ------------------ end config file example ------------------
