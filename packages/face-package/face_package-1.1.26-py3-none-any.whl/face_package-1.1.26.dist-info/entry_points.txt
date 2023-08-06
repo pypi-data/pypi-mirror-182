@@ -1,0 +1,2 @@
+[console_scripts]
+face_eval = face_test.eval.commands.run:main
