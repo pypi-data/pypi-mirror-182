@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simpledatatable
+Version: 0.1
+Summary: This package allows flet developers to easily import SQL, CSV, Excel or Json tables into flet's DataTable.
+Home-page: 
+Author: Stan Mathers
+Author-email: sabagamgebeli@gmail.com
+License: MIT
+Keywords: table
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
