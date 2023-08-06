@@ -1,0 +1,9 @@
+pepperize_cdk_ssm_parameters_cross_region/__init__.py,sha256=hfVnFLDHm9Pf_wk5I1fOEteBrkinqX2flhYkRw_xelg,29391
+pepperize_cdk_ssm_parameters_cross_region/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pepperize_cdk_ssm_parameters_cross_region/_jsii/__init__.py,sha256=a4Gazq_-3YKsu1M0oCd6154qb6yyz0Kmq_--t0y-Ioo,457
+pepperize_cdk_ssm_parameters_cross_region/_jsii/cdk-ssm-parameters-cross-region@0.0.167.jsii.tgz,sha256=Hql_KTN__r8k0uJaN6kAzSUqLKYN4PrjMFNjhU9Eh7s,28366
+pepperize.cdk_ssm_parameters_cross_region-0.0.167.dist-info/LICENSE,sha256=zc3TwT7f6DTXtg0ATDKtV8rxDNvPK4_WFiEw-D63Jzo,1078
+pepperize.cdk_ssm_parameters_cross_region-0.0.167.dist-info/METADATA,sha256=2232mBfgjjeyQYCiyfWWIDJXH6yb8x1YXSvrZTdsJlE,4577
+pepperize.cdk_ssm_parameters_cross_region-0.0.167.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pepperize.cdk_ssm_parameters_cross_region-0.0.167.dist-info/top_level.txt,sha256=m51xOEwrqTyqFz5e1-zLPcqmjUkb9exn4HB2MhzzFDg,42
+pepperize.cdk_ssm_parameters_cross_region-0.0.167.dist-info/RECORD,,
