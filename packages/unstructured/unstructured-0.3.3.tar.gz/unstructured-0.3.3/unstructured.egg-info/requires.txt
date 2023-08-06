@@ -1,0 +1,11 @@
+lxml
+nltk
+argilla
+certifi>=2022.12.07
+
+[huggingface]
+langdetect
+sacremoses
+sentencepiece
+torch
+transformers
