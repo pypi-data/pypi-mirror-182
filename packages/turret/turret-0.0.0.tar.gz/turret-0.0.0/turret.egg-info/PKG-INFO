@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: turret
+Version: 0.0.0
+Summary: Turret
+Home-page: https://github.com/iibl/turret/
+Author: Nawaf Alqari
+Author-email: nawafalqari13@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/iibl/turret#readme
+Project-URL: Bug Tracker, https://github.com/iibl/turret/issues
+Project-URL: Source Code, https://github.com/iibl/turret/
+Project-URL: Discord, https://discord.gg/cpvynqk4XT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

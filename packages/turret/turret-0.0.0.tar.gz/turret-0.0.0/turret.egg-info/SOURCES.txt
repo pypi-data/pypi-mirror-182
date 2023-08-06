@@ -1,0 +1,6 @@
+setup.py
+turret/__init__.py
+turret.egg-info/PKG-INFO
+turret.egg-info/SOURCES.txt
+turret.egg-info/dependency_links.txt
+turret.egg-info/top_level.txt
