@@ -1,0 +1,7 @@
+click
+dominate
+jinja2
+paramiko
+pdfkit
+rich
+scp
