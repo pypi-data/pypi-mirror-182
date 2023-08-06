@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mlflow2sql
+Version: 0.1
+Provides-Extra: dev
+Provides-Extra: demo
+License-File: LICENSE
