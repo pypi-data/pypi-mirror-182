@@ -1,0 +1,4 @@
+#!/usr/bin/python
+from clip_similarwords.clip_danbooru_similarwords import main
+main()
+

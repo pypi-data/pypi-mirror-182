@@ -1,0 +1,4 @@
+#!/usr/bin/python
+from clip_similarwords.clip_synsets_similarwords import main
+main()
+
