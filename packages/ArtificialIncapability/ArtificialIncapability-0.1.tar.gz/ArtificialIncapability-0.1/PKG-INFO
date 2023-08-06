@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ArtificialIncapability
+Version: 0.1
+Summary: World's SOTA AI
+Home-page: https://github.com/eurethia/ArtificialIncapability
+Author: Eurethia Zhang
+Author-email: 3366841721@qq.com
+License: MIT
+Download-URL: https://github.com/eurethia/ArtificialIncapability/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: AI,True Intelligence,Stubidity
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
