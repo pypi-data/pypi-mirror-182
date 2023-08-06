@@ -1,0 +1,17 @@
+clip_similarwords/__init__.py,sha256=XPqDvE_OkospgFN9k2aloTZVwGW3SW8JLJ-of8CGX7g,82
+clip_similarwords/clip_danbooru_similarwords.py,sha256=UpMwUK_bBXv-OqaPFz3SOAh-nL9-xSYyd2goc0pP9E8,3132
+clip_similarwords/clip_danbooru_similarwords_all.pt,sha256=nJxcs8ql4ElIpUE9i8YTAO0-OYa9kZjKZMrtDI3aQrM,1486025
+clip_similarwords/clip_danbooru_similarwords_gen.py,sha256=8aT3PusTAQ1DmE_qB3FwNBHq1moQrW-FACzO3Zh37v8,5872
+clip_similarwords/clip_similarities_bak.py,sha256=_qyjh8OPwliABo8GP7jPXIlvsGLgZiLsrQyN8WGarKA,2138
+clip_similarwords/clip_similarwords.py,sha256=uJaxV76U-5pyxO2_9KogJ4dmUsE9i1NFNVOWtCj4gIA,3090
+clip_similarwords/clip_similarwords_all.pt,sha256=6z2ty9mP5P7v4FTF9FAaydPrUT2kv0yew4Nmp2qFkYE,23337061
+clip_similarwords/clip_similarwords_gen.py,sha256=ZcV9Uo7AxLDe-a-f6xDOCYT-fXEn2JPJRDiC3H4fp_s,4574
+clip_similarwords/clip_similarwords_gen_bak.py,sha256=6ecFlql5TBj6zCzw6ibCrq1uWmz98lJ-HTUfUBNGKjE,4233
+clip_similarwords/clip_similarwords_old.py,sha256=d-9epNU_VirgVyMHxlWFd1fwiZuB596GcRjOvaCpSGY,2824
+clip_similarwords-0.0.3.1.data/scripts/clip-danbooru-similarwords,sha256=67CcJkLG5GQuE82aTJXBv4XTkac8liyPS26JSqioCcE,79
+clip_similarwords-0.0.3.1.data/scripts/clip-similarwords,sha256=y7YAlR_CBzkNHpQnctfPIpm9ILgqkxewKCK1f-SrAMg,52
+clip_similarwords-0.0.3.1.dist-info/LICENSE,sha256=qDAYmFwu35LYEAwHoSAKONZgt7OVYxRQ9avQyW1yIz8,1095
+clip_similarwords-0.0.3.1.dist-info/METADATA,sha256=oxB9oyH4jhAhQ7LD2DY9-_--8MXoBUZ88I9wXTZ4JNc,2312
+clip_similarwords-0.0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+clip_similarwords-0.0.3.1.dist-info/top_level.txt,sha256=HNC_jdBtOy1Jn3RSlkYx_k-PaU0kxf9dHnEZhrM6wWI,18
+clip_similarwords-0.0.3.1.dist-info/RECORD,,
