@@ -1,0 +1,8 @@
+setup.py
+manchat/src/manchat.egg-info/PKG-INFO
+manchat/src/manchat.egg-info/SOURCES.txt
+manchat/src/manchat.egg-info/dependency_links.txt
+manchat/src/manchat.egg-info/requires.txt
+manchat/src/manchat.egg-info/top_level.txt
+manchat/src/manchat.py
+manchat/src/manchat.egg-info/SOURCES.txt
