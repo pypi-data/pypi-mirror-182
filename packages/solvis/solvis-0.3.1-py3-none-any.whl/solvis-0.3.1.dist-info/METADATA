@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: solvis
+Version: 0.3.1
+Summary: analysis of opensha modular solution files.
+License: AGPL3
+Author: Chris Chamberlain
+Author-email: chrisbc@artisan.co.nz
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: dev
+Provides-Extra: scripts
+Provides-Extra: test
+Requires-Dist: click (>=8.1.3,<9.0.0) ; extra == "scripts"
+Requires-Dist: click-plugins (>=1.1.1,<2.0.0)
+Requires-Dist: geopandas (>=0.12.2,<0.13.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: pyproj (>=3.3,<4.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: shapely (>=1.8.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+# solvis
+
+a demo to try some techniques for analysis of opensha modular solution files.
+
+ - opensha modular documentation
+ - pandas, geopanda references
+
+## goals
+
+From a typical modular opensha Inversion Solution archive, we want to produce views that allow deep exploration 
+of the solution and rupture set characteristics. Features:
+
+ - [ ] user can choose from regions already defined in the solution
+ - user can select ruptures matching 
+    - [x] parent fault
+    - [ ] named fault (fault system)
+    - [ ] constraint region (from TargetMFDs)
+ - [x] user can create new region polygons
+ - [ ] user can compare selections (e.g. Wellington East vs Wellington CBD vs Hutt Valley) 
+ - for a given query result show me dimensions...
+    - mag, length, area, rate, section count, parent fault count, jump-length, jump angles, slip (various), partication, nucleation 
+    - filter, group on any of the dimensions
+
+
+## From here the user can answer questions like ....
+
+ - create a MFD histogram in 0.01 bins from 7.0 to 7.30 (3O bins) for the WHV fault system
+ - list all ruptures between 7.75 and 8.25, involving the TVZ, ordered by rupture-length
+ - given a user-defined-function udfRuptureComplexity(rupture) rank ruptures in Region X by complexity, then by magnitude
+
+  - regional MFD
+      - [x] participation (sum of rate) for every rupture though a point
+      - [ ] nucleation/blame/culpability rate summed over the region
+           normalised by the area of an area (region, named fault)
+
+
+## install
+
+```
+git clone
+poetry install
+```
+
+## Run
+
+```
+python3 -m demo
+
+or python3 demo.py
+```
+
+## Plotting
+
+
+f = plt.figure()
+#nx = int(f.get_figwidth() * f.dpi)
+#ny = int(f.get_figheight() * f.dpi)
+f.figimage(data)
+plt.show()
