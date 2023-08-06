@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+qrcode_xcolor/__init__.py
+qrcode_xcolor.egg-info/PKG-INFO
+qrcode_xcolor.egg-info/SOURCES.txt
+qrcode_xcolor.egg-info/dependency_links.txt
+qrcode_xcolor.egg-info/requires.txt
+qrcode_xcolor.egg-info/top_level.txt
