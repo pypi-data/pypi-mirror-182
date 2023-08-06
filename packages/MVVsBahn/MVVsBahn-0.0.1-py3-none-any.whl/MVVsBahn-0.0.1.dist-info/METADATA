@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MVVsBahn
+Version: 0.0.1
+Summary: MVV S-Bahn Departures
+Home-page: https://github.com/darioschmid/MVVsBahn
+Author: Dario Schmid
+Author-email: darioschmid99@outlook.com
+License: ?
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: requests
+Requires-Dist: soupsieve (==2.3.2)
+
+UNKNOWN
+
+
