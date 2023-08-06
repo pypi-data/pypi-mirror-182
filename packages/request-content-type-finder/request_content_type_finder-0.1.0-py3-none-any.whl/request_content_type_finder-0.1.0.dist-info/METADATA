@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: request-content-type-finder
+Version: 0.1.0
+Summary: Finds content type of request response from content disposition/ content type and when content disposition and content type not present in response headers
+Home-page: https://github.com/shivamkadukar
+Author: Shivam Kadukar
+Author-email: shivamk2802@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# request_content_type_finder
+
+Finds type of requests content in the following cases - 
+
+- content disposition and content type present in response headers
+- when none of the above is present, content type is found using file signatures(magic bytes)
+
+### Installation
+```bash
+pip install request-content-type-finder
+```
+
+### Usage
+```python
+from request_content_type_finder import find
+```
+
+```python
+find(requests_response)
+```
+
+### Contributors
+
+| Name         | Contact             |
+|--------------|---------------------|
+|Shivam Kadukar|shivamk2802@gmail.com|
+
+
