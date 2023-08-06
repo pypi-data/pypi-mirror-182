@@ -1,0 +1,3 @@
+[console_scripts]
+svgfontembed=svgfontembed.svgfontembed:app
+
