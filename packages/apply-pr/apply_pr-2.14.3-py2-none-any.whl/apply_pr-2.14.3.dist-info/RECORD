@@ -1,0 +1,9 @@
+apply_pr/__init__.py,SHA256=3mb8zURfEXmdX0WFe3DbGqobLnt-VRgwggsQ5Q73264,148
+apply_pr/cli.py,SHA256=heql1_FN7XQ9UQMB9rvfs3FnF1uLD9BDdROVp4gLxsc,11623
+apply_pr/fabfile.py,SHA256=EWkJk78MOIaDRYCyBWLR-JqT68GoWFEZ4yZMi-_Ndr4,43928
+apply_pr/version.py,SHA256=Y6T9YZA-h7uv9PG7Lqw_ZQT9hzJ1XwmHTis6tTVGv7I,658
+apply_pr-2.14.3.dist-info/METADATA,SHA256=uL1DvfSfb3jzgigMK12mLKDvKaFZ4EB1NhFKzIEDSfA,410
+apply_pr-2.14.3.dist-info/WHEEL,SHA256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+apply_pr-2.14.3.dist-info/entry_points.txt,SHA256=ZcdTQ-SljLTT0mR1KnFSnqsyIKDfaUgUFRoyujpsU8o,107
+apply_pr-2.14.3.dist-info/top_level.txt,SHA256=5Gxna5KsdpfQiwgScBS75CExLO1Po__bzEfyYg8GjPs,9
+apply_pr-2.14.3.dist-info/RECORD,,
