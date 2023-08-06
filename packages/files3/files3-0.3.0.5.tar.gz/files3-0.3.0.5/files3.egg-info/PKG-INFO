@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: files3
+Version: 0.3.0.5
+Summary: (pickle+lz4 based) save Python objects in binary to the file system and manage them.
+Author: eaglebaby
+Author-email: 2229066748@qq.com
+Platform: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
