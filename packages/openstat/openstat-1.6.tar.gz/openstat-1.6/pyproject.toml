@@ -1,0 +1,10 @@
+[project]
+name = "openstat"
+version = "1.6"
+dependencies = [
+    "numpy",
+    "sympy",
+    "scipy",
+    "matplotlib",
+    "requests",
+]
