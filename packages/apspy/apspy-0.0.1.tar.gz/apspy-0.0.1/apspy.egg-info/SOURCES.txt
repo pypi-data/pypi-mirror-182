@@ -1,0 +1,7 @@
+README.md
+setup.py
+apspy.egg-info/PKG-INFO
+apspy.egg-info/SOURCES.txt
+apspy.egg-info/dependency_links.txt
+apspy.egg-info/requires.txt
+apspy.egg-info/top_level.txt
