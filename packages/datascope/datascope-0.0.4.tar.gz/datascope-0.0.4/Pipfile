@@ -1,0 +1,36 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipykernel = "*"
+matplotlib = "*"
+mypy = "*"
+flake8 = "*"
+pytest = "*"
+black = "==21.12b0"
+pytest-benchmark = "*"
+pytest-cov = "*"
+
+[packages]
+pandas = "*"
+torchvision = "*"
+tensorflow = "*"
+keras = "*"
+seaborn = "*"
+fairlearn = "*"
+
+[requires]
+python_version = "3.8"
+
+[packages.dspipes]
+git = "https://github.com/DS3Lab/datascope-pipelines.git"
+
+[packages.datascope]
+editable = true
+path = "."
+
+[packages.e1839a8]
+path = "."
+editable = true
