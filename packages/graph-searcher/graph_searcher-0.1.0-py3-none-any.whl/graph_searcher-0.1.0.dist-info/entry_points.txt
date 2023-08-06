@@ -1,0 +1,3 @@
+[console_scripts]
+graph_searcher=graph_searcher.ui.cli.cli:main
+
