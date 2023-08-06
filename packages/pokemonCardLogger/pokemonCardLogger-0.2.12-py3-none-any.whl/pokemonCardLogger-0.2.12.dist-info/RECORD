@@ -1,0 +1,15 @@
+pokemonCardLogger/__init__.py,sha256=e727d1VjQ8JCfJ0qF-iUCNwth4oVeEVpoIhuYqDx-II,454
+pokemonCardLogger/assets.py,sha256=e6qREvNBVMBjV9MXZ32e_cw9DiREjg4yTl3f8GiPP78,312
+pokemonCardLogger/clss_base.py,sha256=OLwX6A7lBjFPI1Kn4q-os5wHRQiCJYCOGYdt0CIyisg,19342
+pokemonCardLogger/clss_json.py,sha256=gCz6-6AKd3oN-oFSCBbo616lRAo4LwcNAeSPKK8ORM8,1882
+pokemonCardLogger/clss_pickle.py,sha256=vh4bXBM3DUzlOh4NKGR860sxmKg-rgWsn9S4m_5sy6M,1754
+pokemonCardLogger/main.py,sha256=Yoomh1y-7j7v8Hq0aT_OTqV89_ieLPjJSryiWsDhV4E,23329
+pokemonCardLogger/migrate.py,sha256=UY5jYDWezhfFjPe8REDvCEwlUhhOscabc7tg9anbnZc,5022
+pokemonCardLogger/packRef.py,sha256=Xnc8MEFp4W0Hu-pndBU1pTUiweOfP7zETRAXAO3BlbM,752
+pokemonCardLogger/post_encrypt.py,sha256=xiGQe4PE3KWY2WsiSK1ywVKfCHMTtGNAmyxkWkdGq8Q,3659
+pokemonCardLogger/test_api_status.py,sha256=Bmqv574aWnDXDuR1NULQ7k8VWfPZwovNokJbsG99vhY,1708
+pokemonCardLogger-0.2.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pokemonCardLogger-0.2.12.dist-info/METADATA,sha256=AfGsVQTVRx2-6lVY-iRas5iGgyb1qbM5reufX5sm6e4,846
+pokemonCardLogger-0.2.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pokemonCardLogger-0.2.12.dist-info/top_level.txt,sha256=9HNUxsSvKC2MeKf--HO8azegB9uSKNuzPlfLa5a5jI4,18
+pokemonCardLogger-0.2.12.dist-info/RECORD,,
