@@ -1,0 +1,11 @@
+gwb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwb/global_properties.py,sha256=uzPZONUhy1upHKRWQfZSrFqNXvTTS2H7oznxHJXTs_M,65
+gwb/gmail.py,sha256=lKkBmNqeIq6wyxFD_JPG13dUshQAwYH-6aaCFmyBpzA,20730
+gwb/gwbackupy.py,sha256=wPR9dVnTrPgDut-AfjrBAzQxGLQ3KMsrEY7ayU4MgA4,4039
+gwb/helpers.py,sha256=IkKAqaOoFRAVF-IJvc0S5a3j47mZncEUz1PopAdgWF0,1040
+gwbackupy-0.4.0.data/scripts/gwbackupy,sha256=QMVvcUI6x31Gj0ziGJlCu4amjVlSURHwhMPYEaCrZXw,57
+gwbackupy-0.4.0.dist-info/LICENSE,sha256=kR4yPbO5ZoBlpXwz9GTJEL9Bn171zepcb8CStDVwlzs,1530
+gwbackupy-0.4.0.dist-info/METADATA,sha256=5TOppd2UslVNGjsd8KTC-oCaFTh3l_C5V9gK1-q7Sy0,3059
+gwbackupy-0.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gwbackupy-0.4.0.dist-info/top_level.txt,sha256=pEhF3tDvCX1dDKMCP7_IQ5w-dmkblckJ3XUAGgmpGug,4
+gwbackupy-0.4.0.dist-info/RECORD,,
