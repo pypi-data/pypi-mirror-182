@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+vk_api_rucod/VkApiFunctions.py
+vk_api_rucod/__init__.py
+vk_api_rucod.egg-info/PKG-INFO
+vk_api_rucod.egg-info/SOURCES.txt
+vk_api_rucod.egg-info/dependency_links.txt
+vk_api_rucod.egg-info/not-zip-safe
+vk_api_rucod.egg-info/requires.txt
+vk_api_rucod.egg-info/top_level.txt
