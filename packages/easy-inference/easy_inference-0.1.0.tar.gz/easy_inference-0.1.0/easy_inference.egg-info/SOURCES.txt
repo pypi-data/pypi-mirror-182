@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_inference/__init__.py
+easy_inference.egg-info/PKG-INFO
+easy_inference.egg-info/SOURCES.txt
+easy_inference.egg-info/dependency_links.txt
+easy_inference.egg-info/requires.txt
+easy_inference.egg-info/top_level.txt
