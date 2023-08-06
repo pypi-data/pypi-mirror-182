@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/keria/__init__.py
+src/keria/__main__.py
+src/keria/cli.py
+src/keria/daemon.py
+src/keria/xoraing.py
+src/keria/core/__init__.py
+src/signifi.egg-info/PKG-INFO
+src/signifi.egg-info/SOURCES.txt
+src/signifi.egg-info/dependency_links.txt
+src/signifi.egg-info/entry_points.txt
+src/signifi.egg-info/not-zip-safe
+src/signifi.egg-info/requires.txt
+src/signifi.egg-info/top_level.txt
