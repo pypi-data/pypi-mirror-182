@@ -1,0 +1,11 @@
+include storage_observer/storage_observer.min.js
+include storage_observer/storage_observer.min.js.map
+include storage_observer/async-*.js
+include storage_observer/async-*.js.map
+include storage_observer/*-shared.js
+include storage_observer/*-shared.js.map
+include storage_observer/metadata.json
+include storage_observer/package-info.json
+include README.md
+include LICENSE
+include package.json
