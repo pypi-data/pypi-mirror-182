@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+Q/Stopwatch_en.py
+Q/Stopwatch_ru.py
+Q/Timer.py
+Q/__init__.py
+Quelert2.egg-info/PKG-INFO
+Quelert2.egg-info/SOURCES.txt
+Quelert2.egg-info/dependency_links.txt
+Quelert2.egg-info/top_level.txt
