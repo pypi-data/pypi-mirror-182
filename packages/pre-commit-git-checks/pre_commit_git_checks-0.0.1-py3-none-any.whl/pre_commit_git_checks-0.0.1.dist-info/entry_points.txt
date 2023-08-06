@@ -1,0 +1,3 @@
+[console_scripts]
+pgchecks=pre_commit_git_checks.cli:cli
+

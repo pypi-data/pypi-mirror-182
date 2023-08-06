@@ -1,0 +1,10 @@
+pre_commit_git_checks/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+pre_commit_git_checks/cli.py,sha256=aznYebxBMK50kRgu4n5U_GuRSUW_RO8WZNTgrNKFs2Q,661
+pre_commit_git_checks/hooks/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+pre_commit_git_checks/hooks/check_git_signoff.py,sha256=0s6OSZaTGuBaPgjhstWVfdI2LfWpdgwVr5GIY3QG7qQ,5367
+pre_commit_git_checks/hooks/utils.py,sha256=wXfjkoeEP3IXmb9vZP5x0TFZ6-4qJa8AjWgA-wZ-oRc,1967
+pre_commit_git_checks-0.0.1.dist-info/entry_points.txt,sha256=LKnt6qp_F3CHNxh5iTsgjdQ1MOqpzUuD7CnjcNEIIQs,58
+pre_commit_git_checks-0.0.1.dist-info/METADATA,sha256=AAbonmx1v7I4-5Gbcd7s6QoRRloq_-MYzFWWTggIfes,6367
+pre_commit_git_checks-0.0.1.dist-info/LICENSE,sha256=RbPNnL9IXhveo5exnhOF_yYM0boNIkfcx2beROSvsmg,1082
+pre_commit_git_checks-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pre_commit_git_checks-0.0.1.dist-info/RECORD,,
