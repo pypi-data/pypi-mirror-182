@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+QuantGates.egg-info/PKG-INFO
+QuantGates.egg-info/SOURCES.txt
+QuantGates.egg-info/dependency_links.txt
+QuantGates.egg-info/top_level.txt
