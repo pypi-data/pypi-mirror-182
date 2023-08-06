@@ -1,0 +1,4 @@
+include ctypes_windows/requirements.txt
+include ctypes_windows/thirdparty.json
+include ctypes_windows/README.MD
+include ctypes_windows/LICENSE
