@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+examples/e1.json
+noliboskar.egg-info/PKG-INFO
+noliboskar.egg-info/SOURCES.txt
+noliboskar.egg-info/dependency_links.txt
+noliboskar.egg-info/top_level.txt
+packet/__init__.py
+packet/me.py

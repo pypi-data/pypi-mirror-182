@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: noliboskar
+Version: 0.0.1
+Summary: My test package
+Home-page: UNKNOWN
+Author: Oskar
+Author-email: example@example.com
+License: MIT
+Description: # My first project
+        
+        ## Sekcja 1
+        This project can subtract any number you give it example
+        ```python
+        print(mep(1, 7))
+        ```
+        <span style="font-size: 30px;">To jest</span> tekst **pogrubiony**
+Platform: UNKNOWN
