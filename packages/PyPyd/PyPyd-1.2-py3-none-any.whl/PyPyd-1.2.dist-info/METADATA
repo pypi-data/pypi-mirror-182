@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: PyPyd
+Version: 1.2
+Summary: Py to pyd tool
+Home-page: 
+Author: Lemon
+Author-email: 
+Requires: Cython
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Pypyd's Description
+===================
+
+Pypyd is a tool to change “.py” file to “.pyd” file
+
+--------------
+
+to change a file:
+
+.. code:: dos
+
+   python -m pypyd <file> [-d|--dir <build_dir>] 
+
+--------------
+
+to get help context:
+
+.. code:: dos
+
+   python -m pypyd --help|-h
