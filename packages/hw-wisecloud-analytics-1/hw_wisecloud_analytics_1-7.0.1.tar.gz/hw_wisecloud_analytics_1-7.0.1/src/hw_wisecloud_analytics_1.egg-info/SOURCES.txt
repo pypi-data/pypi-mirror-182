@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/hw_wisecloud_analytics_1/__init__.py
+src/hw_wisecloud_analytics_1.egg-info/PKG-INFO
+src/hw_wisecloud_analytics_1.egg-info/SOURCES.txt
+src/hw_wisecloud_analytics_1.egg-info/dependency_links.txt
+src/hw_wisecloud_analytics_1.egg-info/top_level.txt
+tests/test_module1.py
