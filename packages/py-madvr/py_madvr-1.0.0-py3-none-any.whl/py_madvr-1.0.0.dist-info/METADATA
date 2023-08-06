@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-madvr
+Version: 1.0.0
+Summary: A package to control MadVR Envy over IP
+Home-page: https://github.com/iloveicedgreentea/py-madvr
+Author: iloveicedgreentea
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Py MadVR
+
+Support for IP based controls for Envys''
+
+*Note: IP control does not work if there is no input signal, by design"
+
+Readme WIP
