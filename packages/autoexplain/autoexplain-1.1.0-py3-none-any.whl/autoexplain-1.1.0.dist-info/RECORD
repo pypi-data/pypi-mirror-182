@@ -1,0 +1,11 @@
+src/autoexplain.py,sha256=SC1n7uetkLBPiK6PsDAMy6PBPkNkNMAnATa7NCXG9pw,2392
+src/constants.py,sha256=90059WkVGFRTFCOMPrnZgyjT7VW2GqV10LZ21ODXdeE,161
+src/openai_functions.py,sha256=l-vPjQZKt3g3gOSkViejTeQC_BuSM3deAwrdv4VRb30,4237
+src/subcommands.py,sha256=QmUqAFmMQEaEvRH73yBfPFhzGOm1Orhlr6_GooMwhDA,5470
+src/utils.py,sha256=RwIQzHidYPibp7GWkdnx5lFTdZpQM7oZDLJWsKa3rKg,241
+autoexplain-1.1.0.dist-info/LICENSE,sha256=wwaTIeM5p1TYEKRnyL3ROkzDvoyNRr9VtroNBHjNQeo,35802
+autoexplain-1.1.0.dist-info/METADATA,sha256=tYeIEhN9UvDz6rrsOiOTxiHXGZHe9FF-z2RhVkbyGMg,345
+autoexplain-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autoexplain-1.1.0.dist-info/entry_points.txt,sha256=um3OiDoMTmKjSTaKyGDDquQzSh8PGL-N4xnr0E9jUws,53
+autoexplain-1.1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+autoexplain-1.1.0.dist-info/RECORD,,
