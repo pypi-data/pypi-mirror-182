@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: general-q
+Version: 0.1.0
+Summary: An easy to use library for general purpose reinforcement learning and experimentation
+Home-page: https://github.com/khoda81/general_q
+License: MIT
+Author: axiom
+Author-email: 20.mahdikh.0@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/khoda81/general_q
+Description-Content-Type: text/markdown
+
+# general_q
+
+<div align="center">
+
+[![Build status](https://github.com/khoda81/general_q/workflows/build/badge.svg?branch=master&event=push)](https://github.com/khoda81/general_q/workflows/build/badge.svg?branch=master&event=push)
+[![Python Version](https://img.shields.io/pypi/pyversions/general_q.svg)](https://pypi.org/project/general_q/)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/khoda81/general_q/blob/master/.pre-commit-config.yaml)
+[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/khoda81/general_q/releases)
+[![License](https://img.shields.io/github/license/khoda81/general_q)](https://github.com/khoda81/general_q/blob/master/LICENSE)
+![Coverage Report](assets/images/coverage.svg)
+
+An easy to use library for general purpose reinforcement learning and experimentation
+
+</div>
+
+## Installation
+
+```bash
+pip install -U general_q
+```
+
+or install with `Poetry`
+
+```bash
+poetry add general_q
+```
+
+## 🛡 License
+
+[![License](https://img.shields.io/github/license/khoda81/general_q)](https://github.com/khoda81/general_q/blob/master/LICENSE)
+
+This project is licensed under the terms of the `MIT` license.
+See [LICENSE](https://github.com/khoda81/general_q/blob/master/LICENSE) for more details.
+
+## 📃 Citation
+
+```bibtex
+@misc{general_q,
+  author = {axiom},
+  title = {An easy to use library for general purpose reinforcement learning and experimentation},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/khoda81/general_q}}
+}
+```
+
+## Credits [![🚀 Your next Python package needs a bleeding-edge project structure.](https://img.shields.io/badge/python--package--template-%F0%9F%9A%80-brightgreen)](https://github.com/TezRomacH/python-package-template)
+
+This project was generated with [`python-package-template`](https://github.com/TezRomacH/python-package-template)
+
