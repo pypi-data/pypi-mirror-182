@@ -1,0 +1,13 @@
+codegpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codegpt/__main__.py,sha256=YrEx2mq53uPLjDlGP3_DUhWtbwPOwj09IAdXSZ_5PuE,30
+codegpt/files.py,sha256=qyEXtJGUCiuucMpQQ7QbX0a-ew6D700Rx4PclGeo0bI,948
+codegpt/gpt_interface.py,sha256=6seXmU50o7RURkLkgcN44pAMJlWAbyZJBMJUU_hehaY,2615
+codegpt/main.py,sha256=p6f7otUTkHSorRB7Xew3Yb3XkFgtm_-67qWU4OY3O7k,5346
+codegpt/parse.py,sha256=l40XfaCU_8I9cpiGQLcOS-2CFK4CiKY580Pef9WJhuk,1408
+codegpt/prompts.py,sha256=tBwzS8SN8zECOWJesxw9Itb5o5tvTXvhXXE2oqnumlE,1324
+codegpt/readme.md,sha256=qq6WoI_JBbrmR1WYRngG7EVhj4h-RtG5WENAP4Z9oog,457
+codegpt-0.2.11.dist-info/entry_points.txt,sha256=3y7E8_QysvY0X0ro209nFwqP_TjqfdEd-Q53iLSYGZ0,44
+codegpt-0.2.11.dist-info/LICENSE.txt,sha256=5hIgqbE30VuRyp7FfWzCRzGDB8qGGri7TTt6-CI-nKQ,35148
+codegpt-0.2.11.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+codegpt-0.2.11.dist-info/METADATA,sha256=jgqm937GUv94EYnUAuduxcDl3aHDz9c1RmDNCBjokis,2501
+codegpt-0.2.11.dist-info/RECORD,,
