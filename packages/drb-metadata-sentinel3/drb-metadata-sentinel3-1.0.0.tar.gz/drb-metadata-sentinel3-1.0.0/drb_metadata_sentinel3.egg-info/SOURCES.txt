@@ -1,0 +1,14 @@
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+drb_md_sentinel3/__init__.py
+drb_md_sentinel3/_version.py
+drb_md_sentinel3/cortex.yaml
+drb_metadata_sentinel3.egg-info/PKG-INFO
+drb_metadata_sentinel3.egg-info/SOURCES.txt
+drb_metadata_sentinel3.egg-info/dependency_links.txt
+drb_metadata_sentinel3.egg-info/entry_points.txt
+drb_metadata_sentinel3.egg-info/requires.txt
+drb_metadata_sentinel3.egg-info/top_level.txt
