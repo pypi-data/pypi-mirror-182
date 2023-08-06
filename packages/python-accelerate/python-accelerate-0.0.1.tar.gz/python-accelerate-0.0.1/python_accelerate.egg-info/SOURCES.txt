@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+python_accelerate.egg-info/PKG-INFO
+python_accelerate.egg-info/SOURCES.txt
+python_accelerate.egg-info/dependency_links.txt
+python_accelerate.egg-info/top_level.txt
