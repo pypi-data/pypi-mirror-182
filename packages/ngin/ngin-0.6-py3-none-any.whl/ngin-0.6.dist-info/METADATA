@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ngin
+Version: 0.6
+Summary: ngin
+Home-page: https://github.com/danielhwkim/ngin-py3
+Author: Hoewon Kim
+Author-email: hoewon.im@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: zeroconf
+Requires-Dist: protobuf
+
