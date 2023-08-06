@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: aleatory
+Version: 0.0.1
+Summary: Stochastic Processes Simulation and Visualisation
+Author-email: Dialid Santiago <d.santiago@outlook.com>
+Project-URL: Homepage, https://github.com/quantgirluk/aleatory
+Project-URL: Bug Tracker, https://github.com/quantgirluk/aleatory/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=1.5.2)
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: scipy (>=1.9.3)
+Requires-Dist: matplotlib (>=3.6.2)
+Requires-Dist: statsmodels (>=0.13.5)
+Requires-Dist: parameterized (>=0.8.1)
+
+# *aleatory*
+
+- Homepage: https://github.com/quantgirluk/aleatory
+- Pip Repository: [aleatory](https://pypi.org/project/aleatory/)
+
+---
+## Overview
+
+The **_aleatory_** (/ˈeɪliətəri/) Python library provides functionality for simulating and visualising
+stochastic processes. More precisely, it introduces objects representing a number of continuous-time
+stochastic processes $X = (X_t : t\geq 0)$ and provides methods to:
+
+- generate realizations/trajectories from each process —over discrete time sets
+- create visualisations to illustrate the processes properties and behaviour
+
+
+<figure>
+  <p><img src="https://raw.githubusercontent.com/quantgirluk/aleatory/main/docs/source/_static/vasicek_process_drawn.png"
+    width="500" height="230">
+</figure>
+
+Currently, `aleatory` supports the following processes:
+
+- Brownian Motion
+- Geometric Brownian Motion
+- Ornstein–Uhlenbeck
+- Vasicek
+- Cox–Ingersoll–Ross
+- Constant Elasticity
+
+
+## Installation
+
+
+Aleatory is available on [pypi](https://pypi.python.org/pypi) and can be
+installed as follows
+
+
+```
+pip install aleatory
+```
+
+## Dependencies
+
+
+Aleatory relies heavily on
+
+- ``numpy``  ``scipy`` for random number generation, as well as support for a number of one-dimensional distributions.
+
+- ``matplotlib`` for creating visualisations
+
+## Compatibility
+
+
+Aleatory is tested on Python versions 3.7, 3.8, and 3.9
