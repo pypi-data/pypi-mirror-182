@@ -1,0 +1,9 @@
+shell_piper/__init__.py,sha256=Ggp32yxuSy056VvSELe8INAz-HeB2klguqMRwJPD-yo,4732
+shell_piper/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+shell_piper/exe.py,sha256=TXy1tKk7ynWHmxc-TIJ_6cyDMiNzA2tiFeGlFDg6xMM,857
+shell_piper/file.py,sha256=XlUICKbtzBx1QgmW4Zmf4aRXSX8AE_OxK0XFRz7Ht6E,1476
+shell_piper-0.5.1.dist-info/entry_points.txt,sha256=NXdsMrzX8bh4FTKeBYypDX9U5LoOCGewoxwoCHrzlDo,47
+shell_piper-0.5.1.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+shell_piper-0.5.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+shell_piper-0.5.1.dist-info/METADATA,sha256=WuNLi4BkqNEphLPEws3fLb7DKuhAsBO_LOJR-Oma-1s,2537
+shell_piper-0.5.1.dist-info/RECORD,,
