@@ -1,0 +1,2 @@
+[console_scripts]
+prettify-xml = prettify_xml.formatter:format
