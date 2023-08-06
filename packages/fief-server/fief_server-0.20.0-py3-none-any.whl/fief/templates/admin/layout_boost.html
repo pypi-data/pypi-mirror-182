@@ -1,0 +1,9 @@
+{% if hx_target == "main" %}
+    {% block main %}{% endblock %}
+{% endif %}
+{% if hx_target == "aside" %}
+    {% block aside %}{% endblock %}
+{% endif %}
+{% if hx_target == "modal" %}
+    {% block modal %}{% endblock %}
+{% endif %}
