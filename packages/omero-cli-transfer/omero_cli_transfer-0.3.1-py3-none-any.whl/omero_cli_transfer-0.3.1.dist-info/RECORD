@@ -1,0 +1,9 @@
+generate_omero_objects.py,sha256=5yM1bWlpoWZFFVW5-4c0FaL7BFsaZd0FKTWsOMSXO_M,16824
+generate_xml.py,sha256=f0gMSXbD6kKNKTYA2VM-QU841XGrHa7oI4rilYbshJU,34049
+omero_cli_transfer.py,sha256=_fR_cjwVhIYmdjepPb6LOenhjUcZsfCstE_oESQNaOk,20570
+omero/plugins/transfer.py,sha256=0ewQVFuh7VWhS5SNgnITA4FG4lA189lic4EEPQWhVi8,426
+omero_cli_transfer-0.3.1.dist-info/LICENSE,sha256=2ay8NGnKkedRurx4Vdn_ruWk5JeBpx2AttY1bVL5rgc,1079
+omero_cli_transfer-0.3.1.dist-info/METADATA,sha256=GpTVo6Qg_ZkbFcXdrG2PYyeFIYqnMhuQYWW-7t_1vc0,4976
+omero_cli_transfer-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+omero_cli_transfer-0.3.1.dist-info/top_level.txt,sha256=q81niUeD8l0FFWRu9_AMi5-hlabchfKk09h_wZjrZzA,7
+omero_cli_transfer-0.3.1.dist-info/RECORD,,
