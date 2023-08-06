@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: bgpview-client
+Version: 0.1.2
+Summary: bgpview.io api
+Home-page: https://github.com/jdhall75/bgpview-client
+Author: Jason Hall
+Author-email: jdhall75@zohomail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: bgpview.io,api,bgp
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.28)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: typing-extensions ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+BGPView API
+-----------
+- Original Author: Sefa Eyeoglu
+- Original Repo: https://gitlab.com/Scrumplex/pyqis
+
+--------
+The original repo was archived, I cloned / forked the project into github 
+and will continue to add functionality.
+--------
+
+API client for BGPView.io API
+
+# Usage
+An example use is provided in [examples/](examples)
+```python
+from bgpview import BGPView
+
+viewer = BGPView()
+asn_info = viewer.get_asn(1299)
+asn_prefixes = viewer.get_asn_prefixes(1299)
+
+# find the origin of a prefix
+prefix_info = viewer.get_prefix("2607:3900::/32")
+
+```
+
+
+# License
+This project is licensed under the terms of the GNU General Public License 3.0. Read the full license text [here](LICENSE)
