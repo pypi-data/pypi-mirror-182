@@ -1,0 +1,15 @@
+cython
+numpy
+lark
+netCDF4
+
+[dev]
+mypy
+pytest
+pytest-cov
+black
+flake8
+autoflake
+isort
+pre-commit
+requests
