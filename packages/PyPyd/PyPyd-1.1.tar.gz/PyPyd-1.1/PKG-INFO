@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyPyd
+Version: 1.1
+Summary: Py to pyd tool
+Home-page: UNKNOWN
+Author: Lemon
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: Cython
+License-File: LICENSE
+
+
+    to build a pyd file, you can use
+    python -m pypyd <file> [-d|--dir <build dir>]
+    use 'python -m pypyd -h' to get help
+    
+
