@@ -1,0 +1,41 @@
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ffpack"
+version = "0.2.0"
+description = "Fatigue and fracture package"
+authors = [
+    "Dongping Zhu",
+    "Zhixia Ding",
+    "Xiaogang Huang",
+]
+
+maintainers = [ 
+    "Dongping Zhu", 
+    "Zhixia Ding",
+]
+readme = "README.md"
+
+homepage = "https://pypi.org/project/ffpack"
+repository = "https://github.com/dpzhuX/ffpack"
+documentation = "https://ffpack.readthedocs.io/en/latest/"
+
+keywords = [ "fatigue", "fracture", "counting" ]
+
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.21"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
