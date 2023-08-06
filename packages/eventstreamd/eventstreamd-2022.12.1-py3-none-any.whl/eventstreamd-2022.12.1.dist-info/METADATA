@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: eventstreamd
+Version: 2022.12.1
+Summary: Simple Event Stream Server
+Home-page: https://github.com/srittau/eventstreamd
+License: MIT
+Author: Sebastian Rittau
+Author-email: srittau@rittau.biz
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: json-get (>=1.1.1,<1.2.0)
+Project-URL: Repository, https://github.com/srittau/eventstreamd
+Description-Content-Type: text/markdown
+
+# eventstreamd
+
+[![License](https://img.shields.io/pypi/l/eventstreamd.svg)](https://pypi.python.org/pypi/eventstreamd/)
+[![GitHub](https://img.shields.io/github/release/srittau/eventstreamd/all.svg)](https://github.com/srittau/eventstreamd/releases/)
+[![pypi](https://img.shields.io/pypi/v/eventstreamd.svg)](https://pypi.python.org/pypi/eventstreamd/)
+[![Travis CI](https://travis-ci.org/srittau/eventstreamd.svg?branch=master)](https://travis-ci.org/srittau/eventstreamd)
+
+A simple event stream server. Events are sent on a Unix socket and then
+distributed to all interested listeners via HTTP event streams.
+
+Docker image available:
+
+```bash
+docker pull srittau/eventstreamd
+```
+
