@@ -1,0 +1,3 @@
+{
+  "tests/test_run_notebook.py::test_run_notebook": true
+}

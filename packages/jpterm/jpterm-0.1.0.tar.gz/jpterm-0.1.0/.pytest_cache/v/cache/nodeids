@@ -1,0 +1,6 @@
+[
+  "tests/test_run_notebook.py::test_run_notebook",
+  "tests/test_run_notebook.py::test_run_notebook_cli",
+  "tests/test_run_notebook.py::test_run_notebook_remotely",
+  "tests/test_run_notebook.py::test_run_notebook_remotely_cli"
+]
