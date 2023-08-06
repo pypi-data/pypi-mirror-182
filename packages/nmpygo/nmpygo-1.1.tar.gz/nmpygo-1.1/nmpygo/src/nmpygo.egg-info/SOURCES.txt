@@ -1,0 +1,8 @@
+setup.py
+nmpygo/src/nmpygo.egg-info/PKG-INFO
+nmpygo/src/nmpygo.egg-info/SOURCES.txt
+nmpygo/src/nmpygo.egg-info/dependency_links.txt
+nmpygo/src/nmpygo.egg-info/requires.txt
+nmpygo/src/nmpygo.egg-info/top_level.txt
+nmpygo/src/nmpygo.py
+nmpygo/src/nmpygo.egg-info/SOURCES.txt

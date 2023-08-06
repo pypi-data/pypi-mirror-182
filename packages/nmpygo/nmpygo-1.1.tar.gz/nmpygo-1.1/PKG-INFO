@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nmpygo
+Version: 1.1
+Summary: Multimedia file as key
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+multimedia file as key for encryption of target file 
+
+pip install easygui
+
+below is the source code to run the program 
+
+from nmpygo import *
+import easygui
+a=easygui.fileopenbox()
+b=easygui.fileopenbox()
+print(neelanjanmanna(a,b))
