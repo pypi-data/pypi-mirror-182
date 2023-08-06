@@ -1,0 +1,8 @@
+README.md
+setup.py
+prettify_py.egg-info/PKG-INFO
+prettify_py.egg-info/SOURCES.txt
+prettify_py.egg-info/dependency_links.txt
+prettify_py.egg-info/entry_points.txt
+prettify_py.egg-info/requires.txt
+prettify_py.egg-info/top_level.txt
