@@ -1,0 +1,3 @@
+[console_scripts]
+keria = keria.cli:main
+keriad = keria.daemon:main
