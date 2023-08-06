@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "req2flatpak"
+version = "0.1.0"
+description = "Generates a flatpak-builder build module for installing python packages defined in requirements.txt files."
+authors = ["johannesjh <johannesjh@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.scripts]
+req2flatpak = 'req2flatpak:main'
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+packaging = { version = "^21.3", optional = true }
+
+[tool.poetry.group.lint.dependencies]
+pylama = { extras = [
+    "mypy",
+    "pylint",
+    "eradicate",
+    "toml",
+], version = "^8.4.1" }
+bandit = { extras = ["toml"], version = "^1.7.4" }
+types-setuptools = "^65.5.0.2" # type stubs for mypy linting
+
+# [tool.poetry.group.tests.dependencies]
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^5.3.0"
+sphinx-argparse = "^0.3.2"
+sphinx-rtd-theme-github-versions = "^1.1"
+
+[tool.poetry.extras]
+packaging = ["packaging"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+
+[tool.pylama]
+max_line_length = 88
+concurrent = true
+linters = "pycodestyle,pydocstyle,pyflakes,pylint,eradicate,mypy"
+
+[tool.pylama.linter.pycodestyle]
+ignore = "W503,E203,E501"
+
+# [tool.pycodestyle] -> see setup.cfg
+
+[tool.pylama.linter.pydocstyle]
+ignore = "D202,D203,D205,D401,D212"
+
+[tool.pydocstyle]
+ignore = ["D202", "D203", "D205", "D401", "D212"]
+
+[tool.pylint]
+format.max-line-length = 88
+main.disable = ["C0301"]            # ignore line-too-long
+basic.good-names = ["e", "f", "py"]
+
+[tool.bandit]
+exclude_dirs = ['tests']

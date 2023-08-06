@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+modules = \
+['req2flatpak']
+extras_require = \
+{'packaging': ['packaging>=21.3,<22.0']}
+
+entry_points = \
+{'console_scripts': ['req2flatpak = req2flatpak:main']}
+
+setup_kwargs = {
+    'name': 'req2flatpak',
+    'version': '0.1.0',
+    'description': 'Generates a flatpak-builder build module for installing python packages defined in requirements.txt files.',
+    'long_description': "req2flatpak\n===========\n\n.. inclusion-marker-do-not-remove\n\n``req2flatpak`` is a script to convert python package requirements\nto a flatpak-builder build module.\nThe module will install the required python packages\nas part of a flatpak build.\n\n\nIntended Use\n------------\n\nreq2flatpak is for programmers\nwho want to package a python application using flatpak.\n\nThe req2flatpak script takes python package requirements as input, e.g., as\n``requirements.txt`` file. It allows to specify the target platform’s\npython version and architecture. The script outputs an automatically\ngenerated ``flatpak-builder`` build module. The build module, if included\ninto a flatpak-builder build manifest, will install the python packages\nusing pip.\n\nGetting Started\n---------------\n\nRun ``pip install git+https://github.com/johannesjh/req2flatpak``\nto install the latest development version of req2flatpak.\n\nIt is possible to use req2flatpak from the commandline,\nas well as programmatically from a python script.\n\nCommandline usage means you can invoke req2flatpak’s commandline interface\nas follows, in order to generate a ``flatpak-builder`` build module\nfrom given python package requirements:\n\n.. code:: bash\n\n   ./req2flatpak.py --requirements-file requirements.txt --target-platforms 310-x86_64 310-aarch64\n\nWhen invoked like this, req2flatpak will\nread the requirements file,\nquery pypi about available downloads for the requirements,\nchoose appropriate downloads for the specified target platforms,\nand generate a flatpak-builder build module.\nThe module, if included in a flatpak-builder build manifest,\nwill install the required packages using pip.\n\nThe commandline option to define target platforms uses the format ``<pythonversion>-<architecture>``.\nTo learn more about available commandline options,\nrun ``req2flatpak.py --help``.\n\nProgrammatic usage is also possible.\nThis means you can invoke functionality from req2flatpak in your own python script,\nallowing you to tweak the desired behavior in many ways.\nThe `documentation <https://johannesjh.github.io/req2flatpak/>`__\ndescribes req2flatpak's python api and includes code examples\nto help you get started quickly.\n\n\nDocumentation\n-------------\n\nSee https://johannesjh.github.io/req2flatpak/\n\n\nContributing\n------------\n\nreq2flatpak is developed in an open-source, community-driven way, as a\nvoluntary effort in the authors’ free time.\n\nAll contributions are greatly appreciated… pull requests are welcome,\nand so are bug reports and suggestions for improvement.\nSee req2flatpak’s documentation for how to set up a development environment\nand how to contribute back to req2flatpak.\n\nRelated Work\n------------\n\nThe\n`flatpak-pip-generator <https://github.com/flatpak/flatpak-builder-tools/blob/master/pip/flatpak-pip-generator>`__\nscript is very similar to this project. Both scripts basically serve the same purpose,\nand this project took a lot of inspiration from\nflatpak-pip-generator. In fact, this project was created when we\ndiscussed feature request\n`#296 <https://github.com/flatpak/flatpak-builder-tools/issues/296>`__\nin flatpak-pip-generator. A prototype followed from this feature\nrequest, and since it was written from scratch, the prototype became\nthis separate project.\n\nComparison between ``flatpak-pip-generator`` and ``req2flatpak.py``:\nEach of the two projects has its own benefits.\nA comparison will likely change over time.\nAs in Oct, 2022, in my personal opinion (johannesjh),\nI see the following similarities and differences:\n\n-  Both projects generate build modules for flatpak-builder.\n-  Both projects consist of a single script file with minimal\n   dependencies, and are thus very easy to install.\n-  ``flatpak-pip-generator`` resolves dependencies and freezes\n   dependency versions, whereas ``req2flatpak.py`` asks the user to\n   provide a fully resolved list of dependencies with frozen dependency\n   versions. Various tools exist which make this easy, e.g.,\n   pip, pip-compile and poetry.\n-  ``flatpak-pip-generator`` is older and thus likely to be more mature.\n   It supports more commandline options and probably has a more complete\n   feature set.\n-  ``req2flatpak.py`` is faster. The script itself runs faster because\n   it does not need to download package files in order to generate the\n   build module. And the flatpak build runs faster because all packages\n   (from the entire ``requirements.txt`` file) are installed in a single\n   call to ``pip install``.\n-  ``req2flatpak.py`` re-implements some functionality of pip. In\n   contrast, ``flatpak-pip-generator`` uses pip’s official\n   functionality. Specifically, ``req2flatpak.py`` re-implements how pip\n   queries available downloads from pypi and how pip chooses suitable\n   downloads to match a given target platform.\n-  ``req2flatpak.py`` prefers binary wheels, whereas\n   ``flatpak-pip-generator`` prefers source packages.\n\nLicense\n-------\n\nreq2flatpak is MIT-licensed, see the ``COPYING`` file.\n",
+    'author': 'johannesjh',
+    'author_email': 'johannesjh@users.noreply.github.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'None',
+    'py_modules': modules,
+    'extras_require': extras_require,
+    'entry_points': entry_points,
+    'python_requires': '>=3.7.2,<4.0.0',
+}
+
+
+setup(**setup_kwargs)
