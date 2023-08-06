@@ -1,0 +1,11 @@
+kadoo/config_utils.py,sha256=v2HE4eFuKKtk6l03IgvMDv5xpjho_XA3zldFJ9Eydag,599
+kadoo/entry_utils.py,sha256=g5XY1IpwiD11Y9B_zYXLqF27M_n6EY2LtdCbnknmGpQ,10621
+kadoo/main.py,sha256=m2dnqrHrFYYXR3t7RtIdwMqWjvbFCRfh0Mnf5nCXsqA,8104
+kadoo/setup_utils.py,sha256=W_L7Y5y-qKOKo9cJSS2RVOZTjN4CMoVKURwwuSYxaLk,992
+kadoo/start_utils.py,sha256=GrVIcWlXn0O2ti-vq5wxxu21LRYF62Xxv4NayfQ9zSY,1028
+kadoo/table_utils.py,sha256=qvF6R-3NAvePuPhqvq4n0GERE_1sv7K8jhvvv0YVXeg,2560
+kadoo-0.1.0.dist-info/METADATA,sha256=rSCppr59WBwFDaHA8BQEn4HOPF3KXAzEnwpqcTzCDmM,1830
+kadoo-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kadoo-0.1.0.dist-info/entry_points.txt,sha256=ODDe7Z1tjwFixR4pbToPMiCZM5-6ViDTU53M8OT-e4w,44
+kadoo-0.1.0.dist-info/top_level.txt,sha256=INdBI2XE2pEVrbqh15vBkQthIWQAlefOAcg0O0tw8zA,6
+kadoo-0.1.0.dist-info/RECORD,,

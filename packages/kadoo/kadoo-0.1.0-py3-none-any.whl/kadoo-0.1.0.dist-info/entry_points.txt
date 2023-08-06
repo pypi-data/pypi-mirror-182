@@ -1,0 +1,2 @@
+[console_scripts]
+kadoo = unfollow.cli:main
