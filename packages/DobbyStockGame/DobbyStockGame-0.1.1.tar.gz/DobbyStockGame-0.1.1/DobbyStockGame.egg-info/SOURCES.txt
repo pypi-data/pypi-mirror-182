@@ -1,0 +1,83 @@
+.coverage
+.travis.yml
+LICENSE.txt
+README.md
+Start_game_test_suit_User.ipynb
+Startgame_test_suite.ipynb
+Startgame_test_suite.py
+Startgame_test_suite_step2.py
+TestModule1.py
+Test_Stock.ipynb
+Test_Stock_Main.ipynb
+Test_Stock_Main.py
+Test_User.ipynb
+Test_User.py
+Test_bot.ipynb
+Test_bot.py
+Test_endgame.ipynb
+Test_endgame.py
+Windows_Start_game.ipynb
+mod1.py
+requirements.txt
+setup.py
+start_game.py
+testing.txt
+testing_.txt
+testing_stock_main.txt
+testing_user.txt
+.history/Test_Stock_Main_20221223162516.py
+.history/Test_Stock_Main_20221224052551.py
+.history/Test_Stock_Main_20221224053810.py
+.history/Test_Stock_Main_20221224054136.py
+.history/Test_Stock_Main_20221224054137.py
+.history/Test_Stock_Main_20221224101525.py
+.history/Test_Stock_Main_20221224101604.py
+.history/Test_Stock_Main_20221224101613.py
+.history/Test_Stock_Main_20221224102249.py
+.history/Test_Stock_Main_20221224102307.py
+.history/Test_Stock_Main_20221224102339.py
+.history/Test_Stock_Main_20221224102430.py
+.history/Test_Stock_Main_20221224102437.py
+.history/Test_User_20221224044330.py
+.history/Test_User_20221224054126.py
+.history/Test_User_20221224054127.py
+.history/Test_User_20221224095728.py
+.history/start_game_20221224104004.py
+.history/start_game_20221224105021.py
+.history/main_package/Stock_main_20221223162516.py
+.history/main_package/Stock_main_20221224053543.py
+.history/main_package/Stock_main_20221224095801.py
+.history/main_package/Stock_main_20221224104130.py
+.ipynb_checkpoints/Startgame_test_suite-checkpoint.ipynb
+.ipynb_checkpoints/Test_bot-checkpoint.ipynb
+DobbyStockGame.egg-info/PKG-INFO
+DobbyStockGame.egg-info/SOURCES.txt
+DobbyStockGame.egg-info/dependency_links.txt
+DobbyStockGame.egg-info/top_level.txt
+main_package/Buy.py
+main_package/Stock_main.py
+main_package/__pycache__/Buy.cpython-38.pyc
+main_package/__pycache__/Buy.cpython-39.pyc
+main_package/__pycache__/Stock_main.cpython-38.pyc
+main_package/__pycache__/Stock_main.cpython-39.pyc
+step2- test files/.coverage
+step2- test files/Start_game_test_suit_User.ipynb
+step2- test files/Startgame_test_suite.ipynb
+step2- test files/Startgame_test_suite_step2.py
+step2- test files/Test_Stock.ipynb
+step2- test files/Test_Stock_Main.py
+step2- test files/Test_User.ipynb
+step2- test files/Test_User.py
+step2- test files/Test_bot.ipynb
+step2- test files/Test_bot.py
+step2- test files/Test_endgame.ipynb
+step2- test files/Test_endgame.py
+step2- test files/__pycache__/Test_bot.cpython-39.pyc
+sub_package/User.py
+sub_package/bot.py
+sub_package/endgame.py
+sub_package/.ipynb_checkpoints/Test_endgame-checkpoint.ipynb
+sub_package/__pycache__/User.cpython-38.pyc
+sub_package/__pycache__/User.cpython-39.pyc
+sub_package/__pycache__/bot.cpython-39.pyc
+sub_package/__pycache__/endgame.cpython-39.pyc
