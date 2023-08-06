@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_vizlink_components/Breadcrumbs.py
+dash_vizlink_components/__init__.py
+dash_vizlink_components/_imports_.py
+dash_vizlink_components/dash_vizlink_components.min.js
+dash_vizlink_components/dash_vizlink_components.min.js.map
+dash_vizlink_components/metadata.json
+dash_vizlink_components/package-info.json
+dash_vizlink_components.egg-info/PKG-INFO
+dash_vizlink_components.egg-info/SOURCES.txt
+dash_vizlink_components.egg-info/dependency_links.txt
+dash_vizlink_components.egg-info/top_level.txt
