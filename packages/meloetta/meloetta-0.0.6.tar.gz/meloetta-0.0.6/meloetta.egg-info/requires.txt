@@ -1,0 +1,8 @@
+py_mini_racer==0.6.0
+requests==2.28.1
+websockets==10.4
+
+[core_tests]
+transformers[torch]==4.18.0
+sentence-transformers==2.2.0
+huggingface-hub==0.4.0

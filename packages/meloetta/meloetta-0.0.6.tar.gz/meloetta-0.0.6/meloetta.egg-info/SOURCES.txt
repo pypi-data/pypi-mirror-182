@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+meloetta/__init__.py
+meloetta/battle.py
+meloetta/client.py
+meloetta/data.py
+meloetta/player.py
+meloetta/utils.py
+meloetta.egg-info/PKG-INFO
+meloetta.egg-info/SOURCES.txt
+meloetta.egg-info/dependency_links.txt
+meloetta.egg-info/requires.txt
+meloetta.egg-info/top_level.txt
