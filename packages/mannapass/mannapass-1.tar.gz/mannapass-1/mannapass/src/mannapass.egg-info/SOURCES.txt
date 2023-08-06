@@ -1,0 +1,8 @@
+setup.py
+mannapass/src/mannapass.egg-info/PKG-INFO
+mannapass/src/mannapass.egg-info/SOURCES.txt
+mannapass/src/mannapass.egg-info/dependency_links.txt
+mannapass/src/mannapass.egg-info/requires.txt
+mannapass/src/mannapass.egg-info/top_level.txt
+mannapass/src/mannapass.py
+mannapass/src/mannapass.egg-info/SOURCES.txt

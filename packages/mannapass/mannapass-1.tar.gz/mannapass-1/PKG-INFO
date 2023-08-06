@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mannapass
+Version: 1
+Summary: long distance file reciever
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+from mannapass import *
+
+save the script
+
+fire up 
+
+to convert to exe 
+
+just pyinstaller --onefile scriptname.py
+
+If Lastpass thinks they are Superman
+
+I am Zeus
