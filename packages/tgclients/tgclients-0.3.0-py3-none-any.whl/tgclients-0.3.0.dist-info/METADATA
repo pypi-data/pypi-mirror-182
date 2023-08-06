@@ -1,0 +1,343 @@
+Metadata-Version: 2.1
+Name: tgclients
+Version: 0.3.0
+Summary: TextGrid Python client library for textgrid.de repository access.
+Home-page: https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients
+Author: Stefan Hynek, Ubbo Veentjer
+License: LGPL
+Project-URL: Documentation, https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/blob/main/README.md
+Project-URL: Source, https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients
+Project-URL: Tracker, https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: jinja2
+Requires-Dist: zeep
+Requires-Dist: xsdata[lxml]
+Requires-Dist: defusedxml
+Provides-Extra: dev
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: bandit ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: rstcheck ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: requests-mock ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: reuse ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: testbook ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Provides-Extra: icu
+Requires-Dist: PyICU ; extra == 'icu'
+
+<!--
+SPDX-FileCopyrightText: 2022 Georg-August-Universität Göttingen
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
+# TextGrid Python clients
+
+The TextGrid Python clients provide access to the [TextGrid Repository](https://textgridrep.org/)
+services [API](http://textgridlab.org/doc/services/index.html).
+
+
+## Installation and Usage
+
+```sh
+pip install tgclients
+```
+
+```python
+import tgclients
+```
+
+## Development
+
+1. Prerequisites
+    - Python > 3.8
+
+1. Create/activate virtual environment (ensure you use the correct python version!).
+
+    ```sh
+    python -m venv venv
+    . venv/bin/activate
+    pip install --upgrade pip
+    ```
+
+1. Install requirements.
+
+    ```sh
+    pip install -e .[dev]
+    ```
+
+1. For the use with repdav, add `-e /path/to/tgclients/source/code` to your requirements or install it manually.
+
+    ```sh
+    pip install -e /path/to/tgclients/source/code
+    ```
+
+## requirements.txt and requirements.dev.txt
+
+If a requirements.txt is needed, it can be generated out of setup.py with [pip-tools](https://github.com/jazzband/pip-tools#requirements-from-setuppy):
+
+    ```sh
+    pip-compile setup.cfg
+    ```
+
+If a requirements.txt for the dev dependencies (or a requirements.dev.txt) is needed, enter:
+
+    ```sh
+    pip-compile setup.cfg --extra dev --allow-unsafe -o requirements.dev.txt
+    ```
+
+## ICU dependency
+If you rely on filename_from_metadata() feature you should possibly install PyICU, as this makes sure the same transliteration as in TextGrid
+aggregator and TextGridLab is used. Then install with:
+
+    ```sh
+    pip install -e .[icu,dev]
+    ```
+
+or just
+
+    ```sh
+    pip install -e .[icu]
+    ```
+
+There is a minimal fallback implememted for use without PyICU, which is only sufficient to pass the integration tests.
+
+## Contributing
+
+Commit convention:
+
+- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+Style constraints:
+
+- Code: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+- Documentation: [Google style docstrings (Chapter 3.8 from Google styleguide)](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings)
+
+Coding constraints:
+
+- Objects that are not supposed to be used outside the current scope MUST be named starting with `_` (underscore): [PEP 316](https://www.python.org/dev/peps/pep-0316/#id12)
+
+For your convenience, pre-commit hooks are configured to check against these constraints. Provided, you have installed the development requirements (see above), activate `pre-commit` to run on every `git commit`:
+
+```sh
+pre-commit install
+```
+
+Also, a helper with conventional commits is installed with the development requirements that you could leverage to easily comply with it. Just use `cz c` instead of `git commit`
+
+## Testing
+
+### Unit Tests
+
+```sh
+pytest
+```
+
+### Integration Tests
+
+For Integration tests create a project in TextGridLab and get a [SessionID](https://textgridlab.org/1.0/Shibboleth.sso/Login?target=/1.0/secure/TextGrid-WebAuth.php?authZinstance=textgrid-esx2.gwdg.de).
+
+Then create a file '.env' containing the following entries:
+
+```sh
+SESSION_ID=YOUR-SESSION-ID
+PROJECT_ID=YOUR-PROJECT-ID
+```
+
+For testing on another TextGrid server than the default production system you may also set the `TEXTGRID_HOST` environment variable.
+
+```sh
+set -o allexport; source .env; set +o allexport
+pytest --integration
+```
+
+to capture print() output (only works if assert failed):
+
+```sh
+pytest -o log_cli=true --capture=sys --integration
+```
+
+to capture with debug log enabled
+
+```sh
+pytest -o log_cli=true --log-cli-level=DEBUG --capture=sys --integration
+```
+
+## Databinding
+to re-generate the databinding do
+
+```sh
+pip install xsdata[cli]
+cd src
+xsdata https://gitlab.gwdg.de/dariah-de/textgridrep/tg-search/-/raw/main/tgsearch-api/src/main/resources/tgsearch.xsd --package tgclients.databinding --docstring-style Google
+```
+
+## Logging
+
+The tgclients log communicaction problems with the services with log level WARNING, to have them visible in Jupyter notebooks.
+If you use the clients and do not want to pollute your log files you may change the log level of the clients to ERROR, e.g.:
+
+```python
+import logging
+logging.getLogger('tgclients').setLevel(logging.ERROR)
+```
+
+or more specific, e.g. for not getting crud warnings:
+```python
+import logging
+logging.getLogger('tgclients.crud').setLevel(logging.ERROR)
+```
+
+
+## License
+
+This project aims to be [REUSE compliant](https://api.reuse.software/info/gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients).
+Original parts are licensed under AGPL-3.0-or-later.
+Derivative code is licensed under the respective license of the original.
+Documentation, configuration and generated code files are licensed under CC0-1.0.
+
+## Badges
+
+[![REUSE status](https://api.reuse.software/badge/gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients)](https://api.reuse.software/info/gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients)
+[![PyPI version](https://badge.fury.io/py/tgclients.svg)](https://badge.fury.io/py/tgclients)
+[![Coverage](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/badges/main/coverage.svg)](https://dariah-de.pages.gwdg.de/textgridrep/textgrid-python-clients/htmlcov/index.html)
+
+<!--
+SPDX-FileCopyrightText: 2022 Georg-August-Universität Göttingen
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
+# Changelog
+
+<!--next-version-placeholder-->
+
+## v0.3.0 (2022-12-22)
+### Feature
+* **TextgridSearch:** Add methods for query and filter to search client ([`93a5038`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/93a50385258cca40b72906bac8f289ac2f770434))
+
+### Documentation
+* **Jupyter-Notebooks:** Documentation for the aggregating editions notebook ([`64fafff`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/64fafffabbaecd70309a51658577edc2eb40402a))
+* **search.py:** API docs and corrections ([`1d71a0d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/1d71a0d64154ad40f3d641468991d520afa247ac))
+* Add descriptive metadata about the package ([`c754c07`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/c754c07c76183198795b3756c31d41c6951459c6))
+* **Jupyter-Notebooks:** Notebook example with pagination to retrieve all editions metadata and fulltext of one project id ([`a83a4c6`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/a83a4c65e980731c1a82dc5676fc07332695a5b7))
+* **Jupyter-Notebooks:** 3 different ways to get plaintext for editions content ([`a1a1f51`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/a1a1f51d515ca1856faf397836959795d6945189))
+* **Jupyter-Notebooks:** Add a notebook which makes use of search api ([`2b547f2`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/2b547f21455bc8784e93a5c6c6be27c2dde55f06))
+
+## v0.2.0 (2022-12-22)
+### Feature
+* Publish package to pypi.org ([`827b505`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/827b5054132bbe2a67abd2b627a80061e13135e8))
+
+## v0.1.4 (2022-12-21)
+### Fix
+* Setup tools package version from tgclients.__version__ ([`81c26cc`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/81c26ccc2b1902dc080eaff9444dd2cc628e9225))
+
+## v0.1.3 (2022-12-21)
+### Fix
+* Next test, what version ends up in pypi repo? ([`ce1b86d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/ce1b86da5b2c1bb12a6e1ac1852a2a17b764a48f))
+
+## v0.1.2 (2022-12-21)
+### Fix
+* Next try to get semantic release to publish the package ([`367f88e`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/367f88ebd1d605cd807359d3eef517da2f59e952))
+
+## v0.1.1 (2022-12-21)
+### Fix
+* **test:** No real fix, just test if semantic release works now ([`4958eb7`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/4958eb744baf9410f9d7db0abea5caffed2d352c))
+
+### Documentation
+* **README.md:** Test if release is triggered ([`93fea7d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/93fea7d8a7b0fdf5a18d0c100be6a8643099e8c0))
+
+## v0.1.0 (2022-12-21)
+### Feature
+* **TextgridMetadata:** Provide method to build metadata with databinding ([`62d2108`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/62d21080c9859388382191a2150a8aa113210195))
+* **crud.py:** Add databinding to TextGridCRUD, create TextGridCrudRequest for tgcrud access without databinding ([`eb712e0`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/eb712e07bddf0237b3f23e983145e8252a602a1a))
+* **TextgridMetadata:** Provide method to build metadata with databinding ([`760732c`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/760732c1264fc324aa725189ef74ad002b08e722))
+* **crud.py:** Add databinding to TextGridCRUD, create TextGridCrudRequest for tgcrud access without databinding ([`4e42830`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/4e42830208e5f637aabb8ad98c737c4608f68076))
+* Make PyICU dependency optional ([`91b1183`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/91b118304cd216a21e658fc123983236f2f7d4b3))
+* **search.py:** Implement error handling for http status <400, add http timeout ([`85e365e`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/85e365e7eda151c0e64d7e054f5f69fcc461901c))
+* **TextgridCRUD:** Implement error handling for http status != 200, add http timeout and missing function docs ([`215c8e7`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/215c8e7844d9224b6da82567b4a17d4a8b78cd6d))
+* **Aggregator:** Overload zip function to optionally take python lists of uris ([`9ac2b06`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/9ac2b0633cf5de3dd53d8291e76ebba07d736ab7))
+* **Aggregator:** API for retrieving plain text ([`8a319a7`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/8a319a7b2bbed39493d107df14a870d6f21a596b))
+* **TextgridConfig:** Property for http timeout in config ([`bf580c1`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/bf580c13b7732153e67cb11c4b08fdc1c32082fd))
+* **utils.py:** Add a utils class with methods to work with aggregations ([`b5ad308`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/b5ad308c171feb339e87f9149aa0a08212f94c0e))
+* **TextGridAuth:** Add methods for creating, deleting and adding roles to projects ([`fbea8fa`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/fbea8faf4a00302fba2bbafba72521db1a0c7f6f))
+* **Aggregator:** Add initial aggregator client ([`8d360b4`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/8d360b4d8cf7ff2aa34a467acd3e071565148e40))
+* **TextgridAuth:** Add methods to get a specific or all project description(s) ([`75d70c7`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/75d70c78866200463073449cd26a96aab91ba992))
+* **TextgridMetadata:** Port textgrid object to filename mapping methods from link-rewriter (java) to python ([`e101f56`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/e101f566b0ec02f7d33b31ca9b5c2bf32a0653ce))
+* **search.py:** Split tgsearch client into TextGridSearchRequest (low level) and TextGridSearch (with databinding) ([`cd56f43`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/cd56f43d3f842600bfb5638678771bf4d0da1080))
+* Add databinding for tgsearch/textgrid metadata xml schema using xsdata library ([`0f440c9`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/0f440c9da4456cdafca7ef6b90b66afa3b209f23))
+* **TextgridCRUD:** Log multipart upload progress in debug mode ([`1107588`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/11075882428b9c787669a63becfa346b79671d58))
+* Default to public service endpoints on production system when no specific config given ([`206f69d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/206f69d77bd52410fe871403296553c3f49bcf43))
+* Jupyter notebooks example ([`35437b6`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/35437b6a175af2fb91a24c69fd1b962c11e579c6))
+* Basic sphinx doc example ([`a9d013e`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/a9d013e6ab974d28840eb9ccdb62c6560d206285))
+* **TextgridCRUD:** Streaming multiparts ([`a60b5a1`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/a60b5a1fc019569e38b55be1cc50f4b29cdd3419))
+* **TextgridConfig:** Automatically remove trailing slash from hostname ([`7b5726e`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/7b5726e7b023c57c5f3eb1446fc0e6a3ff91ab77))
+* **TextgridConfig:** Automatically remove trailing slash from hostname ([`5c14a1b`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/5c14a1be426e599fb814a6b598757d3e5f7f8ccf))
+* **TextgridCRUD:** Implement update ([`41deb2c`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/41deb2cecce9a207be1107f01c1b3eb3c7a972b5))
+* Initial library and dev-environment setup ([`e9537c8`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/e9537c8a3d44dadb6e61ee486945aea9a5a9ab0a))
+
+### Fix
+* **Aggregator:** Python 3.8 has no builtin type list yet ([`d319576`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/d31957605cffede4f26b9337f48f92b774b24cc7))
+* **TextGridAuth:** Fix a syntax error introcuced with last commit ([`1542a7d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/1542a7d701c09d44999fb0b5e136102654971ea5))
+* Python 3.8 does not yet have internal list type, import from typings ([`1bb4e2e`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/1bb4e2e6cfbb6f34abac59704f1691b7ad608689))
+* **Metadata:** Use defusedxml for parsing xml ([`f56402e`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/f56402e93a6e13cd0659480ce268227e919e1405))
+* **templates/metadata.xml.jinja2:** Move SPDX header out of the template ([`a3c4a94`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/a3c4a9490fcbcc048b28975b6e7c61b0acf802d4))
+* Response encoding in tgcrud ([`2146439`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/214643968490c139d40d0dc6fd7f70bc017e377b))
+* **metadata.py:** Title from textgrid-metadata transliterated with the icu rules may contain dots. fixed the id_from_filename extraction ([`d51fc0d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/d51fc0dcfb4ecdb652517436e482fbd13fde18fa))
+* **metadata.py:** Unknown mime types have no extension ([`8455c60`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/8455c60dce3921e4697b03a228fb93459ed396ff))
+
+### Breaking
+* TextGridCRUD is now named TextGridCrud, and has databinding. Use TextGridCrudRequest, if you do not want to use the databinding  ([`46edc5f`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/46edc5fb7c1ca0b362d87cf422dc9d610e741154))
+*  ([`eb712e0`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/eb712e07bddf0237b3f23e983145e8252a602a1a))
+* TextGridCRUD is now named TextGridCrud, and has databinding. Use TextGridCrudRequest, if you do not want to use the databinding  ([`d119c82`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/d119c8228e6198785ba7d1e151cf14503b61bb13))
+*  ([`4e42830`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/4e42830208e5f637aabb8ad98c737c4608f68076))
+*  ([`91b1183`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/91b118304cd216a21e658fc123983236f2f7d4b3))
+* parameter for zip() is named textgrid_uris instead of textgrid_uri now  ([`9ac2b06`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/9ac2b0633cf5de3dd53d8291e76ebba07d736ab7))
+* redefined-builtin param "format" is now "mimetype", in metadaty.py API  ([`eb1df45`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/eb1df458210c90bbbe3e53b33850714e036251f6))
+*  ([`cd56f43`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/cd56f43d3f842600bfb5638678771bf4d0da1080))
+
+### Documentation
+* Doc corrections and indention ([`bf71ee9`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/bf71ee9b726e6c0d264de0eeb38594f1aa324ba5))
+* **crud.py:** Some random code has sneaked into the docstring ([`36947a6`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/36947a691b5d6f86b1bf2e72da123cbdff61ff1a))
+* **TextGridCrud:** API docs ([`b9afced`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/b9afced88bd31b08b26f5a6ef8105a2ef397e532))
+* Doc corrections and indention ([`d8e6772`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/d8e6772fff276c732186db850cc2c87feedcbdec))
+* **crud.py:** Some random code has sneaked into the docstring ([`0b86afb`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/0b86afb697021c6642182b0865c695337bab7594))
+* **TextGridCrud:** API docs ([`3d36fc2`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/3d36fc20c8029b0b13c9911be130b1ce84dbaf60))
+* **metadata.py:** Add doc and reformat to please pylint ([`e92af03`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/e92af0318dac08c193207817787ab360f803f718))
+* **README.md:** Its PyICU not pyICU ([`1c5618c`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/1c5618cd332b77afdb2a92645da6cef7d967576f))
+* **Jupyter-Notebooks:** Recommend using jupyter lab instead of jupyter notebooks ([`f5a7de5`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/f5a7de53c770d5a01472a14ba16343a625829028))
+* **TextgridCRUD:** Correct description of exceptions raised ([`f84f661`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/f84f6618c5ab3a42545a1e3b135fed9bfcad6b16))
+* **Jupyter-Notebooks:** Merge cells ([`567bbba`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/567bbbab75c356f23244aa645add900f4035f64e))
+* **Jupyter-Notebooks:** Clean notebooks, add .gitignore and a notebook license ([`ea8ebf1`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/ea8ebf1508cb8a1aabd1c963ac14f05af851dc21))
+* **Jupyter-Notebooks:** Example notebook how to create projects and aggregations ([`7b953f2`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/7b953f29ada5de6bdf1dae8403534287a385836c))
+* **Utils:** Specify type of list in type hints ([`7c63673`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/7c63673801928fe8161bdcd78be5416427713d71))
+* **README.md:** Correct sentence ([`5182732`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/518273226f8f315f4c23eb5c464d7b83a29b14fb))
+* **README.md:** Add direct URL for getting SID ([`9a3ac9a`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/9a3ac9a28f5f9917569811d9b11c4484c2f16cb4))
+* **TextgridMetadata:** Document filename_from_metadata(), filename() and id_from_filename() ([`09762f6`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/09762f6bb865e84e5a2a3fda7e3a96cc736adea3))
+* **notebooks:** Cleanup and document jupyter notebook sample ([`fe8db4d`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/fe8db4da080b43f7df880f172545540dc556a867))
+* Rewrite docstrings in google style, add linter for that ([`7620934`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/7620934086bca2fbdccae201d852ffc050f0883c))
+* **TextgridSearch:** Document params for info ([`b6c154b`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/b6c154be1463bd5f5fc312eac5d2787fdbc43c1b))
+* **TextgridCRUD:** Document read, create and delete in google docstring style ([`9eba998`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/9eba998375ca2f95754e672f84d6a32bce780394))
+* **readme:** Explain installation and import ([`6e7aeb0`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/6e7aeb0ee9c80a44e6c8aa826a837506b30b1067))
+* **readme:** Explain installation and import ([`c6cc841`](https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients/-/commit/c6cc84172fde1ff9da3a20ef28a1a1d09ffa5255))
