@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tor-refresh
+Version: 0.3.1
+Summary: Refresh your TOR circuit
+Home-page: https://github.com/Fraccs/tor-refresh
+Author: Francesco Aliprandi
+Author-email: aliprandifrancescopp@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: readchar
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: stem
+Requires-Dist: string-utils
+Requires-Dist: typer
+
+# tor-refresh
+🧅 Refresh your TOR circuit.
