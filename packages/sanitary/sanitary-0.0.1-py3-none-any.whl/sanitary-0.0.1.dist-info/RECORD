@@ -1,0 +1,7 @@
+sanitary-0.0.1.dist-info/METADATA,sha256=vSRLmavD6xyWKdH2eIgjkR1z7aS7DziPChHEZKjdEMc,4760
+sanitary-0.0.1.dist-info/WHEEL,sha256=JYXVeDisSBbTyVnRCeyx0FP5OAo7ZFbiaJ3jlwIMgZI,90
+sanitary-0.0.1.dist-info/licenses/LICENSE.txt,sha256=xExQmYeLE8xLQLr4cLcAc9Kr_e5ts6vtjP_EvJNntaE,1100
+sanitary/__init__.py,sha256=F-l2yHE7Y9NY_Mk_OyF2IcTqpHaP14JW-mp4PmUF2p0,4601
+sanitary/hashing.py,sha256=Aymr6lZqO27WI1cpROqMJsB11FRS9M1HWRYWX2uSTBg,2578
+sanitary/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanitary-0.0.1.dist-info/RECORD,,
