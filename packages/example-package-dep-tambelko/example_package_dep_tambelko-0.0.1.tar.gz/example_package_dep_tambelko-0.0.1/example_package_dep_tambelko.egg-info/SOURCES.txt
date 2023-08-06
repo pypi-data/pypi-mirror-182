@@ -1,0 +1,5 @@
+pyproject.toml
+example_package_dep_tambelko.egg-info/PKG-INFO
+example_package_dep_tambelko.egg-info/SOURCES.txt
+example_package_dep_tambelko.egg-info/dependency_links.txt
+example_package_dep_tambelko.egg-info/top_level.txt
