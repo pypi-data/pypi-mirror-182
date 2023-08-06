@@ -1,0 +1,12 @@
+papermill_service/__init__.py,sha256=tnaZsHKfK6apy11Asf57FYduq2VhD0Le0jwCQX5dFPM,122
+papermill_service/__main__.py,sha256=5XdQDE4EhcT3RghQj9Xljvn0QLmHv59fZzWaBqHwwtQ,444
+papermill_service/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+papermill_service/app.py,sha256=p71UpVj7iuYeGqh1sNXHfRHS1aHYoa8b2ZIQzMavaHU,1258
+papermill_service/config.py,sha256=v5AuUHPgwqjzfBykJL0-ep1lCjBvwE4rDxMNcuHuIcE,403
+papermill_service/executor.py,sha256=y7SE0nvlOD5g5StuDuiOzP_75mlNsuceJNbeLiPPguw,2638
+papermill_service-0.1.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+papermill_service-0.1.0.dist-info/METADATA,sha256=eofbFW4fBiugbjYKLXn9MmI-DUgCoKffXiPK4SKMVKg,16410
+papermill_service-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+papermill_service-0.1.0.dist-info/entry_points.txt,sha256=n7vD1LZvxUaj8e-Ev-HSk78K2_De3M99D74Dxtg7vSg,70
+papermill_service-0.1.0.dist-info/top_level.txt,sha256=asu3nCXnB4OUtUwVxunSvAWd85OzhN5ho9cU63oahHo,18
+papermill_service-0.1.0.dist-info/RECORD,,

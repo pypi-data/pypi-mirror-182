@@ -1,0 +1,2 @@
+[console_scripts]
+papermill_service = papermill_service.__main__:main
