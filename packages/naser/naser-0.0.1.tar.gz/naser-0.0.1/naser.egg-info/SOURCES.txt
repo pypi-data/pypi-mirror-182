@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+naser.egg-info/PKG-INFO
+naser.egg-info/SOURCES.txt
+naser.egg-info/dependency_links.txt
+naser.egg-info/top_level.txt
