@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+versioneer.py
+jaxutils/__init__.py
+jaxutils/_version.py
+jaxutils/data.py
+jaxutils/pytree.py
+jaxutils_nightly.egg-info/PKG-INFO
+jaxutils_nightly.egg-info/SOURCES.txt
+jaxutils_nightly.egg-info/dependency_links.txt
+jaxutils_nightly.egg-info/requires.txt
+jaxutils_nightly.egg-info/top_level.txt
