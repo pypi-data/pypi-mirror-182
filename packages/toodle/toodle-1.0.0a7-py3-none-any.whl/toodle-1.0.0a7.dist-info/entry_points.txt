@@ -1,0 +1,2 @@
+[console_scripts]
+toodle = toodle:__main__
