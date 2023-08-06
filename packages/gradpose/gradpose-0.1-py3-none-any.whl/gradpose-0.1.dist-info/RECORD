@@ -1,0 +1,9 @@
+gradpose/__init__.py,sha256=ZH7b-vbJf7YkVoduhXnqupcrkSbbIuHZNI20sHhLBfY,23
+gradpose/gradpose.py,sha256=3_yS8af6MHkgeMVSzmtXKA7LF_Rp6uAsjLiJml0QGXE,20901
+gradpose/util.py,sha256=k5SX7E3ZY2BY49I6wfI8ER86DmvmfF_4suliASLAFVM,7571
+gradpose-0.1.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+gradpose-0.1.dist-info/METADATA,sha256=_pwTSwsCBJfZP6IDRwSNChwbJkh75mhCJUXxvt0lB4o,3237
+gradpose-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gradpose-0.1.dist-info/entry_points.txt,sha256=iLEXCL4R4-CTAWhI03h5-nQO62chYO81rp9qpeyJp6o,43
+gradpose-0.1.dist-info/top_level.txt,sha256=qCbZp1coCjqyr4q6TeBJoHg7RyI32CCNf1iqjJyl5Pw,9
+gradpose-0.1.dist-info/RECORD,,
