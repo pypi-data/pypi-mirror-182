@@ -1,0 +1,10 @@
+scikit-learn>=1.0.0
+
+[dev]
+scikit-learn>=1.0.0
+interrogate>=1.5.0
+flake8>=3.6.0
+pytest>=4.0.2
+black>=19.3b0
+pre-commit>=2.2.0
+flake8-print>=4.0.0
