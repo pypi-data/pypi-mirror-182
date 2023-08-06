@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mprov_esxiprovisioner
+Version: 0.0.2
+Summary: An add-on to the mPCC to enable it to provision ESXi servers
+Home-page: https://github.com/mprov-ng/mprov_esxiprovisioner
+Author: Jason Williams
+Author-email: jasonw@jhu.edu
+Project-URL: Bug Tracker, https://github.com/mprov-ng/mprov_esxiprovisioner/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# mprov_esxiprovision
+This is an mPCC python module add-on that will allow the mPCC to provision ESXi vm server hosts.
