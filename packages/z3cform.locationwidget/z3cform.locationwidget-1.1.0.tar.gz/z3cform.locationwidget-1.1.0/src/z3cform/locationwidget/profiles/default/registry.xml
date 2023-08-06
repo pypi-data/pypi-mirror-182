@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<registry>
+  <records interface="z3cform.locationwidget.browser.controlpanel.ILocationwidgetControlPanel"
+           prefix="locationwidget" />
+
+  <record name="locationwidget.api_key" interface="z3cform.locationwidget.browser.controlpanel.ILocationwidgetControlPanel" field="api_key">
+    <field type="plone.registry.field.TextLine">
+      <default>AIzaSyCV8SymcrT1HBgJ7rb0O09ANmKsCHi27cw</default>
+      <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="z3cform.locationwidget" ns0:translate="">Define a key to use. Get one: https://developers.google.com/maps/documentation/javascript/get-api-key</description>
+      <title xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="z3cform.locationwidget" ns0:translate="">Google Maps Api key</title>
+    </field>
+    <value>AIzaSyCV8SymcrT1HBgJ7rb0O09ANmKsCHi27cw</value>
+  </record>
+  <record name="locationwidget.map_center" interface="z3cform.locationwidget.browser.controlpanel.ILocationwidgetControlPanel" field="map_center">
+    <field type="plone.registry.field.TextLine">
+      <default>42.506285|1.5218009999999822</default>
+      <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="z3cform.locationwidget" ns0:translate="">Set a point to initialize widget maps.</description>
+      <title xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="z3cform.locationwidget" ns0:translate="">Map center</title>
+    </field>
+    <value>42.506285|1.5218009999999822</value>
+  </record>
+
+</registry>

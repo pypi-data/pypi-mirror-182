@@ -1,0 +1,58 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      i18n:domain="z3cform.locationwidget"
+      tal:omit-tag="">
+
+  <div tal:attributes="id string:location-widget-map-${view/timestamp};
+                       data-value view/value" ></div>
+
+
+  <script type="text/javascript">
+    require([
+      'jquery',
+      '++resource++z3cform.locationwidget/gmaps.js',
+      'https://maps.googleapis.com/maps/api/js?key=${view/api_key}'
+    ], (function($, GMaps){
+
+        var timestamp = ${view/timestamp},
+            mapIdSelector = '#location-widget-map-'+timestamp,
+            value = parseLatLng($(mapIdSelector).attr('data-value')),
+            map = new GMaps({
+              div: mapIdSelector,
+              lat: value.lat,
+              lng: value.lng,
+              height: '350px',
+              width: '100%'
+            })
+
+        var marker = map.addMarker({
+          lat: value.lat,
+          lng: value.lng,
+          animation: google.maps.Animation.DROP
+        })
+
+        function parseLatLng(input){
+
+          if (typeof input ==  'object') {
+            if (typeof input.lat == 'function') {
+              return input.lat() + '|' + input.lng()
+            } else {
+              return input.lat + '|' + input.lng
+            }
+
+          } else if (typeof input == 'string') {
+            var coor = input.split('|')
+            return {
+              lat: parseFloat(coor[0]),
+              lng: parseFloat(coor[1])
+            }
+          }
+        }
+
+      })
+    )
+  </script>
+
+</html>

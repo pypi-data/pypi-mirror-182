@@ -1,0 +1,70 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-11-14 14:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: z3cform.locationwidget\n"
+
+#: ../browser/controlpanel.py:22
+#: ../profiles/default/registry.xml
+msgid "Define a key to use. Get one: https://developers.google.com/maps/documentation/javascript/get-api-key"
+msgstr ""
+
+#: ../browser/controlpanel.py:21
+#: ../profiles/default/registry.xml
+msgid "Google Maps Api key"
+msgstr ""
+
+#: ../configure.zcml:22
+msgid "Installs the z3cform.locationwidget add-on."
+msgstr ""
+
+#: ../widget.py:16
+msgid "Location"
+msgstr ""
+
+#: ../browser/controlpanel.py:31
+msgid "Location Widget Settings"
+msgstr ""
+
+#: ../browser/controlpanel.py:15
+#: ../profiles/default/registry.xml
+msgid "Map center"
+msgstr ""
+
+#: ../browser/controlpanel.py:16
+#: ../profiles/default/registry.xml
+msgid "Set a point to initialize widget maps."
+msgstr ""
+
+#: ../location_input.pt:16
+msgid "Show coordinates"
+msgstr ""
+
+#: ../configure.zcml:22
+msgid "Widget MapLocation (z3cform.locationwidget)"
+msgstr ""
+
+#: ../configure.zcml:32
+msgid "Widget MapLocation (z3cform.locationwidget) (uninstall)"
+msgstr ""
+
+#: ../location_input.pt:9
+msgid "Type an address"
+msgstr ""
+
+#: ../configure.zcml:32
+msgid "Uninstalls the z3cform.locationwidget add-on."
+msgstr ""

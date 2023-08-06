@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="z3cform.locationwidget">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="z3cform.locationwidget.interfaces.IZ3CformLocationwidgetLayer"
+      />
+
+
+  <browser:resourceDirectory
+    name="z3cform.locationwidget"
+    directory="static" />
+
+  <browser:page
+    name="locationwidget-controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".controlpanel.LocationwidgetControlPanelView"
+    permission="cmf.ManagePortal"
+    />
+
+</configure>

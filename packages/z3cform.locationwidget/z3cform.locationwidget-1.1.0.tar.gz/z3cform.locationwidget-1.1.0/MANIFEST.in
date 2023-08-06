@@ -1,0 +1,4 @@
+graft src/z3cform
+graft docs
+include *.rst
+global-exclude *.pyc
