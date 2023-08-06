@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/CustomPlotlyThemes.egg-info/PKG-INFO
+src/CustomPlotlyThemes.egg-info/SOURCES.txt
+src/CustomPlotlyThemes.egg-info/dependency_links.txt
+src/CustomPlotlyThemes.egg-info/requires.txt
+src/CustomPlotlyThemes.egg-info/top_level.txt
+src/custom_themes/__init__.py
+src/custom_themes/colorschemes.py
+src/custom_themes/custom_plotly_themes.py
