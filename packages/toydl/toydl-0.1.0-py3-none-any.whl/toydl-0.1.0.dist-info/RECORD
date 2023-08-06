@@ -1,0 +1,9 @@
+LICENSE,sha256=nJjVb7q3OwHPImkuzEI7WaZBUcKO--ZzwJDuX-mvdb0,1067
+README.md,sha256=bIfqObPL2-60d2FcGU1lIFHVrzCD8ka7CKdVigRmRCo,203
+toydl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toydl/torch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toydl/torch/operator.py,sha256=bkD3xGoAAdtoBztWiVsfnubzpxzHgaHnruHTFU3nRQg,115
+toydl-0.1.0.dist-info/METADATA,sha256=8_Sz4Q06vNx2TActdwR26Z71PXqteC19Xw7ta5wrEMg,1281
+toydl-0.1.0.dist-info/LICENSE,sha256=nJjVb7q3OwHPImkuzEI7WaZBUcKO--ZzwJDuX-mvdb0,1067
+toydl-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+toydl-0.1.0.dist-info/RECORD,,
