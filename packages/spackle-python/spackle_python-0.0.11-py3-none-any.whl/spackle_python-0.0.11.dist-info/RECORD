@@ -1,0 +1,8 @@
+spackle/__init__.py,sha256=ZuDyPNtx2hERRKlsTPXA2zSTVURORO3XXJdzDZE9rTY,138
+spackle/customer.py,sha256=aKtnn3SXdw_FYfN9hSBi3QDOyYzBIuw1-KXEOcaOhCk,1202
+spackle/dynamodb.py,sha256=A1PBLtkBOvVQgsyHhJDhMmV8d-NGuU32lDWk0d-J2OQ,1869
+spackle/exceptions.py,sha256=IKkq71sxuuY2R9H34Q-L7WY_W-NSmy0IqGF-qYIj16I,44
+spackle/log.py,sha256=S2lugUEJEGGsMz1pk4S2ZYAnDovglfcB9_zkbGLhkyQ,1652
+spackle_python-0.0.11.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+spackle_python-0.0.11.dist-info/METADATA,sha256=HVAzqGLeLJ2iLQ4IcM60umpC2w5YqUeZ5a5IXmVYFo0,467
+spackle_python-0.0.11.dist-info/RECORD,,
