@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mypydbsimple
+Version: 1.0.0
+Summary: Simple mysql db wrapper for python
+Project-URL: Homepage, https://github.com/mikerr1/mypydbsimple
+Author-email: miker1 <michaelraymond2@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# mypydbsimple
+
+Simple mysql db wrapper for python
