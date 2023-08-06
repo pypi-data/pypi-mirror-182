@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Mathexs
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: 
+Author: Adem Rebahi
+Author-email: ademlp2012@gmail.com
+License: MIT
+Keywords: Functions,Advenced
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Hello,
+Here is the README to how to use the _package "Mathex"
+So first we have 3 class:
+- Operator
+- ProblemRandom = No Function Definied
+- DrawPos.Library = Only Shape.Circle(Size, TextColor, TimeToWait, Speed,BackgroundColor)
+
+How use DrawPos.Library.Shape.Circle(Size, TextColor, TimeToWait, Speed,BackgroundColor):
+exemple : DrawPos.Library.Shape.Circle(90, "#f56", 0, 0,"#000")
+
+ChangeLog
+==========
+
+0.0.1 (21/12/2022)
+-------------------
+- First Release
