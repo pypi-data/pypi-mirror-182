@@ -1,0 +1,7 @@
+torchinstaller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchinstaller/install.sh,sha256=KOpivniQbAmDHPXWe2aVidDVNbqLLfQMAzE2PdBlZHw,780
+torchinstaller/main.py,sha256=m_KUZ7gVjgACuTOYR5VBMOXQ1CQ1Q6dek3wfvB9g3BA,8446
+torchinstaller-0.2.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+torchinstaller-0.2.9.dist-info/entry_points.txt,sha256=PuRpZv6gRZmLmsgO5EUMFXADuS-NzlagP2b1L7k9Lk8,57
+torchinstaller-0.2.9.dist-info/METADATA,sha256=l9r4t7SS4YBS5YL8op6cyAkFq87BLnY9yybjzW-irsk,1483
+torchinstaller-0.2.9.dist-info/RECORD,,
