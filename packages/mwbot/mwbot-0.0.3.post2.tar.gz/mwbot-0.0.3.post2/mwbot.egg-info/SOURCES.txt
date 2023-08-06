@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mwbot/__init__.py
+mwbot/arktool.py
+mwbot/model.py
+mwbot/prototype.py
+mwbot/utils.py
+mwbot.egg-info/PKG-INFO
+mwbot.egg-info/SOURCES.txt
+mwbot.egg-info/dependency_links.txt
+mwbot.egg-info/top_level.txt
