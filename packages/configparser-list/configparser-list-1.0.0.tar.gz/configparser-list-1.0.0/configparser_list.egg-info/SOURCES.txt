@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+ConfigParserList/__init__.py
+ConfigParserList/configparserlist.py
+configparser_list.egg-info/PKG-INFO
+configparser_list.egg-info/SOURCES.txt
+configparser_list.egg-info/dependency_links.txt
+configparser_list.egg-info/requires.txt
+configparser_list.egg-info/top_level.txt
