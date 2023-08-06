@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pysxml
+Version: 1.0.1
+Summary: Generate XML and HTML using an SXML-like syntax
+Home-page: https://codeberg.org/antero/pysxml
+Author: Antero
+License: BSD
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+# pysxml
+
+Generate XML and HTML using an SXML-like syntax.
+
+
+## SXML
+
+SXML is a syntax for creating nested XML-type documents using S-expressions.
+While Python does not support S-expressions, pysxml creates a approximation of
+the SXML syntax using tuples.
+
+
+## Usage
+
+Use the function `sxml_to_xml` to create a string containing XML (or HTML):
+
+    from pysxml import sxml_to_xml
+    
+    sxml = ("html", ("@", ("lang", "en")),
+            ("body",
+             ("p", "hello",
+              ("span", ("@", ("flag",)), "world"),
+              ("br",))))
+    html = sxml_to_xml(sxml, html=True)
+    print(html)
+
+The previous code block will print the following string:
+
+    '<html lang="en"><body><p>hello<span flag="true">world</span><br></p></body></html>'
+
+pysxml also includes a basic `ElementTree.Element` to SXML converter:
+
+    import xml.etree.ElementTree as ET
+    from pysxml import Element_to_sxml
+    
+    xml = '<tag this="that">hello<empty/></tag>'
+    elem = ET.fromstring(xml)
+    converted_sxml = Element_to_sxml(elem)
+    # converted_sxml is: ("tag", ("@" ("this", "that")), "hello", ("empty",))
+
+
+## Limitations
+
+HTML content is not automatically escaped. Use [html.escape](https://docs.python.org/3/library/html.html#html.escape).
+Output is unformatted. Use [toprettyxml()](https://docs.python.org/3/library/xml.dom.minidom.html#xml.dom.minidom.Node.toprettyxml) if you need pretty-printed output.
+Does not currently support `*TOP*`, `*PI*`, namespaces, or comments.
+
+
+## References
+
+-   [SXML specification](https://okmij.org/ftp/Scheme/SXML.html)
+-   [Guile Scheme SXML](https://www.gnu.org/software/guile/manual/html_node/SXML.html)
+-   [Racket SXML](https://docs.racket-lang.org/sxml/SXML.html)
+-   [LXML E-builder](https://lxml.de/apidoc/lxml.builder.html) (inspired pre-release prototype)
+
+
+
