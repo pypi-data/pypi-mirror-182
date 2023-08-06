@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nsj-rest-test-util
+Version: 0.1.0
+Summary: Utilitários para testes de aplicações rests.
+Home-page: https://github.com/Nasajon/nsj-rest-test-util
+Author: Nasajon Sistemas
+Author-email: contact.dev@nasajon.com.br
+Project-URL: Source, https://github.com/Nasajon/nsj-rest-test-util
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# nsj-rest-test-util
+Utilitário para geração e execução de testes em APIs Rest
