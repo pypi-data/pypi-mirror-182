@@ -1,0 +1,2 @@
+[console_scripts]
+ansidocs = ansidocs.src.command_line:main
