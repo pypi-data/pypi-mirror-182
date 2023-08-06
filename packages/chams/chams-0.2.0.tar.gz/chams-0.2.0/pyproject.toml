@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chams"
+version = "0.2.0"
+description = ""
+authors = ["Zakaria Fellah <fellah.zakaria@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.25.0"
+typer = "^0.7.0"
+rich = "^12.6.0"
+
+[tool.poetry.scripts]
+chams = "chams.__main__:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
