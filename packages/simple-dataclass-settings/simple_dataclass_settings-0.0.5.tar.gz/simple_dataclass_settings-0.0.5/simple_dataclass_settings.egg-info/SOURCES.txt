@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+simple_dataclass_settings.py
+simple_dataclass_settings.egg-info/PKG-INFO
+simple_dataclass_settings.egg-info/SOURCES.txt
+simple_dataclass_settings.egg-info/dependency_links.txt
+simple_dataclass_settings.egg-info/top_level.txt
