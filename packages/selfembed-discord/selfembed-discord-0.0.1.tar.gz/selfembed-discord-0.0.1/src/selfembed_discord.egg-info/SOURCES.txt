@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/discord_selfembed/__init__.py
+src/discord_selfembed/embed.py
+src/selfembed_discord.egg-info/PKG-INFO
+src/selfembed_discord.egg-info/SOURCES.txt
+src/selfembed_discord.egg-info/dependency_links.txt
+src/selfembed_discord.egg-info/top_level.txt
