@@ -1,0 +1,5 @@
+partons-0.0.1.dist-info/METADATA,sha256=h7BOoFNnx0N8NfLEGVTp8RjWWjDSO5gJ0gB5s7veZfg,1241
+partons-0.0.1.dist-info/WHEEL,sha256=l3yACceYQWOAu8NU5nq3chVSZj6Eg44gNwxUHSH5hIw,126
+partons/__init__.py,sha256=AOFgrOIoSoukouDHENDqL6Helq0dsDpK-3l1zRwbloY,111
+partons/partons.cpython-310-x86_64-linux-gnu.so,sha256=18qZjRAcdsabxPKZgMBqZwoFEe_tTvXdALUeqB21MDQ,14008
+partons-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: partons
+Version: 0.0.1
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: numpy>=1.16.0,<2.0.0
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx_rtd_theme; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex; extra == 'docs'
+Requires-Dist: nbsphinx; extra == 'docs'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Provides-Extra: docs
+Provides-Extra: test
+Summary: Partons library
+Keywords: high-energy-physics,physics
+Author: Alessandro Candido <candido.ale@gmail.com>
+Author-email: Alessandro Candido <candido.ale@gmail.com>
+License: GPL-3.0-or-later
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: documentation, https://annibale.dev/partons
+
+
