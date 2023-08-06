@@ -1,0 +1,9 @@
+sphinx_sitemap/__init__.py,sha256=piMFckCQripzGDrBkTlg9AysGYDTiYN0utTSPS7Hsig,6037
+tests/conftest.py,sha256=NjFUqnIXOd_U7L4L5eNhS3OBXWs2hzMRZa1ExzXLjb4,484
+tests/test_simple.py,sha256=NE0KCCUlqJGcVCK-BoG56cylvjHK1ze7gBoO2DAyZOc,608
+tests/roots/test-root/conf.py,sha256=LDxlfn2Tib9OrR_Jff847Jx4c6renPNUfzXN9HSzBvk,32
+sphinx_sitemap-2.3.0.dist-info/LICENSE,sha256=fqKRly7IBTaJUZyDcDZSPgsY-LXRSLxPq3f_2vCcLaE,1070
+sphinx_sitemap-2.3.0.dist-info/METADATA,sha256=ARUi2qLBfvCaFw-j7AL-5LMYuwpmP-MdmRSuVRJj04s,8750
+sphinx_sitemap-2.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sphinx_sitemap-2.3.0.dist-info/top_level.txt,sha256=yT8vQOdzrXVjaV0BBoFGSq-jyfKW_L4HLeqTFp7sb1M,21
+sphinx_sitemap-2.3.0.dist-info/RECORD,,
