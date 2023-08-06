@@ -1,0 +1,5 @@
+manager_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manager_client/manager_client.py,sha256=xpHULUPKxqTzFzj7iaXaNodhb5VTh6Bi9JzWDAtM3a4,1839
+scramjet_manager_client-0.1.1a3.dist-info/METADATA,sha256=UipHmpugcjWe-7sTT8PQSkN0-Qo01jAEudQ45xSsMOw,1499
+scramjet_manager_client-0.1.1a3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+scramjet_manager_client-0.1.1a3.dist-info/RECORD,,
