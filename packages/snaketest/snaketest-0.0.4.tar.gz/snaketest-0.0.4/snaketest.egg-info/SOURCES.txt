@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+snaketest/__init__.py
+snaketest.egg-info/PKG-INFO
+snaketest.egg-info/SOURCES.txt
+snaketest.egg-info/dependency_links.txt
+snaketest.egg-info/top_level.txt
