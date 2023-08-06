@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Earth_Explorer_Header xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Fixed_Header>
+    <File_Name>SW_OPER_IBP_CLI_2__00000000T000000_99999999T999999_0001</File_Name>
+    <File_Description>Ionspheric Bubble Probability</File_Description>
+    <Notes/>
+    <Mission>Swarm</Mission>
+    <File_Class>TEST</File_Class>
+    <File_Type>IBP_CLI_2_</File_Type>
+    <Validity_Period>
+      <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+      <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+    </Validity_Period>
+    <File_Version>0001</File_Version>
+    <Source>
+      <System>Local</System>
+      <Creator>wribpxcli</Creator>
+      <Creator_Version>00.01</Creator_Version>
+      <Creation_Date>UTC=2015-06-24T10:45:14</Creation_Date>
+    </Source>
+  </Fixed_Header>
+
+  <Variable_Header>
+    <MPH>
+      <Product>SW_OPER_IBP_CLI_2__00000000T000000_99999999T999999_0001</Product>
+      <Product_Format>CDF</Product_Format>
+      <Proc_Stage_Code>TEST</Proc_Stage_Code>
+      <Ref_Doc>SW-DS-DTU-GS-0001</Ref_Doc>
+      <Proc_Center>GFZ</Proc_Center>
+      <Proc_Time>UTC=2018-11-08T18:75:00:00.000000</Proc_Time>
+      <Software_Version>00.01</Software_Version>
+      <Product_Err>0</Product_Err>
+      <Tot_Size unit="bytes">+00000000000000074747</Tot_Size>
+      <CRC>+0028855242</CRC>
+    </MPH>
+    <SPH>
+      <SPH_Descriptor>MCR_1DM_2_</SPH_Descriptor>
+      <Original_Filename>SW_TEST_IBP_CLI_2__00000000T000000_99999999T999999_0001.DBL</Original_Filename>
+      <Sensing_Time_Interval>
+        <Sensing_Start>UTC=2001-01-02T00:00:00.000000</Sensing_Start>
+        <Sensing_Stop>UTC=2018-02-23T00:00:00.000000</Sensing_Stop>
+      </Sensing_Time_Interval>
+      <Product_Confidence_Data>
+        <Quality_Indicator>000</Quality_Indicator>
+      </Product_Confidence_Data>
+      <List_of_Input_File_Names count="1">
+        <File_Name>Test_Bubble_prob_coeffs.txt</File_Name>
+      </List_of_Input_File_Names>
+      <List_of_Output_File_Names count="1">
+        <File_Name>SW_OPER_IBP_CLI_2__00000000T000000_99999999T999999_0001</File_Name>
+      </List_of_Output_File_Names>
+    </SPH>
+  </Variable_Header>
+
+</Earth_Explorer_Header>
