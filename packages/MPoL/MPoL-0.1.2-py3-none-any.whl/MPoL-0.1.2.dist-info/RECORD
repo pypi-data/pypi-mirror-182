@@ -1,0 +1,17 @@
+mpol/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+mpol/connectors.py,sha256=NkWz-riF3tmrFYlHgAV-bczgo8aL3_dTDfdyHPBTyH4,5943
+mpol/constants.py,sha256=-WwMLwNPmAb5gEQtU8rbO4WwCr38rmTHiQC5X7S0I_Q,305
+mpol/coordinates.py,sha256=zfz3EMtyt5-AsAO-ZzwTBWCAW3Jj507uArDPwOtcj4Y,10059
+mpol/datasets.py,sha256=hqtYH8pKHh6HyGw8J7B_Vb1iq0I9tKGeZ6EbTCd19Rc,18917
+mpol/fourier.py,sha256=SOjPwqoV5rwFI3hrz2a7DUyRU1kEsCX4j_Cm_3nkc4U,22923
+mpol/gridding.py,sha256=gphpnkU6NcttUhyCk8gbMDXEURm-rb6MaVDx47wGZRc,36244
+mpol/images.py,sha256=WiNj50UchOthWvEfmr5lfeur-64pUpj2nFjYxBCgwcE,12074
+mpol/losses.py,sha256=WyT2Nn8Pm8iyEjWGn5M5guXlCgc5ls2d_XQmLVoNAU0,15629
+mpol/precomposed.py,sha256=cHJk8i3VkAWel8bP2c_eV4pBg2gq_zOp6zQ1FIYeWx4,2366
+mpol/spheroidal_gridding.py,sha256=3ca20e-aUynQzGRKbOpveVvCznalv6Yg_gf4CxCI4c4,21791
+mpol/utils.py,sha256=S3QoPbbXaxJF01UgDDVWXXBGutlRgd1ngZUEqaDjl9g,16199
+MPoL-0.1.2.dist-info/LICENSE,sha256=x7cRJXS0FQkssBqqF0YuXGfMh2GNS04cQb11NzjDv50,1068
+MPoL-0.1.2.dist-info/METADATA,sha256=qc7h0GI-vfvjQGlu7_YNRRdrq47e39jr17ZquVqWC-g,4182
+MPoL-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MPoL-0.1.2.dist-info/top_level.txt,sha256=VcItbJKqsM6P6KDXSpkMQUI4kvEbvrP3CA_GInrgq64,5
+MPoL-0.1.2.dist-info/RECORD,,
