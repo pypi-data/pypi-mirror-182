@@ -1,0 +1,11 @@
+include ios_scroll_wrapper/ios_scroll_wrapper.min.js
+include ios_scroll_wrapper/ios_scroll_wrapper.min.js.map
+include ios_scroll_wrapper/async-*.js
+include ios_scroll_wrapper/async-*.js.map
+include ios_scroll_wrapper/*-shared.js
+include ios_scroll_wrapper/*-shared.js.map
+include ios_scroll_wrapper/metadata.json
+include ios_scroll_wrapper/package-info.json
+include README.md
+include LICENSE
+include package.json
