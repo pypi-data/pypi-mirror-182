@@ -1,0 +1,9 @@
+TR_video_process_components/OCR_class.py,sha256=7sswDhCW335qlAnF5VMPCuuiq4gmmrTaFO0RQU8QROE,4165
+TR_video_process_components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TR_video_process_components/img_control.py,sha256=DLkqWrnkgARM17yl77ZBHFi_tAi8eG1Jgtqbn12_84I,7271
+TR_video_process_components/img_control_wo_class.py,sha256=mNJ_hjpEoUuzsPGeycj-pA9cuLtTfuL_0_BU-ccCNII,7178
+TR_video_process_components/live_video.py,sha256=DO5XDHHlfejSf8d9YbIqYcMa5Chgf51QmFekSQmKYVs,2087
+tr_video_process_components-1.0.0.dist-info/METADATA,sha256=SC5UO5NH1aD8K3H-KbWh9tsct5uVUlrG_okO7IlFioU,776
+tr_video_process_components-1.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+tr_video_process_components-1.0.0.dist-info/licenses/LICENSE,sha256=nq2ns40LmdCQ6wPXSjCY72qZ8EtFRlF33U9ubfMwUWc,1082
+tr_video_process_components-1.0.0.dist-info/RECORD,,
