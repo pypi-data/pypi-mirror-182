@@ -1,0 +1,16 @@
+dtwParallel-0.9.20-py3.8-nspkg.pth,sha256=7cnpEMSLx0ZkMVZ1aa4YBZbkncmKvU-i8o6awrRX2tY,565
+dtwParallel/_version.py,sha256=xNkKUpdK7KaQDta4vZzd0Fi2BSgKmdKEMlE9kSahjBg,22
+dtwParallel/configuration.ini,sha256=VxoF85vqv57WjvkO3Ukfm8G2DotSfP04p7Uigqvk5jg,287
+dtwParallel/dtwParallel.py,sha256=6UIC58OqLjbLBgmkuF3gadTDKqetbm53eBwBATFYudc,3695
+dtwParallel/dtw_functions.py,sha256=7c-0F55esQt4_a6E6aR6ZDF-ch4uOssQX7fD63N5JTk,11347
+dtwParallel/error_control.py,sha256=4SFS6orVTd80ztns8gm6tyWihG69hAfJfbGUTWkx9N0,2380
+dtwParallel/utils.py,sha256=i40YwZ7bqbn4ZRF2GrHhoI3GDFF_qVnF2R-tcC5XFI0,8925
+dtwParallel/utils_visualizations.py,sha256=7yJa2guQZ0rESj7s53bL3yTVG1HGn5jjARRDY8rCtnw,2658
+dtwParallel-0.9.20.dist-info/AUTHORS,sha256=hfhsZVMhQBkDoZn6beRmcfQRqyhSwNoKlQNHvYKnAXA,263
+dtwParallel-0.9.20.dist-info/LICENSE,sha256=lGmqCBEjoz94W86t29-R8UjA9lqrmcxWAI55gci7VK4,1362
+dtwParallel-0.9.20.dist-info/METADATA,sha256=QpvIPLUxxU_rMMkVCPlefGC0lRTAvi9h_l9iZ2GFwm8,31582
+dtwParallel-0.9.20.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dtwParallel-0.9.20.dist-info/entry_points.txt,sha256=61aB60v9NtUOYo-1KJzEhrgejbCYzzyjeglKklvn0to,61
+dtwParallel-0.9.20.dist-info/namespace_packages.txt,sha256=xKNYle1WXvDnVLAn7dodgjcqsnutIE8hIw7IIbWPQL0,12
+dtwParallel-0.9.20.dist-info/top_level.txt,sha256=8MBwU7-GR0CtcTqsFjC-z-T7lzGW6SsErkkRX7SwjG0,46
+dtwParallel-0.9.20.dist-info/RECORD,,
