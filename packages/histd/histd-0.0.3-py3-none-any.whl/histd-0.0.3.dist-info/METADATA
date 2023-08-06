@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: histd
+Version: 0.0.3
+Summary: A simple but useful personal diary application
+Author-email: Ivan Reshetnikov <ordinarydev@protonmail.com>
+Project-URL: Homepage, https://github.com/ordinary-dev/histd
+Project-URL: Bug Tracker, https://github.com/ordinary-dev/histd/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
