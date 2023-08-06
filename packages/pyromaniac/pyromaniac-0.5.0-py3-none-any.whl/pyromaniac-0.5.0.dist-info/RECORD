@@ -1,0 +1,9 @@
+pyromaniac/__init__.py,sha256=ezzWT_YwQjejFH1AhLcFAM34NQ5QPWU7CaHS-R6cEL0,158
+pyromaniac/handler.py,sha256=9WnYZGgPQiUdN8MyfBeuth-oIB0EyiYP5HMtyomqSc8,7296
+pyromaniac/local_handler.py,sha256=fiuVfnleRmg3T1p9_oy0EwhjB7zCMuxQkF6myZFYAGU,3866
+pyromaniac/plot.py,sha256=A_ArdMYIayULjShQarTJbybb2d_qQvx0t-SRJU4P7UI,801
+pyromaniac/posterior.py,sha256=qx3YzUwlWYVfsXaGw2pCyU9LttNladm0ioPQjkhb5NE,3013
+pyromaniac-0.5.0.dist-info/LICENSE,sha256=NYPzkL-Wc01BhO6zBr8SGDhIv8mjwetKukrfQL4ykY8,1074
+pyromaniac-0.5.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyromaniac-0.5.0.dist-info/METADATA,sha256=3g_c6yFmYUfd249KiCrfplw9yn8c9UiKmjRNOOM7NIQ,327
+pyromaniac-0.5.0.dist-info/RECORD,,
