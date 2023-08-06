@@ -1,0 +1,8 @@
+Unidecode
+jiwer
+transformers>=4.25.1
+editdistance
+librosa
+webrtcvad
+pyctcdecode
+whisper@git+https://github.com/openai/whisper.git
