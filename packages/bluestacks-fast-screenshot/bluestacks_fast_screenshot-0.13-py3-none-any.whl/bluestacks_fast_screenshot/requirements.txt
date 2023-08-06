@@ -1,0 +1,6 @@
+a_cv2_easy_resize
+a_pandas_ex_automate_win32
+ctypes_screenshots
+ctypes_window_info
+opencv_python
+pandas
