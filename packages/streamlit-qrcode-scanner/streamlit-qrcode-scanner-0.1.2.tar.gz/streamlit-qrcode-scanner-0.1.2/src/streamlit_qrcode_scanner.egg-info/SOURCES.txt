@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/streamlit_qrcode_scanner/__init__.py
+src/streamlit_qrcode_scanner.egg-info/PKG-INFO
+src/streamlit_qrcode_scanner.egg-info/SOURCES.txt
+src/streamlit_qrcode_scanner.egg-info/dependency_links.txt
+src/streamlit_qrcode_scanner.egg-info/requires.txt
+src/streamlit_qrcode_scanner.egg-info/top_level.txt
+src/streamlit_qrcode_scanner/frontend/html5-qrcode.min.js
+src/streamlit_qrcode_scanner/frontend/index.html
+src/streamlit_qrcode_scanner/frontend/main.js
+src/streamlit_qrcode_scanner/frontend/streamlit-component-lib.js
