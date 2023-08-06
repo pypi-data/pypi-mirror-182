@@ -1,0 +1,3 @@
+[console_scripts]
+chams=chams.__main__:app
+
