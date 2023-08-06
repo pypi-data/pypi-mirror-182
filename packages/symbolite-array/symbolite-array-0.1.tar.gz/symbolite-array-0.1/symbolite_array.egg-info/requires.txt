@@ -1,0 +1,4 @@
+symbolite>=0.2
+
+[test]
+pytest
