@@ -1,0 +1,496 @@
+Metadata-Version: 2.1
+Name: node.ext.fs
+Version: 1.1
+Summary: Filesystem abstraction based on nodes
+Home-page: http://github.com/conestack/node.ext.fs
+Author: Node Contributors
+Author-email: dev@conestack.org
+License: Simplified BSD
+Keywords: node file system
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: node (>=1.0)
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+node.ext.fs
+===========
+
+.. image:: https://img.shields.io/pypi/v/node.ext.fs.svg
+    :target: https://pypi.python.org/pypi/node.ext.fs
+    :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/pypi/dm/node.ext.fs.svg
+    :target: https://pypi.python.org/pypi/node.ext.fs
+    :alt: Number of PyPI downloads
+
+.. image:: https://github.com/conestack/node.ext.fs/actions/workflows/test.yaml/badge.svg
+    :target: https://github.com/conestack/node.ext.fs/actions/workflows/test.yaml
+    :alt: Test node.ext.fs
+
+
+Overview
+--------
+
+``node.ext.fs`` is a node implementation for file system directories. It is
+the successor of `node.ext.directory <https://pypi.python.org/pypi/node.ext.directory>`_.
+
+For more information about ``node`` see
+`https://pypi.python.org/pypi/node <https://pypi.python.org/pypi/node>`_.
+
+
+Usage
+-----
+
+Create new file:
+
+.. code-block:: python
+
+    from node.ext.fs import File
+
+    file_path = 'file.txt'
+    f = File(name=file_path)
+
+    # set contents via data attribute
+    f.data = 'data\n'
+
+    # set contents via lines attribute
+    f.lines = ['data']
+
+    # set permissions
+    f.fs_mode = 0o644
+
+    # persist
+    f()
+
+Read existing file:
+
+.. code-block:: python
+
+    file_path = 'file.txt'
+    f = File(name=file_path)
+
+    assert(f.data == 'data\n')
+    assert(f.lines == ['data'])
+    assert(f.fs_mode == 0o644)
+
+Files with binary data:
+
+.. code-block:: python
+
+    from node.ext.fs import MODE_BINARY
+
+    file_path = 'file.txt'
+    f = File(name=file_path)
+    f.mode = MODE_BINARY
+
+    f.data = b'\x00\x00'
+
+    assert(f.data == b'\x00\x00')
+
+    # lines property won't work if file in binary mode
+    f.lines  # raises RuntimeError
+
+Create directory:
+
+.. code-block:: python
+
+    from node.ext.fs import Directory
+
+    dir_path = '.'
+    d = Directory(name=dir_path)
+
+    # add subdirectories and files
+    d['sub'] = Directory()
+    d['file.txt'] = File()
+
+    # set permissions for directory
+    d['sub'].fs_mode = 0o755
+
+    # persist
+    d()
+
+Read existing directory:
+
+.. code-block:: python
+
+    dir_path = '.'
+    d = Directory(name=dir_path)
+
+.. code-block:: pycon
+
+    >>> d.printtree()
+    <class 'node.ext.fs.directory.Directory'>: .
+      <class 'node.ext.fs.directory.File'>: file.txt
+      <class 'node.ext.fs.directory.Directory'>: sub
+
+Defining the default factories for files and directories is done by setting
+``default_file_factory`` respective ``default_directory_factory``:
+
+.. code-block:: python
+
+    class CustomFile(File):
+        pass
+
+    class CustomDirectory(Directory):
+        default_file_factory = CustomFile
+
+    CustomDirectory.default_directory_factory = CustomDirectory
+
+    dir_path = '.'
+    d = CustomDirectory(name=dir_path)
+
+.. code-block:: pycon
+
+    >>> d.printtree()
+    <class '...CustomDirectory'>: .
+      <class '...CustomFile'>: file.txt
+      <class '...CustomDirectory'>: sub
+
+Define wildcard factories. Factories can be defined for directories and files.
+Pattern matching is done using ``fnmatch``. See
+``node.behaviors.WildcardFactory``:
+
+.. code-block:: python
+
+    class TextFile(File):
+        pass
+
+    class LogsDirectory(Directory):
+        pass
+
+    d = Directory(
+        name='.',
+        factories={
+            '*.txt': TextFile,
+            'logs': LogsDirectory
+        })
+
+Now when reading children, factories matching the file or directory name
+patterns are used to instantiate the children, using the default factories if
+no pattern matches.
+
+.. code-block:: pycon
+
+    >>> os.mkdir('logs')
+
+    >>> os.mkdir('other')
+
+    >>> with open('file.txt', 'w') as f:
+    ...     f.write('text')
+
+    >>> with open('file.rst', 'w') as f:
+    ...     f.write('rst')
+
+    >>> d = Directory(
+    ...     name='.',
+    ...     factories={
+    ...         '*.txt': TextFile,
+    ...         'logs': LogsDirectory
+    ...     })
+
+    >>> d.printtree()
+    <class 'node.ext.fs.directory.Directory'>: .
+      <class '...File'>: file.rst
+      <class '...TextFile'>: file.txt
+      <class '...LogsDirectory'>: logs
+      <class '...Directory'>: other
+
+
+Python Versions
+===============
+
+- Python 2.7, 3.7+
+- May work with other versions (untested)
+
+
+Contributors
+============
+
+- Robert Niederreiter (Author)
+
+
+Changes
+=======
+
+1.1 (2022-12-21)
+----------------
+
+- Introduce ``node.ext.fs.interfaces.IDirectory.rename`` and implement in
+  ``node.ext.fs.directory.DirectoryStorage``.
+  [rnix]
+
+- Do not allow setting and deleting of directory children defined in
+  ``ignores``.
+  [rnix]
+
+
+1.0 (2022-10-06)
+----------------
+
+- Subclass ``threading.local`` for
+  ``node.ext.fs.directory._directory_context`` objects in order to safely
+  provide default values.
+  [rnix]
+
+- Introduce ``IFileIO`` interface and ``FileIO`` plumbing behavior.
+  [rnix]
+
+- Introduce ``IFileNode`` interface.
+  [rnix]
+
+- Pass ``name`` and ``parent`` to default file and directory factories.
+  [rnix]
+
+- ``DirectoryStorage`` accepts ``fs_path`` keyword argument.
+  [rnix]
+
+- Rename ``_FSModeMixin`` plumbing behavior to ``FSMode``. Setting the actual
+  file mode is now done by plumbing ``__call__`` function.
+  [rnix]
+
+- Introduce ``FSLocation`` plumbing behavior.
+  [rnix]
+
+**Breaking Changes**
+
+- Package has been renamed from ``node.ext.directory`` to ``node.ext.fs``.
+  There are too many breaking changes for a sane deprecation path.
+  [rnix]
+
+- ``DirectoryStorage.__init__`` no longer accepts deprecated ``backup`` keyword
+  argument.
+  [rnix]
+
+- ``DirectoryStorage.child_directory_factory`` has been renamed to
+  ``default_directory_factory``
+  [rnix]
+
+- ``DirectoryStorage`` derives from ``node.behaviors.WildcardFactory`` now.
+  Own factory pattern logic working with file endings has been removed.
+  Patterns must be adopted.
+  [rnix]
+
+- Remove global ``file_factories`` and ``DirectoryStorage.file_factories``.
+  Wildcard pattern related factories are defined via
+  ``DirectoryStorage.factories`` now.
+  [rnix]
+
+- Remove ``IFileAddedEvent`` and ``node.ext.fs.events`` module. If you need
+  lifecycle events, use ``node.behaviors.Lifecycle`` instead.
+  [rnix]
+
+- Basic ``File`` and ``Directory`` objects no longer use referencing related
+  plumbung behaviors. You need to define your own base objects plumbing
+  ``INodeReference`` implemeting behaviors.
+  [rnix]
+
+- Reduce ``IFile`` interface. It no longer inherits from ``ILeaf`` and default
+  file implementation related attributes were moved to ``IFileNode`` interface.
+  This way it is possible to implement very custom file implementations without
+  breaking the interface contract.
+  [rnix]
+
+- Rename ``FileStorage`` to ``FileNode``. It no longer inherits from
+  ``DictStorage``. Further file data is no longer kept in memory unless it
+  changes, then it's kept until it gets written to disk.
+  [rnix]
+
+- ``FileNode`` and ``DirectoryStorage`` not inherits from
+  ``_FSModeMixin`` respective now ``FSMode`` behavior any more. ``FSMode``
+  behavior must be applied explicit on nodes which should provide this
+  behavior.
+  [rnix]
+
+- Rename ``_fs_path`` helper function to ``get_fs_path``.
+  [rnix]
+
+- Rename ``_fs_mode`` helper function to ``get_fs_mode``.
+  [rnix]
+
+
+0.8 (2022-03-21)
+----------------
+
+- Replace deprecated use of ``Nodify`` by ``MappingNode``.
+  [rnix]
+
+- Replace deprecated use of ``Adopt`` by ``MappingAdopt``.
+  [rnix]
+
+
+0.7
+---
+
+- Python 3 support.
+  [rnix, 2017-06-06]
+
+- ``fs_mode`` is read from filesystem if file or directory exists and
+  fs_mode not set explicitely.
+  [rnix, 2017-06-06]
+
+- Remove ``backup`` option from ``IDirectory`` interface. It never really
+  worked properly and conceptually ``IDirectory`` is the wrong place for
+  handling backups of files.
+  [rnix, 2017-06-04]
+
+
+0.6
+---
+
+- Introduce ``node.ext.directory.interfaces.IFile.direct_sync`` setting.
+  [rnix, 2017-01-30]
+
+- Complete ``node.ext.directory.interfaces.IFile`` and
+  ``node.ext.directory.interfaces.IDirectory`` to reflect implemented features.
+  [rnix, 2017-01-30]
+
+- Move ``node.ext.directory.directory.MODE_TEXT`` and
+  ``node.ext.directory.directory.MODE_BINARY`` to
+  ``node.ext.directory.interfaces``.
+  [rnix, 2017-01-30]
+
+
+0.5.4
+-----
+
+- Check whether directory to be peristed already exists by name as file in
+  ``node.ext.directory.FileStorage.__call__``.
+  [rnix, 2015-10-05]
+
+- Implement fallback to ``path`` in
+  ``node.ext.directory.FileStorage.__call__`` if ``fs_path`` not exists.
+  [rnix, 2015-10-05]
+
+- Implement fallback to ``path`` in
+  ``node.ext.directory.FileStorage._get_data`` if ``fs_path`` not exists.
+  [rnix, 2015-10-05]
+
+- Set initial mode with ``self.mode`` property setter instead of internal
+  ``self._mode`` in ``node.ext.directory.FileStorage._get_mode``.
+  [rnix, 2015-10-05]
+
+
+0.5.3
+-----
+
+- Remove deleted keys from internal reference after ``__call__`` in order
+  to return the correct result when adding a file or directory with the same
+  key again.
+  [rnix, 2015-07-20]
+
+
+0.5.2
+-----
+
+- Use try/except instead of iteration to check whether directory child already
+  in memory.
+  [rnix, 2015-05-12]
+
+
+0.5.1
+-----
+
+- Always use ``os.chmod`` for setting directory permissions, not only if
+  already exists.
+  [rnix, 2015-03-03]
+
+
+0.5
+---
+
+- Introduce ``fs_mode`` on directories and files.
+  [rnix, 2015-03-03]
+
+
+0.4
+---
+
+- Return empty list in ``File.lines`` if no data.
+  [rnix, 2015-02-18]
+
+- Consider filesystem encoding. Defaults to UTF-8.
+  [rnix, 2015-02-18]
+
+- Tree locking on modification.
+  [rnix, 2014-09-02]
+
+- Prevent empty keys in ``__setitem__``.
+  [rnix, 2014-09-02]
+
+- Use ``plumbing`` decorator.
+  [rnix, 2014-08-25]
+
+
+0.3
+---
+
+- introduce ``default_file_factory`` on directories for controlling default
+  file child creation.
+  [rnix, 2013-12-09]
+
+- move file logic in ``FileStorage`` behavior.
+  [rnix, 2013-08-06]
+
+- make ``file_factories`` a class property on directory storage.
+  [rnix, 2013-08-06]
+
+- make ``ignores`` a class property on directory storage.
+  [rnix, 2013-08-06]
+
+- Cleanup interfaces.
+  [rnix, 2013-08-06]
+
+
+0.2
+---
+
+- Almost complete rewrite. Fits now paradigms of node based API's.
+  [rnix, 2012-01-30]
+
+
+0.1
+---
+
+- initial
+
+
+License
+=======
+
+Copyright (c) 2010-2021, BlueDynamics Alliance, Austria
+Copyright (c) 2021-2022, Node Contributors
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice, this
+  list of conditions and the following disclaimer in the documentation and/or
+  other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
