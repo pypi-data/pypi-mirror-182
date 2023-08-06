@@ -1,0 +1,9 @@
+setup.py
+./pepsi/__init__.py
+./pepsi/utils.py
+pepsi/__init__.py
+pepsi/utils.py
+pepsi.egg-info/PKG-INFO
+pepsi.egg-info/SOURCES.txt
+pepsi.egg-info/dependency_links.txt
+pepsi.egg-info/top_level.txt
