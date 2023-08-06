@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: building_energy_storage_simulation
+Version: 0.5.1
+Summary: A simulation of a building to optimize energy storage utilization.
+Author: Tobias Rohrer
+Author-email: tobias.rohrer@outlook.com
+Provides-Extra: docs
+Provides-Extra: tests
+License-File: LICENCE
