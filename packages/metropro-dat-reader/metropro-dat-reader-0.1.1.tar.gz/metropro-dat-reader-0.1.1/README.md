@@ -1,0 +1,41 @@
+# Metropro dat reader
+
+## Requirements
+
+Python 3.10 or higher https://www.python.org/downloads/
+
+## Install
+
+From the command line:
+
+`pip install metropro-dat-reader`
+
+## Usage
+
+`mpdr <path to dat file>`
+
+examples:
+
+`mpdr C:\Users\user\Downloads\abc123.dat`
+
+`mpdr def456.dat`
+
+### Example output
+
+```text
+❮ mpdr SN9_PLANO_SR_UC37.dat
+SN9_PLANO_SR_UC37.dat
+magic_number: 2283471727
+header_format: 1
+header_size: 834
+swinfo.type: 0
+swinfo.date:
+swinfo.vers.maj: 8
+swinfo.vers.min: 0
+swinfo.vers.bug: 0
+...
+```
+
+## Development setup
+
+TODO
