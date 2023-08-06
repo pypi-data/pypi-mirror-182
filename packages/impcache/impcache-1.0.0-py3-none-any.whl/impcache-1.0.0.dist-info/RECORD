@@ -1,0 +1,9 @@
+impcache/__init__.py,sha256=K9flo8Pqb6rKpd1ELp50b5oVbmJm_uYEkPjfJptoWnY,391
+impcache/exceptions.py,sha256=0jWZujrRmpwax9pqcF5myMWZ_fbaOfPqz88SA6GWEy8,130
+impcache/repository.py,sha256=uBR0l4wLpj-wCHou1LYTMX7JaCs4a1WUw9HGvlTvxuQ,4687
+impcache/service.py,sha256=OMLRiUS6ZCE3k0zpHhzzAkpWxXFZ_h9783hHTSffxSE,6374
+impcache/tools.py,sha256=LqD8jxRgUgDQE2eozn4pJy_lcUuibC3gp25zvof99Xg,753
+impcache-1.0.0.dist-info/METADATA,sha256=k_VG5VIC1PVhQRgff3Ro6_Vizj9zLLUHzUVVDxS3oAg,8858
+impcache-1.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+impcache-1.0.0.dist-info/licenses/LICENSE,sha256=zCGU9ueuHma1ppNUIGfxiAUMC9VRfdwZdMjyofhgiXU,1071
+impcache-1.0.0.dist-info/RECORD,,
