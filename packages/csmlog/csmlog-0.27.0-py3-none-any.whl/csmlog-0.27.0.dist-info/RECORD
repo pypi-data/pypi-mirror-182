@@ -1,0 +1,10 @@
+csmlog/__init__.py,sha256=Lz7mo_iZ10hFcjMI72JHEPLwGKr8xR10bDTWbLVgGek,10045
+csmlog/google_sheets_handler.py,sha256=LoKJMshT-I_-Xy3rsezFJ8yAlkox_2o1zwAkdAqx5bo,16120
+csmlog/system_call.py,sha256=IQ5BNHOVdZggyV6xxWlLdyrzrgUdNMMHZA5EeKSbCr0,1741
+csmlog/udp_handler.py,sha256=vKw5xZZqVqIuD-x0qqBTuEqlIJlLdMCKLqJ60QZsLt4,948
+csmlog/udp_handler_receiver.py,sha256=Ja7YA_b7QQBYPIae-DuD2u4Mpow0iU2jb3-oEY3fE9Y,1886
+csmlog-0.27.0.dist-info/METADATA,sha256=plS5OkS07UqreCglALd6yhceYPrxpfSqgYfaDdFqA7g,2288
+csmlog-0.27.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+csmlog-0.27.0.dist-info/entry_points.txt,sha256=gd9weU-UTjoLvNuo58SFOVIbULrMcp7Hp65BB1yDHb0,63
+csmlog-0.27.0.dist-info/top_level.txt,sha256=bHvxMnIjBDz5QLsEFw6-KmMDP91LlmrgQPeAP7afwt8,7
+csmlog-0.27.0.dist-info/RECORD,,
