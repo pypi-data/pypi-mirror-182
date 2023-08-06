@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scramjet-api-client"
+version = "0.1.1a1"
+description = ""
+authors = ["Scramjet <open-source@scramjet.org>"]
+readme = "README.md"
+packages = [{include = "client"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.3"
+cchardet = "^2.1.7"
+aiodns = "^3.0.0"
+behave = "^1.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
