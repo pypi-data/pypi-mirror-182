@@ -1,0 +1,7 @@
+falcon
+aiosqlite
+python-rapidjson
+secp256k1
+uvicorn[standard]
+gunicorn
+setproctitle
