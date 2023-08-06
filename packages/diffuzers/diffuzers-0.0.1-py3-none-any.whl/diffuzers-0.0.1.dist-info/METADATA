@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: diffuzers
+Version: 0.0.1
+Summary: diffuzers
+Home-page: https://github.com/abhishekkrthakur/diffuzers
+Author: Abhishek Thakur
+License: UNKNOWN
+Platform: linux
+Platform: unix
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# diffuzers
+
+
