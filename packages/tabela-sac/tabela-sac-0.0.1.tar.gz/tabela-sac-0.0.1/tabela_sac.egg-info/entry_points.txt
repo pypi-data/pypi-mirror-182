@@ -1,0 +1,2 @@
+[nbdev]
+tabela_sac = tabela_sac._modidx:d
