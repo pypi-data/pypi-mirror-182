@@ -1,0 +1,4 @@
+fire
+codefast>=0.9.9
+pydantic
+rich
