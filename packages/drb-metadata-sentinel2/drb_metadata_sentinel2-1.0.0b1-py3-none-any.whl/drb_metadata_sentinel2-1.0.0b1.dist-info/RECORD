@@ -1,0 +1,9 @@
+drb_md_sentinel2/__init__.py,sha256=8tT-j5gbJBYfk_RCj9mfAt9o6vrLsqRs7kt3WGnRSAc,72
+drb_md_sentinel2/_version.py,sha256=geCDgTuNDtzN-grScz3mRqftL24ojjzx4hEHZ4tr_aY,499
+drb_md_sentinel2/cortex.yml,sha256=cxOAlHZ9HKSWxLF0Z8uiG4fIl6aD9sYkFeH-LOf8Gk4,58413
+drb_metadata_sentinel2-1.0.0b1.data/data/requirements.txt,sha256=MwQ-tsJ-67rsJzbEXsg0uiOlRPCCpyhhSJq5Qy22x90,144
+drb_metadata_sentinel2-1.0.0b1.dist-info/METADATA,sha256=byFbeLX2qQFPEj9fAbOrfF4mBagvESbee58PHFR4G6k,12168
+drb_metadata_sentinel2-1.0.0b1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_metadata_sentinel2-1.0.0b1.dist-info/entry_points.txt,sha256=jOXhWjTFAJcGzlruHrj-bb9oBpcHF1G34e4CHgzl_wo,44
+drb_metadata_sentinel2-1.0.0b1.dist-info/top_level.txt,sha256=yPh2Y7dsGRJVxvHbUCW-YaqLIG4HTDbZzryMBVANl5A,17
+drb_metadata_sentinel2-1.0.0b1.dist-info/RECORD,,
