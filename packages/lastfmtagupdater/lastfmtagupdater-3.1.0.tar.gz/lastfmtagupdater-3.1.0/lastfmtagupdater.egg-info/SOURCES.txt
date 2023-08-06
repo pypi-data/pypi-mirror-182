@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+lastfmtagupdater/__init__.py
+lastfmtagupdater/__main__.py
+lastfmtagupdater/common.py
+lastfmtagupdater/config.py
+lastfmtagupdater/lastfmwrapper.py
+lastfmtagupdater/mediahelper.py
+lastfmtagupdater/medialibrary.py
+lastfmtagupdater.egg-info/PKG-INFO
+lastfmtagupdater.egg-info/SOURCES.txt
+lastfmtagupdater.egg-info/dependency_links.txt
+lastfmtagupdater.egg-info/entry_points.txt
+lastfmtagupdater.egg-info/requires.txt
+lastfmtagupdater.egg-info/top_level.txt
