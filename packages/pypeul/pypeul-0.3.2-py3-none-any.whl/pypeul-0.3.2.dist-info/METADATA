@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pypeul
+Version: 0.3.2
+Summary: A Python 3 IRC library thought for the programmer.
+Home-page: https://github.com/zopieux/pypeul
+License: LGPL-3.0-or-later
+Keywords: irc
+Author: mickael9
+Author-email: mickael9@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/zopieux/pypeul
+Description-Content-Type: text/markdown
+
+# Pypeul
+
+Pypeul is an IRC client library written in Python.
+
+It mainly aims at creating IRC bots and provides an easy to use API
+based on callbacks. It also features a nice way to parse and write
+formatted text.
+
+**Copyright**: Copyright 2010-2012- by the Pypeul team, see AUTHORS.
+
+**License**: LGPL, see COPYING for details.
+
