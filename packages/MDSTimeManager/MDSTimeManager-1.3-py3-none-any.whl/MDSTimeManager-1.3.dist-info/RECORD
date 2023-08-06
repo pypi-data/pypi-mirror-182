@@ -1,0 +1,14 @@
+MDSTimeManager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MDSTimeManager/setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MDSTimeManager/setup/course.py,sha256=Sb0XnJEb_r46jc4LUAdaQ2LWoJLSl4pwe5Aoz0q3exk,5942
+MDSTimeManager/setup/mdstmerror.py,sha256=WC87UfsvR0gbLjuPkAQ7K5ONq2Itq9eAFXG8VOmJQd0,158
+MDSTimeManager/setup/person.py,sha256=RUomtV8MRVKWXUt5k1F8i5otWQ6HsOwmI3P947MbQ_A,1811
+MDSTimeManager/system/TimeManager.py,sha256=QS9S975KyFSpn-CYVvDPn2boRE8KrIe52VU1sQiQP4A,4386
+MDSTimeManager/system/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MDSTimeManager/system/deliverableviewer.py,sha256=pTuJOR3-mh91iY2rQzw4xWpl3Nz5wUamXf_L2h24uiU,1875
+MDSTimeManager/system/main.py,sha256=Savq7PwfSHkTqWNvi4v9qReHp9UQNZ_b5YvGA12TCpQ,5978
+MDSTimeManager-1.3.dist-info/LICENSE.txt,sha256=210TtFhZ9OSLM79_3RSWVOyF29DCfeD5xPGS6S6hXyU,1092
+MDSTimeManager-1.3.dist-info/METADATA,sha256=mogyuDhIYaAm4H5tX342k9hXb8Yf5IC1rbBiAvDi7bw,258
+MDSTimeManager-1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MDSTimeManager-1.3.dist-info/top_level.txt,sha256=xXZlJBRd3NBngvUQODQGrJEmp_w2wMP4a81XBPZ5OR0,15
+MDSTimeManager-1.3.dist-info/RECORD,,
