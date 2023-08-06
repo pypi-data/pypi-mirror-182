@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+monolg/__init__.py
+monolg/_schemas.py
+monolg/errors.py
+monolg/mongo_log.py
+monolg/utils.py
+monolg.egg-info/PKG-INFO
+monolg.egg-info/SOURCES.txt
+monolg.egg-info/dependency_links.txt
+monolg.egg-info/not-zip-safe
+monolg.egg-info/requires.txt
+monolg.egg-info/top_level.txt
