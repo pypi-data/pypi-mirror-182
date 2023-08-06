@@ -1,0 +1,8 @@
+garpyclient/__init__.py,sha256=OEuur5xD75StpaSX6i9UqJhX7p_l90z7ajNQrrbpMoQ,135
+garpyclient/client.py,sha256=shMv1xAH0rDtPes0NyqoTXaP9jrK6ZtyZ8kwoYp14b8,8829
+garpyclient/resources/default_config.yaml,sha256=pYT0iYJb_fEfvgdDaXVEBr-u6jdq3f0LFuWBkJQpHFA,1150
+garpyclient/settings.py,sha256=WX8TBif_2pCX8TsSS0LSLNbem-DrJRQPca2zDy5lfSw,990
+garpyclient-0.1.1.dist-info/LICENSE,sha256=qK0xscP0DcpahBGTUbj6jdyGjt13-tio6_bY8tFvpK4,11324
+garpyclient-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+garpyclient-0.1.1.dist-info/METADATA,sha256=F3-X2jS1kA6c0BaCcusVZrUCOi5pY1qvJF0RLduTFxo,2967
+garpyclient-0.1.1.dist-info/RECORD,,
