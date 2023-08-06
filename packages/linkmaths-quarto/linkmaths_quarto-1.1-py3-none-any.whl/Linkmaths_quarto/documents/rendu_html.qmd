@@ -1,0 +1,38 @@
+---
+title: "Rendu html"
+format:
+  html:
+    # paramétrage de la table de matières
+    toc: true
+    toc-depth: 2
+    toc-title: "Table de matières"
+    toc-location: left
+    # format du rendu latex des formules mathématiques
+    html-math-method: katex
+    # numérotage des sections et sous sections 
+    number-sections: true
+    number-depth: 3
+    # défilement de la page
+    smooth-scroll: true
+    # mise en forme propre au document
+    css: style_html.css
+---
+
+::: {.panel-tabset}
+```{python}
+def fizz_buzz(num):
+  if num % 15 == 0:
+    print("FizzBuzz")
+  elif num % 5 == 0:
+    print("Buzz")
+  elif num % 3 == 0:
+    print("Fizz")
+  else:
+    print(num)
+```
+:::
+
+::: {.panel-tabset group="python"}
+
+Tab content
+:::

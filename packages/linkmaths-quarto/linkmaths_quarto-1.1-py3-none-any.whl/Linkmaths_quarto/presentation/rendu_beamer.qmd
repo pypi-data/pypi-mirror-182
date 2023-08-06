@@ -1,0 +1,36 @@
+---
+title: "Habits"
+author: "John Doe"
+format: 
+  beamer:
+    incremental: false 
+    aspectratio: 32
+    navigation: horizontal
+    theme: JuanLesPins
+    colortheme: whale #spruce
+    css: style_beamer.css
+    
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+## Going to sleep
+::::  {.columns align=top .onlytextwidth}
+
+::: {.column width="40%" align=center}
+première colonne
+:::
+
+::: {.column width="60%"}
+deuxième colonne
+:::
+
+:::: 

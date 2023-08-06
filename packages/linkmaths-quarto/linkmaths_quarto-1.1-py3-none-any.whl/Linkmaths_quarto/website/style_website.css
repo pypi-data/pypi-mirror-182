@@ -1,0 +1,180 @@
+
+
+/*NB : une variable commençant par .var est paramétré dans le yml*/
+/*NB : une variable ne commençant par .var est paramétré dans le corps du fichier markdon*/
+/*le fichier .css regroupe l'ensemble des mises en formes paramétrés et agissant sur le yml et le markdown */
+
+/* La gestion des marges en pourcentage est préférable*/
+#quarto-document-content {
+  margin-right: 1%;
+  margin-left: 20%;
+  width: 1200px;
+  height: 100;
+  max-width: 85%;
+  max-height: 100%;
+  max-block-size: 100%;
+}
+
+/*table de matière de gauche*/
+#quarto-sidebar{
+  width: 350px;
+  height: 90;
+  
+}
+.sidebar-logo {
+  padding: 0px;
+  
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  display: block;
+  margin-top: 0em;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  width: 290px;
+  height: 90px;
+  max-width: 290px;
+  mask-position: top;
+  border-bottom: 2px solid rgb(189, 191, 190);
+  }
+
+/*table de matière de droite*/
+#quarto-margin-sidebar {
+  margin-right: -10%;
+  margin-left: -45%
+
+}
+
+/*table de matière avec une profondeur à 2*/
+#toc-title{
+  font-size: 130%; 
+  color: rgb(0, 34, 93); /* blue : couleur des titres et du texte markdown */
+  font-family: "Serif";  
+  border-bottom: 3px solid rgb(0, 136, 81)
+}
+
+
+
+
+.sidebar nav[role=doc-toc]>ul li :hover {
+  line-height: 1.1rem;
+  padding-left: 0;
+  list-style:upper-roman;
+  font-size: .875rem;
+  
+  font-family: "Serif"; 
+  background-color: green;
+  color: white;
+  width: 300px;
+  font-weight: bold;
+}
+
+
+
+.sidebar-item a:hover{
+  width: 300px;
+  height: 90;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  line-height: 1.6;
+  list-style:upper-roman;
+  font-family: "Serif";
+  padding-left: 0;
+
+  font-size: .875rem;
+}
+
+/* couleur et police du texte/légende(tableau,image) écrit en markdown */
+body, caption {
+  color: rgb(0, 34, 93); /* blue : couleur des titres et du texte markdown */
+  font-family: "Gandhi Serif", "Serif"; /*famille de police d'écriture pour le texte et les titre markdown*/
+}
+
+
+.author {font-family: "Bayshore", cursive;}
+
+.header-section-number {
+  color:rgb(0, 34, 93);
+}
+
+/* taille de la police */
+.title {font-size: 200% !important}/* titre paramétré dans le yml du notebook*/
+.author {font-size: 200%}/* auteur paramétré dans le yml du notebook*/
+h1 {font-size: 160%}
+h2 {font-size: 140%}
+h3, .date {font-size: 120%} /* taille des section défini par #, ## ou ### dans le markdown*/
+h4 {font-size: 110%}
+/* Bold : texte en gras les sections markdown et les parties caption et author du ymal*/
+h1, h2, h3, h4, caption, .caption, .author, .date {font-weight: bold;
+  color: rgb(0, 34, 93);}
+
+/* Main title */
+.title {
+  font-variant: small-caps;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  color: rgb(0, 34, 93);
+  border: 5px solid rgb(0, 136, 81); /* green */
+}
+
+/* Centering */
+.title {
+  text-align: center;
+}
+
+caption, .caption {
+  text-align: center;
+}
+
+/* Justify */
+p {text-align: justify;}
+
+/* Margin */
+.date {margin-bottom: 2em;}
+
+/* souligne les titres h1 défini par # dans markdown sans ajustement sur le contenu */
+h1 {
+  border-bottom: 3px solid rgb(0, 136, 81); /* green */
+}
+
+/* souligne les titres h2 défini par ## dans markdown avec ajustement sur le contenu */
+h2 {
+  border-bottom: 3px solid rgb(0, 136, 81); /* green */
+  width: fit-content;
+}
+/* souligne les titres h3 défini par ### dans markdown avec ajustement sur le contenu */
+h3 {
+  border-bottom: 2px solid rgb(0, 136, 81); /* blue */
+  width: fit-content;
+}
+h4 {
+  border-bottom: 2px solid rgb(0, 136, 81); /* blue */
+  width: fit-content;
+}
+
+
+
+
+/* Tables entête*/
+
+.table>thead {
+  vertical-align: bottom;
+  background-color: green;
+  color: white;
+  font-family: "Gandhi Serif", "serif" !important;
+}
+
+
+.table>:not(:first-child) {
+  border-top-width: 1px;
+  border-top-color: rgb(0, 34, 93);
+  color: rgb(0, 34, 93);
+}
+
+ *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Gandhi Serif", "serif" !important;
+  color: rgb(0, 34, 93);
+  font-size: 50%;
+}

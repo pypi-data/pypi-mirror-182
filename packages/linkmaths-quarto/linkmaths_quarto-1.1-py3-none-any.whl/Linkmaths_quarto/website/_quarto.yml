@@ -1,0 +1,73 @@
+project:
+  type: website
+
+website:
+  #title: "chalenge kaggle"
+
+  page-navigation: true
+  twitter-card: true
+  site-url: https://example.com
+    
+
+  page-footer: 
+    left: "Copyright 2023, LinkPact - LinkMath" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+      - icon: linkedind
+        href: https://fr.linkedin.com/company/linkpact?trk=public_post_share-update_actor-image
+      
+
+
+  sidebar: 
+    logo: logo-linkpact.png
+    alignment: left
+    style:  "docked"
+    border: true
+    collapse: true 
+    collapse-level: 1
+    pinned: true
+    background: "#ffffff"
+    foreground: "#102C68"
+
+  navbar:
+    foreground: "success" #"#1a9f61"
+    background: "#ffffff"
+    search: true
+    right:
+      - text: "Introduction"
+        href: intro.qmd
+      - text: "Exploration des données"
+        href: DataExploratyAnalysis_Nguy_Ref_V1.ipynb
+      - text: "Modélisation : RL"
+        href: LogisticRegression_Nguy_Ref_V1.ipynb
+      - text: "Modélisation : LGBM"
+        href: Lgbm_Nguy_Ref_V1.ipynb
+      - icon: linkedind
+        href: https://fr.linkedin.com/company/linkpact?trk=public_post_share-update_actor-image
+
+
+format:
+  html:
+    # table de matière avec une profondeur à 2
+    toc: true
+    toc-depth: 2
+    toc-title: Table de matières
+    toc-location: left
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: true
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    css: style_website.css
+ 
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+freeze: true
+
+
