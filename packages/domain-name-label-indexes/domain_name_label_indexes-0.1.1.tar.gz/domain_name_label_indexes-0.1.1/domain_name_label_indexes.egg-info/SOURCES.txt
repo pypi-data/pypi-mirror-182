@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+domain_name_label_indexes/__init__.py
+domain_name_label_indexes.egg-info/PKG-INFO
+domain_name_label_indexes.egg-info/SOURCES.txt
+domain_name_label_indexes.egg-info/dependency_links.txt
+domain_name_label_indexes.egg-info/not-zip-safe
+domain_name_label_indexes.egg-info/top_level.txt
+tests/__init__.py
+tests/test_domain_name_label_indexes.py
