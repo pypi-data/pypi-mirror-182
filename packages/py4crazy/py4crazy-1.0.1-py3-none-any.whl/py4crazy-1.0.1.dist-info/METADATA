@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py4crazy
+Version: 1.0.1
+Summary: public ai using python
+Home-page: UNKNOWN
+Author: crazymong
+Author-email: <amongus@crazy.com>
+License: UNKNOWN
+Keywords: crazy
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: pyotp
+Requires-Dist: psutil
+Requires-Dist: pypiwin32
+Requires-Dist: pycryptodome
+Requires-Dist: PIL-tools
+
+NigaSuS
+
+
