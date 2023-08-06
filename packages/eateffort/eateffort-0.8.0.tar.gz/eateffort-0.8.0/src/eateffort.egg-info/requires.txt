@@ -1,0 +1,13 @@
+requests
+peewee
+platformdirs
+dateparser
+humanize
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov

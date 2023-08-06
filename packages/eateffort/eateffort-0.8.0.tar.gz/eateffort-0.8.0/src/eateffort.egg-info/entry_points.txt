@@ -1,0 +1,2 @@
+[console_scripts]
+eateffort = eateffort.main:run
