@@ -1,0 +1,13 @@
+
+[tests]
+mypy==0.991
+bandit
+toml
+pylint
+pytest-cov
+pytest-timeout
+pytest-asyncio
+pytest-lazy-fixture
+uvloop
+types-pkg-resources
+types-setuptools
