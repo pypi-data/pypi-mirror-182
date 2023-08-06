@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ICBCPackageNDKT
+Version: 0.1
+Summary: A test ICBC python package
+Home-page: https://github.com/ubco-mds-2022-labs/project-step-2-kcmtong.git
+Author: Nowshaba Durrani & Kenny Tong
+Author-email: nowshaba@gmail.com
+License: MIT
+License-File: LICENSE.txt
