@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: vultures
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: VeteranCode
+Author-email: jacob.h.barrow@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
+# Vultures
+[![Test Coverage](https://img.shields.io/badge/Test%20Coverage-100%25-success)](https://github.com/jacob-h-barrow/Penguin-Services)
+[![Security](https://img.shields.io/badge/Secure-True-informational)](https://github.com/jacob-h-barrow/Penguin-Services)
+[![Platform](https://img.shields.io/badge/Platform-Ubuntu%2020%2B-critical)](https://github.com/jacob-h-barrow/Penguin-Services)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-critical)](https://github.com/jacob-h-barrow/Penguin-Services)
+[![MIT License](https://img.shields.io/badge/License-MIT-lightgrey)](https://github.com/jacob-h-barrow/Penguin-Services/blob/main/Penguin-Services.png)
+
+![vulture](https://user-images.githubusercontent.com/117854828/208743804-b96b7006-f19f-47ce-8b91-b0624b21defe.jpg)
+
+- Created By Jacob H Barrow
+
+## Vulture Symbolism
+- Peace and harmony
+
+## Important Note
+- This can be used for decentralized encrypted communications.
+- Basically just gave an avenue for freedom of speech overseas.
+- This is to Chinese democracy as Rocky IV is to the end of the Cold War.
+- The author supports this to undermine suppression of speech.
+- Use whenever democracy is in jeopardy!!!
+
+## Todos
+- Validity
+
+## Short Tutorial
+- More than shown, but here's a start.
+``` python
+>>> from Vultures import RSA_Crypto
+>>> import json
+>>>
+>>> rsa_obj_1 = RSA_Crypto()
+>>> rsa_obj_2 = RSA_Crypto()
+>>>
+>>> # Token/dictionary encryption
+>>> auth_data = {"username": "jarvis", "result": {"accept": True}}
+>>> cipher_text = rsa_obj_2.encrypt(auth_data, rsa_obj_1.pubKey)
+>>> decrypted_message = json.loads(rsa_obj_1.decrypt(cipher_text))
+>>>
+>>> # In-memory key creation -> great for SQLite implementation of RPKI
+>>> key_pair_1 = rsa_obj_1.export_keys()
+>>> 
+>>> pub = create_rsa_key_object(key_pair_1["public_key"])
+>>> priv = create_rsa_key_object(key_pair_1["private_key"])
+>>>
+>>> # Test Signature
+>>> signature = rsa_obj_2.sign_message(auth_data)
+>>> legitimate = rsa_obj_1.verify_signature(auth_data, signature, rsa_obj_2.pubKey)
+>>> 
+>>> Looney Tunes here: That's All Folks!
+
+## Frequency Of Development
+- Whenever the baby and wife are sleeping!
+- But really!
+
+## Remember
+- If you find this package helpful, follow mascots and join Dumbledore's Army!
+
+
