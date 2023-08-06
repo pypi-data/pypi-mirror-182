@@ -1,0 +1,2 @@
+[console_scripts]
+my-client = subsystems.main_cli:main
