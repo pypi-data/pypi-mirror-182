@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: NEMO-group-email
+Version: 2.0.0
+Summary: Install Group email plugin for NEMO
+Home-page: https://gitlab.com/nemo-community/prometheus-computing/nemo-group-email
+Author: Prometheus Computing LLC
+Author-email: nemo@prometheuscomputing.com
+License: MIT
+Keywords: NEMO
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: NEMO (>=4.3.0)
+Requires-Dist: NEMO-user-details (>=1.0.0)
+Requires-Dist: django (<4.0,>=3.2)
+
+# NEMO Group Email
+
+This plugin for NEMO allows to use Django groups to categorize users and email different combinations of groups in the Email Broadcast page.
+
+It relies on the NEMO-user-details plugin to display the groups in the user's page.
+
+# Installation
+
+`pip install NEMO-group-email`
+
+# Add NEMO Group Email plugin
+
+in `settings.py` add to `INSTALLED_APPS`:
+
+```python
+INSTALLED_APPS = [
+    '...',
+    'NEMO_user_details',
+    'NEMO_group_email',
+    '...'
+]
+```
+
+# Usage
+1. Go to `Customization -> User details` and enable the `groups` field for it to be shown in the user page (otherwise it will only be shown in the `Detailed administration -> Users` section). 
+
+2. Add groups in `Detailed administration -> Groups` and then assign them to users.
+
+3. In NEMO, go to the `Administration` menu then the `Email` item to go to the broadcast email page.
+
+4. Select users who `are part of a group` then build your query based on your groups (AND and OR operators are available).
+

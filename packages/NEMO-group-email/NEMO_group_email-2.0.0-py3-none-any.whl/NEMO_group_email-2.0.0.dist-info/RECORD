@@ -1,0 +1,15 @@
+NEMO_group_email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NEMO_group_email/urls.py,sha256=7TMaVKBQYAelIbIqmQRjtSQ2Q0sin2qlJT0BviEWXs0,334
+NEMO_group_email/templates/NEMO_group_email/email_broadcast.html,sha256=2rHKHD3VxXD3unxAWUo-FDSkfSUCyI9HTiFgSQG8dAE,5781
+NEMO_group_email/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NEMO_group_email/tests/test_settings.py,sha256=cCqTzsgPjCj6YRN25lonA8ZNTfYGpc-I6VqJcKoWefQ,2627
+NEMO_group_email/tests/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NEMO_group_email/tests/views/email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NEMO_group_email/tests/views/email/test_unit.py,sha256=EkqB5G5TC11T2OXsRX7Ndbah1rYd-i8W8XF1FN8QOUc,3284
+NEMO_group_email/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NEMO_group_email/views/email.py,sha256=1XZSfNAB8w44laF7HE0vRV2q3uJ31eHB0CD4a5bRyJ4,1334
+NEMO_group_email-2.0.0.dist-info/LICENSE,sha256=8rXPSf1g62UoIcRbEpYmQeENydXj8UkOqVDT0xB1zyM,1081
+NEMO_group_email-2.0.0.dist-info/METADATA,sha256=O0q8yLWfzYRwOrc1zgV1YYbwJPIdLyxsYIUPj5nyI4I,1662
+NEMO_group_email-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+NEMO_group_email-2.0.0.dist-info/top_level.txt,sha256=CY3ZKpm5L7Cono_ChdgYiMc-7k9awngqR372djd7VVw,17
+NEMO_group_email-2.0.0.dist-info/RECORD,,
