@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "assistance"
+version = "0.1.0"
+description = ""
+authors = ["Simon Biggs <simon.biggs@radiotherapy.ai>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88.0"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+openai = "^0.25.0"
+keyring = "^23.13.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+pylint = "^2.15.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
