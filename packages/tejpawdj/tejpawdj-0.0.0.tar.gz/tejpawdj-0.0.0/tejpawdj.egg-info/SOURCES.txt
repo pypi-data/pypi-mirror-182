@@ -1,0 +1,5 @@
+setup.py
+tejpawdj.egg-info/PKG-INFO
+tejpawdj.egg-info/SOURCES.txt
+tejpawdj.egg-info/dependency_links.txt
+tejpawdj.egg-info/top_level.txt
