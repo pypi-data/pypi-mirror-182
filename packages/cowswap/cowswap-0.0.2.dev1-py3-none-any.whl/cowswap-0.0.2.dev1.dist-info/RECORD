@@ -1,0 +1,9 @@
+cowswap/__init__.py,sha256=FYyNy-fQbprsf-f9BwbrhxC7MozmVPmN9QuoUmtc4N8,79
+cowswap/_constants.py,sha256=QQhcHshnAqRAXD3tAJE7HOtitIf45e04w3pEQoIR6so,653
+cowswap/_types.py,sha256=V8C3hP45OKvc3cbFOKqg4eNcWV6yEbatmu8MwK3Y8IY,512
+cowswap/cowswap.py,sha256=rfsYHsBpaICut0CPKtPhDdWs4dcF7M98QgBixC1gz0k,4105
+cowswap/exceptions.py,sha256=RiCeD_l3yRcRqtmGNX1uFW1lQAsM9eaKvtCon77P9-w,55
+cowswap-0.0.2.dev1.dist-info/METADATA,sha256=rD6kXni81ftpLv7BmljLQLEIspZsidFEbkcclaT1TBY,334
+cowswap-0.0.2.dev1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cowswap-0.0.2.dev1.dist-info/top_level.txt,sha256=aqrk9jCVKJxwItMLn-OqeJnS9kK2PDMl1Wt-FkU03Os,8
+cowswap-0.0.2.dev1.dist-info/RECORD,,

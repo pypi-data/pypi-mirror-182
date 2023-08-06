@@ -1,0 +1,3 @@
+
+class SellAmountDoesNotCoverFee(ValueError):
+    pass
