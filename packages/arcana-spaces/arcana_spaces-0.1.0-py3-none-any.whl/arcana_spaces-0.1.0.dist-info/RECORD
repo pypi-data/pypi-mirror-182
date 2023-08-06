@@ -1,0 +1,10 @@
+arcana/spaces/__init__.py,sha256=RilOTQrVYntW4bVV4t7LzgerIC0gn9EnyyRg2P9RxxU,47
+arcana/spaces/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+arcana/spaces/data/__init__.py,sha256=h2R5wvFvbRIyzYCkgXESzB5qM5zqSl3PQclqYUueUTg,75
+arcana/spaces/data/clinical.py,sha256=hiM3AKADXMJZN_9FIeQcPvdfKDeRCQEtW4X3aWdTIMM,1246
+arcana/spaces/data/samples.py,sha256=uFqsgqbh0Mb-4WaRVbsJu2Ej_8zZFQXRTs2L-vhmHJI,272
+arcana/spaces/data/tests/test_clinical_space.py,sha256=FhRPmCIqYzeyT25siruKU9GC0d_aSlPqCFKkNh89gX8,3867
+arcana_spaces-0.1.0.dist-info/LICENSE,sha256=s12hb9VeRlj1uxCx7NSbKwRGyTklVA7omWbTLyMhYIs,14222
+arcana_spaces-0.1.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+arcana_spaces-0.1.0.dist-info/METADATA,sha256=_YXJ9rcIXxPi4EmWdK2phGKhZW6feWwoiXmOdqRNWgA,2753
+arcana_spaces-0.1.0.dist-info/RECORD,,
