@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+Pymenulist/__init__.py
+Pymenulist.egg-info/PKG-INFO
+Pymenulist.egg-info/SOURCES.txt
+Pymenulist.egg-info/dependency_links.txt
+Pymenulist.egg-info/top_level.txt
