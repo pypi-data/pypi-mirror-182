@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: TR_video_process_components
+Version: 1.0.0
+Summary: A VIDEO Processing Packages
+Project-URL: Homepage, https://github.com/kotai2003/TR_packages_video_process_components
+Project-URL: Bug Tracker, https://github.com/kotai2003/TR_packages_video_process_components/issues
+Author-email: kotai2003 <seonghun.choe@tomomi-research.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# VIDEO PROCESSING Package
+
+This is a video processing package for TOMOMI RESEARCH, INC.
+
+You can visit 
+[OUR HOMEPAGE](https://www.tomomi-research.com/)
+to view our products and services.

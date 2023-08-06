@@ -1,0 +1,23 @@
+#https://qiita.com/ieiringoo/items/4bef4fc9975803b08671
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "TR_video_process_components"
+version = "1.0.0"
+authors = [
+  { name="kotai2003", email="seonghun.choe@tomomi-research.com" },
+]
+description = "A VIDEO Processing Packages"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kotai2003/TR_packages_video_process_components"
+"Bug Tracker" = "https://github.com/kotai2003/TR_packages_video_process_components/issues"
