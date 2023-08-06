@@ -1,0 +1,54 @@
+# Ghost Theme PWA
+
+This theme enables you to "Install" your site as a Progressive Web App.
+
+Requires either Chrome or Firefox to install the app.
+
+Browsing works better with Chrome. Editing works better with Firefox.
+
+## Unpacked theme
+
+Apply to an existing theme:
+
+1. `cd` to the theme dir,
+2. Copy `make_pwa` to the dir,
+3. Run `make_pwa/make_pwa`,
+4. Pack the directory, excluding the `make_pwa` folder.
+    - Example: `zip -r casper-pwa.zip --exclude=make_pwa *`
+5. In the example above, `casper-pwa.zip` is the output theme archive.
+
+## Theme ZIP
+
+If you just have a ZIP archive, run:
+
+```
+$ make_pwa <archive file>
+```
+
+Example:
+
+```
+$ make_pwa Casper-3.0.7.zip
+```
+
+The output is:
+
+```
+$ ls
+Casper-3.0.7-PWA.zip
+```
+
+## Verifying
+
+Test your PWA here: https://www.seochecker.it/pwa-tester-online
+
+## Use online
+
+To use this online, you can open a notebook in Google Colab and apply the steps
+described above.
+
+Download a ZIP file with your current theme. Next, upload it to Colab. Finally,
+run the script on the ZIP file, and download the result. Voila! You can now
+upload the PWA ZIP file to your Ghost installation.
+
+Notebook example (sketch - work in progress): https://colab.research.google.com/drive/1cPrGzrS15Nz_7OhIt8Y8FfOD_wqM0H67#scrollTo=Usage
