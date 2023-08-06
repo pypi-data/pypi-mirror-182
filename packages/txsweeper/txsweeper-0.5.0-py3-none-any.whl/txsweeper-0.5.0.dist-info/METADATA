@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: txsweeper
+Version: 0.5.0
+Summary: An infinitely generative minesweeper game.
+License: MIT
+Author: k01e
+Author-email: k01e.alm07@gmail.com
+Requires-Python: ==3.10.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: textual (==0.5.0)
