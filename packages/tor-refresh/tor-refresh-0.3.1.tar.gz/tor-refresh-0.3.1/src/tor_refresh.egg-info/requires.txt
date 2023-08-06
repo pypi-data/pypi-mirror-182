@@ -1,0 +1,7 @@
+colorama
+readchar
+requests
+rich
+stem
+string_utils
+typer
