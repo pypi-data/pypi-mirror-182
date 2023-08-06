@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: jupyterlab-copy-relative-path
+Version: 0.0.2
+Summary: Adds 'Copy Relative Path' to a context menu of JupyterLab file browser.
+Home-page: https://github.com/yamaton/jupyterlab_copy_relative_path
+Author: Yamato Matsuoka
+Author-email: 
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Copy Relative Path
+
+[![PyPI](https://img.shields.io/pypi/v/jupyterlab-copy-relative-path)](https://pypi.org/project/jupyterlab-copy-relative-path/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/jupyterlab-copy-relative-path)](https://anaconda.org/conda-forge/jupyterlab-copy-relative-path)
+
+> Adds **'Copy Relative Path'** to a context menu of JupyterLab tabs and file browser items.
+
+This extension would be useful when specifying a file or a directory from a notebook. The path is relative to an active document; the button will hide when an active window does not provide a reference path; i.e. when a Launch page or a Console window is active.
+
+![copy relative path demo](https://github.com/yamaton/jupyterlab_copy_relative_path/raw/main/preview.png)
+
+# Install
+
+Install with `pip`.
+
+```shell
+pip install jupyterlab-copy-relative-path
+```
+
+Or, via `conda-forge`.
+
+```shell
+conda install -c conda-forge jupyterlab-copy-relative-path
+```
