@@ -1,0 +1,153 @@
+name: Build
+
+on:
+  release:
+    types: [published]
+  push:
+    branches:
+      - main
+      - ci
+  pull_request:
+    branches:
+      - "*"
+
+env:
+  PROJECT_NAME: neoteroi
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.8, 3.9, "3.10"]
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 9
+          submodules: false
+
+      - name: Compile SASS files
+        run: |
+          cd styles
+          mkdir -p dist
+          wget https://github.com/sass/dart-sass/releases/download/1.54.3/dart-sass-1.54.3-linux-x64.tar.gz
+          tar -xf dart-sass-1.54.3-linux-x64.tar.gz
+          cd dart-sass && chmod +x ./sass
+          ./sass --no-source-map ../all.scss ../dist/neoteroi-mkdocs.css
+          ./sass --no-source-map --style compressed ../all.scss ../dist/neoteroi-mkdocs.min.css
+        if: matrix.python-version == '3.10'
+
+      - name: Publish CSS files
+        uses: actions/upload-artifact@master
+        with:
+          name: dist-package-css
+          path: styles/dist
+        if: matrix.python-version == '3.10'
+
+      - name: Use Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - uses: actions/cache@v1
+        id: depcache
+        with:
+          path: deps
+          key: requirements-pip-${{ matrix.python-version }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Download dependencies
+        if: steps.depcache.outputs.cache-hit != 'true'
+        run: |
+          pip download --dest=deps -r requirements.txt
+
+      - name: Install dependencies
+        run: |
+          PYVER=`python -V 2>&1`
+
+          if [ "${PYVER:0:-2}" == "Python 3.10" ]; then
+            pip install -r requirements.txt
+          else
+            pip install -U --no-index --find-links=deps deps/*
+          fi
+
+      - name: Run tests
+        run: |
+          pytest --doctest-modules --junitxml=junit/pytest-results-${{ matrix.python-version }}.xml --cov=$PROJECT_NAME --cov-report=xml tests/
+
+      - name: Run linters
+        run: |
+          echo "Running linters"
+
+          flake8 .
+          isort --check-only . 2>&1
+          black --check . 2>&1
+
+      - name: Upload pytest test results
+        uses: actions/upload-artifact@master
+        with:
+          name: pytest-results-${{ matrix.python-version }}
+          path: junit/pytest-results-${{ matrix.python-version }}.xml
+        if: always()
+
+      - name: Codecov
+        run: |
+          bash <(curl -s https://codecov.io/bash)
+
+      - name: Install distribution dependencies
+        run: pip install build
+        if: matrix.python-version == '3.10'
+
+      - name: Create distribution package
+        run: python -m build
+        if: matrix.python-version == '3.10'
+
+      - name: Upload distribution package
+        uses: actions/upload-artifact@master
+        with:
+          name: dist
+          path: dist
+        if: matrix.python-version == '3.10'
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'release'
+    steps:
+      - name: Download the distribution package
+        uses: actions/download-artifact@v2
+        with:
+          name: dist
+          path: dist
+
+      - name: Publish distribution 📦 to Test PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip_existing: true
+          user: __token__
+          password: ${{ secrets.test_pypi_password }}
+          repository_url: https://test.pypi.org/legacy/
+
+      - name: Publish distribution 📦 to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.pypi_password }}
+
+      - name: Download CSS pack
+        uses: actions/download-artifact@v2
+        with:
+          name: dist-package-css
+          path: dist-css
+
+      - name: Add CSS package to the release
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./dist-css/neoteroi-mkdocs.css
+          asset_name: css-${{ github.event.release.tag_name }}.css
+          asset_content_type: text/css
+        continue-on-error: true
