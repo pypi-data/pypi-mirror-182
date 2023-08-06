@@ -1,0 +1,21 @@
+Thanks for downloading django-admin-better-tools.
+
+This repo is forked from django-admin-tools(https://github.com/django-admin-tools/django-admin-tools).
+
+This application requires Python 2.7 or later and Django 1.11 or newer.
+django-admin-better-tools is fully compatible with Python 3.
+
+Important note to users of django 1.10 or below: starting from  django-admin-better-tools:0.1.0 (django-admin-tools:0.9.0),
+django-admin-tools is *NOT* compatible with Django <= 1.10. If you want,
+you can still use the  django-admin-tools:0.8.1.
+
+It is recommended that you install the FeedParser module
+(http://www.feedparser.org/) if you want to use the feed dashboard module.
+
+To install django-admin-tools, run the following command inside this directory::
+
+    pip install django-admin-better-tools
+
+Or if you'd prefer you can simply place the included ``admin_tools`` directory
+somewhere on your Python path, or symlink to it from somewhere on your Python
+path; this is useful if you're working from a Mercurial checkout.

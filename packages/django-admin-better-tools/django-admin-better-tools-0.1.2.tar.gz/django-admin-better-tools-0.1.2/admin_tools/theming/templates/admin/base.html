@@ -1,0 +1,12 @@
+{% extends "admin:admin/base.html" %}
+{% load theming_tags i18n %}
+{% block blockbots %}
+    {{ block.super }}
+    {# Using blockbots ensures theming css comes after any form media and other css #}
+    {% render_theming_css %}
+{% endblock %}
+{% block welcome-msg %}
+    <strong>--{{ ENVIRONMENT_TEXT }}--</strong>
+    {% translate 'Welcome,' %}
+    <strong>{% firstof user.get_short_name user.get_username %}</strong>.
+{% endblock %}
