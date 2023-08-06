@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: uc-sgsim
+Version: 1.1.0
+Summary: Geo-Statistic alogrithm (Sequential Gaussian Simulation)
+Home-page: https://github.com/Zncl2222/Stochastic_UC_SGSIM
+Author: Zncl2222
+Author-email: 3002shinning@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+License-File: LICENSE.md
