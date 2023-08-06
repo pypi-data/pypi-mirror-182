@@ -1,0 +1,9 @@
+Change Log 
+==========
+
+0.0.2
+- Fixed dependancy issue 12/21/2022
+
+0.0.1
+- First Release 12/21/2022
+

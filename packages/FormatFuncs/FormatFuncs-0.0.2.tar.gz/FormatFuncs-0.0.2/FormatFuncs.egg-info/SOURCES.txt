@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+FormatFuncs.egg-info/PKG-INFO
+FormatFuncs.egg-info/SOURCES.txt
+FormatFuncs.egg-info/dependency_links.txt
+FormatFuncs.egg-info/top_level.txt
