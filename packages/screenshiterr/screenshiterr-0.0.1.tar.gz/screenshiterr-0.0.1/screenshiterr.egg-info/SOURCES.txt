@@ -1,0 +1,9 @@
+README.md
+setup.py
+screenshiterr.egg-info/PKG-INFO
+screenshiterr.egg-info/SOURCES.txt
+screenshiterr.egg-info/dependency_links.txt
+screenshiterr.egg-info/requires.txt
+screenshiterr.egg-info/top_level.txt
+screenshitterr/__init__.py
+screenshitterr/loop.py
