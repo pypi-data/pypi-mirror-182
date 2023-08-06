@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: auto-deep-learning
+Version: 0.1.1
+Summary: Automation of the creation of the architecture of the neural network based on the input
+Home-page: https://github.com/Nil-Andreu/auto-deep-learning
+Author: Nil Andreu
+Author-email: nilandreug@email.com
+License: MIT
+Keywords: deep learning,machine learning,computer vision,convolutional neural networks,neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Auto-Deep-Learning (Auto Deep Learning)
+[![Downloads](https://pepy.tech/badge/auto_deep_learning)](https://pepy.tech/project/auto_deep_learning) ![Version](https://img.shields.io/badge/version-0.1.1-blue) ![Python-Version](https://img.shields.io/badge/python-3.9-blue) ![issues](https://img.shields.io/github/issues/Nil-Andreu/auto_deep_learning) ![PyPI - Status](https://img.shields.io/pypi/status/auto_deep_learning) ![License](https://img.shields.io/github/license/Nil-Andreu/auto_deep_learning) 
+
+```auto_deep_learning```: with this package, you will be able to create, train and deploy neural networks automatically based on the input that you provide.
+
+## Installation
+Use the package manager [pip](https://pypi.org/project/pip/) to install auto_deep_learning.
+
+To install the package:
+```bash
+    pip install auto_deep_learning
+```
+
+If using an old version of the package,
+```bash
+    pip install --upgrade auto_deep_learning
+```
+
