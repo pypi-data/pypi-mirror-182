@@ -1,0 +1,10 @@
+README.md
+setup.py
+sso-auth-user/__init__.py
+sso-auth-user/sso_auth.py
+sso_auth_layer.egg-info/PKG-INFO
+sso_auth_layer.egg-info/SOURCES.txt
+sso_auth_layer.egg-info/dependency_links.txt
+sso_auth_layer.egg-info/not-zip-safe
+sso_auth_layer.egg-info/requires.txt
+sso_auth_layer.egg-info/top_level.txt
