@@ -1,0 +1,12 @@
+setup.py
+neelanjanmannac/src/neelanjanmannac.egg-info/PKG-INFO
+neelanjanmannac/src/neelanjanmannac.egg-info/SOURCES.txt
+neelanjanmannac/src/neelanjanmannac.egg-info/dependency_links.txt
+neelanjanmannac/src/neelanjanmannac.egg-info/requires.txt
+neelanjanmannac/src/neelanjanmannac.egg-info/top_level.txt
+neelanjanmannac/src/neelanjanmannac.py
+neelanjanmannac/src/neelanjanmannac.egg-info/PKG-INFO
+neelanjanmannac/src/neelanjanmannac.egg-info/SOURCES.txt
+neelanjanmannac/src/neelanjanmannac.egg-info/dependency_links.txt
+neelanjanmannac/src/neelanjanmannac.egg-info/requires.txt
+neelanjanmannac/src/neelanjanmannac.egg-info/top_level.txt
