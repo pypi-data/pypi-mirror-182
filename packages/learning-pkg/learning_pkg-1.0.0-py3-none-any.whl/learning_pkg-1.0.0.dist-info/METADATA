@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: learning_pkg
+Version: 1.0.0
+Summary: A small package made to learn how to make these packages....
+Project-URL: Homepage, https://github.com/hridayK/first_package
+Project-URL: Bug Tracker, https://github.com/hridayK/first_package/issues
+Author: Hriday Keswani
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
