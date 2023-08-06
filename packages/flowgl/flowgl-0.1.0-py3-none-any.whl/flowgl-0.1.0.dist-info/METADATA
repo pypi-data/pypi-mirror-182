@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: flowgl
+Version: 0.1.0
+Summary: Flow Immersive python client for datasets API
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests-toolbelt (>=0.10.1,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Flow python client
+
+A python client for the Flow API.
+
+## Installation
+
+First, install [python](https://www.python.org/downloads/) and [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer).
+
+Then, clone the repository, create a virtual environment, and install the dependencies.
+    
+```bash
+git clone
+cd flow-python-client
+python -m venv venv
+source venv/bin/activate
+poetry install
+```
+
