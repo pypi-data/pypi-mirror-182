@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: kilroy-face-py-shared
+Version: 0.6.0
+Summary: shared code for kilroy face SDKs in Python 🤝
+Home-page: https://github.com/kilroybot/kilroy-face-py-shared
+Author: kilroy
+Author-email: kilroymail@pm.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: betterproto (>=2.0.0b5,<3.0.0)
+Requires-Dist: jsonschema (>=4.7,<5.0)
+Requires-Dist: pydantic (>=1.9,<2.0)
+Requires-Dist: pyhumps (>=3.7,<4.0)
+Project-URL: Documentation, https://kilroybot.github.io/kilroy-face-py-shared
+Project-URL: Repository, https://github.com/kilroybot/kilroy-face-py-shared
+Description-Content-Type: text/markdown
+
+<h1 align="center">kilroy-face-py-shared</h1>
+
+<div align="center">
+
+shared code for kilroy face SDKs in Python 🤝
+
+[![Lint](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/lint.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/lint.yaml)
+[![Tests](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/test-multiplatform.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/test-multiplatform.yaml)
+[![Docs](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/docs.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/docs.yaml)
+
+</div>
+
+---
+
+## Overview
+
+This package contains code shared by SDKs related to faces.
+Mostly it's just a bunch of utilities and dataclasses.
+
+## Installing
+
+Using `pip`:
+
+```sh
+pip install kilroy-face-py-shared
+```
+
+## Messages
+
+Messages are dataclasses that are used in the APIs.
+They are automatically generated from the protobuf definitions.
+
+## Posts
+
+Posts are `pydantic` models that are used to represent various types of posts.
+There are definitions for:
+
+- `TextOnlyPost`
+- `ImageOnlyPost`
+- `TextAndImagePost`
+- `TextOrImagePost`
+- `TextWithOptionalImagePost`
+- `ImageWithOptionalTextPost`
+
+## Models
+
+One useful thing this package provides is a `SerializableModel` class.
+It's a base class for `pydantic` models
+that can be serialized to and from JSON
+with a proper case convention.
+
