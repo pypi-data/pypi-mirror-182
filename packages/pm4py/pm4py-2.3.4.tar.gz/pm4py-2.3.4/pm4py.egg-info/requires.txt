@@ -1,0 +1,16 @@
+deprecation
+graphviz
+intervaltree
+lxml
+matplotlib
+networkx
+numpy>=1.19.5
+pandas>=1.1.5
+pydotplus
+pytz
+scipy
+stringdist
+tqdm
+
+[:python_version < "3.11"]
+cvxopt
