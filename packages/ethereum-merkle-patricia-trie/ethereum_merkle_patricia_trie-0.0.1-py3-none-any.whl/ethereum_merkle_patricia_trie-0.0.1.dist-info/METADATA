@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ethereum-merkle-patricia-trie
+Version: 0.0.1
+Summary: Pure Python 3 Merkle Patricia Trie implementation
+Home-page: https://github.com/jacekv/merklePatriciaTree
+Author: Jacek Varky
+Author-email: jaca347@gmail.com
+License: MIT
+Requires-Dist: plyvel (==1.5.0)
+Requires-Dist: rlp (==3.0.0)
+Requires-Dist: pysha3 (==1.0.2)
+
