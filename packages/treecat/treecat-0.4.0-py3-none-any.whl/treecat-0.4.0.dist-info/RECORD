@@ -1,0 +1,10 @@
+treecat/__init__.py,sha256=b3dyzxsp4brf2J-hStJiUxRpJosuIEHLir38mhUODQ0,64
+treecat/__main__.py,sha256=DJT120xDLVOI_Pk7hLO5lLoYKnMgHwLk9WtsYv5I-Fg,1164
+treecat/_version.py,sha256=wHiSPsTiyxO7V4rvGb-B5dpqVnoJozzCnS80TOzToPk,32
+treecat/treecat.py,sha256=_DrKQa5E2NMs2WnHm0PHCnVomWIKb1YBbtzZ1LLKXdo,9386
+treecat-0.4.0.data/scripts/tcat,sha256=kc46_5wjH_hCXVWUxMNVCKB9pj9-Dolt3xEYbLZb074,65
+treecat-0.4.0.dist-info/LICENSE,sha256=mJeNAAHmrKSBoDtl54Kr_lZLkFrk-7NCBfwWD_VGfVc,1069
+treecat-0.4.0.dist-info/METADATA,sha256=u5FHkHFsrGopuHsMcsrOfCNLJGK72gsrEk0Df2nT2jM,791
+treecat-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+treecat-0.4.0.dist-info/top_level.txt,sha256=5MnXE5jy5la-uJPJkXNzMlT01szXsJDWNkMCpjPOUIo,8
+treecat-0.4.0.dist-info/RECORD,,
