@@ -1,0 +1,8 @@
+include Linkmaths_quarto/documents/*
+include Linkmaths_quarto/book/*
+include Linkmaths_quarto/presentation/*
+include Linkmaths_quarto/website/*
+include Linkmaths_quarto/modele/*
+include Linkmaths_quarto/data/*
+include Linkmaths_quarto/*
+

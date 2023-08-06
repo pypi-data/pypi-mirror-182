@@ -1,0 +1,64 @@
+---
+title: "chalenge kaggle"
+format:
+  html:
+    highlight-style: dark
+    collapse-level: 2
+    
+    # numérotation des sections
+    number-sections: true
+    anchor-sections: true
+    # table de matière avec une profondeur à 2
+
+    link-external-newwindow: true
+
+---
+
+
+
+
+# Lignes directrices pour les collaborateurs
+
+
+Ce référentiel contient le code source du concours Titanic Spaceship sur Kaggle.
+Les collaborateurs sont priés de poster chacun de leurs modèles construits (Régression Logistique, Random Forest, XGBoost, etc.) dans un notebook différent.
+La convention de dénomination du bloc-notes est la suivante : *ModelName_NameOfCollaborator_RefOrProd_Version*.
+
+
+
+
+## Description de l'ensemble de données
+
+Dans ce chalenge, notre objectif est de prédire si un passager a été transporté dans une autre dimension lors de la collision du vaisseau spatial Titanic avec une annomalie spacio-temporaire. Pour vous aider à faire ces prédictions, vous recevez un ensemble de dossiers personnels récupérés à partir du système informatique endommagé du vaisseau.
+
+
+### Descriptions des fichiers et des champs de données
+
+*train.csv* : Dossiers personnels pour environ les deux tiers (~8700) des passagers, à utiliser comme données de formation.
+
+- *PassengerId* :  Un identifiant unique pour chaque passager. Chaque ID prend la forme gggg_pp où gggg indique un groupe avec lequel le passager voyage et ppest son numéro au sein du groupe. Les membres d'un groupe sont souvent des membres de la famille, mais pas toujours.
+
+- *HomePlanet* : La planète d'où le passager est parti, généralement sa planète de résidence permanente.
+CryoSleep- Indique si le passager a choisi d'être mis en animation suspendue pendant la durée du voyage. Les passagers en cryosommeil sont confinés dans leurs cabines.
+
+- *Cabin* : Le numéro de la cabine où séjourne le passager. Prend la forme deck/num/side, où sidepeut être Ppour bâbord ou Spour tribord.
+
+- *Destination* : La planète sur laquelle le passager débarquera.
+
+- *Age* : L'âge du passager.
+- *VIP* :  Si le passager a payé pour un service VIP spécial pendant le voyage.
+- *RoomService, FoodCourt, ShoppingMall, Spa, VRDeck* : Montant facturé par le passager pour chacun des nombreux équipements de luxe du Spaceship Titanic.
+
+- *Name* : Les noms et prénoms du passager.
+
+- *Transported* : Si le passager a été transporté dans une autre dimension. C'est la cible, la colonne que vous essayez de prédire.
+
+*test.csv* :  Dossiers personnels pour le tiers restant (~ 4300) des passagers, à utiliser comme données de test. Votre tâche consiste à prédire la valeur de Transportedpour les passagers de cet ensemble.
+
+*sample_submission.csv* : Un fichier de soumission au format correct.
+
+- *PassengerId* Id pour chaque passager dans l'ensemble de test.
+
+- *Transported* :  La cible. Pour chaque passager, prédisez soit Trueou False.
+
+

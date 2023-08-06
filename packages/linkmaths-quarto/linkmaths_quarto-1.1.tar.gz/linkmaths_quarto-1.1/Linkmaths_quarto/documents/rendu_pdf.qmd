@@ -1,0 +1,43 @@
+---
+title: "My document"
+format:
+  pdf:
+
+    #option de sortie de documents
+    documentclass: report
+    classoption: [twocolumn, landscape]
+    lof: true
+    lot: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    fontfamily: libertinus
+    colorlinks: true
+
+    # pour rajouter les citations et biblioothèques
+ 
+
+    # paramétrage de la table de matières
+    toc: true
+    toc-depth: 2
+    toc-title: "Table de matières"
+    toc-location: left
+    # format du rendu latex des formules mathématiques
+    pdf-math-method: katex
+    # numérotage des sections et sous sections 
+    number-sections: true
+    number-depth: 3
+    # défilement de la page
+    smooth-scroll: true
+    # mise en forme propre au document
+    css: style_pdf.css
+---
+
+
+
+\begin{equation}
+i_{x,y,s} = 1 - \frac{\mu_{x,y,s}}{\mu_{x,y - 1,s}}.
+(\#eq:am1)
+\end{equation}
+
