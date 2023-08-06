@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mailerlite/__init__.py
+mailerlite/client.py
+mailerlite/exceptions.py
+mailerlite_python.egg-info/PKG-INFO
+mailerlite_python.egg-info/SOURCES.txt
+mailerlite_python.egg-info/dependency_links.txt
+mailerlite_python.egg-info/not-zip-safe
+mailerlite_python.egg-info/requires.txt
+mailerlite_python.egg-info/top_level.txt
