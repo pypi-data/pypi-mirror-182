@@ -1,0 +1,8 @@
+pyproject.toml
+histd/__init__.py
+histd/cli.py
+histd.egg-info/PKG-INFO
+histd.egg-info/SOURCES.txt
+histd.egg-info/dependency_links.txt
+histd.egg-info/entry_points.txt
+histd.egg-info/top_level.txt
