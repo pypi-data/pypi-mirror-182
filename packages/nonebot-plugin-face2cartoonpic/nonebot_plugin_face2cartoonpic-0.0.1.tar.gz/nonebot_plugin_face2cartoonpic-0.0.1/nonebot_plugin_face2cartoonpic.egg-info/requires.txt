@@ -1,0 +1,5 @@
+nonebot
+pydantic
+hmac
+requests
+urlextract
