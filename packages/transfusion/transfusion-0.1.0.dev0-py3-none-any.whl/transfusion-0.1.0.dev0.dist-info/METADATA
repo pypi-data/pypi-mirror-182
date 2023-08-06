@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: transfusion
+Version: 0.1.0.dev0
+Summary: Transformers 🤝 diffusion
+Home-page: https://github.com/lewtun/transfusion
+Download-URL: https://github.com/lewtun/transfusion/tags
+Author: SetFit
+Author-email: lewis.c.tunstall@gmail.com
+License: Apache 2.0
+Keywords: transformers,diffusion
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: datasets (>=2.3.0)
+Requires-Dist: sentence-transformers (>=2.2.1)
+Requires-Dist: evaluate (>=0.3.0)
+Provides-Extra: compat_tests
+Requires-Dist: datasets (==2.3.0) ; extra == 'compat_tests'
+Requires-Dist: sentence-transformers (==2.2.1) ; extra == 'compat_tests'
+Requires-Dist: evaluate (==0.3.0) ; extra == 'compat_tests'
+Requires-Dist: pytest ; extra == 'compat_tests'
+Requires-Dist: pytest-cov ; extra == 'compat_tests'
+Requires-Dist: onnxruntime ; extra == 'compat_tests'
+Requires-Dist: onnx ; extra == 'compat_tests'
+Requires-Dist: skl2onnx ; extra == 'compat_tests'
+Provides-Extra: dev
+Requires-Dist: tabulate ; extra == 'dev'
+Requires-Dist: optuna ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: evaluate (==0.3.0) ; extra == 'dev'
+Requires-Dist: onnx ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: onnxruntime ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: sentence-transformers (==2.2.1) ; extra == 'dev'
+Requires-Dist: skl2onnx ; extra == 'dev'
+Requires-Dist: datasets (==2.3.0) ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Provides-Extra: onnx
+Requires-Dist: onnxruntime ; extra == 'onnx'
+Requires-Dist: onnx ; extra == 'onnx'
+Requires-Dist: skl2onnx ; extra == 'onnx'
+Provides-Extra: optuna
+Requires-Dist: optuna ; extra == 'optuna'
+Provides-Extra: quality
+Requires-Dist: black ; extra == 'quality'
+Requires-Dist: flake8 ; extra == 'quality'
+Requires-Dist: isort ; extra == 'quality'
+Requires-Dist: tabulate ; extra == 'quality'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: onnxruntime ; extra == 'tests'
+Requires-Dist: onnx ; extra == 'tests'
+Requires-Dist: skl2onnx ; extra == 'tests'
+
+# transfusion
+Transformers 🤝 diffusion
