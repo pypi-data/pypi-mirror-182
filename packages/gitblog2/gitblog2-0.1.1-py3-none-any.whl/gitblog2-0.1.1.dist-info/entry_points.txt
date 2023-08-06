@@ -1,0 +1,3 @@
+[console_scripts]
+gitblog=gitblog2.cli:main
+
