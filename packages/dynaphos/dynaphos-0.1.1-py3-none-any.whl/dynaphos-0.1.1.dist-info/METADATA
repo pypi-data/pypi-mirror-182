@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dynaphos
+Version: 0.1.1
+Summary: Fully differentiable and biologically plausible simulation of prosthetic vision.
+Author-email: Maureen van der Grinten <maureen.vandergrinten@ru.nl>, Jaap de Ruyter <jaap.deruyter@donders.ru.nl>, Bodo Rueckauer <bodo.rueckauer@donders.ru.nl>
+Project-URL: Homepage, https://github.com/neuralcodinglab/dynaphos.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# About the project
+A fully differentiable and biologically plausible simulation of prosthetic vision, which can be used for end-to-end optimization.
+
+## Installation
+`pip install dynaphos`
+
+## Getting Started
+- Download the default configuration file (config/params.yaml) and adjust according to needs 
+- Run the `test` suite.
+- See the `examples` directory for simple use cases.
+
+## Citation
+
+## Experiments
+For the end-to-end optimization experiments in our BioRxiv publication see [this repository](https://github.com/neuralcodinglab/viseon/tree/dynaphos-paper).
+All other code that was used for the other experiments in our publication can me made available on request.
+
+## Contact
+Feel free to submit an issue, we're happy to help.
