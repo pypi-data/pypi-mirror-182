@@ -1,0 +1,11 @@
+include dash_cookies/dash_cookies.min.js
+include dash_cookies/dash_cookies.min.js.map
+include dash_cookies/async-*.js
+include dash_cookies/async-*.js.map
+include dash_cookies/*-shared.js
+include dash_cookies/*-shared.js.map
+include dash_cookies/metadata.json
+include dash_cookies/package-info.json
+include README.md
+include LICENSE
+include package.json
