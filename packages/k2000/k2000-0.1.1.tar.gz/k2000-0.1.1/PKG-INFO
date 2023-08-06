@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: k2000
+Version: 0.1.1
+Summary: A library for working with the Kurzweil K2000/K2500/K2600 series of synthesizers.
+Home-page: https://github.com/psobot/k2000
+Author: Peter Sobot
+Author-email: github@petersobot.com
+Project-URL: Bug Reports, https://github.com/psobot/k2000/issues/new
+Project-URL: Source, https://github.com/psobot/k2000
+Keywords: kurzweil midi synthesizer k2000 k2vx k2500 k2600 sysex
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# k2000
+
+[![Python package](https://github.com/psobot/k2000/actions/workflows/test.yaml/badge.svg)](https://github.com/psobot/k2000/actions/workflows/test.yaml)
+
+A Python package for communicating with the Kurzweil K2000/K2500/K2600 family of synthesizers over MIDI.
