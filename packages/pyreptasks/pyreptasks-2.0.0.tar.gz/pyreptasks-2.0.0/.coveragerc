@@ -1,0 +1,4 @@
+[run]
+omit = 
+    setup.py
+    src/__init__.py
