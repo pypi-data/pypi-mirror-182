@@ -1,0 +1,14 @@
+tno.mpc.protocols.distributed_keygen-3.1.4-py3.9-nspkg.pth,sha256=gunU0Xle6ZECm9Lx7a00AqiACrfENrnkmbg2BbUaEvY,3405
+tno/mpc/protocols/distributed_keygen/__init__.py,sha256=NH5KKvmuD5stYIuvVKVAstvIB8nltQdvEK6OpIQPmJs,422
+tno/mpc/protocols/distributed_keygen/distributed_keygen.py,sha256=KhZTHB1b_bZVREA6kqkcnS7VowIfBNHcx-GU5wOf4Y8,57601
+tno/mpc/protocols/distributed_keygen/paillier_shared_key.py,sha256=QyJjQ0Q6wyQ48L137KHVdHoHG1VfshPqO-dMERIkf6g,5251
+tno/mpc/protocols/distributed_keygen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tno/mpc/protocols/distributed_keygen/utils.py,sha256=5ze74WQc94vly_4IlFJzvtm1XKgVlbF7Hu_dB6fjq6k,2794
+tno/mpc/protocols/distributed_keygen/test/__init__.py,sha256=H2hGCJHTArw0lpuLgqfd378ZpKpVYaEPqWAGkIEfrEE,471
+tno/mpc/protocols/distributed_keygen/test/test_distributed_keygen.py,sha256=zuCAYweqDHLMlE5zycDBpY5speiv7IwCNsf89vu_jwY,12546
+tno.mpc.protocols.distributed_keygen-3.1.4.dist-info/LICENSE,sha256=DAUsqb3j_DcwbWM1Ehf0mzW0dV-Iy2Lq4lQEIfktAAQ,11401
+tno.mpc.protocols.distributed_keygen-3.1.4.dist-info/METADATA,sha256=CsTzDPzoghXwYfdmpai4WXpbwrqu6xBfoZRLv2wgLeQ,19639
+tno.mpc.protocols.distributed_keygen-3.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tno.mpc.protocols.distributed_keygen-3.1.4.dist-info/namespace_packages.txt,sha256=8NcvSu2MFDf9A2zQmnXJCgzyktXpdoSrZnR3_a8GvAU,30
+tno.mpc.protocols.distributed_keygen-3.1.4.dist-info/top_level.txt,sha256=7cHKx5j6ibiq14EYKPAhHk_NqB8u-nPUjh5R4TDqpHo,4
+tno.mpc.protocols.distributed_keygen-3.1.4.dist-info/RECORD,,
