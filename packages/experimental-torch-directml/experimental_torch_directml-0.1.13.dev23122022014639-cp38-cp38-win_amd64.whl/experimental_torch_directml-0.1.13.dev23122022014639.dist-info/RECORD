@@ -1,0 +1,14 @@
+torch_directml_native.cp38-win_amd64.pdb,sha256=lfRaYDkqjXfeeNMW1OUrE8gWd93iRV6PRzHYN5FXvIo,46673920
+torch_directml_native.cp38-win_amd64.pyd,sha256=qGqVivHiGtT-TJexh6Gf7y0m2TiyEVl3F2X0mHNctB0,1457152
+torch_directml/DirectML.Debug.dll,sha256=KVJAGPUFyyW0nj4-ZHvU3Rd40VX6pyMVeOuPeu8uNx4,1436576
+torch_directml/DirectML.dll,sha256=vDRFEq8PI6vrxiipnWAZ3AIcaLeLzBsuqpEpVs9-hYU,9677208
+torch_directml/__init__.py,sha256=4Os9AFoEAHfHNaKGgPy-ENnReRjCYQezn-msfKzYSAE,488
+torch_directml/device.py,sha256=vScHJtGXmBJ7FReLP01zuvC4yvi_0kt8oxKH-PZ1s4c,1803
+torch_directml/csrc/auto_gen_yaml.py,sha256=iic2zGQt83Ex2Tk2PMkTk1UfiAUXJIn5yryqkpeByrk,7670
+torch_directml/csrc/dml/temp.py,sha256=-iIM7Fuz0V7LTH93t-x-RzPlx16QWK6XTkZAlaUw2AE,1074
+experimental_torch_directml-0.1.13.dev23122022014639.dist-info/LICENSE,sha256=3qkmU0GCkALiwjpzcjk-su1uJghftiPzikugr4M_MKY,1183
+experimental_torch_directml-0.1.13.dev23122022014639.dist-info/METADATA,sha256=P3Uxe1sfnzWMG-ua2Fh8jWEDIXYIAQJmO98CCzStyaQ,6015
+experimental_torch_directml-0.1.13.dev23122022014639.dist-info/NOTICE,sha256=4uO665QNJMTrFu7L4zL6lMvFQtAMTDbS9GYOal1F3mY,52853
+experimental_torch_directml-0.1.13.dev23122022014639.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+experimental_torch_directml-0.1.13.dev23122022014639.dist-info/top_level.txt,sha256=oMsdXG2iHuwoTTWEmYKhwbaD4nsjUeqqxk43soLAPi0,73
+experimental_torch_directml-0.1.13.dev23122022014639.dist-info/RECORD,,
