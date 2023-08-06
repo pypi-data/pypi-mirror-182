@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ansible-deployment
+Version: 1.0.3
+Summary: Manage ansible deployments
+Home-page: https://torarg.github.io/ansible-deployment/index.html
+Author: torarg
+Author-email: mw@1wilson.org
+Requires-Python: >=3.9,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: GitPython (>=3.1.26)
+Requires-Dist: Jinja2 (>=3.0.3)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: click (>=8.0.3)
+Requires-Dist: cryptography (>=36.0.1)
+Requires-Dist: hvac (>=0.11.2)
+Requires-Dist: pygments (>=2.13.0,<3.0.0)
+Project-URL: Documentation, https://torarg.github.io/ansible-deployment/index.html
+Project-URL: Repository, https://github.com/torarg/ansible-deployment
