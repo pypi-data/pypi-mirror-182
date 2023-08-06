@@ -1,0 +1,11 @@
+LICENSE,sha256=dTAH8Z0_7ClEanL1057LNqhD-XbDDKEG-Ei43c2dWS8,34449
+asyncwica/__init__.py,sha256=DsrXcZPQP_a6ZysTFuxcUcUP9Yu8ORkS5IWRQxdSrFk,812
+asyncwica/examples.py,sha256=FYVmklAsN5EkmAXG_VasEBNFTnAEhdcs5uKCGMv2rug,2737
+asyncwica/exceptions.py,sha256=qvj3mUw4ROmLGao_xF1TX4kca5kC0DtihEP9EvtCNs0,219
+asyncwica/sseclient.py,sha256=NZR4fxKyT6qL555nGXpYmttZoChynUwLQSc6zY3rPCc,4830
+asyncwica/stream.py,sha256=G9andoQNmLLWA0g-OcnBv6pIld-BL7XB7_I6d5vRyag,10675
+asyncwica/utils.py,sha256=zxJdSpuOY8N_FseY7QLL4hsAQYmacNx778EPbzR09XU,2311
+asyncwica-1.3.0.dist-info/LICENSE,sha256=dTAH8Z0_7ClEanL1057LNqhD-XbDDKEG-Ei43c2dWS8,34449
+asyncwica-1.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+asyncwica-1.3.0.dist-info/METADATA,sha256=sL7GU1WrLV9XWR_2BQZAtKp8buBvuPzQyELA_ItXwtI,4815
+asyncwica-1.3.0.dist-info/RECORD,,
