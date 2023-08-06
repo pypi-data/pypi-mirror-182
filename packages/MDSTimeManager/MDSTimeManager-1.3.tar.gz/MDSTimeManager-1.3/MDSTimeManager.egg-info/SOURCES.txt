@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+MDSTimeManager/__init__.py
+MDSTimeManager.egg-info/PKG-INFO
+MDSTimeManager.egg-info/SOURCES.txt
+MDSTimeManager.egg-info/dependency_links.txt
+MDSTimeManager.egg-info/top_level.txt
+MDSTimeManager/setup/__init__.py
+MDSTimeManager/setup/course.py
+MDSTimeManager/setup/mdstmerror.py
+MDSTimeManager/setup/person.py
+MDSTimeManager/system/TimeManager.py
+MDSTimeManager/system/__init__.py
+MDSTimeManager/system/deliverableviewer.py
+MDSTimeManager/system/main.py
