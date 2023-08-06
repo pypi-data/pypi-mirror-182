@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "eventstreamd"
+version = "2022.12.1"
+description = "Simple Event Stream Server"
+readme = "README.md"
+authors = ["Sebastian Rittau <srittau@rittau.biz>"]
+license = "MIT"
+homepage = "https://github.com/srittau/eventstreamd"
+repository = "https://github.com/srittau/eventstreamd"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Topic :: Internet :: WWW/HTTP",
+]
+packages = [{ include = "evtstrd" }, { include = "evtstrd_test" }]
+
+[tool.poetry.scripts]
+eventstreamd = "evtstrd.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+json-get = "~1.1.1"
+
+[tool.poetry.group.dev.dependencies]
+asserts = ">=0.6,<0.13"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+mypy = "0.990"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
