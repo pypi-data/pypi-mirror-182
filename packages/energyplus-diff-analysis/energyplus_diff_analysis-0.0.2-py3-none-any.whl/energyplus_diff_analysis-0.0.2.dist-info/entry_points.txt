@@ -1,0 +1,3 @@
+[console_scripts]
+eplus-diff = eda.cli:cli
+
