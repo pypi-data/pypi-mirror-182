@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: trendhunter
+Version: 0.0.1
+Summary: Asynchronous TrendHunter API (in Python)
+Author-email: Jake Ballantyne <jake.david.ballantyne@gmail.com>
+Maintainer-email: Jake Ballantyne <jake.david.ballantyne@gmail.com>
+Project-URL: homepage, https://github.com/jbal/trendhunter
+Project-URL: issues, https://github.com/jbal/trendhunter/issues
+Project-URL: repository, https://github.com/jbal/trendhunter
+Keywords: API
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (>=3.8.3)
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Requires-Dist: cssutils (>=2.6.0)
+Requires-Dist: click (>=8.1.3)
+Requires-Dist: python-pptx (>=0.6.21)
+Requires-Dist: python-slugify (>=7.0.0)
+Requires-Dist: build (>=0.9.0)
+Provides-Extra: dev
+Requires-Dist: pre-commit (>=2.20.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=7.2.0) ; extra == 'test'
+Requires-Dist: aioresponses (>=0.7.4) ; extra == 'test'
+
+# trendhunter
