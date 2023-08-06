@@ -1,0 +1,12 @@
+{
+	"name": "jasmin-conf-dev",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "configuration",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"postCreateCommand": "/usr/local/bin/python -m pip install -U autopep8; /usr/local/bin/python -m pip install --upgrade build; /usr/local/bin/python -m pip install --upgrade twine; echo \"alias build='rm -rf dist/*; python3 -m build'; alias push='python3 -m twine upload -u __token__ -p \\$PYPI_TOKEN dist/*'; export PYPI_TOKEN=pypi-AgEIcHlwaS5vcmcCJDU0YzcxNWQ5LTVmNzktNDk2ZC05NzdjLWM3OTQ1MDYzNDJiNQACIlsxLFsiamFzbWluLW1vbmdvLWNvbmZpZ3VyYXRpb24iXV0AAixbMixbIjYyMDY3NGY3LTY3NWYtNDI5NS1hY2RiLTNhMGEzZTliYWE5MiJdXQAABiChD7W6AEiAkQqqIM0p1xoXQcO5OBDWG5OQkJL4DxdkJA\" > ~/.bashrc "
+}

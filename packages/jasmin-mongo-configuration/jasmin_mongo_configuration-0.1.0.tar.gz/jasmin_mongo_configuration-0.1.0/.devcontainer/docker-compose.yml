@@ -1,0 +1,30 @@
+version: "3"
+name: jasmin-conf-dev
+services:
+  configuration:
+    image: blackorder/jasmin-mongo-configuration
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    restart: always
+    env_file:
+      - devcontainer.env
+    networks:
+      - jasmin-core_jasmin_subnet
+      - jasmin-core_rabbitmq_subnet
+      - jasmin-core_redis_subnet
+      - mongo-cluster_cluster_subnet
+    volumes:
+      - "extensions:/root/.vscode-server/extensions"
+      - "insiders:/root/.vscode-server-insiders/extensions"
+      - ../..:/workspaces:cached
+networks:
+  jasmin-core_jasmin_subnet:
+    external: true
+  jasmin-core_rabbitmq_subnet:
+    external: true
+  jasmin-core_redis_subnet:
+    external: true
+  mongo-cluster_cluster_subnet:
+    external: true
+volumes:
+  extensions: {}
+  insiders: {}
