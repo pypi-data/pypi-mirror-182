@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+str2float/__init__.py
+str2float.egg-info/PKG-INFO
+str2float.egg-info/SOURCES.txt
+str2float.egg-info/dependency_links.txt
+str2float.egg-info/top_level.txt
