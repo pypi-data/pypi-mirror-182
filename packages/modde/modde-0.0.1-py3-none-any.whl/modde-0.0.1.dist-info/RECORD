@@ -1,0 +1,14 @@
+modde/__init__.py,sha256=GvqimZA1v3kdZrXN-6qWFb_dj5acUXgUTlexTk-ysSU,482
+modde/modularde.py,sha256=F39onMCDqtuLP4WYg0LRnGIvEpIt0mNr5bJTzexOngw,16908
+modde/parameters.py,sha256=wLJhoiNrB-NXDBF_98G-__-6VuHyVjFRSFDADLawMbI,19157
+modde/population.py,sha256=X7QSK2hxUnTEnMd5g2kFn40yueq4LuJW-GmeWu8-ydQ,3130
+modde/sampling.py,sha256=ecFICW5htSYNhIKEpXvnl9BBBr8siUclDGkbQddgPAU,7929
+modde/utils.py,sha256=u8yJA242UK9JA8BkRn0hw2IuKL5b67W1dlJ_6sUnkr4,6969
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/create_expected.py,sha256=HurpOkL8vfuz5_etAOXIFcvOjipMoTcIVDO6PQi4Ijw,1696
+tests/test_modularde.py,sha256=gM2n0MOia1YWQWPYPwrOekvaVMFtfLwII3Y6-4z79og,6828
+modde-0.0.1.dist-info/LICENCE,sha256=8QMcKLTInw1lYTRoK1nqzAGPNyooVR-PzSU8vXDdGYw,1095
+modde-0.0.1.dist-info/METADATA,sha256=1OxRrMfUpVJ0pNTfwL-dJf4UFv__ypOcMcvE5zTByJo,3576
+modde-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+modde-0.0.1.dist-info/top_level.txt,sha256=5kE44hh8W84WBrKuY9zzvIBxQOmYYVzLknlKXFrI1lo,12
+modde-0.0.1.dist-info/RECORD,,
