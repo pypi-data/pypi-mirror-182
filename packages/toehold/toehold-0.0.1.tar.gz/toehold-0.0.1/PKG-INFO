@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: toehold
+Version: 0.0.1
+Summary: Predict & Optimization of Toehold switch.
+Home-page: https://github.com/Bruce-ywj/toehold
+Author: Weijie Yin
+License: MIT
+License-File: LICENSE
+
+# Create Environment with Pip
+```
+pip install -r requirements.txt
+```
+# 
