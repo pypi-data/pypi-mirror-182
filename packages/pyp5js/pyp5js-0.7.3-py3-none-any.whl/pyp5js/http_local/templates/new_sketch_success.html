@@ -1,0 +1,26 @@
+<!--
+pyp5js
+Copyright (C) 2019-2021 Bernardo Fontes
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+{% extends "base.html" %}
+{% block title %}Success!{% endblock title %}
+
+{% block content %}
+  <h2>Your sketch was created with success!!!</h2>
+  <p>Now you can start to draw, I mean, to code!</p>
+  <p>Edit your Python sketch file located at {{ files.sketch_py.resolve() }} and have fun!</p>
+  <p><a href="{{ sketch_url }}">Click here</a> to see your results or <a href="/">go back to the home</a>.</p>
+{% endblock content %}

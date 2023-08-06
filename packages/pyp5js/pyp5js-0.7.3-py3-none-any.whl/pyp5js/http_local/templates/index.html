@@ -1,0 +1,30 @@
+<!--
+pyp5js
+Copyright (C) 2019-2021 Bernardo Fontes
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+{% extends "base.html" %}
+{% block title %}Index{% endblock title %}
+
+{% block content %}
+  <h2>Welcome to your pyp5js sketchbook!</h2>
+  <p><a href="/new-sketch/">Add a new sketch</a></p>
+  <p>Available sketches in {{ sketches_dir }}:</p>
+  <ul>
+  {% for sketch in sketches %}
+    <li><a href="{{ sketch.url }}">{{ sketch.name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock content %}
