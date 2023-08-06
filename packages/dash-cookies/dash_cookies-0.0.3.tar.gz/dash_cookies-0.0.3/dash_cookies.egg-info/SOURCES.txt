@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_cookies/DashCookies.py
+dash_cookies/__init__.py
+dash_cookies/_imports_.py
+dash_cookies/dash_cookies.min.js
+dash_cookies/dash_cookies.min.js.map
+dash_cookies/metadata.json
+dash_cookies/package-info.json
+dash_cookies.egg-info/PKG-INFO
+dash_cookies.egg-info/SOURCES.txt
+dash_cookies.egg-info/dependency_links.txt
+dash_cookies.egg-info/top_level.txt
