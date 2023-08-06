@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "tailors-fast"
+version = "0.1.0"
+description = ""
+authors = ["orctom <orctom@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hao = "^3.7.3"
+fasttext = "^0.9.2"
+jieba = "^0.42.1"
+OpenCC = "^1.1.6"
+ftfy = "^6.1.1"
+
+[tool.poetry.dev-dependencies]
+scikit-learn = "^1.2.0"
+
+[tool.poetry.scripts]
+tailors-fast-train = "tailors_fast.train:train"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.black]
+line-length = 135
+target-version = ['py38']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | data
+)/
+'''
