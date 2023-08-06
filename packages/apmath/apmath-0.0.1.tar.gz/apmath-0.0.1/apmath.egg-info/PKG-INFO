@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: apmath
+Version: 0.0.1
+Summary: Mathematical packet for python.
+Author: Aleksander Paradiuk
+Author-email: olekparadiuk@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Appmath
+
+## Sekcja 1
+To jest mĂłj przykĹ‚adowy projekt wykorzystujÄ…cy moduĹ‚ setuptools i Pythona.
+
+## Sekcja 2
+PrzykĹ‚adowy kod pÄ™tli `for`:
+
+```python
+for i in range(100):
+    if i % 2 == 0:
+        print(i)
+```
+
+## Sekcja 3
+To jest tekst **pogrubiony**. \
+To jest tekst *pochylony*.

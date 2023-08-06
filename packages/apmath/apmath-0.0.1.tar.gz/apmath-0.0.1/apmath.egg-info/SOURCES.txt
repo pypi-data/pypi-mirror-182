@@ -1,0 +1,9 @@
+README.md
+setup.py
+apmath.egg-info/PKG-INFO
+apmath.egg-info/SOURCES.txt
+apmath.egg-info/dependency_links.txt
+apmath.egg-info/requires.txt
+apmath.egg-info/top_level.txt
+packet/__init__.py
+packet/apmath.py
