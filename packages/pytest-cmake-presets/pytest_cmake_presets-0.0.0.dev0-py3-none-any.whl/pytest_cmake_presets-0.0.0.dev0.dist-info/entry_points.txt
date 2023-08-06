@@ -1,0 +1,3 @@
+[pytest11]
+cmake-presets=cmake_presets
+

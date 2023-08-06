@@ -1,0 +1,12 @@
+cmake_presets/__init__.py,sha256=rBlfk-8GVa6K4HtksivcaqkZUu8UKpRkj9Kwl1z5ZCA,1137
+cmake_presets/condition.py,sha256=OtsPUhVVM_VjxEibl5Y9HygUYY2gjsaAhEqDHraK1Jw,1834
+cmake_presets/hooks.py,sha256=avEgfS78CMzUHPfLlF4jM38Mz324TlkTjKWjUtfkb38,273
+cmake_presets/items.py,sha256=rDzqXRMvuOnhLTzRTMAAzPBhVgY5VysBBxu5lzpLxDs,8072
+cmake_presets/macro.py,sha256=UyrsaQSgFGDsBQiQJ1zDfS7QaR-m0eHpCzWki9fW_dk,193
+cmake_presets/presets.py,sha256=Hl8dEPRqjm7f6ATyuIftYcUfPoJ4RTfurTsFNO8b2l4,2264
+cmake_presets/vendor.py,sha256=fL0uLwkouzDxQGwuqrHKHUYbbiU065ZOM-Ru-mSQiDU,3962
+pytest_cmake_presets-0.0.0.dev0.dist-info/entry_points.txt,sha256=jp6rXiQO357-EvCPCJnVyB7SH4CWx6Zd196VBUig_MA,40
+pytest_cmake_presets-0.0.0.dev0.dist-info/LICENSE.md,sha256=Wm35YLh_qVAyyP02nUuWPqfmkbaOt63Nk7FyyJH2OQI,1075
+pytest_cmake_presets-0.0.0.dev0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pytest_cmake_presets-0.0.0.dev0.dist-info/METADATA,sha256=olClUxsexUo6oKStD0cIk5G9fyi1sCv3m6Bew_pYxek,1311
+pytest_cmake_presets-0.0.0.dev0.dist-info/RECORD,,
