@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rfpOperations
+Version: 0.0.1
+Summary: This package includes stuff for rental-flat-project
+Home-page: UNKNOWN
+Author: H.B.
+Author-email: <han.kagan.b@gmail.com>
+License: UNKNOWN
+Keywords: python,rfp package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Scraper, Identifier and some operations on Db
+
