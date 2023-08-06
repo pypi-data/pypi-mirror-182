@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nimbus-pws
+Version: 1.0.49
+Summary: weather software
+Home-page: 
+Author: Garret Hayes
+Author-email: glhayes81@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+
+nimbus weather talks to a variety of weather stations and publishes the data to (currently) weather underground. Nimbus is a fork of the very popular weewx weather software.
