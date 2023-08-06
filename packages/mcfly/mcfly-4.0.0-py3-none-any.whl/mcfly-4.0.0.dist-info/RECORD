@@ -1,0 +1,16 @@
+mcfly/__init__.py,sha256=lNNUkAdP0LoUgKY8Xi06pXCcdiyYaqLweQSCNeIjB1w,959
+mcfly/_version.py,sha256=XLyXUyWQ6Y5lo_KhWNlchi4A3NOpha0o0WabRFwQgzQ,627
+mcfly/find_architecture.py,sha256=E9LFdKz0NyGFo1BqfU5QJbxYPkzBoHYLCs3IgJY7HJM,20829
+mcfly/modelgen.py,sha256=z4jsuAOfUONnDezBvDm2YR0etg16upBPWEwY6csrZPs,5135
+mcfly/task.py,sha256=vPKWzOtBWS4wmH1KCDloll_GRQGenA0ulhxL8whT5ME,80
+mcfly/models/__init__.py,sha256=Cyh0tro88ANuUoHUT5xxQcEXgwc47TZ0wQNYm8SdlSI,212
+mcfly/models/base_hyperparameter_generator.py,sha256=bFkwGxL0CDjljftxMVJwWVbMYKlfCr4pjycHyzP-Ltk,1938
+mcfly/models/cnn.py,sha256=iR_3I0eXqzxd8rM-iyIl7DE3WnwZ1LaQaeHiRDd4J8w,6023
+mcfly/models/deep_conv_lstm.py,sha256=eL1u0sVeNYFKXxlPQ2ebML-eEwn02jSPeRH4-ZTUwLQ,7844
+mcfly/models/inception_time.py,sha256=M1T0cuts-45UdhY38bT32NPGYDtA_261gh8hHgzA4kU,9186
+mcfly/models/resnet.py,sha256=6bWdtb_la9vOxocew9pQLGdFODnzpy6g6f2SG1qsVYs,7189
+mcfly-4.0.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+mcfly-4.0.0.dist-info/METADATA,sha256=i2QNSSefztN-mALfFJYfGm1JxnaUmeutnPrPJUr7gB8,3877
+mcfly-4.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mcfly-4.0.0.dist-info/top_level.txt,sha256=A_9-m7q8IJ6I4gD0SmfK04dTUfoDGJdumThm4Tc1E7A,6
+mcfly-4.0.0.dist-info/RECORD,,
