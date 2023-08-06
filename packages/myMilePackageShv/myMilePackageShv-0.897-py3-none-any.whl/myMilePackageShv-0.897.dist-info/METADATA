@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: myMilePackageShv
+Version: 0.897
+Summary: A test python package
+Home-page: https://github.com/atevhs/MymileConv
+Author: Shv
+Author-email: atevhs@gmail.com
+License: MIT
+License-File: LICENSE.txt
+
