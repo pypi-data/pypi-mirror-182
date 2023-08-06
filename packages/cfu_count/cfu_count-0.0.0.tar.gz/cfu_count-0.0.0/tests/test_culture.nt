@@ -1,0 +1,48 @@
+test_unique_items:
+  -
+    num_items: 2
+    num_picked: 0
+    expected_fraction: 0
+    expected_unique: 0
+  -
+    num_items: 2
+    num_picked: 1
+
+    # Picks  Fraction
+    # -----  --------
+    # a      0.5
+    # b      0.5
+    expected_fraction: 1/2
+    expected_unique: 1
+  -
+    num_items: 2
+    num_picked: 2
+
+    # Picks  Fraction
+    # -----  --------
+    # a a    0.5
+    # a b    1.0
+    # b a    1.0
+    # b b    0.5
+    expected_fraction: 3/4
+    expected_unique: 3/2
+  -
+    num_items: 2
+    num_picked: 3
+
+    # Picks  Fraction
+    # -----  --------
+    # a a a  0.5
+    # a a b  1.0
+    # a b a  1.0
+    # a b b  1.0
+    # b a a  1.0
+    # b a b  1.0
+    # b b a  1.0
+    # b b b  0.5
+    expected_fraction: 7/8
+    expected_unique: 7/4
+  -
+    num_items: 0
+    num_picked: 0
+    error: ZeroDivisionError

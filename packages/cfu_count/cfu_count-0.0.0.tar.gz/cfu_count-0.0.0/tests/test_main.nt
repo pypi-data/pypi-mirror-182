@@ -1,0 +1,387 @@
+test_main:
+  -
+    id: output-stdout
+    tmp_files:
+      counts.nt:
+        > My Culture:
+        >   colony_counts:
+        >     1e3:
+        >       [10]
+        >   spot_volume_uL: 5
+    command: cfu-count counts.nt
+    stdout:
+      > Culture\s*Density \(cfu/mL\)
+      > .*
+  -
+    id: output-csv
+    tmp_files:
+      counts.nt:
+        > My Culture:
+        >   colony_counts:
+        >     1e3:
+        >       [10]
+        >   spot_volume_uL: 5
+    command: cfu-count counts.nt -O
+    manifest:
+      - counts.csv
+  -
+    id: output-csv-svg
+    tmp_files:
+      counts.nt:
+        > My Culture:
+        >   colony_counts:
+        >     1e3:
+        >       [10]
+        >   spot_volume_uL: 5
+    command: cfu-count counts.nt -OP
+    manifest:
+      - counts.csv
+      - counts.svg
+  -
+    id: err-file-not-found
+    tmp_files:
+      {}
+    command: cfu-count not-found.nt
+    stderr:
+      > input file not found
+      > . input path: not-found.nt
+  -
+    id: err-nt-format
+    tmp_files:
+      counts.nt:
+        > My Culture: XXX
+        >   colony_counts:
+        >     1e3:
+        >       [10]
+        >   spot_volume_uL: 5
+    command: cfu-count counts.nt
+    stderr:
+      > formatting error in input file
+      > . input path: counts.nt
+      > . line: 1
+      > . invalid indentation.*
+  -
+    id: err-validation
+    tmp_files:
+      counts.nt:
+        > My Culture:
+        >   colony_counts:
+        >     1e3:
+        >       [10]
+        >   spot_volume_uL: 5
+        >   unknown_attr: 10
+    command: cfu-count counts.nt
+    stderr:
+      > unexpected value in input file
+      > . input path: counts.nt
+      > . 'My Culture'.unknown_attr: extra fields not permitted
+
+test_parse_cultures:
+  -
+    id: no-defaults
+    given:
+      Mock Name:
+        colony_counts:
+          1e5:
+            [1,2,3]
+        spot_volume_uL: 5
+        total_volume_mL: 2
+        library_size: 1e6
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=5,
+        >   total_volume_mL=2,
+        >   library_size=1e6,
+        > )
+  -
+    id: no-defaults-minimal
+    given:
+      Mock Name:
+        colony_counts:
+          1e5:
+            [1,2,3]
+        spot_volume_uL: 5
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=5,
+        > )
+  -
+    id: with-defaults
+    given:
+      defaults:
+        spot_volume_uL: 5
+        total_volume_mL: 2
+        library_size: 1e6
+
+      cultures:
+        Mock Name:
+          colony_counts:
+            1e5:
+              [1,2,3]
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=5,
+        >   total_volume_mL=2,
+        >   library_size=1e6,
+        > )
+  -
+    id: with-defaults-minimal
+    given:
+      defaults:
+        spot_volume_uL: 5
+
+      cultures:
+        Mock Name:
+          colony_counts:
+            1e5:
+              [1,2,3]
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=5,
+        > )
+  -
+    id: override-defaults
+    given:
+      defaults:
+        spot_volume_uL: 5
+        total_volume_mL: 2
+        library_size: 1e6
+
+      cultures:
+        Mock Name:
+          colony_counts:
+            1e5:
+              [1,2,3]
+          spot_volume_uL: 10
+          total_volume_mL: 4
+          library_size: 2e6
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=10,
+        >   total_volume_mL=4,
+        >   library_size=2e6,
+        > )
+  -
+    id: override-defaults-minimal
+    given:
+      defaults:
+        spot_volume_uL: 5
+
+      cultures:
+        Mock Name:
+          colony_counts:
+            1e5:
+              [1,2,3]
+          spot_volume_uL: 10
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=10,
+        > )
+  -
+    id: arithmetic
+    given:
+      Mock Name:
+        colony_counts:
+          1e5:
+            [1,2,3]
+        spot_volume_uL: 2*5
+        total_volume_mL: 1+1
+        library_size: 2**10
+
+    expected:
+      Mock Name:
+        > Culture(
+        >   dilutions=[1e5]*3,
+        >   colony_counts=[1,2,3],
+        >   spot_volume_uL=10,
+        >   total_volume_mL=2,
+        >   library_size=1024,
+        > )
+  -
+    id: err-unexpected-top-level-keys
+    given:
+      cultures:
+        name:
+          colony_counts:
+            1e5:
+              [1,2,3]
+
+      unexpected: value
+
+    error:
+      type: UsageError
+      message: unexpected top-level config key(s): ['unexpected']
+  -
+    id: err-unexpected-default-key
+    given:
+      defaults:
+        spot_volume_mL: 5
+
+      cultures:
+        Mock Name:
+          colony_counts:
+            1e5:
+              [1,2,3]
+
+    error:
+      type: UsageError
+      message: spot_volume_mL: extra fields not permitted
+  -
+    id: err-unexpected-culture-key
+    given:
+      Mock Name:
+        colony_counts:
+          1e5:
+            [1,2,3]
+        spot_volume_mL: 5
+
+    error:
+      type: UsageError
+      message: spot_volume_mL: extra fields not permitted
+  -
+    id: err-no-spot-volume
+    # The user must specify a spot volume, but can do so either via a default 
+    # of via a culture.  Therefore, we have to postpone this check until after 
+    # the defaults have been applied.
+    given:
+      Mock Name:
+        colony_counts:
+          1e5:
+            [1,2,3]
+
+    error:
+      type: UsageError
+      message:
+        - must specify 'spot_volume_uL'
+        - culture: Mock Name
+
+test_tabulate_results:
+  -
+    id: density-cols
+    cultures:
+      Culture 1:
+        > MockCulture(
+        >   density_cfu_mL=ufloat(1e3, 1e2),
+        > )
+      Culture 2:
+        > MockCulture(
+        >   density_cfu_mL=ufloat(2e3, 1e2),
+        > )
+    expected:
+      > Culture,Density (cfu/mL)
+      > Culture 1,1.0(1)e+03
+      > Culture 2,2.0(1)e+03
+  -
+    id: population-cols
+    cultures:
+      Culture 1:
+        > MockCulture(
+        >   density_cfu_mL=ufloat(1e3, 1e2),
+        >   total_volume_mL=2,
+        >   total_population=ufloat(2e3, 2e2),
+        > )
+      Culture 2:
+        > MockCulture(
+        >   density_cfu_mL=ufloat(2e3, 1e2),
+        > )
+    expected:
+      > Culture,Density (cfu/mL),Population (cfu)
+      > Culture 1,1.0(1)e+03,2.0(2)e+03
+      > Culture 2,2.0(1)e+03,
+  -
+    id: library-cols
+    cultures:
+      Culture 1:
+        > MockCulture(
+        >   density_cfu_mL=ufloat(1000, 100),
+        >   total_volume_mL=2,
+        >   total_population=ufloat(2000, 200),
+        >   library_size=1000,
+        >   unique_population=ufloat(800, 10),
+        >   percent_coverage=ufloat(80, 1),
+        >   fold_coverage=ufloat(2, 0.1),
+        > )
+      Culture 2:
+        > MockCulture(
+        >   density_cfu_mL=ufloat(2e3, 1e2),
+        > )
+    expected:
+      > Culture,Density (cfu/mL),Population (cfu),Unique (cfu),Library Size,Coverage (%),Coverage (x)
+      > Culture 1,1.0(1)e+03,2.0(2)e+03,8.0(1)e+02,1000,80.00(1.00),2.00(10)
+      > Culture 2,2.0(1)e+03,,,,,
+
+test_expand_colony_counts:
+  -
+    given:
+      {}
+    expected:
+      [[], []]
+  -
+    given:
+      {a: []}
+    expected:
+      [[], []]
+  -
+    given:
+      {a: [1]}
+    expected:
+      [[a], [1]]
+  -
+    given:
+      {a: [1, 2]}
+    expected:
+      [[a, a], [1, 2]]
+  -
+    given:
+      {a: [1], b: [2]}
+    expected:
+      [[a, b], [1, 2]]
+  -
+    given:
+      {a: [1, 2], b: [3, 4]}
+    expected:
+      [[a, a, b, b], [1, 2, 3, 4]]
+
+test_pick_output_path:
+  - 
+    input_path: a/b.nt
+    output_template:
+    default_template: %.xyz
+    use_default: False
+    expected:
+  - 
+    input_path: a/b.nt
+    output_template: a/%/c
+    default_template: %.xyz
+    use_default: False
+    expected: a/b/c
+  -
+    input_path: a/b.nt
+    output_template:
+    default_template: %.xyz
+    use_default: True
+    expected: b.xyz

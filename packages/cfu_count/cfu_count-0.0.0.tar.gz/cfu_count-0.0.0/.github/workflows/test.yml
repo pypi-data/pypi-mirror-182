@@ -1,0 +1,74 @@
+name: Test
+
+on:
+  push:
+    branches: ['master']
+  pull_request:
+    branches: ['master']
+  schedule:
+    - cron: '0 17 1,15 * *'
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ['3.10', 3.11]
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install test dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -e .[test] coverage[toml] pytest-cov
+
+      - name: Run test suite
+        run: |
+          # Use `pytest-cov` instead of `coverage run` because the former 
+          # automatically handles subprocess invocations.
+          pytest --cov cfu_count --cov-branch
+          coverage run --parallel-mode --concurrency=multiprocessing tests/fake_data.py
+
+      - name: Store coverage data
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-data
+          path: .coverage*
+
+      - name: Store fake data recovery
+        uses: actions/upload-artifact@v3
+        with:
+          name: fake-data
+          path: fake_data.svg
+
+  coverage:
+    name: Report coverage
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install --upgrade pip
+          pip install coverage[toml]
+      - uses: actions/download-artifact@v3
+        with:
+          name: coverage-data
+      
+      - name: Combine coverage data
+        run: |
+          coverage combine --append
+          coverage xml
+          coverage report | sed 's/^/    /' >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload Codecov report
+        uses: codecov/codecov-action@v3

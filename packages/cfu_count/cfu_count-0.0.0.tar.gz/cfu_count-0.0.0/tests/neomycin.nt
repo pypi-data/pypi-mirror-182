@@ -1,0 +1,13 @@
+# Tetracycline sensor:
+#   spot_volume_uL: 40
+#   total_volume_mL: 13.84
+#   library_size: 1376256
+#   colony_counts:
+#     {1e3: [40], 1e4: [5], 1e5: [0]}
+
+neomycin sensor:
+  spot_volume_uL: 20
+  library_size: 4**10
+  total_volume_mL: 4.156
+  colony_counts:
+    {1e3: [68], 1e4: [10], 1e5: [2]}

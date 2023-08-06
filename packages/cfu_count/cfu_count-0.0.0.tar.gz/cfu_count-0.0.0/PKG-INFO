@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: cfu_count
+Version: 0.0.0
+Summary: Infer the cell density of a culture from the number of colonies observed in 
+Author-email: Kale Kundert <kale@thekunderts.net>
+Requires-Python: ~=3.10
+Description-Content-Type: text/x-rst
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: uncertainties
+Requires-Dist: docopt
+Requires-Dist: nestedtext
+Requires-Dist: pydantic
+Requires-Dist: byoc
+Requires-Dist: tabulate
+Requires-Dist: tidyexc
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: autoclasstoc ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-tmp-files ; extra == "test"
+Requires-Dist: parametrize_from_file ; extra == "test"
+Requires-Dist: re-assert ; extra == "test"
+Requires-Dist: tqdm ; extra == "test"
+Project-URL: Bug Tracker, https://github.com/kalekundert/cfu_count/issues
+Project-URL: Continuous Integration, https://github.com/kalekundert/cfu_count/actions
+Project-URL: Documentation, https://cfu_count.readthedocs.io/en/latest/
+Project-URL: Test Coverage, https://coveralls.io/github/kalekundert/cfu_count
+Project-URL: Version Control, https://github.com/kalekundert/cfu_count
+Provides-Extra: doc
+Provides-Extra: test
+
+*********
+CFU Count
+*********
+
+.. image:: https://img.shields.io/pypi/v/cfu_count.svg
+   :alt: Last release
+   :target: https://pypi.python.org/pypi/cfu_count
+
+.. image:: https://img.shields.io/pypi/pyversions/cfu_count.svg
+   :alt: Python version
+   :target: https://pypi.python.org/pypi/cfu_count
+
+.. image:: https://img.shields.io/readthedocs/cfu_count.svg
+   :alt: Documentation
+   :target: https://cfu_count.readthedocs.io/en/latest/?badge=latest
+
+.. image:: https://img.shields.io/github/workflow/status/kalekundert/cfu_count/Test/master
+   :alt: Test status
+   :target: https://github.com/kalekundert/cfu_count/actions
+
+.. image:: https://img.shields.io/codecov/c/gh/kalekundert/cfu_count.svg
+   :alt: Test coverage
+   :target: https://app.codecov.io/gh/kalekundert/cfu_count
+
+.. image:: https://img.shields.io/github/last-commit/kalekundert/cfu_count?logo=github
+   :alt: Last commit
+   :target: https://github.com/kalekundert/cfu_count
+
