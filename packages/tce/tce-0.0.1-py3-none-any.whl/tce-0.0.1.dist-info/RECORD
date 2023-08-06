@@ -1,0 +1,11 @@
+tce/__init__.py,sha256=dk9YszrHaIYR55AurqeEByMN6OIwycOT14ZXLQMRBVI,369
+tce/__main__.py,sha256=lNqBMKj4cHrw68eypzrP01ZyG3UWtHGfmwALyozJhpk,277
+tce/tce.css,sha256=qV3mDvgwcyuVZmp7GcgiLeYuACkell3vAGgLboFod2Q,398
+tce/tce.py,sha256=ZQGVzTFFPxsbzWZ_XKFb0lpQuGRZ1EIvLzGVhxOD8iE,2101
+tce-0.0.1.data/data/tce.css,sha256=qV3mDvgwcyuVZmp7GcgiLeYuACkell3vAGgLboFod2Q,398
+tce-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tce-0.0.1.dist-info/METADATA,sha256=Rr-XnwanGXoQUKpREmQ7URUkbx4PcNpJpMMTADOwbdc,1355
+tce-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tce-0.0.1.dist-info/entry_points.txt,sha256=d8jewecZ1nFXq-bnvKQ3355d0mVqpDxE6JoAlzpDprI,36
+tce-0.0.1.dist-info/top_level.txt,sha256=FJJOuVCyTS-H6ULNzNQ_BvMUoLO8FMbeqiwcspmcxDU,4
+tce-0.0.1.dist-info/RECORD,,
