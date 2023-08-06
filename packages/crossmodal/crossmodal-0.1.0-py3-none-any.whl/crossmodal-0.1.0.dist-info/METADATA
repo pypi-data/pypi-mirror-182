@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: crossmodal
+Version: 0.1.0
+Summary: Cross-modal retrieval toolkit
+Author-email: Wang Zuo <u3008567@connect.hku.hk>
+Project-URL: homepage, https://github.com/wangzuo/crossmodal
+Project-URL: source, https://github.com/wangzuo/crossmodal
+Keywords: cross-modal
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# crossmodal
