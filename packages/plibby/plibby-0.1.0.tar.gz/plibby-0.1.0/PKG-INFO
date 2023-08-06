@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: plibby
+Version: 0.1.0
+Summary: 
+Author: Pedro Batista
+Author-email: pedrovhb@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: httpx (>=0.23.1,<0.24.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: peewee (>=3.15.4,<4.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: zstandard (>=0.19.0,<0.20.0)
+Description-Content-Type: text/markdown
+
+# plibby
+
+This is an utils library for Python, which contains some useful functions. It's meant primarily
+for my own use, but I'm sharing it in case it's useful to anyone else.
+
