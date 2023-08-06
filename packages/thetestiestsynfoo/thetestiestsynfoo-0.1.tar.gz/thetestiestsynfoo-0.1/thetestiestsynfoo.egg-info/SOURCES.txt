@@ -1,0 +1,7 @@
+set.py
+thetestiestsynfoo/__init__.py
+thetestiestsynfoo/hello.py
+thetestiestsynfoo.egg-info/PKG-INFO
+thetestiestsynfoo.egg-info/SOURCES.txt
+thetestiestsynfoo.egg-info/dependency_links.txt
+thetestiestsynfoo.egg-info/top_level.txt
