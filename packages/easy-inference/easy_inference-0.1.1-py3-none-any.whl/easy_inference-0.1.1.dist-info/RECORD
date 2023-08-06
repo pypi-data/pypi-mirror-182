@@ -1,0 +1,17 @@
+easy_inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_inference/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_inference/providers/provider_base.py,sha256=6Tc1z_QTIbTYHbG7g0mncclwjOyEY2FhttX6nxOx80U,747
+easy_inference/providers/realsense.py,sha256=yVhGZesDKqdeMMQvmhevnMdFbxPdu7N4jPzfHLBpjEA,2023
+easy_inference/providers/utils.py,sha256=7HuqQMgtdh55gsRkLUq5yyTOXCWLXFF6dTqCs5FiZD0,187
+easy_inference/providers/video.py,sha256=Gn0D8B5Dy75PcSUqDqyDKQlRosRGl_iMLnxHJQMKaqA,39
+easy_inference/providers/webcam.py,sha256=6nCS7xMEoF4qx7NYBUTQ-LdHFcxlNq_AlLtbrxmA9PM,382
+easy_inference/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_inference/utils/boundingbox.py,sha256=nmNBza5Jiavmz9LO2PJUBO6Nhatyq6R1qMMlE0e1la4,3751
+easy_inference/utils/filters.py,sha256=Z7HrcpZ9EuJ5Lo0JoBdhIIQMx_bU0etTeDXooSV6N-8,6265
+easy_inference/utils/pad_frames.py,sha256=xYBhxHUgIa9lfJEYlFvOfnY2-jgJHpppl325I-HfJTk,921
+easy_inference/utils/ros_connector.py,sha256=L-dRSi4_-OwLLias6HQTzfv601HN9diIVwvIeKgAtms,7152
+easy_inference/utils/skeleton.py,sha256=zUsZEHNScIP_JmswfM_gNISU8Qe80gCvH21-tkjUm2A,3889
+easy_inference-0.1.1.dist-info/METADATA,sha256=8icnMu-lsEzCEqGo81ydUxY56nwrDF0NpEd0KgDwGKk,1958
+easy_inference-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+easy_inference-0.1.1.dist-info/top_level.txt,sha256=34iFKC24FTlM_vKTeyBuP22DKylGmQbP4UG7WfQEdEc,15
+easy_inference-0.1.1.dist-info/RECORD,,
