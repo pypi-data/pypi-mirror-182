@@ -1,0 +1,2 @@
+global-include *clip_similarwords/clip_similarwords_all.pt
+global-include *clip_similarwords/clip_danbooru_similarwords_all.pt

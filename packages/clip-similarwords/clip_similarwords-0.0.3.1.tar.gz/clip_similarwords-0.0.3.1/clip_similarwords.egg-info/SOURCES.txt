@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+clip-danbooru-similarwords
+clip-similarwords
+setup.py
+clip_similarwords/__init__.py
+clip_similarwords/clip_danbooru_similarwords.py
+clip_similarwords/clip_danbooru_similarwords_all.pt
+clip_similarwords/clip_danbooru_similarwords_gen.py
+clip_similarwords/clip_similarwords.py
+clip_similarwords/clip_similarwords_all.pt
+clip_similarwords/clip_similarwords_gen.py
+clip_similarwords.egg-info/PKG-INFO
+clip_similarwords.egg-info/SOURCES.txt
+clip_similarwords.egg-info/dependency_links.txt
+clip_similarwords.egg-info/top_level.txt
