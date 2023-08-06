@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-11-16 14:13+0800\n"
+"PO-Revision-Date: 2021-11-17 09:16+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: axprj.py:192 axprj.py:208 axprj.py:223 axprj.py:238 axprj.py:253
+msgid "Project Paths Configuration"
+msgstr "项目路径配置"
+
+#: axprj.py:308 axprj.py:335
+msgid "Project Environments Configurations"
+msgstr "项目环境配置"
+
+#: axprj.py:351 axprj.py:366 axprj.py:381 axprj.py:397 axprj.py:413
+#: axprj.py:428 axprj.py:444
+msgid "Project Running"
+msgstr "项目运行"
+
+#: axprj.py:470 axprj.py:495
+msgid "Global Build Options"
+msgstr "全局构建选项"
+
+#: axprj.py:514
+msgid "Ci"
+msgstr "持续集成"
+
+#: core/application.py:143 core/application.py:159 core/builder.py:773
+#: core/builder.py:786 core/builder.py:797 core/builder.py:808
+#: core/builder.py:819 core/builder.py:830 core/builder.py:843
+#: core/builder.py:868 core/builder.py:928 core/builder.py:952
+#: core/builder.py:977 core/builder.py:990 core/builder.py:1003
+#: core/builder.py:1018 core/builder.py:1032 core/builder.py:1046
+#: core/builder.py:1060 core/builder.py:1074 core/builder.py:1088
+#: core/builder.py:1114 core/builder.py:1140 core/builder.py:1167
+#: core/builder.py:2341 core/builder.py:2370 core/builder.py:2394
+msgid "Build Options"
+msgstr "构建选项"
+
+#: core/builder.py:107 core/builder.py:118 core/builder.py:129
+#: core/builder.py:141 core/builder.py:153 core/builder.py:165
+#: core/builder.py:184 core/builder.py:196 core/builder.py:208
+#: core/builder.py:891 core/builder.py:915
+msgid "Package Options"
+msgstr "包选项"
+
+#: core/builder.py:159
+msgid "current system"
+msgstr "当前系统"
+
+#: core/builder.py:771 core/builder.py:784 core/builder.py:975
+#: core/builder.py:1001 core/builder.py:1016 core/builder.py:1030
+#: core/builder.py:1044 core/builder.py:1058 core/builder.py:1072
+msgid "Environment"
+msgstr "环境"
+
+#: core/builder.py:841
+msgid "Git"
+msgstr "Git"
+
+#: core/builder.py:866 core/builder.py:926 core/builder.py:1086
+#: core/builder.py:1112 core/builder.py:1138 core/builder.py:1165
+msgid "Package"
+msgstr "包"
+
+#: core/component.py:821 core/component.py:837 core/component.py:851
+#: core/component.py:874 core/component.py:897 core/component.py:920
+#: core/component.py:943 core/component.py:966 core/component.py:989
+#: core/component.py:1012 core/component.py:1035 core/component.py:1058
+#: core/component.py:1081 core/component.py:1102
+msgid "Buildset Options"
+msgstr "构建集选项"
+
+#: core/component.py:860
+msgid "src filters child"
+msgstr "源码过滤"
+
+#: core/component.py:883
+msgid "src files spec item"
+msgstr "源码过滤"
+
+#: core/component.py:906
+msgid "defines child"
+msgstr "宏定义"
+
+#: core/component.py:929
+msgid "cpp include directories child"
+msgstr "c++头文件路径"
+
+#: core/component.py:952
+msgid "libs child"
+msgstr "库"
+
+#: core/component.py:975
+msgid "lib directories child"
+msgstr "库目录"
+
+#: core/component.py:998
+msgid "build flags child"
+msgstr "构建标志"
+
+#: core/component.py:1021
+msgid "un-set build flags child"
+msgstr "未配置的构建标志"
+
+#: core/component.py:1044
+msgid "link flags child"
+msgstr "链接标志"
+
+#: core/component.py:1067
+msgid "un-set link flags child"
+msgstr "未设置的链接标志"
+
+#: core/component.py:3097 core/component.py:3111 core/component.py:3125
+#: core/component.py:3137 core/component.py:3148 core/component.py:3177
+#: core/component.py:3193 core/component.py:3217 core/component.py:3241
+#: core/component.py:3257 core/component.py:3281 core/component.py:3305
+#: core/component.py:3321 core/component.py:3345 core/component.py:3369
+#: core/component.py:3385 core/component.py:3409 core/component.py:3433
+msgid "Platform Options"
+msgstr "平台选项"
+
+#: core/component.py:3165
+msgid "buildsets child"
+msgstr "构建集"
+
+#: core/component.py:3203
+msgid "platform dirs child"
+msgstr "平台"
+
+#: core/component.py:3227
+msgid "platform adds child"
+msgstr "平台"
+
+#: core/component.py:3267
+msgid "framework dirs child"
+msgstr "框架目录"
+
+#: core/component.py:3291
+msgid "framework adds child"
+msgstr "框架"
+
+#: core/component.py:3331
+msgid "board dirs child"
+msgstr "板级目录"
+
+#: core/component.py:3355
+msgid "board adds child"
+msgstr "板级"
+
+#: core/component.py:3395
+msgid "component dirs child"
+msgstr "组件目录"
+
+#: core/component.py:3419
+msgid "component adds child"
+msgstr "组件"

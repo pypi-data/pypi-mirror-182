@@ -1,0 +1,2 @@
+[console_scripts]
+axio = axiolib.cli_axio_launcher:main
