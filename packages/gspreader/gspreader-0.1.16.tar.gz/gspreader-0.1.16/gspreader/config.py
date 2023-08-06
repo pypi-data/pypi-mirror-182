@@ -1,0 +1,8 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GSPREADER_GOOGLE_CREDS = os.environ["GSPREADER_GOOGLE_CREDS"]
+GSPREADER_GOOGLE_CREDS_PATH = os.environ["GSPREADER_GOOGLE_CREDS_PATH"]
+GSPREADER_GOOGLE_CLIENT_EMAIL = os.environ["GSPREADER_GOOGLE_CLIENT_EMAIL"]
