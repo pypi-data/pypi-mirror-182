@@ -1,0 +1,7 @@
+README.md
+main.py
+pyproject.toml
+easy_sqlitedb.egg-info/PKG-INFO
+easy_sqlitedb.egg-info/SOURCES.txt
+easy_sqlitedb.egg-info/dependency_links.txt
+easy_sqlitedb.egg-info/top_level.txt
