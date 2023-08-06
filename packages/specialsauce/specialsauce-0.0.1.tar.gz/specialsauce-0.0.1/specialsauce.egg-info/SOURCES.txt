@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+specialsauce/__init__.py
+specialsauce.egg-info/PKG-INFO
+specialsauce.egg-info/SOURCES.txt
+specialsauce.egg-info/dependency_links.txt
+specialsauce.egg-info/requires.txt
+specialsauce.egg-info/top_level.txt
+specialsauce/sources/__init__.py
+specialsauce/sources/minetti.py
+specialsauce/sources/strava.py
+specialsauce/sources/trainingpeaks.py
