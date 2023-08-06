@@ -1,0 +1,8 @@
+setup.py
+drnm/src/drnm.egg-info/PKG-INFO
+drnm/src/drnm.egg-info/SOURCES.txt
+drnm/src/drnm.egg-info/dependency_links.txt
+drnm/src/drnm.egg-info/requires.txt
+drnm/src/drnm.egg-info/top_level.txt
+drnm/src/drnm.py
+drnm/src/drnm.egg-info/SOURCES.txt
