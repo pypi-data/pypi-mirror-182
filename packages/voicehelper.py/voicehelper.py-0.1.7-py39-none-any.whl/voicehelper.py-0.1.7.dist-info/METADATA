@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: voicehelper.py
+Version: 0.1.7
+Summary: These are two neural networks connected by the same module. One for recognition, the other for voice generation.
+Home-page: https://github.com/romanin-rf/voicehelper.py
+Author: Romanin
+Author-email: semina054@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: sounddevice
+Requires-Dist: pysoundfile
+Requires-Dist: requests
+Requires-Dist: wget
+Requires-Dist: vosk
+Requires-Dist: silero
+Requires-Dist: vbml
+Requires-Dist: rich
+
+# voicehelper.py
+## РћРїРёСЃР°РЅРёРµ
+Р­С‚Рѕ РјРѕРґСѓР»СЊ СЃРѕРµРґРёРЅРёРІС€РёР№ РІ СЃРµР±Рµ РґРІРµ РЅРµР№СЂРѕРЅРЅС‹Рµ СЃРµС‚Рё. Р”Р»СЏ СѓРїСЂРѕС‰РµРЅРёСЏ СЃРѕР·РґР°РЅРёСЏ РіРѕР»РѕСЃРѕРІРѕРіРѕ РїРѕРјРѕС€РЅРёРєР°.
+## РЈСЃС‚Р°РЅРѕРІРєР°
+```cmd
+pip install --upgrade voicehelper.py
+```
+
+`!!! Р’РќРРњР•РќРР• !!!` РЈСЃС‚Р°РЅРѕРІРєР° **torch** РґРѕР»Р¶РЅР° РїСЂРѕРёСЃС…РѕРґРёС‚СЊ РѕС‚РґРµР»СЊРЅРѕ. [РЎР°Р№С‚ PyTorch Installation](https://pytorch.org/get-started/locally/#start-locally)
+
+## РќР°Р·РІР°РЅРёРµ РјРѕРґРµР»РµР№ РґР»СЏ Р·Р°РіСЂСѓР·РєРё
+- Р”Р»СЏ [SpeechSynthesizer](https://github.com/snakers4/silero-models#v3)
+- Р”Р»СЏ [SpeechRecognition](https://github.com/romanin-rf/voicehelper.py-models#for-speechrecognition)
+
+
+## РџСЂРёРјРµСЂ
+- РџСЂРёРјРµСЂ СЃРѕР·РґР°РЅРёСЏ Р“РѕР»РѕСЃРѕРІРѕРіРѕ РђСЃСЃРёСЃС‚РµРЅС‚Р°
+```python
+import VoiceHelper
+from rich.console import Console
+
+# РљРѕРЅСЃРѕР»СЊ
+c = Console()
+
+# РљР»Р°СЃСЃ РЅРµР№СЂРѕСЃРµС‚Рё
+c.clear()
+c.rule("Р—Р°РїСѓСЃРє")
+
+# РџСЂРѕС†РµСЃСЃ РёРЅРёС†Р°Р»РёР·Р°С†РёРё
+try:
+    ssynth = VoiceHelper.SpeechSynthesizer(
+        device_type="cuda"
+    )
+except:
+    ssynth = VoiceHelper.SpeechSynthesizer(
+        device_type="cpu"
+    )
+vh = VoiceHelper.VoiceHelper(
+    ssynth,
+    VoiceHelper.SpeechRecognition()
+)
+
+# РљРѕРјР°РЅРґС‹
+@vh.add_command("РїСЂРёРІРµС‚")
+def Hello(event: VoiceHelper.Event):
+    vh.say("РђРіР°, СЏ Р·РґРµСЃСЊ!")
+
+@vh.add_command(["СЃРєР°Р¶Рё <text>"])
+def cSay(event: VoiceHelper.Event, text: str):
+    vh.say(text)
+
+@vh.add_command("РїРѕРєР°")
+def cGoodBye(event: VoiceHelper.Event):
+    vh.say("Р”Рѕ СЃРІРёРґР°РЅРёСЏ!")
+    vh.stop()
+
+@vh.add_command("<text>")
+def cLogger(event: VoiceHelper.Event, text: str) -> None:
+    c.print(f"[red]You[/] [green]->[/] [yellow]{text}[/]")
+
+# Р—Р°РїСѓСЃРє
+if __name__ == "__main__":
+    c.rule("Р›РѕРіРё")
+    vh.start()
+```
+- РџСЂРёРјРµСЂ РіРµРЅРµСЂР°С†РёРё РіРѕР»РѕСЃР°
+```python
+from VoiceHelper.NueroNetworks import SpeechSynthesizer
+
+ss = SpeechSynthesizer(sample_rate=48000, thread_count=1) # РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ СЃС‚РѕРёС‚ СЂСѓСЃСЃРєР°СЏ СЂРµС‡СЊ
+
+with open("test.wav", "wb") as file:
+    file.write(ss.get_audio_bytes("РџСЂРёРІРµС‚!", "WAV", "PCM_32"))
+```
+
