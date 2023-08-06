@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_g/__init__.py
+django_g/local.py
+django_g/middleware.py
+django_g/tests.py
+django_g.egg-info/PKG-INFO
+django_g.egg-info/SOURCES.txt
+django_g.egg-info/dependency_links.txt
+django_g.egg-info/requires.txt
+django_g.egg-info/top_level.txt
