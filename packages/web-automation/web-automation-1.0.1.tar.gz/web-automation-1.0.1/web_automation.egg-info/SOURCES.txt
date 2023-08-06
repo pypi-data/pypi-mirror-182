@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+web_automation/__init__.py
+web_automation/exceptions.py
+web_automation/framework.py
+web_automation.egg-info/PKG-INFO
+web_automation.egg-info/SOURCES.txt
+web_automation.egg-info/dependency_links.txt
+web_automation.egg-info/requires.txt
+web_automation.egg-info/top_level.txt
