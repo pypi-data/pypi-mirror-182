@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: paintcord
+Version: 0.0.2
+Summary: A simple template language for creating discord embeds
+Author: jma
+Author-email: withketa@gmail.com
+License: MIT
+License-File: LICENSE
