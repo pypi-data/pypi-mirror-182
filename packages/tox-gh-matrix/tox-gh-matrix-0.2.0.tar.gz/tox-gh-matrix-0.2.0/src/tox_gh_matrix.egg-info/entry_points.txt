@@ -1,0 +1,2 @@
+[tox]
+tox_gh_matrix = tox_gh_matrix.plugin
