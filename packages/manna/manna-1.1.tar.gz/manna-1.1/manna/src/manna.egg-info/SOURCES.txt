@@ -1,0 +1,12 @@
+setup.py
+manna/src/manna.egg-info/PKG-INFO
+manna/src/manna.egg-info/SOURCES.txt
+manna/src/manna.egg-info/dependency_links.txt
+manna/src/manna.egg-info/requires.txt
+manna/src/manna.egg-info/top_level.txt
+manna/src/manna.py
+manna/src/manna.egg-info/PKG-INFO
+manna/src/manna.egg-info/SOURCES.txt
+manna/src/manna.egg-info/dependency_links.txt
+manna/src/manna.egg-info/requires.txt
+manna/src/manna.egg-info/top_level.txt

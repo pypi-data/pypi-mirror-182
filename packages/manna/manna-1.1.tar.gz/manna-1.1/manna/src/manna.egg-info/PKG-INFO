@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: manna
+Version: 1.1
+Summary: stegocrypter
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
+
+from manna import *
+
+save and run 
+
+
+pip install pycryptodome
+
+pip install NMCS
+
+pip install pillow
