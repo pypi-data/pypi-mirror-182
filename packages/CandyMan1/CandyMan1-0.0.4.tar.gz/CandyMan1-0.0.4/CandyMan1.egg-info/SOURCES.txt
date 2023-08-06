@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+CandyMan1.egg-info/PKG-INFO
+CandyMan1.egg-info/SOURCES.txt
+CandyMan1.egg-info/dependency_links.txt
+CandyMan1.egg-info/requires.txt
+CandyMan1.egg-info/top_level.txt
+candyman1/CandyMan.py
+candyman1/__init__.py
+candyman1.egg-info/PKG-INFO
+candyman1.egg-info/SOURCES.txt
+candyman1.egg-info/dependency_links.txt
+candyman1.egg-info/top_level.txt
