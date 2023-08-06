@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: OneCube
+Version: 1.1
+Summary: A OneCube API wrapper
+Author: BlueRed
+Keywords: minecraft,api,onecube
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: French
+Classifier: Programming Language :: Python
+Classifier: Typing :: Typed
