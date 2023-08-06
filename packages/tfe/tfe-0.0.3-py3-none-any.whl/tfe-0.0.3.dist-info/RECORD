@@ -1,0 +1,10 @@
+tfe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfe/initializers/__init__.py,sha256=Uj1BS59p5UJvu1C79HeUFQKcDOLJdvvQD5Xn5Y7x5Kw,51
+tfe/initializers/initializers.py,sha256=UZQhgE_tBJnfMldChley33jJRo53T9j5r3wNw4F0uro,1608
+tfe/layers/__init__.py,sha256=LBTIumrZCAzBSsp9rsgBpH7OcaIOzA1Vkl08EOudl4Q,43
+tfe/layers/convolutional.py,sha256=T2dlvqxBjNXCYAs0FN8ZDREQJnfXbPjcJuaow9grM_Y,2818
+tfe-0.0.3.dist-info/LICENSE,sha256=DsbgDeMvM33W0RtMuJXv32qkc1CdP3RAxysQ1_H40LA,1055
+tfe-0.0.3.dist-info/METADATA,sha256=KLRUjnVuRmLGKnxFpgPKW1vj0Q6Yvoi18K2xaPKgQ3Y,609
+tfe-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tfe-0.0.3.dist-info/top_level.txt,sha256=wroCW7LI1DoEKU5CLZWsBx0PtGAqM5PDxVa4PkVs3sA,4
+tfe-0.0.3.dist-info/RECORD,,
