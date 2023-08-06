@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: compsyn
+Version: 1.0.2
+Summary: python package to explore the color of language
+Author: comp-syn
+Author-email: group@comp-syn.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow
+Requires-Dist: beautifulsoup4
+Requires-Dist: black
+Requires-Dist: boto3
+Requires-Dist: google-api-core
+Requires-Dist: google-auth
+Requires-Dist: google-cloud
+Requires-Dist: google-cloud-vision
+Requires-Dist: googleapis-common-protos
+Requires-Dist: grpcio
+Requires-Dist: ipykernel
+Requires-Dist: ipython
+Requires-Dist: kymatio
+Requires-Dist: matplotlib
+Requires-Dist: memory-profiler
+Requires-Dist: nltk
+Requires-Dist: notebook
+Requires-Dist: numba
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-depends
+Requires-Dist: qloader
+Requires-Dist: requests
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: textblob
+Requires-Dist: toml
