@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: modgraph
+Version: 0.1.0
+Summary: a tool to analyze sample overlap between tracker module files
+Author-email: Ilia Pozdnyakov <ilia.pozdnyakov@ya.ru>
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: trackrip (>=2.0.0)
+
