@@ -1,0 +1,3 @@
+[console_scripts]
+xorbits-supervisor = xorbits._mars.deploy.oscar.supervisor:main
+xorbits-worker = xorbits._mars.deploy.oscar.worker:main
