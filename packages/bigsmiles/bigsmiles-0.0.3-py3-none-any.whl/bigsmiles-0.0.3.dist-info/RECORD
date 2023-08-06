@@ -1,0 +1,14 @@
+bigsmiles/__init__.py,sha256=OjQP256vppcCYYkYfJqeDNVwNnYUT7eboiybAXzykts,559
+bigsmiles/bigsmiles.py,sha256=XwYoh2tKVLV2bMzqXSeLoj7T-YhojlMl5y25ZauSLpY,16322
+bigsmiles/bigsmiles_constructor.py,sha256=JXVfYuXH6D_kBVxfLIrUenPBlnNj20_lPTulypgJgaA,12417
+bigsmiles/config.py,sha256=hI4wJNJgBXT7mqdk7DilcdtMoDMw73UvKRIhykyhq9g,2284
+bigsmiles/create_parse_tree.py,sha256=W19ucAy2eAo4MoMkzc53DzsXvVYBFqAQyf7sGlTRe5o,6548
+bigsmiles/errors.py,sha256=N91YbGhuE0GZX04TP7oAt5puWhnKWHenTuUs9_oR23k,206
+bigsmiles/tokenizer.py,sha256=up5wkd4gstbsGfA-7W7zU1HMwuC51tcdporwH-kyhZE,3807
+bigsmiles/tree_to_string.py,sha256=OrJjRwXQ14FHgaB9SweMxkm0HgS_JW8rmdU7RCZp9Z0,4594
+bigsmiles/validation.py,sha256=DyYRUfJi0gc-bZFu9dHixdQDS1SPUqJNjxFTNTJwySU,3976
+bigsmiles-0.0.3.dist-info/LICENSE.txt,sha256=lxxLl_vMn9aEjhvi5Yqb8VXh9lvyngCiC91zG_SOIl4,1499
+bigsmiles-0.0.3.dist-info/METADATA,sha256=0L_kC0VlRq-RwwYzIWNUzy-Wo5hQilkKlb6XFMgGSAU,4808
+bigsmiles-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bigsmiles-0.0.3.dist-info/top_level.txt,sha256=6Wn1i5v1iSBJO8-eVH7Yw0Y-FGP5Ghq9gCZ_UtdeZbM,10
+bigsmiles-0.0.3.dist-info/RECORD,,
