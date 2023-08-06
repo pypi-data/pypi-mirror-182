@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: visionmadeeasyplusmanna
+Version: 1
+Summary: facial recognition as key
+Author: Neelanjan Manna
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+refer to this site https://pypi.org/project/visionmadeeasy/
+
+to setup facial recognition encryption system version 1 for droid \n
+
+from visionmadeeasyplusmanna import *
+
+save the oneliner as a script
+
+follow instructions
+
+execute oneline
+
+patience is virtue
+
+rome was not built in a day
+
+pip install pyAesCrypt
+
+pip install visionmadeeasy

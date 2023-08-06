@@ -1,0 +1,8 @@
+setup.py
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.egg-info/PKG-INFO
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.egg-info/SOURCES.txt
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.egg-info/dependency_links.txt
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.egg-info/requires.txt
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.egg-info/top_level.txt
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.py
+visionmadeeasyplusmanna/src/visionmadeeasyplusmanna.egg-info/SOURCES.txt
