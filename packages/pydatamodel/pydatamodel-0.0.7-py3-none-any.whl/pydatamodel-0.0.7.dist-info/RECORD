@@ -1,0 +1,11 @@
+pydatamodel/__init__.py,sha256=dGXLXLk8kDumqqOmKtC4NH8pyC024tcTz6zRgy6HY5M,571
+pydatamodel/creditScore.py,sha256=3b6KiVpkhnwQoWx4_hHAYr7HKcCvWx7UriZETDKd2ow,66851
+pydatamodel/dataAnalysis.py,sha256=AzRzzoywqEqpVMG0vu0XqVHBoJxIGZdm9ltEW5BpMGc,4978
+pydatamodel/databaseModel.py,sha256=ksK1OQmWlf2DdhuJaznojle4LnieAFRXiE1nWsNB99o,39658
+pydatamodel/mechineLearning.py,sha256=zb3R9NMwkBashrLFX4jHAmnM19c2tp2wxNlFZfTKgIc,29863
+pydatamodel-0.0.7.dist-info/LICENSE,sha256=WkON_8eNi0nxt_VysCxi_H6BU-kghVvVz9iavm0M5vc,1061
+pydatamodel-0.0.7.dist-info/METADATA,sha256=Ht6vkm2itz8v-Of_Rm_5M9T2HnsxLScU9K7KzfKflLo,1099
+pydatamodel-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydatamodel-0.0.7.dist-info/entry_points.txt,sha256=h5LZGzJ-IQ4vONXgtCtmhAj905W1um5t-_RuHf9G_B0,36
+pydatamodel-0.0.7.dist-info/top_level.txt,sha256=7-OU9PIh58HR2Mmw4b1YMnP_9pKv8P62-NSUdi1_nk8,12
+pydatamodel-0.0.7.dist-info/RECORD,,
