@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+LonginusPYPI/LClient.py
+LonginusPYPI/LSever.py
+LonginusPYPI/LonginusP.py
+LonginusPYPI/__init__.py
+LonginusPYPl.egg-info/PKG-INFO
+LonginusPYPl.egg-info/SOURCES.txt
+LonginusPYPl.egg-info/dependency_links.txt
+LonginusPYPl.egg-info/top_level.txt
