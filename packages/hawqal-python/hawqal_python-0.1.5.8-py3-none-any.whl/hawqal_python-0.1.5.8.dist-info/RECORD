@@ -1,0 +1,12 @@
+dal/dao.py,sha256=GADLxP4lnhxdvUjl6k74RbA61FNmYLwDtsuvgwaWJ3Q,191
+database/hawqalDB.sqlite,sha256=LPynhYiKSQ86K0QxnB6S5FK56ZhkPrFYS0zllKMHSEI,7856128
+hawqal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hawqal/cities.py,sha256=a2GAGCcsTTGBCFtruELKyUzzpuRmXzck5oWpjeZL0og,813
+hawqal/citiesbycountry.py,sha256=gtchl-3oOmJ9OU5oma19Ye27A81gBA8hjZGPPlZSlHU,695
+hawqal/country.py,sha256=QmOzg2PYET1CY5YbRwHeHfWfI2AxQ9PeuJIpxAdHN4I,626
+hawqal/states.py,sha256=S6EQvDrmr5azRuVvFbbgJKGDkoW1GqS-ekfASCI_O9s,695
+hawqal_python-0.1.5.8.dist-info/LICENSE,sha256=HIqD15pAk24Ga1kIBXkJhrI4v3chqUPhdrpiWxZZgsY,1088
+hawqal_python-0.1.5.8.dist-info/METADATA,sha256=UcLZCSpZVPFZLGsoRNIiK5JUa0HCPqSDCwyQ1qJIwZs,1814
+hawqal_python-0.1.5.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hawqal_python-0.1.5.8.dist-info/top_level.txt,sha256=LobGoNtMjBE9Y3juX3U6RqdkNgYDyJAV9MVFazrkj44,20
+hawqal_python-0.1.5.8.dist-info/RECORD,,

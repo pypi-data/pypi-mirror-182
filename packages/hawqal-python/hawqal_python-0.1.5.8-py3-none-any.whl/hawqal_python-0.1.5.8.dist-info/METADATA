@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: hawqal-python
+Version: 0.1.5.8
+Summary: Python package that contains the data of world's countries,states and their cities name
+Home-page: https://github.com/CapregSoft/Hawqal-python.git
+Author: Husnain Khurshid
+Author-email: muhammadhusnainkh@gmail.com
+Keywords: husnain khurshid,capregsoft,hawqal,world data,states
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![](http://ForTheBadge.com/images/badges/made-with-python.svg)
+
+# Hawqal
+
+Python package that contains the data of world's countries,states and their cities name
+
+## Functions
+
+- Get Countries
+- Get Cities By State
+- Get State By Country
+- Get Cities By Country
+
+## Installation Guide
+
+- windows
+
+```python
+pip install hawqal
+
+```
+
+- Unix/macOS
+
+```
+python3 -m pip install hawqal
+```
+
+## Usage/Examples
+
+```python
+from hawqal.country import Country
+Country.getCountries()
+
+from hawqal.cities import City
+City.getCities("countries name", "state")
+
+from hawqal.states import StatesByCountry
+StatesByCountry.getStates()
+
+from hawqal.citiesbycountry import CitiesByCountry
+CitiesByCountry.getCities("country name")
+
+```
+
+## Success Response
+
+- ['Afghanistan', 'Aland Islands', 'Albania', 'Algeria', . . . ]
+- ['Alabama', 'Alaska', 'American Samoa', 'Arizona', . . . ]
+
+## Error Response
+
+- [ ]
+
+## Tech Stack
+
+**Client:** Python 3.10.9
+
+## Authors
+
+- [Capregsoft](https://www.github.com/capregsoft)
+- [Husnain Khurshid](https://www.github.com/husnain9)
