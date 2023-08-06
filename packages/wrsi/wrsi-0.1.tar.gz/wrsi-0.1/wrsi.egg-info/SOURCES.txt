@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+wrsi/__init__.py
+wrsi/wrsi.py
+wrsi/wrsi_daily.py
+wrsi/wrsi_dekadal.py
+wrsi.egg-info/PKG-INFO
+wrsi.egg-info/SOURCES.txt
+wrsi.egg-info/dependency_links.txt
+wrsi.egg-info/not-zip-safe
+wrsi.egg-info/top_level.txt
