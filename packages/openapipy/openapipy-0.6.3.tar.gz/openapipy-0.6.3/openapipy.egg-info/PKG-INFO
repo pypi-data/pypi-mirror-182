@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: openapipy
+Version: 0.6.3
+Summary: openapi tools
+Home-page: https://github.com/csrftoken
+Author: ZhiChao Liu
+Author-email: liuzhichao9527@gmail.com
+License: MIT
+Description: openapi tools
+Keywords: openapi,openapi-python,python-openapi,openapipy,pyopenapi
+Platform: UNKNOWN
