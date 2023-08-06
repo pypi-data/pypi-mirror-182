@@ -1,0 +1,8 @@
+paperview/__init__.py,sha256=8rU-rwWhnMixviS2MfJvwFHMog14SgzE7h853sXDhkk,87
+paperview/retrieval/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+paperview/retrieval/biorxiv_api.py,sha256=AFTb-gB-P-ADJSdejmie27oxcFQ_9rD1uLxM6nkwjJU,10818
+paperview/retrieval/biorxiv_s3.py,sha256=1McXN-lYLm8vK_clQBcorULSDrLr0sGwVKHf5xR4NN0,2471
+paperview/retrieval/pdf_extraction.py,sha256=fM46eLHxyEwstPnoTNrXiE_TvHBJicwEylHfzanX6rA,3736
+paperview-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+paperview-0.1.0.dist-info/METADATA,sha256=z3f8Ehenyoo6-Et1E0h-jYjF08959AWQjCHeHod4giE,915
+paperview-0.1.0.dist-info/RECORD,,
