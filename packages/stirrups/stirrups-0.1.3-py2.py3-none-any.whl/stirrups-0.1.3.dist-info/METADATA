@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: stirrups
+Version: 0.1.3
+Summary: Dependency injection library
+Home-page: https://github.com/cbourget/stirrups
+Author: Charles-Eric Bourget
+Author-email: charlesericbourget@gmail.com
+License: MIT
+Download-URL: https://github.com/cbourget/stirrups/archive/0.1.3.tar.gz
+Keywords: dependency injection
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+Stirrups: Python 3 dependency injection
+==============================================
+
+**Stirrups** uses Python 3 annotations to provide a simple yet flexible
+dependency injection framework.
+
+Get It Now
+----------
+
+::
+
+    $ pip install -U stirrups
+
+Documentation
+-------------
+
+Requirements
+------------
+
+-  Python >= 3.8
+
+License
+-------
+
+MIT licensed. See the bundled
+`LICENSE <https://github.com/cbourget/stirrups/blob/pypi/LICENSE>`__
+file for more details.
+
+
