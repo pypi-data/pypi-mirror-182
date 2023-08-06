@@ -1,0 +1,7 @@
+numpy
+requests
+xarray
+gcsfs
+fsspec
+pandas
+tqdm
