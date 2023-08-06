@@ -1,0 +1,4 @@
+include locate_pixelcolor/requirements.txt
+include locate_pixelcolor/thirdparty.json
+include locate_pixelcolor/README.MD
+include locate_pixelcolor/LICENSE

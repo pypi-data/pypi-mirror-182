@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+locate_pixelcolor/LICENSE
+locate_pixelcolor/README.MD
+locate_pixelcolor/__init__.py
+locate_pixelcolor/requirements.txt
+locate_pixelcolor/thirdparty.json
+locate_pixelcolor.egg-info/PKG-INFO
+locate_pixelcolor.egg-info/SOURCES.txt
+locate_pixelcolor.egg-info/dependency_links.txt
+locate_pixelcolor.egg-info/requires.txt
+locate_pixelcolor.egg-info/top_level.txt
