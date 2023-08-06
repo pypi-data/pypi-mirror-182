@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+zwpython.py
+zwpython/__init__.py
+zwpython/easygui_zw.py
+zwpython.egg-info/PKG-INFO
+zwpython.egg-info/SOURCES.txt
+zwpython.egg-info/dependency_links.txt
+zwpython.egg-info/top_level.txt
