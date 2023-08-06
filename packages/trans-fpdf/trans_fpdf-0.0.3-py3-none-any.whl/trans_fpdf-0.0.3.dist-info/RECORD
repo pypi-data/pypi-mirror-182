@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trans_fpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trans_fpdf/main.py,sha256=jivkJJVdKBE4R-O3LU7dtePSeiRJe0Q9b-2cadkXZ3Y,1359
+trans_fpdf/pdf.py,sha256=wdxPgHBW8-CU62A5o-TB6Foik_jUSXOqQzCAnFX7HqE,11810
+trans_fpdf/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trans_fpdf/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trans_fpdf/conf/settings.py,sha256=5u-E9ojlppdX1QMwlxepTbwK1xJbn0RFfKsnuaychHg,187
+trans_fpdf/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trans_fpdf/utils/fonts.py,sha256=537IJ-FgccwmVcgLFnAxMFdV3YaKsc89R81Q8v3692k,518
+trans_fpdf/utils/templates.py,sha256=TwGLSEtRl4jAOm0PgrlTXR2QowmABxmAfm4kXQSoBL8,4060
+trans_fpdf-0.0.3.dist-info/LICENCE,sha256=KXtvAwlDxFxMIdHxHJfaPxp2LLs4cZoPCATTgfcKCTE,613
+trans_fpdf-0.0.3.dist-info/METADATA,sha256=Ewcx1iki2WAbp2XKi4gehixL0rtOpdxRVqRGQfmIWl4,618
+trans_fpdf-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+trans_fpdf-0.0.3.dist-info/top_level.txt,sha256=iLHBGQnfXqKTwTq-stZXPUS_TOZbDkJ_rck9S1yBy-c,17
+trans_fpdf-0.0.3.dist-info/RECORD,,
