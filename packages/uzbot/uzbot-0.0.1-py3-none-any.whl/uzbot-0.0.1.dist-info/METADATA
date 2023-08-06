@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: uzbot
+Version: 0.0.1
+Summary: A simple library for creating a Telegram-bot.
+Author: ozodbeksobirjonovich
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyTelegramBotAPI (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+```python
+from uzbot import run_bot, types
+
+bot = run_bot(TOKEN)
+
+@bot.message_handler(commands=["start"])
+def hello(message):
+    bot.send_message(message.chat.id, "Hello!!!")
+
+bot.polling()
+```
