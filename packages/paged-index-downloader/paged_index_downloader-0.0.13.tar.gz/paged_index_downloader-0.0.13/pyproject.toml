@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paged_index_downloader"
+version = "0.0.13"
+authors = [
+  { name="Alex Thompson", email="alexthompson1991@hotmail.com" },
+]
+description = "A way to easily download news listings using Scrapy"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
