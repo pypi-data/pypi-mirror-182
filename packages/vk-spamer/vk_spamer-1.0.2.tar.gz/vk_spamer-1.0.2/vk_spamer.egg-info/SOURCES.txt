@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+vk_spamer/__init__.py
+vk_spamer/vkspamer.py
+vk_spamer.egg-info/PKG-INFO
+vk_spamer.egg-info/SOURCES.txt
+vk_spamer.egg-info/dependency_links.txt
+vk_spamer.egg-info/not-zip-safe
+vk_spamer.egg-info/requires.txt
+vk_spamer.egg-info/top_level.txt
