@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: create-py-app
+Version: 0.1.0
+Summary: A tool for creating a simple python framework
+Home-page: https://github.com/hyoshida123/create-py-app
+Author: Hideaki Yoshida
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+
+# create-py-app
+## Overview
+Python package that generates a simple python project template  
+
+## System Requirements
+- Python 3.10+
+
+## Install
+```
+$ pip install create-py-app
+```
+
+## Run
+```
+$ create-py-app --name　your_project_name
+```
+
+## Generated Project Structure
+```
+.
+├── README.md
+├── LICENSE.txt
+├── environment_variables.py
+├── .env
+├── pyproject.toml
+├── Dockerfile
+├── .pre-commit-config.yaml
+└── main.py
+```
