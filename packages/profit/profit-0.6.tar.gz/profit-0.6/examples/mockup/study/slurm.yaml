@@ -1,0 +1,19 @@
+# same as profit.yaml but using the SlurmRunner
+ntrain: 30
+include: ../mockup.py
+variables:
+    u: Uniform(4.7, 5.3)
+    v: Uniform(0.55, 0.6)
+    f: Output
+run:
+    runner:
+        class: slurm
+        parallel: 10
+        options:
+            job-name: profit-mockup
+            time: 1:00:00
+            mem-per-cpu: 1G
+    interface:
+        class: zeromq
+        port: 9100
+    worker: mockup
