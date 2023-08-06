@@ -1,0 +1,3 @@
+[console_scripts]
+lchck = threepwood.cli:lchuck
+thrpwd = threepwood.cli:thrpwd
