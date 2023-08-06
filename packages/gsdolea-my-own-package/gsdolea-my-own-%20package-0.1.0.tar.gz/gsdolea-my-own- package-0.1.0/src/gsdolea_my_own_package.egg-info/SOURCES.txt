@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/gsdolea_my_own_package.egg-info/PKG-INFO
+src/gsdolea_my_own_package.egg-info/SOURCES.txt
+src/gsdolea_my_own_package.egg-info/dependency_links.txt
+src/gsdolea_my_own_package.egg-info/top_level.txt
+src/my_own_package/__init__.py
