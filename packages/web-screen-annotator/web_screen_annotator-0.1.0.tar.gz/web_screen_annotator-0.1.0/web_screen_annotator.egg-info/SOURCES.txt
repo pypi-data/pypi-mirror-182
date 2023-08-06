@@ -1,0 +1,11 @@
+setup.py
+web_screen_annotator/__init__.py
+web_screen_annotator/data_annotator.py
+web_screen_annotator/dom_element.py
+web_screen_annotator/dom_extractor.py
+web_screen_annotator/main.py
+web_screen_annotator.egg-info/PKG-INFO
+web_screen_annotator.egg-info/SOURCES.txt
+web_screen_annotator.egg-info/dependency_links.txt
+web_screen_annotator.egg-info/requires.txt
+web_screen_annotator.egg-info/top_level.txt
