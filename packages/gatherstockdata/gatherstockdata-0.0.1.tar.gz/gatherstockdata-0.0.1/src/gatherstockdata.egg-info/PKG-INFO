@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gatherstockdata
+Version: 0.0.1
+Summary: Gather Stock data
+Author: Lucas Rimfrost
+Author-email: lucas.rimfrost@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+
+# Gather Stock Data
+
+This project is primarily for personal use and education and can be used to gather simple stock data from yahoo finance. It
+provides a simple way of gathering stock data without all the hard work.
+
+
+## Authors
+
+- [Lucas Rimfrost](https://www.github.com/octokatherine)
+
+
+## Installation
+
+Install gatherstockdata with pip
+Use the following command in cmd:
+
+```python
+  pip install gatherstockdata
+```
+    
+## Usage
+
+```python
+from gatherstockdata import *
+
+def main():
+    # Ticker of stock as parameter
+    data = gather_funda_info("AAPL")
+    return data['pps']
+
+show_data = main()
+print(show_data)
+```
+

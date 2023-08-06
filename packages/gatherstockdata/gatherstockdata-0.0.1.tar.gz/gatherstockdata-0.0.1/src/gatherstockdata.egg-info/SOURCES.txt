@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/gatherstockdata.py
+src/gatherstockdata.egg-info/PKG-INFO
+src/gatherstockdata.egg-info/SOURCES.txt
+src/gatherstockdata.egg-info/dependency_links.txt
+src/gatherstockdata.egg-info/requires.txt
+src/gatherstockdata.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+pandas
+mplfinance
+requests
+bs4
+
+[dev]
+pytest>=3.7
