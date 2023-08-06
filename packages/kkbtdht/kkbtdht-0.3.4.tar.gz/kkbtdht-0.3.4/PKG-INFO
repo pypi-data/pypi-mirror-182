@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: kkbtdht
+Version: 0.3.4
+Summary: efficent full implementation of the bittorent mainline dht
+Home-page: https://github.com/nitmir/btdht/
+Author: Valentin Samir
+Author-email: valentin.samir@crans.org
+License: GPLv3
+Download-URL: https://github.com/nitmir/btdht/releases/latest
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: File Sharing
