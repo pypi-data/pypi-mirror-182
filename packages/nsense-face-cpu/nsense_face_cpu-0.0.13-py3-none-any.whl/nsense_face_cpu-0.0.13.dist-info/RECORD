@@ -1,0 +1,11 @@
+nsense_face_cpu/__init__.py,sha256=d8yPvOAVf63M8rqf0NNyCMJBtdkxUp68-aKeXOvq4Zc,40
+nsense_face_cpu/face/__init__.py,sha256=t3t6nUs3V1Gcb7uB_OVXSupr2Q5cXB1e3gUF6Yz5g8c,37
+nsense_face_cpu/face/common.py,sha256=7dHaRaIrZG8d0o_uxUEBD7IpOYv3cx8_Z-I1PAQioh4,5096
+nsense_face_cpu/model/__init__.py,sha256=UIHds8-jGataoIxUrhDCDjCPN9ieP8M9NpSoxM5LRWc,77
+nsense_face_cpu/model/load_arcface.py,sha256=ee_VknPlKIosNnAwblJYpuKsTNzSKw_T9cBuht50yeg,1010
+nsense_face_cpu/model/load_onnx.py,sha256=6Th2QyIZYhS13-lvmdK7WOfKIaOT662a6cxk1GaohP8,665
+nsense_face_cpu/model/load_vino.py,sha256=b9-CRwpIw4YLbJR9zyMWNKK3CDgkq9y_Q1C9W6NwLn4,1152
+nsense_face_cpu-0.0.13.dist-info/METADATA,sha256=94SvtyNZ1vfaDQRdT9w0WTnQcLH5qcd4zzpgobAyVnM,327
+nsense_face_cpu-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nsense_face_cpu-0.0.13.dist-info/top_level.txt,sha256=T6AeIUoSOcfXmeISM7EIZGp_S6xtbd66Zv5BQ-4OpI0,16
+nsense_face_cpu-0.0.13.dist-info/RECORD,,
