@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SimpleQt
+Version: 1.0.0
+Summary: Wrapper around PyQt5
+Home-page: https://github.com/TheFGFSEagle/SimpleQt
+Author: TheFGFSEagle
+Author-email: thefgfseagle@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/TheFGFSEagle/SimpleQt.git
+Platform: UNKNOWN
+Requires-Dist: pyproptree (>=2.0.0)
+
+UNKNOWN
+
+
