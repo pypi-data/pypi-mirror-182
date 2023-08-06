@@ -1,0 +1,10 @@
+aiosyncapi/__init__.py,sha256=V0j8y6Cz3wRsTSUalbGv3PbouKY5_TQSPVmXyR1yxgA,129
+aiosyncapi/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosyncapi/main.py,sha256=g-Hu1sjgAqUIIfPp7RUiAjjdzRTTllFekwPW_h1lxUY,527
+aiosyncapi/ponicode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosyncapi/ponicode/main_test.py,sha256=UqqowMYIwt4y7Gd1N7OQYlh6ra209AQ3gPNcQRGRRWI,274
+aiosyncapi/types.py,sha256=px1JGOqJiwkcgzja00bepUvx-jZWtxN2uCUk8SnUThA,159
+aiosyncapi/utils.py,sha256=afYTa_vlBUcnWZWePdO0JEZYDI3mw4PQgiLbgUBNV7Q,2025
+aiosyncapi-0.0.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+aiosyncapi-0.0.4.dist-info/METADATA,sha256=1EPU3KJkInYV46kuE3dunJaVbyX9UFH8y_Romnv0oi0,579
+aiosyncapi-0.0.4.dist-info/RECORD,,
