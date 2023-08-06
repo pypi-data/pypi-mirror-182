@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.py
+paintcord/__init__.py
+paintcord.egg-info/PKG-INFO
+paintcord.egg-info/SOURCES.txt
+paintcord.egg-info/dependency_links.txt
+paintcord.egg-info/not-zip-safe
+paintcord.egg-info/top_level.txt
