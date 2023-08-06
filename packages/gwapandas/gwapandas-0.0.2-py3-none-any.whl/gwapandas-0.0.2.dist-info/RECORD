@@ -1,0 +1,9 @@
+gwapandas/__init__.py,sha256=MuQAW5Np9LJa8-dTdp9FhncD3j3rEiKCKNviZ5EoHeU,131
+gwapandas/cli.py,sha256=Kz_0SCZuh7-Y6MN0qP_J_9l9Z7tnqZNcGBxbwzfW9v0,278
+gwapandas/gwapandas.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+gwapandas/sumstats.py,sha256=dmIawyWB9K50ka9fB6Ze2jCAiS8WMkH4hqpf7ZTJ6m8,3354
+gwapandas-0.0.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gwapandas-0.0.2.dist-info/entry_points.txt,sha256=cp3v4uJs19oerPADYuJh3YPoVLUUmDKldRuIvzXYHXA,47
+gwapandas-0.0.2.dist-info/LICENSE,sha256=90FBfkSOiVCt1va6ViA2OYNvUKc9W3Wphh1kCbOopZM,1070
+gwapandas-0.0.2.dist-info/METADATA,sha256=dWmGTHRz8PKYkrSbaVKqpiKa2KJHhD6iNI0bLnww3tc,3366
+gwapandas-0.0.2.dist-info/RECORD,,
