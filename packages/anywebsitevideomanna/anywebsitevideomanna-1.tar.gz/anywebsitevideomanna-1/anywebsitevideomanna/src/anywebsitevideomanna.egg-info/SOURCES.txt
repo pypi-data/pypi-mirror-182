@@ -1,0 +1,8 @@
+setup.py
+anywebsitevideomanna/src/anywebsitevideomanna.egg-info/PKG-INFO
+anywebsitevideomanna/src/anywebsitevideomanna.egg-info/SOURCES.txt
+anywebsitevideomanna/src/anywebsitevideomanna.egg-info/dependency_links.txt
+anywebsitevideomanna/src/anywebsitevideomanna.egg-info/requires.txt
+anywebsitevideomanna/src/anywebsitevideomanna.egg-info/top_level.txt
+anywebsitevideomanna/src/anywebsitevideomanna.py
+anywebsitevideomanna/src/anywebsitevideomanna.egg-info/SOURCES.txt
