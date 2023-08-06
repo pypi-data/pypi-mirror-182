@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/mimosms/__init__.py
+src/mimosms/campains.py
+src/mimosms/contacts.py
+src/mimosms/groups.py
+src/mimosms/messages.py
+src/mimosms/senders.py
+src/mimosms.egg-info/PKG-INFO
+src/mimosms.egg-info/SOURCES.txt
+src/mimosms.egg-info/dependency_links.txt
+src/mimosms.egg-info/requires.txt
+src/mimosms.egg-info/top_level.txt
