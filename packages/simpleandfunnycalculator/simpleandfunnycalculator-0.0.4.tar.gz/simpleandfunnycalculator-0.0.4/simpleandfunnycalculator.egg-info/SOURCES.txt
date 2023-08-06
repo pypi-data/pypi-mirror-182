@@ -1,0 +1,7 @@
+setup.py
+simpleandfunnycalculator/__init__.py
+simpleandfunnycalculator.egg-info/PKG-INFO
+simpleandfunnycalculator.egg-info/SOURCES.txt
+simpleandfunnycalculator.egg-info/dependency_links.txt
+simpleandfunnycalculator.egg-info/requires.txt
+simpleandfunnycalculator.egg-info/top_level.txt
