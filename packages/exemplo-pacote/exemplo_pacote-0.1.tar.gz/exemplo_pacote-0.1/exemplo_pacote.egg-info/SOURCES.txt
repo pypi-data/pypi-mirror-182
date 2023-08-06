@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+exemplo_pacote/__init__.py
+exemplo_pacote/projeto.py
+exemplo_pacote.egg-info/PKG-INFO
+exemplo_pacote.egg-info/SOURCES.txt
+exemplo_pacote.egg-info/dependency_links.txt
+exemplo_pacote.egg-info/not-zip-safe
+exemplo_pacote.egg-info/requires.txt
+exemplo_pacote.egg-info/top_level.txt
