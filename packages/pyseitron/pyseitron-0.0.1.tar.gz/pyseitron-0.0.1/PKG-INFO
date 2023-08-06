@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyseitron
+Version: 0.0.1
+Summary: Seitron library for IoT device
+Project-URL: Homepage, https://github.com/seitronspa/pyseitron
+Author-email: Stefano Vardanega <stefano.vardanega@seitron.it>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pyseitron
+Home Assistant library for IoT devices
