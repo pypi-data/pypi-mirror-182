@@ -1,0 +1,19 @@
+
+{
+    "name": "AoC",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/algovault",
+	"shutdownAction": "stopCompose",
+	"overrideCommand": true,
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"sainnhe.everforest",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"rust-lang.rust-analyzer"
+			]
+		}
+	}
+}

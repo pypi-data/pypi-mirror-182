@@ -1,0 +1,6 @@
+version: '3.9'
+
+services:
+  dev:
+    image: evamicur/algovault-dev:latest
+    build: .
