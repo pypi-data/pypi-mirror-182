@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cowswap
+Version: 0.0.2.dev1
+Summary: Convenience package to get quotes from and place orders with cowswap
+Home-page: https://github.com/BobTheBuidler/cowswap
+Author: BobTheBuidler
+Author-email: bobthebuidlerdefi@gmail.com
+License: MIT
