@@ -1,0 +1,12 @@
+asyncpg_trek/__init__.py,sha256=QnUrNldOFeShYY06-MvY_t2GlXn7JcBbNgueQlC_UDM,246
+asyncpg_trek/_backend.py,sha256=fDz87-R_xObu5PkpHmOIbh8nHGfejvReSYr9SQ7b03E,1655
+asyncpg_trek/_collect.py,sha256=uJ4UBC98sUn3hiGcOQ9-03WQWWLIWvQUv4mQive0kiI,2103
+asyncpg_trek/_run.py,sha256=HMTLwdclKvYJP4Pq8klJlBeY3Sb2QiAwDdXJNJv9keA,1972
+asyncpg_trek/_solver.py,sha256=7O-7zidKTjk6Qn2krrOQrfQzqQ_vQinB9R3zs-0X37c,1929
+asyncpg_trek/_types.py,sha256=6-2tj5fsODojRyVJkh8Decj0ltnkIAmTy8ACXsFhOlw,580
+asyncpg_trek/_typing.py,sha256=5TgrfMxncUdsi9BB_YzWPoBzlt6PUmouR0yBKNLQBbQ,298
+asyncpg_trek/asyncpg.py,sha256=si7sGXeFSRCwwVGZZl3Stox-4WPZcAEg3NywGuAComk,2151
+asyncpg_trek-0.3.0.dist-info/LICENSE.txt,sha256=xycPafmpfgnjoK1RVSGiErW_TuEZMN0jXXCTgHzzKFY,1063
+asyncpg_trek-0.3.0.dist-info/METADATA,sha256=JyP7UZZZUyiEU6wQyi17MsVeAl-gCKLdxOo7dTAwRM8,3688
+asyncpg_trek-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+asyncpg_trek-0.3.0.dist-info/RECORD,,
