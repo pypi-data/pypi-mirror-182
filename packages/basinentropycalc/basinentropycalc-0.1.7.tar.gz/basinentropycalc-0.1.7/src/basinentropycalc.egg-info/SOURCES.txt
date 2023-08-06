@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/basinentropy/__init__.py
+src/basinentropy/basin_entropy.py
+src/basinentropycalc.egg-info/PKG-INFO
+src/basinentropycalc.egg-info/SOURCES.txt
+src/basinentropycalc.egg-info/dependency_links.txt
+src/basinentropycalc.egg-info/top_level.txt

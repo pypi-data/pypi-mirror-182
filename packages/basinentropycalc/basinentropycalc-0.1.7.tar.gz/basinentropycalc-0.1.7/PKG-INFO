@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: basinentropycalc
+Version: 0.1.7
+Summary: This script computes the basin entropy of a computed basin of attraction on a regular grid.The function return the basin entropy and the boundary basin entropy
+Home-page: https://github.com/jonasferoliveira/basin_entropy
+Author: Oliveira, Jonas
+Author-email: jonasferoliveira.ufg@gmail.com
+Project-URL: Bug Tracker, https://github.com/jonasferoliveira/basin_entropy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Basin Entropy
+
+This algorithm was proposed by Daza et al., it computes the basin entropy of a computed basin of attraction on a regular grid.The function return the basin entropy and the boundary basin entropy.
+
+
+* A. Daza, A. Wagemakers, B. Georgeot, D. Guéry-Odelin and M. A. F. Sanjuán, Basin entropy: a new tool to analyze uncertainty in dynamical systems, Sci. Rep., 6, 31416, (2016).
