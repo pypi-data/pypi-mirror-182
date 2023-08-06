@@ -1,0 +1,7 @@
+PyTOUGH
+numpy
+scipy
+h5py
+pyyaml
+tomlkit
+setuptools_scm
