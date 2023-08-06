@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "evergate"
+version = "0.1.0"
+description = "An API wrapper for Eve Online Swagger Interface"
+authors = ["frodo821 <sakaic2003@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+requests = "^2.28.1"
+pydantic = "^1.10.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+mypy = "^0.991"
+pylint = "^2.15.9"
+yapf = "^0.32.0"
+sphinx = "^5.3.0"
+sphinx-rtd-theme = "^1.1.1"
+sphinx-multiversion = "^0.2.4"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.yapf]
+based_on_style = "google"
+indent_width = 2
