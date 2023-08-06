@@ -1,0 +1,14 @@
+Django>=3.2
+Wagtail>=2.15
+lxml<4.8,>=4.7
+bleach<4.2,>=4.1
+prettytable<2.3,>=2.2
+shortcodes<6.0,>=5.1
+cached-property<2.0,>=1.5.1
+
+[testing]
+freezegun==0.3.15
+responses<0.17.0,>=0.16.0
+flake8==5.0.4
+isort==5.10.1
+black==22.10.0
