@@ -1,0 +1,3 @@
+[console_scripts]
+kerion = kerion.cli:main
+keriond = kerion.daemon:main
