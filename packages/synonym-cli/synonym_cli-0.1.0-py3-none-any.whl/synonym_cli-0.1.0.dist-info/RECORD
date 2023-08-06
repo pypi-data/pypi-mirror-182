@@ -1,0 +1,10 @@
+synonym_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synonym_cli/__main__.py,sha256=77yGKVid8yddN70o1swSz6QU7dlBvhmDJla49h3QTOE,1759
+synonym_cli/altervista.py,sha256=YoHeMq_4JkmQAaWWUD0KlGR9LYpZP07euQ9SmzknUkA,2769
+synonym_cli/cli.py,sha256=VrCCukWTKcyhpm2MpJsGpTWgchgTv-4kTYm7DLzSqJ8,4659
+synonym_cli/settings.py,sha256=Ie2Mnr4DNx-_KRvw8xlBVUgM-P7Vq4WKS6AH3kuN4iw,1450
+synonym_cli/tur.py,sha256=gF4lwmsk_HEQcw5b7hwms-8lmm66AOrwsWRbTa81qK0,378
+synonym_cli-0.1.0.dist-info/entry_points.txt,sha256=rnOTUiUMf2TS6y-jnR7yz-JfE9ksf1qxAj-sp2-Bmbc,48
+synonym_cli-0.1.0.dist-info/METADATA,sha256=GCl1QO9aurGWc8OY3fPX6upJuJPrpdMN4YZEUO5eCYo,7280
+synonym_cli-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+synonym_cli-0.1.0.dist-info/RECORD,,
