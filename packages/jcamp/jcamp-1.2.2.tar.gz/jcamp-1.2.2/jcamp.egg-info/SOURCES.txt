@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+jcamp.py
+setup.cfg
+setup.py
+jcamp.egg-info/PKG-INFO
+jcamp.egg-info/SOURCES.txt
+jcamp.egg-info/dependency_links.txt
+jcamp.egg-info/requires.txt
+jcamp.egg-info/top_level.txt
