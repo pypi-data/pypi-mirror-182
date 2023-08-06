@@ -1,0 +1,9 @@
+README.md
+setup.py
+basinentropycalc/__init__.py
+basinentropycalc/basinentropycalc.py
+basinentropycalc.egg-info/PKG-INFO
+basinentropycalc.egg-info/SOURCES.txt
+basinentropycalc.egg-info/dependency_links.txt
+basinentropycalc.egg-info/requires.txt
+basinentropycalc.egg-info/top_level.txt
