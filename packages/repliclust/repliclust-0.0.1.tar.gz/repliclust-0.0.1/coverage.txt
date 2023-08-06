@@ -1,0 +1,18 @@
+Name                                          Stmts   Miss  Cover
+-----------------------------------------------------------------
+repliclust/__init__.py                            5      0   100%
+repliclust/base.py                              131     14    89%
+repliclust/config.py                              3      0   100%
+repliclust/constrained_overlap/__init__.py        0      0   100%
+repliclust/constrained_overlap/centers.py        44      2    95%
+repliclust/constrained_overlap/gradients.py      93      1    99%
+repliclust/distributions.py                      59      1    98%
+repliclust/maxmin/__init__.py                     0      0   100%
+repliclust/maxmin/blueprint.py                   53      3    94%
+repliclust/maxmin/covariance.py                  49      0   100%
+repliclust/maxmin/groupsizes.py                  36      1    97%
+repliclust/maxmin/utils.py                       22      2    91%
+repliclust/random_centers.py                     25      0   100%
+repliclust/utils.py                              23      1    96%
+-----------------------------------------------------------------
+TOTAL                                           543     25    95%
