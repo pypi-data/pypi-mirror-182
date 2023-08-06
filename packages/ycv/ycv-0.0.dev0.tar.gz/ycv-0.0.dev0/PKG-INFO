@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ycv
+Version: 0.0.dev0
+Summary: Build CV and job application materials from yaml files
+Home-page: https://github.com/md-arif-shaikh/ycv
+Author: Md Arif Shaikh
+Author-email: arifshaikh.astro@gmail.com
+Project-URL: Bug Tracker, https://github.com/md-arif-shaikh/ycv/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ycv
+Build CV and job application materials using yaml files

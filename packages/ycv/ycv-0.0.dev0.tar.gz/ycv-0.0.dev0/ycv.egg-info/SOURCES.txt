@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ycv/__init__.py
+ycv/publications.py
+ycv/yamlToTex.py
+ycv/ycv.py
+ycv.egg-info/PKG-INFO
+ycv.egg-info/SOURCES.txt
+ycv.egg-info/dependency_links.txt
+ycv.egg-info/entry_points.txt
+ycv.egg-info/top_level.txt
