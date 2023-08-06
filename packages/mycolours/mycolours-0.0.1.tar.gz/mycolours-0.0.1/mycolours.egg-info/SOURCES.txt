@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mycolours/__init__.py
+mycolours/run.py
+mycolours.egg-info/PKG-INFO
+mycolours.egg-info/SOURCES.txt
+mycolours.egg-info/dependency_links.txt
+mycolours.egg-info/requires.txt
+mycolours.egg-info/top_level.txt

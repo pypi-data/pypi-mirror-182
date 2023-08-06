@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mycolours
+Version: 0.0.1
+Summary: This is a library of images to 2D lists.
+Home-page: https://github.com/15989116376/mycolour
+Author: 15989116376
+Author-email: lsd.bb770810.com@outlook.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+This is a library of images to 2D lists, using the mycolour.run.pic(pic_pos,pix) function.
+#pic_pos represents your image position, this is a return value function. Returns a list.
