@@ -1,0 +1,17 @@
+attrs
+faiss-gpu==1.6.1
+future
+matplotlib
+mmcv-full>=1.4.7
+numpy
+packaging
+pandas
+terminaltables
+scipy
+scikit-image
+seaborn
+six
+sklearn
+tensorboard
+timm
+tqdm
