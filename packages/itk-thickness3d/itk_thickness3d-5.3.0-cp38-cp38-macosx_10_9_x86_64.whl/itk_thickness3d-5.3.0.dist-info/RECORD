@@ -1,0 +1,11 @@
+itk_thickness3d-5.3.0.dist-info/RECORD,,
+itk_thickness3d-5.3.0.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_thickness3d-5.3.0.dist-info/WHEEL,sha256=z9qir6Vi_mkOsxGi50wLYU-N2ok_4rABw72J-twhmMA,102
+itk_thickness3d-5.3.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_thickness3d-5.3.0.dist-info/METADATA,sha256=X46D32CkclvcLo_GP2tDeulcsP1v8wxERBgcKQ5OVIM,1364
+itk/Thickness3DPython.py,sha256=S4gq3IaAyPUAbuAkMdqR9marR51g0jRFRXqxYHt70Fs,2481
+itk/itkThickness3DPython.py,sha256=q6nHbvCqSw72zl0oGZPcvOR5Ar3nr5AHNL3v5xwCJ7U,45444
+itk/_Thickness3DPython.so,sha256=lAT5UlA35WshaWCIUVPC17jjTMmdbqS75CHgIJB_g4I,3888256
+itk/Configuration/Thickness3DConfig.py,sha256=Y_V4hrX7W-g7z-eghDcXoN2DvKdrzUAc35cTY8WiEdE,2771
+itk/Configuration/Thickness3D_snake_case.py,sha256=QbcfGJTKChde94-bAyJlN5TkxY-5xULHpUQxV5NR-Vs,97
+itk/.dylibs/libtbb.12.3.dylib,sha256=E4ma_iqQM3j9mMICxOZCT2bhPxGzccnHE1g1CDhqCzU,394048
