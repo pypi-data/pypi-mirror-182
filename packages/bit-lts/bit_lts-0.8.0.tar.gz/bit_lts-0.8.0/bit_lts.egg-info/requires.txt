@@ -1,0 +1,12 @@
+coincurve>=18.0.0
+pycryptodome>=3.16.0
+requests
+
+[cache]
+lmdb
+
+[cli]
+appdirs
+click
+privy
+tinydb
