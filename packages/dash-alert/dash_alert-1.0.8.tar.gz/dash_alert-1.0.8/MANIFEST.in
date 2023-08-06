@@ -1,0 +1,11 @@
+include dash_alert/dash_alert.min.js
+include dash_alert/dash_alert.min.js.map
+include dash_alert/async-*.js
+include dash_alert/async-*.js.map
+include dash_alert/*-shared.js
+include dash_alert/*-shared.js.map
+include dash_alert/metadata.json
+include dash_alert/package-info.json
+include README.md
+include LICENSE
+include package.json
