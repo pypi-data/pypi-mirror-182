@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: behave-cucumber-formatter
+Version: 1.0.0
+Summary: Cucumber JSON formatter for pipeline tests
+Home-page: https://github.com/BluThaitanium/Cucumber-Behave-Package
+Author: Phu Thai
+License: THE_UNLICENSED
+Keywords: cucumber,behave,formatter,testing
+License-File: LICENSE.txt
