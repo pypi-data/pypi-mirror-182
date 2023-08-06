@@ -1,0 +1,39 @@
+{
+  "name": "gcc-riscv32",
+  "version": "1.0.0",
+  "description": "Cross RISCV32 GCC toolchain (riscv32-unknown-elf)",
+  "category": "toolchain",
+  "packages": {
+    "toolchain-gcc-riscv32-unknown-elf": {
+      "version": "^1.70101.0+2017q2",
+      "type": "toolchain"
+    }
+  },
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.toolchain@1.0.0",
+    "package_manager.toolchain@1.0.0"
+  ],
+  "inherit": "gcc-cross",
+  "family": "gcc",
+  "settings": {
+    "debugger": "gdb",
+    "prefix": "riscv32-unknown-elf-",
+    "suffix": "",
+    "buildset": {},
+    "hexbin_converter": "objcopy",
+    "libsuffix": ".a",
+    "libprefix": "lib",
+    "sizetool": "size",
+    "linker": "ld",
+    "progsuffix": ".elf",
+    "ranlib": "ranlib",
+    "listing_generator": "objdump",
+    "c_compiler": "gcc",
+    "archiver": "ar",
+    "cpp_compiler": "g++",
+    "as_compiler": "as"
+  },
+  "status": "stable"
+}

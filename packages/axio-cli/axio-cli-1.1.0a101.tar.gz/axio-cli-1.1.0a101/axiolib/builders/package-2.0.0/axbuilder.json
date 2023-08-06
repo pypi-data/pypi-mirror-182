@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "2.0.0",
+  "description": "Common package builder",
+  "category": "axbuilder",
+  "packages": {},
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.axbuilder@1.6.0",
+    "package_manager.axbuilder@1.4.0"
+  ],
+  "ui": {
+    "icon": "archive",
+    "enable_management_view": true,
+    "enable_new_project_view": true,
+    "enable_new_environment_view": true
+  },
+  "status": "pre-alpha"
+}

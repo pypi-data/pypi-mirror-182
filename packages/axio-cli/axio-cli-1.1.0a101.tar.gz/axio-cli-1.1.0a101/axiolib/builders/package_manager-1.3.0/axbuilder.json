@@ -1,0 +1,14 @@
+{
+  "name": "package_manager",
+  "version": "1.3.0",
+  "description": "Package Manager Builder",
+  "category": "axbuilder",
+  "packages": {},
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.axbuilder@1.6.0",
+    "package_manager.axbuilder@1.4.0"
+  ],
+  "status": "pre-alpha"
+}

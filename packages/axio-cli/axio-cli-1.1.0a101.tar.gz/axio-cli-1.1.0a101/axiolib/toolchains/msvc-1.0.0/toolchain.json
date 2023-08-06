@@ -1,0 +1,40 @@
+{
+  "name": "msvc",
+  "version": "1.0.0",
+  "description": "Windows MSVC++ toolchain",
+  "category": "toolchain",
+  "packages": {
+    "tool-visual-studio": {
+      "version": "~1.19162702701.0",
+      "type": "toolchain"
+    }
+  },
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.toolchain@1.0.0",
+    "package_manager.toolchain@1.0.0"
+  ],
+  "family": "msvc",
+  "settings": {
+    "prefix": "",
+    "suffix": "",
+    "as_compiler": "ml",
+    "c_compiler": "cl",
+    "cpp_compiler": "cl",
+    "archiver": "lib",
+    "linker": "link",
+    "hexbin_converter": "",
+    "listing_generator": "",
+    "sizetool": "",
+    "ranlib": "",
+    "progsuffix": ".exe",
+    "libprefix": "",
+    "libsuffix": ".lib",
+    "debugger": "",
+    "shlibsuffix": ".dll",
+    "shlibprefix": "",
+    "buildset": {}
+  },
+  "status": "stable"
+}

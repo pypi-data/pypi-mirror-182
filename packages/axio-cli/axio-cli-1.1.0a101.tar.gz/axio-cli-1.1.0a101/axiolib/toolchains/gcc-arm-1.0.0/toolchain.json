@@ -1,0 +1,41 @@
+{
+  "name": "gcc-arm",
+  "version": "1.0.0",
+  "description": "Cross ARM GCC toolchain (arm-none-eabi-gcc)",
+  "category": "toolchain",
+  "packages": {
+    "toolchain-gcc-arm-none-eabi": {
+      "version": "^1.50403.0",
+      "type": "toolchain"
+    }
+  },
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.toolchain@1.0.0",
+    "package_manager.toolchain@1.0.0"
+  ],
+  "inherit": "gcc-cross",
+  "family": "gcc",
+  "settings": {
+    "debugger": "gdb",
+    "prefix": "arm-none-eabi-",
+    "suffix": "",
+    "buildset": {},
+    "hexbin_converter": "objcopy",
+    "libsuffix": ".a",
+    "libprefix": "lib",
+    "shlibsuffix": ".so",
+    "shlibprefix": "",
+    "sizetool": "size",
+    "linker": "ld",
+    "progsuffix": ".elf",
+    "ranlib": "ranlib",
+    "listing_generator": "objdump",
+    "c_compiler": "gcc",
+    "archiver": "ar",
+    "cpp_compiler": "g++",
+    "as_compiler": "as"
+  },
+  "status": "stable"
+}

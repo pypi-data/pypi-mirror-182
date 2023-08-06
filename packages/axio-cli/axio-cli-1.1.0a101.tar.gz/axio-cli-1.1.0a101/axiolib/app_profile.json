@@ -1,0 +1,82 @@
+{
+  "features": {
+    "commands": [
+      "init",
+      "build",
+      "test",
+      "package",
+      "list",
+      "spawn",
+      "install",
+      "uninstall",
+      "download",
+      "update",
+      "settings",
+      "upgrade",
+      "ci"
+    ],
+    "package_commands": [
+      "list",
+      "install",
+      "uninstall",
+      "download",
+      "update",
+      "latest"
+    ],
+    "builtin_envtools": [
+      "axmisc",
+      "axiocpp",
+      "axiowinhooks",
+      "nuitka",
+      "virtual_box"
+    ],
+    "builtin_packages": [
+      "axbuilder.application",
+      "axbuilder.component",
+      "axbuilder.board",
+      "axbuilder.package",
+      "axbuilder.custom",
+      "axbuilder.spawn",
+      "package_manager.application",
+      "package_manager.component",
+      "package_manager.package",
+      "package_manager.custom",
+      "package_manager.axbuilder",
+      "package_manager.platform",
+      "package_manager.framework",
+      "package_manager.board",
+      "package_manager.solution",
+      "package_manager.toolchain",
+      "toolchain.gcc",
+      "toolchain.gcc-arm",
+      "toolchain.gcc-cross",
+      "toolchain.gcc-mingw32",
+      "toolchain.gcc-mingw64",
+      "toolchain.gcc-riscv32",
+      "package.generator-axio",
+      "axbuilder.platform",
+      "axbuilder.framework",
+      "axbuilder.solution",
+      "axbuilder.toolchain",
+      "axbuilder.axbuilder",
+      "axbuilder.package_manager",
+      "axbuilder.rstdoc",
+      "package_manager.doc",
+      "toolchain.armcc",
+      "toolchain.gcc-riscv32",
+      "toolchain.msvc"
+    ],
+    "builtin_builder_methods": [
+      "build_pyds",
+      "build_pydlibs",
+      "build_single_exe",
+      "build_isolated_exe"
+    ],
+    "repo_configurations": {
+      "default_address": "http://192.168.23.58",
+      "variant_repos": [
+        "zlg.ZlgAxpiPackageRepo"
+      ]
+    }
+  }
+}

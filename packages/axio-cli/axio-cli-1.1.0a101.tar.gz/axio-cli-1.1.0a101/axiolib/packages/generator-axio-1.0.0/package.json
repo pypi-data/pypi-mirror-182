@@ -1,0 +1,13 @@
+{
+  "name": "generator-axio",
+  "version": "1.0.0",
+  "description": "axio generator",
+  "category": "package",
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.package@2.0.0",
+    "package_manager.package@1.1.0"
+  ],
+  "status": "stable"
+}

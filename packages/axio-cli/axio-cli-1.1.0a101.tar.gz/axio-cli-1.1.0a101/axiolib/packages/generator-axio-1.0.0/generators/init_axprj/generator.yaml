@@ -1,0 +1,13 @@
+
+name: init_axprj
+
+description: initialize axio project
+
+settings:
+
+  invoke_cmds:
+    - [axio, init]
+    - "axio list"
+    - "axio build -tdist"
+
+

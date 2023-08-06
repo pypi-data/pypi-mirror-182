@@ -1,0 +1,43 @@
+{
+  "name": "gcc-mingw32",
+  "version": "1.0.0",
+  "description": "Windows MINGW32 GCC toolchain",
+  "category": "toolchain",
+  "packages": {
+    "toolchain-gccmingw-w64": {
+      "type": "toolchain",
+      "version": "~1.810.0"
+    }
+  },
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.toolchain@1.0.0",
+    "package_manager.toolchain@1.0.0"
+  ],
+  "inherit": "gcc",
+  "family": "gcc",
+  "settings": {
+    "debugger": "gdb",
+    "prefix": "",
+    "suffix": "",
+    "buildset": {
+      "build_flags": "-m32"
+    },
+    "as_compiler": "as",
+    "c_compiler": "gcc",
+    "cpp_compiler": "g++",
+    "archiver": "ar",
+    "linker": "ld",
+    "hexbin_converter": "objcopy",
+    "listing_generator": "objdump",
+    "sizetool": "size",
+    "ranlib": "ranlib",
+    "progsuffix": ".exe",
+    "libprefix": "lib",
+    "libsuffix": ".a",
+    "shlibprefix": "",
+    "shlibsuffix": ".dll"
+  },
+  "status": "stable"
+}

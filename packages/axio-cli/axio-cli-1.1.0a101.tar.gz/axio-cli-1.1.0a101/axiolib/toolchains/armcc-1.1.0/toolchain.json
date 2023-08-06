@@ -1,0 +1,37 @@
+{
+  "name": "armcc",
+  "version": "1.1.0",
+  "description": "ARM C Compiler toolchain",
+  "category": "toolchain",
+  "packages": {
+    "toolchain-mdkarm": {
+      "type": "toolchain",
+      "version": "^1.51700.0"
+    }
+  },
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.toolchain@1.0.0",
+    "package_manager.toolchain@1.0.0"
+  ],
+  "family": "armcc",
+  "settings": {
+    "linker": "link",
+    "suffix": "",
+    "libsuffix": ".lib",
+    "libprefix": "",
+    "sizetool": "size",
+    "hexbin_converter": "objcopy",
+    "progsuffix": ".axf",
+    "ranlib": "ar",
+    "listing_generator": "objdump",
+    "prefix": "arm",
+    "c_compiler": "cc",
+    "archiver": "ar",
+    "cpp_compiler": "cc",
+    "as_compiler": "asm",
+    "buildset": {}
+  },
+  "status": "stable"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "board",
+  "version": "1.0.0",
+  "description": "Board Manager(testing use)",
+  "category": "package_manager",
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.package_manager@1.3.0",
+    "package_manager.package_manager@1.1.0-a.101"
+  ],
+  "status": "stable",
+  "package_category": "board"
+}

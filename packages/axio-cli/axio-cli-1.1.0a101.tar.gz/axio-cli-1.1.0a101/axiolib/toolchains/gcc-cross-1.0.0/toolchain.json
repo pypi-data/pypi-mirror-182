@@ -1,0 +1,21 @@
+{
+  "name": "gcc-cross",
+  "version": "1.0.0",
+  "description": "Cross GCC toolchain",
+  "category": "toolchain",
+  "packages": {},
+  "distype": "dist",
+  "engines": [
+    "axio-engine@1.1.0-a.101",
+    "axbuilder.toolchain@1.0.0",
+    "package_manager.toolchain@1.0.0"
+  ],
+  "inherit": "gcc",
+  "settings": {
+    "debugger": "gdb",
+    "prefix": "",
+    "suffix": "",
+    "buildset": {}
+  },
+  "status": "stable"
+}
