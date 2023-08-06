@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+versioneer.py
+jaxutils/__init__.py
+jaxutils/_version.py
+jaxutils/data.py
+jaxutils/pytree.py
+jaxutils.egg-info/PKG-INFO
+jaxutils.egg-info/SOURCES.txt
+jaxutils.egg-info/dependency_links.txt
+jaxutils.egg-info/requires.txt
+jaxutils.egg-info/top_level.txt
