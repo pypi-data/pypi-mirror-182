@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: skyant-rest
+Version: 0.0.2
+Summary: Preconfigured FastAPI
+Home-page: https://skyant.dev
+Author: Iurii Tarasenko
+Author-email: info@skyant.dev
+License: MIT
+Project-URL: Source & issues, https://gitlab.com/skyant/python/rest
+Project-URL: Documentation, https://docs.skyant.dev/projects/rest
+Keywords: fastapi,api,rest
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: email-validator
+Requires-Dist: pydantic
+Requires-Dist: google.auth
+Requires-Dist: hypercorn
+Requires-Dist: pyyaml
+Requires-Dist: uvicorn
+
+
+__This package is a part of cloud application framework [SkyANT](https://skyant.dev). For more information please read [the documentation](https://docs.skyant.dev/projects/data).__
+
+<br/>
+
+## Cloud Application Framework
+
+Cloud Application Framework is a fleet of well-known software libraries which was been extended by cloud related methods.
+
+SkyANT now contains components inherited from [Plotly Dash](https://dash.plotly.com), [Pydantic](https://docs.pydantic.dev/), [Dask](https://dask.org), [Odoo](https://odoo.com), etc & work with [Google Cloud Platform](https://cloud.google.com).
+
+
+## Value
+
+Making software for a cloud requires two vectors business-logic & cloud integration codding.
+
+SkyANT components already contain cloud integration tools, so it gives developers opportunities to work with business-logic only.
+
+<br/>
+
+
+The package provide additional features for [FastAPI](https://fastapi.tiangolo.com/) and use
+it as a part of Cloud Application Framework[^1]
+
+
+The `skyant.rest.app.*` inheritance the class `fastapi.FastAPI` so all their features are available.
+
+For fast & easy run API in Google Cloud Platform you can use [SkyANT Runner](https://skyant.dev/projects/cloudrun/).
+
+
+[^1]: Cloud Application Framework is a fleet of tools for building, integrating and deployment to cloud application (ui and api) base on philosophy "one task = one app = one container". Please read more at [https://skyant.dev/framework/](https://skyant.dev/framework/).
