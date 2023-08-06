@@ -1,0 +1,11 @@
+itk_thickness3d-5.3.0.dist-info/RECORD,,
+itk_thickness3d-5.3.0.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_thickness3d-5.3.0.dist-info/WHEEL,sha256=LaxVLUMCL-j14PpDeXfWxW_E_rpJNLk6c4Q8j7iJ7Gw,104
+itk_thickness3d-5.3.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_thickness3d-5.3.0.dist-info/METADATA,sha256=WZIeNwaMh5HfqEy69PNoRPhFZsg_Ty51RtYRqfDkdLY,1366
+itk/Thickness3DPython.py,sha256=S4gq3IaAyPUAbuAkMdqR9marR51g0jRFRXqxYHt70Fs,2481
+itk/itkThickness3DPython.py,sha256=Qwoc4uXe1cr2zF2lnqUa3zC1v3rC7k0_cCZsnRIDj6U,45444
+itk/_Thickness3DPython.so,sha256=9aXyuaVYUToVtS4KTmOxNp7ZHHEWUDVJkF-ygpQccj0,3888192
+itk/Configuration/Thickness3DConfig.py,sha256=Y_V4hrX7W-g7z-eghDcXoN2DvKdrzUAc35cTY8WiEdE,2771
+itk/Configuration/Thickness3D_snake_case.py,sha256=QbcfGJTKChde94-bAyJlN5TkxY-5xULHpUQxV5NR-Vs,97
+itk/.dylibs/libtbb.12.3.dylib,sha256=E4ma_iqQM3j9mMICxOZCT2bhPxGzccnHE1g1CDhqCzU,394048
