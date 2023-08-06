@@ -1,0 +1,2 @@
+ape-safe==0.5.0
+eth_retry>=0.1.15
