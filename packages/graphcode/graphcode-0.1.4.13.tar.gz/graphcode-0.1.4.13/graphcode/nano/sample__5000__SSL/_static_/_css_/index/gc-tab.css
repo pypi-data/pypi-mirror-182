@@ -1,0 +1,48 @@
+/*
+body {font-family: Arial;}
+*/
+
+/* Style the tab */
+.tab {
+  width: 1600;
+  align-self: center;
+  overflow: hidden;
+  background-color: #FCF3CF;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  align: center;
+  valign: center;
+  text-align: center;
+  align-items: center;
+  background-color: #F9E79F;
+  float: center;
+  border: 1px solid #D4AC0D;
+  outline: none;
+  cursor: pointer;
+  padding: 3px 5px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #F4D03F;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #FDFEFE;
+  background-color: #27AE60;
+  border: 1px solid #196F3D;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
