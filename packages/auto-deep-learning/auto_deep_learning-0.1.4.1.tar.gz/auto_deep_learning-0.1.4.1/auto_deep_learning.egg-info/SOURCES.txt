@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+auto_deep_learning.egg-info/PKG-INFO
+auto_deep_learning.egg-info/SOURCES.txt
+auto_deep_learning.egg-info/dependency_links.txt
+auto_deep_learning.egg-info/not-zip-safe
+auto_deep_learning.egg-info/requires.txt
+auto_deep_learning.egg-info/top_level.txt
+test/test_augmentation.py
+test/test_constants.py
+test/test_functions.py
