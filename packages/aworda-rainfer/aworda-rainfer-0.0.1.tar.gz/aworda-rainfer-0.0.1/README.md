@@ -1,0 +1,60 @@
+<div align="center">
+
+# Rainfer
+
+_Modified from Ariadne & Another elegant Python QQ Bot framework for mirai and mirai-api-http v2._
+
+> 希望落空时间
+
+<a href="https://pypi.org/project/graia-ariadne"><img alt="PyPI" src="https://img.shields.io/pypi/v/aworda-rainfer" /></a></td>
+<a href="https://pypi.org/project/graia-ariadne"><img alt="PyPI Pre Release" src="https://img.shields.io/github/v/tag/AwordaProject/Rainfer?include_prereleases&label=latest&color=orange"></td>
+<a href="https://pypi.org/project/graia-ariadne"><img alt="Python Version" src="https://img.shields.io/pypi/pyversions/aworda-rainfer" /></a>
+<a href="https://pypi.org/project/graia-ariadne"><img alt="Python Implementation" src="https://img.shields.io/pypi/implementation/aworda-rainfer"></a>
+<a href="https://nodocs.lol"><img alt="docs" src="https://img.shields.io/badge/文档-here-blue" /></a>
+<a href="https://nodocs.lol"><img alt="API docs" src="https://img.shields.io/badge/API_文档-here-purple"></a>
+<a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-black.svg" alt="black" /></a>
+<a href="https://pycqa.github.io/isort/"><img src="https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat" alt="isort"/></a>
+<a href="https://github.com/AwordaProject/Rainfer/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/GraiaProject/Rainfer"></a>
+
+</div>
+
+**本项目适用于 mirai-api-http 2.0 以上版本**.
+
+Rainfer 是 修改自 `Graia Project`  [`Ariadne`](https://github.com/GraiaProject/Ariadne) 0.6.16 的一个很烂活
+
+Ariadne 是很好的项目，拥有广阔的未来，本框架就不要用了，去用 Ariadne 吧，
+
+之后随着 GraiaProject 的不断开发迭代， Ariadne将会支持更多平台并拥有 module Market Place
+
+**注意, 本框架需要 [`mirai-api-http v2`](https://github.com/project-mirai/mirai-api-http).**
+
+## 安装
+
+`poetry add aworda-rainfer`
+
+或
+
+`pip install aworda-rainfer`
+
+> 我们强烈建议使用 [`poetry`](https://python-poetry.org) 进行包管理
+
+## 开始使用
+
+```python
+from aworda.rainfer.app import Rainfer
+from aworda.rainfer.message.chainx import MessageChainX
+from aworda.rainfer.message.element import Plain
+from aworda.rainfer.model import Friend, MiraiSession
+
+app = Rainfer(MiraiSession(host="http://localhost:8080", verify_key="ServiceVerifyKey", account=123456789))
+
+
+@app.broadcast.receiver("FriendMessage")
+async def friend_message_listener(app: Rainfer, friend: Friend):
+    await app.sendMessage(friend, MessageChain.Plain("Hello, World!"))
+
+
+app.launch_blocking()
+```
+
+Thanks for your reading ~
