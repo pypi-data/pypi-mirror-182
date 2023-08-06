@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cheekyutils/__init__.py
+src/cheekyutils.egg-info/PKG-INFO
+src/cheekyutils.egg-info/SOURCES.txt
+src/cheekyutils.egg-info/dependency_links.txt
+src/cheekyutils.egg-info/top_level.txt
