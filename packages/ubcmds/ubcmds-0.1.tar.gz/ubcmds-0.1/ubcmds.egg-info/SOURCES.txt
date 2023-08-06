@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+test/test-pkg.py
+ubcmds.egg-info/PKG-INFO
+ubcmds.egg-info/SOURCES.txt
+ubcmds.egg-info/dependency_links.txt
+ubcmds.egg-info/top_level.txt
