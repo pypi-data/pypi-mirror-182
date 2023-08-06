@@ -1,0 +1,13 @@
+bintang/__init__.py,sha256=UIuTaljC0GQNjj4BVS-PnG1uX2B54DR-LKlh14xIHR8,25
+bintang/besqlite.py,sha256=4vfwMAheTgqudMuCH3wlwwWyGJY5aVDd_tmTCiStcJg,6439
+bintang/cell.py,sha256=isA9ybS_CE5dgeVHg8W8VcfCHYcJk__PBEUbqjU5GNA,1244
+bintang/column.py,sha256=8DTHSd_2Gcy6EJ1zN3X8ueWOzfFkBZ4p51NCdGVGnno,556
+bintang/core.py,sha256=8wJ5tF4gI_FYWdP3cr8kQwlQYwkh18TVTjQ6jdbsdkQ,20497
+bintang/row.py,sha256=I63-FY9p-lxmaeOOutKQbF9-jOPC3fTW-6frTqmzBOc,1385
+bintang/table.py,sha256=L_-wqRCs5jUWEv6f1-sZUy8Ws6AqjBY4jJ_rJAu-6uE,30342
+bintang/travdict.py,sha256=O8INBfOmwFhLqv8XF309s60GD0C-JxSgdMVK6huYPKI,4683
+bintang-0.1.3.dist-info/LICENSE,sha256=nDP3WePgnPckoI4QkIfBpSx_ZNsectSpMKuVHjBb_68,1092
+bintang-0.1.3.dist-info/METADATA,sha256=0AyYJHa-3QvZQYDX9o7awnJTdZ3pNLIe6b8NEgnaP_8,249
+bintang-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bintang-0.1.3.dist-info/top_level.txt,sha256=I6MnAK-RhSd0NBsMpB51A4oOOs3-EjdS3IldTjtaR3I,8
+bintang-0.1.3.dist-info/RECORD,,
