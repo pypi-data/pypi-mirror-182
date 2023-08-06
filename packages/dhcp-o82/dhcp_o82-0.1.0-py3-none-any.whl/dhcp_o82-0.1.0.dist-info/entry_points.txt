@@ -1,0 +1,3 @@
+[console_scripts]
+dhcp-o82=dhcp_o82.cli:cli
+
