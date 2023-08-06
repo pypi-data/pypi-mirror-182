@@ -1,0 +1,206 @@
+Metadata-Version: 2.1
+Name: export-ast
+Version: 1.0.1
+Summary: Export a Python AST to a dictionary.
+Home-page: https://github.com/tom-draper/ast-export
+Author: Tom Draper
+Author-email: Tom Draper <tomjdraper1@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Tom Draper
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: repository, https://github.com/tom-draper/export-ast
+Keywords: ast,abstract syntax trees,dict,export,json
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: dev
+License-File: LICENSE
+
+# Export AST
+
+Export a Python abstract syntax tree to a dictionary/json.
+
+## Usage
+
+```bash
+pip install export-ast
+```
+
+```py
+import ast
+from export_ast import ast_to_dict
+
+code = "print('Hello World!')"
+tree = ast.parse(code)
+
+d = ast_to_dict(tree)
+
+# Or as AST string (indent must be >0)...
+tree_str = ast.dump(tree, indent=2)
+d = ast_to_dict(tree_str)
+```
+
+## Example
+
+### Python
+
+```py
+def hello_world():
+    print('Hello World!')
+
+if __name__ == '__main__':
+    hello_world()
+```
+
+### Abstract Syntax Tree
+
+```py
+Module(
+  body=[
+    FunctionDef(
+      name='hello_world',
+      args=arguments(
+        posonlyargs=[],
+        args=[],
+        kwonlyargs=[],
+        kw_defaults=[],
+        defaults=[]),
+      body=[
+        Expr(
+          value=Call(
+            func=Name(id='print', ctx=Load()),
+            args=[
+              Constant(value='Hello World!')],
+            keywords=[]))],
+      decorator_list=[]),
+    If(
+      test=Compare(
+        left=Name(id='__name__', ctx=Load()),
+        ops=[
+          Eq()],
+        comparators=[
+          Constant(value='__main__')]),
+      body=[
+        Expr(
+          value=Call(
+            func=Name(id='hello_world', ctx=Load()),
+            args=[],
+            keywords=[]))],
+      orelse=[])],
+  type_ignores=[])
+```
+
+### Dictionary
+
+```json
+{
+  "Module": {
+    "body": [
+      {
+        "FunctionDef": {
+          "name": "hello_world",
+          "args": {
+            "arguments": {
+              "posonlyargs": [],
+              "args": [],
+              "kwonlyargs": [],
+              "kw_defaults": [],
+              "defaults": []
+            }
+          },
+          "body": [
+            {
+              "Expr": {
+                "value": {
+                  "Call": {
+                    "func": {
+                      "Name": {
+                        "id": "print",
+                        "ctx": "Load()"
+                      }
+                    },
+                    "args": [
+                      {
+                        "Constant": {
+                          "value": "Hello World!"
+                        }
+                      }
+                    ],
+                    "keywords": []
+                  }
+                }
+              }
+            }
+          ],
+          "decorator_list": []
+        }
+      },
+      {
+        "If": {
+          "test": {
+            "Compare": {
+              "left": {
+                "Name": {
+                  "id": "__name__",
+                  "ctx": "Load()"
+                }
+              },
+              "ops": [
+                "Eq()"
+              ],
+              "comparators": [
+                {
+                  "Constant": {
+                    "value": "__main__"
+                  }
+                }
+              ]
+            }
+          },
+          "body": [
+            {
+              "Expr": {
+                "value": {
+                  "Call": {
+                    "func": {
+                      "Name": {
+                        "id": "hello_world",
+                        "ctx": "Load()"
+                      }
+                    },
+                    "args": [],
+                    "keywords": []
+                  }
+                }
+              }
+            }
+          ],
+          "orelse": []
+        }
+      }
+    ],
+    "type_ignores": []
+  }
+}
+```
