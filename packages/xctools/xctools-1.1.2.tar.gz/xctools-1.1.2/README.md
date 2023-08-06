@@ -1,0 +1,1 @@
+output color text to terminal
